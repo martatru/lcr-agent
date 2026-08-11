@@ -1,0 +1,21 @@
+PROTEIN-binding,,,,,,,,,,,,,,
+UniprotID,Gene name,Name,Start of LCR,End of LCR,Protein length,LCR type,Organism,Source,Source ID,Start of annotation,End of annotation,Annotation,Category,Gene Ontology of category
+Q16630,CPSF6,Cleavage and polyadenylation specificity factor subunit 6,272,364,551,,Homo sapiens (Human),Prion-like low complexity regions enable avid virus-host interactions during HIV-1 infection,https://doi.org/10.1038/s41467-022-33662-6,261,358,LCR-mediated multivalent self-association enabling enhanced HIV-I capsid binding affinity,protein binding,GO:0005515
+P49790,NUP153,Nuclear pore complex protein Nup153,1277,1409,1475,,Homo sapiens (Human),Prion-like low complexity regions enable avid virus-host interactions during HIV-1 infection,https://doi.org/10.1038/s41467-022-33662-6,1306,1450,LCR-mediated multivalent self-association enabling enhanced HIV-I capsid binding affinity,protein binding,GO:0005515
+P53992,SEC24C,Protein transport protein Sec24C,272,323,1094,,Homo sapiens (Human),Prion-like low complexity regions enable avid virus-host interactions during HIV-1 infection,https://doi.org/10.1038/s41467-022-33662-6,196,314,LCR-mediated multivalent self-association enabling enhanced HIV-I capsid binding affinity,protein binding,GO:0005515
+P42858,HTT,Huntingtin,17,75,3142,,Homo sapiens (Human),Polyglutamine domain flexibility mediates the proximity between flanking sequences in huntingtin,10.1073/pnas.1301342110,1,71,Modulates protein interactions (associated with Huntington disease),protein binding,GO:0005515
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+DNA-binding,,,,,,,,,,,,,,
+UniprotID,Gene name,Name,Start of LCR,End of LCR,Protein length,LCR type,Organism,Source,Source ID,Start of annotation,End of annotation,Annotation,Category,Gene Ontology of category
+Q9H1B7,IRF2BPL,Probable E3 ubiquitin-protein ligase IRF2BPL,69,163,796,,Homo sapiens (Human),NEDAMSS syndrome-related truncating and missense mutations are associated with aberrant liquid-liquid phase separation of IRF2BPL,https://doi.org/10.1038/s41467-026-69781-7,76,173,Liquid-liquid phase separation,ubiquitin protein ligase activity,GO:0061630
+,,,,,,,,,,,,,,
+RNA-binding,,,,,,,,,,,,,,
+UniprotID,Gene name,Name,Start of LCR,End of LCR,Protein length,LCR type,Organism,Source,Source ID,Start of annotation,End of annotation,Annotation,Category,Gene Ontology of category
+P23246,SFPQ,"Splicing factor, proline- and glutamine-rich",1,249,707,,Homo sapiens (Human),Different Low-complexity Regions of SFPQ Play Distinct Roles in the Formation of Biomolecular Condensates,https://doi.org/10.1016/j.jmb.2023.168364,1,275,"Attenuates condensation of the full-length protein, regulatory role",protein binding,GO:0005515
+P23246,SFPQ,"Splicing factor, proline- and glutamine-rich",602,699,707,,Homo sapiens (Human),Different Low-complexity Regions of SFPQ Play Distinct Roles in the Formation of Biomolecular Condensates,https://doi.org/10.1016/j.jmb.2023.168364,599,707,Main driver of full-length protein condensation,protein homodimerization activity,GO:0042803
+P31943,HNRNPH1,Heterogeneous nuclear ribonucleoprotein H,235,253,449,,Homo sapiens (Human),Distinct roles of hnRNPH1 low-complexity domains in splicing and transcription ,https://doi.org/10.1073/pnas.2109668118,192,280,Phase-separate into reversible polymers or liquid-like droplets,RNA binding,GO:0003723
+P31943,HNRNPH1,Heterogeneous nuclear ribonucleoprotein H,382,432,449,,Homo sapiens (Human),Distinct roles of hnRNPH1 low-complexity domains in splicing and transcription ,https://doi.org/10.1073/pnas.2109668118,368,449,Robust transcriptional activation,regulation of RNA splicing,GO:0043484
+Q01844,EWSR1,RNA-binding protein EWS,5,265,656,,Homo sapiens (Human),"O‑Linked‑N‑Acetylglucosaminylation of the RNA-Binding Protein EWS N‑Terminal Low Complexity Region Reduces Phase Separation and Enhances Condensate Dynamics
+",10.1021/jacs.1c04194,1,263,Regulates phase-separation,RNA binding,GO:0003723

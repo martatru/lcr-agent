@@ -17,19 +17,16 @@ def fix_hyphenation(text: str) -> str:
 
 def clean_whitespace_and_unicode(text: str) -> str:
     """
-    Normalizes unicode characters (ligatures like \ufb01 -> fi),
+    Normalizes unicode characters, removes non-printable control characters,
     replaces non-breaking spaces, and cleans excessive whitespace.
     """
-    # Normalize unicode ligatures and special chars
     text = unicodedata.normalize("NFKC", text)
-    # Replace non-breaking spaces and other special space chars with standard space
+    # Usuwanie ukrytych znaków sterujących (ASCII 0x00-0x1F z wyjątkiem \n)
+    text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', '', text)
     text = re.sub(r'[\r\t\f\v]', ' ', text)
-    # Merge multiple spaces on the same line into single space
     text = re.sub(r'[ ]+', ' ', text)
-    # Merge more than two consecutive newlines into double newline
     text = re.sub(r'\n{3,}', '\n\n', text)
     return text.strip()
-
 
 def remove_references_section(raw_text: str) -> str:
     """

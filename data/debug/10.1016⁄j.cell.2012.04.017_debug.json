@@ -1,57 +1,40 @@
 [
   {
     "chunk_index": 0,
-    "chunk_length": 10000,
-    "raw_extracted_count": 0,
-    "raw_annotations": []
-  },
-  {
-    "chunk_index": 1,
-    "chunk_length": 10000,
+    "chunk_length": 21793,
     "raw_extracted_count": 1,
+    "valid_count": 1,
     "raw_annotations": [
       {
         "start_of_annotation": 2,
         "end_of_annotation": 214,
-        "proposed_function": "yielded clear, red and green colored hydrogels",
-        "evidence": "When produced as chimeric proteins with GST, mCherry or GFP, the FUS LC domain (residues 2–214, /C2450 mg/ml) yielded clear, red and green colored hydrogels respectively ( Figure 3A)."
+        "proposed_function": "Phase transition into a hydrogel-like state and formation of amyloid-like fibers",
+        "evidence": "When produced as chimeric proteins with GST, mCherry or GFP, the FUS LC domain (residues 2–214, 50 mg/ml) yielded clear, red and green colored hydrogels respectively (Figure 3A)."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "start_of_annotation": 2,
+        "end_of_annotation": 214,
+        "proposed_function": "Phase transition into a hydrogel-like state and formation of amyloid-like fibers",
+        "evidence": "When produced as chimeric proteins with GST, mCherry or GFP, the FUS LC domain (residues 2–214, 50 mg/ml) yielded clear, red and green colored hydrogels respectively (Figure 3A)."
       }
     ]
   },
   {
+    "chunk_index": 1,
+    "chunk_length": 20480,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
     "chunk_index": 2,
-    "chunk_length": 10000,
+    "chunk_length": 21987,
     "raw_extracted_count": 0,
-    "raw_annotations": []
-  },
-  {
-    "chunk_index": 3,
-    "chunk_length": 10000,
-    "raw_extracted_count": 0,
-    "raw_annotations": []
-  },
-  {
-    "chunk_index": 4,
-    "chunk_length": 10000,
-    "raw_extracted_count": 0,
-    "raw_annotations": []
-  },
-  {
-    "chunk_index": 5,
-    "chunk_length": 10000,
-    "raw_extracted_count": 0,
-    "raw_annotations": []
-  },
-  {
-    "chunk_index": 6,
-    "chunk_length": 10000,
-    "raw_extracted_count": 0,
-    "raw_annotations": []
-  },
-  {
-    "chunk_index": 7,
-    "chunk_length": 4233,
-    "raw_extracted_count": 0,
-    "raw_annotations": []
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
   }
 ]

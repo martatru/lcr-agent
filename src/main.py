@@ -3,49 +3,41 @@ import json
 import logging
 import asyncio
 from pathlib import Path
-from pypdf import PdfReader
+from dotenv import load_dotenv
+
 from llm_client import LightLLMClient
+from pdf_parser import parse_pdf
+from text_processor import prepare_full_text, chunk_text
+from validator import validate_lcr_annotations
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 PROMPT_LCR = """You are a specialized biocuration AI. Your task is to extract all experimentally verified Low Complexity Regions (LCRs) present in the provided text.
 
-Guidelines:
-1. Extract every qualifying LCR found in the text. The number of returned items should match the actual findings (it can be one, multiple, or none).
-2. Do not invent or force entries; extract only what is explicitly supported by the text.
-3. Include the start and end residue positions, proposed function, and exact verbatim evidence.
-4. If no LCRs are found, return an empty JSON array: [].
+Rules:
+1. Extract numerical residue coordinates (start_of_annotation, end_of_annotation).
+2. 'evidence' MUST be an exact verbatim sentence from the text as proof.
+3. If positions are given as 'residues 145-180', start_of_annotation=145, end_of_annotation=180.
+4. If no experimentally verified LCRs are found, return an empty array.
 """
-
-def extract_text_from_pdf(pdf_path: str) -> str:
-    reader = PdfReader(pdf_path)
-    text = ""
-    for page in reader.pages:
-        extracted = page.extract_text()
-        if extracted:
-            text += extracted + "\n"
-    return text
-
-def chunk_text(text: str, chunk_size: int = 10000, overlap: int = 1000) -> list[str]:
-    """Splits text into smaller chunks (10k chars) to prevent the model from missing data."""
-    chunks = []
-    start = 0
-    while start < len(text):
-        end = start + chunk_size
-        chunks.append(text[start:end])
-        start += chunk_size - overlap
-    return chunks
 
 async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
     logger.info("Processing file: %s", pdf_path)
-    raw_text = extract_text_from_pdf(pdf_path)
     
+    # 1. Wyciągnięcie tekstu z PDF (PyMuPDF z pdf_parser.py)
+    raw_text = parse_pdf(pdf_path)
     if not raw_text.strip():
         logger.error("Failed to extract text from PDF: %s", pdf_path)
         return []
 
-    chunks = chunk_text(raw_text, chunk_size=10000, overlap=1000)
+    # 2. Czyszczenie tekstu (usunięcie bibliografii, sklejanie przeniesień)
+    clean_text = prepare_full_text(raw_text)
+
+    # 3. Dzielenie na mniejsze chunki (22k znaków ~= 5.5k tokenów, żeby zmieścić się w limicie 8k TPM)
+    chunks = chunk_text(clean_text, chunk_size=22000, overlap=3000)
     all_annotations = []
     debug_logs = []
 
@@ -53,16 +45,26 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
         logger.info("Processing chunk %d/%d...", idx + 1, len(chunks))
         annotations = await client.generate_lcr_annotations(PROMPT_LCR, chunk)
         
+        # Walidacja (czy wyciągnięty cytat istnieje fizycznie w tym chunku)
+        valid_annotations = validate_lcr_annotations(annotations, chunk)
+
         debug_logs.append({
             "chunk_index": idx,
             "chunk_length": len(chunk),
             "raw_extracted_count": len(annotations),
-            "raw_annotations": annotations
+            "valid_count": len(valid_annotations),
+            "raw_annotations": annotations,
+            "valid_annotations": valid_annotations
         })
 
-        if annotations:
-            all_annotations.extend(annotations)
+        if valid_annotations:
+            all_annotations.extend(valid_annotations)
 
+        # Odczekaj 6 sekund przed kolejnym zapytaniem, by nie przekroczyć darmowego limitu tokenów/minutę
+        if idx < len(chunks) - 1:
+            await asyncio.sleep(6)
+
+    # Zapis szczegółowych logów do data/debug/
     debug_dir = Path("data/debug")
     debug_dir.mkdir(parents=True, exist_ok=True)
     debug_file = debug_dir / f"{Path(pdf_path).stem}_debug.json"
@@ -97,7 +99,7 @@ async def main():
         for entry in results:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
-    logger.info("Success! Saved %d annotations in %s", len(results), output_file)
+    logger.info("Success! Saved %d results in %s", len(results), output_file)
 
 if __name__ == "__main__":
     asyncio.run(main())

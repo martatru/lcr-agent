@@ -1,104 +1,45 @@
 import os
-import json
 import logging
 import asyncio
-import random
-import re
+import instructor
+from groq import AsyncGroq
 from pydantic import BaseModel, Field
-from google import genai
-from google.genai import types
 
 logger = logging.getLogger(__name__)
 
 class LCRAttribute(BaseModel):
-    start_of_annotation: int = Field(description="Explicit numerical start residue position")
-    end_of_annotation: int = Field(description="Explicit numerical end residue position")
+    start_of_annotation: int = Field(description="Explicit numerical start residue position, e.g. 120")
+    end_of_annotation: int = Field(description="Explicit numerical end residue position, e.g. 150")
     proposed_function: str = Field(description="Explicitly stated biological or molecular function")
     evidence: str = Field(description="Exact verbatim sentence from the text as proof")
 
+class LCRResponse(BaseModel):
+    annotations: list[LCRAttribute] = Field(default_factory=list, description="List of extracted LCRs")
 
 class LightLLMClient:
     def __init__(self, max_concurrent: int = 1):
-        api_key = os.environ.get("GEMINI_API_KEY")
+        api_key = os.environ.get("GROQ_API_KEY")
         if not api_key:
-            logger.warning("GEMINI_API_KEY environment variable missing. Remember to run export GEMINI_API_KEY=...")
+            logger.warning("GROQ_API_KEY environment variable missing!")
         
-        self.client = genai.Client(api_key=api_key)
         self.semaphore = asyncio.Semaphore(max_concurrent)
-
-        self.safety_settings = [
-            types.SafetySetting(
-                category=types.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-                threshold=types.HarmBlockThreshold.BLOCK_NONE,
-            ),
-            types.SafetySetting(
-                category=types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-                threshold=types.HarmBlockThreshold.BLOCK_NONE,
-            ),
-            types.SafetySetting(
-                category=types.HarmCategory.HARM_CATEGORY_HARASSMENT,
-                threshold=types.HarmBlockThreshold.BLOCK_NONE,
-            ),
-            types.SafetySetting(
-                category=types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-                threshold=types.HarmBlockThreshold.BLOCK_NONE,
-            ),
-        ]
+        # Instructor wymusza poprawny schemat Pydantic z LLM
+        self.client = instructor.from_groq(AsyncGroq(api_key=api_key), mode=instructor.Mode.JSON)
 
     async def generate_lcr_annotations(self, prompt: str, text: str) -> list[dict]:
         async with self.semaphore:
-            max_retries = 5
-            formatted_contents = f"DOCUMENT TEXT:\n{text}\n\nINSTRUCTIONS AND TASK:\n{prompt}"
-
-            config = types.GenerateContentConfig(
-                temperature=0.1,
-                response_mime_type="application/json",
-                response_schema=list[LCRAttribute],
-                safety_settings=self.safety_settings,
-            )
-
-            for attempt in range(max_retries):
-                try:
-                    response = await self.client.aio.models.generate_content(
-                        model='gemini-3.5-flash-lite',
-                        contents=formatted_contents,
-                        config=config,
-                    )
-                    
-                    raw_output = response.text
-                    if not raw_output:
-                        logger.warning("Empty response from API. Retrying (%d/%d)", attempt + 1, max_retries)
-                        await asyncio.sleep(5)
-                        continue
-
-                    return self._parse_json_safely(raw_output)
-
-                except Exception as error:
-                    error_str = str(error)
-                    wait_time = 12 + random.uniform(2.0, 5.0)
-                    logger.warning(
-                        "API error (%s...). Waiting %.1fs... (Attempt %d/%d)",
-                        error_str[:50], wait_time, attempt + 1, max_retries
-                    )
-                    await asyncio.sleep(wait_time)
-            
-            logger.error("Too many blocks or errors. Skipping this chunk.")
-            return []
-
-    def _parse_json_safely(self, raw_string: str) -> list[dict]:
-        if not raw_string:
-            return []
-
-        match = re.search(r"(\[.*\]|\{.*\})", raw_string, re.DOTALL)
-        if not match:
-            logger.error("No valid JSON block found in the response.")
-            return []
-
-        clean_string = match.group(1)
-
-        try:
-            data = json.loads(clean_string)
-            return [data] if isinstance(data, dict) else data
-        except json.JSONDecodeError as error:
-            logger.error("JSON decoding error: %s", error)
-            return []
+            try:
+                response: LCRResponse = await self.client.chat.completions.create(
+                    model="qwen/qwen3.8-27b",
+                    response_model=LCRResponse,
+                    messages=[
+                        {"role": "system", "content": prompt},
+                        {"role": "user", "content": f"DOCUMENT TEXT:\n{text}"}
+                    ],
+                    temperature=0.0,
+                    max_retries=3
+                )
+                return [ann.model_dump() for ann in response.annotations]
+            except Exception as error:
+                logger.error(f"Groq API Error: {error}")
+                return []

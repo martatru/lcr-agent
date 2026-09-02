@@ -1,23 +1,30 @@
 # LCR-Agent
 
-An automated pipeline for extracting experimentally verified Low Complexity Regions (LCRs) from scientific PDF papers using the Google Gemini API and Pydantic structured validation.
+An automated pipeline for extracting and biocurating experimentally verified Low Complexity Regions (LCRs/LCDs/IDRs/PLDs) and their binding interactions from scientific literature. It combines zero-token candidate screening via SearXNG with structured extraction using the Groq API (`qwen/qwen3.8-27b`) and `instructor`.
+
+## Key Features
+
+- **Zero-Token Literature Screening**: Queries PubMed through SearXNG using RegEx and pattern matching (LCR terms, binding verbs, residue coordinates) to filter candidates before running LLM inference.
+- **Structured Biocuration**: Enforces strict JSON Schema validation via Pydantic and Instructor for protein names, organisms, sequence ranges, verbatim evidence, and curator notes.
+- **Robust Text Processing**: Handles hyphenation repair, reference section removal, rate-limit chunking, and verbatim sentence verification against source text.
+- **HTML Dashboard**: Generates an interactive HTML report segregating verified LCRs from qualitative mentions, featuring direct UniProt and DOI links.
 
 ## Project Structure
 
 ```text
 lcr-agent/
 ├── data/
-│   ├── annotated_lcr/     # Reference dataset files (.csv)
-│   ├── debug/             # Diagnostic logs and extraction data per PDF
-│   ├── processed/         # Final structured outputs (final_results.jsonl)
-│   └── raw_pdfs/          # Input directory for target PDF papers
-├── src/
-│   ├── __pycache__/
-│   ├── llm_client.py      # Gemini API communication and schema handling
-│   ├── main.py            # Main asynchronous execution workflow
-│   ├── pdf_parser.py      # PDF text extraction utilities
-│   ├── text_processor.py  # Text cleaning, normalization, and chunking
-│   └── validator.py       # Verification of extracted evidence against source text
-├── venv/                  # Python virtual environment
+│   ├── debug/                 # Diagnostic logs and chunk data
+│   ├── processed/             # Final outputs (JSONL, JSON, CSV, HTML)
+│   └── raw_pdfs/              # Input directory for target PDF papers
+├── generate_report.py         # HTML report generator with UniProt & DOI links
+├── llm_client.py              # Groq API client with Instructor & Pydantic schema
+├── main.py                    # Core pipeline for PDF processing
+├── pdf_parser.py              # Text extraction using PyMuPDF
+├── process_results.py         # Post-processor creating clean JSON/CSV splits
+├── searxng_finder.py          # 0-token literature search & RegEx pre-filtering
+├── text_processor.py          # Text cleaning, normalization, and chunking
+├── validator.py               # Verbatim evidence validation against source text
+├── .env                       # API keys
 ├── README.md
 └── requirements.txt

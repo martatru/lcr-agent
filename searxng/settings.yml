@@ -1,0 +1,8 @@
+use_default_settings: true
+server:
+  secret_key: "lcr_agent_secret_key"
+  limiter: false
+search:
+  formats:
+    - html
+    - json

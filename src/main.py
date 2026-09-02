@@ -9,6 +9,7 @@ from llm_client import LightLLMClient
 from pdf_parser import parse_pdf
 from text_processor import prepare_full_text, chunk_text
 from validator import validate_lcr_annotations
+from generate_report import generate_html_report
 
 load_dotenv()
 
@@ -35,7 +36,7 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
 
     clean_text = prepare_full_text(raw_text)
 
-    # Zapis surowego tekstu z PDF do folderu debug
+    # Save raw extracted text to debug folder
     debug_dir = Path("data/debug")
     debug_dir.mkdir(parents=True, exist_ok=True)
     pdf_stem = Path(pdf_path).stem
@@ -45,7 +46,7 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
         f.write(clean_text)
     logger.info("Saved extracted text (%d chars) to: %s", len(clean_text), text_debug_file)
 
-    # Dzielenie na porcje 22k znaków (dopasowane do limitu Groq 8k TPM)
+    # Split into ~22k character chunks (optimized for API TPM limits)
     chunks = chunk_text(clean_text, chunk_size=22000, overlap=3000)
     all_annotations = []
     debug_logs = []
@@ -68,11 +69,11 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
         if valid_annotations:
             all_annotations.extend(valid_annotations)
 
-        # Pauza 12 sekund, by resetować limit tokenów na minutę
+        # 12-second pause to reset rate limit
         if idx < len(chunks) - 1:
             await asyncio.sleep(12)
 
-    # Zapis logów diagnostycznych w formacie JSON
+    # Save diagnostic logs as JSON
     json_debug_file = debug_dir / f"{pdf_stem}_debug.json"
     with open(json_debug_file, "w", encoding="utf-8") as f:
         json.dump(debug_logs, f, indent=2, ensure_ascii=False)
@@ -83,7 +84,9 @@ async def main():
     input_dir = Path("data/raw_pdfs")
     output_dir = Path("data/processed")
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / "final_results.jsonl"
+    
+    jsonl_output_file = output_dir / "final_results.jsonl"
+    html_report_file = output_dir / "lcr_biocuration_report.html"
 
     pdf_files = list(input_dir.glob("*.pdf"))
     if not pdf_files:
@@ -101,11 +104,21 @@ async def main():
                 "annotations": annotations
             })
 
-    with open(output_file, "w", encoding="utf-8") as f:
+    # 1. Save raw results in JSONL format
+    with open(jsonl_output_file, "w", encoding="utf-8") as f:
         for entry in results:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
-    logger.info("Success! Saved %d results in %s", len(results), output_file)
+    logger.info("Saved raw JSONL results to %s", jsonl_output_file)
+
+    # 2. Automatically generate the clean HTML report
+    logger.info("Generating HTML biocuration report...")
+    generate_html_report(
+        input_file=str(jsonl_output_file),
+        output_html=str(html_report_file)
+    )
+    
+    logger.info("Pipeline finished successfully! View your report at: %s", html_report_file)
 
 if __name__ == "__main__":
     asyncio.run(main())

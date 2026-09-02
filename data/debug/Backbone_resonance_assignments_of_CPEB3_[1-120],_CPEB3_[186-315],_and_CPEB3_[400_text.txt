@@ -1,0 +1,153 @@
+Backbone resonance assignments of CPEB3 [1–
+120], CPEB3 [186–315], and CPEB3 [400–459]
+Yujin Lee 
+Kyoto University
+Harunobu Saito 
+Kyoto University
+Masatomo So 
+Kyoto University
+Ayako Furukawa 
+Kyoto University
+Kenji Sugase 
+Kyoto University
+Research Article
+Keywords: CPEB3, Long-term memory, IDR, Protein aggregation
+Posted Date: April 21st, 2026
+DOI: https://doi.org/10.21203/rs.3.rs-9240109/v1
+License:   This work is licensed under a Creative Commons Attribution 4.0 International License. 
+Read Full License
+Additional Declarations: No competing interests reported.
+Version of Record: A version of this preprint was published at Biomolecular NMR Assignments on May
+29th, 2026. See the published version at https://doi.org/10.1007/s12104-026-10269-2.
+Page 1/9
+
+Abstract
+Cytoplasmic polyadenylation element-binding protein 3 (CPEB3) is an RNA-binding protein that is
+essential for long-term memory formation. Its N-terminal intrinsically disordered region (residues 1–459)
+exhibits high aggregation propensity and regulates the translation of specific mRNAs, including those
+encoding AMPA receptor subunits, through processes such as liquid–liquid phase separation and the
+formation of fibrillar structures. However, the molecular basis of these regulatory mechanisms remains
+poorly understood. In this study, we present the backbone resonance assignments of three segments
+within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In
+agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments
+were disordered, whereas the 186–315 segment formed a partial α-helix.
+Biological context
+Cytoplasmic polyadenylation element-binding protein 3 (CPEB3) is an RNA-binding protein that plays a
+central role in long-term memory maintenance through regulation of local translation at synapses (Fioriti
+et al. 2015). CPEB3 belongs to the CPEB family of translational regulators that control poly(A) tail length
+and translation efficiency of target mRNAs in response to cellular signals (Huang et al. 2006). In neurons,
+CPEB3 has been implicated in the activity-dependent regulation of localized protein synthesis that is
+required for synaptic plasticity (Pavlopoulos et al. 2011). Under basal neuronal conditions, CPEB3
+functions predominantly as a translational repressor, whereas neuronal stimulation converts it into a
+translational activator (Stephan et al. 2015). This functional transition is accompanied by changes in the
+self-association state of the protein, linking translational regulation to protein assembly (Drisaldi et al.
+2015).
+CPEB3 consists of 716 amino acids and contains a long N-terminal intrinsically disordered region (IDR;
+residues 1–459), followed by a structured C-terminal RNA-binding domain comprising two RNA
+recognition motifs and a zinc-finger domain (Huang et al. 2006). The IDR lacks stable tertiary structure
+and is enriched in low-complexity sequence, features that are recognized as key determinants of phase
+separation and aggregation in many RNA-binding proteins (Banani et al. 2017). Within the IDR, two prionlike regions spanning residues 1–169 and 284–449 are critical for self-assembly and aggregation,
+indicating that multiple segments of the IDR contribute to its assembly properties (Stephan et al. 2015).
+Recent studies have demonstrated that the CPEB3 IDR can populate multiple assembly states, including
+liquid-like condensates and more rigid aggregates, depending on cellular context and regulatory inputs
+(Ramírez de Mingo et al. 2023). Transitions between these assembly states correlate with changes in
+translational activity, suggesting that structural reorganization of the IDR underlies functional switching
+between translational repression and activation (Drisaldi et al. 2015). Elucidating the structural basis of
+these transitions is therefore essential for understanding how CPEB3 couples protein assembly to
+translational control. However, the intrinsic disorder, conformational heterogeneity, and aggregation
+propensity of the IDR preclude structural characterization by X-ray crystallography or cryo-electron
+Page 2/9
+
+microscopy. In this context, solution NMR spectroscopy provides a powerful approach for residuespecific characterization of such dynamic systems (Jensen et al. 2013). We previously reported
+backbone resonance assignments for two segments of the CPEB3 IDR, residues 101–200 and 294–410
+(Saito et al. 2025). In this study, we extend these assignments to the remaining three segments, residues
+1–120, 186–315, and 400–459, thereby completing the assignments for the full-length N-terminal IDR
+(residues 1–459).
+Methods and experiments
+Protein expression and purification
+The DNA fragments encoding mouse CPEB3 [1–120], CPEB3 [186–315], and CPEB3 [400–459] were
+subcloned into a pET-15b vector using In-Fusion cloning. These constructs were designed to overlap with
+the previously analyzed segments (residues 101–200 and 294–410) by approximately 10 residues to
+minimize chemical shift perturbations arising from chain termini. The expression vectors encoded an Nterminal His12 tag followed by a Tobacco Etch Virus (TEV) protease cleavage site and the target
+proteins.
+Escherichia coli strain BL21(DE3) cells were transformed with the constructed expression vectors and
+cultured at 37°C in M9 minimal medium containing 4 g/L D-glucose (Wako), 1 g/L NH4Cl (Nacalai
+Tesque), and 50 mg/L ampicillin (Wako). When the OD600 reached approximately 0.8, the cells were
+centrifuged and resuspended in M9 minimal medium containing 2 g/L [U-13C]-D-glucose (Cambridge
+Isotope Laboratories), 1 g/L 15NH4Cl (Cambridge Isotope Laboratories), and 50 mg/L ampicillin (Wako).
+Protein expression was induced by the addition of IPTG (Nacalai Tesque) to a final concentration of 1
+mM, followed by incubation at 20°C overnight. The harvested cells were resuspended in lysis buffer (50
+mM Tris-HCl pH 8.0 at 25°C, 50 mM NaCl, 5 mM β-mercaptoethanol, 0.1 mM PMSF, and 0. % Triton X-
+100) and sonicated using Q-Sonica 500 (2 s ON/5 s OFF, amplitude 30, for a total of 6 minutes on ice).
+The cell lysate was centrifuged at 22,140 × g for 20 minutes.
+For CPEB3 [1–120], the supernatant was loaded onto a HisTrap HP column (Cytiva) after filtration
+through a 0.45 μm filter. The column was washed with 5 column volumes of equilibration buffer (50 mM
+Tris-HCl pH 8.0 at 25°C, 50 mM NaCl) and eluted with a 5–300 mM imidazole gradient. For CPEB3 [186–
+315] and CPEB3 [400–459], which were expressed as inclusion bodies, the cell pellets were washed with
+wash buffer (50 mM Tris-HCl pH 8.0 at 25°C, 50 mM NaCl, 2 M urea, and 0. % Triton X-100). To solubilize
+the inclusion bodies, the washed pellets were resuspended in denaturing buffer (50 mM Tris-HCl pH 8.0
+at 25°C, 8 M urea, and 5 mM imidazole) and homogenized. The homogenate was centrifuged at 22,140 ×
+g for 20 minutes, and the supernatant was loaded onto a Ni-NTA agarose column (Wako) after filtration
+through a 0.45 μm filter. The column was washed with 5 column volumes of denaturing buffer and eluted
+with 300 mM imidazole. The purified proteins were diluted into 50 mM Tris-HCl (pH 8.0) containing 2 M
+urea.
+Page 3/9
+
+For His-tag cleavage, 2 mg of His6-TEV protease was added to the protein samples, and the mixtures
+were incubated for 4 hours at 30°C. The cleaved His-tag and protease were removed by C18 reversedphase chromatography, and the target proteins were lyophilized. Protein purity was verified by SDS-PAGE
+and/or MALDI-TOF MS, and the protein concentration was determined by measuring the absorbance at
+280 nm using a DS-11 spectrophotometer (DeNovix). The extinction coefficients (ε280) were 5,500 M–1
+cm–1 for CPEB3 [1–120], 19,480 M–1 cm–1 for CPEB3 [186–315], and 2,980 M–1 cm–1 for CPEB3 [400–
+459]. The final purified proteins contained an additional N-terminal Gly residue derived from the TEV
+cleavage site.
+NMR measurements and data analysis
+For CPEB3 [1–120], CPEB3 [186–315], and CPEB3 [400–459], the stock samples were buffer-exchanged
+into 50 mM MES (pH 5.5) containing % D2O (Sigma-Aldrich) using Zeba spin columns (Thermo Fisher).
+The final concentration of the NMR samples was adjusted to 0.5 mM. NMR spectra for CPEB3 [1–120]
+[186–315], and CPEB3 [400–459] were measured on a 600 MHz AVANCE III HD spectrometer (Bruker) at
+298 K. The spectrometer was equipped with a z-gradient TCI cryogenic probe (Bruker). For sequential
+assignment of the protein backbone, 1H-15N HSQC, HNCO, HN(CA)CO, CBCA(CO)NH, and HNCACB
+spectra were acquired for each construct (Ikura et al. 1990). 1H chemical shifts were referenced to that
+of 2,2-dimethyl-2-silapentane-5-sulfonate (DSS, Wako), and 15N and 13C chemical shifts were referenced
+indirectly (Markley et al. 1998). All NMR data were processed using NMRPipe (Delaglio et al. 1995), and
+resonance assignments were performed using FLYA (Schmidt and Güntert 2012) and CcpNmr Analysis
+(Skinner et al. 2016).
+Secondary structure propensity calculation
+The secondary structure propensities of CPEB3 [1–120], CPEB3 [186–315], and CPEB3 [400–459] were
+calculated using the SSP program (Marsh et al. 2006) via NMRbox (Maciejewski et al. 2017) based on
+the measured HN, N, C’, Cα, and Cβ chemical shifts. Additionally, secondary structures of all three CPEB3
+constructs were predicted using PSIPRED (Jones 1999) based solely on the amino acid sequences.
+Assignments and data deposition
+Figure 1 1H-15N HSQC spectra of a CPEB3 [1–120], b CPEB3 [186–315], and c CPEB3 [400–459]. All
+spectra were acquired in 50 mM MES (pH 5.5) containing 5% D2O. Each peak is labeled with its amino
+acid type (one-letter code) and residue number.
+We assigned 91.7% of the backbone HN, N, C', and Cα, and Cβ resonances for CPEB3 [1–120] (Fig. 1a)
+and 100% for both CPEB3 [186–315] and CPEB3 [400–459] (Fig. 1b, c), excluding the HN and N
+resonances of 24, 17, and 2 Pro residues, respectively, and the N-terminal Gly residue derived from the
+Page 4/9
+
+TEV cleavage site. The 1H-15N HSQC signals of all three CPEB3 constructs were clustered in a narrow 1H
+region, which is characteristic of IDR segments.
+Using the assigned chemical shifts, we calculated the secondary structure propensities (SSP) for CPEB3
+[1–120], CPEB3 [186–315], and CPEB3 [400–459]. The calculated SSP propensity for CPEB3 [400–459]
+indicated that this region is predominantly disordered. In contrast, CPEB3 [1–120] exhibited partial α-
+helix formation in the region Asp3–Met7. Similarly, CPEB3 [186–315] showed partial α-helix formation in
+the region Ala226–Ala239. The relatively low SSP scores and broad line widths observed in these
+regions suggest that these α-helices are transient. These experimental observations are partially
+consistent with the sequence-based secondary structure predictions using PSIPRED.
+Direct backbone assignment of the entire 459-residue N-terminal IDR of CPEB3 is highly challenging due
+to severe signal overlap. However, by integrating the present results with the previously assigned
+segments (residues 101–200 and 294–410), we have successfully completed the assignment of the fulllength IDR. This achievement establishes a solid foundation for investigating the self-aggregation
+mechanism of CPEB3 using NMR spectroscopy.
+Declarations
+Acknowledgements This work was performed in part using the NMR spectrometers with the ultra-high
+magnetic fields under the Collaborative Research Program of Institute for Protein Research, Osaka
+University, NMRCR-25-05. This work was supported by JSPS KAKENHI (grant Numbers 22H05088 and
+22KK0098), the Japan Keirin-Association grant (JKA; grant number 2023M-363), and the Kyoto University
+125th Anniversary Fund “Kusunoki 125”.
+ Author contributions Y.L. and H.S. conducted the experiments, and Y.L. wrote the manuscript. M.S. and
+A.F. contributed to project supervision, with K.S. serving as the lead supervisor.
+ Data availability The backbone and Cβ chemical shift assignments for CPEB3 [1–120], CPEB3 [186–
+315], and CPEB3 [400–459] have been deposited in the Biological Magnetic Resonance Data Bank
+(BMRB, https://bmrb.io) under the accession numbers 53536, 53537, and 53538.
+Competing Interests The authors declare no competing interests.

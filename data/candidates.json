@@ -1,0 +1,98 @@
+[
+  {
+    "title": "The",
+    "abstract": "The BRCA1-associated RING domain protein 1 (BARD1) is the obligate binding partner of the tumor suppressor breast cancer type 1 susceptibility protein (BRCA1) and plays a critical role in maintaining genome integrity. BARD1 contains structured N- and C-terminal domains that mediate heterodimerization with BRCA1, recognition of chromatin marks, and DNA repair functions. Approximately 40% of BARD1 is intrinsically disordered, particularly in the central region of the protein. This intrinsically disordered region (IDR) engages DNA and key repair proteins such as RAD51, BLM, and WRN. DNA binding through the BARD1 IDR facilitates H2A ubiquitination by the BRCA1-BARD1 complex and is essential for stimulating long-range DNA end resection during homologous recombination, underscoring its role in accurate DNA repair. Despite these insights, structural characterization of the IDR remains limited, leaving questions regarding its functional interplay with BRCA1 and other repair factors unresolved. Here, we report the backbone resonance assignments of a BARD1 IDR construct spanning residues 124-270, providing a foundation for future studies aimed at understanding how the disordered regions of BARD1 interact with various binding partners, and cooperates with itself and BRCA1 to regulate genome stability.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42678585",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  },
+  {
+    "title": "A Regulatory Element in the Intrinsically Disordered C-Terminal Region of LMTK3 Modulates Its Kinase Domain Interactions and Breast Cancer Phenotypes.",
+    "abstract": "Lemur tail kinase 3 (LMTK3) is an oncogenic Ser/Thr kinase implicated in breast cancer (BC) progression, therapy resistance, and poor clinical outcomes, yet the molecular mechanisms governing its regulation remain poorly understood, particularly the role of its C-terminal intrinsically disordered region (IDR). Given that IDRs frequently harbour hidden structural motifs that control protein dynamics, we combined computational, biophysical, and biochemical approaches to systematically map regulatory elements within the LMTK3 C-terminus, identifying two regions (residues 688-1095 and 1181-1486) that interact with the LMTK3 kinase domain (LMTK3-KD). Characterisation of these interactions revealed that LMTK3",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42645201",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  },
+  {
+    "title": "Inherent α-Helix Around Tyrosine 183 in the Intrinsically Disordered Tail of the Multi-Site Docking Platform Gab1.",
+    "abstract": "The biological function of intrinsically disordered proteins is frequently coupled to short linear motifs, which serve as protein binding sites. This goes often hand in hand with local transient structural element formation. The intrinsically disordered C-terminal region of the multi-site docking protein Grb2-associated binder 1 (Gab1) contains several well-characterized phosphotyrosine pairs, whereas the Tyr162 and Tyr183 epitopes have remained practically unstudied. Here, we combine computational prediction, circular dichroism and high-resolution NMR spectroscopy (chemical shift and relaxation analyses) to structurally characterize a Gab1 fragment containing residues 142-203. The here determined NMR structure shows an α-helix for residues Pro180 to Ile187, with Tyr183 positioned centrally, while all other parts of the fragment, including the region around Tyr162, are disordered. This helical conformation is maintained upon changes in pH, variation of peptide lengths and phosphorylation status. The inherent helix around Tyr183 distinguishes the local structural environment of Tyr162 and Tyr183 within the intrinsically disordered Gab1 tail and provides a structural framework for future studies on interaction partners and potential functional roles of this structural motif.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42549985",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  },
+  {
+    "title": "Citrullination in proteins of the polycomb repressor complex 1.",
+    "abstract": "The Polycomb repressive complexes can be considered a paradigm of chromatin-based gene regulation in animals. Two of the proteins involved in such complexes are the Ring finger protein 1 (RING1) and the intrinsically disordered protein RING1A and YY1 binding protein (RYBP), which binds to RING1 in some of the Polycomb complexes. Peptidyl arginine iminohydrolases (PADIs) are enzymes involved in the post-translational modification of arginine to citrulline. PADI4, one of the five isoforms of PADI in humans, citrullinates RING1B and RYBP at specific arginines at their C-terminal (Arg231) and N-terminal (Arg53) regions, respectively. In this work, we studied in vitro and in silico whether isolated peptides from each protein, encompassing those wild-type arginines and their citrulline-modified counterparts, were capable of binding to PADI4. The isolated peptides, either in wild-type or modified form, were monomeric and disordered as indicated by far-UV CD and NMR. The affinity constants of peptides for PADI4, as measured by fluorescence, biolayer interferometry (BLI) and isothermal titration calorimetry (ITC), were in the low micromolar range (dissociation constants around 10-20 μM), and the affinities were smaller for the citrullinated variants. Molecular docking simulations showed that the isolated peptides from each protein, either in wild-type form or modified variants, targeted the active site of PADI4, corresponding to the catalytic residue Cys645. These findings suggest that the isolated peptides were capable of binding to the enzyme with affinities similar to those of intact RING1B or RYBP, and that citrullination of the arginines diminished the affinity for the enzyme.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42546893",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  },
+  {
+    "title": "A Phosphorylation-Induced Micellization Switch in the Low-Complexity Domain of TDP-43.",
+    "abstract": "Phase separation (PS) of the low-complexity domain (LCD) of TAR DNA-binding protein 43 kDa (TDP-43) is linked to pathogenic aggregates in amyotrophic lateral sclerosis (ALS) and frontotemporal lobar degeneration (FTLD-TDP). Here, we show that extensive phosphorylation of the LCD C-terminus redirects its self-assembly. Coarse-grained Monte Carlo simulations predicted that 12 Ser phosphorylations partition the 148-residue LCD into a hydrophobic N-terminal and highly charged C-terminal block, favouring finite-sized micellization over macroscopic PS. In vitro, LCD phosphorylated by casein kinase 1 delta (CK1δ; mean of 12 phosphorylations by native mass spectrometry) and phosphomimetic 12D/12DD mutants formed spherical nanoparticles (≈ 20-50 nm) above a low-micromolar critical micelle concentration, whereas the unphosphorylated LCD underwent reversible PS that matured into fibrils. Increasing ionic strength shifted the mutants toward anisotropic morphologies (wormlike 12D micelles and rigid 12DD nanocylinders). Turbidity assays and confocal imaging directly visualized the absence of PS in the phosphorylated form. Negative-stain and cryo-electron microscopy (cryo-EM) confirmed the spherical micellar architecture for the phosphorylated LCD and 12D/12DD mimics. Our data identify phosphorylation as a molecular switch tuning macrophase separation and fibril formation of TDP-43 LCD, providing a framework for an aggregation-protective role through microphase separation into size-limited micelles. Whether these assemblies are stable or kinetically trapped on pathological timescales remains unclear.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42517609",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  },
+  {
+    "title": "YBX1 phase separation promotes radioresistance in lung adenocarcinoma by suppressing ferroptosis through GPX4 regulation.",
+    "abstract": "Lung adenocarcinoma (LUAD) remains a leading cause of cancer-related mortality, and resistance to radiotherapy is a major clinical obstacle. Stress granules (SGs) are involved in tumor adaptation and therapy resistance, but the core regulatory network in LUAD is poorly defined. Here, we identified a 24-gene SG-related prognostic signature through LASSO analysis and singled out YBX1 as a core hub gene due to its high expression in LUAD and strong association with poor patient prognosis. Functional studies showed that YBX1 knockout (YBX1-KO) markedly sensitized LUAD cells to ionizing radiation (IR), as evidenced by reactive oxygen species (ROS) burst, glutathione (GSH) depletion, iron accumulation, and increased lipid peroxidation, all of which were reversed by the ferroptosis inhibitor Ferrostatin-1. Mechanistically, YBX1 directly bound to GPX4 mRNA through its cold shock domain (CSD) and enhanced GPX4 mRNA stability, thereby upregulating GPX4 expression and suppressing ferroptosis. Radiation stress promoted the interaction between YBX1 and the SG nucleating protein G3BP1 via YBX1 amino acids 240-253. Moreover, YBX1 underwent liquid-liquid phase separation (LLPS) through its C-terminal intrinsically disordered region (IDR), and YBX1 condensates co-localized with GPX4 mRNA. Disruption of the YBX1-G3BP1 interaction (Δ240-253) or deletion of the IDR abrogated the ability of YBX1 to stabilize GPX4 mRNA, suppress ferroptosis, and confer radioresistance. In orthotopic LUAD mouse models, YBX1 knockdown synergized with Erastin or IR to inhibit tumor growth, accompanied by enhanced ferroptosis. Together, these findings establish YBX1 as a central hub in the SG network that promotes radioresistance by forming phase-separated condensates that stabilize GPX4 mRNA and block ferroptosis. Targeting YBX1 or its phase separation represents a promising strategy to overcome radiotherapy resistance in LUAD.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42419403",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  },
+  {
+    "title": "Backbone resonance assignments of CPEB3 [1-120], CPEB3 [186-315], and CPEB3 [400-459].",
+    "abstract": "Cytoplasmic polyadenylation element-binding protein 3 (CPEB3) is an RNA-binding protein that is essential for long-term memory formation. Its N-terminal intrinsically disordered region (residues 1-459) exhibits high aggregation propensity and regulates the translation of specific mRNAs, including those encoding AMPA receptor subunits, through processes such as liquid-liquid phase separation and the formation of fibrillar structures. However, the molecular basis of these regulatory mechanisms remains poorly understood. In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1-120, 186-315, and 400-459). In agreement with sequence-based secondary structure predictions, the three segments were predominantly disordered overall. However, short regions with partial helical propensity were identified at residues 3-7 in the 1-120 segment and residues 226-239 in the 186-315 segment.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42213271",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  },
+  {
+    "title": "Modular Organization of Rba50 Reveals Distinct Domains for RNAPII Assembly and Interaction Network Formation.",
+    "abstract": "RNA polymerase II (RNAPII) is a conserved 12-subunit enzyme essential for eukaryotic transcription. Although the structure and biological functions of RNAPII are well-defined, the mechanisms by which its subunits are assembled into a functional complex remain only partially understood. Several RNAPII assembly factors have been identified, but the molecular principles by which they cooperate during polymerase biogenesis remain unclear. Rba50 is an essential, conserved RNAPII assembly factor implicated in multiple stages of polymerase biogenesis, yet its mode of action remains unknown. Here, we combine structural prediction, targeted interaction assays, and functional analyses to reveal a modular organization of Rba50 with separable activities. Rba50 comprises two functionally distinct but cooperative regions: a structured C-terminal module that provides RNAPII assembly-associated activity and an intrinsically disordered N-terminal module that functions as a multivalent interaction hub. We map a direct interaction between the assembly factor Npa3 and the first N-terminal disordered segment, residues 1-89, and show that the N-terminal module expands the Rba50 interaction network. Functional assays indicate that the C-terminal region rescues specific rba50-3 phenotypes and supports proliferative recovery under permissive plasmid-shuffle conditions, whereas robust Rba50 function also requires determinants outside the C-terminal region. We further identify a CRM1-dependent leucine-rich nuclear export signal within residues 239-249 that limits nuclear accumulation of Rba50 at steady state. Together, our results support a modular architecture in which distinct functional elements within Rba50 contribute to RNAPII biogenesis, interaction-network formation, and nucleocytoplasmic distribution.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42172452",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "has_lcr": true,
+      "has_binding": true,
+      "has_coords": true
+    }
+  }
+]

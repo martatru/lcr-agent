@@ -1,0 +1,108 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 11467,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 11567,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 11498,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 10224,
+    "raw_extracted_count": 2,
+    "valid_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "LMTK3",
+        "organism": "Human",
+        "start_of_annotation": "688",
+        "end_of_annotation": "1095",
+        "binding_target": "Protein",
+        "proposed_function": "Binding to the LMTK3 kinase domain (LMTK3-KD) via its intrinsically disordered C‑terminal tail",
+        "evidence": "The LMTK3688–1095 fragment bound to WT LMTK3-KD with a dissociation constant (Kd) of 0.86 ± 0.28 μM",
+        "curator_note": "Exact positions given; fragment is an intrinsically disordered region (IDR) that mediates protein–protein interaction"
+      },
+      {
+        "protein_name": "LMTK3",
+        "organism": "Human",
+        "start_of_annotation": "1181",
+        "end_of_annotation": "1486",
+        "binding_target": "Protein",
+        "proposed_function": "Binding to the LMTK3 kinase domain (LMTK3-KD) via its intrinsically disordered C‑terminal tail",
+        "evidence": "the LMTK31181–1486 fragment exhibited stronger binding (Kd = 0.28 ± 0.18 μM, Figures 2A and S6)",
+        "curator_note": "Exact positions given; fragment is an intrinsically disordered region (IDR) that mediates protein–protein interaction"
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "LMTK3",
+        "organism": "Human",
+        "start_of_annotation": "688",
+        "end_of_annotation": "1095",
+        "binding_target": "Protein",
+        "proposed_function": "Binding to the LMTK3 kinase domain (LMTK3-KD) via its intrinsically disordered C‑terminal tail",
+        "evidence": "The LMTK3688–1095 fragment bound to WT LMTK3-KD with a dissociation constant (Kd) of 0.86 ± 0.28 μM",
+        "curator_note": "Exact positions given; fragment is an intrinsically disordered region (IDR) that mediates protein–protein interaction"
+      },
+      {
+        "protein_name": "LMTK3",
+        "organism": "Human",
+        "start_of_annotation": "1181",
+        "end_of_annotation": "1486",
+        "binding_target": "Protein",
+        "proposed_function": "Binding to the LMTK3 kinase domain (LMTK3-KD) via its intrinsically disordered C‑terminal tail",
+        "evidence": "the LMTK31181–1486 fragment exhibited stronger binding (Kd = 0.28 ± 0.18 μM, Figures 2A and S6)",
+        "curator_note": "Exact positions given; fragment is an intrinsically disordered region (IDR) that mediates protein–protein interaction"
+      }
+    ]
+  },
+  {
+    "chunk_index": 4,
+    "chunk_length": 11802,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 5,
+    "chunk_length": 8715,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 6,
+    "chunk_length": 9028,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 7,
+    "chunk_length": 11138,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  }
+]

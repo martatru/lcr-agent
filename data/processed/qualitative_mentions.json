@@ -1,0 +1,11 @@
+[
+  {
+    "file": "ADVS-9999-e76625.pdf",
+    "protein_name": "TDP-43 LCD",
+    "organism": "Unspecified",
+    "binding_target": "Protein (self-association/micellization)",
+    "evidence": "Collectively, these results demonstrate that the phosphomimetic LCD variants 12D and 12DD reproduce the essential feature of phosphorylation-driven micellization, forming spherical micelles above a low-micromolar CMC with concentration-independent sizes, underscoring the role of C-terminal charge in redirecting self-organization.",
+    "curator_note": "Qualitative mention only; exact residue coordinates not provided. Suggest UniProt canonical lookup for TDP-43 LCD boundaries.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  }
+]

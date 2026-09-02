@@ -1,57 +1,15 @@
 [
   {
     "chunk_index": 0,
-    "chunk_length": 11939,
-    "raw_extracted_count": 2,
-    "valid_count": 2,
-    "raw_annotations": [
-      {
-        "protein_name": "C-RING1B",
-        "organism": "Unspecified",
-        "start_of_annotation": "228",
-        "end_of_annotation": "336",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to PADI4 active site; acts as substrate",
-        "evidence": "The affinity constants of peptides for PADI4, as measured by fluorescence, biolayer interferometry (BLI) and isothermal titration calorimetry (ITC), were in the low micromolar range (dissociation constants around 10-20 μM), and the affinities were smaller for the citrullinated variants.",
-        "curator_note": "Exact positions given (228-336)"
-      },
-      {
-        "protein_name": "RYBP",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to PADI4 active site; acts as substrate",
-        "evidence": "The affinity constants of peptides for PADI4, as measured by fluorescence, biolayer interferometry (BLI) and isothermal titration calorimetry (ITC), were in the low micromolar range (dissociation constants around 10-20 μM), and the affinities were smaller for the citrullinated variants.",
-        "curator_note": "Qualitative mention; consider UniProt lookup for precise N-terminal region"
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "C-RING1B",
-        "organism": "Unspecified",
-        "start_of_annotation": "228",
-        "end_of_annotation": "336",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to PADI4 active site; acts as substrate",
-        "evidence": "The affinity constants of peptides for PADI4, as measured by fluorescence, biolayer interferometry (BLI) and isothermal titration calorimetry (ITC), were in the low micromolar range (dissociation constants around 10-20 μM), and the affinities were smaller for the citrullinated variants.",
-        "curator_note": "Exact positions given (228-336)"
-      },
-      {
-        "protein_name": "RYBP",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to PADI4 active site; acts as substrate",
-        "evidence": "The affinity constants of peptides for PADI4, as measured by fluorescence, biolayer interferometry (BLI) and isothermal titration calorimetry (ITC), were in the low micromolar range (dissociation constants around 10-20 μM), and the affinities were smaller for the citrullinated variants.",
-        "curator_note": "Qualitative mention; consider UniProt lookup for precise N-terminal region"
-      }
-    ]
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
   },
   {
     "chunk_index": 1,
-    "chunk_length": 11142,
+    "chunk_length": 12000,
     "raw_extracted_count": 0,
     "valid_count": 0,
     "raw_annotations": [],
@@ -59,116 +17,23 @@
   },
   {
     "chunk_index": 2,
-    "chunk_length": 11832,
-    "raw_extracted_count": 2,
-    "valid_count": 2,
-    "raw_annotations": [
-      {
-        "protein_name": "C-RING1B peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "binds to PADI4",
-        "evidence": "The association (kon) and dissociation (koff) rate constants of the binding reactions of the Polycomb peptides to PADI4 were determined by using a BLItz system",
-        "curator_note": "Qualitative mention only"
-      },
-      {
-        "protein_name": "RYBP peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "binds to PADI4",
-        "evidence": "The association (kon) and dissociation (koff) rate constants of the binding reactions of the Polycomb peptides to PADI4 were determined by using a BLItz system",
-        "curator_note": "Qualitative mention only"
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "C-RING1B peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "binds to PADI4",
-        "evidence": "The association (kon) and dissociation (koff) rate constants of the binding reactions of the Polycomb peptides to PADI4 were determined by using a BLItz system",
-        "curator_note": "Qualitative mention only"
-      },
-      {
-        "protein_name": "RYBP peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "binds to PADI4",
-        "evidence": "The association (kon) and dissociation (koff) rate constants of the binding reactions of the Polycomb peptides to PADI4 were determined by using a BLItz system",
-        "curator_note": "Qualitative mention only"
-      }
-    ]
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
   },
   {
     "chunk_index": 3,
-    "chunk_length": 10996,
-    "raw_extracted_count": 5,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
     "valid_count": 0,
-    "raw_annotations": [
-      {
-        "protein_name": "C-RING1B peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to the catalytic active site of PADI4",
-        "evidence": "The Polycomb wild‑type peptides must bind to the active site of PADI4.",
-        "curator_note": "Qualitative mention only, no positional data"
-      },
-      {
-        "protein_name": "C-RING1B-R231 peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to the catalytic active site of PADI4",
-        "evidence": "The Polycomb wild‑type peptides must bind to the active site of PADI4.",
-        "curator_note": "Qualitative mention only, no positional data"
-      },
-      {
-        "protein_name": "RYBP peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to the catalytic active site of PADI4",
-        "evidence": "The Polycomb wild‑type peptides must bind to the active site of PADI4.",
-        "curator_note": "Qualitative mention only, no positional data"
-      },
-      {
-        "protein_name": "RYBP-R53 peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to the catalytic active site of PADI4",
-        "evidence": "The Polycomb wild‑type peptides must bind to the active site of PADI4.",
-        "curator_note": "Qualitative mention only, no positional data"
-      },
-      {
-        "protein_name": "RYBP-R56 peptide",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "PADI4",
-        "proposed_function": "binds to the catalytic active site of PADI4",
-        "evidence": "The Polycomb wild‑type peptides must bind to the active site of PADI4.",
-        "curator_note": "Qualitative mention only, no positional data"
-      }
-    ],
+    "raw_annotations": [],
     "valid_annotations": []
   },
   {
     "chunk_index": 4,
-    "chunk_length": 7801,
+    "chunk_length": 12000,
     "raw_extracted_count": 0,
     "valid_count": 0,
     "raw_annotations": [],
@@ -176,7 +41,23 @@
   },
   {
     "chunk_index": 5,
-    "chunk_length": 10336,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 6,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 7,
+    "chunk_length": 3499,
     "raw_extracted_count": 0,
     "valid_count": 0,
     "raw_annotations": [],

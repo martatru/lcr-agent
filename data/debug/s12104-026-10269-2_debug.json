@@ -2,9 +2,40 @@
   {
     "chunk_index": 0,
     "chunk_length": 9234,
-    "raw_extracted_count": 0,
+    "raw_extracted_count": 3,
     "valid_count": 0,
-    "raw_annotations": [],
+    "raw_annotations": [
+      {
+        "protein_name": "CPEB3",
+        "organism": "Unspecified",
+        "start_of_annotation": "1",
+        "end_of_annotation": "459",
+        "binding_target": "Protein",
+        "proposed_function": "Self‑association and aggregation (protein‑protein interaction)",
+        "evidence": "Within the IDR, two prion‑like regions spanning residues 1–169 and 284–449 are critical for self‑assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties.",
+        "curator_note": "Exact positions given"
+      },
+      {
+        "protein_name": "CPEB3",
+        "organism": "Unspecified",
+        "start_of_annotation": "1",
+        "end_of_annotation": "169",
+        "binding_target": "Protein",
+        "proposed_function": "Self‑association and aggregation (protein‑protein interaction)",
+        "evidence": "Within the IDR, two prion‑like regions spanning residues 1–169 and 284–449 are critical for self‑assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties.",
+        "curator_note": "Exact positions given"
+      },
+      {
+        "protein_name": "CPEB3",
+        "organism": "Unspecified",
+        "start_of_annotation": "284",
+        "end_of_annotation": "449",
+        "binding_target": "Protein",
+        "proposed_function": "Self‑association and aggregation (protein‑protein interaction)",
+        "evidence": "Within the IDR, two prion‑like regions spanning residues 1–169 and 284–449 are critical for self‑assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties.",
+        "curator_note": "Exact positions given"
+      }
+    ],
     "valid_annotations": []
   },
   {

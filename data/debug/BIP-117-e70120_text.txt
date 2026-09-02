@@ -7,17 +7,17 @@ ARTICLE
 OPEN ACCESS
 Inherent α-­Helix Around Tyrosine 183 in the Intrinsically 
 Disordered Tail of the Multi-­Site Docking Platform Gab1
-Anne Dietrich1
- | Marc Lewitzky1 | Tobias Gruber1 | Jochen Balbach2,3
- | Stephan M. Feller1
- | Ulrich Weininger2
-1Tumor Biology Section, Institute of Molecular Medicine, Martin Luther University Halle-­Wittenberg, Halle (Saale), Germany | 2Biophysics, Institute of 
-Physics, Martin Luther University Halle-­Wittenberg, Halle (Saale), Germany | 3Mitteldeutsches Zentrum für Struktur Und Dynamik der Proteine, Martin 
-Luther University Halle-­Wittenberg, Halle (Saale), Germany
-Correspondence: Jochen Balbach (jochen.balbach@physik.uni-halle.de) | Stephan M. Feller (stephan.feller@uk-halle.de) | 
+Anne Dietrich1
+  | Marc Lewitzky1  | Tobias Gruber1  | Jochen Balbach2,3
+  | Stephan M. Feller1
+  | Ulrich Weininger2
+1Tumor Biology Section, Institute of Molecular Medicine, Martin Luther University Halle-­Wittenberg, Halle (Saale), Germany  |  2Biophysics, Institute of 
+Physics, Martin Luther University Halle-­Wittenberg, Halle (Saale), Germany  |  3Mitteldeutsches Zentrum für Struktur Und Dynamik der Proteine, Martin 
+Luther University Halle-­Wittenberg, Halle (Saale), Germany
+Correspondence: Jochen Balbach (jochen.balbach@physik.uni-halle.de)  |  Stephan M. Feller (stephan.feller@uk-halle.de)  |  
 Ulrich Weininger (ulrich.weininger@physik.uni-halle.de)
-Received: 9 June 2026 | Revised: 23 July 2026 | Accepted: 28 July 2026
-Keywords: α-­Helix | Gab1 | intrinsic disorder | NMR | secondary structure | signal computation
+Received: 9 June 2026  |  Revised: 23 July 2026  |  Accepted: 28 July 2026
+Keywords: α-­Helix | Gab1 | intrinsic disorder | NMR | secondary structure | signal computation
 ABSTRACT
 The biological function of intrinsically disordered proteins is frequently coupled to short linear motifs, which serve as pro­
 tein binding sites. This goes often hand in hand with local transient structural element formation. The intrinsically disordered 
@@ -30,7 +30,7 @@ are disordered. This helical conformation is maintained upon changes in pH, vari
 status. The inherent helix around Tyr183 distinguishes the local structural environment of Tyr162 and Tyr183 within the intrinsi­
 cally disordered Gab1 tail and provides a structural framework for future studies on interaction partners and potential functional 
 roles of this structural motif.
-1 | Introduction
+1   |   Introduction
 Cellular signaling processes commonly rely on the formation 
 of sophisticated, dynamic multi-­protein complexes and clusters 
 to regulate vital biological functions [1–3]. In this context, large 
@@ -116,7 +116,7 @@ sient local structures, known as “prestructured motifs” or
 [24, 25]. Here we shed light on two conserved Gab1 tyrosines 
 by thoroughly investigating a peptide fragment which includes 
 Y162 and Y183 and adequate N-­ and C-­terminal extensions, 
- 
+         
 ­
 ­
 ­
@@ -131,7 +131,7 @@ Y162 and Y183 and adequate N-­ and C-­terminal extensions,
 ­
 ­
 ­
- 
+         
 ­
 ­
 
@@ -145,8 +145,8 @@ able in other parts of the peptide fragment, including Tyr 162.
 Ultimately, both phosphorylation sites are distinguished by 
 structure. This α-­helix persists across changes in pH, peptide 
 length, and phosphorylation status.
-2 | Materials and Methods
-2.1 | Cloning
+2   |   Materials and Methods
+2.1   |   Cloning
 In order to generate the construct for the recombinant protein 
 expression of SUMO-­Gab1 (Ile142-­Ser203), vector backbone 
 and insert were amplified separately by PCR using specifically 
@@ -161,45 +161,45 @@ tent cell line E. coli XL10-­gold. After isolating the DNA by
 miniprep (miniprep kit, Qiagen) and sequence verification 
 (Microsynth), the plasmid was transformed into E. coli Bl21 
 (DE3) for protein expression.
-2.2 | Expression and Purification
+2.2   |   Expression and Purification
 The transformed E. coli BL21 (DE3) were cultured either in 
 Terrific Broth (TB) or M9 minimal medium, which has exclu­
 sively 13C-­glucose and 15N-­ammoniumchloride as carbon and 
 nitrogen sources, for unlabeled or uniformly 15N13C labeled 
 samples, respectively.
 The culture was incubated at 37°C until an OD600 of 1.6 was 
-reached and then expression induced with 0.5 mM IPTG. culti­
-vation continued overnight (16 h) at 18°C. Cells were harvested 
+reached and then expression induced with 0.5 mM IPTG. culti­
+vation continued overnight (16 h) at 18°C. Cells were harvested 
 by centrifugation at 3000×g in a precooled centrifuge (J6-­MI) 
-for 30 min. Cell pellets were resuspended in 50 mM NaCl, 50 mM 
-Tris–HCl pH 7.5 and lysed by sonication (2 × 1 min) on ice. Lysate 
-was centrifuged for 60 min at 30,000×g (Avanti JXN-­26) and the 
-supernatant again for 120 min at 60,000×g (Avanti JXN-­26).
+for 30 min. Cell pellets were resuspended in 50 mM NaCl, 50 mM 
+Tris–HCl pH 7.5 and lysed by sonication (2 × 1 min) on ice. Lysate 
+was centrifuged for 60 min at 30,000×g (Avanti JXN-­26) and the 
+supernatant again for 120 min at 60,000×g (Avanti JXN-­26).
 Clarified lysate was applied to a HiTrap Column (IMAC 
 FF, Ni2+). Bound protein was eluted with imidazole and its 
-concentration measured using UV-­spectroscopy at 280 nm. 
+concentration measured using UV-­spectroscopy at 280 nm. 
 SUMO protease was added (1:50) and the mixture dialyzed in 
-a 3.5 kDa cut-­off dialysis tube in 2 L dialysis buffer (150 mM 
-NaCl, 50 mM Tris–HCl pH 7.5) for 3 h at 4°C and then in fresh 
-2 L dialysis buffer overnight (16 h) at 4°C. After cleavage of the 
+a 3.5 kDa cut-­off dialysis tube in 2 L dialysis buffer (150 mM 
+NaCl, 50 mM Tris–HCl pH 7.5) for 3 h at 4°C and then in fresh 
+2 L dialysis buffer overnight (16 h) at 4°C. After cleavage of the 
 SUMO-­tag, the sample was re-­applied onto a HiTrap Column 
 (IMAC FF, Ni2+). The flow-­through containing the protein 
 was collected, while the SUMO-­tag and SUMO-­protease 
 bound to the column.
 For final purification and buffer determination, the sample 
 was applied to a size exclusion chromatography (Superdex pg. 
-75, Cytiva). Concentration was adjusted with a Vivaspin 5 kDa 
+75, Cytiva). Concentration was adjusted with a Vivaspin 5 kDa 
 MWCO concentrator.
-2.3 | Synthetic Phosphopeptides
+2.3   |   Synthetic Phosphopeptides
 Phosphorylated 19 amino acid peptides with C-­terminal amida­
 tion were purchased from ProteoGenix (France) as lyophilized, 
-HPLC-­purified products (> 98% purity, TFA-­free). In addition, 
+HPLC-­purified products (> 98% purity, TFA-­free). In addition, 
 a synthetically double phosphorylated Gab1 peptide (residues 
 Thr157-­Lys192), containing phosphorylated Tyr162 and Tyr183, 
-was purchased as a lyophilized, HPLC-­purified product (> 98% 
+was purchased as a lyophilized, HPLC-­purified product (> 98% 
 purity, TFA-­free). Peptides were dissolved in appropriate buffer 
 before use.
-2.4 | Disorder Prediction (IUPred3) and Missense 
+2.4   |   Disorder Prediction (IUPred3) and Missense 
 Variant Prediction (AlphaMissense)
 Intrinsic disorder was predicted with the short disorder mode of 
 IUPred3 (iupre​d3.​elte.​hu) and residue-­level disorder scores were 
@@ -207,44 +207,44 @@ extracted for further analysis. AlphaMissense (alpha​misse​nse.​
 hegel​ab.​org) was used to evaluate the potential effects of point 
 mutations and also predicted on the official website. Data were 
 downloaded and processed with Excel.
-2.5 | Circular Dichroism (CD) Spectroscopy
+2.5   |   Circular Dichroism (CD) Spectroscopy
 Far-­UV CD spectra were measured on a Jasco J-­1500 spec­
-tropolarimeter at room temperature (22°C) in a 1 mm quartz 
-cuvette with a protein concentration of 1 mg/mL in 150 mM 
-NaCl, 50 mM Tris–HCl pH 7.5. Chloride-­containing buffer 
+tropolarimeter at room temperature (22°C) in a 1 mm quartz 
+cuvette with a protein concentration of 1 mg/mL in 150 mM 
+NaCl, 50 mM Tris–HCl pH 7.5. Chloride-­containing buffer 
 was chosen to stabilize the peptide solution and to maintain 
-buffer consistency. Spectra were measured from 190 to 260 nm 
-in 0.2 nm steps and accumulated 25 times. For TFE titration 
+buffer consistency. Spectra were measured from 190 to 260 nm 
+in 0.2 nm steps and accumulated 25 times. For TFE titration 
 experiments, spectra were recorded under identical condi­
 tions in the presences of increasing concentrations (0%–90%) 
 of 2,2,2-­trifluoroethanol (TFE). Raw ellipticity values (in 
 mdeg) were converted to the mean residual ellipticity (MRW, 
-deg. × cm2 × dmol−1) with the following equation to allow di­
+deg. × cm2 × dmol−1) with the following equation to allow di­
 rect comparison independent of concentration and length of 
 protein chain.
 with
-θ = ellipticity (mdeg).
-c = molar concentration (M).
-l = path length (cm).
-Naa = number of amino acids.
-2.6 | NMR Spectroscopy
+θ = ellipticity (mdeg).
+c = molar concentration (M).
+l = path length (cm).
+Naa = number of amino acids.
+2.6   |   NMR Spectroscopy
 NMR experiments were performed on a Bruker Avance III 
-800 MHz-­NMR spectrometer with a TCI-­CyroProbe on a 1 mM 
+800 MHz-­NMR spectrometer with a TCI-­CyroProbe on a 1 mM 
 bip 7
 0
 1 2 0 - dis p -0001
 
 4 of 10
 Biopolymers, 2026
-15N13C sample in 50 mM NaCl, 20 mM Bis-­Tris pH 6.5, with 10% 
+15N13C sample in 50 mM NaCl, 20 mM Bis-­Tris pH 6.5, with 10% 
 (v/v) D2O at 25°C, unless indicated otherwise. The 2D 1H15N 
 HSQC and aliphatic constant-­time 1H13C HSQC were acquired 
-with 10,416 × 1865 Hz/12,820 × 14,085 Hz, 192/256 complex 
+with 10,416 × 1865 Hz/12,820 × 14,085 Hz, 192/256 complex 
 points in the indirect dimension and 16/32 scans. Resonances 
 were assigned using standard 3D HNCACB, HN(CO)CACB, 
-H(C)CH-­TOCSY (15.5 ms mixing) as well as 3D TOCSY-­HSQC 
-(60 ms mixing) experiments for 15N nuclei and 3D NOESY-­
-HSQC (300 ms mixing) experiments for 15N and 13C aliphatic/
+H(C)CH-­TOCSY (15.5 ms mixing) as well as 3D TOCSY-­HSQC 
+(60 ms mixing) experiments for 15N nuclei and 3D NOESY-­
+HSQC (300 ms mixing) experiments for 15N and 13C aliphatic/
 aromatic nuclei. All NMR data were processed using NMRPipe 
 and with NMRView. Chemical shift assignments have been up­
 loaded to the BMRB (bmrb.io) under the entry number 52691. 
@@ -253,7 +253,7 @@ rameters, with NOEs from the 3D NOESY-­HSQC experiments
 and Phi–Psi dihedral angle constraints derived using TALOS. 
 The α-­helical content at different pH values and of shorter or 
 phosphorylated constructs was monitored by aliphatic 1H13C-­
-HSQCs of about 3 mM samples with 13C at natural abundance.
+HSQCs of about 3 mM samples with 13C at natural abundance.
 Chemical shift indices were calculated by comparing experi­
 mental Cα and Cβ with random coil reference values [26] using 
 CSI = (C훼−C훽
@@ -262,16 +262,16 @@ CSI = (C훼−C훽
 indicate an α-­helical tendency, negative suggest an extended 
 conformation.
 15N relaxation experiments were conducted on a Bruker Avance 
-III 600 MHz-­NMR spectrometer with a TXI room temperature 
+III 600 MHz-­NMR spectrometer with a TXI room temperature 
 probe using relaxation delays of 0, 50, 100, 200, 400, 700, and 
-1000 ms for R1, 0, 8, 16, 48, 80, 112, and 160 ms for R2, and a recy­
-cle delay and saturation period of 8 s and 3 s for the {1H-­}15N NOE.
-3 | Results and Discussion
+1000 ms for R1, 0, 8, 16, 48, 80, 112, and 160 ms for R2, and a recy­
+cle delay and saturation period of 8 s and 3 s for the {1H-­}15N NOE.
+3   |   Results and Discussion
 To examine the regions surrounding Y162 and Y183 in Gab1, we 
 used a construct spanning residues I142 to S203, which includes 
 both tyrosines as well as N-­ and C-­terminal flanking regions of 
 20 amino acids.
-3.1 | Computational Preanalysis
+3.1   |   Computational Preanalysis
 ­
 27
 ­
@@ -295,19 +295,19 @@ S1
 S2
 ­
 ­
-3.2 | Biophysical Characterization
+3.2   |   Biophysical Characterization
 Given the potential functional importance and structural partic­
 ularity of this region, we examined the structural properties of 
 Gab1 I142-­S203 experimentally by circular dichroism (CD) and 
 nuclear magnetic resonance (NMR) spectroscopy.
 4A
- 
- 
+ 
+ 
 ­
 ­
 ­
 ­
- 
+ 
 30, 31
 ­
 ­
@@ -315,9 +315,9 @@ nuclear magnetic resonance (NMR) spectroscopy.
 ­
 ­
 ­
- 
- 
- 
+ 
+ 
+ 
 4B
 ­
 ­
@@ -331,7 +331,7 @@ S3
 
 5 of 10
 Biopolymers, 2026
-(Figure 4C) as previously described by calculating the chemi­
+(Figure  4C) as previously described by calculating the chemi­
 cal shift deviations ΔCα and ΔCβ from random coil values [32]. 
 Positive ΔCα—ΔCβ values indicate α-­helical conformations, while 
 negative values indicate β-­strand or extended conformations [33]. 
@@ -351,9 +351,9 @@ for these 11 residues around Tyr183 in the otherwise disordered
 peptide. To complement the conventional chemical-­shift analy­
 sis with an approach developed for intrinsically disordered pro­
 teins, the Cα, Cβ, and Hα chemical shifts were analyzed using the 
-SSP algorithm [34]. The resulting profile remained close to zero 
+SSP algorithm [34]. The resulting profile remained close to zero 
 throughout most of the Gab1 fragment, consistent with a predom­
-inantly disordered ensemble (Figure 4D). In contrast, residues 
+inantly disordered ensemble (Figure  4D). In contrast, residues 
 Pro180-­Ile187 formed a continuous positive segment with a mean 
 SSP score of approximately 0.40, supporting a substantially pop­
 ulated local α-­helical conformation around Tyr183. The Tyr162 
@@ -362,18 +362,18 @@ continuous α-­helical propensity.
 Both regions around Tyr 162 and Tyr 183 show further deviat­
 ing NMR properties from a fully IDR. The amino acids Cα posi­
 tion show reduced intensities in a 2D ct 1H13C HSQC spectrum 
-(Figure S4) and the 15N relaxation data (Figure S5) revealed in­
+(Figure S4) and the 15N relaxation data (Figure S5) revealed in­
 creased R2 (and to a lesser extent R1) rate constants and slightly 
 positive {1H-­} 15N NOE values (only around Y183). Together, all 
 NMR properties are in agreement with an α-­helical propensity 
 around Tyr183 and some loss of flexibility around Tyr162.
-3.3 | NMR Structure Determination
+3.3   |   NMR Structure Determination
 For a detailed structural characterization of the Gab1 fragment 
 Ile142 to Ser203, we assigned additionally to the backbone all side 
 chains NMR resonances and calculated the NMR structure in 
 solution with the program ARIA [35], based on NOEs and dihe­
-dral restraints from chemical shifts using TALOS [36] (Table S1).
- 
+dral restraints from chemical shifts using TALOS [36] (Table S1).
+         
 ­
 ­
 ­
@@ -386,7 +386,7 @@ Biopolymers, 2026
 ­
 ­
 ­
-FIGURE 4 | Legend on next page.
+FIGURE 4    |     Legend on next page.
 
 7 of 10
 Biopolymers, 2026
@@ -396,7 +396,7 @@ ture encompasses more than two turns. The convergence of
 the dispersion of backbone angles in the Ramachandran plot 
 document that this helical segment is the only robust struc­
 tural element in these mainly disordered protein fragments 
-(Figures 5 and S6). Outside of this helical structure, all mod­
+(Figures 5 and S6). Outside of this helical structure, all mod­
 els show a broad distribution of possible conformations, which 
 are typical for intrinsically disordered peptides. This includes 
 the region around Tyr162. However, in some models there is 
@@ -423,11 +423,11 @@ the resulting models. Thus, the most appropriate interpretation
 is a dynamic equilibrium in which the helix is present in a sub­
 stantial fraction of molecules, roughly estimated on the order of 
 about half (~40%), and absent in the remainder.
-3.4 | Assessment of the Helix Under Different 
+3.4   |   Assessment of the Helix Under Different 
 Conditions
 To assess if this helix is sensitive to pH changes, Gab1 I142-­S203 
-was analysed at pH 6.5 (conditions of the structure calculation), 
-pH 7.0 and pH 7.4 regarding their 13Cα carbon chemical shift, fo­
+was analysed at pH 6.5 (conditions of the structure calculation), 
+pH 7.0 and pH 7.4 regarding their 13Cα carbon chemical shift, fo­
 cussing on the eight amino acids contained in the helical structure.
 ­
 6
@@ -439,33 +439,33 @@ In summary we can conclude that the helix is present to about
 the same degree under different physiologically relevant con­
 ditions. Therefore, one can assume a helix (180–187) in Gab1, 
 which is persistently present in half of the molecules.
-3.5 | Comparison With Other Structural Motifs 
+3.5   |   Comparison With Other Structural Motifs 
 in Gab1
 Although the NMR structure reveals a clearly defined α-­helix, 
 overall, the region shows a typical signature of an intrinsically 
 disordered protein (IDP). Furthermore, a significant moi­
 ety in the ensemble of conformations of these eight residues 
- 
+         
 ­
 ­
- 
+ 
 ­
 ­
-­
-­
-­
-α
-β
-α
-β
 ­
 ­
 ­
 α
 β
 α
+β
 ­
- 
+­
+­
+α
+β
+α
+­
+         
 ­
 ­
 ­
@@ -523,7 +523,7 @@ Fyn:App12, and p40phox:p47phox [42]. In this context, the de­
 scribed transient α-­helix around Tyr183 represents a distinct 
 structural state that may preorganize this fragment and thereby 
 modulate accessibility and binding specificity.
-4 | Conclusion
+4   |   Conclusion
 Our structural analyses of the Gab1 region, which encompasses 
 Tyr162 and Tyr183, reveal a previously unknown helix (P180 to 
 I187) around Tyr183 within the otherwise intrinsically disor­
@@ -552,15 +552,15 @@ This work was funded by the Deutsche Forschungsgemeinschaft (DFG,
 German Research Foundation) through GRK 2467 “Intrinsically 
 Disordered Proteins – Molecular Principles, Cellular Functions, 
 and Diseases” (project number 391498659). The European Regional 
- 
+         
 13
 α
 ­
 ­
 13
 α
- 
- 
+   
+ 
 ­
 
 9 of 10
@@ -581,3 +581,191 @@ The authors declare no conflicts of interest.
 Data Availability Statement
 The data that support the findings of this study are available from the 
 corresponding author upon reasonable request.
+References
+1. D. Bray, “Signaling Complexes: Biophysical Constraints on Intracel­
+lular Communication,” Annual Review of Biophysics and Biomolecular 
+Structure 27 (1998): 59–75, https://​doi.​org/​10.​1146/​annur​ev.​bioph​ys.​
+27.1.​59.
+2. M. Cebecauer, M. Spitaler, A. Serge, and A. I. Magee, “Signalling 
+Complexes and Clusters: Functional Advantages and Methodological 
+Hurdles,” Journal of Cell Science 123, no. Pt 3 (2010): 309–320, https://​
+doi.​org/​10.​1242/​jcs.​061739.
+3. R. Nussinov and H. Jang, “Dynamic Multiprotein Assemblies Shape 
+the Spatial Structure of Cell Signaling,” Progress in Biophysics and Mo­
+lecular Biology 116, no. 2–3 (2014): 158–164, https://​doi.​org/​10.​1016/j.​
+pbiom​olbio.​2014.​07.​002.
+4. H. Gu and B. G. Neel, “The “Gab” in Signal Transduction,” Trends 
+in Cell Biology 13, no. 3 (2003): 122–130, https://​doi.​org/​10.​1016/​s0962​
+-­​8924(03)​00002​-­​3.
+5. P. C. Simister and S. M. Feller, “Order and Disorder in Large Multi-­
+Site Docking Proteins of the Gab Family—Implications for Signalling 
+Complex Formation and Inhibitor Design Strategies,” Molecular BioSys­
+tems 8, no. 1 (2012): 33–46, https://​doi.​org/​10.​1039/​c1mb0​5272a​.
+6. M. Srivastava, O. Simakov, J. Chapman, et al., “The Amphimedon 
+Queenslandica Genome and the Evolution of Animal Complexity,” 
+Nature 466, no. 7307 (2010): 720–726, https://​doi.​org/​10.​1038/​natur​
+e09201.
+7. M. Sachs, H. Brohmann, D. Zechner, et al., “Essential Role of Gab1 for 
+Signaling by the c-­Met Receptor In Vivo,” Journal of Cell Biology 150, 
+no. 6 (2000): 1375–1384, https://​doi.​org/​10.​1083/​jcb.​150.6.​1375.
+8. S. E. Bondos, A. K. Dunker, and V. N. Uversky, “Intrinsically Dis­
+ordered Proteins Play Diverse Roles in Cell Signaling,” Cell Communi­
+cation and Signaling: CCS 20, no. 1 (2022): 20, https://​doi.​org/​10.​1186/​
+s1296​4-­​022-­​00821​-­​7.
+9. P. C. Simister, F. Schaper, N. O'Reilly, S. McGowan, and S. M. Feller, 
+“Self-­Organization and Regulation of Intrinsically Disordered Proteins 
+With Folded N-­Termini,” PLoS Biology 9, no. 2 (2011): e1000591, https://​
+doi.​org/​10.​1371/​journ​al.​pbio.​1000591.
+10. M. J. Perez-­Baena, F. J. Cordero-­Perez, J. Perez-­Losada, and M. 
+Holgado-­Madruga, “The Role of GAB1 in Cancer,” Cancers 15, no. 16 
+(2023): 4179, https://​doi.​org/​10.​3390/​cance​rs151​64179​.
+11. D. Sakkab, M. Lewitzky, G. Posern, et al., “Signaling of Hepatocyte 
+Growth Factor/Scatter Factor (HGF) to the Small GTPase Rap1 via the 
+Large Docking Protein Gab1 and the Adapter Protein CRKL,” Journal 
+of Biological Chemistry 275, no. 15 (2000): 10772–10778, https://​doi.​org/​
+10.​1074/​jbc.​275.​15.​10772​.
+12. M. Holgado-­Madruga, D. R. Emlet, D. K. Moscatello, A. K. God­
+win, and A. J. Wong, “A Grb2-­Associated Docking Protein in EGF-­ and 
+Insulin-­Receptor Signalling,” Nature 379, no. 6565 (1996): 560–564, 
+https://​doi.​org/​10.​1038/​379560a0.
+13. T. Watanabe, M. Tsuda, Y. Makino, et  al., “Crk Adaptor Protein-­
+Induced Phosphorylation of Gab1 on Tyrosine 307 via Src Is Important 
+for Organization of Focal Adhesions and Enhanced Cell Migration,” Cell 
+Research 19, no. 5 (2009): 638–650, https://​doi.​org/​10.​1038/​cr.​2009.​40.
+14. J. V. Abella, R. Vaillancourt, M. M. Frigault, et al., “The Gab1 Scaf­
+fold Regulates RTK-­Dependent Dorsal Ruffle Formation Through the 
+Adaptor Nck,” Journal of Cell Science 123, no. pt. 8 (2010): 1306–1319, 
+https://​doi.​org/​10.​1242/​jcs.​062570.
+15. M. Hibi and T. Hirano, “Gab-­Family Adapter Molecules in Signal 
+Transduction of Cytokine and Growth Factor Receptors, and T and B 
+Cell Antigen Receptors,” Leukemia & Lymphoma 37 (2009): 299–307.
+16. C. Niogret, W. Birchmeier, and G. Guarda, “SHP-­2 in Lymphocytes' 
+Cytokine and Inhibitory Receptor Signaling,” Frontiers in Immunology 
+10 (2019): 2468, https://​doi.​org/​10.​3389/​fimmu.​2019.​02468​.
+17. S. Bunda, K. Burrell, P. Heir, et al., “Inhibition of SHP2-­Mediated 
+Dephosphorylation of Ras Suppresses Oncogenesis,” Nature Communi­
+cations 6 (2015): 8859, https://​doi.​org/​10.​1038/​ncomm​s9859​.
+18. L. Machner, A. Shaikhqasem, T. Gruber, P. Kastritis, S. M. Feller, 
+and M. T. Stubbs, “Mechanism of SHP2 Activation by Bis-­Tyr-­
+Phosphorylated Gab1,” Structure 34 (2026): 1–13.
+19. T. Gruber, M. Lewitzky, L. Machner, U. Weininger, S. M. Feller, and 
+J. Balbach, “Macromolecular Crowding Induces a Binding Competent 
+Transient Structure in Intrinsically Disordered Gab1,” Journal of Mo­
+lecular Biology 434, no. 5 (2022): 167407, https://​doi.​org/​10.​1016/j.​jmb.​
+2021.​167407.
+20. P. V. Hornbeck, B. Zhang, B. Murray, J. M. Kornhauser, V. Latham, 
+and E. Skrzypek, “PhosphoSitePlus, 2014: mutations, PTMs and recali­
+brations,” Nucleic Acids Research 43 (2015): D512–D520.
+21. H. Huang, L. Li, C. Wu, et al., “Defining the Specificity Space of 
+the Human SRC Homology 2 Domain,” Molecular & Cellular Pro­
+teomics 7, no. 4 (2008): 768–784, https://​doi.​org/​10.​1074/​mcp.​M7003​
+12-­​MCP200.
+22. J. C. Martinez, F. Castillo, J. Ruiz-­Sanz, J. Murciano-­Calles, A. 
+Camara-­Artigas, and I. Luque, “Understanding Binding Affinity and 
+Specificity of Modular Protein Domains: A Focus in Ligand Design 
+for the Polyproline-­Binding Families,” Advances in Protein Chemistry 
+and Structural Biology 130 (2022): 161–188, https://​doi.​org/​10.​1016/​bs.​
+apcsb.​2021.​12.​002.
+23. A. Einbond and M. Sudol, “Towards Prediction of Cognate Com­
+plexes Between the WW Domain and Proline-­Rich Ligands,” FEBS 
+Letters 384, no. 1 (1996): 1–8, https://​doi.​org/​10.​1016/​0014-­​5793(96)​
+00263​-­​3.
+24. H. J. Dyson and P. E. Wright, “NMR Illuminates Intrinsic Disorder,” 
+Current Opinion in Structural Biology 70 (2021): 44–52, https://​doi.​org/​
+10.​1016/j.​sbi.​2021.​03.​015.
+25. S. Maiti, A. Singh, T. Maji, N. V. Saibo, and S. De, “Experimental 
+Methods to Study the Structure and Dynamics of Intrinsically Disor­
+dered Regions in Proteins,” Current Research in Structural Biology 7 
+(2024): 100138, https://​doi.​org/​10.​1016/j.​crstbi.​2024.​100138.
+26. D. S. Wishart, B. D. Sykes, and F. M. Richards, “The Chemical Shift 
+Index: A Fast and Simple Method for the Assignment of Protein Sec­
+ondary Structure Through NMR Spectroscopy,” Biochemistry 31, no. 6 
+(1992): 1647–1651, https://​doi.​org/​10.​1021/​bi001​21a010.
+27. G. Erdos, M. Pajkos, and Z. Dosztanyi, “IUPred3: Prediction of Pro­
+tein Disorder Enhanced With Unambiguous Experimental Annotation 
+
+10 of 10
+Biopolymers, 2026
+and Visualization of Evolutionary Conservation,” Nucleic Acids Re­
+search 49, no. W1 (2021): W297–W303, https://​doi.​org/​10.​1093/​nar/​
+gkab408.
+28. J. Cheng, G. Novati, J. Pan, et al., “Accurate Proteome-­Wide Mis­
+sense Variant Effect Prediction With AlphaMissense,” Science 381, no. 
+6664 (2023): eadg7492, https://​doi.​org/​10.​1126/​scien​ce.​adg7492.
+29. C. B. McDonald, V. Bhat, D. C. Mikles, B. J. Deegan, K. L. Seldeen, 
+and A. Farooq, “Bivalent Binding Drives the Formation of the Grb2-­Gab1 
+Signaling Complex in a Noncooperative Manner,” FEBS Journal 279, no. 
+12 (2012): 2156–2173, https://​doi.​org/​10.​1111/j.​1742-­​4658.​2012.​08600.​x.
+30. A. Micsonai, F. Wien, E. Bulyaki, et al., “BeStSel: A Web Server for 
+Accurate Protein Secondary Structure Prediction and Fold Recognition 
+From the Circular Dichroism Spectra,” Nucleic Acids Research 46, no. 
+W1 (2018): W315–W322, https://​doi.​org/​10.​1093/​nar/​gky497.
+31. C. Louis-­Jeune, M. A. Andrade-­Navarro, and C. Perez-­Iratxeta, 
+“Prediction of Protein Secondary Structure From Circular Dichroism 
+Using Theoretically Derived Spectra,” Proteins 80, no. 2 (2012): 374–381, 
+https://​doi.​org/​10.​1002/​prot.​23188​.
+32. K. Tamiola, B. Acar, and F. A. Mulder, “Sequence-­Specific Random 
+Coil Chemical Shifts of Intrinsically Disordered Proteins,” Journal of 
+the American Chemical Society 132, no. 51 (2010): 18000–18003, https://​
+doi.​org/​10.​1021/​ja105​656t.
+33. S. Luca, D. V. Filippov, J. H. van Boom, H. Oschkinat, H. J. de Groot, 
+and M. Baldus, “Secondary Chemical Shifts in Immobilized Peptides 
+and Proteins: A Qualitative Basis for Structure Refinement Under 
+Magic Angle Spinning,” Journal of Biomolecular NMR 20, no. 4 (2001): 
+325–331, https://​doi.​org/​10.​1023/a:​10112​78317489.
+34. J. A. Marsh, V. K. Singh, Z. Jia, and J. D. Forman-­Kay, “Sensitivity of 
+Secondary Structure Propensities to Sequence Differences Between Al­
+pha-­ and Gamma-­Synuclein: Implications for Fibrillation,” Protein Sci­
+ence 15, no. 12 (2006): 2795–2804, https://​doi.​org/​10.​1110/​ps.​06246​5306.
+35. J. P. Linge, M. Habeck, W. Rieping, and M. Nilges, “ARIA: Auto­
+mated NOE Assignment and NMR Structure Calculation,” Bioinfor­
+matics 19, no. 2 (2003): 315–316, https://​doi.​org/​10.​1093/​bioin​forma​tics/​
+19.2.​315.
+36. U. Zavrtanik, T. Medved, S. Puric, W. Vranken, J. Lah, and S. Hadzi, 
+“Leucine Motifs Stabilize Residual Helical Structure in Disordered Pro­
+teins,” Journal of Molecular Biology 436, no. 4 (2024): 168444, https://​
+doi.​org/​10.​1016/j.​jmb.​2024.​168444.
+37. Y. Shen and A. Bax, “Protein Backbone and Sidechain Torsion An­
+gles Predicted From NMR Chemical Shifts Using Artificial Neural Net­
+works,” Journal of Biomolecular NMR 56, no. 3 (2013): 227–241, https://​
+doi.​org/​10.​1007/​s1085​8-­​013-­​9741-­​y.
+38. M. Batchelor, R. S. Dawber, A. J. Wilson, and R. Bayliss, “Alpha-­
+Helix Stabilization by Co-­Operative Side Chain Charge-­Reinforced 
+Interactions to Phosphoserine in a Basic Kinase-­Substrate Motif,” Bio­
+chemical Journal 479, no. 5 (2022): 687–700, https://​doi.​org/​10.​1042/​
+BCJ20​210812.
+39. B. A. Liu, K. Jablonowski, E. E. Shah, B. W. Engelmann, R. B. Jones, 
+and P. D. Nash, “SH2 Domains Recognize Contextual Peptide Sequence 
+Information to Determine Selectivity,” Molecular & Cellular Proteomics 
+9, no. 11 (2010): 2391–2404, https://​doi.​org/​10.​1074/​mcp.​M110.​001586.
+40. M. Marasco and T. Carlomagnoa, “Specificity and Regulation of 
+Phosphotyrosine Signaling Through SH2 T Domains,” Journal of Struc­
+tural Biology x4 (2020): 100026.
+41. T. Kukenshoner, N. E. Schmit, E. Bouda, et al., “Selective Target­
+ing of SH2 Domain-­Phosphotyrosine Interactions of Src Family Tyro­
+sine Kinases With Monobodies,” Journal of Molecular Biology 429, no. 9 
+(2017): 1364–1380, https://​doi.​org/​10.​1016/j.​jmb.​2017.​03.​023.
+42. C. Breithaupt, T. Gruber, K. Mandel, et al., “Self-­Assembly of Grb2 Mesh­
+works Revealed by Grb2-­Gab1497-­528 Complex Structure,” bioRxiv: The Pre­
+print Server for Biology (2023), https://doi.org/10.1101/2023.06.17.545433.
+Supporting Information
+Additional supporting information can be found online in the Supporting 
+Information section. Table S1: Statistics of the NMR structure determi­
+nation. Figure S1: AlphaFold prediction of the human Grb2-­associated-­
+binding protein 1 (Gab1) for the region of Ile142-­Ser203. The amino acid 
+sequence is shown above the AlphaFold confidence scores (pLDDT). 
+The color-­coding is according to the AlphaFold confidence scale. The 
+segment surrounding Tyr183 displays moderately increased confidence 
+compared with the predominantly low-­confidence around the Tyr162 
+region. Figure S2: AlphaMissense prediction of Grb2-­associated-­
+binding protein 1 (Gab1). Presumably benign mutations are shown in 
+blue and pathogenic mutations in red. Each cell represents a single mis­
+sense variant with each residue position exchanged against one of the 
+20 natural amino acids. Figure S3: 1H15N-­HSQC of the Gab1 fragment. 
+The spectrum was recorded at 298 K, pH 6.5. Assigned amide signals 
+are labeled. Some heterogeneity and weak additional signals are caused 
+by cis prolines. Figure S4: NMR intensities of the Gab1 I142-­S203 
+HCα resonances. The intensities are derived from a 1H13C ct HSQC. 
+Figure S5: 15N R1, 15N R2 and {1H-­}15N NOE relaxation data. Figure 
+S6: Ramachandran plot of the NMR structure calculation. This plot was 
+created with project on the 10 lowest energy structures.

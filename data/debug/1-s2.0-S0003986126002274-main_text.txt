@@ -1,17 +1,17 @@
 Citrullination in proteins of the polycomb repressor complex 1
-María Gabriela ́Alvarez-Rodríguez a,1
+María Gabriela ´Alvarez-Rodríguez a,1
 , Emanuel Capone b
 , Sonia Vega c, Virginia Rejas d
 , 
 Bruno Rizzuti c,e
-, Adrian Velazquez-Campoy c,f,g,h, Jos ́e L. Neira a,c,*,1
-a IDIBE, Universidad Miguel Hern ́andez, Elche (Alicante), 03202, Spain
+, Adrian Velazquez-Campoy c,f,g,h, Jos´e L. Neira a,c,*,1
+a IDIBE, Universidad Miguel Hern´andez, Elche (Alicante), 03202, Spain
 b Department of Physics, University of Calabria, Rende, 87036, Italy
-c Instituto de Biocomputaci ́on y Física de Sistemas Complejos (BIFI), Universidad de Zaragoza, Zaragoza, 50018, Spain
+c Instituto de Biocomputaci´on y Física de Sistemas Complejos (BIFI), Universidad de Zaragoza, Zaragoza, 50018, Spain
 d Centro de Investigacion Príncipe Felipe, Calle de Eduardo Primo Yufera 3, Valencia, 46012, Spain
 e CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, Rende, 87036, Italy
-f Instituto de Investigaci ́on Sanitaria Arag ́on (IIS Arag ́on), Zaragoza, Spain
-g Centro de Investigaci ́on Biom ́edica en Red en el ́Area Tem ́atica de Enfermedades Hep ́aticas y Digestivas (CIBEREHD), Madrid, 28029, Spain
+f Instituto de Investigaci´on Sanitaria Arag´on (IIS Arag´on), Zaragoza, Spain
+g Centro de Investigaci´on Biom´edica en Red en el ´Area Tem´atica de Enfermedades Hep´aticas y Digestivas (CIBEREHD), Madrid, 28029, Spain
 h Departamento de Bioquímica y Biología Molecular y Celular, Universidad de Zaragoza, Zaragoza, 50009, Spain
 A R T I C L E I N F O
 Keywords:
@@ -55,7 +55,7 @@ isothermal titration calorimetry; MW, molecular weight; NMR, nuclear magnetic re
 spectroscopy; PADI, peptidyl arginine iminohydrolase; PCGF, Polycomb group ring finger; PRC, Polycomb repressive complex; PTM, post-translational modification; 
 RAWUL, RING-finger and WD40-associated ubiquitin-like; RING, really interesting new gene; RYBP, RING 1A and YY1 binding protein; TCEP, tris(2-carboxyethyl) 
 phosphine; TOCSY, total correlation spectroscopy; TSC, thiosemicarbazide; TSP, 3-(trimethylsilyl) propionic acid-2,2,3,3-2H4-sodium salt; UV, ultraviolet.
-* Corresponding author. IDIBE, Edificio Torregait ́an, Universidad Miguel Hern ́andez, Avda. del Ferrocarril s/n, 03202, Elche (Alicante), Spain.
+* Corresponding author. IDIBE, Edificio Torregait´an, Universidad Miguel Hern´andez, Avda. del Ferrocarril s/n, 03202, Elche (Alicante), Spain.
 E-mail address: jlneira@umh.es (J.L. Neira). 
 1 These two authors contributed equally to this work.
 Contents lists available at ScienceDirect
@@ -65,7 +65,8 @@ https://doi.org/10.1016/j.abb.2026.110955
 Received 25 June 2026; Received in revised form 29 July 2026; Accepted 1 August 2026 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 Available online 3 August 2026 
-0003-9861/© 2026 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/bync/4.0/ ). 
+0003-9861/© 2026 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by- 
+nc/4.0/ ). 
 
 Polycomb genes were firstly discovered over 70 years ago in 
 Drosophila melanogaster, where they are needed for repression of the 
@@ -126,7 +127,8 @@ In this work, we wondered whether the isolated regions around those
 arginine residues of RYBP and C-RING1B polypeptides were also capable 
 of binding to PADI4. To answer those questions, we synthesized two 
 peptides for C-RING1B (the wild-type and the citrulline-modified one at 
-Arg231), and three peptides for RYBP (the wild-type, the citrullinemodified at Arg53, and the citrulline-modified at Arg56 [36]). We first 
+Arg231), and three peptides for RYBP (the wild-type, the citrulline- 
+modified at Arg53, and the citrulline-modified at Arg56 [36]). We first 
 characterized the conformational features of these isolated peptides by 
 diffusion ordered spectroscopy (DOSY), 1D- and 2D-1H NMR, and we 
 found that all of them were disordered and monomeric in aqueous so­
@@ -189,7 +191,7 @@ For the titration of PADI4 with the peptides, increasing concentra­
 tions of the latter, in the range 0-200 μM (for the C-RING1B peptides) 
 and 0-40 μM (for the RYBP ones), were added to a solution with a fixed 
 amount of the protein (2 μM in protomer units). Experiments were 
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 2 
 
@@ -259,7 +261,8 @@ determined from a comparison with the Rh of dioxane added to the so­
 lution [40].
 2.5.3. 2D-1H NMR spectra
 Two-dimensional spectra of the C-RING1B and RYBP peptides were 
-acquired in each dimension in phase-sensitive mode by using the timeproportional phase incrementation technique [50] and a spectral 
+acquired in each dimension in phase-sensitive mode by using the time- 
+proportional phase incrementation technique [50] and a spectral 
 width of 5500 Hz; peptide concentration was the same used for the 
 1D-1H NMR spectra. Standard TOCSY (with a mixing time of 80 ms) [51] 
 and NOESY experiments (with a mixing time of 250 ms) [52] were 
@@ -292,7 +295,8 @@ peptides compete for the binding to the active site. In this case, GSK484
 was added to the calorimetric cell solution at a concentration of 500 μM.
 The binding isotherms were obtained by integrating the heats per 
 injections in the thermograms and normalizing by the amount of ligand 
-injected per injection. Data analysis was performed by non-linear leastsquares regression data analysis employing a user-defined fitting routine 
+injected per injection. Data analysis was performed by non-linear least- 
+squares regression data analysis employing a user-defined fitting routine 
 in Origin 7.0 (OriginLab, Northampton, MA) and considering a single 
 binding-site model. The equilibrium association constant, Ka (and the 
 dissociation constant, Kd = 1/Ka), and the apparent binding stoichiom­
@@ -304,11 +308,13 @@ Hydrodynamic properties of the C-RING1B and RYBP peptides.a.
 Polycomb peptides
 D (cm2 s−1) (Rh, Å)b
 Rh, Åc
-D221GASEIELVFRPHPTLMEKD240 (C-RINGwt)
+D221GASEIELVFRPHPTLMEKD240 (C-RING- 
+wt)
 (1.99 ± 0.06) × 10−6 
 (13 ± 1)
 13 ± 2
-D221GASEIELVFCitPHPTLMEKD240 (C-RINGR231)
+D221GASEIELVFCitPHPTLMEKD240 (C-RING- 
+R231)
 (1.90 ± 0.03) × 10−6 
 (14 ± 2)
 13 ± 2
@@ -324,7 +330,8 @@ K48GTSTRKPCitINSQLVAQQ65Y (RYBP-R56)
 (1.89 ± 0.06) × 10−6 
 (13 ± 2)
 12 ± 2
-a All the peptides were amidated at their C-termini, and acetylated at their Ntermini. The MW for the C-RING-wt peptide is 2284.57 Da. The MW for the 
+a All the peptides were amidated at their C-termini, and acetylated at their N- 
+termini. The MW for the C-RING-wt peptide is 2284.57 Da. The MW for the 
 RYBP-wt peptide is 2175.48 Da. The modified citrullines are indicated in bold.
 b The Rh was determined by using the translational diffusion coefficient of 
 dioxane, Rh, of 2.12 Å [40] and the Stokes-Einstein equation. Errors in D values 
@@ -334,7 +341,7 @@ c Calculated from the scale law: Rh = (0.027 ± 0.01) MW (0.50±0.01) [41],
 where MW is the molecular weight of the peptide. Errors are due to propagation 
 errors resulting from the equation used. The difference in MW between the 
 wild-type species and each citrulline variant is 1 Da per introduced citrulline.
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 3 
 
@@ -376,13 +383,14 @@ Fitting of the sensorgrams was carried out as described elsewhere
 [61,62,67]. Briefly, the response during the association step, R(t), to the 
 biosensor-bound-PADI4, was fitted to: 
 R(t) = Req −Reqe(−kobs (t−t0)) −
- ́Req( t −t0)
+´Req( t −t0)
 (2) 
 where the last term was included to consider the linear drift observed at 
 longer times. In this equation, Req is the steady-state (or equilibrium) 
 response obtained at infinite time, when dR(t)/dt = 0, and t0 = 180 s is 
 the time at which the association step started. The value of kobs obtained 
-at different peptide concentrations, [Pep], is given by the pseudo-firstorder equation: 
+at different peptide concentrations, [Pep], is given by the pseudo-first- 
+order equation: 
 kobs = kon [Pep] + koff
 (3) 
 where the kon and koff are, respectively, the kinetic association and 
@@ -390,12 +398,12 @@ dissociation rates of the binding reaction of the corresponding peptide to
 PADI4.
 The dissociation process was fitted with R(t) given by: 
 R(t) = R2 −R1 e(−koff (t−t0)) −
- ́R ́ ́eq( t −t0)
+´R´´eq( t −t0)
 (4) 
 where t0 = 300 is the time at which the dissociation of the peptide from 
 the biosensor-bound-PADI4 started in our experimental set-up, R1 is the 
 response level when dissociation starts, R2 is the response at infinite time 
-values, and the last term, ́R ́ ́eq, was included to consider the linear drift 
+values, and the last term, ´R´´eq, was included to consider the linear drift 
 observed at longer times. Separated fittings of the association and the 
 dissociation steps to Eqs. (2) and (4), at the different peptide concen­
 trations, were carried out by using KaleidaGraph. Fitting to Eq. (3) (the 
@@ -460,15 +468,17 @@ were found to be mainly disordered in solution, as suggested by two
 pieces of evidence. First, the sequence-corrected conformational shifts 
 (Δδ) of Hα protons of all peptides for unambiguously assigned residues 
 were within the commonly accepted range for random-coil peptides 
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 4 
 
-(Δδ ≤0.1 ppm) (Tables ST1 to ST5). And second, no long- or mediumrange NOEs were detected, but only sequential ones (i.e., αN (i, i+1) 
+(Δδ ≤0.1 ppm) (Tables ST1 to ST5). And second, no long- or medium- 
+range NOEs were detected, but only sequential ones (i.e., αN (i, i+1) 
 and βN (i, i+1)) in the polypeptide patches fully assigned (Fig. 2). It is 
 interesting to note that citrullination did not affect the chemical shifts of 
 backbone or side-chain protons (Tables ST1 to ST5).
-It is important to indicate that the region around Arg231 in CRING1B appears disordered in the X-ray structure of this domain (PDB 
+It is important to indicate that the region around Arg231 in C- 
+RING1B appears disordered in the X-ray structure of this domain (PDB 
 code: 3H8H [73]). Furthermore, the region around Arg53 and Arg56 in 
 RYBP in the cryo-electron microscopy structure of a complex with other 
 proteins show that both arginines also belong to a disordered 
@@ -486,7 +496,7 @@ sodium phosphate buffer).
 Fig. 2. NOE diagrams of the isolated C-RING1B and RYBP peptides in aqueous solution from the 2D-1H NMR NOESY spectra: NOEs are classified as strong, 
 medium or weak, and represented by the height of the bar underneath the sequence; signal intensity was judged from the NOESY experiments. The dotted lines 
 indicate NOE contacts that could not be unambiguously assigned due to signal overlapping. A white square indicates an αδ(i,i+1) NOEs involving a proline residue.
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 5 
 
@@ -520,7 +530,8 @@ in the binding to these peptides.
 The calorimetric titrations of the Polycomb peptides provided direct 
 evidence for their interaction with PADI4 (Table 3, Fig. 4). The binding 
 affinity of the unmodified C-RING1B and RYBP peptides was in the low 
-micromolar range, similar to other previously characterized noncitrullinated peptides [61,62,72]. The citrullination of particular argi­
+micromolar range, similar to other previously characterized non- 
+citrullinated peptides [61,62,72]. The citrullination of particular argi­
 nines caused a decrease in the binding affinity; interestingly, the most 
 significant change was observed in the RYBP-R56 peptide. Additional 
 experiments performed by adding GSK484, an orthosteric inhibitor of 
@@ -610,7 +621,7 @@ RYBP-R56
 1.0
 a Relative error in Ka and Kd is 30 %, obtained from two measurements. 
 Determined at 25 ◦C.
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 6 
 
@@ -672,7 +683,7 @@ a Obtained from pseudo-first order plots. Error for kon is the fitting error to 
 (3). Determined at 25 ◦C.
 b Errors are obtained from propagation errors for kon and koff. The estimation 
 of the Kd is carried out assuming that the binding process was two-state [74].
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 7 
 
@@ -759,7 +770,7 @@ Pseudo-first-order plots of the binding of C-RING-wt and C-RING-R231 peptides
 to PADI4. The error bars of the fittings to Eq. (2) at each peptide concentration 
 are indicated. Experiments were carried out at 25 ◦C. Experiments were 
 repeated twice.
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 8 
 
@@ -816,7 +827,8 @@ constitute one more step towards the understanding of complex epige­
 netic mechanisms, because the Polycomb system intervenes in crucial 
 pathways that include development during embryogenesis, preservation 
 of cell plasticity for specialization, and safeguarding of cell identity 
-during growth. All these mechanisms are crucial in preventing misregulation or mutations that might lead to cancer. The effect of cit­
+during growth. All these mechanisms are crucial in preventing mis- 
+regulation or mutations that might lead to cancer. The effect of cit­
 rullination in this context is still poorly understood, and studies on this 
 irreversible PTM seem to be still too sparse to get a general picture. In 
 this context, our study constitutes one more indication of involvement of 
@@ -824,7 +836,8 @@ PADI4 (and possibly other PADI isoenzymes) on physiopathological
 process involving Polycomb proteins. Although it might be too early to 
 draw conclusions on all the possible implications, we hope that this 
 could have an impact to reveal future opportunities in cancer therapies.
-Fig. 6. Docking poses of C-RING1B and RYBP peptides on PADI4 obtained by using the algorithm DiffDock: (A) Best docking poses for wild-type peptides, CRING-wt (green) and RYBP-wt (pink). PADI4 monomer in ribbon representation, with the C-terminal domain (residues 295−663) and active site (around residue 
+Fig. 6. Docking poses of C-RING1B and RYBP peptides on PADI4 obtained by using the algorithm DiffDock: (A) Best docking poses for wild-type peptides, C- 
+RING-wt (green) and RYBP-wt (pink). PADI4 monomer in ribbon representation, with the C-terminal domain (residues 295−663) and active site (around residue 
 Cys645) explicitly labeled. The best five docking poses (red, orange, yellow, cyan, and blue) of citrullinated peptides are shown for (B) C-RING-R231, (C) RYBP-R53, 
 and (D) RYBP-R56.
 Table 5 
@@ -843,7 +856,7 @@ RYBP-R53
 −3.29 ± 0.24
 RYBP-R56
 −3.35 ± 0.25
-M.G. ́Alvarez-Rodríguez et al. 
+M.G. ´Alvarez-Rodríguez et al. 
 Archives of Biochemistry and Biophysics 785 (2026) 110955 
 9 
 
@@ -864,7 +877,7 @@ Table (ST6) containing the confidence scores for the five most favorable
 docking poses of shortened C-RING1B and RYBP peptides to the C-ter­
 minal domain of PADI4 as obtained with the DiffDock algorithm.
 CRediT authorship contribution statement
-María Gabriela ́Alvarez-Rodríguez: Formal analysis, Investigation, 
+María Gabriela ´Alvarez-Rodríguez: Formal analysis, Investigation, 
 Methodology, Writing – review & editing. Emanuel Capone: Formal 
 analysis, Investigation, Writing – review & editing. Sonia Vega: Formal 
 analysis, Investigation, Writing – review & editing. Virginia Rejas: 
@@ -874,15 +887,16 @@ administration, Supervision, Writing – original draft, Writing – review &
 editing. Adrian Velazquez-Campoy: Conceptualization, Formal anal­
 ysis, Funding acquisition, Investigation, Methodology, Project admin­
 istration, Supervision, Writing – original draft, Writing – review & 
-editing. Jos ́e L. Neira: Conceptualization, Formal analysis, Funding 
+editing. Jos´e L. Neira: Conceptualization, Formal analysis, Funding 
 acquisition, Investigation, Methodology, Project administration, Super­
 vision, Writing – original draft, Writing – review & editing.
 Conflict of interest
 The authors declare no conflict of interest.
 Acknowledgements
-This research was funded by Ministerio de Ciencia, Innovaci ́on y 
+This research was funded by Ministerio de Ciencia, Innovaci´on y 
 Universidades MCIN/AEI/10.13039/501100011033/and “ERDF A way 
-of Making Europe” [PID2021-127296OB-I00 and PID2024-160408OBI00 to AVC]; Consellería de Educaci ́on, Cultura, Universidades y Empleo 
+of Making Europe” [PID2021-127296OB-I00 and PID2024-160408OB- 
+I00 to AVC]; Consellería de Educaci´on, Cultura, Universidades y Empleo 
 (Generalitat Valenciana) [CIACO/2024/17 to JLN and AVC]. This 
 research was also funded by Next Generation EU program, Italian PNNR, 
 Mission 4, Component 2, Investment 1.5, “Innovation Ecosystems” 
@@ -899,3 +913,288 @@ Supplementary data to this article can be found online at https://doi.
 org/10.1016/j.abb.2026.110955.
 Data availability
 Data will be made available on request.
+References
+[1] J.A. Zepeda-Martinez, C. Pribitzer, J. Wang, D. Bsteh, S. Golumbeanu, Q. Zhao, T. 
+R. Burkard, B. Reichholf, S.K. Rhie, J. Jude, H.F. Moussa, J. Zuber, O. Bell, Parallel 
+PRC2/cPRC1 and vPRC1 pathways silence lineage-specific genes and maintain self- 
+renewal in mouse embryonic stem cells, Sci. Adv. 6 (2020) 5692–5693, https://doi. 
+org/10.1126/SCIADV.AAX5692. WEBSITE:WEBSITE:AAAS-SITE;ISSUE:ISSUE: 
+DOI.
+[2] M. Leeb, D. Pasini, M. Novatchkova, M. Jaritz, K. Helin, A. Wutz, Polycomb 
+complexes act redundantly to repress genomic repeats and genes, Genes Dev. 24 
+(2010) 265–276, https://doi.org/10.1101/GAD.544410.
+[3] I. Cohen, C. Bar, H. Liu, V.J. Valdes, D. Zhao, P.M. Galbo, J.M. Silva, H. Koseki, 
+D. Zheng, E. Ezhkova, Polycomb complexes redundantly maintain epidermal stem 
+cell identity during development, Genes Dev. 35 (2021) 354–366, https://doi.org/ 
+10.1101/GAD.345363.120.
+[4] S. Maezawa, K. Hasegawa, M. Yukawa, A. Sakashita, K.G. Alavattam, P. 
+R. Andreassen, M. Vidal, H. Koseki, A. Barski, S.H. Namekawa, Polycomb directs 
+timely activation of germline genes in spermatogenesis, Genes Dev. 31 (2017) 
+1693–1703, https://doi.org/10.1101/GAD.302000.117.
+[5] C. Creppe, A. Palau, R. Malinverni, V. Valero, M. Buschbeck, A Cbx8-containing 
+polycomb complex facilitates the transition to gene activation during ES cell 
+differentiation, PLoS Genet. 10 (2014), https://doi.org/10.1371/JOURNAL. 
+PGEN.1004851.
+[6] A. Frangini, M. Sj¨oberg, M. Roman-Trufero, G. Dharmalingam, V. Haberle, 
+T. Bartke, B. Lenhard, M. Malumbres, M. Vidal, N. Dillon, The Aurora B kinase and 
+the polycomb protein Ring1B combine to regulate active promoters in quiescent 
+lymphocytes, Mol. Cell 51 (2013) 647–661, https://doi.org/10.1016/j. 
+molcel.2013.08.022.
+[7] Z. Gao, P. Lee, J.M. Stafford, M. Von Schimmelmann, A. Schaefer, D. Reinberg, An 
+AUTS2-Polycomb complex activates gene expression in the CNS, Nature 516 
+(2014) 349–354, https://doi.org/10.1038/NATURE13921.
+[8] L.A. Boyer, K. Plath, J. Zeitlinger, T. Brambrink, L.A. Medeiros, T.I. Lee, S.S. Levine, 
+M. Wernig, A. Tajonar, M.K. Ray, G.W. Bell, A.P. Otte, M. Vidal, D.K. Gifford, R. 
+A. Young, R. Jaenisch, Polycomb complexes repress developmental regulators in 
+murine embryonic stem cells, Nature 441 (2006) 349–353, https://doi.org/ 
+10.1038/NATURE04733.
+[9] I. Cohen, D. Zhao, C. Bar, V.J. Valdes, K.L. Dauber-Decker, M.B. Nguyen, 
+M. Nakayama, M. Rendl, W.A. Bickmore, H. Koseki, D. Zheng, E. Ezhkova, PRC1 
+fine-tunes gene repression and activation to safeguard skin development and stem 
+cell specification, Cell Stem Cell 22 (2018) 726–739.e7, https://doi.org/10.1016/j. 
+stem.2018.04.005.
+[10] J.A. Kassis, J.A. Kennison, J.W. Tamkun, Polycomb and trithorax group genes in 
+drosophila, Genetics 206 (2017) 1699–1725, https://doi.org/10.1534/ 
+GENETICS.115.185116.
+[11] B. Schuettengruber, H.M. Bourbon, L. Di Croce, G. Cavalli, Genome regulation by 
+polycomb and trithorax: 70 years and counting, Cell 171 (2017) 34–57, https:// 
+doi.org/10.1016/j.cell.2017.08.002.
+[12] M. de Napoles, J.E. Mermoud, R. Wakao, Y.A. Tang, M. Endoh, R. Appanah, T. 
+B. Nesterova, J. Silva, A.P. Otte, M. Vidal, H. Koseki, N. Brockdorff, Polycomb 
+group proteins ring1A/B link ubiquitylation of histone H2A to heritable gene 
+silencing and X inactivation, Dev. Cell 7 (2004) 663–676, https://doi.org/ 
+10.1016/j.devcel.2004.10.005.
+[13] H. Wang, L. Wang, H. Erdjument-Bromage, M. Vidal, P. Tempst, R.S. Jones, 
+Y. Zhang, Role of histone H2A ubiquitination in polycomb silencing, Nature 431 
+(2004) 873–878, https://doi.org/10.1038/NATURE02985.
+[14] V.G. L´opez, M.I. Valencia-S´anchez, S. Abini-Agbomson, J.F. Thomas, R. Lee, P. De 
+Ioannes, B.A. Sosa, J.P. Armache, K.J. Armache, Read-write mechanisms of H2A 
+ubiquitination by polycomb repressive complex 1, Nature 636 (2024) 755–761, 
+https://doi.org/10.1038/S41586-024-08183-5.
+[15] M. Ciapponi, E. Karlukova, S. Schk¨olziger, C. Benda, J. Müller, Structural basis of 
+the histone ubiquitination read-write mechanism of RYBP-PRC1, Nat. Struct. Mol. 
+Biol. 31 (2024) 1023–1027, https://doi.org/10.1038/S41594-024-01258-X.
+[16] R. Cao, L. Wang, H. Wang, L. Xia, H. Erdjument-Bromage, P. Tempst, R.S. Jones, 
+Y. Zhang, Role of histone H3 lysine 27 methylation in Polycomb-group silencing, 
+Science 298 (2002) 1039–1043, https://doi.org/10.1126/SCIENCE.1076997.
+[17] B. Czermin, R. Melfi, D. McCabe, V. Seitz, A. Imhof, V. Pirrotta, Drosophila 
+enhancer of Zeste/ESC complexes have a histone H3 methyltransferase activity 
+that marks chromosomal polycomb sites, Cell 111 (2002) 185–196, https://doi. 
+org/10.1016/S0092-8674(02)00975-3.
+[18] B. Tolhuis, I. Muijrers, E. De Wit, H. Teunissen, W. Talhout, B. Van Steensel, M. Van 
+Lohuizen, Genome-wide profiling of PRC1 and PRC2 polycomb chromatin binding 
+in Drosophila melanogaster, Nat. Genet. 38 (2006) 694–699, https://doi.org/ 
+10.1038/NG1792.
+[19] N.A. Fursova, N.P. Blackledge, M. Nakayama, S. Ito, Y. Koseki, A.M. Farcas, H. 
+W. King, H. Koseki, R.J. Klose, Synergy between variant PRC1 complexes defines 
+polycomb-mediated gene repression, Mol. Cell 74 (2019) 1020–1036.e8, https:// 
+doi.org/10.1016/j.molcel.2019.03.024.
+[20] N.P. Blackledge, R.J. Klose, The molecular principles of gene regulation by 
+polycomb repressive complexes, Nat. Rev. Mol. Cell Biol. 22 (2021) 815–833, 
+https://doi.org/10.1038/S41580-021-00398-Y.
+[21] R.K. McGinty, R.C. Henrici, S. Tan, Crystal structure of the PRC1 ubiquitylation 
+module bound to the nucleosome, Nature 514 (2014) 591–596, https://doi.org/ 
+10.1038/NATURE13890.
+[22] G. Buchwald, P. Van Der Stoop, O. Weichenrieder, A. Perrakis, M. Van Lohuizen, T. 
+K. Sixma, Structure and E3-ligase activity of the ring-ring complex of polycomb 
+M.G. ´Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+10 
+
+proteins Bmi1 and Ring1b, EMBO J. 25 (2006) 2465–2474, https://doi.org/ 
+10.1038/SJ.EMBOJ.7601144.
+[23] Z. Li, R. Cao, M. Wang, M.P. Myers, Y. Zhang, R.M. Xu, Structure of a Bmi-1-Ring1B 
+polycomb group ubiquitin ligase complex, J. Biol. Chem. 281 (2006) 
+20643–20649, https://doi.org/10.1074/jbc.M602461200.
+[24] Z. Shao, F. Raible, R. Mollaaghababa, J.R. Guyon, C.T. Wu, W. Bender, R. 
+E. Kingston, Stabilization of chromatin structure by PRC1, a polycomb complex, 
+Cell 98 (1999) 37–46, https://doi.org/10.1016/S0092-8674(00)80604-2.
+[25] R. Wang, A.B. Taylor, B.Z. Leal, L.V. Chadwell, U. Ilangovan, A.K. Robinson, 
+V. Schirf, P.J. Hart, E.M. Lafer, B. Demeler, A.P. Hinck, D.G. McEwen, C.A. Kim, 
+Polycomb group targeting through different binding partners of RING1B C- 
+terminal domain, Structure 18 (2010) 966–975, https://doi.org/10.1016/j. 
+str.2010.04.013.
+[26] J.L. Neira, M. Rom´an-Trufero, L.M. Contreras, J. Prieto, G. Singh, F.N. Barrera, M. 
+L. Renart, M. Vidal, The transcriptional repressor RYBP is a natively unfolded 
+protein which folds upon binding to DNA, Biochemistry 48 (2009) 1348–1360, 
+https://doi.org/10.1021/BI801933C.
+[27] E. Garcia, C. Marcos-Guti´errez, M. Del Mar Lorente, J.C. Moreno, M. Vidal, RYBP, a 
+new repressor protein that interacts with components of the mammalian polycomb 
+complex, and with the transcription factor YY1, EMBO J. 18 (1999) 3404–3418, 
+https://doi.org/10.1093/EMBOJ/18.12.3404.
+[28] L. Tavares, E. Dimitrova, D. Oxley, J. Webster, R. Poot, J. Demmers, K. Bezstarosti, 
+S. Taylor, H. Ura, H. Koide, A. Wutz, M. Vidal, S. Elderkin, N. Brockdorff, RYBP- 
+PRC1 complexes mediate H2A ubiquitylation at polycomb target sites 
+independently of PRC2 and H3K27me3, Cell 148 (2012) 664–678, https://doi.org/ 
+10.1016/j.cell.2011.12.029.
+[29] Z. Gao, J. Zhang, R. Bonasio, F. Strino, A. Sawai, F. Parisi, Y. Kluger, D. Reinberg, 
+PCGF homologs, CBX proteins, and RYBP define functionally distinct PRC1 family 
+complexes, Mol. Cell 45 (2012) 344–356, https://doi.org/10.1016/j. 
+molcel.2012.01.002.
+[30] D.J. Slade, S. Horibata, S.A. Coonrod, P.R. Thompson, A novel role for protein 
+arginine deiminase 4 in pluripotency: the emerging role of citrullinated histone H1 
+in cellular programming, Bioessays 36 (2014) 736–740, https://doi.org/10.1002/ 
+BIES.201400057.
+[31] B. Wang, L. Fields, L. Li, Recent advances in characterization of citrullination and 
+its implication in human disease research: from method development to network 
+integration, Proteomics 23 (2023), https://doi.org/10.1002/PMIC.202200286.
+[32] L. Love, B.B. Jütte, B. Lindqvist, H. Rohdjess, O. Kieri, P. Nowak, J.P. Svensson, 
+PADI4-mediated citrullination of histone H3 stimulates HIV-1 transcription, Nat. 
+Commun. 16 (2025), https://doi.org/10.1038/S41467-025-61029-0.
+[33] S. Shimoyama, A. Nagadoi, H. Tachiwana, M. Yamada, M. Sato, H. Kurumizaka, 
+Y. Nishimura, S. Akashi, Deimination stabilizes histone H2A/H2B dimers as 
+revealed by electrospray ionization mass spectrometry, J. Mass Spectrom. 45 
+(2010) 900–908, https://doi.org/10.1002/JMS.1778.
+[34] C. Tanikawa, M. Espinosa, A. Suzuki, K. Masuda, K. Yamamoto, E. Tsuchiya, 
+K. Ueda, Y. Daigo, Y. Nakamura, K. Matsuda, Regulation of histone modification 
+and chromatin structure by the p53-PADI4 pathway, Nat. Commun. 3 (2012), 
+https://doi.org/10.1038/NCOMMS1676.
+[35] S. Kolodziej, O.N. Kuvardina, T. Oellerich, J. Herglotz, I. Backert, N. Kohrs, E. La 
+Buscat´o, S.K. Wittmann, G. Salinas-Riester, H. Bonig, M. Karas, H. Serve, 
+E. Proschak, J. Lausen, PADI4 acts as a coactivator of Tal1 by counteracting 
+repressive histone arginine methylation, Nat. Commun. 5 (2014), https://doi.org/ 
+10.1038/NCOMMS4995.
+[36] S. Araujo-Abad, M. Fuentes-Baile, B. Rizzuti, J.F. Baz´an, A. Villamarin-Ortiz, 
+M. Saceda, E. Fern´andez, M. Vidal, O. Abian, A. Velazquez-Campoy, C. de Juan 
+Romero, J.L. Neira, The intrinsically disordered, epigenetic factor RYBP binds to 
+the citrullinating enzyme PADI4 in cancer cells, Int. J. Biol. Macromol. 246 (2023), 
+https://doi.org/10.1016/j.ijbiomac.2023.125632.
+[37] S. Araujo-Abad, B. Rizzuti, L. Soto-Conde, M. Vidal, O. Abian, A. Velazquez- 
+Campoy, J.L. Neira, C. de Juan Romero, Citrullinating enzyme PADI4 and 
+transcriptional repressor RING1B bind in cancer cells, Int. J. Biol. Macromol. 274 
+(2024), https://doi.org/10.1016/j.ijbiomac.2024.133163.
+[38] J.L. Neira, S. Araujo-Abad, A. C´amara-Artigas, B. Rizzuti, O. Abian, A.M. Giudici, 
+A. Velazquez-Campoy, C. de Juan Romero, Biochemical and biophysical 
+characterization of PADI4 supports its involvement in cancer, Arch. Biochem. 
+Biophys. 717 (2022), https://doi.org/10.1016/j.abb.2022.109125.
+[39] S.C. Gill, P.H. von Hippel, Calculation of protein extinction coefficients from amino 
+acid sequence data, Anal. Biochem. 182 (1989) 319–326, https://doi.org/ 
+10.1016/0003-2697(89)90602-7.
+[40] D.K. Wilkins, S.B. Grimshaw, V. Receveur, C.M. Dobson, J.A. Jones, L.J. Smith, 
+Hydrodynamic radii of native and denatured proteins measured by pulse field 
+gradient NMR techniques, Biochemistry 38 (1999) 16424–16431, https://doi.org/ 
+10.1021/BI991765Q.
+[41] J. Danielsson, J. Jarvet, P. Damberg, A. Gr¨aslund, Translational diffusion measured 
+by PFG-NMR on full length and fragments of the Alzheimer Aβ(1–40) peptide. 
+Determination of hydrodynamic radii of random coil peptides of varying length, 
+Magn. Reson. Chem. 40 (2002) S89–S97, https://doi.org/10.1002/MRC.1132.
+[42] C.N. Pace, F.X. Schmid, How to determine the molar absorbance coefficient of a 
+protein, in: T.E. Creighton (Ed.), Protein Structure: A Practical Approach, 1997, 
+pp. 253–260, https://doi.org/10.1093/OSO/9780199636198.003.0010.
+[43] J.L. Neira, F. Hornos, J. Bacarizo, A. C´amara-Artig´as, J. G´omez, The monomeric 
+species of the regulatory domain of tyrosine hydroxylase has a low conformational 
+stability, Biochemistry 55 (2016) 3418–3431, https://doi.org/10.1021/ACS. 
+BIOCHEM.6B00135/SUPPL_FILE/BI6B00135_SI_001.PDF.
+[44] B. Birdsall, R.W. King, M.R. Wheeler, C.A. Lewis, S.R. Goode, R.B. Dunlap, G.C. 
+K. Roberts, Correction for light absorption in fluorescence studies of protein-ligand 
+interactions, Anal. Biochem. 132 (1983) 353–361, https://doi.org/10.1016/0003- 
+2697(83)90020-9.
+[45] D. Beckett, Measurement and analysis of equilibrium binding titrations: a 
+beginner's guide, Methods Enzymol. 488 (2011) 1–16, https://doi.org/10.1016/ 
+B978-0-12-381268-1.00001-X.
+[46] C.A. Royer, S.F. Scarlata, Chapter 5 fluorescence approaches to quantifying 
+biomolecular interactions, Methods Enzymol. 450 (2008) 79–106, https://doi.org/ 
+10.1016/S0076-6879(08)03405-8.
+[47] J. Cavanagh, W.J. Fairbrother, A.G. Palmer, N.J. Skelton, Protein NMR 
+Spectroscopy: Principles and Practice, second ed., 2007.
+[48] M. Piotto, V. Saudek, V. Sklen´aˇr, Gradient-tailored excitation for single-quantum 
+NMR spectroscopy of aqueous solutions, J. Biomol. NMR 2 (1992) 661–665, 
+https://doi.org/10.1007/BF02192855.
+[49] C.S. Johnson, Diffusion ordered nuclear magnetic resonance spectroscopy: 
+principles and applications, Prog. Nucl. Magn. Reson. Spectrosc. 34 (1999) 
+203–256, https://doi.org/10.1016/S0079-6565(99)00003-5.
+[50] D. Marion, K. Wüthrich, Application of phase sensitive two-dimensional correlated 
+spectroscopy (COSY) for measurements of 1H-1H spin-spin coupling constants in 
+proteins, Biochem. Biophys. Res. Commun. 113 (1983) 967–974, https://doi.org/ 
+10.1016/0006-291X(83)91093-8.
+[51] A. Bax, D.G. Davis, MLEV-17-based two-dimensional homonuclear magnetization 
+transfer spectroscopy, J. Magn. Reson. 65 (1985) 355–360, https://doi.org/ 
+10.1016/0022-2364(85)90018-6.
+[52] A. Kumar, R.R. Ernst, K. Wüthrich, A two-dimensional nuclear Overhauser 
+enhancement (2D NOE) experiment for the elucidation of complete proton-proton 
+cross-relaxation networks in biological macromolecules, Biochem. Biophys. Res. 
+Commun. 95 (1980) 1–6, https://doi.org/10.1016/0006-291X(80)90695-6.
+[53] J. Cavanagh, M. Rance, Suppression of cross-relaxation effects in TOCSY spectra 
+via a modified DIPSI-2 mixing sequence, J. Magn. Reson. 96 (1992) 670–678, 
+https://doi.org/10.1016/0022-2364(92)90357-D.
+[54] K. Wüthrich, NMR of Proteins and Nucleic Acids, Academic Press, New York, 1986.
+[55] M. Kjaergaard, F.M. Poulsen, Sequence correction of random coil chemical shifts: 
+correlation between neighbor correction factors and changes in the Ramachandran 
+distribution, J. Biomol. NMR 50 (2011) 157–165, https://doi.org/10.1007/ 
+S10858-011-9508-2/METRICS.
+[56] M. Kjaergaard, S. Brander, F.M. Poulsen, Random coil chemical shift for 
+intrinsically disordered proteins: effects of temperature and pH, J. Biomol. NMR 49 
+(2011) 139–149, https://doi.org/10.1007/S10858-011-9472-X/METRICS.
+[57] A. Holm, F. Rise, N. Sessler, L.M. Sollid, K. Undheim, B. Fleckenstein, Specific 
+modification of peptide-bound citrulline residues, Anal. Biochem. 352 (2006) 
+68–76, https://doi.org/10.1016/j.ab.2006.02.007.
+[58] M. Knipp, M. Vaˇs´ak, A colorimetric 96-well microtiter plate assay for the 
+determination of enzymatically formed citrulline, Anal. Biochem. 286 (2000) 
+257–264, https://doi.org/10.1006/abio.2000.4805.
+[59] K. Sugawara, Y. Yoshizawa, S. Tzeng, W.L. Epstein, K. Fukuyama, Colorimetric 
+determination of citrulline residues in proteins, Anal. Biochem. 265 (1998) 92–96, 
+https://doi.org/10.1006/ABIO.1998.2925.
+[60] P.L. Kearney, M. Bhatia, N.G. Jones, L. Yuan, M.C. Glascock, K.L. Catchings, 
+M. Yamada, P.R. Thompson, Kinetic characterization of protein arginine deiminase 
+4: a transcriptional corepressor implicated in the onset and progression of 
+rheumatoid arthritis, Biochemistry 44 (2005) 10570–10582, https://doi.org/ 
+10.1021/BI050292M.
+[61] J.L. Neira, B. Rizzuti, M. Palomino-Sch¨atzlein, V. Rejas, O. Abian, A. Velazquez- 
+Campoy, Citrullination at the N-terminal region of MDM2 by the PADI4 enzyme, 
+Protein Sci. 34 (2025), https://doi.org/10.1002/PRO.70033.
+[62] M.G. ´Alvarez-Rodríguez, S. Vega, F. Hornos, A. Fienco-Bacusoy, O. Abian, 
+A. Velazquez-Campoy, B. Rizzuti, J.L. Neira, Citrullination at the nuclear 
+localization signal of the inhibitor of growth 4 (ING4) interferes with its binding to 
+importin α3, J. Mol. Biol. 438 (2026), https://doi.org/10.1016/j. 
+jmb.2026.169877.
+[63] P.R. Edwards, C.H. Maule, R.J. Leatherbarrow, D.J. Winzor, Second-order kinetic 
+analysis of IAsys biosensor data: its use and applicability, Anal. Biochem. 263 
+(1998) 1–12, https://doi.org/10.1006/abio.1998.2814.
+[64] D.R. Hall, N.N. Gorgani, J.G. Altin, D.J. Winzor, Theoretical and experimental 
+considerations of the pseudo-first-order approximation in conventional kinetic 
+analysis of IAsys biosensor data, Anal. Biochem. 253 (1997) 145–155, https://doi. 
+org/10.1006/abio.1997.2358.
+[65] D.J. O'Shannessy, D.J. Winzor, Interpretation of deviations from pseudo-first-order 
+kinetic behavior in the characterization of ligand binding by biosensor technology, 
+Anal. Biochem. 236 (1996) 275–283, https://doi.org/10.1006/abio.1996.0167.
+[66] D. Frenzel, D. Willbold, Kinetic titration series with biolayer interferometry, PLoS 
+One 9 (2014), https://doi.org/10.1371/JOURNAL.PONE.0106882.
+[67] D. Pantoja-Uceda, J.L. Neira, L. Saelices, R. Robles-Rengel, F.J. Florencio, M. 
+I. Muro-Pastor, J. Santoro, Dissecting the binding between glutamine synthetase 
+and its two natively unfolded protein inhibitors, Biochemistry 55 (2016) 
+3370–3382, https://doi.org/10.1021/ACS.BIOCHEM.6B00072.
+[68] E.F. Pettersen, T.D. Goddard, C.C. Huang, G.S. Couch, D.M. Greenblatt, E.C. Meng, 
+T.E. Ferrin, UCSF Chimera - a visualization system for exploratory research and 
+analysis, J. Comput. Chem. 25 (2004) 1605–1612, https://doi.org/10.1002/ 
+JCC.20084.
+[69] N. Horikoshi, H. Tachiwana, K. Saito, A. Osakabe, M. Sato, M. Yamada, S. Akashi, 
+Y. Nishimura, W. Kagawa, H. Kurumizaka, Structural and biochemical analyses of 
+the human PAD4 variant encoded by a functional haplotype gene, Acta Crystallogr. 
+D Biol. Crystallogr. 67 (2011) 112–118, https://doi.org/10.1107/ 
+S0907444910051711.
+M.G. ´Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+11 
+
+[70] J. Eberhardt, D. Santos-Martins, A.F. Tillack, S. Forli, AutoDock Vina 1.2.0: new 
+docking methods, expanded force field, and python bindings, J. Chem. Inf. Model. 
+61 (2021) 3891–3898, https://doi.org/10.1021/ACS.JCIM.1C00203.
+[71] G. Corso, H. St¨ark, B. Jing, R. Barzilay, T. Jaakkola, DiffDock: diffusion steps, 
+twists, and turns for molecular docking. https://arxiv.org/abs/2210.01776v2, 
+2022. (Accessed 8 September 2024).
+[72] J.L. Neira, B. Rizzuti, O. Abian, A. Velazquez-Campoy, Isolated auto-citrullinated 
+regions of PADI4 associate to the intact protein without altering their disordered 
+conformation, Biophys. Chem. 312 (2024), https://doi.org/10.1016/j. 
+bpc.2024.107288.
+[73] I. Bezsonova, J.R. Walker, J.P. Bacik, S. Duan, S. Dhe-Paganon, C.H. Arrowsmith, 
+Ring1B contains a ubiquitin-like docking module for interaction with cbx proteins, 
+Biochemistry 48 (2009) 10542–10548, https://doi.org/10.1021/BI901131U.
+[74] Alan Fersht, Structure and Mechanism in Protein Science : a Guide to Enzyme 
+Catalysis and Protein Folding, 2017, p. 631.
+[75] S. Araujo-Abad, B. García-Pe˜narrubia, A.M. Giudici, J.L. Neira, B. Rizzuti, C. de 
+Juan Romero, J.A. Poveda, The citrullinating enzyme PADI4 binds to lipids: 
+identification of new target interactions for cancer therapy, J. Mol. Biol. 437 
+(2025), https://doi.org/10.1016/j.jmb.2025.169297.
+M.G. ´Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+12

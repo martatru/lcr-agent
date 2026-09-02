@@ -72,7 +72,8 @@ https://doi.org/10.1002/advs.76625
 FIGURE 1 
 Full-length TDP-43 sequence. (a) Representation of TDP-43 domains. The last 48 residues of the low-complexity domain (LCD) are 
 shown. The location of the phosphorylation sites relevant to this work is indicated by arrows. (b) Amino acid composition of TDP-43 LCD. (c) Schematic 
-representation of the phosphomimetic substitution patterns used in this study, illustrated for a representative C-terminal sequence segment. In the wildtype sequence, the serine residues targeted for phosphorylation are highlighted in red. In the 12D mutant, each of the 12 target serines is replaced by a 
+representation of the phosphomimetic substitution patterns used in this study, illustrated for a representative C-terminal sequence segment. In the wild- 
+type sequence, the serine residues targeted for phosphorylation are highlighted in red. In the 12D mutant, each of the 12 target serines is replaced by a 
 single aspartate (S→D), preserving the wild-type LCD length of 148 residues and introducing a C-terminal block charge of − 12e. In the 12DD mutant, 
 each serine is replaced by two aspartates (S→DD), increasing the C-terminal block charge to − 24e but extending the chain by 12 residues (160 residues 
 total). Two additional control constructs were designed to disentangle charge from chain-length effects: the 12DA mutant, a length-matched analog of 
@@ -80,7 +81,8 @@ total). Two additional control constructs were designed to disentangle charge fr
 the 12DD-148aa mutant, a length-matched analog of 12D in which native residues adjacent to the substitution sites are removed to restore the wild-type 
 LCD length of 148 residues while preserving the − 24e charge. Substituted residues are shown in red. 
 stability, and stress granule formation [ 1 ]. TDP-43 possesses 
-a classical modular architecture (Figure 1a ), including an Nterminal oligomerization domain (NTD), a nuclear localization 
+a classical modular architecture (Figure 1a ), including an N- 
+terminal oligomerization domain (NTD), a nuclear localization 
 signal (NLS), and two RNA-recognition motifs (RRM1 and 
 RRM2). Its disordered C-terminal low-complexity domain (LCD, 
 residues 267–414), rich in glycine, glutamine/asparagine, and 
@@ -89,8 +91,11 @@ role in self-assembly of the protein and in the pathogenesis
 of neurodegenerative diseases [ 3, 4 ]. In post-mortem brains of 
 amyotrophic lateral sclerosis (ALS) and frontotemporal dementia 
 (FTD) patients, as well as 60% of Alzheimer’s disease (AD) 
-patients, TDP-43 is consistently found mislocalized to the cytoplasm, where it accumulates in hyperphosphorylated, ubiquitinated, detergent-insoluble inclusions [ 5, 6 ]. These aggregates 
-have an amyloid-like core, as recently determined by cryoelectron microscopy [ 7, 8 ], but were reported to contain a mixture 
+patients, TDP-43 is consistently found mislocalized to the cyto- 
+plasm, where it accumulates in hyperphosphorylated, ubiqui- 
+tinated, detergent-insoluble inclusions [ 5, 6 ]. These aggregates 
+have an amyloid-like core, as recently determined by cryo- 
+electron microscopy [ 7, 8 ], but were reported to contain a mixture 
 of granular (amorphous) and fibrillar material [ 9 ], and mixtures 
 of full-length TDP-43 and C-terminal fragments of 20–25 kDa 
 comprised mostly of the LCD [ 10, 11 ]. TDP-43 aggregates are 
@@ -100,7 +105,8 @@ changes in RNA processing [ 12–14 ]. Understanding the pathways
 that lead to TDP-43 aggregation is important for developing 
 therapeutic strategies to target the build-up of these toxic protein 
 inclusions. 
-Phase separation (PS) or condensation, which is driven by multivalent interactions between macromolecules, has been suggested 
+Phase separation (PS) or condensation, which is driven by multi- 
+valent interactions between macromolecules, has been suggested 
 as one possible pathway toward TDP-43 aggregation [ 15, 16 ]. 
 While it can be mediated by intrinsically disordered regions 
 (IDRs), which form multiple weak, transient contacts, RNA 
@@ -116,7 +122,8 @@ has not been definitively proven, and another possible route
 to amyloid fibril formation is direct misfolding into β-sheets, 
 followed by “stapling” of misfolded monomers into an amyloid 
 fibril [ 20, 21 ], independent of PS. In fact, several recent studies 
-suggest that PS may even exert a protective effect against pathological amyloid formation [ 22, 23 ]. Beyond phase separation, 
+suggest that PS may even exert a protective effect against patho- 
+logical amyloid formation [ 22, 23 ]. Beyond phase separation, 
 TDP-43 has recently been shown to adopt an additional mode 
 of self-organization. Shinn et al. demonstrated that full-length 
 TDP-43 exhibits a block-copolymer-like architecture that encodes 
@@ -137,7 +144,8 @@ in the C-terminal LCD, including the diagnostically signif-
 Advanced Science, 2026
 
 icant Ser409/410—a marker routinely used in post-mortem 
-neuropathological diagnosis [ 25, 27 ], whereas only 5 diseaseassociated phospho-sites are found in the RRM domains and 2 
+neuropathological diagnosis [ 25, 27 ], whereas only 5 disease- 
+associated phospho-sites are found in the RRM domains and 2 
 in the NLS [ 27 ]. The addition of negatively charged phosphate 
 groups to Ser/Thr residues within the LCD alters the sequence’s 
 charge patterning. TDP-43 LCD is 148 amino acids long (aa: 267–
@@ -145,30 +153,36 @@ charge patterning. TDP-43 LCD is 148 amino acids long (aa: 267–
 aromatics, and glycine), the remaining being mostly polar, as 
 well as 9 charged ones (6 cationic and 3 anionic) and 4 prolines 
 (Figure 1 ). Phase separation of this domain is driven mainly by 
-its aromatic and aliphatic residues [ 28 ], with an additional contribution of cooperative interchain interactions between residues 
+its aromatic and aliphatic residues [ 28 ], with an additional con- 
+tribution of cooperative interchain interactions between residues 
 in the conserved helical region (CR; aa 319–341) [ 3, 29 ]. Mass 
 spectrometry analyzes have revealed that phosphorylation sites 
 are highly enriched in the C-terminal third of the LCD, beyond 
 the conserved helical region: 13 of 13 serines in this region are 
 phosphorylated in disease [ 27, 30, 31 ]. Phosphorylation effectively 
-converts the LCD into a block copolymer-like architecture consisting of a relatively hydrophobic N-terminal and a negatively 
+converts the LCD into a block copolymer-like architecture con- 
+sisting of a relatively hydrophobic N-terminal and a negatively 
 charged, phosphorylated C-terminal “block.” Charged residues 
 can exert a nuanced influence on PS: high net charge generally 
 suppresses PS due to electrostatic repulsion, whereas segregation 
 into blocks of same-sign residues can, in contrast, enhance it [ 32–
 34 ]. Electrostatic interactions are extremely sensitive to the ionic 
 strength of the solvent and pH. 
-Gruijs da Silva et al. previously used a 12 C-terminal phosphomimetic serine-to-aspartate (S→D) substitution to make TDP-43 
-full-length condensates more liquid-like and dynamic, antagonize its aggregation, and enhance its solubility in neurons [ 35 ]. 
+Gruijs da Silva et al. previously used a 12 C-terminal phospho- 
+mimetic serine-to-aspartate (S→D) substitution to make TDP-43 
+full-length condensates more liquid-like and dynamic, antago- 
+nize its aggregation, and enhance its solubility in neurons [ 35 ]. 
 In the present work, we aimed to investigate the effect of these 
 12 phosphorylations. As all of these 12(S→D) mutations are 
 placed within the TDP-43 LCD, we focused on revealing the 
 conformational ensemble and self-organization of TDP-43 LCD. 
-Combining coarse-grained simulations with dynamic light scattering (DLS), negative-stain transmission electron microscopy 
+Combining coarse-grained simulations with dynamic light scat- 
+tering (DLS), negative-stain transmission electron microscopy 
 (TEM), cryo-electron microscopy (cryo-EM), turbidity assays, 
 fluorescence imaging, and fluorescence-based critical micelle 
 concentration (CMC) measurements, we demonstrated that the 
-phosphorylated form of TDP-43 LCD and phosphomimetic variants form stable spherical micelles above the low-micromolar 
+phosphorylated form of TDP-43 LCD and phosphomimetic vari- 
+ants form stable spherical micelles above the low-micromolar 
 CMC. The hydrodynamic diameter of these micelles remains 
 constant across a wide range of concentrations, consistent with 
 classical core–shell micellar behavior. Phosphomimetic mutants 
@@ -179,8 +193,10 @@ contrast, the unphosphorylated TDP-43 LCD (non-phLCD) forms
 dynamic liquid condensates that progressively mature into fibrils 
 under comparable conditions. At high protein concentrations 
 and elevated ionic strength, the 12D and 12DD variants—but 
-not the phosphorylated LCD—were also found to form wormlike micelles. Both negative-stain and cryo-electron microscopy 
-confirm the spherical architecture of these finite nanostructures. Collectively, these findings identify phosphorylation as 
+not the phosphorylated LCD—were also found to form worm- 
+like micelles. Both negative-stain and cryo-electron microscopy 
+confirm the spherical architecture of these finite nanostruc- 
+tures. Collectively, these findings identify phosphorylation as 
 a conformational switch that redirects TDP-43 LCD assembly 
 to tune macrophase separation and potential fibril formation 
 to micellization, revealing a previously unrecognized regulatory 
@@ -194,7 +210,8 @@ Block-Copolymer Architecture That Promotes
 Micellization in Coarse-Grained Simulations 
 To evaluate whether phosphorylation of the TDP-43 LCD could 
 drive micellization, we first performed coarse-grained molecular 
-simulations. Implicit-solvent coarse-grained models enable efficient simulation of condensates containing hundreds of protein 
+simulations. Implicit-solvent coarse-grained models enable effi- 
+cient simulation of condensates containing hundreds of protein 
 chains by averaging out solvent effects and representing each 
 amino acid as a single interaction bead. They sacrifice atomic 
 detail for computational performance, while nonetheless still 
@@ -202,7 +219,8 @@ capturing PS behavior of IDRs [ 36–38 ]. We employed the original
 hydropathy scale (HPS) model, which is widely used for TDP- 
 43 LCD and reproduces experimental trends qualitatively [ 4, 35, 
 39–41 ]. 
-Simulations were conducted for unmodified TDP-43 LCD, phosphorylated TDP-43 LCD-12pS (12 C-terminal phosphoserines), 
+Simulations were conducted for unmodified TDP-43 LCD, phos- 
+phorylated TDP-43 LCD-12pS (12 C-terminal phosphoserines), 
 and the phosphomimetic variant 12D, as previously used by Gruijs 
 da Silva et al. [ 35 ]. In addition, we replaced each phosphoserine 
 with two aspartates to create another phosphomimic that we term 
@@ -216,12 +234,14 @@ the pKa up, bringing it even closer to pH 7. The experimental
 charge patterning of phosphorylated TDP-43 LCD thus likely lies 
 somewhere between the two mutants. Sliding-window profiles 
 of the hydrophobicity parameter ( λ) and net charge per residue 
-reflect differences between phosphorylated and unphosphorylated sequences (Figure 2a ). The unmodified LCD contains few 
+reflect differences between phosphorylated and unphosphory- 
+lated sequences (Figure 2a ). The unmodified LCD contains few 
 charged residues and remains hydrophobic along most of its 
 length. In contrast, TDP-43-LCD-12pS displays a pronounced 
 accumulation of negative charge in the C-terminal region, leading 
 to a sharp local decrease in effective hydrophobicity. The 12D and 
-the 12DD phosphomimetic variants recapitulate this redistribution of charge and hydropathy, consistent with the emergence of 
+the 12DD phosphomimetic variants recapitulate this redistribu- 
+tion of charge and hydropathy, consistent with the emergence of 
 a block-copolymer-like architecture upon phosphorylation. 
 Traditional slab simulations with a fixed number of chains are 
 well suited to study macroscopic phase separation but may be 
@@ -291,8 +311,8 @@ Cluster size distributions (Figure 2d ) for TDP-43 LCD-12pS and
 12DD display distributions characteristic of micellization: a large 
 monomer population, a rapidly decaying oligomer regime, and a 
 pronounced Gaussian-like peak at intermediate cluster sizes [ 45 ]. 
-The distributions were fitted with the equation: f( N) = ae− N∕b + 
-ce−(N−N0 ) 2 ∕2 σ2 , where f(N) denotes the probability density for a 
+The distributions were fitted with the equation: 𝑓( 𝑁) = 𝑎𝑒− 𝑁∕𝑏 + 
+𝑐𝑒−(𝑁−𝑁0 ) 2 ∕2 𝜎2 , where f(N) denotes the probability density for a 
 chain to be located in a cluster of aggregation number N. The 
 variable N refers to the number of protein chains in the micelle 
 and is usually referred to as the micelle’s aggregation number. 
@@ -302,13 +322,15 @@ of 30.6 ± 14.9 chains for 12pS and 30.5 ± 12.2 chains for 12DD
 the size intervals within which clusters are considered micelles 
 in subsequent analyzes of our simulations. 
 Micellization arises when attractive interactions within the 
-hydrophobic block balance the repulsive electrostatic and solvation forces from the residues in the hydrophilic block. Growth 
+hydrophobic block balance the repulsive electrostatic and solva- 
+tion forces from the residues in the hydrophilic block. Growth 
 beyond the preferred aggregation number leads to a tighter 
 packing between amino acids in the corona, which comes with 
 a high electrostatic interfacial penalty to the free energy [ 45 ]. 
 Consistent with this mechanism, shape analysis revealed that 
 larger micelles exhibit increased asphericity and shape anisotropy 
-parameter (Figure S2 ), indicating deformation away from optimal spherical geometry, while acylindricity slightly decreased, 
+parameter (Figure S2 ), indicating deformation away from opti- 
+mal spherical geometry, while acylindricity slightly decreased, 
 reflecting a tendency toward unstable elongated elliptical shapes 
 in oversized assemblies. Sequences prone to phase separation, 
 on the other hand, show a monotonic decrease in asphericity, 
@@ -325,7 +347,8 @@ therefore hydrophobicity and net charge—in all 4 sequences
 (Figure 2a ). The corresponding residue indices are detailed 
 in Table 1 . Per-block density profiles for the most probable 
 cluster sizes (Figure 2f ) reveal clear structural differences. In 
-unphosphorylated LCD droplets, residues are distributed relatively uniformly, with slight enrichment of chain termini at the 
+unphosphorylated LCD droplets, residues are distributed rela- 
+tively uniformly, with slight enrichment of chain termini at the 
 interface, as has been reported for small droplets of hydrophobic 
 polymers [ 46 ]. In contrast, both 12pS and 12DD micelles exhibit 
 pronounced asymmetry: the core density of blocks 1 and 2 is three 
@@ -340,14 +363,16 @@ along the sequence, with 2-2 interactions dominating, followed
 by 2–3, while 1-1 contacts are less frequent, likely due to the 
 modest net positive charge of block 1. In contrast, 3-3 contacts 
 are nearly absent in phosphorylated LCD, as well as in the 12D 
-and 12DD phosphomimetics, reflecting strong repulsive interactions among negatively charged residues in block 3. Contacts 
+and 12DD phosphomimetics, reflecting strong repulsive interac- 
+tions among negatively charged residues in block 3. Contacts 
 between blocks 2-2 and 2–3 also decrease, though to a lesser 
 extent, while 2-1 contacts are minimally affected. Notably, 1- 
 1 contacts remain essentially unchanged and, although least 
 frequent in the unphosphorylated sequence, become among the 
 top three contact types in LCD-12pS and LCD-12DD, suggesting 
 that block 1 contributes significantly to the formation of the 
-micelle’s hydrophobic core. Finally, a localized increase in contacts between negatively charged residues in block 3 and the 
+micelle’s hydrophobic core. Finally, a localized increase in con- 
+tacts between negatively charged residues in block 3 and the 
 few positive residues near the N-terminus of block 1 is observed. 
 Collectively, these contact maps highlight how phosphorylation 
 reshapes the interaction network of TDP-43 LCD, promoting 
@@ -402,7 +427,8 @@ corona significantly decreases the penalty for tighter packing
 of negatively charged amino acids in the corona, reflected by 
 an almost fully flattened U-shaped profile of the asphericity, 
 which allows the micelle to explore a wider array of aggregation 
-numbers. We also observed the formation of short-lived oblongshaped micelles, which could be precursors to wormlike chains 
+numbers. We also observed the formation of short-lived oblong- 
+shaped micelles, which could be precursors to wormlike chains 
 (Figure S4b ), a phenomenon not observed when phosphoserines 
 had charge − 2e and also contributed to the broadening of the 
 aggregation number histogram. 
@@ -431,15 +457,20 @@ supramolecular assembly.
 Overall, the simulations strongly support micellization for 
 TDP-43 LCD-12pS and TDP-43 LCD-12DD, consistent with a 
 phosphorylation-induced block-copolymer architecture. The 12D 
-variant instead seems to favor macroscopic PS; while larger preferred micelle sizes cannot be excluded, distinguishing them from 
+variant instead seems to favor macroscopic PS; while larger pre- 
+ferred micelle sizes cannot be excluded, distinguishing them from 
 phase-separated droplets would require substantially larger-scale 
-simulations. It is important to highlight that, although the simulation methods employed here serve as an important prediction 
-tool, they are intrinsically limited by the high amount of coarsegraining of the force field. Different parameterizations have 
+simulations. It is important to highlight that, although the simu- 
+lation methods employed here serve as an important prediction 
+tool, they are intrinsically limited by the high amount of coarse- 
+graining of the force field. Different parameterizations have 
 been shown to over- and underestimate the effective “stickiness”
 of certain amino acids, and they completely ignore secondary 
-structure—although AlphaFold [ 47 ] predicts preservation of disorder for the phosphomimetics as shown in Figure S7 —as well 
+structure—although AlphaFold [ 47 ] predicts preservation of dis- 
+order for the phosphomimetics as shown in Figure S7 —as well 
 as steric effects and residue ionization. They nonetheless provide 
-significant insight into the phenomena underlying supramolecular assembly of phosphorylated and unphosphorylated TDP-43 
+significant insight into the phenomena underlying supramolec- 
+ular assembly of phosphorylated and unphosphorylated TDP-43 
 LCD and the associated phosphomimetics. 
 2.2 
 Phosphorylation Redirects TDP-43 LCD 
@@ -447,7 +478,8 @@ Self-Assembly From Reversible PS to Stable
 Size-Limited Spherical Micelle Formation 
 To validate predictions from coarse-grained simulations, we 
 compared the phase behavior of unphosphorylated (non-phLCD) 
-and in vitro phosphorylated TDP-43 LCD (phLCD). The phosphorylated LCD was generated following published protocols by 
+and in vitro phosphorylated TDP-43 LCD (phLCD). The phos- 
+phorylated LCD was generated following published protocols by 
 incubating the purified LCD domain with casein kinase 1 δ (CK1 δ) 
 under optimized conditions that achieve robust phosphorylation 
 of key C-terminal sites, as confirmed by Western Blotting (see 
@@ -472,36 +504,41 @@ the fully phosphorylated state (phosphoserines carry between
 − 1e and − 2e at physiological pH; see Section 2.3 for detailed 
 characterization). 
 In physiological buffer (here defined as 150 mM NaCl, 50 mM 
-HEPES, 10 mM MgCl2 , 1 mM DTT, pH 7.5, 25◦C), at lowmicromolar concentrations (1 – 15 μM), the unmodified LCD 
+HEPES, 10 mM MgCl2 , 1 mM DTT, pH 7.5, 25◦C), at low- 
+micromolar concentrations (1 – 15 µM), the unmodified LCD 
 assembled into large, polydisperse species with hydrodynamic 
 diameters predominantly exceeding 100 nm, consistent with 
 macrophase separation (Figure 3a ). These droplets exhibited 
 classical PS hallmarks: their intensity-weighted hydrodynamic 
-diameter increased continuously with rising protein concentration, reflecting droplet growth through coalescence and Ostwald 
+diameter increased continuously with rising protein concentra- 
+tion, reflecting droplet growth through coalescence and Ostwald 
 ripening, followed by progressive maturation into more viscous 
 6 of 31
 Advanced Science, 2026
 
 FIGURE 3 
 Phosphorylation suppresses macroscopic phase separation and amyloid-like aggregation of TDP-43 LCD. (a) Intensity-weighted 
-dynamic light scattering (DLS) size distributions (diameter in nm) of unphosphorylated TDP-43 LCD at indicated concentrations (3 – 15 μM) and buffer 
+dynamic light scattering (DLS) size distributions (diameter in nm) of unphosphorylated TDP-43 LCD at indicated concentrations (3 – 15 µM) and buffer 
 control (150 mM NaCl, 50 mM HEPES, 10 mM MgCl2 , 1 mM DTT, pH 7.5, 25◦C). (b) Thioflavin-T (ThT) fluorescence kinetics (fold change) over 72 h 
-for 15 μM unphosphorylated LCD (non-phLCD) versus 15 μM phosphorylated LCD (phLCD). (c) Turbidity (absorbance A350nm - buffer) of three samples 
-at 50 μM total protein in Pluronic-passivated wells: phLCD after 1 h in-well reaction, “aged” non-phLCD (1 h), and “fresh” non-phLCD (mean ± s.d., n 
+for 15 µM unphosphorylated LCD (non-phLCD) versus 15 µM phosphorylated LCD (phLCD). (c) Turbidity (absorbance A350nm - buffer) of three samples 
+at 50 µM total protein in Pluronic-passivated wells: phLCD after 1 h in-well reaction, “aged” non-phLCD (1 h), and “fresh” non-phLCD (mean ± s.d., n 
 = 3). (d) Time-lapse spinning-disk confocal fluorescence microscopy of LD655-doped samples (10 nM LD655-A366C TDP-43 LCD, ∼ 1:5000 molar ratio) 
-at 50 μM total protein, in Pluronic-passivated glass bottom chambers at 0, 30 and 60 min. Upper panels: non-phLCD shows abundant droplets that 
-progressively coalesce; lower panels: phLCD remains droplet-free throughout. Scale bars, 50 μm. 
+at 50 µM total protein, in Pluronic-passivated glass bottom chambers at 0, 30 and 60 min. Upper panels: non-phLCD shows abundant droplets that 
+progressively coalesce; lower panels: phLCD remains droplet-free throughout. Scale bars, 50 µm. 
 or gel-like states—a process implicated in the transition toward 
 pathological aggregates [ 4 ]. Consistent with this maturation, a 
-Thioflavin-T (ThT) assay performed at 15 μM showed a progressive increase in fluorescence for unphosphorylated LCD over 
-approximately 60 h, followed by a decline, likely reflecting sedimentation of mature fibrillar aggregates in the plate (Figure 3b ). 
+Thioflavin-T (ThT) assay performed at 15 µM showed a progres- 
+sive increase in fluorescence for unphosphorylated LCD over 
+approximately 60 h, followed by a decline, likely reflecting sed- 
+imentation of mature fibrillar aggregates in the plate (Figure 3b ). 
 In contrast, the fluorescence signal for phosphorylated LCD 
 remained at baseline throughout the time course, indicating the 
 absence of amyloid-like assemblies. 
 To independently verify the contrasting phase behavior of 
-unphosphorylated and phosphorylated LCD by a bulk scattering measurement, we performed a turbidity assay (Figure 3c ). 
+unphosphorylated and phosphorylated LCD by a bulk scatter- 
+ing measurement, we performed a turbidity assay (Figure 3c ). 
 Three samples were compared in parallel under matched buffer 
-conditions at 50 μM total protein and 150 mM NaCl, loaded 
+conditions at 50 µM total protein and 150 mM NaCl, loaded 
 into wells passivated with the detergent Pluronic, of a 384-well 
 plate to suppress surface-induced nucleation (see Section 4.6 ): 
 (i) CK1 δ-phosphorylated LCD (phLCD), incubated in the well 
@@ -511,8 +548,10 @@ phLCD without kinase and ATP, and incubated in the well for the
 same ∼ 1 h duration); and (iii) “fresh” non-phLCD, freshly diluted 
 and measured immediately. Absorbance at 350 nm—a direct 
 readout of light scattering by phase-separated droplets—was 
-recorded simultaneously for all three samples. The phosphorylated sample showed no detectable turbidity above the buffer 
-baseline (A350nm ≈ 0.02), whereas both unphosphorylated samples produced strong absorbance signals. The fresh non-phLCD 
+recorded simultaneously for all three samples. The phosphory- 
+lated sample showed no detectable turbidity above the buffer 
+baseline (A350nm ≈ 0.02), whereas both unphosphorylated sam- 
+ples produced strong absorbance signals. The fresh non-phLCD 
 sample displayed the highest turbidity (A350nm ≈ 0.45), reflecting 
 the abundant population of small-to-medium-sized droplets that 
 form within minutes of dilution and efficiently scatter light. The 
@@ -523,7 +562,8 @@ Advanced Science, 2026
 substantial—turbidity (A350nm ≈ 0.15), consistent with progressive 
 coalescence into fewer, larger droplets and partial sedimentation 
 of mature condensates over the 1 h incubation window. This 
-kinetic decrease in turbidity for the unphosphorylated LCD mirrors the DLS observation of continuously growing hydrodynamic 
+kinetic decrease in turbidity for the unphosphorylated LCD mir- 
+rors the DLS observation of continuously growing hydrodynamic 
 diameters and is consistent with classical hallmarks of liquid–
 liquid phase separation followed by maturation. Crucially, under 
 identical buffer composition and well passivation, phLCD shows 
@@ -538,7 +578,7 @@ fluorescently LD655-labeled A366C TDP-43 LCD (10 nM,
 Imaging was performed in Pluronic-passivated wells of a 15-well 
 3D glass bottom dish to suppress surface-induced nucleation, 
 ensuring that any observed droplets reflect bulk-solution 
-phase behavior. At 150 mM NaCl and 50 μM total protein, 
+phase behavior. At 150 mM NaCl and 50 µM total protein, 
 the unphosphorylated LCD rapidly assembled into a dense 
 population of micron-scale fluorescent spherical droplets, already 
 abundant within a few minutes of sample loading (Figure 3d ). 
@@ -563,47 +603,56 @@ the suppression of phase separation in the phosphorylated form
 is robust and is not an artifact of either bulk-measurement 
 geometry or ionic strength. 
 In sharp contrast to unphosphorylated LCD, which did not 
-produce any population in the 10–100 nm range, phosphorylated LCD formed a distinct population of discrete, spherical 
-nanoparticles (Figure 4a,b ). Intensity-weighted DLS in backscattering geometry (173◦) across a wide concentration range (0.05 
-– 50 μM) revealed a stable particle population centered around 
+produce any population in the 10–100 nm range, phosphory- 
+lated LCD formed a distinct population of discrete, spherical 
+nanoparticles (Figure 4a,b ). Intensity-weighted DLS in backscat- 
+tering geometry (173◦) across a wide concentration range (0.05 
+– 50 µM) revealed a stable particle population centered around 
 30 nm that was absent in both control conditions: buffer alone 
 (no protein, no kinase, no ATP) and buffer supplemented 
 with kinase and ATP but lacking protein (Figure 4a ). Large 
 species exceeding 100 nm, detected in both unphosphorylated 
-and phosphorylated TDP-43 LCD samples as well as in bufferonly controls, were attributed to background scattering rather 
+and phosphorylated TDP-43 LCD samples as well as in buffer- 
+only controls, were attributed to background scattering rather 
 than specific protein assemblies. The size of this population 
 remained constant regardless of concentration and incubation 
-time (Figure S10 ) and was therefore excluded from further analysis. This concentration-independent behavior strongly suggested 
+time (Figure S10 ) and was therefore excluded from further analy- 
+sis. This concentration-independent behavior strongly suggested 
 the formation of finite-size supramolecular assemblies rather 
 than growing phase-separated droplets. A direct side-by-side 
-comparison of the distributions at selected concentrations highlights the dramatic difference: unphosphorylated LCD formed 
+comparison of the distributions at selected concentrations high- 
+lights the dramatic difference: unphosphorylated LCD formed 
 large polydisperse species, while phosphorylated LCD exhibited 
 a stable population of ∼ 30 nm diameter. 
-The CMC was determined using the environment-sensitive fluorescent probe pyrene (Figure 4c ) [ 49–52 ]. Pyrene reports on 
+The CMC was determined using the environment-sensitive flu- 
+orescent probe pyrene (Figure 4c ) [ 49–52 ]. Pyrene reports on 
 local polarity through the ratio of its first to third vibronic 
 emission bands (I1 /I3 ): in pure water, the theoretical baseline is 
 ∼ 1.87, but under physiological ionic strength (150 mM NaCl) it 
 is compressed to ∼ 1.25, as salt lowers the aqueous solubility of 
 pyrene and promotes weak self-association of the probe even in 
 the absence of protein. Upon incorporation into a hydrophobic 
-micellar core, I1 /I3 decreases toward a lower plateau. For phosphorylated TDP-43 LCD at 150 mM NaCl, a progressive decrease 
+micellar core, I1 /I3 decreases toward a lower plateau. For phos- 
+phorylated TDP-43 LCD at 150 mM NaCl, a progressive decrease 
 from ∼ 1.27 (buffer baseline) to a plateau of 1.13 ± 0.002 above 
-5 μM was observed ( Δ I1 /I3 = 0.14; Figure 4c ). The transition 
+5 µM was observed ( Δ I1 /I3 = 0.14; Figure 4c ). The transition 
 is gradual rather than sharp—characteristic of protein-based 
 amphiphiles [ 45 ], where the intrinsic disorder of the LCD leads 
 to partial hydrophobic exposure in monomeric and oligomeric 
 species below the CMC, producing a continuous rather than 
 cooperative I1 /I3 decrease. The CMC was therefore estimated by 
 the tangent-intersection method (linear fits to the descending and 
-plateau regions; see Methods 4.12.1), yielding ∼ 1.4 μM (Table S2 ). 
+plateau regions; see Methods 4.12.1), yielding ∼ 1.4 µM (Table S2 ). 
 This range is fully consistent with the independent onset of stable 
 nanoparticle formation, as observed by DLS and TEM, between 1 
-and 3 μM. The convergence of three orthogonal methods brackets 
+and 3 µM. The convergence of three orthogonal methods brackets 
 the CMC in the low-micromolar range and confirms micellar 
 rather than continuous condensation behavior. 
-Negative-stain transmission electron microscopy (TEM) independently confirmed both the spherical morphology and the 
-size of the assemblies. At a concentration of 5 μM, which 
-is above the CMC established by pyrene and DLS, the phosphorylated TDP-43 LCD sample appeared as a population of 
+Negative-stain transmission electron microscopy (TEM) inde- 
+pendently confirmed both the spherical morphology and the 
+size of the assemblies. At a concentration of 5 µM, which 
+is above the CMC established by pyrene and DLS, the phos- 
+phorylated TDP-43 LCD sample appeared as a population of 
 spherical nanoparticles (Figure 5a ). Quantitative analysis of 
 particle diameters from > 200 particles yielded 27.0 ± 6.0 nm, 
 in excellent agreement with the DLS value of 29.9 ± 8.4 nm 
@@ -615,34 +664,41 @@ soft protein assemblies, resulting in an underestimated projected
 diameter compared to the hydrated solution-state size. The 
 observed size dispersity (coefficient of variation (CV) = 22% 
 by TEM) reflects both the intrinsic distribution of aggregation 
-numbers, which is thermodynamically expected for proteinbased amphiphiles in dynamic monomer-micelle equilibrium 
-[ 45 ], and the variable degree of particle deformation during specimen preparation. Although CK1 δ kinase is a processive enzyme 
+numbers, which is thermodynamically expected for protein- 
+based amphiphiles in dynamic monomer-micelle equilibrium 
+[ 45 ], and the variable degree of particle deformation during spec- 
+imen preparation. Although CK1 δ kinase is a processive enzyme 
 that quantitatively phosphorylates TDP-43 LCDs at its preferred 
 serine sites, some heterogeneity in charge patterning due to 
 enzymatic processing is to be expected. Individual micelles will 
 thus be made up of slightly different chain populations, which 
-increases size heterogeneity. This polydispersity is further consistent with the broad aggregation number distributions (Figure 2d ) 
-and large standard deviation in hydrodynamic diameter estimates (Figure 2e ) obtained from coarse-grained simulations 
+increases size heterogeneity. This polydispersity is further consis- 
+tent with the broad aggregation number distributions (Figure 2d ) 
+and large standard deviation in hydrodynamic diameter esti- 
+mates (Figure 2e ) obtained from coarse-grained simulations 
 (Section 2.1 ). 
 8 of 31
 Advanced Science, 2026
 
 FIGURE 4 
 Phosphorylated TDP-43 LCD forms discrete, concentration-independent spherical assemblies with a low-micromolar critical micelle 
-concentration. (a) Intensity-weighted hydrodynamic diameter distributions of phLCD at concentrations ranging from 0.05 to 50 μM, together with two 
+concentration. (a) Intensity-weighted hydrodynamic diameter distributions of phLCD at concentrations ranging from 0.05 to 50 µM, together with two 
 buffer controls: buffer alone (no protein, no kinase, no ATP) and buffer supplemented with CK1 δ and ATP but lacking protein. A stable population 
 centered around 30 nm is observed across the entire concentration range and is absent from both controls. (b) Mean hydrodynamic diameters extracted 
-from the protein-assembly peak of the DLS distributions in panel a for selected concentrations (3, 4, 5, 30 and 50 μM phLCD; mean ± s.d., n = 
+from the protein-assembly peak of the DLS distributions in panel a for selected concentrations (3, 4, 5, 30 and 50 µM phLCD; mean ± s.d., n = 
 12). (c) Determination of critical micelle concentration using pyrene. Upper panel: normalized fluorescence emission spectra at increasing phLCD 
 concentrations. Lower panel: Ratio of pyrene vibronic bands (I1 /I3 ) plotted against phLCD concentration, fitted with a logistic function (R2 = 0.93) and 
-tangent lines indicating CMC ≈ 1.38 μM. 
+tangent lines indicating CMC ≈ 1.38 µM. 
 To further confirm the native hydrated morphology of phLCD 
 assemblies and to rule out drying-induced artifacts as a source 
-of any size variation between methods, we performed cryoelectron microscopy (cryo-EM) at 20 μM phLCD in vitreous ice at 
+of any size variation between methods, we performed cryo- 
+electron microscopy (cryo-EM) at 20 µM phLCD in vitreous ice at 
 150 mM NaCl (Figure 5c ) (see Section 4.11 ). Cryo-EM micrographs 
 revealed monodisperse spherical particles with a mean diameter 
-of 27.5 ± 4.7 nm, in excellent agreement with both negativestain TEM (27.0 ± 6.0 nm) and DLS (29.9 ± 8.4 nm) (Figure 5b ). 
-The cross-validation of phLCD micelle size by three independent techniques—DLS in solution, negative-stain TEM under 
+of 27.5 ± 4.7 nm, in excellent agreement with both negative- 
+stain TEM (27.0 ± 6.0 nm) and DLS (29.9 ± 8.4 nm) (Figure 5b ). 
+The cross-validation of phLCD micelle size by three indepen- 
+dent techniques—DLS in solution, negative-stain TEM under 
 dehydration, and cryo-EM under native hydrated conditions—
 establishes the spherical micellar morphology of phLCD as a 
 robust, drying-artifact-free observation. Importantly, no fibrillar 
@@ -650,7 +706,8 @@ structures were observed in the cryo-EM micrographs of phLCD
 at this elevated concentration, consistent with the absence of a 
 ThT signal (Figure 3b ) and supporting the interpretation that 
 phosphorylation effectively suppresses the amyloid pathway. 
-Collectively, these biophysical and imaging approaches demonstrate that phosphorylation of the TDP-43 LCD fully redirects 
+Collectively, these biophysical and imaging approaches demon- 
+strate that phosphorylation of the TDP-43 LCD fully redirects 
 its self-assembly pathway: from macro PS and amyloid-like 
 aggregation in unphosphorylated LCD to micro PS and formation 
 of stable, size-limited spherical micelles whose dimensions are 
@@ -660,7 +717,8 @@ Phosphomimetic Mutants TDP-43 LCD 12D
 and 12DD Recapitulate the Phosphorylated 
 Phenotype and Form Size-Limited Spherical 
 Micelles Above CMC at Physiological Conditions 
-Analogously to the simulations above (Section 2.1 ), we next constructed the 12D LCD mutant (with single Ser→Asp substitutions 
+Analogously to the simulations above (Section 2.1 ), we next con- 
+structed the 12D LCD mutant (with single Ser→Asp substitutions 
 at 12 sites) that mimics this C-terminal hyperphosphorylation, 
 which has been previously studied by Gruijs da Silva et al. 2022 
 Advanced Science, 2026
@@ -668,20 +726,22 @@ Advanced Science, 2026
 
 FIGURE 5 
 Direct visualization of phosphorylated TDP-43 LCD micelles by negative-stain TEM and cryo-EM confirms a uniform spherical 
-architecture with native diameters of ∼ 30 nm. (a) Representative negative-stain TEM images of 5 μM phLCD in 150 mM NaCl conditions, showing 
+architecture with native diameters of ∼ 30 nm. (a) Representative negative-stain TEM images of 5 µM phLCD in 150 mM NaCl conditions, showing 
 spherical nanoparticles. Scale bar, 300 nm. (b) Direct comparison of mean micelle diameters obtained by three orthogonal methods: DLS (peak maximum 
-of the intensity-weighted hydrodynamic diameters distribution; 5 μM phLCD, n = 12 biological replicates), negative-stain TEM (5 μM phLCD, > 200 
-particles analyzed), and cryo-EM in vitreous ice (20 μM phLCD, n > 100 particles). Bars indicate mean ± s.d. (c) Representative cryo-EM micrograph of 
-phLCD at 20 μM in vitreous ice, showing well-dispersed spherical particles consistent with the negative-stain TEM and DLS measurements. Scale bar, 
+of the intensity-weighted hydrodynamic diameters distribution; 5 µM phLCD, n = 12 biological replicates), negative-stain TEM (5 µM phLCD, > 200 
+particles analyzed), and cryo-EM in vitreous ice (20 µM phLCD, n > 100 particles). Bars indicate mean ± s.d. (c) Representative cryo-EM micrograph of 
+phLCD at 20 µM in vitreous ice, showing well-dispersed spherical particles consistent with the negative-stain TEM and DLS measurements. Scale bar, 
 300 nm. 
 [ 35 ], and the 12DD LCD mutant (see Figure 1c and Table S1 
 for protein sequences). These two constructs were chosen for 
 experimental characterization because they bracket the effective 
 C-terminal charge expected for the fully phosphorylated state, 
-given that phosphoserines carry between − 1e and − 2e at physiological pH, as was mentioned above. We note that the two 
+given that phosphoserines carry between − 1e and − 2e at phys- 
+iological pH, as was mentioned above. We note that the two 
 additional simulation-only constructs introduced in Section 2.1 
 (12DA and 12DD-148aa) serve as in silico controls for chain-length 
-effects (Figures S5 and S6 ) and are not characterized experimentally, as the chain-length question they address is most directly 
+effects (Figures S5 and S6 ) and are not characterized experimen- 
+tally, as the chain-length question they address is most directly 
 resolved by comparing length-matched analogs in simulation. 
 Native mass spectrometry confirmed the expected molecular 
 masses of both phosphomimetic mutants (Figure S9c,d ). To 
@@ -710,7 +770,7 @@ in vitro phosphorylated LCD micellization. Bar graphs of mean
 hydrodynamic diameters (Figure 6a ) show the formation of stable 
 nanoparticles of finite size above the threshold concentration: 
 48.5 ± 13.7 nm for 12D and 42.6 ± 19.8 nm for 12DD (mean ± 
-s.d., n = 12 biological replicates, at 5 μM). The intensity-weighted 
+s.d., n = 12 biological replicates, at 5 µM). The intensity-weighted 
 DLS diameters of both phosphomimetics are noticeably larger 
 than that of phLCD (29.9 ± 8.4 nm); the basis of this difference is 
 addressed below in the context of the cross-method comparison. 
@@ -725,37 +785,44 @@ Phosphomimetic substitutions 12D and 12DD fully recapitulate the phenotype of ph
 micelles of defined size above a low-micromolar critical micelle concentration. (a) Direct comparison of mean diameters obtained by dynamic light 
 scattering (DLS, 173◦backscattering geometry, peak maximum of the intensity-weighted size distribution, n = 12 biological replicates), negative-stain 
 TEM ( > 200 particles per construct) and cryo-EM in vitreous ice ( > 100 particles per construct) for phLCD, 12D and 12DD in physiological buffer (150 mM 
-NaCl, pH 7.5, 25◦C). DLS and TEM measurements were performed at 5 μM; cryo-EM at 20 μM. Data are mean ± s.d. (b) Representative negative-stain 
-TEM images at 5 μM for phLCD (upper), 12D (lower left), and 12DD (lower right). Scale bars, 300 nm. (c) Representative cryo-EM micrographs at 20 
-μM for 12D (left) and 12DD (right). The 12DD sample additionally shows occasional thin fibrillar structures coexisting with the dominant spherical 
-micellar population—a minor subpopulation not detected by negative-stain TEM at 5 μM, indicating that, unlike phLCD, the doubly charged 12DD 
+NaCl, pH 7.5, 25◦C). DLS and TEM measurements were performed at 5 µM; cryo-EM at 20 µM. Data are mean ± s.d. (b) Representative negative-stain 
+TEM images at 5 µM for phLCD (upper), 12D (lower left), and 12DD (lower right). Scale bars, 300 nm. (c) Representative cryo-EM micrographs at 20 
+µM for 12D (left) and 12DD (right). The 12DD sample additionally shows occasional thin fibrillar structures coexisting with the dominant spherical 
+micellar population—a minor subpopulation not detected by negative-stain TEM at 5 µM, indicating that, unlike phLCD, the doubly charged 12DD 
 phosphomimetic does not fully abolish access to fibrillar morphologies. Scale bars, 300 nm. 
 S10b ), indicating that the spherical 12D assemblies represent 
 a stable equilibrium state rather than a kinetically trapped 
 intermediate. 
-Negative-stain TEM images independently confirmed the spherical morphology of both variants at 5 μM (Figure 6b ), with 
+Negative-stain TEM images independently confirmed the spher- 
+ical morphology of both variants at 5 µM (Figure 6b ), with 
 mean diameters measured over > 200 particles of 33.0 ± 8.0 nm 
 (CV = 24%) for 12D and 23.0 ± 7.0 nm (CV = 30%) for 12DD 
 (Figures 6a,b ). The size dispersity observed for both constructs 
 is consistent with the broad aggregation number distributions 
-expected for protein-based amphiphiles in dynamic monomermicelle equilibrium [ 45 ] and is further supported by simulation 
+expected for protein-based amphiphiles in dynamic monomer- 
+micelle equilibrium [ 45 ] and is further supported by simulation 
 data (Section 2.1 ). 
 To corroborate these measurements under natively hydrated 
 conditions, we performed cryo-electron microscopy on both 
-phosphomimetic constructs at 20 μM and 150 mM NaCl, following the same protocol used for phLCD in Section 2.2 (Figure 6c ). 
+phosphomimetic constructs at 20 µM and 150 mM NaCl, follow- 
+ing the same protocol used for phLCD in Section 2.2 (Figure 6c ). 
 Cryo-EM yielded mean diameters of 24.7 ± 6.2 nm for 12D (n 
 > 100 particles) and 19.9 ± 4.2 nm for 12DD (n > 100 particles), in 
-close agreement with the corresponding negative-stain TEM measurements and substantially smaller than the intensity-weighted 
+close agreement with the corresponding negative-stain TEM mea- 
+surements and substantially smaller than the intensity-weighted 
 DLS values reported above. Because vitrification preserves the 
 native hydrated state and avoids the dehydration inherent to 
 negative staining, the close agreement between cryo-EM and 
 TEM diameters (within ∼ 3 nm for phLCD and 12DD) excludes 
-drying-induced shrinkage as a significant source of size underAdvanced Science, 2026
+drying-induced shrinkage as a significant source of size under- 
+Advanced Science, 2026
 11 of 31
 
 estimation by TEM and establishes a narrow native diameter 
-range of ∼ 20–27 nm. The persistent gap between this microscopybased range and the larger intensity-weighted DLS values—most 
-pronounced for the phosphomimetic constructs—has two contributions. First, DLS reports a hydrodynamic diameter that 
+range of ∼ 20–27 nm. The persistent gap between this microscopy- 
+based range and the larger intensity-weighted DLS values—most 
+pronounced for the phosphomimetic constructs—has two con- 
+tributions. First, DLS reports a hydrodynamic diameter that 
 includes the diffuse, hydrated, charged corona, whereas TEM 
 and cryo-EM resolve only the dense, electron-scattering core 
 of the micelle; the more extended the corona, the larger the 
@@ -763,31 +830,35 @@ expected DLS-microscopy difference. Second, intensity-weighted
 DLS scales with the sixth power of particle diameter, which 
 strongly amplifies the contribution of minor populations of larger 
 oligomers or sub-stoichiometric aggregates—a contribution that 
-is more pronounced for 12D and 12DD, whose TEM size distributions are broader (CV = 24% and 30%, respectively) than that 
+is more pronounced for 12D and 12DD, whose TEM size distri- 
+butions are broader (CV = 24% and 30%, respectively) than that 
 of phLCD (CV = 22%). Together, these two effects account for 
-the DLS/microscopy size difference. The slightly smaller cryoEM diameter of 12DD relative to 12D is consistent with the higher 
+the DLS/microscopy size difference. The slightly smaller cryo- 
+EM diameter of 12DD relative to 12D is consistent with the higher 
 charge density of its C-terminal block ( − 24e for 12DD vs. − 12e for 
 12D), which increases electrostatic repulsion within the corona 
 (Figure S3 ) and limits the number of monomers that can be 
 incorporated into a single micelle. The phLCD value falls between 
 those of 12D and 12DD, consistent with the partial protonation 
 of phosphoserines at physiological pH (effective average charge 
-between − 1e and − 2e per phospho-site), placing the effective Cterminal block charge of phLCD between − 12e and − 24e. Both 
+between − 1e and − 2e per phospho-site), placing the effective C- 
+terminal block charge of phLCD between − 12e and − 24e. Both 
 phosphomimetics thus reproduce the micellization behavior of 
 the phosphorylated LCD, with the 12DD construct providing a 
 closer match to the fully phosphorylated ( − 2e per site) limiting 
 case. 
 Interestingly, cryo-EM imaging of 12DD at elevated concentration 
-(20 μM) additionally revealed occasional thin fibrillar structures 
+(20 µM) additionally revealed occasional thin fibrillar structures 
 coexisting with the dominant spherical micellar population 
 (Figure 6c ), a feature not observed in cryo-EM micrographs of 
 phLCD or 12D acquired under matched conditions. This minor 
 fibrillar subpopulation was not detected in our TEM experiments 
-performed at lower concentrations (5–15 μM), and we therefore do 
+performed at lower concentrations (5–15 µM), and we therefore do 
 not include it in the quantitative size analysis of 12DD micelles. 
 We note this observation as a qualitative finding indicating that, 
 while the bona fide phosphorylated LCD effectively suppresses 
-access to fibrillar morphologies even at elevated protein concentration, the doubly charged 12DD phosphomimetic does not 
+access to fibrillar morphologies even at elevated protein con- 
+centration, the doubly charged 12DD phosphomimetic does not 
 fully abolish this pathway under these conditions—an interesting 
 limitation of phosphomimetic substitution that we revisit in the 
 Discussion. 
@@ -801,14 +872,16 @@ disordered amphiphiles. The buffer baseline I1 /I3 values were
 comparable across all three constructs (1.26 for 12D, 1.25 for 12DD, 
 1.27 for phLCD), confirming equivalent salt-induced compression 
 of the pyrene dynamic range at 150 mM NaCl. The CMC was 
-∼ 1.50 μM for 12D and ∼ 1.93 μM for 12DD—both in the lowmicromolar range and close to the CMC determined for phLCD 
-( ∼ 1.38 μM) (Table S2 ). Notably, ΔI1 /I3 was smaller for 12D (0.10) 
+∼ 1.50 µM for 12D and ∼ 1.93 µM for 12DD—both in the low- 
+micromolar range and close to the CMC determined for phLCD 
+( ∼ 1.38 µM) (Table S2 ). Notably, ΔI1 /I3 was smaller for 12D (0.10) 
 than for 12DD and phLCD (0.14–0.15), indicating a more polar 
 pyrene environment within 12D assemblies. This is consistent 
 with a less well-defined core-corona architecture in 12D, induced 
 by the weakened contrast between the hydrophobic N-terminal 
 block and the charged C-terminal corona. This results in greater 
-water accessibility to the pyrene probe. A logistic function (a sigmoidal fit that describes the gradual transition from monomeric 
+water accessibility to the pyrene probe. A logistic function (a sig- 
+moidal fit that describes the gradual transition from monomeric 
 species to micelle formation with increasing concentration) is 
 shown in Figure 7a,b for visual guidance only; CMC values were 
 extracted exclusively by the tangent-intersection method. 
@@ -816,8 +889,10 @@ Collectively, these results demonstrate that the phosphomimetic
 LCD variants 12D and 12DD reproduce the essential feature of 
 phosphorylation-driven micellization, forming spherical micelles 
 above a low-micromolar CMC with concentration-independent 
-sizes, underscoring the role of C-terminal charge in redirecting self-organization. The additional observation of occasional 
-fibrillar structures in cryo-EM of 12DD at elevated concentration suggests that, while the phosphomimetic substitutions 
+sizes, underscoring the role of C-terminal charge in redirect- 
+ing self-organization. The additional observation of occasional 
+fibrillar structures in cryo-EM of 12DD at elevated concen- 
+tration suggests that, while the phosphomimetic substitutions 
 successfully capture the micellization pathway, only the bona 
 fide phosphorylated LCD efficiently suppresses the alternative 
 fibrillar pathway under the conditions probed. 
@@ -833,8 +908,10 @@ the phosphorylated form and the phosphomimetic mutants 12D
 and 12DD under elevated salt conditions (300 mM and 500 mM 
 NaCl). These ionic strengths are higher than the bulk cytosolic 
 value ( ∼ 150 mM) but were selected to probe the regime in which 
-electrostatic screening becomes sufficient to alter assembly morphology and to systematically map the morphological landscape 
-accessible to these constructs as a function of charge screening. Increasing salt concentration screens electrostatic repulsion 
+electrostatic screening becomes sufficient to alter assembly mor- 
+phology and to systematically map the morphological landscape 
+accessible to these constructs as a function of charge screen- 
+ing. Increasing salt concentration screens electrostatic repulsion 
 between the negatively charged residues (phosphate groups or 
 Asp side chains), which is expected to lower CMC and may 
 promote a transition from spherical micelles to more elongated 
@@ -848,10 +925,10 @@ For phLCD and 12DD, CMC values at elevated ionic strength
 were determined by the pyrene fluorescence tangent-intersection 
 method described in Section 2.2 (Figures 8a,b ; Figures 10a,b ). 
 For phLCD, the CMC remained approximately consistent across 
-salt concentrations, at ∼ 1.38 μM at 150 mM NaCl, ∼ 1.6 μM at 
-300 mM NaCl, and ∼ 1.45 μM at 500 mM NaCl. For 12DD, the CMC 
-decreased from ∼ 1.93 μM at 150 mM to ∼ 0.52 μM at 300 mM and 
-∼ 0.89 μM at 500 mM NaCl, confirming the salt dependence of the 
+salt concentrations, at ∼ 1.38 µM at 150 mM NaCl, ∼ 1.6 µM at 
+300 mM NaCl, and ∼ 1.45 µM at 500 mM NaCl. For 12DD, the CMC 
+decreased from ∼ 1.93 µM at 150 mM to ∼ 0.52 µM at 300 mM and 
+∼ 0.89 µM at 500 mM NaCl, confirming the salt dependence of the 
 assembly onset across all constructs (Table S2 ). A logistic function 
 is shown in the figures for visual guidance only; all CMC values 
 were extracted by the tangent-intersection method. 
@@ -860,10 +937,10 @@ Advanced Science, 2026
 
 FIGURE 7 
 Pyrene CMC determination for 12D and 12DD phosphomimetics. (a) 12D in physiological buffer (150 mM NaCl). Left: normalized 
-pyrene fluorescence emission spectra (350–600 nm) at 0–15 μM; inset shows a zoom (360–400 nm). Right: I1 /I3 ratio versus 12D concentration with 
-tangent-intersection analysis, CMC ≈ 1.50 μM; inset shows logistic fit (R2 = 0.99). (b) Same analysis for 12DD (0–30 μM): CMC ≈ 1.93 μM; logistic fit R2 
+pyrene fluorescence emission spectra (350–600 nm) at 0–15 µM; inset shows a zoom (360–400 nm). Right: I1 /I3 ratio versus 12D concentration with 
+tangent-intersection analysis, CMC ≈ 1.50 µM; inset shows logistic fit (R2 = 0.99). (b) Same analysis for 12DD (0–30 µM): CMC ≈ 1.93 µM; logistic fit R2 
 = 0.93. 
-DLS measurements at 5 μM (Figure 8c ) revealed a modest size 
+DLS measurements at 5 µM (Figure 8c ) revealed a modest size 
 increase of phLCD micelles with increasing ionic strength (29.9 
 ± 8.4 nm at 150 mM, 41.0 ± 7.5 nm at 300 mM, and 47.8 ± 
 16.2 nm at 500 mM NaCl; mean ± s.d., n = 12 biological replicates). 
@@ -877,7 +954,8 @@ spherical micelles are present at all tested salt concentrations
 (Figure 8d ), in marked contrast to 12D and 12DD, which transition 
 to wormlike morphologies at the same ionic strengths (see below; 
 Figures 9b , 10d ). A possible explanation for this morphological 
-robustness of phLCD lies in the chemical nature of the phosphoserine side chain itself: the phosphate group is bulky and 
+robustness of phLCD lies in the chemical nature of the phos- 
+phoserine side chain itself: the phosphate group is bulky and 
 heavily hydrated, which sterically and entropically resists the 
 close corona packing required to push the packing parameter 
 ( p ) above the spherical-to-cylindrical transition threshold ( p ≈ 
@@ -887,16 +965,19 @@ that drives the sphere-to-worm transition observed in 12D and
 12DD at elevated ionic strength. 
 In contrast, 12D displays a markedly different response. Pyrene 
 fluorescence yielded broad and poorly defined I1 /I3 transitions at 
-elevated ionic strength, most likely because the lower charge density of single Asp substitutions ( − 12e vs. − 24e for 12DD) reduces 
+elevated ionic strength, most likely because the lower charge den- 
+sity of single Asp substitutions ( − 12e vs. − 24e for 12DD) reduces 
 the contrast between the hydrophobic N-terminal block and the 
-charged C-terminal corona, yielding micelles with a less welldef ined core- corona architecture that fails to sequester pyrene 
+charged C-terminal corona, yielding micelles with a less well- 
+def ined core- corona architecture that fails to sequester pyrene 
 efficiently. We therefore used Nile Red, a solvatochromic dye 
 whose fluorescence intensity increases sharply upon partitioning 
 into hydrophobic environments (excitation ∼ 550 nm, emission 
 ∼ 620–650 nm), and which provides a strong signal even for 
-partially hydrated assemblies. The CMC curves indicate a twostep process (Figure 9a ): a first CMC for formation of spherical 
-micelles ( ∼ 1.32 μM at 300 mM and ∼ 0.48 μM at 500 mM), 
-and a second CMC ( ∼ 5.67 μM at 300 mM and ∼ 3.28 μM at 
+partially hydrated assemblies. The CMC curves indicate a two- 
+step process (Figure 9a ): a first CMC for formation of spherical 
+micelles ( ∼ 1.32 µM at 300 mM and ∼ 0.48 µM at 500 mM), 
+and a second CMC ( ∼ 5.67 µM at 300 mM and ∼ 3.28 µM at 
 500 mM) (Table S2 ), at which micelles elongate into wormlike 
 structures whose cross-sectional diameter remains comparable to 
 that of the spherical micelles, as confirmed by TEM (Figure 9b ). 
@@ -911,11 +992,11 @@ Advanced Science, 2026
 FIGURE 8 
 Salt-dependent self-assembly of phosphorylated TDP-43 LCD. (a) Determination of critical micelle concentration using pyrene. Left: 
 normalized fluorescence emission spectra at increasing phLCD concentrations in a 300 mM NaCl buffer. Right: Ratio of pyrene vibronic bands (I1 /I3 ) 
-plotted against phLCD concentration, fitted with a logistic function (R2 = 0.85) and tangent lines indicating CMC ≈ 1.60 μM. (b) Determination of critical 
+plotted against phLCD concentration, fitted with a logistic function (R2 = 0.85) and tangent lines indicating CMC ≈ 1.60 µM. (b) Determination of critical 
 micelle concentration using pyrene. Left: normalized fluorescence emission spectra at increasing phLCD concentrations in a 500 mM NaCl buffer. Right: 
 Ratio of pyrene vibronic bands (I1 /I3 ) plotted against phLCD concentration, fitted with a logistic function (R2 = 0.91) and tangent lines indicating CMC 
-≈ 1.45 μM. (c) Mean hydrodynamic diameters of 5 μM phLCD determined by DLS at 150, 300 and 500 mM NaCl (mean ± s.d., n = 12). (d) Representative 
-negative-stain TEM micrographs of 5 μM phLCD at 300 mM and 500 mM NaCl. Scale bar, 300 nm. 
+≈ 1.45 µM. (c) Mean hydrodynamic diameters of 5 µM phLCD determined by DLS at 150, 300 and 500 mM NaCl (mean ± s.d., n = 12). (d) Representative 
+negative-stain TEM micrographs of 5 µM phLCD at 300 mM and 500 mM NaCl. Scale bar, 300 nm. 
 chains remain on the surface, maintaining colloidal stability. As 
 protein concentration and/or ionic strength increase, electrostatic 
 screening becomes more pronounced, increasing inter-micelle 
@@ -923,11 +1004,12 @@ contacts. This yields a second characteristic point, CMC2 , beyond
 which a transition to cylindrical packing becomes favorable: 
 spheres elongate and “fuse” into thin, flexible wormlike micelles. 
 Increasing NaCl to 500 mM particularly enhances this second 
-stage. DLS measurements at 5 μM showed a gradual increase in 
+stage. DLS measurements at 5 µM showed a gradual increase in 
 the intensity-weighted hydrodynamic diameter of 12D assemblies 
 with increasing salt (48.5 ± 13.7 nm at 150 mM, 53.2 ± 14.5 nm 
 at 300 mM, 54.7 ± 13.9 nm at 500 mM NaCl; Figure 9c ); 
-the relatively modest change reflects the predominantly crosssectional sensitivity of intensity-weighted DLS to elongating 
+the relatively modest change reflects the predominantly cross- 
+sectional sensitivity of intensity-weighted DLS to elongating 
 micelles, while the transition to a true wormlike morphology 
 is more clearly visualized by TEM. The size distributions of 
 12D measured immediately after sample preparation and after 
@@ -941,15 +1023,16 @@ amount of 12D. It thus possesses a more hydrophilic and repulsive
 corona, which requires more salt ions to achieve similar levels of 
 electrostatic screening. The 12DD sample showed a characteristic 
 “delayed” micellization (higher CMC at 150 mM salt) (Table 
-S2 ), followed by formation of rigid, relatively uniform cylindrical assemblies. At moderate ionic strength ( ∼ 300 mM NaCl), 
-micelle nucleation occurred at ∼ 0.5 μM; once this threshold 
+S2 ), followed by formation of rigid, relatively uniform cylindri- 
+cal assemblies. At moderate ionic strength ( ∼ 300 mM NaCl), 
+micelle nucleation occurred at ∼ 0.5 µM; once this threshold 
 14 of 31
 Advanced Science, 2026
 
 FIGURE 9 
 Salt-dependent self-assembly of phosphomimetic 12D TDP-43 LCD. (a) Nile Red fluorescence intensity versus protein concentration 
 for 12D LCD at 300 mM NaCl (top) and 500 mM NaCl (bottom), showing two distinct CMC transitions at high salt. (b) Negative-stain TEM images of 
-5 μM 12D at 300 mM NaCl (spherical micelles) and 500 mM NaCl (spherical and wormlike structures). (c) Mean hydrodynamic diameters of 5 μM 12D 
+5 µM 12D at 300 mM NaCl (spherical micelles) and 500 mM NaCl (spherical and wormlike structures). (c) Mean hydrodynamic diameters of 5 µM 12D 
 determined by DLS at 150, 300 and 500 mM NaCl (mean ± s.d., n = 12). 
 was exceeded, subsequent self-organization became essentially 
 one-dimensional, with spherical precursors rapidly elongating 
@@ -973,10 +1056,15 @@ S5 and S6 ). However, most of what we measured experimentally
 can be well explained by the effect of charges. 
 Mechanistically, the behavior we observed is consistent with Asp 
 mutations exerting a dual effect. During micelle nucleation, they 
-increase the barrier to primary association, requiring higher protein concentration and/or ionic strength to initiate micellization. 
-After a cylindrical core forms, the same groups act as stabilizing “fasteners”: screened carboxylates can form ion pairs and 
-hydrogen bonds that “lock” the lateral surface of the cylinder, preventing twisting and back-conversion (“rounding”) into spheres. 
-Consequently, 12DD forms rigid, narrowly distributed nanocylinders whose length is finely tuned by ionic strength at an essentially constant diameter, making this variant a convenient model 
+increase the barrier to primary association, requiring higher pro- 
+tein concentration and/or ionic strength to initiate micellization. 
+After a cylindrical core forms, the same groups act as stabiliz- 
+ing “fasteners”: screened carboxylates can form ion pairs and 
+hydrogen bonds that “lock” the lateral surface of the cylinder, pre- 
+venting twisting and back-conversion (“rounding”) into spheres. 
+Consequently, 12DD forms rigid, narrowly distributed nanocylin- 
+ders whose length is finely tuned by ionic strength at an essen- 
+tially constant diameter, making this variant a convenient model 
 for controllable formation of stable rod-like nanostructures. 
 In order to simulate the effect of salt concentration on micelle 
 size, we performed simulations at 150, 300, and 500 mM salt 
@@ -986,25 +1074,29 @@ Advanced Science, 2026
 FIGURE 10 
 Salt-dependent self-assembly of phosphomimetic 12DD LCD. (a) Determination of critical micelle concentration using pyrene. Left: 
 normalized fluorescence emission spectra at increasing 12DD LCD concentrations in 300 mM NaCl buffer. Right: Ratio of pyrene vibronic bands (I1 /I3 ) 
-plotted against 12DD LCD concentration, fitted with a logistic function (R2 = 0.82) and tangent lines indicating CMC ≈ 0.52 μM. (b) Determination of 
+plotted against 12DD LCD concentration, fitted with a logistic function (R2 = 0.82) and tangent lines indicating CMC ≈ 0.52 µM. (b) Determination of 
 critical micelle concentration using pyrene. Left: normalizzed fluorescence emission spectra at increasing 12DD LCD concentrations in 500 mM NaCl 
 buffer. Right: Ratio of pyrene vibronic bands (I1 /I3 ) plotted against 12DD LCD concentration, fitted with a logistic function (R2 = 0.89) and tangent lines 
-indicating CMC ≈ 0.89 μM. (c) Mean hydrodynamic diameters of 5 μM 12DD LCD determined by DLS at 150, 300 and 500 mM NaCl (mean ± s.d., n = 
-12). (d) Negative-stain TEM images of 5 μM 12DD at 300 mM NaCl and 500 mM NaCl. Scale bar, 300 nm. 
+indicating CMC ≈ 0.89 µM. (c) Mean hydrodynamic diameters of 5 µM 12DD LCD determined by DLS at 150, 300 and 500 mM NaCl (mean ± s.d., n = 
+12). (d) Negative-stain TEM images of 5 µM 12DD at 300 mM NaCl and 500 mM NaCl. Scale bar, 300 nm. 
 (Figures S12 and S13 ). We chose the 12DD sequence as a model 
 since it behaves almost identically to TDP-43 LCD 12pS in 
-simulations. We observe the same tendency toward larger aggregation numbers and hydrodynamic diameters with increasing salt 
-concentration (Figures S12a and S13a,b ), as reported experimentally for phLCD and 12DD. There is a modest increase in the 
+simulations. We observe the same tendency toward larger aggre- 
+gation numbers and hydrodynamic diameters with increasing salt 
+concentration (Figures S12a and S13a,b ), as reported experimen- 
+tally for phLCD and 12DD. There is a modest increase in the 
 micelle between 100 and 150 mM salt, followed by a significantly 
 larger assembly at 300 mM. At a 500 mM salt concentration, 
 it is impossible to tell whether the system shifts to macrophase 
 separation or continues to form finite-size assemblies with an 
 aggregation number exceeding the number of chains in the box. 
-Analysis of the contact maps (Figure S12b ) suggests that electrostatic screening makes the protein less “blocky,” as contacts 
+Analysis of the contact maps (Figure S12b ) suggests that elec- 
+trostatic screening makes the protein less “blocky,” as contacts 
 become more evenly distributed. This is also reflected in the 
 per-block density profiles (Figure S12c ), where we observe a less 
 segregated internal architecture of the micelles at higher ionic 
-strength (a visual representation of this is given in the crosssection snapshots of the micelles in Figure S12a ). Analysis of the 
+strength (a visual representation of this is given in the cross- 
+section snapshots of the micelles in Figure S12a ). Analysis of the 
 shape anisotropy (Figure S13c ) and asphericity parameters offers 
 insight into the effects of electrostatic screening on chain packing. 
 Increased salt concentration significantly flattens the asphericity 
@@ -1030,10 +1122,12 @@ ran simulations for the 12pS sequence at 150 mM and 500 mM
 to confirm that it behaves similarly to 12DD. We observe in 
 Figures S14 and S15 that it yields the same phenotypes at the 
 considered salt concentrations, as well as qualitative (and near 
-quantitative) agreement between contact maps (Figure S14b ), perblock density profiles (Figure S14c ), size distribution histograms 
+quantitative) agreement between contact maps (Figure S14b ), per- 
+block density profiles (Figure S14c ), size distribution histograms 
 (Figure S15a ), hydrodynamic diameters (Figure S15b ), and shape 
 descriptors (Figure S15c ). Although phosphorylated TDP-43 LCD 
-is chemically distinct from 12DD and exhibits different phenotypes in experiments for higher salt concentrations, this is not 
+is chemically distinct from 12DD and exhibits different pheno- 
+types in experiments for higher salt concentrations, this is not 
 captured by simulations. The degree of coarse-graining of the HPS 
 model sacrifices significant details on protein conformations. 
 Phenomena such as steric clashes or protonation/deprotonation 
@@ -1043,7 +1137,8 @@ a stickiness parameter ( λ), and a fixed point charge, making
 12pS and the 12DD sequences nearly identical species in our 
 simulations. 
 Although we mostly discussed the spherical-to-wormlike micelle 
-transition in terms of screened electrostatic repulsion for increasing ionic strength, one cannot discard salting out as a contributor. 
+transition in terms of screened electrostatic repulsion for increas- 
+ing ionic strength, one cannot discard salting out as a contributor. 
 The increase in the concentration of ions in solution can lead 
 to an effective decrease in affinity between the protein and the 
 solvent. This leads to an increase in effective hydrophobicity, 
@@ -1063,7 +1158,7 @@ Micelles
 The use of very low concentrations of the non-ionic surfactant 
 Tween-20 is common when working with proteins, particularly 
 IDPs, as it is known to reduce surface adsorption. We examined 
-the TDP-43 12D LCD at a protein concentration of 70 μM in a 
+the TDP-43 12D LCD at a protein concentration of 70 µM in a 
 buffer containing 500 mM NaCl (pH 7.5), comparing conditions 
 without and with 0.01% (v/v) Tween-20. It should be noted that, 
 unlike the samples in Section 2.4 , which were centrifuged at 
@@ -1071,13 +1166,15 @@ unlike the samples in Section 2.4 , which were centrifuged at
 examined here were applied directly without centrifugation. 
 We chose not to centrifuge our samples to avoid losing large 
 wormlike chains. The two sets of experiments, therefore, differ 
-in both protein concentration (5 μM versus 70 μM) and sample 
+in both protein concentration (5 µM versus 70 µM) and sample 
 preparation, and the TEM images should be interpreted with 
 caution. TEM observations revealed an unexpected inversion of 
-morphology: in the absence of Tween-20, spherical micelles dominate, whereas upon addition of the surfactant, a large number 
+morphology: in the absence of Tween-20, spherical micelles dom- 
+inate, whereas upon addition of the surfactant, a large number 
 of small wormlike micelles with lengths of ∼ 100 – 200 nm form 
 (Figure 11a,b ). 
-A mechanistic interpretation is as follows: The Tween-20 concentration ( ∼ 0.08 mM) exceeds its own critical micelle concentration 
+A mechanistic interpretation is as follows: The Tween-20 concen- 
+tration ( ∼ 0.08 mM) exceeds its own critical micelle concentration 
 (CMC ∼ 0.06 mM), enabling the surfactant to form pure Tween- 
 20 micelles, and those, as well as the Tween-20 monomers, can 
 also interact with hydrophobic regions of proteins. We speculate 
@@ -1085,9 +1182,11 @@ that Tween-20 is incorporated into the protein micelles, forming
 mixed structures in which the hydrophobic tail of Tween-20 (the 
 laurate) inserts into the core of the protein micelle, lowering the 
 packing parameter and promoting a transition from spheres to 
-cylinders. At the same time, the hydrophilic headgroup (polyoxyethylene sorbitan) of Tween-20 strengthens the corona but, 
+cylinders. At the same time, the hydrophilic headgroup (poly- 
+oxyethylene sorbitan) of Tween-20 strengthens the corona but, 
 in combination with high salt, promotes permeabilization and 
-fragmentation, breaking larger aggregates into many small, elongated particles. This results in swelling of spherical assemblies, 
+fragmentation, breaking larger aggregates into many small, elon- 
+gated particles. This results in swelling of spherical assemblies, 
 their elongation, and subsequent growth limitation, preventing 
 the formation of extended networks. Such an effect is typical for 
 low surfactant concentrations, where the surfactant competes for 
@@ -1117,7 +1216,7 @@ a coexistence of spherical micelles and wormlike structures—
 the latter appearing as relatively straight, moderately thick 
 cylinders, rather than the thin, highly curved worms typical of 
 strongly segregating surfactant systems [ 45 ]. This morphological 
-heterogeneity reflects the fact that at 70 μM 12D, the system is 
+heterogeneity reflects the fact that at 70 µM 12D, the system is 
 poised near the sphere-to-cylinder boundary: Tween-20 shifts p 
 into the cylindrical regime for a fraction of the assemblies, while 
 the remaining protein chains retain sufficient head-group area to 
@@ -1125,13 +1224,14 @@ sustain spherical geometry.
 3 
 Discussion 
 Nanostructure formation in IDPs has emerged as an exciting 
-frontier in protein biophysics. In particular, subcritical nanoclusters and well-defined, finite-sized assemblies have recently 
+frontier in protein biophysics. In particular, subcritical nan- 
+oclusters and well-defined, finite-sized assemblies have recently 
 Advanced Science, 2026
 17 of 31
 
 FIGURE 11 
-Representative TEM images of 12D assemblies at 70 μM in 500 mM NaCl. (a) Without Tween-20, showing spherical micelles. Scale 
-bar, 300 nm (top and bottom). (b) With 0.01% Tween-20, showing small wormlike micelles. Scale bar, 300 nm (bottom), 1 μm (top). 
+Representative TEM images of 12D assemblies at 70 µM in 500 mM NaCl. (a) Without Tween-20, showing spherical micelles. Scale 
+bar, 300 nm (top and bottom). (b) With 0.01% Tween-20, showing small wormlike micelles. Scale bar, 300 nm (bottom), 1 µm (top). 
 garnered attention for their unique structural and functional 
 properties [ 24, 55, 56 ]. In this work, we showed that TDP-43 LCD 
 organizes into micelles upon C-terminal phosphorylation. This 
@@ -1156,7 +1256,8 @@ we conjecture that these findings may extend to full-length
 phosphorylated TDP-43, as it has been shown to be one of the 
 main contributors to macro PS in the full-length protein [ 3, 
 4 ]. Our findings expand the known manifestations of TDP-43 
-LCD supramolecular assembly by adding a phosphorylationdependent micelle state and a related wormlike morphology. 
+LCD supramolecular assembly by adding a phosphorylation- 
+dependent micelle state and a related wormlike morphology. 
 C-terminal fragments of TDP-43 of 20 – 25 kDa that comprise 
 mainly the LCD are consistently found in ALS/FTD patients [ 7, 
 10, 57 ], suggesting that our model system may have a naturally 
@@ -1166,12 +1267,14 @@ understood. C-terminal phosphorylation is a well-established
 occurrence in ALS and FTD [ 25, 26 ]. Whether that is a driver 
 or antagonizer of pathological TDP-43 aggregation, or simply a 
 secondary effect, remains an open question and is highly debated 
-[ 27, 58, 59 ]. Recent studies have challenged the aggregationinducing role of phosphorylation, rather positioning it as a 
+[ 27, 58, 59 ]. Recent studies have challenged the aggregation- 
+inducing role of phosphorylation, rather positioning it as a 
 protective regulator against amyloid formation by suppressing PS 
 and TDP-43 insolubility in vitro and in cells [ 35 ]. PS has been 
 suggested as a precursor of fibrilization in proteins; therefore, 
 getting a more complete understanding of its multiple drivers 
-is key to answering that process. Recent findings from cryoEM have resolved the structure of TDP-43 fibrils isolated from 
+is key to answering that process. Recent findings from cryo- 
+EM have resolved the structure of TDP-43 fibrils isolated from 
 ALS/FTD brains [ 7, 8, 60 ]. They indicate that the amyloid core is 
 formed by amino acids 282–360, roughly equivalent to our blocks 
 1 and 2. In our phosphorylated TDP-43 LCD model, they are 
@@ -1179,7 +1282,8 @@ positioned within the micelle interior, whereas block 3 resides
 on the micelle surface. This structural arrangement indicates 
 that the amyloid core is strongly compositionally similar to the 
 simulated core of our phosphorylated micelle. One can speculate 
-that the phosphorylated micelle may serve as a precursor to amyloid fibrils, highlighting its potential clinical relevance [ 18, 23 ]. 
+that the phosphorylated micelle may serve as a precursor to amy- 
+loid fibrils, highlighting its potential clinical relevance [ 18, 23 ]. 
 Experimentally, however, phosphorylated TDP-43 LCD micelles 
 remained non-fibrillar and colloidally stable over days, in marked 
 contrast to the unphosphorylated sequence, which matures into 
@@ -1187,7 +1291,8 @@ fibrils.
 18 of 31
 Advanced Science, 2026
 
-Our findings also highlight the power of coarse-grained simulations as a predictive tool for protein–protein interactions. 
+Our findings also highlight the power of coarse-grained sim- 
+ulations as a predictive tool for protein–protein interactions. 
 Through them, we identified micellization as a potential form 
 of assembly for phosphorylated TDP-43 LCD, which was later 
 confirmed by experiments. This shows that even very simplified 
@@ -1208,11 +1313,13 @@ in the experiment. This is likely attributed to the excessive
 density of the micelles. While newer iterations of this force field 
 exist that address this issue, none have been consistently applied 
 to TDP-43 LCD like HPS. 
-Our work also sheds some light on the usefulness of phosphomimetic mutations in the study of phosphorylation. The real 
+Our work also sheds some light on the usefulness of phospho- 
+mimetic mutations in the study of phosphorylation. The real 
 charge of phosphoserines is pH-dependent and oscillates between 
 − 1e and − 2e, with a preference for − 2e. This means that the 
 phosphorylated LCD lies somewhere between the 12D and 12DD 
-constructs. Remarkably, we found that the size of the phosphorylated LCD micelles lies between those of the 12D and 12DD 
+constructs. Remarkably, we found that the size of the phospho- 
+rylated LCD micelles lies between those of the 12D and 12DD 
 mutants at physiological salt. We designed point mutations in 
 the phosphomimetics to reproduce the average phosphorylation 
 pattern derived from computational and experimental studies. 
@@ -1233,7 +1340,8 @@ in the presence of a non-ionic surfactant (0.01% Tween-20), and
 we make no claim regarding their accessibility within the cellular 
 environment; whether comparable morphologies can form in 
 vivo under specific local conditions remains an open question 
-that will require dedicated cellular studies. Furthermore, cryoEM imaging at elevated protein concentration (20 μM) revealed 
+that will require dedicated cellular studies. Furthermore, cryo- 
+EM imaging at elevated protein concentration (20 µM) revealed 
 that the 12DD construct retains residual access to a fibrillar 
 pathway, with thin fibrillar structures occasionally coexisting 
 with the dominant spherical micellar population, a feature not 
@@ -1245,7 +1353,8 @@ access to fibrillar morphologies at the concentrations probed,
 suggesting that the precise chemistry of the phospho-group, 
 beyond its formal charge alone, may contribute to the kinetic 
 stabilization of the micellar state. 
-We identified electrostatics as the main driver of the conformational assemblies in this work. Results from simulation 
+We identified electrostatics as the main driver of the con- 
+formational assemblies in this work. Results from simulation 
 capture the electrostatic screening induced by the increase in 
 ionic strength, which leads to decreased repulsion between the 
 negatively charged residues forming the micelle’s coronas (Figure 
@@ -1258,17 +1367,22 @@ account secondary effects like salting out. This is however beyond
 the scope of this work. 
 TDP-43 LCD micellization is driven by phosphorylation-induced 
 hydrophobicity asymmetry, with clustered phosphosites creating 
-a charged C-terminal block. This patterning is observed in fulllength TDP-43 and other IDRs, suggesting micellization may 
+a charged C-terminal block. This patterning is observed in full- 
+length TDP-43 and other IDRs, suggesting micellization may 
 be widespread. Simulations and experiments showed consistent 
-spherical shapes, core-corona organization, and concentrationindependent sizes above CMC, validating the approach. 
-Although Tween-20 is not a naturally occurring cellular component, the observation that 0.01% (v/v) of this surfactant 
+spherical shapes, core-corona organization, and concentration- 
+independent sizes above CMC, validating the approach. 
+Although Tween-20 is not a naturally occurring cellular com- 
+ponent, the observation that 0.01% (v/v) of this surfactant 
 dramatically remodels the assembly landscape of 12D TDP-43 
-LCD, converting a predominantly spherical population into welldef ined wormlike micelles, highlights the in vitro sensitivity of 
+LCD, converting a predominantly spherical population into well- 
+def ined wormlike micelles, highlights the in vitro sensitivity of 
 these assemblies to amphiphilic co-solutes. We note that this 
 observation does not establish that comparable morphologies 
 are accessible in vivo, and we present it cautiously as a starting 
 point for future experiments. Whether endogenous amphiphilic 
-molecules with related physicochemical properties, such as certain lipids or fatty acids, could exert analogous effects within 
+molecules with related physicochemical properties, such as cer- 
+tain lipids or fatty acids, could exert analogous effects within 
 the cell remains an open and speculative question that we did 
 not test here and that would require dedicated experiments in 
 physiologically relevant systems. That said, TDP-43 might be 
@@ -1299,21 +1413,26 @@ Advanced Science, 2026
 
 understand the role of TDP-43 aggregation, we need to know all 
 states. 
-How this phospho-switch operates in the context of the fulllength protein remains a particularly intriguing open question, 
-especially with regard to the architecture of the resulting assemblies. Shinn et al. recently demonstrated that unphosphorylated 
-full-length TDP-43 already adopts a microphase-separated, sizelimited assembly of ∼ 12 molecules forming ordered structures 
+How this phospho-switch operates in the context of the full- 
+length protein remains a particularly intriguing open question, 
+especially with regard to the architecture of the resulting assem- 
+blies. Shinn et al. recently demonstrated that unphosphorylated 
+full-length TDP-43 already adopts a microphase-separated, size- 
+limited assembly of ∼ 12 molecules forming ordered structures 
 of ∼ 33 nm in diameter, driven by inter-block attractions and 
 repulsions encoded in its multi-domain architecture [ 24 ]. In their 
 model, the N-terminal oligomerization domain (NTD) and the 
 two RNA-recognition motifs (RRM1 and RRM2), together with 
 the LCD, act as the blocks of an effective block copolymer, 
 with NTD-driven head-to-tail homo-oligomerization and the 
-documented stacking of the NTD onto the RRMs likely contributing a structural inner subdomain, while the LCD provides 
+documented stacking of the NTD onto the RRMs likely con- 
+tributing a structural inner subdomain, while the LCD provides 
 a separately segregating hydrophobic subdomain driven by its 
 aromatic, aliphatic, and helix-forming residues. Importantly, the 
 12 phosphorylation sites we examined here lie within residues 
 369–414 of full-length TDP-43, deep within the LCD and well 
-beyond the conserved helix and the hydrophobic LCD core. Phosphorylation therefore introduces a strongly negatively charged 
+beyond the conserved helix and the hydrophobic LCD core. Phos- 
+phorylation therefore introduces a strongly negatively charged 
 segment (shifting the local net charge from approximately + 3 to 
 approximately − 21, depending on phosphoserine protonation) at 
 the very C-terminal tip of the LCD, without altering the chemistry 
@@ -1321,15 +1440,19 @@ of the folded NTD, the RRMs, the NLS, or the conserved helix.
 Based on the block-copolymer logic established here for the 
 isolated LCD and on the architecture reported by Shinn et al., and 
 acknowledging that TDP-43 full length is a complex multidomain 
-protein, we can speculate that phosphorylation of the fulllength protein would reinforce, rather than disrupt, the existing 
+protein, we can speculate that phosphorylation of the full- 
+length protein would reinforce, rather than disrupt, the existing 
 microphase architecture: the NTD/RRM module would likely 
 remain at the interior of the assembly as a structural kernel; 
 the hydrophobic N-terminal half of the LCD would form an 
 intermediate hydrophobic shell surrounding this kernel; and 
 the phosphorylated C-terminal tail of the LCD would project 
-outward as a densely charged outer corona. This “kernel-shellcorona” architecture differs in topology from the simpler corecorona micelles of the isolated phosphorylated LCD reported 
+outward as a densely charged outer corona. This “kernel-shell- 
+corona” architecture differs in topology from the simpler core- 
+corona micelles of the isolated phosphorylated LCD reported 
 here, but follows the same underlying physical principle of 
-phosphorylation-induced charge patterning driving block segregation. Several testable consequences follow: the assembly 
+phosphorylation-induced charge patterning driving block seg- 
+regation. Several testable consequences follow: the assembly 
 size should remain comparable to, or modestly larger than, the 
 ∼ 33 nm reported by Shinn et al.; the aggregation number is 
 likely to decrease as the charged corona increases steric and 
@@ -1377,7 +1500,8 @@ an OD600 of approximately 0.7 was reached. Cultures were cooled
 to 18◦C and protein expression was induced with 0.5 mM IPTG. 
 Expression proceeded overnight for approximately 16–18 h at 18◦C 
 with shaking at 180 rpm. 
-Cells were harvested (8000 × g , 15 min, 4◦C), resuspended in icecold lysis buffer (4 M guanidine hydrochloride (Gdn-HCl), 20 mM 
+Cells were harvested (8000 × g , 15 min, 4◦C), resuspended in ice- 
+cold lysis buffer (4 M guanidine hydrochloride (Gdn-HCl), 20 mM 
 Tris-HCl pH 8.0, 500 mM NaCl, 10 mM imidazole, 4 mM β-ME, 
 1 mM PMSF) and lysed by sonication with a Branson Sonifier (4 
 cycles of 4 min at 40% amplitude) with 4 min cooling intervals 
@@ -1387,15 +1511,18 @@ then incubated for 2 h at room temperature with 10 mL HisPur
 Ni-NTA resin (Thermo Fisher Scientific) under gentle rotation. 
 Beads were washed with 30 CV washing buffer (4 M Gdn-HCl, 
 20 mM Tris-HCl pH 8.0, 500 mM NaCl, 30 mM imidazole), and 
-protein was eluted with elution buffer (4 M Gdn-HCl, 20 mM TrisHCl pH 8.0, 150 mM NaCl, 500 mM imidazole). 
+protein was eluted with elution buffer (4 M Gdn-HCl, 20 mM Tris- 
+HCl pH 8.0, 150 mM NaCl, 500 mM imidazole). 
 The eluate was buffer-exchanged into 0.5 M Gdn-HCl (50 mM 
 Tris-HCl pH 8.0, 150 mM NaCl) using an Amicon Ultra-15 
 centrifugal filter unit (3 kDa MWCO, Merck Millipore) and 
-then cleaved overnight at room temperature with His-TEV protease (1 : 20 w/w). Guanidine hydrochloride was then added 
+then cleaved overnight at room temperature with His-TEV pro- 
+tease (1 : 20 w/w). Guanidine hydrochloride was then added 
 to a final concentration of 4 M to dissolve the precipitate. 
 The solution was again incubated with fresh Ni-NTA to bind 
 residual His-tag and TEV protease for 2 h, and the flow-through 
-containing untagged TDP-43 LCD was collected. The flowthrough containing untagged TDP-43 LCD was spin-concentrated 
+containing untagged TDP-43 LCD was collected. The flow- 
+through containing untagged TDP-43 LCD was spin-concentrated 
 using Amicon Ultra-15 centrifugal filter (3 kDa MWCO, Merck 
 Millipore) and further purified by size-exclusion chromatography 
 20 of 31
@@ -1413,7 +1540,8 @@ bovine serum albumin (BSA) as a standard. The purified protein
 was aliquoted, flash-frozen in liquid nitrogen, and stored at 
 − 80◦C. 
 A single-cysteine variant of TDP-43 LCD (A366C) was generated 
-from the unphosphorylated (wild-type, WT) TDP-43 LCD plasmid (pJ411, Addgene #98669) by site-directed mutagenesis using 
+from the unphosphorylated (wild-type, WT) TDP-43 LCD plas- 
+mid (pJ411, Addgene #98669) by site-directed mutagenesis using 
 forward and reverse mutagenic primers and Platinum SuperFi 
 II DNA Polymerase (Thermo Fisher Scientific), introducing a 
 cysteine residue in place of alanine at position 366 in the 
@@ -1437,13 +1565,15 @@ and untagged λPP-phosphatase and grown in 4 to 8 L TB media
 (Formedium) containing 100 mg L− 1 Ampicillin at 37◦C, 140 rpm 
 until an OD600 of 0.6. Cultures were cooled on ice to 18◦C, and 
 protein expression was induced using 0.5 mM IPTG with further 
-incubation at 18◦C, 140 rpm for 21 h. Cells were harvested by centrifugation (4000 × g , 15 min), re-suspended in ice cold lysis buffer 
+incubation at 18◦C, 140 rpm for 21 h. Cells were harvested by cen- 
+trifugation (4000 × g , 15 min), re-suspended in ice cold lysis buffer 
 (50 mM Tris-Cl, 500 mM NaCl, 10 mM imidazole, 5 mM MgCl2 , 
 1 mM TCEP, 5% glycerol, 1x Roche EDTA-free cOmplete protease 
 inhibitor, 100 U/ml Millipore Benzonase, pH 8.0)) and lysed 
 by high pressure homogenization at 1.9 kbar (Constant Systems 
 CF1 cell disruptor). Cell lysates were cleared by centrifugation 
-(40000 × g , 30 min at 4◦C). Lysate containing MBP-His6-TEVCK1 δ was applied to a HisTrap FF 5 mL column (Cytiva), using 
+(40000 × g , 30 min at 4◦C). Lysate containing MBP-His6-TEV- 
+CK1 δ was applied to a HisTrap FF 5 mL column (Cytiva), using 
 an automated chromatography system (Biorad NGC Quest Plus, 
 used for all chromatography steps). The column was washed with 
 20 CV (column volumes) of wash buffer (50 mM Tris-Cl, 500 mM 
@@ -1461,12 +1591,14 @@ concentrations higher than 50 mM imidazole). Untagged CK1 δ
 was spin-concentrated (Amicon Ultra 15 3K, Merck Millipore) 
 and subjected to size exclusion chromatography (Superdex 200 
 16/600 pg, Cytiva, 50 mM Bis-Tris pH 6.5, 50 mM NaCl, 10 mM 
-MgCl2 , 0.5 mM TCEP). Peak fractions were pooled and spinconcentrated to 120 μM, aliquoted, flash-frozen in liquid nitrogen 
+MgCl2 , 0.5 mM TCEP). Peak fractions were pooled and spin- 
+concentrated to 120 µM, aliquoted, flash-frozen in liquid nitrogen 
 and stored at − 80◦C. 
 4.2 
 Site-Specific Fluorescent Labeling of TDP-43 
 LCD 
-For fluorescence microscopy experiments, the WT A366C variant of TDP-43 LCD (expressed and purified as described in 
+For fluorescence microscopy experiments, the WT A366C vari- 
+ant of TDP-43 LCD (expressed and purified as described in 
 Section 4.1.1 ) was site-specifically labeled using thiol-reactive 
 maleimide chemistry. 
 Purified A366C LCD was first reduced by incubation with 10 mM 
@@ -1490,7 +1622,7 @@ equilibrated in storage buffer (4 M guanidine hydrochloride,
 20 mM Tris-HCl, 150 mM NaCl, pH 8.0). Fractions corresponding 
 to monomeric labeled protein were pooled and analyzed by 
 SDS-PAGE. The final labeled A366C LCD was concentrated to 
-22.3 μM in a storage buffer, aliquoted (3 μL), flash-frozen in liquid 
+22.3 µM in a storage buffer, aliquoted (3 µL), flash-frozen in liquid 
 nitrogen, and stored at − 80◦C until use. 
 4.3 
 In Vitro Phosphorylation Reaction Assay 
@@ -1515,10 +1647,12 @@ Proteins were transferred to nitrocellulose membranes (Cytiva,
 containing 192 mM glycine (Roth, 0079.5), 24.8 mM Tris (Roth, 
 0188.4), and 20% ethanol (Merck, 1.00983.1000). 
 Membranes were incubated overnight at 4◦C with the primary 
-antibody, followed by incubation with IRDye 800CW donkey antirabbit secondary antibody (LI-COR, 926–32213). Fluorescence 
+antibody, followed by incubation with IRDye 800CW donkey anti- 
+rabbit secondary antibody (LI-COR, 926–32213). Fluorescence 
 signals were detected using an Odyssey CLx Infrared Imaging 
 System (LI-COR). 
-Total protein staining was performed on gels following electrophoresis. Gels were fixed for 30 min at room temperature in 
+Total protein staining was performed on gels following elec- 
+trophoresis. Gels were fixed for 30 min at room temperature in 
 50% ethanol (Merck, 1.00983.1000) and 10% acetic acid (Sigma, 
 A6283), stained overnight with SYPRO Ruby (Sigma, S4942), and 
 destained for 30 min in 10% ethanol and 10% acetic acid. Images 
@@ -1534,27 +1668,30 @@ simpler Tris-based buffer is used for 12D and 12DD, where the
 kinase reaction is not required. 
 Protein stocks (2.3 – 2.6 mM in 4 M Gdn-HCl) were thawed on ice 
 immediately before use. For samples at final concentrations ≥ 10 
-μM, the stock was diluted directly into the respective assay buffer. 
-For samples at concentrations below 10 μM, the stock was first 
+µM, the stock was diluted directly into the respective assay buffer. 
+For samples at concentrations below 10 µM, the stock was first 
 pre-diluted into an intermediate buffer containing 2 M Gdn-HCl 
 (with the same components and pH as the SEC buffer used for 
 each construct) to achieve a suitable intermediate concentration, 
 from which the required volume was then diluted into the assay 
-buffer to reach the desired final concentration. Each concentration point was prepared as an independent sample. In all cases, 
+buffer to reach the desired final concentration. Each concentra- 
+tion point was prepared as an independent sample. In all cases, 
 the residual Gdn-HCl concentration in the final sample did not 
 exceed 20 mM. This dilution protocol was applied consistently 
 across all experiments, including DLS, TEM, pyrene fluorescence, 
 Nile Red fluorescence, and in vitro phosphorylation reactions, 
 and was used for both the phosphorylated LCD (phLCD) and the 
 phosphomimetic variants (12D and 12DD). 
-Buffer compositions were construct-specific. For the phosphorylated LCD (phLCD), phosphorylation reactions were performed 
+Buffer compositions were construct-specific. For the phosphory- 
+lated LCD (phLCD), phosphorylation reactions were performed 
 in 50 mM HEPES, pH 7.5, 150 mM NaCl (or adjusted to 300 
 or 500 mM as indicated), 10 mM MgCl2 , 0.75 mM ATP, and 
 1 mM DTT. The reactions were not quenched and were incubated 
 overnight (16 h) at room temperature. Following incubation, 
 samples were centrifuged at 20 000 × g for 10 min at 22◦C 
 to remove large aggregates and debris. The supernatants were 
-then transferred to low-binding 1.5 mL reaction tubes (Sarstedt, Nümbrecht, Germany; cat. no. 72.690.001) and kept until 
+then transferred to low-binding 1.5 mL reaction tubes (Sarst- 
+edt, Nümbrecht, Germany; cat. no. 72.690.001) and kept until 
 measurements. 
 For phosphomimetic variants (12D and 12DD), samples were 
 diluted into 20 mM Tris pH 7.5, 150 mM NaCl (or varied to 
@@ -1563,11 +1700,13 @@ temperature. Following incubation, samples were centrifuged at
 20000 × g for 10 min at 22◦C to remove large aggregates and 
 debris, then transferred to low-binding 1.5 mL reaction tubes 
 (Sarstedt; cat. no. 72.690.001) prior to measurements. 
-For surfactant experiments, assay buffers were prepared separately with the same components as above but with Tween-20 
+For surfactant experiments, assay buffers were prepared sepa- 
+rately with the same components as above but with Tween-20 
 added to a final concentration of 0.01% (v/v) from a 10% stock 
 solution. Protein samples were diluted directly into these Tween- 
 20-containing buffers, followed by overnight incubation (16 h) 
-at room temperature. Samples were then centrifuged and transferred as described above. All samples were prepared freshly and 
+at room temperature. Samples were then centrifuged and trans- 
+ferred as described above. All samples were prepared freshly and 
 used within 24 h. 
 For TEM and cryo-EM sample preparation in Sections 2.2 –2.4 , 
 samples were centrifuged at 20,000 × g for 10 min at 22◦C prior 
@@ -1576,7 +1715,7 @@ without centrifugation to preserve the full assembly population.
 4.5 
 Thioflavin-T (ThT) Aggregation Assay 
 Wild-type (WT) and in vitro phosphorylated TDP-43 LCD (15 
-μM final concentration) were incubated with 5 μM ThT in assay 
+µM final concentration) were incubated with 5 µM ThT in assay 
 buffer (50 mM HEPES pH 7.5, 150 mM NaCl, 10 mM MgCl2 , 
 0.75 mM ATP, 1 mM DTT) at 25◦C. Measurements were set up in 
 a sealed black 96-well plate (Corning, low-binding) to minimize 
@@ -1589,8 +1728,11 @@ background. All experiments were performed in at least three
 independent replicates. 
 4.6 
 Turbidity Assay 
-To compare the phase-separation propensities of phosphorylated and unphosphorylated TDP-43 LCD, turbidity measurements were performed in parallel on three samples: (i) CK1 δ- 
-phosphorylated TDP-43 LCD (phLCD); (ii) “aged” unphosphorylated TDP-43 LCD (non-phLCD prepared in parallel with phLCD 
+To compare the phase-separation propensities of phosphory- 
+lated and unphosphorylated TDP-43 LCD, turbidity measure- 
+ments were performed in parallel on three samples: (i) CK1 δ- 
+phosphorylated TDP-43 LCD (phLCD); (ii) “aged” unphosphory- 
+lated TDP-43 LCD (non-phLCD prepared in parallel with phLCD 
 without kinase and ATP, allowed to age for the same duration); 
 and (iii) “freshly” prepared non-phLCD. 
 4.6.1 
@@ -1600,7 +1742,8 @@ used for measurement were passivated to minimize nonspecific
 protein adsorption to the polystyrene surface and to prevent 
 surface-induced heterogeneous nucleation of phase separation. 
 Each well was filled to the brim with 10% (w/v) Pluronic and 
-incubated at room temperature for approximately 1 h to allow selfassembly of a PEO-based hydrophilic coating on the polystyrene 
+incubated at room temperature for approximately 1 h to allow self- 
+assembly of a PEO-based hydrophilic coating on the polystyrene 
 surface. The Pluronic solution was then aspirated, and each well 
 was washed 10 times with the respective experimental buffer to 
 remove any non-adsorbed Pluronic prior to sample loading. 
@@ -1609,14 +1752,15 @@ Advanced Science, 2026
 
 4.6.2 
 Sample Preparation and Measurement 
-The purified TDP-43 LCD was rapidly diluted from the 4 M GdnHCl storage buffer into the experimental buffer to a final protein 
-concentration of 50 μM. For phLCD, the buffer composition was 
+The purified TDP-43 LCD was rapidly diluted from the 4 M Gdn- 
+HCl storage buffer into the experimental buffer to a final protein 
+concentration of 50 µM. For phLCD, the buffer composition was 
 50 mM HEPES pH 7.5, 150 mM NaCl, 10 mM MgCl2 , 0.75 mM ATP, 
 1 mM DTT, with CK1 δ added at a 1:10 molar ratio (kinase:LCD). 
 For the “aged” non-phLCD sample, the buffer composition was 
 identical except that CK1 δ and ATP were omitted to control for 
 buffer effects. 
-Immediately after dilution, 30 μL of each freshly prepared phLCD 
+Immediately after dilution, 30 µL of each freshly prepared phLCD 
 and “aged” non-phLCD sample was transferred to separate 
 passivated wells and incubated in the plate at 23◦C. After 
 approximately 1 h of incubation, the “fresh” non-phLCD sample 
@@ -1626,26 +1770,29 @@ same plate. Buffer-only controls matching the composition of
 each sample were included in parallel wells for blank subtraction. 
 Turbidity was then measured for all samples simultaneously 
 by recording absorbance at 350 nm using a SpectraMax iD5 
-plate reader (Molecular Devices) at 23◦C, with a 3 s plate shaking step immediately preceding the measurement. Under these 
+plate reader (Molecular Devices) at 23◦C, with a 3 s plate shak- 
+ing step immediately preceding the measurement. Under these 
 conditions, phLCD and “aged” non-phLCD samples had been 
 incubated for ∼ 1 h, while the “fresh” non-phLCD sample was 
 measured immediately after dilution. Blank absorbance values 
 from buffer-only wells were subtracted from the corresponding 
 sample wells. 
-All measurements were performed with three biological replicates (independent protein preparations) and three technical 
+All measurements were performed with three biological repli- 
+cates (independent protein preparations) and three technical 
 replicates per biological replicate. Reported values represent the 
 mean ± standard deviation across biological replicates. 
 4.7 
 Fluorescence Imaging of TDP-43 LCD Phase 
 Separation 
-To directly visualize the phase separation behavior of unphosphorylated and phosphorylated TDP-43 LCD, time-lapse fluorescence 
+To directly visualize the phase separation behavior of unphospho- 
+rylated and phosphorylated TDP-43 LCD, time-lapse fluorescence 
 imaging was performed on a Yokogawa spinning disk confocal 
 microscope. 
 4.7.1 
 Sample Chamber Passivation 
 To minimize protein adsorption to the glass surface and to 
 suppress surface-induced nucleation of phase separation, the 
-wells of an ibidi μ-Slide 15 Well 3D Glass Bottom (formerly μ-Slide 
+wells of an ibidi µ-Slide 15 Well 3D Glass Bottom (formerly µ-Slide 
 Angiogenesis Glass Bottom; ibidi GmbH, Munich, Germany; Cat. 
 No. 81507; #1.5H glass coverslip bottom) were passivated prior to 
 sample loading. Each well was filled to capacity with 10% (w/v) 
@@ -1659,20 +1806,23 @@ immediately after passivation.
 4.7.2 
 Sample Preparation 
 For fluorescence visualization, LD655-labeled TDP-43 LCD 
-A366C (prepared as described in Section 4.2 ) and unlabeled wildtype TDP-43 LCD were co-diluted from their respective stocks 
+A366C (prepared as described in Section 4.2 ) and unlabeled wild- 
+type TDP-43 LCD were co-diluted from their respective stocks 
 directly into the assay buffer to reach final concentrations of 
-10 nM labeled A366C and 50 μM unlabeled LCD (labeled-tounlabeled molar ratio ≈ 1 : 5000). All samples were prepared 
+10 nM labeled A366C and 50 µM unlabeled LCD (labeled-to- 
+unlabeled molar ratio ≈ 1 : 5000). All samples were prepared 
 freshly immediately before imaging. 
 Unphosphorylated samples . Labeled and unlabeled proteins were 
 co-diluted into assay buffer containing 50 mM HEPES pH 7.5, 150 
 / 300 / 500 mM NaCl (as indicated), 10 mM MgCl2 , and 1 mM 
-DTT (no kinase, no ATP). These samples also served as the nokinase/no-ATP control for the phosphorylated condition. 
+DTT (no kinase, no ATP). These samples also served as the no- 
+kinase/no-ATP control for the phosphorylated condition. 
 Phosphorylated samples. Labeled and unlabeled proteins were 
 co-diluted into assay buffer containing 50 mM HEPES pH 7.5, 
 150 mM NaCl, 10 mM MgCl2 , 0.75 mM ATP, and 1 mM DTT, 
 supplemented with recombinant CK1 δ at a 1 : 10 molar ratio 
 (kinase : LCD) to initiate phosphorylation. The reaction mixture 
-was immediately transferred to a passivated well of the μ-Slide 
+was immediately transferred to a passivated well of the µ-Slide 
 15 Well 3D and incubated for 1 h at room temperature in the 
 dark on the microscope stage (under a light-shielding cover, 
 laser off), during which the CK1 δ-catalyzred phosphorylation 
@@ -1684,23 +1834,25 @@ All incubation and imaging were performed at room temperature.
 Image Acquisition 
 Imaging was performed on a Yokogawa CSU-W1 SoRa spinning 
 disk confocal scanner unit (Yokogawa Electric Corporation; 
-50 μm pinhole disk) mounted on an inverted Nikon Eclipse Ti2 
+50 µm pinhole disk) mounted on an inverted Nikon Eclipse Ti2 
 microscope frame, equipped with a Nikon CFI Plan Apochromat 
 Lambda S 60 × silicone oil immersion objective (NA 1.30; Nikon 
 part number MRD73600) and a Hamamatsu ORCA-Flash 4.0 
-sCMOS camera (2048 × 2048 pixels; 6.5 μm physical pixel pitch). 
+sCMOS camera (2048 × 2048 pixels; 6.5 µm physical pixel pitch). 
 Samples were excited with a 660 nm laser line at 40% nominal 
-output power. The unit was operated in standard W1 mode without SoRa pixel reassignment engaged. Single-plane fluorescence 
+output power. The unit was operated in standard W1 mode with- 
+out SoRa pixel reassignment engaged. Single-plane fluorescence 
 images were acquired at the bottom of the ibidi chamber with an 
 exposure time of 175 ms per frame. The calibrated pixel size at the 
-specimen level was 0.108 μm/pixel, providing a field of view of 222 
-× 222 μm. For each condition, time-lapse acquisitions consisting 
+specimen level was 0.108 µm/pixel, providing a field of view of 222 
+× 222 µm. For each condition, time-lapse acquisitions consisting 
 of 61 frames were recorded at 60 s intervals over 60 min. Images 
 were saved as 16-bit OME-TIFF files using NIS-Elements software 
 (Nikon). 
 4.7.4 
 Image Processing 
-Acquired time-lapse stacks (61 frames per condition) were processed in Fiji (ImageJ v1.53, NIH) for visualization. Grayscale 
+Acquired time-lapse stacks (61 frames per condition) were pro- 
+cessed in Fiji (ImageJ v1.53, NIH) for visualization. Grayscale 
 16-bit image stacks were re-colored by applying the “Red” lookup 
 table (LUT), and brightness and contrast were adjusted linearly 
 for display purposes (identical settings applied across all frames of 
@@ -1708,7 +1860,7 @@ Advanced Science, 2026
 23 of 31
 
 a given stack). A calibrated scale bar (using the recorded pixel size 
-of 0.108 μm/pixel) and a time stamp (in min format) were overlaid 
+of 0.108 µm/pixel) and a time stamp (in min format) were overlaid 
 onto each frame using the built-in Fiji tools (Analyze →Tools →
 Scale Bar; Image →Stacks →Time Stamper). For all conditions, 
 t = 0 of the time stamp corresponds to the first acquired frame 
@@ -1724,12 +1876,13 @@ Native Mass Spectrometry
 Native mass spectrometry was performed on a Micromass Q-ToF 
 Ultima mass spectrometer (Waters Corporation, Milford, USA) 
 modified for transmission of high masses (MS Vision, Almere, 
-Netherlands) [ 69 ]. For this, the buffer of 50 μL protein solution 
+Netherlands) [ 69 ]. For this, the buffer of 50 µL protein solution 
 was exchanged against 200 mM ammonium acetate using 10 kDa 
-MWCO Amicon ultra centrifugal filters (Merck Millipore, Billerica, USA) according to the manufacturer’s instructions. The 
+MWCO Amicon ultra centrifugal filters (Merck Millipore, Bil- 
+lerica, USA) according to the manufacturer’s instructions. The 
 protein was then diluted with 200 mM ammonium acetate to 
-a final concentration of 8 to 10 μM. For each measurement, 
-4 μL of the protein solution was loaded into gold-coated glass 
+a final concentration of 8 to 10 µM. For each measurement, 
+4 µL of the protein solution was loaded into gold-coated glass 
 capillaries prepared in-house [ 70 ], and the sample was directly 
 introduced into the mass spectrometer. The following parameters 
 were used for data acquisition: capillary voltage 1.7 kV, sample 
@@ -1742,21 +1895,24 @@ Massign software (version 11/14/2014) [ 71 ].
 Dynamic Light Scattering (DLS) 
 DLS measurements were performed on a Malvern Zetasizer Nano 
 ZS instrument at 25◦C using backscattering geometry (detection 
-angle 173◦). Protein samples (100 μL, concentration range 0.1 – 70 
-μM) were centrifuged at 20,000 × g for 10 min to remove possible 
+angle 173◦). Protein samples (100 µL, concentration range 0.1 – 70 
+µM) were centrifuged at 20,000 × g for 10 min to remove possible 
 large aggregates or dust particles, then loaded into disposable 
 UV-grade plastic micro cuvettes (BRAND GMBH, Cat# 759200, 
-70 μL, 8.5 mm center height). Samples were equilibrated for 5 min 
+70 µL, 8.5 mm center height). Samples were equilibrated for 5 min 
 prior to measurement. For each measurement, the instrument 
 performed up to 15 acquisitions that were automatically averaged 
 by the Zetasizer software with automatic attenuation and optimal 
 cell position selection. 
 Size distributions were obtained from intensity-weighted analysis 
 using the General Purpose algorithm of the Malvern Zetasizer 
-software. A lower size limit of 1 nm was applied to exclude subnanometre size contributions arising from instrumental noise at 
-the shortest lag times ( ∼ 0.1 – 5 μs) of the autocorrelation function. 
-In this region, the correlation coefficient plateau displayed lowamplitude fluctuations characteristic of statistical and electronic 
-noise rather than scattering from physical particles; these fluctuations were otherwise interpreted by the analysis software as 
+software. A lower size limit of 1 nm was applied to exclude sub- 
+nanometre size contributions arising from instrumental noise at 
+the shortest lag times ( ∼ 0.1 – 5 µs) of the autocorrelation function. 
+In this region, the correlation coefficient plateau displayed low- 
+amplitude fluctuations characteristic of statistical and electronic 
+noise rather than scattering from physical particles; these fluc- 
+tuations were otherwise interpreted by the analysis software as 
 a spurious sub-nanometre-sized population. The 1 nm threshold 
 removes this artifact while preserving all real scattering signals 
 from protein assemblies. Given the inherent polydispersity of the 
@@ -1767,12 +1923,15 @@ The identity of this peak as the protein micellar species was
 independently confirmed by TEM and cryo-EM imaging. Larger 
 species ( > 100 nm), occasionally present in the distributions, were 
 attributed to residual aggregates or dust contributions and were 
-excluded from the analysis. Concentration- and ionic-strengthresolved DLS size distributions for phLCD, 12D, and 12DD across 
+excluded from the analysis. Concentration- and ionic-strength- 
+resolved DLS size distributions for phLCD, 12D, and 12DD across 
 the full tested range are provided in Figures S16–S18 . 
 Statistical analysis was performed at two levels of replication. 
-For each biological replicate, 3–5 technical replicates (independent measurements of the same protein preparation in separate 
+For each biological replicate, 3–5 technical replicates (indepen- 
+dent measurements of the same protein preparation in separate 
 cuvettes) were averaged to obtain a single mean hydrodynamic 
-diameter. A biological replicate represents an independent protein preparation including a new protein purification batch, fresh 
+diameter. A biological replicate represents an independent pro- 
+tein preparation including a new protein purification batch, fresh 
 ATP stock, and freshly prepared buffer. Reported values represent 
 the mean ± standard deviation (SD) calculated across n = 12 
 biological replicates per condition. 
@@ -1784,14 +1943,15 @@ Quantifoil Micro Tools GmbH, Großlöbichau, Germany). Prior to
 sample application, grids were glow-discharged using an Emitech 
 K100X glow discharge at 20 mA for 60 s to render the carbon film 
 hydrophilic. 
-5 μL of sample was applied to the carbon-coated side of the grid 
+5 µL of sample was applied to the carbon-coated side of the grid 
 and incubated for 30 s. Excess liquid was removed by blotting with 
-filter paper. The grid was then stained with 5 μL of 2% (w/v) uranyl 
+filter paper. The grid was then stained with 5 µL of 2% (w/v) uranyl 
 acetate for 30 s, blotted dry, and air-dried before imaging. 
 For TEM sample preparation in Sections 2.2 –2.4 , samples were 
 centrifuged at 20,000 × g for 10 min at 22◦C prior to grid 
 preparation to remove large aggregates. For Section 2.5 (Tween-20 
-experiments), samples were applied directly without centrifugation to preserve the full assembly population. 
+experiments), samples were applied directly without centrifuga- 
+tion to preserve the full assembly population. 
 Grids were examined on a FEI Tecnai 12 BioTwin transmission 
 electron microscope operated at 120 kV acceleration voltage, 
 equipped with an EMSIS Makiya CMOS camera (2048 × 2048 
@@ -1802,7 +1962,7 @@ per condition.
 4.11 
 Cryo-Electron Microscopy (Cryo-EM) 
 Cryo-EM samples of phLCD, 12D, and 12DD were prepared at a 
-final protein concentration of 20 μM following the same protocol 
+final protein concentration of 20 µM following the same protocol 
 used for all biophysical measurements in this study (Section 4.4 ). 
 Protein was diluted from 4 M Gdn-HCl stock into the respective 
 experimental buffer (phLCD: 50 mM HEPES pH 7.5, 150 mM 
@@ -1815,11 +1975,12 @@ room temperature to allow assembly equilibration. Immediately
 prior to grid preparation, samples were centrifuged at 20,000 × g 
 for 10 min at 22◦C to remove large aggregates, and the supernatant 
 was used directly for vitrification. 
-C-flatTM holey carbon grids (CF-2/2-2C, 2 μm hole diameter with 
-2 μm spacing, 200 mesh Cu; Protochips) were glow-discharged 
+C-flatTM holey carbon grids (CF-2/2-2C, 2 µm hole diameter with 
+2 µm spacing, 200 mesh Cu; Protochips) were glow-discharged 
 in air immediately before use using an Emitech K100X glow 
 discharge unit at 20 mA for 60 s to render the carbon film 
-hydrophilic. A 3.5 μL aliquot of sample was applied to the glowdischarged side of the grid mounted in a Thermo Fisher Scientific 
+hydrophilic. A 3.5 µL aliquot of sample was applied to the glow- 
+discharged side of the grid mounted in a Thermo Fisher Scientific 
 Vitrobot Mark IV operated at 20◦C and 100% relative humidity. 
 Grids were blotted with Whatman No. 1 filter paper using an 
 asymmetric blotting configuration (a single filter paper on the 
@@ -1829,13 +1990,15 @@ single blot per grid), and immediately plunge-frozen in liquid
 ethane cooled by clean (ice-free) liquid nitrogen. Vitrified grids 
 were stored under liquid nitrogen until imaging. 
 Cryo-EM imaging was performed on the same FEI Tecnai 12 
-BioTwin transmission electron microscope (Thermo Fisher Scientific) operated at 120 kV and equipped with an EMSIS Makiya 
+BioTwin transmission electron microscope (Thermo Fisher Sci- 
+entific) operated at 120 kV and equipped with an EMSIS Makiya 
 CMOS camera (2464 × 2056 pixels; EMSIS GmbH) as used for 
-negative-stain TEM (Section 4.10 ). Data were acquired in lowdose mode using a three-step scheme: grid screening in search 
+negative-stain TEM (Section 4.10 ). Data were acquired in low- 
+dose mode using a three-step scheme: grid screening in search 
 mode at 1900 × nominal magnification (spot size 1, intensity 
 48.70); focusing on an adjacent area in focus mode at 150000 ×
 nominal magnification (spot size 3, intensity 36.88, focus distance 
-3.32 μm, focus angle 16.0◦); and image acquisition in exposure 
+3.32 µm, focus angle 16.0◦); and image acquisition in exposure 
 mode at 68000 × nominal magnification (spot size 1, intensity 
 40.07) with an exposure time of 1 s. The beam diameter at the 
 fluorescent screen was 165 mm. Imaging was performed under 
@@ -1852,11 +2015,12 @@ on a Duetta dual fluorescence/absorbance spectrometer (Horiba
 Scientific). A 3 mM pyrene stock solution (Sigma–Aldrich, ≥ 99%) 
 was prepared in acetone. Working samples covering the desired 
 protein concentration range were prepared in an assay buffer 
-with 2 μM pyrene [ 49–52 ]. The final acetone content was kept 
+with 2 µM pyrene [ 49–52 ]. The final acetone content was kept 
 below 0.5% (v/v). Samples were equilibrated for 15 min at room 
 temperature before measurement. 
 Spectra were recorded at λex = 335 nm with emission scanned 
-from 350 to 600 nm (excitation bandpass 5 nm, emission increment 0.5 nm, integration time 0.05 s, detector accumulations 1). 
+from 350 to 600 nm (excitation bandpass 5 nm, emission incre- 
+ment 0.5 nm, integration time 0.05 s, detector accumulations 1). 
 The I1 /I3 ratio was obtained from the maxima at 373 ± 1 nm (I1 ) 
 and 384 ± 1 nm (I3 ). Buffer blank spectra recorded under identical 
 conditions were subtracted prior to analysis. Raw Duetta ASCII 
@@ -1870,14 +2034,17 @@ linear regressions were fitted to (i) the gradually descending
 region at low protein concentrations and (ii) the lower plateau 
 at high concentration; their intersection on the abscissa was 
 taken as the apparent CMC. Linear fits were performed using 
-numpy.polyfit, and the intersection point was calculated analytically as xCMC = (b2 – b1 )/(k1 – k2 ), where k1 , b1 and k2 ,b2 are 
+numpy.polyfit, and the intersection point was calculated analyt- 
+ically as xCMC = (b2 – b1 )/(k1 – k2 ), where k1 , b1 and k2 ,b2 are 
 the slopes and intercepts of the two regression lines, respectively. 
 A sigmoidal (logistic) fit is shown in the figures solely for 
 visual guidance. Because the protein is a true amphiphile with a 
-hydrophobic core and charged termini, the absence of a flat premicellar baseline is attributed to partial hydrophobic exposure of 
+hydrophobic core and charged termini, the absence of a flat pre- 
+micellar baseline is attributed to partial hydrophobic exposure of 
 monomeric and oligomeric species below the CMC, consistent 
 with the intrinsically disordered nature of the LCD. Protein-based 
-amphiphiles display a gradual I1 /I3 transition-reflecting heterogeneous hydrophobic-patch exposure along flexible chains-such 
+amphiphiles display a gradual I1 /I3 transition-reflecting hetero- 
+geneous hydrophobic-patch exposure along flexible chains-such 
 that the value obtained represents the onset of cooperative 
 micellization rather than a sharp critical point. The elevated 
 ionic strength of the physiological buffer (20 mM Tris, 150 mM 
@@ -1897,7 +2064,7 @@ on a Duetta dual fluorescence/absorbance spectrometer (Horiba
 Scientific). A 1 mM Nile Red stock solution (Sigma–Aldrich) 
 was prepared in ethanol. Working samples covering the desired 
 protein concentration range were prepared in an assay buffer 
-with 2 μM Nile Red [ 72, 73 ]; the final ethanol content was kept 
+with 2 µM Nile Red [ 72, 73 ]; the final ethanol content was kept 
 below 0.5% (v/v). Samples were equilibrated for 30 min at room 
 temperature before measurement. Spectra were recorded at λex = 
 550 nm with emission scanned from 560 to 700 nm (excitation 
@@ -1910,7 +2077,8 @@ intensity and a blue shift of the emission maximum ( ∼ 15–25 nm)
 upon incorporation into a hydrophobic micellar core [ 73, 74 ]. The 
 CMC was determined by the three-tangent intersection method 
 applied to the fluorescence intensity vs. protein concentration 
-profile: linear regressions were fitted independently to (i) the lowconcentration baseline region, (ii) the steeply rising transitional 
+profile: linear regressions were fitted independently to (i) the low- 
+concentration baseline region, (ii) the steeply rising transitional 
 region, and (iii) the upper plateau at high protein concentrations. 
 The intersections of adjacent regression lines defined CMC1 
 (onset of micelle formation) and CMC2 (completion of the 
@@ -1928,12 +2096,13 @@ regression line. All analysis scripts are available upon request.
 4.13 
 Simulations 
 All of our simulations were carried out with the HOOMD-blue 
-package, version 3.11.0 [ 76 ]. We used gsd 2.9.0 to record trajectories to binary files. Non-bonded interactions were modeled with 
+package, version 3.11.0 [ 76 ]. We used gsd 2.9.0 to record trajecto- 
+ries to binary files. Non-bonded interactions were modeled with 
 the HPS force field [ 38 ] using a Debye length of κ = 1.0 nm− 1 
 ( ∼ 100 mM NaCl), except in the simulations where we tested the 
-effect of salt, where we selected kappa using the relation κ= 
+effect of salt, where we selected kappa using the relation 𝜅= 
 √
-I ( M ) 
+𝐼 ( 𝑀 ) 
 0 . 304 , where I(M) represents the salt concentration in moles/L 
 [ 45 ]. We utilized the corresponding bonded parameters of 3.8 Å
 for bond length and 10 kJ/Å2 for the spring constant. Polymer 
@@ -1960,7 +2129,7 @@ then progressively bring the timestep up to 10 fs in a longer step
 that runs for 1.82 × 107 timesteps. We then run the simulation 
 for an extra 280 ns to further relax chains. We then delete the 
 spherical walls and run the simulation for 10 ns. The simulation 
-is then run for 7.78 μs; we use the last 7 μs as the production 
+is then run for 7.78 µs; we use the last 7 µs as the production 
 run. Convergence to a steady state was verified by tracking the 
 size of the largest cluster over the course of the simulation, and 
 the production window was defined only after this quantity had 
@@ -1976,7 +2145,8 @@ S24 ; they are obtained by combining trajectories from all 3
 replicas for each sequence. 
 4.13.2 
 Semi-Grand Canonical Monte Carlo Simulations 
-Most simulations used in this paper were carried out using an inhouse semi-grand canonical Monte Carlo algorithm, developed 
+Most simulations used in this paper were carried out using an in- 
+house semi-grand canonical Monte Carlo algorithm, developed 
 as a plugin for HOOMD-blue. We used it in combination with 
 molecular dynamics in order to obtain more accurate results. In 
 this method, protein chains can be inserted or deleted from the 
@@ -2003,7 +2173,8 @@ overall density. Our implementation has a finite-sized reservoir of
 chains, which corresponds to a semi-grand canonical ensemble 
 instead of a true grand canonical one. 
 It is important to highlight a subtle but significant difference 
-between the semi-grand and grand canonical ensemble simulations. In grand canonical simulations, one should not see 
+between the semi-grand and grand canonical ensemble sim- 
+ulations. In grand canonical simulations, one should not see 
 phase-separated regions—only one phase or the other. The reason 
 why we see droplets coexisting with dilute chains in systems that 
 would otherwise phase separate is that the maximum number of 
@@ -2014,7 +2185,8 @@ same time to complete as 102.5 ≈ 316 MD timesteps. We therefore
 spend around the same amount of time on MD as we do on MC. If 
 a move is accepted, we conserve the individual velocities of each 
 particle. 
-Simulations were initialized with 30 interacting chains in proximity, confined by a spherical wall. The non-interacting chains are 
+Simulations were initialized with 30 interacting chains in proxim- 
+ity, confined by a spherical wall. The non-interacting chains are 
 initialized near the edges of the box, outside of the region confined 
 by the spherical walls. The equilibration procedure is the same as 
 the one described for the MD simulations. 
@@ -2034,7 +2206,8 @@ Advanced Science, 2026
 Analysis 
 We conducted the post-analysis of our simulations using Python. 
 For semi-grand canonical Monte Carlo simulations, we ignored 
-non-interacting chains. Some of our analysis requires convergence of the simulation to a stationary state. This is the case for 
+non-interacting chains. Some of our analysis requires conver- 
+gence of the simulation to a stationary state. This is the case for 
 the size distribution histograms. To ensure that convergence had 
 been reached in the distribution of cluster sizes, we analyzed the 
 size of the largest cluster over time (Figure S19 ). We consider that 
@@ -2051,29 +2224,31 @@ separated by a distance of 7.0 Å or less.
 Size Distribution. To compute size distribution 
 histograms, we utilized the clustering data from each frame. We 
 computed the cluster size histograms for each frame and averaged 
-them over all of them. That histogram is then multiplied termwise by the vector [1, 2, . . . , N-1, N]. The distribution now reflects 
+them over all of them. That histogram is then multiplied term- 
+wise by the vector [1, 2, . . . , N-1, N]. The distribution now reflects 
 the probability of observing a chain in state M, which represents a 
 chain located in a cluster of size M. In systems exhibiting micelle 
 formation, this quantity is known to follow the distribution: 
-f( N) = ae− N∕b + ce−( N−N0 ) 2 ∕2 σ2 
+𝑓( 𝑁) = 𝑎𝑒− 𝑁∕𝑏 + 𝑐𝑒−( 𝑁−𝑁0 ) 2 ∕2 𝜎2 
 where the first term represents a dilute polydisperse solution and 
 the second one represents the distribution of micelle sizes of mean 
 aggregation number N0 and standard deviation σ. By fitting our 
 data with this function we are able to extract the mean number of 
 chains in the simulated micelles shown in Figure 2d and which 
 are used to define the micelle size interval in other analyzes. 
-We chose to discard the first 2 μs of the simulation for the 
+We chose to discard the first 2 µs of the simulation for the 
 calculations of cluster sizes to ensure convergence had been 
-reached. We thus end up with 6 μs per replica to compute size 
+reached. We thus end up with 6 µs per replica to compute size 
 distribution histograms. 
 4.13.3.3 
 Hydrodynamic Diameter. The hydrodynamic 
 radius ( RH ) of a polymer or polymer assembly can be computed 
 by the relation: 
-1∕RH = 1∕2N2 ⟨ ∑
-i≠j 1∕rij 
+1∕𝑅𝐻 = 1∕2𝑁2 ⟨ ∑
+𝑖≠𝑗 1∕𝑟𝑖𝑗 
 ⟩ 
-where N represents the number of monomers in the polymer/cluster and rij the distance between monomers i and j. 
+where N represents the number of monomers in the poly- 
+mer/cluster and rij the distance between monomers i and j. 
 Computing rij for every single pair of monomers across every 
 single frame in the simulation is computationally prohibitive. 
 To speed up calculations, we restrict ourselves to computing a 
@@ -2087,7 +2262,8 @@ distances within a cluster and yields a representative mean value
 of the real hydrodynamic radius. The obtained value is thus 
 multiplied by 2 to obtain the hydrodynamic diameter. 
 4.13.3.4 
-Per-Block Density Profiles. To compute our perblock density profiles, we used an approach used in one of our 
+Per-Block Density Profiles. To compute our per- 
+block density profiles, we used an approach used in one of our 
 group’s previous works [ 56 ]. We start by taking the center of mass 
 (COM) of each cluster, which is provided by Freud’s clustering 
 algorithm. We compute each of the constituent particles’ distance 
@@ -2105,7 +2281,8 @@ others, while blocks 1 and 2 are identical through all sequences.
 Contact Maps. Contact maps were computed for 
 each cluster in each simulation frame. We chose to focus on 
 only interchain contacts since they show a clearer picture of 
-contacts inside IDP assemblies without the very prominent neardiagonal terms that come from intrachain contacts. We start by 
+contacts inside IDP assemblies without the very prominent near- 
+diagonal terms that come from intrachain contacts. We start by 
 using Freud’s locality module to build a neighbor list for each 
 amino acid. The list consists of all other amino acids located at 
 a distance 1.5 σ from each other, where σ is the mean value of the 
@@ -2126,40 +2303,40 @@ obtained from the corresponding gyration tensors. For each
 individual cluster obtained from our clustering algorithm, we 
 computed the gyration tensor using the freud python package 
 (v 2.13.2) [ 78 ]. Its principal moments (the diagonal terms of the 
-diagonalized tensor) are represented as λ2 
-x , λ2 
-y and λ2 
-z , where λ2 
-x ≤ 
-λ2 
-y ≤ λ2 
-z . The parameters can be computed from the relations 
+diagonalized tensor) are represented as 𝜆2 
+𝑥 , 𝜆2 
+𝑦 and 𝜆2 
+𝑧 , where 𝜆2 
+𝑥 ≤ 
+𝜆2 
+𝑦 ≤ 𝜆2 
+𝑧 . The parameters can be computed from the relations 
 below: 
-- Radius of gyration (Rg) : R2 
-g = λ2 
-x + λ2 
-y + λ2 
-z 
-- Asphericity (b) : b = λ2 
-z −
+- Radius of gyration (Rg) : 𝑅2 
+𝑔 = 𝜆2 
+𝑥 + 𝜆2 
+𝑦 + 𝜆2 
+𝑧 
+- Asphericity (b) : 𝑏 = 𝜆2 
+𝑧 −
 1 
-2 (λ2 
-x + λ2 
-y ) 
-- Acylindricity (c) : c = λ2 
-y − λ2 
-x 
-- Shape anisotropy ( κ2 ) : κ2 =
+2 (𝜆2 
+𝑥 + 𝜆2 
+𝑦 ) 
+- Acylindricity (c) : 𝑐 = 𝜆2 
+𝑦 − 𝜆2 
+𝑥 
+- Shape anisotropy ( 𝜅2 ) : 𝜅2 =
 3 
 2 
-λ4 
-x + λ4 
-y + λ4 
-z 
-(λ2 
-x + λ2 
-y + λ2 
-z )2 −
+𝜆4 
+𝑥 + 𝜆4 
+𝑦 + 𝜆4 
+𝑧 
+(𝜆2 
+𝑥 + 𝜆2 
+𝑦 + 𝜆2 
+𝑧 )2 −
 1 
 2 
 Advanced Science, 2026
@@ -2177,19 +2354,22 @@ residues.
 Statistical Analysis 
 4.16.1 
 Sample Sizes and Replication 
-All experimental measurements were performed using independent biological replicates, defined as independent protein 
+All experimental measurements were performed using inde- 
+pendent biological replicates, defined as independent protein 
 preparations (separate purification batches, freshly prepared 
 buffers, and, for phosphorylated samples, fresh ATP stocks 
 and independent kinase reactions). Dynamic light scattering 
 (DLS) measurements were performed with n = 12 biological 
-replicates per condition. For each biological replicate, 3–5 technical replicates (independent measurements of the same protein 
+replicates per condition. For each biological replicate, 3–5 tech- 
+nical replicates (independent measurements of the same protein 
 preparation in separate cuvettes) were averaged to obtain a single 
 mean hydrodynamic diameter; each individual measurement 
 comprised up to 15 instrument runs, automatically averaged by 
 the Zetasizer software to yield a single autocorrelation function 
 per acquisition. Turbidity and Thioflavin-T (ThT) fluorescence 
 assays were each performed with n = 3 biological replicates, 
-with 3 technical replicates per biological replicate. For negativestain TEM and cryo-EM, particle sizes were measured for > 200 
+with 3 technical replicates per biological replicate. For negative- 
+stain TEM and cryo-EM, particle sizes were measured for > 200 
 particles per condition (TEM) and > 100 particles per condition 
 (cryo-EM), pooled across multiple grid regions and independent 
 imaging sessions performed on separate days, comprising both 
@@ -2200,17 +2380,20 @@ Data Processing and Presentation
 For turbidity and ThT measurements, buffer/blank values were 
 subtracted from all readings prior to analysis. For DLS, technical 
 replicates were averaged to yield a single mean hydrodynamic 
-diameter per biological replicate, and reported values represent the mean ± standard deviation (SD) across the n = 
+diameter per biological replicate, and reported values repre- 
+sent the mean ± standard deviation (SD) across the n = 
 12 biological replicates; mean diameters were extracted from 
 the peak maximum of the intensity-weighted size distribution 
 (General Purpose algorithm). For electron microscopy, particle 
 sizes were measured manually in Fiji (ImageJ v1.53, National 
-Institutes of Health) following spatial calibration from the microscope pixel-size metadata; for spherical micelles, the particle 
+Institutes of Health) following spatial calibration from the micro- 
+scope pixel-size metadata; for spherical micelles, the particle 
 diameter was measured, whereas for wormlike micelles, the 
 cross-sectional diameter (width) was measured perpendicular 
 to the long axis at several positions along each structure and 
 averaged. Critical micelle concentrations were determined from 
-logistic fits and the tangent-intersection method, with the coefficient of determination (R2 ) reported for each fit. Particle-size 
+logistic fits and the tangent-intersection method, with the coef- 
+ficient of determination (R2 ) reported for each fit. Particle-size 
 dispersity is reported as the coefficient of variation (CV = 
 SD/mean). Sub-1 nm DLS signals attributable to instrumental 
 noise and > 100 nm signals attributable to residual aggregates 
@@ -2228,7 +2411,8 @@ measurements rather than statistical group comparisons.
 Author Contributions 
 R.F.D.: conceptualization, methodology, software, formal analysis, data 
 curation, visualization, writing – original draft, writing – review and 
-editing. A.L.: conceptualization, methodology, validation, formal analysis, investigation, data curation, visualization, writing – original draft, 
+editing. A.L.: conceptualization, methodology, validation, formal anal- 
+ysis, investigation, data curation, visualization, writing – original draft, 
 writing – review and editing. H.R.: methodology, formal analysis, writing 
 – review and editing. T.S.: methodology, writing – review and editing. 
 S.M.: methodology, visualization, writing – review and editing. E.P.: 
@@ -2236,21 +2420,26 @@ methodology, writing – review and editing. J.B.: methodology, formal
 analysis, visualization . F.S.-D.: methodology, resources, writing – review 
 and editing. K.L.: methodology, resources, writing – review and editing. 
 C.S.: methodology, resources, writing – review and editing. M.M.M.: 
-methodology, resources, writing – review and editing. Sv.Mr.: methodology, writing – review and editing. F.S.: methodology, writing – review 
-and editing. D.D.: methodology, resources, writing – review and editing. L.S.: conceptualization, methodology, writing –review and editing. 
+methodology, resources, writing – review and editing. Sv.Mr.: method- 
+ology, writing – review and editing. F.S.: methodology, writing – review 
+and editing. D.D.: methodology, resources, writing – review and edit- 
+ing. L.S.: conceptualization, methodology, writing –review and editing. 
 M.G.: conceptualization, methodology, software, resources, supervision, 
 project administration, funding acquisition, writing – review and editing. 
 E.A.L.: conceptualization, methodology, resources, supervision, project 
 administration, funding acquisition, writing – review and editing. 
 Acknowledgements 
-We thank the laboratories of AG Lemke and AG Dormann, in particular Joana Caria and Saskia Hutten, for helpful advice and laboratory 
-support. We also thank Tobias Simone for technical support and assistance with TEM measurements and instrument settings, as well as 
+We thank the laboratories of AG Lemke and AG Dormann, in partic- 
+ular Joana Caria and Saskia Hutten, for helpful advice and laboratory 
+support. We also thank Tobias Simone for technical support and assis- 
+tance with TEM measurements and instrument settings, as well as 
 the Tecnai 12 TEM project. We acknowledge funding by the Deutsche 
 Forschungsgemeinschaft (DFG, German Research Foundation) within 
 the Collaborative Research Center SFB1551 “Polymer Concepts in Cellular 
 Function” (Project No. 464588647), including support from its internal 
 service projects for protein production at the IMB Protein Production Core 
-Facility and protein analytics at the MPI Core Facility. We also acknowledge the CRC1551 Z02 service project for access to TEM infrastructure. 
+Facility and protein analytics at the MPI Core Facility. We also acknowl- 
+edge the CRC1551 Z02 service project for access to TEM infrastructure. 
 E.A.L. acknowledges funding from the European Research Council (ERC 
 Advanced Grant “MultiOrganelleDesign”). D.D. acknowledges funding 
 from the DFG Heisenberg Programme (Project ID 442698351). This work 
@@ -2269,6 +2458,326 @@ from the corresponding authors upon reasonable request. The molecular
 28 of 31
 Advanced Science, 2026
 
-dynamics simulation trajectory files are deposited in the Edmond repository of the Max Planck Society ( https://doi.org/10.17617/3.A4AM5H ), and 
+dynamics simulation trajectory files are deposited in the Edmond reposi- 
+tory of the Max Planck Society ( https://doi.org/10.17617/3.A4AM5H ), and 
 the associated simulation and analysis code is available at https://gitlab. 
-mpcdf.mpg.de/dillenburgr/tdp43_lcd_micelles/ .
+mpcdf.mpg.de/dillenburgr/tdp43_lcd_micelles/ . 
+References 
+1 . E. Buratti and F. E. Baralle, “TDP-43: Gumming up Neurons Through 
+Protein–protein and Protein–RNA Interactions,” Trends in Biochemical 
+Sciences 37, no. 6 (2012): 237–247, https://doi.org/10.1016/j.tibs.2012.03. 
+003 . 
+2 . H. Ederle, C. Funk, C. Abou-Ajram, et al., “Nuclear Egress of TDP-43 
+and FUS Occurs Independently of Exportin-1/CRM1,” Scientific Reports 8 
+(2018): 7084, https://doi.org/10.1038/s41598- 018- 25007- 5 . 
+3 . A. E. Conicella, G. H. Zerze, J. Mittal, and N. L. Fawzi, “ALS Mutations 
+Disrupt Phase Separation Mediated by α-Helical Structure in the TDP-43 
+Low-Complexity C-Terminal Domain,” Structure 24, no. 9 (2016): 1537–
+1549, https://doi.org/10.1016/j.str.2016.07.007 . 
+4 . A. E. Conicella, G. L. Dignon, G. H. Zerze, et al., “TDP-43 α- 
+Helical Structure Tunes Liquid–Liquid Phase Separation and Function,”
+Proceedings of the National Academy of Sciences (PNAS) 117, no. 11 (2020): 
+5883–5894, https://doi.org/10.1073/pnas.1912055117 . 
+5 . M. Neumann, D. M. Sampathu, L. K. Kwong, et al., “Ubiquitinated 
+TDP-43 in Frontotemporal Lobar Degeneration and Amyotrophic Lateral 
+Sclerosis,” Science 314, no. 5796 (2006): 130–133, https://www.science.org/ 
+doi/10.1126/science.1134108 . 
+6 . K. A. Josephs, J. L. Whitwell, S. D. Weigand, et al., “TDP-43 Is a Key 
+Player in the Clinical Features Associated With Alzheimer’s Disease,”
+Acta Neuropathologica 127, no. 6 (2014): 811–824, https://doi.org/10.1007/ 
+s00401- 014- 1269- z . 
+7 . D. Arseni, M. Hasegawa, A. G. Murzin, et al., “Structure of Pathological 
+TDP-43 filaments From ALS With FTLD,” Nature 601, no. 7891 (2022): 
+139–143, https://doi.org/10.1038/s41586- 021- 04199- 3 . 
+8 . D. Arseni, R. Chen, A. G. Murzin, et al., “TDP-43 Forms Amyloid 
+Filaments With a Distinct Fold in Type A FTLD-TDP,” Nature 620, no. 
+7975 (2023): 898–903, https://doi.org/10.1038/s41586-023-06405-w. 
+9 . J. R. Thorpe, H. Tang, J. Atherton, and N. J. Cairns, “Fine Struc- 
+tural Analysis of the Neuronal Inclusions of Frontotemporal Lobar 
+Degeneration With TDP-43 Proteinopathy,” Journal of Neural Trans- 
+mission 115, no. 12 (2008): 1661–1671, https://doi.org/10.1007/s00702-008- 
+0137-1 . 
+10 . B. A. Berning and A. K. Walker, “The Pathobiology of TDP-43 C- 
+Terminal Fragments in ALS and FTLD,” Frontiers in Neuroscience 13 
+(2019): 335, https://doi.org/10.3389/fnins.2019.00335 . 
+11 . D. Chhangani, A. Martín-Peña, and D. E. Rincon-Limas, “Molecular, 
+Functional, and Pathological Aspects of TDP-43 Fragmentation,” iScience 
+24, no. 5 (2021): 102459, https://doi.org/10.1016/j.isci.2021.102459 . 
+12 . C. Scialò, W. Zhong, S. Jagannath, et al., “Seeded Aggregation of 
+TDP-43 Induces Its Loss of Function and Reveals Early Pathological 
+Signatures,” Neuron 113, no. 10 (2025): 1614–1628, https://doi.org/10.1016/ 
+j.neuron.2025.03.008 . 
+13 . J. Rummens, B. Khalil, G. Yildirim, et al., “TDP-43 Seeding Induces 
+Cytoplasmic Aggregation Heterogeneity and Nuclear Loss of Function of 
+TDP-43,” Neuron 113, no. 10 (2025): 1597–1613.e8, https://doi.org/10.1016/ 
+j.neuron.2025.03.004 . 
+14 . J. Rummens and S. D. Cruz, “RNA-Binding Proteins in ALS and 
+FTD: From Pathogenic Mechanisms to Therapeutic Insights,” Molecular 
+Neurodegeneration 20, no. 1 (2025): 64, https://doi.org/10.1186/s13024-025- 
+00851-y. 
+15 . S. Alberti, A. Gladfelter, and T. Mittag, “Considerations and Chal- 
+lenges in Studying Liquid-Liquid Phase Separation and Biomolecular 
+Condensates,” Cell 176, no. 3 (2019): 419–434, https://doi.org/10.1016/j.cell. 
+2018.12.035 . 
+16 . S. Boeynaems, S. Alberti, N. L. Fawzi, et al., “Protein Phase Separation: 
+A New Phase in Cell Biology,” Trends in Cell Biology 28, no. 6 (2018): 420–
+435, https://doi.org/10.1016/j.tcb.2018.02.004 . 
+17 . S. F. Banani, H. O. Lee, A. A. Hyman, and M. K. Rosen, “Biomolec- 
+ular Condensates: Organizers of Cellular Biochemistry,” Nature Reviews 
+Molecular Cell Biology 18, no. 6 (2017): 285–298, https://doi.org/10.1038/ 
+nrm.2017.7 . 
+18 . A. Patel, H. O. Lee, L. Jawerth, et al., “A Liquid-to-Solid Phase 
+Transition of the ALS Protein FUS Accelerated by Disease Mutation,” Cell 
+162, no. 5 (2015): 1066–1077, https://doi.org/10.1016/j.cell.2015.07.047 . 
+19 . N. B. Nedelsky and J. P. Taylor, “Bridging Biophysics and Neurol- 
+ogy: Aberrant Phase Transitions in Neurodegenerative Disease,” Nature 
+Reviews Neurology 15, no. 5 (2019): 272–286, https://doi.org/10.1038/s41582- 
+019- 0157- 5 . 
+20 . C. M. Dobson, T. P. J. Knowles, and M. Vendruscolo, “The Amyloid 
+Phenomenon and Its Significance in Biology and Medicine,” Cold Spring 
+Harbor Perspectives in Biology 12, no. 2 (2020): a033878, https://doi.org/10. 
+1101/cshperspect.a033878 . 
+21 . C. M. Dobson, “The Amyloid Phenomenon and Its Links With Human 
+Disease,” Cold Spring Harbor Perspectives in Biology 9, no. 6 (2017): 
+a023648, https://doi.org/10.1101/cshperspect.a023648 . 
+22 . W. P. Lipiński, B. S. Visser, I. Robu, et al., “Biomolecular Conden- 
+sates Can both Accelerate and Suppress Aggregation of α-Synuclein,”
+Science Advances 8, no. 48 (2022): abq6495, https://doi.org/10.1126/sciadv. 
+abq6495 . 
+23 . T. Das, F. K. Zaidi, M. Farag, et al., “Tunable Metastability of 
+Condensates Reconciles Their Dual Roles in Amyloid Fibril Formation,”
+Molecular Cell 85, no. 11 (2025): 2230–2245.e7, https://doi.org/10.1016/j. 
+molcel.2025.05.011 . 
+24 . M. K. Shinn, D. T. Tomares, V. Liu, A. Pant, and Y. Qiu, “Nuclear 
+Speckle Proteins Form Intrinsic and MALAT1-Dependent Microphases,”
+Cell 189 (2025): 832–852, https://doi.org/10.1016/j.cell.2025.11.026 . 
+25 . M. Hasegawa, T. Arai, T. Nonaka, et al., “Phosphorylated TDP-43 in 
+Frontotemporal Lobar Degeneration and Amyotrophic Lateral Sclerosis,”
+Annals of Neurology 64, no. 1 (2008): 60–70, https://doi.org/10.1002/ana. 
+21425 . 
+26 . M. Neumann, L. K. Kwong, E. B. Lee, et al., “Phosphorylation of 
+S409/410 of TDP-43 Is a Consistent Feature in all Sporadic and Familial 
+Forms of TDP-43 Proteinopathies,” Acta Neuropathologica 117, no. 2 
+(2009): 137–149, https://doi.org/10.1007/s00401- 008- 0477- 9 . 
+27 . S. Mosna and D. Dormann, “TDP-43 Phosphorylation: Pathological 
+Modification or Protective Factor Antagonizing TDP-43 Aggregation in 
+Neurodegenerative Diseases?,” BioEssays 48, no. 1 (2026): 70084, https:// 
+doi.org/10.1002/bies.70084 . 
+28 . P. Mohanty, J. Shenoy, A. Rizuan, and J. Mittal, “A Synergy between 
+Site-Specific and Transient Interactions Drives the Phase Separation of 
+a Disordered, Low-Complexity Domain,” Proceedings of the National 
+Academy of Sciences of the United States of America 120, no. 34 (2023): 
+2305625120, https://doi.org/10.1073/pnas.2305625120 . 
+29 . A. Rizuan, J. Shenoy, P. Mohanty, et al., “Structural Details of 
+Helix-Mediated Multimerization of the Conserved Region of TDP-43 
+C-Terminal Domain,” Nature Communications 16, no. 1 (2025): 10528, 
+https://doi.org/10.1038/s41467-025-65546-w. 
+30 . F. Kametani, T. Obi, T. Shishido, et al., “Mass Spectrometric Anal- 
+ysis of Accumulated TDP-43 in Amyotrophic Lateral Sclerosis Brains,”
+Scientific Reports 6 (2016): 23281, https://doi.org/10.1038/srep23281 . 
+31 . L. Cracco, E. H. Doud, G. I. Hallinan, and H. J. Garringer, “Distin- 
+guishing Post-Translational Modifications in Dominantly Inherited Fron- 
+totemporal Dementias: FTLD-TDP Type A (GRN) vs Type B (C9orf72),”
+Neuropathology and Applied Neurobiology 48, no. 6 (2022): 12836, https:// 
+doi.org/10.1111/nan.12836 . 
+32 . Y.-H. Lin and H. S. Chan, “Phase Separation and Single-Chain 
+Compactness of Charged Disordered Proteins Are Strongly Correlated,”
+Advanced Science, 2026
+29 of 31
+
+Biophysical Journal 112, no. 10 (2017): 2043–2046, https://doi.org/10.1016/ 
+j.bpj.2017.04.021 . 
+33 . R. K. Das and R. V. Pappu, “Conformations of Intrinsically Disordered 
+Proteins Are Influenced by Linear Sequence Distributions of Oppositely 
+Charged Residues,” Proceedings of the National Academy of Sciences 110, 
+no. 33 (2013): 13392–13397, https://doi.org/10.1073/pnas.1304749110 . 
+34 . D. Sundaravadivelu Devarajan, J. Wang, B. Szala-Mendyk, et al., 
+“Sequence-Dependent Material Properties of Biomolecular Condensates 
+and Their Relation to Dilute Phase Conformations,” Nature Communica- 
+tions 15 (2024): 1912, https://doi.org/10.1038/s41467-024-46223-w. 
+35 . L. A. Gruijs da Silva, F. Simonetti, S. Hutten, et al., “Disease-Linked 
+TDP-43 Hyperphosphorylation Suppresses TDP-43 Condensation and 
+Aggregation,” The EMBO Journal 41, no. 8 (2022): 108443, https://doi.org/ 
+10.15252/embj.2021108443 . 
+36 . G. Tesei and K. Lindorff-Larsen, “Improved Predictions of Phase 
+Behaviour of Intrinsically Disordered Proteins by Tuning the Interaction 
+Range,” Open Research Europe 2 (2023): 94, https://doi.org/10.12688/ 
+openreseurope.14967.2 . 
+37 . J. A. Joseph, A. Reinhardt, A. Aguirre, et al., “Physics-Driven 
+Coarse-Grained Model for Biomolecular Phase Separation With Near- 
+Quantitative Accuracy,” Nature Computational Science 1, no. 11 (2021): 
+732–743, https://doi.org/10.1038/s43588- 021- 00155-3 . 
+38 . G. L. Dignon, W. Zheng, Y. C. Kim, R. B. Best, and J. Mittal, 
+“Sequence Determinants of Protein Phase Behaviour From a Coarse- 
+Grained Model,” PLOS Computational Biology 14, no. 1 (2018): 1005941, 
+https://doi.org/10.1371/journal.pcbi.1005941 . 
+39 . R. M. Regy, J. Thompson, Y. C. Kim, and J. Mittal, “Improved Coarse- 
+Grained Model for Studying Sequence Dependent Phase Separation of 
+Disordered Proteins,” Protein Science 30, no. 7 (2021): 1371–1379, https:// 
+doi.org/10.1002/pro.4094 . 
+40 . E. Zippo, D. Dormann, T. Speck, and L. S. Stelzl, “Molecular Simu- 
+lations of Enzymatic Phosphorylation of Disordered Proteins and Their 
+Condensates,” Nature Communications 16 (2025): 4649, https://doi.org/ 
+10.1038/s41467- 025- 59676- 4 . 
+41 . J. Jung, C. Tan, and Y. Sugita, “GENESIS CGDYN: Large-Scale 
+Coarse-Grained MD Simulation With Dynamic Load Balancing for Het- 
+erogeneous Biomolecular Systems,” Nature Communications 15 (2024): 
+3370, https://doi.org/10.1038/s41467-024-47654-1 . 
+42 . R. Hoffmann, I. Reichert, W. O. Wachs, M. Zeppezauer, and H. R. 
+Kalbitzer, “1 H and 31 P NMR Spectroscopy of Phosphorylated Model 
+Peptides,” International Journal of Peptide and Protein Research 44, no. 
+3 (1994): 193–198, https://doi.org/10.1111/j.1399-3011.1994.tb00160.x. 
+43 . A. Stukowski, “Visualization and Analysis of Atomistic Simulation 
+Data With OVITO–the Open Visualization Tool,” Modelling and Simula- 
+tion in Materials Science and Engineering 18, no. 1 (2010): 015012, https:// 
+doi.org/10.1088/0965-0393/18/1/015012 . 
+44 . H. R. Li, W.-C. Chiang, P. C. Chou, W.-J. Wang, and J.-R. Huang, 
+“TAR DNA-Binding Protein 43 (TDP-43) Liquid–liquid Phase Separation 
+Is Mediated by Just a Few Aromatic Residues,” Journal of Biological 
+Chemistry 293, no. 16 (2018): 6090–6098, https://doi.org/10.1074/jbc.AC117. 
+001037 . 
+45 . J. N. Israelachvili, Intermolecular and Surface Forces , 3rd ed., (Aca- 
+demic Press, 2011). 
+46 . J. Wang, D. S. Devarajan, A. Nikoubashman, and J. Mittal, “Confor- 
+mational Properties of Polymers at Droplet Interfaces as Model Systems 
+for Disordered Proteins,” ACS Macro Letters 12, no. 11 (2023): 1472–1478, 
+https://doi.org/10.1021/acsmacrolett.3c00456 . 
+47 . J. Jumper, R. Evans, A. Pritzel, et al., “Highly Accurate Protein 
+Structure Prediction With AlphaFold,” Nature 596, no. 7873 (2021): 
+583–589, https://doi.org/10.1038/s41586- 021- 03819- 2 . 
+48 . M. Barth and C. Schmidt, “Native Mass Spectrometry—A Valuable 
+Tool in Structural Biology,” Journal of Mass Spectrometry 55, no. 10 (2020): 
+4578, https://doi.org/10.1002/jms.4578 . 
+49 . J. Aguiar, P. Carpena, J. A. Molina-Boli?var, and C. Carnero Ruiz, “On 
+the Determination of the Critical Micelle Concentration by the Pyrene 1:3 
+Ratio Method,” Journal of Colloid and Interface Science 258, no. 1 (2003): 
+116–122, https://doi.org/10.1016/S0021-9797(02)00082-6 . 
+50 . K. Kalyanasundaram and J. K. Thomas, “Environmental Effects on 
+Vibronic Band Intensities in Pyrene Monomer Fluorescence and Their 
+Application in Studies of Micellar Systems,” Journal of the American 
+Chemical Society 99, no. 7 (1977): 2039–2044, https://doi.org/10.1021/ 
+ja00449a004 . 
+51 . M. O. Guler, R. C. Claussen, and S. I. Stupp, “Encapsulation of 
+Pyrene Within Self-Assembled Peptide Amphiphile Nanofibers,” Journal 
+of Materials Chemistry 15, no. 42 (2005): 4507–4512, https://doi.org/10. 
+1039/B509246A . 
+52 . L. Piñeiro, M. Novo, and W. Al-Soufi, “Fluorescence Emission of 
+Pyrene in Surfactant Solutions,” Advances in Colloid and Interface Science 
+215 (2015): 1–12, https://doi.org/10.1016/j.cis.2014.10.010 . 
+53 . J. Spitzer and B. Poolman, “The Role of Biomacromolecular Crowding, 
+Ionic Strength, and Physicochemical Gradients in the Complexities of 
+Life’s Emergence,” Microbiology and Molecular Biology Reviews 73, no. 2 
+(2009): 371–388, https://doi.org/10.1128/MMBR.00010-09 . 
+54 . R. Zana and E. W. Kaler, eds., “Giant Micelles: Properties and 
+Applications,” in Surfactant Science Series (CRC Press, 2007), https://doi. 
+org/10.1201/9781420007121 . 
+55 . M. L. Sprunger, M. K. Shinn, S. K. Talir, K. Lee, R. V. Pappu, and 
+M. E. Jackrel, “Matrin-3 Forms Spherical and Wormlike Assemblies That 
+Are Modulated by RNA Binding and ALS/FTD-Associated Mutations,”
+Molecular Cell 85, no. 19 (2025): 3640–3660.e9, https://doi.org/10.1016/j. 
+molcel.2025.08.034 . 
+56 . H. Ruan, R. F. Dillenburg, E. Hosseini, S. Wittmann, M. Girard, 
+and E. A. Lemke, “Differential Conformational Expansion of NUP98- 
+HOXA9 Oncoprotein From Nanosized Assemblies to Macrophases,”
+Nature Communications 16 (2025): 10117, https://doi.org/10.1038/s41467- 
+025-66327-1 . 
+57 . L. M. Igaz, L. K. Kwong, Y. Xu, et al., “Enrichment of C-Terminal 
+Fragments in TAR DNA-Binding Protein-43 Cytoplasmic Inclusions in 
+Brain but Not in Spinal Cord of Frontotemporal Lobar Degeneration and 
+Amyotrophic Lateral Sclerosis,” The American Journal of Pathology 173, 
+no. 1 (2008): 182–194, https://doi.org/10.2353/ajpath.2008.080003 . 
+58 . E. L. Sternburg, L. A. Gruijs da Silva, and D. Dormann, “Post- 
+Translational Modifications on RNA-Binding Proteins: Accelerators, 
+Brakes, or Passengers in Neurodegeneration?,” Trends in Biochemical 
+Sciences 47, no. 1 (2022): 6–22, https://doi.org/10.1016/j.tibs.2021.07.004 . 
+59 . E. A. Kellett, A. T. Bademosi, and A. K. Walker, “Molecular Mecha- 
+nisms and Consequences of TDP-43 Phosphorylation in Neurodegenera- 
+tion,” Molecular Neurodegeneration 20, no. 1 (2025): 53, https://doi.org/10. 
+1186/s13024- 025- 00839-8 . 
+60 . D. Arseni, T. Nonaka, M. H. Jacobsen, et al., “Heteromeric Amyloid 
+Filaments of ANXA11 and TDP-43 in FTLD-TDP Type C,” Nature 634, no. 
+8033 (2024): 662–668, https://doi.org/10.1038/s41586-024-08024-5 . 
+61 . T. P. J. Knowles, M. Vendruscolo, and C. M. Dobson, “The Amyloid 
+State and Its Association With Protein Misfolding Diseases,” Nature 
+Reviews Molecular Cell Biology 15, no. 6 (2014): 384–396, https://doi.org/ 
+10.1038/nrm3810 . 
+62 . J. Shorter and S. Lindquist, “Prions as Adaptive Conduits of Memory 
+and Inheritance,” Nature Reviews Genetics 6, no. 6 (2005): 435–450, https:// 
+doi.org/10.1038/nrg1616 . 
+63 . B. S. Johnson, J. M. McCaffery, S. Lindquist, and A. D. Gitler, “A Yeast 
+TDP-43 Proteinopathy Model: Exploring the Molecular Determinants of 
+TDP-43 Aggregation and Cellular Toxicity,” Proceedings of the National 
+Academy of Sciences 105, no. 17 (2008): 6439–6444, https://doi.org/10.1073/ 
+pnas.0802082105 . 
+64 . C. Capitini, S. Conti, M. Perni, et al., “TDP-43 Inclusion Bodies 
+Formed in Bacteria Are Structurally Amorphous, Non-Amyloid and 
+30 of 31
+Advanced Science, 2026
+
+Inherently Toxic to Neuroblastoma Cells,” PLoS ONE 9, no. 1 (2014): 86720, 
+https://doi.org/10.1371/journal.pone.0086720 . 
+65 . Y. Shen, A. Chen, W. Wang, et al., “The Liquid-to-Solid Transition of 
+FUS Is Promoted by the Condensate Surface,” Proceedings of the National 
+Academy of Sciences 120, no. 33 (2023): 2301366120, https://doi.org/10. 
+1073/pnas.2301366120 . 
+66 . L. Emmanouilidis, E. Bartalucci, Y. Kan, M. Ijavi, and M. E. Pérez, 
+“A Solid Beta-Sheet Structure Is Formed at the Surface of FUS Droplets 
+during Aging,” Nature Chemical Biology 20, no. 8 (2024): 1044–1052, 
+https://doi.org/10.1038/s41589-024-01573-w. 
+67 . M. Linsenmeier, L. Faltova, C. Morelli, et al., “The Interface of Con- 
+densates of the hnRNPA1 Low-Complexity Domain Promotes Formation 
+of Amyloid Fibrils,” Nature Chemistry 15, no. 10 (2023): 1340–1349, https:// 
+doi.org/10.1038/s41557- 023- 01289- 9 . 
+68 . K. Akizuki, T. Toyama, M. Yamashita, et al., “Facile Preparation 
+of Highly Active Casein Kinase 1 Using Escherichia coli Constitutively 
+Expressing Lambda Phosphatase,” Analytical Biochemistry 549 (2018): 
+99–106, https://doi.org/10.1016/j.ab.2018.03.015 . 
+69 . F. Sobott, H. Hernández, M. G. McCammon, M. A. Tito, and C. V. 
+Robinson, “A Tandem Mass Spectrometer for Improved Transmission and 
+Analysis of Large Macromolecular Assemblies,” Analytical Chemistry 74, 
+no. 6 (2002): 1402–1407, https://doi.org/10.1021/ac0110552 . 
+70 . H. Hernández and C. V. Robinson, “Determining the Stoichiometry 
+and Interactions of Macromolecular Assemblies From Mass Spectrom- 
+etry,” Nature Protocols 2, no. 3 (2007): 715–726, https://doi.org/10.1038/ 
+nprot.2007.73 . 
+71 . N. Morgner and C. V. Robinson, “Massign: An Assignment Strategy 
+for Maximizing Information From the Mass Spectra of Heterogeneous 
+Protein Assemblies,” Analytical Chemistry 84, no. 6 (2012): 2939–2948, 
+https://doi.org/10.1021/ac300056a . 
+72 . I. N. Kurniasih, H. Liang, P. C. Mohr, G. Khot, J. P. Rabe, and A. Mohr, 
+“Nile Red Dye in Aqueous Surfactant and Micellar Solution,” Langmuir 
+31, no. 9 (2015): 2639–2648, https://doi.org/10.1021/la504378m . 
+73 . J.-R. Daban, M. Samsó, and S. Bartolomé, “Use of Nile Red as a 
+Fluorescent Probe for the Study of the Hydrophobic Properties of Protein- 
+Sodium Dodecyl Sulfate Complexes in Solution,” Analytical Biochemistry 
+199, no. 2 (1991): 162–168, https://doi.org/10.1016/0003-2697(91)90084-7 . 
+74 . D. L. Sackett and J. Wolff, “Nile Red as a Polarity-Sensitive Fluorescent 
+Probe of Hydrophobic Protein Surfaces,” Analytical Biochemistry 167, no. 
+2 (1987): 228–234, https://doi.org/10.1016/0003- 2697(87)90157- 6 . 
+75 . > N. Scholz, T. Behnke, and U. Resch-Genger, “Determination of 
+the Critical Micelle Concentration of Neutral and Ionic Surfactants 
+With Fluorometry, Conductometry, and Surface Tension—A Method 
+Comparison,” Journal of Fluorescence 28, no. 1 (2018): 465–476, https:// 
+doi.org/10.1007/s10895- 018- 2209- 4 . 
+76 . J. A. Anderson, J. Glaser, and S. C. Glotzer, “HOOMD-Blue: A Python 
+Package for High-Performance Molecular Dynamics and Hard Particle 
+Monte Carlo Simulations,” Computational Materials Science 173 (2020): 
+109363, https://doi.org/10.1016/j.commatsci.2019.109363 . 
+77 . M. N. Rosenbluth and A. W. Rosenbluth, “Monte Carlo Calculation 
+of the Average Extension of Molecular Chains,” The Journal of Chemical 
+Physics 23, no. 2 (1955): 356–359, https://doi.org/10.1063/1.1741967 . 
+78 . V. Ramasubramani, B. D. Dice, E. S. Harper, M. P. Spellings, J. 
+A. Anderson, and S. C. Glotzer, “Freud: A Software Suite for High 
+Throughput Analysis of Particle Simulation Data,” Computer Physics 
+Communications 254 (2020): 107275, https://doi.org/10.1016/j.cpc.2020. 
+107275 . 
+Supporting Information 
+Additional supporting information can be found online in the Supporting 
+Information section. 
+Supporting File 1: advs76625-sup-0001-SuppMat.docx. 
+Supporting File 2: advs76625-sup-0002-MovieS1.avi. 
+Supporting File 3: advs76625-sup-0003-MovieS2.avi. 
+Supporting File 4: advs76625-sup-0004-MovieS3.avi. 
+Supporting File 5: advs76625-sup-0005-MovieS4.avi. 
+Advanced Science, 2026
+31 of 31

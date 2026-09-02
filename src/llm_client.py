@@ -49,7 +49,7 @@ class LCRResponse(BaseModel):
 
 
 class LightLLMClient:
-    """Asynchronous Groq API client using Instructor for structured JSON extraction."""
+    """Asynchronous Groq API client with multi-model fallback cascade."""
 
     def __init__(self, max_concurrent: int = 1):
         api_key = os.environ.get("GROQ_API_KEY")
@@ -59,24 +59,50 @@ class LightLLMClient:
         self.semaphore = asyncio.Semaphore(max_concurrent)
         self.client = instructor.from_groq(
             AsyncGroq(api_key=api_key),
-            mode=instructor.Mode.JSON
+            mode=instructor.Mode.MD_JSON
         )
+        # Multi-model fallback sequence with separate TPD quotas
+        self.models = [
+            "llama-3.3-70b-versatile",
+            "llama-3.1-8b-instant",
+            "mixtral-8x7b-32768",
+            "qwen/qwen3.6-27b"
+        ]
 
     async def generate_lcr_annotations(self, prompt: str, text: str) -> list[dict]:
-        """Generates structured LCR annotations from input document text."""
+        """Generates structured LCR annotations, failing over to backup models on 429 TPD."""
         async with self.semaphore:
-            try:
-                response: LCRResponse = await self.client.chat.completions.create(
-                    model="openai/gpt-oss-20b",
-                    response_model=LCRResponse,
-                    messages=[
-                        {"role": "system", "content": prompt},
-                        {"role": "user", "content": f"DOCUMENT TEXT:\n{text}"}
-                    ],
-                    temperature=0.0,
-                    max_retries=3
-                )
-                return [ann.model_dump() for ann in response.annotations]
-            except Exception as error:
-                logger.error(f"Groq API Error: {error}")
-                return []
+            for model_name in self.models:
+                for attempt in range(1, 4):
+                    try:
+                        response: LCRResponse = await self.client.chat.completions.create(
+                            model=model_name,
+                            response_model=LCRResponse,
+                            messages=[
+                                {"role": "system", "content": prompt},
+                                {"role": "user", "content": f"DOCUMENT TEXT:\n{text}"}
+                            ],
+                            temperature=0.0,
+                            max_tokens=4096,
+                            max_retries=2
+                        )
+                        return [ann.model_dump() for ann in response.annotations]
+
+                    except Exception as error:
+                        err_str = str(error)
+                        if "429" in err_str and "TPD" in err_str:
+                            logger.warning(
+                                "Daily limit (TPD) reached for %s. Cascading to next backup model...",
+                                model_name
+                            )
+                            break
+                        elif "429" in err_str:
+                            logger.warning(
+                                "Minute limit (TPM) hit on %s. Pausing 10s (Attempt %d/3)...",
+                                model_name, attempt
+                            )
+                            await asyncio.sleep(10)
+                        else:
+                            logger.error("Groq API Error on model %s: %s", model_name, error)
+                            break
+            return []

@@ -1,0 +1,13 @@
+[
+  {
+    "file": "ADVS-9999-e76625.pdf",
+    "protein_name": "TDP-43",
+    "organism": "Unspecified",
+    "start_of_annotation": 267,
+    "end_of_annotation": 414,
+    "binding_target": "Protein",
+    "proposed_function": "Self-assembly and phase separation via multivalent interactions",
+    "evidence": "Its disordered C-terminal low-complexity domain (LCD, residues 267–414), rich in glycine, glutamine/asparagine, and serine, bears features of a prion-like region and plays a central role in self-assembly of the protein and in the pathogenesis of neurodegenerative diseases [ 3, 4 ].",
+    "curator_note": "Exact positions given (residues 267-414). Corresponds to canonical TDP-43 LCD."
+  }
+]

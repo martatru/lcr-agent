@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LCR / LCD Biocuration Report</title>
+    <title>LCR / LCD Binding Biocuration Report</title>
     <style>
         :root {
             --primary: #1e293b;
@@ -15,7 +15,7 @@
             --border-color: #e2e8f0;
         }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg-main); color: var(--text-main); margin: 0; padding: 32px 24px; }
-        .container { max-width: 1280px; margin: 0 auto; }
+        .container { max-width: 1380px; margin: 0 auto; }
         header { margin-bottom: 24px; border-bottom: 2px solid var(--border-color); padding-bottom: 16px; }
         h1 { font-size: 26px; color: var(--primary); margin: 0 0 8px 0; }
         .subtitle { color: #64748b; font-size: 14px; margin: 0; }
@@ -29,6 +29,7 @@
         .badge { font-size: 12px; padding: 2px 8px; border-radius: 12px; font-weight: 600; }
         .badge-blue { background: #dbeafe; color: #1e40af; }
         .badge-amber { background: #fef3c7; color: #92400e; }
+        .badge-target { background: #f3e8ff; color: #6b21a8; font-weight: 700; padding: 3px 8px; border-radius: 6px; font-size: 12px; display: inline-block; }
         table { width: 100%; border-collapse: collapse; background: var(--card-bg); border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 32px; font-size: 14px; }
         th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border-color); vertical-align: top; }
         th { background-color: #f1f5f9; color: var(--primary); font-weight: 600; font-size: 13px; }
@@ -46,278 +47,55 @@
 <body>
     <div class="container">
         <header>
-            <h1>🔬 LCR / LCD Biocuration Report</h1>
-            <p class="subtitle">Automated extraction of Low-Complexity Regions from scientific literature</p>
+            <h1>LCR / LCD Binding Biocuration Report</h1>
+            <p class="subtitle">Automated extraction of Low-Complexity Regions engaging in molecular binding interactions</p>
         </header>
 
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-value">4</div>
+                <div class="stat-value">1</div>
                 <div class="stat-label">Analyzed Papers</div>
             </div>
             <div class="stat-card verified">
-                <div class="stat-value">16</div>
+                <div class="stat-value">1</div>
                 <div class="stat-label">Verified LCRs (Exact Boundaries)</div>
             </div>
             <div class="stat-card qualitative">
-                <div class="stat-value">38</div>
+                <div class="stat-value">3</div>
                 <div class="stat-label">Qualitative Mentions (To Map)</div>
             </div>
         </div>
 
         <div class="section-title">
-            <span>✅ Verified LCR Regions (Numerical Coordinates)</span>
-            <span class="badge badge-blue">16</span>
+            <span>Verified Binding LCR Regions (Numerical Coordinates)</span>
+            <span class="badge badge-blue">1</span>
         </div>
         <table>
             <thead>
                 <tr>
-                    <th style="width: 18%;">Protein / Source File</th>
+                    <th style="width: 16%;">Protein / Source File</th>
                     <th style="width: 10%;">Organism</th>
                     <th style="width: 10%;">Residues</th>
-                    <th style="width: 24%;">Proposed Function</th>
-                    <th style="width: 26%;">Verbatim Evidence</th>
-                    <th style="width: 12%;">External Links</th>
+                    <th style="width: 12%;">Binding Target</th>
+                    <th style="width: 22%;">Proposed Function</th>
+                    <th style="width: 20%;">Verbatim Evidence</th>
+                    <th style="width: 10%;">Links</th>
                 </tr>
             </thead>
             <tbody>
 
                 <tr>
                     <td>
-                        <div class="protein-name">FUS</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><strong>2 - 214</strong></td>
-                    <td>Formation of dynamic amyloid-like fibers and hydrogels; necessary and sufficient for b-isox-mediated aggregation and phase transition.</td>
-                    <td><blockquote class="evidence-quote">"When produced as chimeric proteins with GST, mCherry or GFP, the FUS LC domain (residues 2–214, 50 mg/ml) yielded clear, red and green colored hydrogels respectively (Figure 3A)."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=FUS+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">ZLD</div>
-                        <div class="file-tag">1-s2.0-S0021925820491975-main.pdf</div>
-                    </td>
-                    <td>Drosophila melanogaster</td>
-                    <td><strong>904 - 1297</strong></td>
-                    <td>Transcriptional activation domain</td>
-                    <td><blockquote class="evidence-quote">"Additionally, we mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=ZLD+Drosophila melanogaster" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>101 - 148</strong></td>
-                    <td>Block 3 (C-terminal block) containing all phosphorylation sites; preferentially localised at the surface in micelles</td>
-                    <td><blockquote class="evidence-quote">"To quantify this architecture, we divided the LCD into three equal-length blocks (49 to 50 residues each), with all phosphorylation sites located in block 3 (residues 101-148 of the LCD and 367-414 of full-length TDP-43), while blocks 1 and 2 retain their compositions - and therefore hydrophobicity and net charge - in all 4 sequences (Figure 2a)."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
                         <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>367 - 414</strong></td>
-                    <td>Full-length TDP-43 region corresponding to Block 3 of the LCD; contains phosphorylation sites</td>
-                    <td><blockquote class="evidence-quote">"To quantify this architecture, we divided the LCD into three equal-length blocks (49 to 50 residues each), with all phosphorylation sites located in block 3 (residues 101-148 of the LCD and 367-414 of full-length TDP-43), while blocks 1 and 2 retain their compositions - and therefore hydrophobicity and net charge - in all 4 sequences (Figure 2a)."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>282 - 360</strong></td>
-                    <td>Forms the amyloid core in fibrils isolated from ALS/FTD brains; compositionally similar to the simulated core of the phosphorylated micelle.</td>
-                    <td><blockquote class="evidence-quote">"They indicate that the amyloid core is formed by amino acids 282-360, roughly equivalent to our blocks 1 and 2."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
+                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
                     </td>
                     <td>Unspecified</td>
                     <td><strong>267 - 414</strong></td>
-                    <td>Formation of spherical and worm-like micelles upon phosphorylation; suppression of amyloid fibril formation; phase separation regulation.</td>
-                    <td><blockquote class="evidence-quote">"The TDP-43 LCD (residues 267-414) was expressed in E. coli BL21(DE3) cells from the expression vector pJ411 (Addgene #98669) encoding a His-TEV-TDP-43 LCD fusion protein."</blockquote></td>
+                    <td><span class="badge-target">Protein</span></td>
+                    <td>Self-assembly and phase separation via multivalent interactions</td>
+                    <td><blockquote class="evidence-quote">"Its disordered C-terminal low-complexity domain (LCD, residues 267–414), rich in glycine, glutamine/asparagine, and serine, bears features of a prion-like region and plays a central role in self-assembly of the protein and in the pathogenesis of neurodegenerative diseases [ 3, 4 ]."</blockquote></td>
                     <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>1 - 148</strong></td>
-                    <td>Micelle formation and self-assembly; the text describes the sequence as an IDP (Intrinsically Disordered Protein) domain that forms micelles, with specific blocks defined for density and contact analysis.</td>
-                    <td><blockquote class="evidence-quote">"Table 1. Intervals defining the 3 blocks of TDP-43 LCD. Amino acid indexes are given relative to the first residue of the LCD (left) and to the first residue of full-length TDP-43."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD 12pS</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>1 - 148</strong></td>
-                    <td>Micelle formation; a phosphorylated variant of the TDP-43 LCD used in simulations to study self-assembly.</td>
-                    <td><blockquote class="evidence-quote">"TDP-43 LCD 12pS 1-50 / 267-316 51-100 / 317-366 101-148 / 367-414"</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD 12pS+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD 12D</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>1 - 148</strong></td>
-                    <td>Micelle formation; a phosphomimetic (aspartate-substituted) variant of the TDP-43 LCD used in simulations.</td>
-                    <td><blockquote class="evidence-quote">"TDP-43 LCD 12D 1-50 / 267-316 51-100 / 317-366 101-148 / 367-414"</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD 12D+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD 12DD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>1 - 160</strong></td>
-                    <td>Micelle formation; a longer phosphomimetic variant of the TDP-43 LCD used in simulations.</td>
-                    <td><blockquote class="evidence-quote">"TDP-43 LCD 12DD 1-50 / 267-316 51-100 / 317-366 101-160 / 367-426"</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD 12DD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB3</div>
-                        <div class="file-tag">Backbone_resonance_assignments_of_CPEB3_[1-120],_CPEB3_[186-315],_and_CPEB3_[400.pdf</div>
-                    </td>
-                    <td>Mouse</td>
-                    <td><strong>1 - 459</strong></td>
-                    <td>Intrinsically disordered region (IDR) enriched in low-complexity sequence; key determinant of phase separation and aggregation; regulates translation of specific mRNAs (e.g., AMPA receptor subunits) via liquid-liquid phase separation and fibrillar structure formation.</td>
-                    <td><blockquote class="evidence-quote">"CPEB3 consists of 716 amino acids and contains a long N-terminal intrinsically disordered region (IDR; residues 1–459), followed by a structured C-terminal RNA-binding domain comprising two RNA recognition motifs and a zinc-finger domain (Huang et al. 2006). The IDR lacks stable tertiary structure and is enriched in low-complexity sequence, features that are recognized as key determinants of phase separation and aggregation in many RNA-binding proteins (Banani et al. 2017)."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB3+Mouse" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB3</div>
-                        <div class="file-tag">Backbone_resonance_assignments_of_CPEB3_[1-120],_CPEB3_[186-315],_and_CPEB3_[400.pdf</div>
-                    </td>
-                    <td>Mouse</td>
-                    <td><strong>1 - 169</strong></td>
-                    <td>Prion-like region critical for self-assembly and aggregation.</td>
-                    <td><blockquote class="evidence-quote">"Within the IDR, two prionlike regions spanning residues 1–169 and 284–449 are critical for self-assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties (Stephan et al. 2015)."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB3+Mouse" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB3</div>
-                        <div class="file-tag">Backbone_resonance_assignments_of_CPEB3_[1-120],_CPEB3_[186-315],_and_CPEB3_[400.pdf</div>
-                    </td>
-                    <td>Mouse</td>
-                    <td><strong>284 - 449</strong></td>
-                    <td>Prion-like region critical for self-assembly and aggregation.</td>
-                    <td><blockquote class="evidence-quote">"Within the IDR, two prionlike regions spanning residues 1–169 and 284–449 are critical for self-assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties (Stephan et al. 2015)."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB3+Mouse" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB3</div>
-                        <div class="file-tag">Backbone_resonance_assignments_of_CPEB3_[1-120],_CPEB3_[186-315],_and_CPEB3_[400.pdf</div>
-                    </td>
-                    <td>Mouse</td>
-                    <td><strong>1 - 120</strong></td>
-                    <td>N-terminal segment of the IDR; predominantly disordered with partial transient alpha-helix formation (Asp3-Met7); involved in self-aggregation mechanism.</td>
-                    <td><blockquote class="evidence-quote">"In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB3+Mouse" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB3</div>
-                        <div class="file-tag">Backbone_resonance_assignments_of_CPEB3_[1-120],_CPEB3_[186-315],_and_CPEB3_[400.pdf</div>
-                    </td>
-                    <td>Mouse</td>
-                    <td><strong>186 - 315</strong></td>
-                    <td>Central segment of the IDR; forms partial transient alpha-helix (Ala226-Ala239); involved in self-aggregation mechanism.</td>
-                    <td><blockquote class="evidence-quote">"In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB3+Mouse" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB3</div>
-                        <div class="file-tag">Backbone_resonance_assignments_of_CPEB3_[1-120],_CPEB3_[186-315],_and_CPEB3_[400.pdf</div>
-                    </td>
-                    <td>Mouse</td>
-                    <td><strong>400 - 459</strong></td>
-                    <td>C-terminal segment of the IDR; predominantly disordered; involved in self-aggregation mechanism.</td>
-                    <td><blockquote class="evidence-quote">"In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB3+Mouse" target="_blank" class="btn-link">UniProt ↗</a>
+                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt</a>
                         
                     </td>
                 </tr>
@@ -326,549 +104,63 @@
         </table>
 
         <div class="section-title">
-            <span>⚠️ Qualitative Mentions (Require UniProt Mapping)</span>
-            <span class="badge badge-amber">38</span>
+            <span>Qualitative Binding Mentions (Require UniProt Mapping)</span>
+            <span class="badge badge-amber">3</span>
         </div>
         <table>
             <thead>
                 <tr>
-                    <th style="width: 18%;">Protein / Source File</th>
+                    <th style="width: 16%;">Protein / Source File</th>
                     <th style="width: 10%;">Organism</th>
-                    <th style="width: 34%;">Verbatim Evidence</th>
-                    <th style="width: 26%;">Curator Note</th>
-                    <th style="width: 12%;">External Links</th>
+                    <th style="width: 12%;">Binding Target</th>
+                    <th style="width: 30%;">Verbatim Evidence</th>
+                    <th style="width: 22%;">Curator Note</th>
+                    <th style="width: 10%;">Links</th>
                 </tr>
             </thead>
             <tbody>
 
                 <tr>
                     <td>
-                        <div class="protein-name">TIA1</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"By contrast, removal of the C-terminal LC sequence prevented b-isox-mediated precipitation. Having observed that the well-folded GFP protein was itself not precipitated, we conclude that the LC domain of TIA1 is both necessary and sufficient for b-isox-mediated precipitation."</blockquote></td>
-                    <td>Qualitative mention of TIA1 LC domain (C-terminal) - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TIA1+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CIRBP</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"Similar results were obtained with the LC domains of FUS, CIRBP, RBM3, hnRNPA1, hnRNPA2, and the yeast Sup35 protein (data not shown)."</blockquote></td>
-                    <td>Qualitative mention of CIRBP LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CIRBP+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">RBM3</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"Similar results were obtained with the LC domains of FUS, CIRBP, RBM3, hnRNPA1, hnRNPA2, and the yeast Sup35 protein (data not shown)."</blockquote></td>
-                    <td>Qualitative mention of RBM3 LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RBM3+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">hnRNPA1</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"Similar results were obtained with the LC domains of FUS, CIRBP, RBM3, hnRNPA1, hnRNPA2, and the yeast Sup35 protein (data not shown)."</blockquote></td>
-                    <td>Qualitative mention of hnRNPA1 LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=hnRNPA1+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">hnRNPA2</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"Similar results were obtained with the LC domains of FUS, CIRBP, RBM3, hnRNPA1, hnRNPA2, and the yeast Sup35 protein (data not shown)."</blockquote></td>
-                    <td>Qualitative mention of hnRNPA2 LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=hnRNPA2+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">Sup35</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Yeast</td>
-                    <td><blockquote class="evidence-quote">"Similar results were obtained with the LC domains of FUS, CIRBP, RBM3, hnRNPA1, hnRNPA2, and the yeast Sup35 protein (data not shown)."</blockquote></td>
-                    <td>Qualitative mention of yeast Sup35 LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Sup35+Yeast" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">FMRP</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"Binding of the LC domains of four additional test samples (FMRP, CIRBP, TDP43, and yeast Sup35) was also observed (Figure S3A)."</blockquote></td>
-                    <td>Qualitative mention of FMRP LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=FMRP+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP43</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"Binding of the LC domains of four additional test samples (FMRP, CIRBP, TDP43, and yeast Sup35) was also observed (Figure S3A)."</blockquote></td>
-                    <td>Qualitative mention of TDP43 LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP43+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB2</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><blockquote class="evidence-quote">"The hnRNPA1, TIA1, and CPEB2 LC domains bound to the hydrogel with more modest avidity."</blockquote></td>
-                    <td>Qualitative mention of CPEB2 LC domain - suggest looking up canonical sequence boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB2+Human" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">FUS</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Hydrogel formation was also observed for the LC domain of hnRNPA2 linked to either GFP or mCherry. The hydrogel droplets of mCherry:hnRNPA2 LC were exposed to the same proteins tested above. All the proteins, except GFP, bound to the hydrogel but with a different hierarchy from that of mCherry:FUS LC hydrogel (Figure S3B)."</blockquote></td>
-                    <td>Qualitative mention of FUS LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=FUS+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">hnRNPA2</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Hydrogel formation was also observed for the LC domain of hnRNPA2 linked to either GFP or mCherry."</blockquote></td>
-                    <td>Qualitative mention of hnRNPA2 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=hnRNPA2+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">hnRNPA1</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"The mCherry:hnRNPA2 hydrogel also avidly trapped the LC domains of hnRNPA1, CIRBP, and RBM3."</blockquote></td>
-                    <td>Qualitative mention of hnRNPA1 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=hnRNPA1+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CIRBP</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"The mCherry:hnRNPA2 hydrogel also avidly trapped the LC domains of hnRNPA1, CIRBP, and RBM3."</blockquote></td>
-                    <td>Qualitative mention of CIRBP LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CIRBP+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">RBM3</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"The mCherry:hnRNPA2 hydrogel also avidly trapped the LC domains of hnRNPA1, CIRBP, and RBM3."</blockquote></td>
-                    <td>Qualitative mention of RBM3 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RBM3+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">Sup35</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Yeast</td>
-                    <td><blockquote class="evidence-quote">"Moderate retention was observed for yeast Sup35."</blockquote></td>
-                    <td>Qualitative mention of Sup35 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Sup35+Yeast" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TIA1</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"By contrast, considerably less avid trapping was observed for FUS, TIA1, TDP43, FMRP, or CPEB2."</blockquote></td>
-                    <td>Qualitative mention of TIA1 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TIA1+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP43</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"By contrast, considerably less avid trapping was observed for FUS, TIA1, TDP43, FMRP, or CPEB2."</blockquote></td>
-                    <td>Qualitative mention of TDP43 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP43+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">FMRP</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"By contrast, considerably less avid trapping was observed for FUS, TIA1, TDP43, FMRP, or CPEB2."</blockquote></td>
-                    <td>Qualitative mention of FMRP LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=FMRP+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">CPEB2</div>
-                        <div class="file-tag">10.1016⁄j.cell.2012.04.017.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"By contrast, considerably less avid trapping was observed for FUS, TIA1, TDP43, FMRP, or CPEB2."</blockquote></td>
-                    <td>Qualitative mention of CPEB2 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=CPEB2+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">Zelda (ZLD)</div>
-                        <div class="file-tag">1-s2.0-S0021925820491975-main.pdf</div>
-                    </td>
-                    <td>Drosophila melanogaster</td>
-                    <td><blockquote class="evidence-quote">"We map the transcriptional activation domain of ZLD to a central region characterized by low complexity."</blockquote></td>
-                    <td>Qualitative mention of Zelda LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Zelda (ZLD)+Drosophila melanogaster" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">Zelda (ZLD)</div>
-                        <div class="file-tag">1-s2.0-S0021925820491975-main.pdf</div>
-                    </td>
-                    <td>Drosophila melanogaster</td>
-                    <td><blockquote class="evidence-quote">"We mapped the activation domain of ZLD to an internal region of 400 amino acids containing a number of low-complexity domains that are poorly conserved in other insects."</blockquote></td>
-                    <td>Qualitative mention of Zelda LC domain (internal region of 400 aa) - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Zelda (ZLD)+Drosophila melanogaster" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">ZLD</div>
-                        <div class="file-tag">1-s2.0-S0021925820491975-main.pdf</div>
-                    </td>
-                    <td>D. melanogaster</td>
-                    <td><blockquote class="evidence-quote">"Additionally, we mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain."</blockquote></td>
-                    <td>Qualitative mention of ZLD LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=ZLD+D. melanogaster" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">ZLD</div>
-                        <div class="file-tag">1-s2.0-S0021925820491975-main.pdf</div>
-                    </td>
-                    <td>D. melanogaster</td>
-                    <td><blockquote class="evidence-quote">"The activation domain we defined does not contain any identifiable domains and is comprised of a low-complexity sequence."</blockquote></td>
-                    <td>Qualitative mention of ZLD LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=ZLD+D. melanogaster" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">ZLD orthologs</div>
-                        <div class="file-tag">1-s2.0-S0021925820491975-main.pdf</div>
-                    </td>
-                    <td>D. virilis, A. gambiae, N. vitripennis</td>
-                    <td><blockquote class="evidence-quote">"Because ZLD orthologs contain low-complexity regions and similarly activate transcription, it is likely that this shared feature provides the capacity to activate transcription."</blockquote></td>
-                    <td>Qualitative mention of ZLD ortholog LC domains - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=ZLD orthologs+D. virilis, A. gambiae, N. vitripennis" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b), consistent with its strong experimental propensity for phase separation.[3, 43]"</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD phase separation - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD-12pS</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD-12pS micellization - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD-12pS+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD-12DD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD-12DD micellization - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD-12DD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD-12D</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Even at this scale, 12D formed large, ever-growing droplets (Figure 2b) that contained almost up to 350 chains, but did not reach values close to 500 because a second droplet was nucleated."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD-12D phase separation - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD-12D+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"confirming that the unphosphorylated LCD undergoes robust liquid-liquid phase separation followed by droplet maturation across the entire salt range tested in this study."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD phase separation behavior - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD (phosphorylated)</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Collectively, these biophysical and imaging approaches demonstrate that phosphorylation of the TDP-43 LCD fully redirects its self-assembly pathway: from macro PS and amyloid-like aggregation in unphosphorylated LCD to micro PS and formation of stable, size-limited spherical micelles whose dimensions are independent of concentration and time."</blockquote></td>
-                    <td>Qualitative mention of phosphorylated TDP-43 LCD micellization - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD (phosphorylated)+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD 12D</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Both phosphomimetics thus reproduce the micellization behavior of the phosphorylated LCD, with the 12DD construct providing a closer match to the fully phosphorylated (-2e per site) limiting case."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD 12D mutant micellization - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD 12D+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD 12DD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Both phosphomimetics thus reproduce the micellization behavior of the phosphorylated LCD, with the 12DD construct providing a closer match to the fully phosphorylated (-2e per site) limiting case."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD 12DD mutant micellization - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD 12DD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"In this work, we showed that TDP-43 LCD organises into micelles upon C-terminal phosphorylation. This behaviour arises from the block-copolymer architecture conferred by clustered phosphosites, which create a hydrophilicity asymmetry between the N-terminal hydrophobic block and the charged C-terminal block."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LCD - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
                         <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
+                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
                     </td>
                     <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"the imaging served as direct optical confirmation of TDP-43 LCD phase separation and coalescence kinetics in the unphosphorylated state, as well as direct evidence for the suppression of phase separation in the phosphorylated state."</blockquote></td>
-                    <td>Qualitative mention of TDP-43 LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
+                    <td><span class="badge-target">Protein (self-association)</span></td>
+                    <td><blockquote class="evidence-quote">"At 150 mM NaCl and 50 μM total protein, the unphosphorylated LCD rapidly assembled into a dense population of micron-scale fluorescent spherical droplets, already abundant within a few minutes of sample loading (Figure 3d )."</blockquote></td>
+                    <td>Exact positions not provided; suggest UniProt canonical lookup for TDP-43 LCD coordinates.</td>
                     <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
+                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt</a>
                         
                     </td>
                 </tr>
         
                 <tr>
                     <td>
-                        <div class="protein-name">phLCD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
+                        <div class="protein-name">TDP-43 LCD</div>
+                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
                     </td>
                     <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD."</blockquote></td>
-                    <td>Qualitative mention of phLCD LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
+                    <td><span class="badge-target">Protein (self-association/micellization)</span></td>
+                    <td><blockquote class="evidence-quote">"Collectively, these results demonstrate that the phosphomimetic LCD variants 12D and 12DD reproduce the essential feature of phosphorylation-driven micellization, forming spherical micelles above a low-micromolar CMC with concentration-independent sizes, underscoring the role of C-terminal charge in redirecting self-organization."</blockquote></td>
+                    <td>Qualitative mention only; exact residue coordinates not provided. Suggest UniProt canonical lookup for TDP-43 LCD boundaries.</td>
                     <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=phLCD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
+                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
                         
                     </td>
                 </tr>
         
                 <tr>
                     <td>
-                        <div class="protein-name">12D</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
+                        <div class="protein-name">TDP-43 LCD</div>
+                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
                     </td>
                     <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD."</blockquote></td>
-                    <td>Qualitative mention of 12D LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
+                    <td><span class="badge-target">Protein</span></td>
+                    <td><blockquote class="evidence-quote">"For reference, in a cluster containing 20 chains of TDP-43 LCD 12pS that means computing rij for 86 out of the ∼ 8.6 million pairs of residues."</blockquote></td>
+                    <td>Exact residue boundaries for the LCD are not provided in the text; only qualitative mention of its role in cluster formation.</td>
                     <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=12D+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">12DD</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD."</blockquote></td>
-                    <td>Qualitative mention of 12DD LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=12DD+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">12pS</div>
-                        <div class="file-tag">A_Phosphorylation-Induced_Micellization_Switch_in_the_Low-Complexity_Domain_of_T.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><blockquote class="evidence-quote">"Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD."</blockquote></td>
-                    <td>Qualitative mention of 12pS LC domain - suggest looking up canonical sequence boundaries in UniProt</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=12pS+Unspecified" target="_blank" class="btn-link">UniProt ↗</a>
+                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
                         
                     </td>
                 </tr>

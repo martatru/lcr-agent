@@ -1,89 +1,72 @@
 import re
 import logging
-import unicodedata
 
 logger = logging.getLogger(__name__)
 
 
-def fix_hyphenation(text: str) -> str:
-    """Fixes words split across line breaks with a hyphen (e.g. 'con-\\ntinuously' -> 'continuously')."""
-    return re.sub(r'([a-zA-Z]+)-\s*\n\s*([a-zA-Z]+)', r'\1\2', text)
+def prepare_full_text(text: str) -> str:
+    """Cleans up basic whitespace artifacts from PDF extraction."""
+    clean = re.sub(r'\r\n|\r', '\n', text)
+    clean = re.sub(r'\n{3,}', '\n\n', clean)
+    clean = re.sub(r'[ \t]+', ' ', clean)
+    return clean.strip()
 
 
-def clean_whitespace_and_unicode(text: str) -> str:
-    """Normalizes unicode characters, removes control characters, and cleans excessive whitespace."""
-    text = unicodedata.normalize("NFKC", text)
-    text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', '', text)
-    text = re.sub(r'[\r\t\f\v]', ' ', text)
-    text = re.sub(r'[ ]+', ' ', text)
-    text = re.sub(r'\n{3,}', '\n\n', text)
-    return text.strip()
-
-
-def remove_references_section(raw_text: str) -> str:
-    """Cuts off the References / Bibliography section from the end of the text."""
-    patterns = [
-        r'(?im)^\s*(?:#+\s*)?(?:\d+[\.\s]*)?(?:\*\*)?\b(?:References|Bibliography|Literature Cited|References and Notes)\b(?:\*\*)?\s*$',
+def extract_core_results_only(text: str) -> str:
+    """
+    Strips Abstract, Introduction, Materials & Methods, Acknowledgments, and References.
+    Retains ONLY Results and Discussion sections to maximize token efficiency.
+    """
+    # 1. Strip References, Bibliography, Acknowledgments from the end
+    end_patterns = [
+        r"(?i)\n\s*(references|bibliography|literature\s+cited)\b",
+        r"(?i)\n\s*(acknowledgments|acknowledgements|author\s+contributions)\b"
     ]
+    for pattern in end_patterns:
+        match = re.search(pattern, text)
+        if match:
+            text = text[:match.start()]
 
-    clean_text = raw_text
-    for pattern in patterns:
-        matches = list(re.finditer(pattern, clean_text))
-        if matches:
-            for m in reversed(matches):
-                if m.start() > len(clean_text) * 0.4:
-                    clean_text = clean_text[:m.start()]
-                    logger.info("Cut off references section starting at character index %d", m.start())
-                    break
-            break
+    # 2. Identify section headers
+    results_match = re.search(r"(?i)\n\s*(results|results\s+and\s+discussion)\b", text)
+    methods_match = re.search(r"(?i)\n\s*(materials\s+and\s+methods|experimental\s+procedures|methods|methodology)\b", text)
+    intro_match = re.search(r"(?i)\n\s*(introduction|background)\b", text)
 
-    return clean_text.strip()
+    if results_match:
+        results_start = results_match.start()
+        # If Methods is placed after Results (e.g. Nature/Science format), chop before Methods
+        if methods_match and methods_match.start() > results_start:
+            core_text = text[results_start:methods_match.start()]
+        else:
+            core_text = text[results_start:]
+    else:
+        # Fallback if explicit "Results" header is missing
+        if methods_match:
+            core_text = text[methods_match.end():]
+        elif intro_match:
+            core_text = text[intro_match.start() + 3000:]
+        else:
+            skip_len = int(len(text) * 0.25)  # Skip first 25% (abstract/intro)
+            core_text = text[skip_len:]
+
+    # Secondary check to remove any remaining Methods block
+    m_check = re.search(r"(?i)\n\s*(materials\s+and\s+methods|experimental\s+procedures|methods)\b", core_text)
+    if m_check:
+        core_text = core_text[:m_check.start()]
+
+    logger.info("Retained only Results & Discussion (%d -> %d chars).", len(text), len(core_text))
+    return core_text.strip()
 
 
-def prepare_full_text(raw_text: str) -> str:
-    """Main pipeline for cleaning and normalizing PDF text before sending to LLM."""
-    if not raw_text:
-        return ""
-
-    text = remove_references_section(raw_text)
-    text = fix_hyphenation(text)
-    text = clean_whitespace_and_unicode(text)
-
-    return text
-
-
-# Alias for backward compatibility
-extract_relevant_sections = prepare_full_text
-
-
-def chunk_text(text: str, chunk_size: int = 12000, overlap: int = 2000) -> list[str]:
-    """Splits text into overlapping chunks, attempting to break on paragraph or sentence boundaries."""
+def chunk_text(text: str, chunk_size: int = 5000, overlap: int = 1000) -> list[str]:
+    """Splits text into overlapping chunks."""
     if len(text) <= chunk_size:
         return [text]
 
     chunks = []
     start = 0
-    text_length = len(text)
-
-    while start < text_length:
+    while start < len(text):
         end = start + chunk_size
-
-        if end >= text_length:
-            chunks.append(text[start:])
-            break
-
-        split_pos = text.rfind('\n\n', start + chunk_size // 2, end)
-        if split_pos == -1:
-            split_pos = text.rfind('\n', start + chunk_size // 2, end)
-        if split_pos == -1:
-            split_pos = text.rfind('. ', start + chunk_size // 2, end)
-            if split_pos != -1:
-                split_pos += 1
-
-        if split_pos == -1 or split_pos <= start:
-            split_pos = end
-
-        chunks.append(text[start:split_pos].strip())
-        start = max(split_pos - overlap, start + 1)
-
+        chunks.append(text[start:end])
+        start += (chunk_size - overlap)
     return chunks

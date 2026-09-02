@@ -1,270 +1,38 @@
 [
   {
     "chunk_index": 0,
-    "chunk_length": 20946,
-    "raw_extracted_count": 0,
-    "valid_count": 0,
-    "raw_annotations": [],
-    "valid_annotations": []
+    "chunk_length": 10852,
+    "raw_extracted_count": 1,
+    "valid_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "TDP-43",
+        "organism": "Human",
+        "start_of_annotation": "267",
+        "end_of_annotation": "414",
+        "binding_target": "Protein",
+        "proposed_function": "Self-assembly and phase separation driven by multivalent interactions, including cooperative interchain interactions between residues in the conserved helical region.",
+        "evidence": "Its disordered C-terminal low-complexity domain (LCD, residues 267-414), rich in glycine, glutamine/asparagine, and serine, bears features of a prion-like region, and plays a central role in self-assembly of the protein and in the pathogenesis of neurodegenerative diseases.",
+        "curator_note": "Exact positions given (residues 267-414). Binding target is inferred as 'Protein' due to self-assembly/interchain interactions."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "TDP-43",
+        "organism": "Human",
+        "start_of_annotation": "267",
+        "end_of_annotation": "414",
+        "binding_target": "Protein",
+        "proposed_function": "Self-assembly and phase separation driven by multivalent interactions, including cooperative interchain interactions between residues in the conserved helical region.",
+        "evidence": "Its disordered C-terminal low-complexity domain (LCD, residues 267-414), rich in glycine, glutamine/asparagine, and serine, bears features of a prion-like region, and plays a central role in self-assembly of the protein and in the pathogenesis of neurodegenerative diseases.",
+        "curator_note": "Exact positions given (residues 267-414). Binding target is inferred as 'Protein' due to self-assembly/interchain interactions."
+      }
+    ]
   },
   {
     "chunk_index": 1,
-    "chunk_length": 21757,
-    "raw_extracted_count": 6,
-    "valid_count": 6,
-    "raw_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phase separation (formation of continuously growing clusters/droplets)",
-        "evidence": "Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b), consistent with its strong experimental propensity for phase separation.[3, 43]",
-        "curator_note": "Qualitative mention of TDP-43 LCD phase separation - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD-12pS",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micellization (formation of small, roughly spherical clusters with dense core and diffuse corona)",
-        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
-        "curator_note": "Qualitative mention of TDP-43 LCD-12pS micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD-12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micellization (formation of small, roughly spherical clusters with dense core and diffuse corona)",
-        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
-        "curator_note": "Qualitative mention of TDP-43 LCD-12DD micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD-12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Macroscopic phase separation (formation of large, ever-growing droplets)",
-        "evidence": "Even at this scale, 12D formed large, ever-growing droplets (Figure 2b) that contained almost up to 350 chains, but did not reach values close to 500 because a second droplet was nucleated.",
-        "curator_note": "Qualitative mention of TDP-43 LCD-12D phase separation - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "101",
-        "end_of_annotation": "148",
-        "proposed_function": "Block 3 (C-terminal block) containing all phosphorylation sites; preferentially localised at the surface in micelles",
-        "evidence": "To quantify this architecture, we divided the LCD into three equal-length blocks (49 to 50 residues each), with all phosphorylation sites located in block 3 (residues 101-148 of the LCD and 367-414 of full-length TDP-43), while blocks 1 and 2 retain their compositions - and therefore hydrophobicity and net charge - in all 4 sequences (Figure 2a).",
-        "curator_note": "Exact positions given for Block 3 (residues 101-148 of the LCD)"
-      },
-      {
-        "protein_name": "TDP-43",
-        "organism": "Unspecified",
-        "start_of_annotation": "367",
-        "end_of_annotation": "414",
-        "proposed_function": "Full-length TDP-43 region corresponding to Block 3 of the LCD; contains phosphorylation sites",
-        "evidence": "To quantify this architecture, we divided the LCD into three equal-length blocks (49 to 50 residues each), with all phosphorylation sites located in block 3 (residues 101-148 of the LCD and 367-414 of full-length TDP-43), while blocks 1 and 2 retain their compositions - and therefore hydrophobicity and net charge - in all 4 sequences (Figure 2a).",
-        "curator_note": "Exact positions given for full-length TDP-43 (residues 367-414)"
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phase separation (formation of continuously growing clusters/droplets)",
-        "evidence": "Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b), consistent with its strong experimental propensity for phase separation.[3, 43]",
-        "curator_note": "Qualitative mention of TDP-43 LCD phase separation - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD-12pS",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micellization (formation of small, roughly spherical clusters with dense core and diffuse corona)",
-        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
-        "curator_note": "Qualitative mention of TDP-43 LCD-12pS micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD-12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micellization (formation of small, roughly spherical clusters with dense core and diffuse corona)",
-        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
-        "curator_note": "Qualitative mention of TDP-43 LCD-12DD micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD-12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Macroscopic phase separation (formation of large, ever-growing droplets)",
-        "evidence": "Even at this scale, 12D formed large, ever-growing droplets (Figure 2b) that contained almost up to 350 chains, but did not reach values close to 500 because a second droplet was nucleated.",
-        "curator_note": "Qualitative mention of TDP-43 LCD-12D phase separation - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "101",
-        "end_of_annotation": "148",
-        "proposed_function": "Block 3 (C-terminal block) containing all phosphorylation sites; preferentially localised at the surface in micelles",
-        "evidence": "To quantify this architecture, we divided the LCD into three equal-length blocks (49 to 50 residues each), with all phosphorylation sites located in block 3 (residues 101-148 of the LCD and 367-414 of full-length TDP-43), while blocks 1 and 2 retain their compositions - and therefore hydrophobicity and net charge - in all 4 sequences (Figure 2a).",
-        "curator_note": "Exact positions given for Block 3 (residues 101-148 of the LCD)"
-      },
-      {
-        "protein_name": "TDP-43",
-        "organism": "Unspecified",
-        "start_of_annotation": "367",
-        "end_of_annotation": "414",
-        "proposed_function": "Full-length TDP-43 region corresponding to Block 3 of the LCD; contains phosphorylation sites",
-        "evidence": "To quantify this architecture, we divided the LCD into three equal-length blocks (49 to 50 residues each), with all phosphorylation sites located in block 3 (residues 101-148 of the LCD and 367-414 of full-length TDP-43), while blocks 1 and 2 retain their compositions - and therefore hydrophobicity and net charge - in all 4 sequences (Figure 2a).",
-        "curator_note": "Exact positions given for full-length TDP-43 (residues 367-414)"
-      }
-    ]
-  },
-  {
-    "chunk_index": 2,
-    "chunk_length": 21340,
-    "raw_extracted_count": 4,
-    "valid_count": 4,
-    "raw_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Undergoes robust liquid-liquid phase separation followed by droplet maturation and amyloid-like aggregation in its unphosphorylated state.",
-        "evidence": "confirming that the unphosphorylated LCD undergoes robust liquid-liquid phase separation followed by droplet maturation across the entire salt range tested in this study.",
-        "curator_note": "Qualitative mention of TDP-43 LCD phase separation behavior - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD (phosphorylated)",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Suppression of macroscopic phase separation and amyloid-like aggregation; forms discrete, concentration-independent spherical micelles with a low-micromolar critical micelle concentration.",
-        "evidence": "Collectively, these biophysical and imaging approaches demonstrate that phosphorylation of the TDP-43 LCD fully redirects its self-assembly pathway: from macro PS and amyloid-like aggregation in unphosphorylated LCD to micro PS and formation of stable, size-limited spherical micelles whose dimensions are independent of concentration and time.",
-        "curator_note": "Qualitative mention of phosphorylated TDP-43 LCD micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD 12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phosphomimetic mutant that recapitulates the phosphorylated phenotype and forms size-limited spherical micelles above CMC at physiological conditions.",
-        "evidence": "Both phosphomimetics thus reproduce the micellization behavior of the phosphorylated LCD, with the 12DD construct providing a closer match to the fully phosphorylated (-2e per site) limiting case.",
-        "curator_note": "Qualitative mention of TDP-43 LCD 12D mutant micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD 12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phosphomimetic mutant that recapitulates the phosphorylated phenotype and forms size-limited spherical micelles above CMC at physiological conditions, though it does not fully abolish the fibrillar pathway at elevated concentrations.",
-        "evidence": "Both phosphomimetics thus reproduce the micellization behavior of the phosphorylated LCD, with the 12DD construct providing a closer match to the fully phosphorylated (-2e per site) limiting case.",
-        "curator_note": "Qualitative mention of TDP-43 LCD 12DD mutant micellization - suggest looking up canonical sequence boundaries in UniProt"
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Undergoes robust liquid-liquid phase separation followed by droplet maturation and amyloid-like aggregation in its unphosphorylated state.",
-        "evidence": "confirming that the unphosphorylated LCD undergoes robust liquid-liquid phase separation followed by droplet maturation across the entire salt range tested in this study.",
-        "curator_note": "Qualitative mention of TDP-43 LCD phase separation behavior - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD (phosphorylated)",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Suppression of macroscopic phase separation and amyloid-like aggregation; forms discrete, concentration-independent spherical micelles with a low-micromolar critical micelle concentration.",
-        "evidence": "Collectively, these biophysical and imaging approaches demonstrate that phosphorylation of the TDP-43 LCD fully redirects its self-assembly pathway: from macro PS and amyloid-like aggregation in unphosphorylated LCD to micro PS and formation of stable, size-limited spherical micelles whose dimensions are independent of concentration and time.",
-        "curator_note": "Qualitative mention of phosphorylated TDP-43 LCD micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD 12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phosphomimetic mutant that recapitulates the phosphorylated phenotype and forms size-limited spherical micelles above CMC at physiological conditions.",
-        "evidence": "Both phosphomimetics thus reproduce the micellization behavior of the phosphorylated LCD, with the 12DD construct providing a closer match to the fully phosphorylated (-2e per site) limiting case.",
-        "curator_note": "Qualitative mention of TDP-43 LCD 12D mutant micellization - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43 LCD 12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phosphomimetic mutant that recapitulates the phosphorylated phenotype and forms size-limited spherical micelles above CMC at physiological conditions, though it does not fully abolish the fibrillar pathway at elevated concentrations.",
-        "evidence": "Both phosphomimetics thus reproduce the micellization behavior of the phosphorylated LCD, with the 12DD construct providing a closer match to the fully phosphorylated (-2e per site) limiting case.",
-        "curator_note": "Qualitative mention of TDP-43 LCD 12DD mutant micellization - suggest looking up canonical sequence boundaries in UniProt"
-      }
-    ]
-  },
-  {
-    "chunk_index": 3,
-    "chunk_length": 20692,
-    "raw_extracted_count": 0,
-    "valid_count": 0,
-    "raw_annotations": [],
-    "valid_annotations": []
-  },
-  {
-    "chunk_index": 4,
-    "chunk_length": 19021,
-    "raw_extracted_count": 2,
-    "valid_count": 2,
-    "raw_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Organizes into micelles upon C-terminal phosphorylation; forms a block-copolymer architecture with a hydrophilic asymmetry between the N-terminal hydrophobic block and the charged C-terminal block.",
-        "evidence": "In this work, we showed that TDP-43 LCD organises into micelles upon C-terminal phosphorylation. This behaviour arises from the block-copolymer architecture conferred by clustered phosphosites, which create a hydrophilicity asymmetry between the N-terminal hydrophobic block and the charged C-terminal block.",
-        "curator_note": "Qualitative mention of TDP-43 LCD - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43",
-        "organism": "Unspecified",
-        "start_of_annotation": "282",
-        "end_of_annotation": "360",
-        "proposed_function": "Forms the amyloid core in fibrils isolated from ALS/FTD brains; compositionally similar to the simulated core of the phosphorylated micelle.",
-        "evidence": "They indicate that the amyloid core is formed by amino acids 282-360, roughly equivalent to our blocks 1 and 2.",
-        "curator_note": "Exact positions given"
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Organizes into micelles upon C-terminal phosphorylation; forms a block-copolymer architecture with a hydrophilic asymmetry between the N-terminal hydrophobic block and the charged C-terminal block.",
-        "evidence": "In this work, we showed that TDP-43 LCD organises into micelles upon C-terminal phosphorylation. This behaviour arises from the block-copolymer architecture conferred by clustered phosphosites, which create a hydrophilicity asymmetry between the N-terminal hydrophobic block and the charged C-terminal block.",
-        "curator_note": "Qualitative mention of TDP-43 LCD - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "TDP-43",
-        "organism": "Unspecified",
-        "start_of_annotation": "282",
-        "end_of_annotation": "360",
-        "proposed_function": "Forms the amyloid core in fibrils isolated from ALS/FTD brains; compositionally similar to the simulated core of the phosphorylated micelle.",
-        "evidence": "They indicate that the amyloid core is formed by amino acids 282-360, roughly equivalent to our blocks 1 and 2.",
-        "curator_note": "Exact positions given"
-      }
-    ]
-  },
-  {
-    "chunk_index": 5,
-    "chunk_length": 21929,
-    "raw_extracted_count": 2,
+    "chunk_length": 8836,
+    "raw_extracted_count": 1,
     "valid_count": 1,
     "raw_annotations": [
       {
@@ -272,18 +40,10 @@
         "organism": "Unspecified",
         "start_of_annotation": "267",
         "end_of_annotation": "414",
-        "proposed_function": "Formation of spherical and worm-like micelles upon phosphorylation; suppression of amyloid fibril formation; phase separation regulation.",
-        "evidence": "The TDP-43 LCD (residues 267-414) was expressed in E. coli BL21(DE3) cells from the expression vector pJ411 (Addgene #98669) encoding a His-TEV-TDP-43 LCD fusion protein.",
-        "curator_note": "Exact positions given (267-414) for the Low Complexity Domain (LCD) of TDP-43."
-      },
-      {
-        "protein_name": "TDP-43",
-        "organism": "Unspecified",
-        "start_of_annotation": "369",
-        "end_of_annotation": "414",
-        "proposed_function": "Phosphorylation sites creating a charged C-terminal block that drives micellization and suppresses fibril formation.",
-        "evidence": "Importantly, the 12 phosphorylation sites we examined here lie within residues 369-414 of full-length TDP-43, deep within the LCD and well beyond the conserved helix and the hydrophobic LCD core.",
-        "curator_note": "Exact positions given (369-414) for the phosphorylated region within the TDP-43 LCD."
+        "binding_target": "Protein",
+        "proposed_function": "Phase separation driven by aromatic and aliphatic residues and cooperative interchain interactions; forms dynamic liquid condensates that mature into fibrils (unphosphorylated) or stable spherical micelles (phosphorylated).",
+        "evidence": "TDP-43 LCD is 148 amino acids long (aa: 267-414).",
+        "curator_note": "Exact positions given (aa: 267-414). Binding target inferred as 'Protein' due to self-association/phase separation and interchain interactions described."
       }
     ],
     "valid_annotations": [
@@ -292,15 +52,130 @@
         "organism": "Unspecified",
         "start_of_annotation": "267",
         "end_of_annotation": "414",
-        "proposed_function": "Formation of spherical and worm-like micelles upon phosphorylation; suppression of amyloid fibril formation; phase separation regulation.",
-        "evidence": "The TDP-43 LCD (residues 267-414) was expressed in E. coli BL21(DE3) cells from the expression vector pJ411 (Addgene #98669) encoding a His-TEV-TDP-43 LCD fusion protein.",
-        "curator_note": "Exact positions given (267-414) for the Low Complexity Domain (LCD) of TDP-43."
+        "binding_target": "Protein",
+        "proposed_function": "Phase separation driven by aromatic and aliphatic residues and cooperative interchain interactions; forms dynamic liquid condensates that mature into fibrils (unphosphorylated) or stable spherical micelles (phosphorylated).",
+        "evidence": "TDP-43 LCD is 148 amino acids long (aa: 267-414).",
+        "curator_note": "Exact positions given (aa: 267-414). Binding target inferred as 'Protein' due to self-association/phase separation and interchain interactions described."
       }
     ]
   },
   {
+    "chunk_index": 2,
+    "chunk_length": 11764,
+    "raw_extracted_count": 4,
+    "valid_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "TDP-43-LCD",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Formation of continuously growing clusters and micelles via hydrophobic and electrostatic interactions (protein-protein contacts).",
+        "evidence": "Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b), consistent with its strong experimental propensity for phase separation.[3, 43]",
+        "curator_note": "Qualitative mention of the LCD region; specific residue coordinates for the full LCD are not explicitly defined in this snippet, though block boundaries (1-49, 50-99, 101-148) are mentioned later. Suggest UniProt lookup for canonical TDP-43 LCD boundaries."
+      },
+      {
+        "protein_name": "TDP-43-LCD-12pS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Assembly into small, roughly spherical clusters (micelles) with a dense core and diffuse corona.",
+        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
+        "curator_note": "Phosphorylated variant of TDP-43 LCD. Exact positions of phosphorylation sites are noted as residues 101-148 of the LCD, but the full LCD range is not explicitly stated as a single start/end pair in the text."
+      },
+      {
+        "protein_name": "TDP-43-LCD-12DD",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Assembly into small, roughly spherical clusters (micelles) with a dense core and diffuse corona.",
+        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
+        "curator_note": "Phosphomimetic variant of TDP-43 LCD. Exact positions of DD substitutions are noted as residues 101-148 of the LCD, but the full LCD range is not explicitly stated as a single start/end pair in the text."
+      },
+      {
+        "protein_name": "TDP-43-LCD-12D",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Formation of large, ever-growing droplets indicative of macroscopic phase separation.",
+        "evidence": "Even at this scale, 12D formed large, ever-growing droplets (Figure 2b) that contained almost up to 350 chains, but did not reach values close to 500 because a second droplet was nucleated.",
+        "curator_note": "Phosphomimetic variant of TDP-43 LCD. Exact positions of D substitutions are noted as residues 101-148 of the LCD, but the full LCD range is not explicitly stated as a single start/end pair in the text."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "TDP-43-LCD",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Formation of continuously growing clusters and micelles via hydrophobic and electrostatic interactions (protein-protein contacts).",
+        "evidence": "Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b), consistent with its strong experimental propensity for phase separation.[3, 43]",
+        "curator_note": "Qualitative mention of the LCD region; specific residue coordinates for the full LCD are not explicitly defined in this snippet, though block boundaries (1-49, 50-99, 101-148) are mentioned later. Suggest UniProt lookup for canonical TDP-43 LCD boundaries."
+      },
+      {
+        "protein_name": "TDP-43-LCD-12pS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Assembly into small, roughly spherical clusters (micelles) with a dense core and diffuse corona.",
+        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
+        "curator_note": "Phosphorylated variant of TDP-43 LCD. Exact positions of phosphorylation sites are noted as residues 101-148 of the LCD, but the full LCD range is not explicitly stated as a single start/end pair in the text."
+      },
+      {
+        "protein_name": "TDP-43-LCD-12DD",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Assembly into small, roughly spherical clusters (micelles) with a dense core and diffuse corona.",
+        "evidence": "In contrast, both 12pS and 12DD variants assembled into multiple small, roughly spherical clusters containing ~20-40 chains that remained stable over extended simulation times, which is indicative of micellization.",
+        "curator_note": "Phosphomimetic variant of TDP-43 LCD. Exact positions of DD substitutions are noted as residues 101-148 of the LCD, but the full LCD range is not explicitly stated as a single start/end pair in the text."
+      },
+      {
+        "protein_name": "TDP-43-LCD-12D",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "Formation of large, ever-growing droplets indicative of macroscopic phase separation.",
+        "evidence": "Even at this scale, 12D formed large, ever-growing droplets (Figure 2b) that contained almost up to 350 chains, but did not reach values close to 500 because a second droplet was nucleated.",
+        "curator_note": "Phosphomimetic variant of TDP-43 LCD. Exact positions of D substitutions are noted as residues 101-148 of the LCD, but the full LCD range is not explicitly stated as a single start/end pair in the text."
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 9327,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 4,
+    "chunk_length": 10626,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 5,
+    "chunk_length": 11868,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
     "chunk_index": 6,
-    "chunk_length": 19565,
+    "chunk_length": 10714,
     "raw_extracted_count": 0,
     "valid_count": 0,
     "raw_annotations": [],
@@ -308,184 +183,98 @@
   },
   {
     "chunk_index": 7,
-    "chunk_length": 20844,
-    "raw_extracted_count": 5,
-    "valid_count": 5,
-    "raw_annotations": [
-      {
-        "protein_name": "TDP-43",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phase separation and coalescence kinetics in the unphosphorylated state; suppression of phase separation in the phosphorylated state",
-        "evidence": "the imaging served as direct optical confirmation of TDP-43 LCD phase separation and coalescence kinetics in the unphosphorylated state, as well as direct evidence for the suppression of phase separation in the phosphorylated state.",
-        "curator_note": "Qualitative mention of TDP-43 LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "phLCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of phLCD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of 12D LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of 12DD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "12pS",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of 12pS LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "TDP-43",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Phase separation and coalescence kinetics in the unphosphorylated state; suppression of phase separation in the phosphorylated state",
-        "evidence": "the imaging served as direct optical confirmation of TDP-43 LCD phase separation and coalescence kinetics in the unphosphorylated state, as well as direct evidence for the suppression of phase separation in the phosphorylated state.",
-        "curator_note": "Qualitative mention of TDP-43 LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "phLCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of phLCD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of 12D LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of 12DD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "12pS",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Micelle formation and assembly (amphiphilic behavior with hydrophobic core and charged termini)",
-        "evidence": "Because the protein is a true amphiphile with a hydrophobic core and charged termini, the absence of a flat pre-micellar baseline is attributed to partial hydrophobic exposure of monomeric and oligomeric species below the CMC, consistent with the intrinsically disordered nature of the LCD.",
-        "curator_note": "Qualitative mention of 12pS LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      }
-    ]
+    "chunk_length": 10723,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
   },
   {
     "chunk_index": 8,
-    "chunk_length": 18571,
-    "raw_extracted_count": 4,
-    "valid_count": 4,
-    "raw_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "148",
-        "proposed_function": "Micelle formation and self-assembly; the text describes the sequence as an IDP (Intrinsically Disordered Protein) domain that forms micelles, with specific blocks defined for density and contact analysis.",
-        "evidence": "Table 1. Intervals defining the 3 blocks of TDP-43 LCD. Amino acid indexes are given relative to the first residue of the LCD (left) and to the first residue of full-length TDP-43.",
-        "curator_note": "Exact positions given for the LCD construct (residues 1-148 relative to LCD start, or 267-414 relative to full-length TDP-43). Note that the text refers to this as 'TDP-43 LCD' and discusses its micellizing properties."
-      },
-      {
-        "protein_name": "TDP-43 LCD 12pS",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "148",
-        "proposed_function": "Micelle formation; a phosphorylated variant of the TDP-43 LCD used in simulations to study self-assembly.",
-        "evidence": "TDP-43 LCD 12pS 1-50 / 267-316 51-100 / 317-366 101-148 / 367-414",
-        "curator_note": "Exact positions given for the 12pS variant (residues 1-148 relative to LCD start). This is a specific mutant/variant of the TDP-43 LCD."
-      },
-      {
-        "protein_name": "TDP-43 LCD 12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "148",
-        "proposed_function": "Micelle formation; a phosphomimetic (aspartate-substituted) variant of the TDP-43 LCD used in simulations.",
-        "evidence": "TDP-43 LCD 12D 1-50 / 267-316 51-100 / 317-366 101-148 / 367-414",
-        "curator_note": "Exact positions given for the 12D variant (residues 1-148 relative to LCD start). This is a specific mutant/variant of the TDP-43 LCD."
-      },
-      {
-        "protein_name": "TDP-43 LCD 12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "160",
-        "proposed_function": "Micelle formation; a longer phosphomimetic variant of the TDP-43 LCD used in simulations.",
-        "evidence": "TDP-43 LCD 12DD 1-50 / 267-316 51-100 / 317-366 101-160 / 367-426",
-        "curator_note": "Exact positions given for the 12DD variant (residues 1-160 relative to LCD start). This is a specific mutant/variant of the TDP-43 LCD."
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "TDP-43 LCD",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "148",
-        "proposed_function": "Micelle formation and self-assembly; the text describes the sequence as an IDP (Intrinsically Disordered Protein) domain that forms micelles, with specific blocks defined for density and contact analysis.",
-        "evidence": "Table 1. Intervals defining the 3 blocks of TDP-43 LCD. Amino acid indexes are given relative to the first residue of the LCD (left) and to the first residue of full-length TDP-43.",
-        "curator_note": "Exact positions given for the LCD construct (residues 1-148 relative to LCD start, or 267-414 relative to full-length TDP-43). Note that the text refers to this as 'TDP-43 LCD' and discusses its micellizing properties."
-      },
-      {
-        "protein_name": "TDP-43 LCD 12pS",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "148",
-        "proposed_function": "Micelle formation; a phosphorylated variant of the TDP-43 LCD used in simulations to study self-assembly.",
-        "evidence": "TDP-43 LCD 12pS 1-50 / 267-316 51-100 / 317-366 101-148 / 367-414",
-        "curator_note": "Exact positions given for the 12pS variant (residues 1-148 relative to LCD start). This is a specific mutant/variant of the TDP-43 LCD."
-      },
-      {
-        "protein_name": "TDP-43 LCD 12D",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "148",
-        "proposed_function": "Micelle formation; a phosphomimetic (aspartate-substituted) variant of the TDP-43 LCD used in simulations.",
-        "evidence": "TDP-43 LCD 12D 1-50 / 267-316 51-100 / 317-366 101-148 / 367-414",
-        "curator_note": "Exact positions given for the 12D variant (residues 1-148 relative to LCD start). This is a specific mutant/variant of the TDP-43 LCD."
-      },
-      {
-        "protein_name": "TDP-43 LCD 12DD",
-        "organism": "Unspecified",
-        "start_of_annotation": "1",
-        "end_of_annotation": "160",
-        "proposed_function": "Micelle formation; a longer phosphomimetic variant of the TDP-43 LCD used in simulations.",
-        "evidence": "TDP-43 LCD 12DD 1-50 / 267-316 51-100 / 317-366 101-160 / 367-426",
-        "curator_note": "Exact positions given for the 12DD variant (residues 1-160 relative to LCD start). This is a specific mutant/variant of the TDP-43 LCD."
-      }
-    ]
+    "chunk_length": 10271,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 9,
+    "chunk_length": 11473,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 10,
+    "chunk_length": 11869,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 11,
+    "chunk_length": 11676,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 12,
+    "chunk_length": 10380,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 13,
+    "chunk_length": 9980,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 14,
+    "chunk_length": 10930,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 15,
+    "chunk_length": 10720,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 16,
+    "chunk_length": 10129,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 17,
+    "chunk_length": 9518,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 18,
+    "chunk_length": 4999,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
   }
 ]

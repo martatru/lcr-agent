@@ -1,0 +1,901 @@
+Citrullination in proteins of the polycomb repressor complex 1
+María Gabriela ́Alvarez-Rodríguez a,1
+, Emanuel Capone b
+, Sonia Vega c, Virginia Rejas d
+, 
+Bruno Rizzuti c,e
+, Adrian Velazquez-Campoy c,f,g,h, Jos ́e L. Neira a,c,*,1
+a IDIBE, Universidad Miguel Hern ́andez, Elche (Alicante), 03202, Spain
+b Department of Physics, University of Calabria, Rende, 87036, Italy
+c Instituto de Biocomputaci ́on y Física de Sistemas Complejos (BIFI), Universidad de Zaragoza, Zaragoza, 50018, Spain
+d Centro de Investigacion Príncipe Felipe, Calle de Eduardo Primo Yufera 3, Valencia, 46012, Spain
+e CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, Rende, 87036, Italy
+f Instituto de Investigaci ́on Sanitaria Arag ́on (IIS Arag ́on), Zaragoza, Spain
+g Centro de Investigaci ́on Biom ́edica en Red en el ́Area Tem ́atica de Enfermedades Hep ́aticas y Digestivas (CIBEREHD), Madrid, 28029, Spain
+h Departamento de Bioquímica y Biología Molecular y Celular, Universidad de Zaragoza, Zaragoza, 50009, Spain
+A R T I C L E I N F O
+Keywords:
+Polycomb proteins
+PADI proteins
+Calorimetry
+Fluorescence
+Molecular docking
+Peptides
+A B S T R A C T
+The Polycomb repressive complexes can be considered a paradigm of chromatin-based gene regulation in ani­
+mals. Two of the proteins involved in such complexes are the Ring finger protein 1 (RING1) and the intrinsically 
+disordered protein RING1A and YY1 binding protein (RYBP), which binds to RING1 in some of the Polycomb 
+complexes. Peptidyl arginine iminohydrolases (PADIs) are enzymes involved in the post-translational modifi­
+cation of arginine to citrulline. PADI4, one of the five isoforms of PADI in humans, citrullinates RING1B and 
+RYBP at specific arginines at their C-terminal (Arg231) and N-terminal (Arg53) regions, respectively. In this 
+work, we studied in vitro and in silico whether isolated peptides from each protein, encompassing those wild-type 
+arginines and their citrulline-modified counterparts, were capable of binding to PADI4. The isolated peptides, 
+either in wild-type or modified form, were monomeric and disordered as indicated by far-UV CD and NMR. The 
+affinity constants of peptides for PADI4, as measured by fluorescence, biolayer interferometry (BLI) and 
+isothermal titration calorimetry (ITC), were in the low micromolar range (dissociation constants around 10- 
+20 μM), and the affinities were smaller for the citrullinated variants. Molecular docking simulations showed that 
+the isolated peptides from each protein, either in wild-type form or modified variants, targeted the active site of 
+PADI4, corresponding to the catalytic residue Cys645. These findings suggest that the isolated peptides were 
+capable of binding to the enzyme with affinities similar to those of intact RING1B or RYBP, and that citrullination 
+of the arginines diminished the affinity for the enzyme.
+1. Introduction
+Specific and unique gene expression programs are necessary for 
+successful development of multicellular organisms. Deciphering these 
+intricate routes is currently under way, and results so far have suggested 
+that histone and chromatin post-translational modification (PTM) 
+contribute to modulate transcription and gene expression [1–3]. Poly­
+comb systems comprise several arrays of multi-protein complexes, 
+which are involved in: (i) catalyzing histone modification; and (ii) in­
+teractions with nucleosomes, supporting mainly transcription repression 
+of several genes as well as, in a few cases, an increase in gene activation 
+[4–9].
+Abbreviations: BAEE, N-α-Benzoyl-L-arginine ethyl ester; BLI, biolayer interferometry; CD, circular dichroism; C-RING1B, C-terminal region of RING1B (residues 
+228-336 of the intact protein); COLDER, color developed reagent; DIPSI, decoupling in the presence of scalar interactions; DOSY, diffusion ordered spectroscopy; ITC, 
+isothermal titration calorimetry; MW, molecular weight; NMR, nuclear magnetic resonance; NOE, nuclear Overhauser effect; NOESY, nuclear Overhauser effect 
+spectroscopy; PADI, peptidyl arginine iminohydrolase; PCGF, Polycomb group ring finger; PRC, Polycomb repressive complex; PTM, post-translational modification; 
+RAWUL, RING-finger and WD40-associated ubiquitin-like; RING, really interesting new gene; RYBP, RING 1A and YY1 binding protein; TCEP, tris(2-carboxyethyl) 
+phosphine; TOCSY, total correlation spectroscopy; TSC, thiosemicarbazide; TSP, 3-(trimethylsilyl) propionic acid-2,2,3,3-2H4-sodium salt; UV, ultraviolet.
+* Corresponding author. IDIBE, Edificio Torregait ́an, Universidad Miguel Hern ́andez, Avda. del Ferrocarril s/n, 03202, Elche (Alicante), Spain.
+E-mail address: jlneira@umh.es (J.L. Neira). 
+1 These two authors contributed equally to this work.
+Contents lists available at ScienceDirect
+Archives of Biochemistry and Biophysics
+journal homepage: www.elsevier.com/locate/yabbi
+https://doi.org/10.1016/j.abb.2026.110955
+Received 25 June 2026; Received in revised form 29 July 2026; Accepted 1 August 2026 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+Available online 3 August 2026 
+0003-9861/© 2026 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/bync/4.0/ ). 
+
+Polycomb genes were firstly discovered over 70 years ago in 
+Drosophila melanogaster, where they are needed for repression of the 
+homeotic (Hox) genes, which are involved in body plan specification 
+[10]. The mammalian orthologues are crucial in modulating gene 
+expression during development [11]. Polycomb proteins assemble into 
+one of two large multi-protein complexes capable of modifying histones. 
+The Polycomb repressive complex 1 (PRC1) is an E3 ubiquitin ligase 
+capable of mono-ubiquitylating histone H2A at Lys119 [12–15] 
+(yielding H2AK119ub1). On the other hand, the Polycomb repressive 
+complex 2 (PRC2) is capable of mono-, di- and tri-methylate histone H3 
+at Lys27 [16,17]. Both PRC1 and PRC2 form the so-called Polycomb 
+chromatin domains, which are formed by chromatin and specially 
+enriched in H2AK119ub1, H3K27me3 and the Polycomb complexes 
+themselves [18,19].
+The catalytic core of the E3-ubiquitine ligase PRC1 is formed by 
+RING1B (UniProt code: Q99496) – or alternatively its paralogue 
+RING1A – and one of the six Polycomb group ring finger (PCGF) pro­
+teins. The RING1 and PCGF proteins have a similar domain arrange­
+ment: an N-terminal RING domain and a C-terminal RING-finger and 
+WD40-associated ubiquitin-like (RAWUL) domain [20]. To ubiq­
+uitinate the nucleosomes, RING1 and PCGF proteins hetero-dimerize 
+through their RING domains, allowing interaction with an E2 conju­
+gating enzyme [20–23]. The RAWUL domain binds to a range of other 
+auxiliary proteins, which are selected by the PCGF components to form 
+specific PRC1 complexes [20]. These auxiliary proteins are capable of: 
+(i) modulating the PRC1 catalytic activity, and (ii) targeting a specific 
+site in the genome [24,25]. These complexes are named either canonical 
+PRC1 (cPRC1) or non-canonical PRC1 (ncPRC1). The cPRC1 complexes 
+arrange around either PCGF2 or PCGF4 and are constituted by one of the 
+five chromodomain-containing paralogues (CBX2, 4, 6, 7 or 8), which 
+are associated to the RAWUL domain of RING1, and a polyhomeotic 
+subunit (PHC1, 2 or 3) [20,24]. On the other hand, the ncPRC1 com­
+plexes arrange around any of the six PCGF (PCGF1 to PCGF6), and they 
+include RING1, as well as the intrinsically disordered RING1A and 
+YY1-binding protein (RYBP, Uniprot: Q8N488) – or alternatively, its 
+paralogue YY1-associated factor – which binds to the RAWUL domain of 
+C-RING1B [26]. They also include various additional auxiliary proteins 
+that are dependent on the type of PCGF protein present in the complex 
+[25,27–29].
+Citrullination is a PTM occurring in the presence of Ca2+ and cata­
+lyzed by L-arginine iminohydrolases (PADIs), a family of proteins also 
+known as peptidyl-arginine deiminases (EC 3.5.3.15). PADI4 (Uniprot 
+code: Q9UM07) is one of the five isoforms of L-arginine iminohydrolases 
+(EC 3.5.3.15) found in humans, which convert arginine into citrulline, 
+by deamination of its side-chain [30,31]. Among other cell locations, 
+PADI4 is usually found in the cytoplasmic granules of neutrophils, eo­
+sinophils or macrophages [30]. PADI4 is also involved in the citrulli­
+nation of histones H1 [30], H3 [32], H2A/H2B dimers [33] and H4 [34], 
+and it is capable of counteracting histone arginine methylation [35]. We 
+have recently reported that PADI4 binds to RYBP [36] and the RAWUL 
+domain of RING1B, C-RING1B (residues 228-336 of the intact protein) 
+[37], modifying some of the arginines in those polypeptides. In RYBP, 
+the arginine post-translationally modified by PADI4 seems to be Arg53, 
+although Arg56 is also very close, both being located at its N-terminus 
+[36]; and, in C-RING1B, the modified arginine is Arg231 [37].
+In this work, we wondered whether the isolated regions around those 
+arginine residues of RYBP and C-RING1B polypeptides were also capable 
+of binding to PADI4. To answer those questions, we synthesized two 
+peptides for C-RING1B (the wild-type and the citrulline-modified one at 
+Arg231), and three peptides for RYBP (the wild-type, the citrullinemodified at Arg53, and the citrulline-modified at Arg56 [36]). We first 
+characterized the conformational features of these isolated peptides by 
+diffusion ordered spectroscopy (DOSY), 1D- and 2D-1H NMR, and we 
+found that all of them were disordered and monomeric in aqueous so­
+lution. To assess peptide binding to PADI4, we used fluorescence, 
+isothermal titration calorimetry (ITC) and biolayer interferometry (BLI); 
+the three techniques showed binding for all peptides to PADI4. 
+Furthermore, the wild-type peptides derived from C-RING1B and RYBP 
+were citrullinated by PADI4 and, therefore, they were substrates, as 
+observed by an enzymatic colorimetric assay (COLDER). Molecular 
+simulations could reproduce the general trend observed in the experi­
+ments in vitro, and provided the additional information that the cit­
+rullinated peptides targeted the catalytic site of PADI4, as well. In 
+general terms, we can conclude that the citrullinated peptides showed a 
+slightly lower affinity for PADI4 than the corresponding wild-type ones.
+2. Materials and methods
+2.1. Materials
+Imidazole, Trizma base, Kanamycin, DNase, 3-(trimethylsilyl) pro­
+pionic acid-2,2,3,3-2H4-sodium salt (TSP), SIGMAFAST protease inhib­
+itor tablets, Ni2+-resin, glycerol, N-α-Benzoyl-L-arginine ethyl ester 
+(BAEE), L-citrulline, 3-hydroxyimino 2-butanone (diacetyl monoxime), 
+thiosemicarbazide (TSC), SO4H2 (98 %), PO4H3 (85 %), NH4Fe 
+(SO4)2 × 12H2O, GSK484 (an inhibitor of PADI4), NaCl, antipyrine and 
+ultra-pure dioxane were purchased from Sigma (Madrid, Spain). The 
+β-mercaptoethanol was from BioRad (Madrid, Spain). Isopropyl-β-D-1- 
+thiogalactopyranoside were obtained from Apollo Scientific (Stockport, 
+UK). The detergent Triton X-100, the reducing agent TCEP (tris(2-car­
+boxyethyl)phosphine), and the SDS protein marker (PAGEmark 
+Tricolor) were from VWR (Barcelona, Spain). Amicon centrifugal de­
+vices with a molecular weight (MW) cut-off of 50 kDa were from Milli­
+pore (Barcelona, Spain). The rest of materials were of analytical grade. 
+Water was deionized and purified on a Millipore system.
+2.2. Protein expression and purification
+The dimeric protein PADI4 (with 663 residues per monomer) was 
+also purified as previously described [38]. PADI4 concentrations were 
+determined by ultraviolet (UV) absorbance, employing an extinction 
+coefficient at 280 nm estimated from the number of tyrosines and 
+tryptophans (10 tryptophans and 13 tyrosines per monomer, ε280 
+nm = 73540 M−1 cm−1) [39].
+2.3. Synthesis of the wild-type and citrullinated variants of peptides 
+derived from C-RING1B and RYBP proteins
+Based on previous results on how the C-RING1B and the intact RYBP 
+were capable of binding to PADI4 [36,37], we synthesized five peptides, 
+whose sequences are reported in Table 1. The peptides related to 
+C-RING1B were: the wild-type (C-RING-wt), and the modified one with a 
+citrulline at Arg231 (C-RING-R231). The RYBP-derived peptides were: 
+the wild-type (RYBP-wt), the modified peptide with a citrulline at Arg53 
+(RYBP-R53), and the other one with a citrulline at position Arg56 
+(RYBP-R56), which is very close to the former position but less favored 
+in the binding to PADI4 [36]. All the peptides were synthesized as 
+acetylated and amidated, to avoid possible structural fraying at both 
+termini. We also added in the RYBP-derived peptides a tyrosine at the 
+C-terminal end to allow for the quantitative determination of their 
+concentration in solution, by employing UV absorption at 280 nm [39]. 
+The concentration of the C-RING1B peptides was determined from the 
+absorbance at 280 nm of the sole phenylalanine present in their 
+sequence (ε280nm = 700 M−1 cm−1 [42]). All the peptides were produced 
+by GenScript (Leiden, Netherlands), with a purity larger than 95 %.
+2.4. Fluorescence
+For the titration of PADI4 with the peptides, increasing concentra­
+tions of the latter, in the range 0-200 μM (for the C-RING1B peptides) 
+and 0-40 μM (for the RYBP ones), were added to a solution with a fixed 
+amount of the protein (2 μM in protomer units). Experiments were 
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+2 
+
+carried out at pH 8.0 (50 mM, Tris buffer) and 25 ◦C. The samples were 
+excited at 280 and 295 nm, with the experimental set-up described in 
+detail elsewhere [43]. In all cases, the appropriate blank corrections 
+were subtracted. Spectra were also corrected for inner-filter effects 
+during fluorescence excitation [44].
+We attempted to calculate the dissociation constant for each PADI4/ 
+peptide complex, Kd, by fitting the binding isotherm, which was con­
+structed by plotting the observed fluorescence change as a function of 
+peptide concentration to the general binding model, explicitly consid­
+ering peptide depletion due to the binding [45,46]: 
+F = F0 +
+ΔFmax
+2[PADI4]T
+((
+[PADI4]T + [Pep]T + Kd
+)
+−̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+( (
+[PADI4]T + [Pep]T + Kd
+)2 −4[PADI4]T[Pep]T
+)
+√
+)
+(1) 
+where F is the measured fluorescence at any particular concentration of 
+either the C-RING1B or RYBP peptides after subtraction of the corre­
+sponding blank; ΔFmax is the largest change in the fluorescence of those 
+peptides when they were forming the complex, taking as reference the 
+fluorescence of each isolated chain; F0 is the fluorescence intensity when 
+no C-RING1B or RYBP peptide was added; [Pep]T is the total concen­
+tration of the corresponding C-RING1B or RYBP peptide, that was varied 
+during the titration; and [PADI4]T is the constant concentration of 
+PADI4. Each titration was repeated three times, using newly prepared 
+samples. In all cases, the variations in the results were lower than 10 %. 
+Fitting to Eq. (1) was carried out by using KaleidaGraph version 3.5 
+(Synergy software, Reading, PA, USA).
+2.5. Nuclear Magnetic Resonance (NMR) spectroscopy
+The NMR experiments on the C-RING1B or RYBP peptides were 
+performed at 10 ◦C on a Bruker Avance 500 MHz spectrometer (Bruker 
+GmbH, Karlsruhe, Germany), equipped with a triple resonance probe 
+and z-pulse field gradients. Spectra were processed with Bruker TopSpin 
+2.1 (Bruker GmbH, Karlsruhe, Germany). All NMR experiments were 
+carried out in 50 mM sodium phosphate buffer, at pH 7.2, in the pres­
+ence of 50 μL of D2O. Spectra were calibrated with TSP, by considering 
+pH-dependent changes of its chemical shifts [47]; probe temperature 
+was calibrated with methanol [47].
+2.5.1. 1D-1H NMR spectra
+A number of 128 scans were acquired with 16 K acquisition points for 
+the homonuclear 1D-1H NMR spectra of each peptide at ~1.2 mM con­
+centration. Water signal was suppressed with the WATERGATE 
+sequence [48]. The spectra were processed after zero-filling (with a total 
+matrix size of 32 K), apodised with an exponential window and base-line 
+corrected.
+2.5.2. Translational diffusion NMR (DOSY)
+The peptide concentrations in DOSY experiments [49] were 
+~100 μM, and 128 scans were performed, with a total amount of data of 
+16 K in the F2 dimension. Measurements of the translational 
+self-diffusion coefficient, D, were performed with the pulsed-gradient 
+spin-echo sequence in the presence of 100 % D2O. Details on the 
+experimental conditions, calibration of the gradient strength and fitting 
+of the resulting curves have been described elsewhere [40]. The esti­
+mated values of the hydrodynamic radii, Rh, of the peptides were 
+determined from a comparison with the Rh of dioxane added to the so­
+lution [40].
+2.5.3. 2D-1H NMR spectra
+Two-dimensional spectra of the C-RING1B and RYBP peptides were 
+acquired in each dimension in phase-sensitive mode by using the timeproportional phase incrementation technique [50] and a spectral 
+width of 5500 Hz; peptide concentration was the same used for the 
+1D-1H NMR spectra. Standard TOCSY (with a mixing time of 80 ms) [51] 
+and NOESY experiments (with a mixing time of 250 ms) [52] were 
+performed by acquiring a data matrix size of 4096 × 512 points. The 
+DIPSI (decoupling in the presence of scalar interactions) spin-lock 
+sequence [53] was used in the TOCSY experiments with a relaxation 
+time of 1 s. A number of 96 scans were acquired per increment in the first 
+dimension. NOESY spectra were collected with 128 scans per increment 
+in the first dimension with a relaxation time of 1 s. In both spectra, re­
+sidual water signal was removed by using the WATERGATE sequence 
+[48]. Data were zero-filled, resolution-enhanced with a square sine-bell 
+window function optimized in each spectrum, and baseline-corrected. 
+The 1H resonances were assigned by using the standard sequential 
+assignment method [54]. The chemical shift values of Hα protons in 
+random-coils were calculated by considering the neighboring residue 
+effects [54–56].
+2.6. Isothermal Titration Calorimetry (ITC)
+The binding affinities for the RING and RYBP peptides interacting 
+with PADI4 were determined in a PEAQ-ITC titration calorimeter 
+(MicroCal, Malvern-Panalytical, Malvern, UK). The titrations were car­
+ried out in buffer 50 mM Tris at pH 8.0, at a temperature of 25 ◦C. 
+Protein solutions in the cell at 5-20 μM were titrated with each of the 
+peptide solutions at 50-200 μM from the injection syringe. In each 
+experiment a sequence of nineteen injections of 2 μL of titrant solution 
+spaced evenly over 150 s was programmed, with a stirring speed of 
+750 rpm and a reference power of 10 μcal/s. Experiments were repeated 
+twice. Additional experiments employing GSK484, a well-known 
+orthosteric PADI4 inhibitor, were performed to assess whether the 
+peptides compete for the binding to the active site. In this case, GSK484 
+was added to the calorimetric cell solution at a concentration of 500 μM.
+The binding isotherms were obtained by integrating the heats per 
+injections in the thermograms and normalizing by the amount of ligand 
+injected per injection. Data analysis was performed by non-linear leastsquares regression data analysis employing a user-defined fitting routine 
+in Origin 7.0 (OriginLab, Northampton, MA) and considering a single 
+binding-site model. The equilibrium association constant, Ka (and the 
+dissociation constant, Kd = 1/Ka), and the apparent binding stoichiom­
+etry, n, were estimated.
+2.7. Verification of citrulline formation by a colorimetric assay
+A photometric method was carried out to determine whether PADI4 
+Table 1 
+Hydrodynamic properties of the C-RING1B and RYBP peptides.a.
+Polycomb peptides
+D (cm2 s−1) (Rh, Å)b
+Rh, Åc
+D221GASEIELVFRPHPTLMEKD240 (C-RINGwt)
+(1.99 ± 0.06) × 10−6 
+(13 ± 1)
+13 ± 2
+D221GASEIELVFCitPHPTLMEKD240 (C-RINGR231)
+(1.90 ± 0.03) × 10−6 
+(14 ± 2)
+13 ± 2
+K48GTSTRKPRINSQLVAQQ65Y (RYBP-wt)
+(1.90 ± 0.06) × 10−6 
+(13 ± 2)
+12 ± 2
+K48GTSTCitKPRINSQLVAQQ65Y (RYBP-R53)
+(1.9 ± 0.1) × 10−6 
+(13 ± 3)
+12 ± 2
+K48GTSTRKPCitINSQLVAQQ65Y (RYBP-R56)
+(1.89 ± 0.06) × 10−6 
+(13 ± 2)
+12 ± 2
+a All the peptides were amidated at their C-termini, and acetylated at their Ntermini. The MW for the C-RING-wt peptide is 2284.57 Da. The MW for the 
+RYBP-wt peptide is 2175.48 Da. The modified citrullines are indicated in bold.
+b The Rh was determined by using the translational diffusion coefficient of 
+dioxane, Rh, of 2.12 Å [40] and the Stokes-Einstein equation. Errors in D values 
+are fitting errors to an exponential curve and errors in Rh are due to propagation 
+errors in the calculation [40].
+c Calculated from the scale law: Rh = (0.027 ± 0.01) MW (0.50±0.01) [41], 
+where MW is the molecular weight of the peptide. Errors are due to propagation 
+errors resulting from the equation used. The difference in MW between the 
+wild-type species and each citrulline variant is 1 Da per introduced citrulline.
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+3 
+
+was capable of citrullinating BAEE (as a control) or, alternatively, either 
+the C-RING-wt or RYBP-wt peptides. This method is based in the reac­
+tion of citrulline with oximes in strong acids in the presence of TSC. The 
+protocol to prepare the colour developed reagent (COLDER) and the 
+corresponding tests have been described elsewhere [57–59] and applied 
+to detect the enzymatic activity of PADI4 under different conditions 
+[60–62]. The protocols and the corresponding controls for peptides 
+susceptible of being citrullinated have been extensively described else­
+where with other peptides from different proteins [61,62]. Concentra­
+tions of both wild-type Polycomb peptides were 100 μM and that of 
+PADI4 was 0.5 μM.
+2.8. Biolayer Interferometry (BLI)
+2.8.1. Experimental design
+The association (kon) and dissociation (koff) rate constants of the 
+binding reactions of the Polycomb peptides to PADI4 were determined 
+by using a BLItz system (ForteBio, Pall, Barcelona, Spain) [63–67]. The 
+buffer used in the experiments was that recommended by the manu­
+facturer (Octet kinetics Buffer 10 × (10 × KB), PN 18-1105, Sartorius). 
+As PADI4 had a His-tag, it was immobilized on His-tag biosensors (Octet 
+NTA Biosensors, PN 18-5101) at 0.3 μM (in protomer units). Before the 
+loading, each Polycomb peptide was tested for binding at the largest 
+concentration assayed against unloaded tips; in all the cases, we did not 
+observe any binding. The C-RING1B and RYBP peptide concentrations 
+were in the range from 20 to 120 μM during the association step. The 
+general scheme of the protein-association/dissociation reactions was: 
+30 s of initial baseline acquisition with the 10 × kinetics buffer; 120 s of 
+loading PADI4 into the His-tag biosensor; 30 s of baseline acquisition 
+with the 10 × kinetics buffer; 120 s of association of each Polycomb 
+peptide to the biosensor-immobilized-PADI4; and 120 s of dissociation 
+of the corresponding peptide from the biosensor-immobilized-PADI4. 
+Baseline measurements in the presence of unloaded tips were sub­
+tracted from the measurement taken with the loaded tip. Experiments 
+were repeated twice with new biosensors for each of the peptides.
+2.8.2. Fitting of the sensorgrams
+Fitting of the sensorgrams was carried out as described elsewhere 
+[61,62,67]. Briefly, the response during the association step, R(t), to the 
+biosensor-bound-PADI4, was fitted to: 
+R(t) = Req −Reqe(−kobs (t−t0)) −
+ ́Req( t −t0)
+(2) 
+where the last term was included to consider the linear drift observed at 
+longer times. In this equation, Req is the steady-state (or equilibrium) 
+response obtained at infinite time, when dR(t)/dt = 0, and t0 = 180 s is 
+the time at which the association step started. The value of kobs obtained 
+at different peptide concentrations, [Pep], is given by the pseudo-firstorder equation: 
+kobs = kon [Pep] + koff
+(3) 
+where the kon and koff are, respectively, the kinetic association and 
+dissociation rates of the binding reaction of the corresponding peptide to 
+PADI4.
+The dissociation process was fitted with R(t) given by: 
+R(t) = R2 −R1 e(−koff (t−t0)) −
+ ́R ́ ́eq( t −t0)
+(4) 
+where t0 = 300 is the time at which the dissociation of the peptide from 
+the biosensor-bound-PADI4 started in our experimental set-up, R1 is the 
+response level when dissociation starts, R2 is the response at infinite time 
+values, and the last term, ́R ́ ́eq, was included to consider the linear drift 
+observed at longer times. Separated fittings of the association and the 
+dissociation steps to Eqs. (2) and (4), at the different peptide concen­
+trations, were carried out by using KaleidaGraph. Fitting to Eq. (3) (the 
+so-called pseudo-first-order plot) was also carried out by using 
+KaleidaGraph.
+2.9. Molecular docking simulations
+Molecular docking simulations were carried out to study the binding 
+locations of the C-RING1B and RYBP peptides on PADI4. The peptides 
+were built by using UCFS Chimera [68], with acetylated and methylated 
+capping at their N and C terminus, respectively. The structure of PADI4 
+was build starting from its crystallographic conformation (PDB entry: 
+3APN [69]), and missing loop portions were modeled as previously 
+described [38]. To reduce the computational cost, a single protein 
+monomer (663 residues) of PADI4 was used in the docking experiments. 
+The software PyMol, version 2.1.1 (https://www.pymol.org) was used 
+to display the docking poses.
+The large number of rotational degrees of freedom of the peptides 
+(78 rotatable bonds for C-RING-wt and its citrulline-modified counter­
+part, and 82 for RYBP-wt and its two citrullinated ones) precluded the 
+use of many long-established docking algorithm (e.g., 32 rotatable 
+bonds is the limit considered reliable for AutoDock Vina [70]. For this 
+reason, the generative diffusion model DiffDock was used [71], which 
+uses a three-layer graph neural network to score potential docking poses 
+and rank them according to a confidence value. To allow for a direct 
+comparison with the binding score of other peptides we previously 
+proved to bind PADI4 in experiments and simulations [61,62,72], 
+default docking parameters were used for DiffDock: 20 diffusion time 
+divisions, 18 actual inference steps, and no final step noise. Ten simu­
+lation runs were performed and, among the top-ranked docking poses, 
+the five most favorable ones were considered.
+Additional runs were made to reduce the computational complexity 
+of the simulations, by considering: (i) the peptides shortened by three 
+residues on each termini (resulting in 54 rotatable bonds for each of the 
+five peptides); and (ii) the sole PADI4 domain where docking poses 
+tended to accumulate (residue 295−663 of the protein monomer).
+3. Results
+3.1. Conformational features of the C-RING1B and RYBP peptides
+To perform the characterization of the conformational features of the 
+C-RING1B and RYBP peptides (Table 1), we carried out 1D- and 2D- 1H 
+NMR studies. We did not use fluorescence to characterize the structural 
+features of the isolated peptides, since: (i) to allow for measurement of 
+their concentration, the RYBP peptides had a non-natural tyrosine at the 
+C-terminal region, whose maximum wavelength in the fluorescence 
+spectrum does not change in the presence of well-defined or rigid 
+structure [42]; and (ii) the C-RING1B ones had a sole phenylalanine.
+The C-RING1B and RYBP peptides were monomeric, as concluded 
+from: (i) the value of D measured by the DOSY experiment (Table 1); and 
+(ii) the estimated Rh obtained from the comparison with the experi­
+mentally measured D of dioxane by using the Stokes-Einstein relation­
+ship [40]. In fact, the estimated values of Rh were similar to those 
+obtained theoretically for random-coil polypeptides [41] with the same 
+MWs (Table 1).
+The disordered character of the Polycomb peptides was evident from 
+the 1D-1H NMR spectra (Fig. 1), which showed a clustering of the signals 
+of all the methyl protons of Leu, Ile and Val residues at ~0.8-1.0 ppm 
+[54]. Similarly, the amide protons were clustered between 8.0 and 
+8.6 ppm in all peptides (Fig. S1). These values for the methyl and amide 
+protons are typical of residues belonging to disordered chains [54].
+To further confirm the disordered nature of the C-RING1B and RYBP 
+peptides, we also carried out 2D-1H NMR experiments. The peptides 
+were found to be mainly disordered in solution, as suggested by two 
+pieces of evidence. First, the sequence-corrected conformational shifts 
+(Δδ) of Hα protons of all peptides for unambiguously assigned residues 
+were within the commonly accepted range for random-coil peptides 
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+4 
+
+(Δδ ≤0.1 ppm) (Tables ST1 to ST5). And second, no long- or mediumrange NOEs were detected, but only sequential ones (i.e., αN (i, i+1) 
+and βN (i, i+1)) in the polypeptide patches fully assigned (Fig. 2). It is 
+interesting to note that citrullination did not affect the chemical shifts of 
+backbone or side-chain protons (Tables ST1 to ST5).
+It is important to indicate that the region around Arg231 in CRING1B appears disordered in the X-ray structure of this domain (PDB 
+code: 3H8H [73]). Furthermore, the region around Arg53 and Arg56 in 
+RYBP in the cryo-electron microscopy structure of a complex with other 
+proteins show that both arginines also belong to a disordered 
+polypeptide patch (PDB code: 8PP6 [15]). Therefore, the conformation 
+of the isolated peptides obtained in our experiments was no more or­
+dered than the one they have in the intact polypeptide chains.
+Then, we can conclude that all isolated C-RING1B and RYBP peptides 
+in solution were monomeric and disordered.
+3.2. C-RING1B and RYBP peptides were capable of binding to PADI4
+We carried out fluorescence titrations to determine the affinity 
+constant of the peptides towards PADI4, fixing the concentration of the 
+Fig. 1. Conformational features of the isolated Polycomb peptides in solution as measured by 1D-1H-NMR: Methyl regions of the 1D-1H NMR spectra of the 
+isolated C-RING1B and RYBP peptides. The signal appearing at 0 ppm in some of the regions is that of TSP. Spectra were acquired at 10 ◦C and pH 7.2 (50 mM, 
+sodium phosphate buffer).
+Fig. 2. NOE diagrams of the isolated C-RING1B and RYBP peptides in aqueous solution from the 2D-1H NMR NOESY spectra: NOEs are classified as strong, 
+medium or weak, and represented by the height of the bar underneath the sequence; signal intensity was judged from the NOESY experiments. The dotted lines 
+indicate NOE contacts that could not be unambiguously assigned due to signal overlapping. A white square indicates an αδ(i,i+1) NOEs involving a proline residue.
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+5 
+
+enzyme, and raising that of the corresponding peptide. We also used ITC 
+to determine the affinity constant. And, finally, we used BLI to deter­
+mine the kinetic parameters of the binding reactions, and to estimate an 
+affinity constant to compare with those obtained by the other two 
+techniques, by assuming a two-state process for the binding of each 
+peptide to the enzyme. It is important to pinpoint that, in the context of 
+the fluorescence experiments, we are assuming that the unbound and the 
+free species were the only ones significantly populated (Eq. (1)). How­
+ever, in the context of the BLI experiments, if we assume that there are 
+more than those two species (that is, an intermediate state may exist 
+between the free and bound states) the equilibrium dissociation constant 
+cannot be obtained as Kd = koff/kon, but rather by using more complex 
+relationships [74].
+We first carried out fluorescence titrations with each of the peptides 
+and PADI4. We observed a decrease of the fluorescence intensity as the 
+concentration of the peptide was increased (by following the titration at 
+either 280 or 295 nm) at any of the explored emission wavelengths. In 
+this way, we were able to determine a Kd value for each peptide (Fig. 3
+and S2, and Table 2). In the case of C-RING1B peptides, as they only 
+contained a phenylalanine residue, the variation in the fluorescence 
+intensity indicated that some of the tryptophans (10) and/or tyrosines 
+(13) present in PADI4 were involved in the binding to the peptide. For 
+the RYBP peptides, since they only contained an additional tyrosine at 
+their corresponding C-terminal region, and variations in fluorescence 
+intensity were also observed during the titration, then, these results 
+suggested that some of the tryptophan residues of PADI4 were involved 
+in the binding to these peptides.
+The calorimetric titrations of the Polycomb peptides provided direct 
+evidence for their interaction with PADI4 (Table 3, Fig. 4). The binding 
+affinity of the unmodified C-RING1B and RYBP peptides was in the low 
+micromolar range, similar to other previously characterized noncitrullinated peptides [61,62,72]. The citrullination of particular argi­
+nines caused a decrease in the binding affinity; interestingly, the most 
+significant change was observed in the RYBP-R56 peptide. Additional 
+experiments performed by adding GSK484, an orthosteric inhibitor of 
+PADI4, indicated that occupation of the active site in PADI4 precluded 
+the interaction with the wild-type peptides (Fig. S3); therefore, the 
+Polycomb wild-type peptides must bind to the active site of PADI4. 
+Although this piece of evidence by itself cannot rule out the possibility of 
+GSK484 binding to PADI4 and inducing a conformational change that 
+hindered the interaction with the peptide in an allosteric fashion, the 
+fact that wild-type peptides could be citrullinated by PADI4 confirmed 
+the hypothesis that they bind to the active site (see below in this 
+section).
+Finally, we carried out BLI experiments to have another independent 
+estimate of the affinity of the binding of the peptides to PADI4 (Table 4, 
+Fig. 5 and S4). It is important to indicate that due to the immobilization 
+of PADI4 to the biosensor, some of the potential peptide-binding regions 
+in the enzyme molecules could get occluded, hampering the peptide 
+binding. Although we acknowledge such limitation that constitutes a 
+well-known drawback of this technique [63–66], in our case we wanted 
+to have an additional method to further confirm the binding of the 
+peptides to the enzyme together with fluorescence (which may not yield 
+reliable affinity constants when there is a lack of structural changes 
+around a tryptophan and/or tyrosine) or ITC (whose results may be 
+difficult to interpret when there is a lack of a significant heat 
+exchanged). In general terms, for both types of the Polycomb peptides, 
+the values of the koff rates were larger when citrulline was present, 
+compared to those for the wild-type species (Table 4). These findings 
+resulted in larger dissociation constants for the citrullinated species from 
+both Polycomb peptides than for the wild-type ones. Furthermore, in the 
+case of the RYBP peptide citrullinated at position 56, the value of kon was 
+much smaller (one order of magnitude) than for the peptide citrullinated 
+at position 53 (Table 4), even though the value of the koff was similar for 
+both modified peptides (~0.50 s−1). This suggests that, from a kinetic 
+point of view, the binding of a modified arginine at position 56 is dis­
+favored with respect to modification at position 53.
+Then, all in all, although the particular PADI4-peptide binding af­
+finities determined by the different techniques somewhat differ, they 
+showed a common trend: dissociation constants in the low micromolar 
+range for the unmodified peptides and larger dissociation constants for 
+the citrullinated species, in both Polycomb peptides, compared to the 
+wild-type ones.
+Since the affinity for PADI4 of both wild-type peptides were the 
+Fig. 3. Fluorescence titration curves of RYBP peptides to PADI4: Titration curves of the three RYBP peptides with the enzyme obtained by excitation at 280 nm, 
+observed at different wavelengths. All experiments were performed at 25 ◦C. Experiments were repeated three times with new samples.
+Table 2 
+Binding affinities of C-RING1B and RYBP peptides 
+to PADI4 as measured by intrinsic fluorescence.a.
+Peptide
+Kd (μM)c
+C-RING-wt
+13 ± 8
+C-RING-R231
+23 ± 18
+RYBP-wt
+23 ± 20
+RYBP-R53
+8 ± 5
+RYBP-R56
+14 ± 10
+a Determined at 25 ◦C.
+Table 3 
+Binding affinities of C-RING1B and RYBP peptides interacting with PADI4 as 
+determined by ITC.a.
+Polycomb peptides
+Ka (M−1)
+Kd (μM)
+n
+C-RING-wt
+4.5 ⋅ 105
+2.2
+0.9
+C-RING-R231
+1.1 ⋅ 105
+8.8
+1.0
+RYBP-wt
+3.4 ⋅ 105
+2.9
+0.9
+RYBP-R53
+7.9 ⋅ 104
+13
+1.0
+RYBP-R56
+2.6 ⋅ 104
+39
+1.0
+a Relative error in Ka and Kd is 30 %, obtained from two measurements. 
+Determined at 25 ◦C.
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+6 
+
+largest among all the peptides studied, either measured by ITC (Table 3) 
+or BLI (Table 4), and they do not contain any citrulline residue, we tested 
+whether such peptides were capable of being citrullinated by PADI4 by 
+using a colorimetric assay. We observed that C-RING-wt and RYBP-wt 
+were substrates of the protein, since they were citrullinated in the 
+presence of PADI4 (Fig. S5) in agreement with the ITC results in the 
+presence of GSK484 (Fig. S3) (i.e., the peptides undergo citrullination by 
+PADI4 and their binding is blocked by an orthosteric competitive in­
+hibitor). Therefore, we could conclude that this finding is a direct proof 
+that both wild-type peptides targeted the active site of the enzyme.
+3.3. All polycomb peptides targeted the catalytic active site of PADI4
+Whereas the colorimetric assays provided a proof of the binding to 
+the catalytic active site for the two wild-type Polycomb peptides (i.e., 
+RING1B-wt and RYBP-wt), for the citrulline-modified peptides we 
+lacked an analogous evidence. The presence of an allosteric rather than 
+orthosteric binding site might be suspected in this case, because disso­
+ciation of a citrullinated site occurs naturally after catalysis; therefore, 
+affinity towards the active site could be comparatively less favorable 
+than in the presence of a native arginine. With the aim of getting further 
+details on the binding propensity of our Polycomb peptides towards 
+PADI4, we performed molecular docking simulations by using the 
+diffusion-based algorithm DiffDock [71].
+Fig. 6 and S6 show the most favorable binding modes obtained by 
+Fig. 4. Binding of Polycomb peptides to PADI4 as monitored by ITC: Calorimetric titrations of PADI4 with the five C-RING1B and RYBP peptides. Upper panels 
+show the thermograms (thermal power as a function of time) and lower panels show the binding isotherms (ligand-normalized heat effects per injection as a function 
+of the molar ratio in the calorimetric cell). Continuous curves correspond to the non-linear least-squares fittings according to a single ligand binding site interaction 
+model. Experiments were carried out at 25 ◦C. Experiments were repeated twice.
+Table 4 
+Kinetic parameters of the binding of the Polycomb peptides to PADI4 as deter­
+mined by BLI.
+Polycomb peptides
+kon (μM−1 s−1)a
+koff (s−1)
+Kd (μМ) (= koff/kon)b
+C-RING-wt
+0.0020 ± 0.0002
+0.053 ± 0.013
+26 ± 10
+C-RING-R231
+0.0012 ± 0.0002
+0.14 ± 0.01
+114 ± 40
+RYBP-wt
+0.021 ± 0.005
+0.11 ± 0.21
+5.5 ± 5.0
+RYBP-R53
+0.021 ± 0.004
+0.49 ± 0.14
+23 ± 10
+RYBP-R56
+0.008 ± 0.003
+0.53 ± 0.12
+66 ± 35
+a Obtained from pseudo-first order plots. Error for kon is the fitting error to Eq. 
+(3). Determined at 25 ◦C.
+b Errors are obtained from propagation errors for kon and koff. The estimation 
+of the Kd is carried out assuming that the binding process was two-state [74].
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+7 
+
+blind docking of our peptides on a single monomer of PADI4. While 
+docking poses with a lower rank could be found occasionally on other 
+spurious locations (not shown), the best docking poses for all wild-type 
+and citrulline-modified peptides derived from C-RING1B and RYBP 
+targeted the active site of PADI4. In particular, the key residue Cys645, 
+that performs the catalytic reaction from arginine to citrulline, was in 
+contact with all the binding modes for all the peptides. The binding 
+region of PADI4 included a few nearby tryptophans (e.g., Trp347, 
+located within 1 nm from Cys645), which could contribute to the vari­
+ations in the fluorescence signal observed upon binding (Fig. 3).
+Table 5 reports the confidence scores of DiffDock (i.e., the dimen­
+sionless values with arbitrary units used by the algorithm to score the 
+docking poses) found for each peptide. These values were approximately 
+in the range from −3.0 to −3.5, which is markedly less favorable than 
+the confidence score (c ≈−1.5) we have formerly reported for lipids 
+binding to PADI4 [75], or that could be expected in general for the as­
+sociation of drug-like compounds to proteins [71]. Nevertheless, similar 
+or even less favorable results were previously obtained for other pep­
+tides experimentally proved to bind to PADI4, including both wild-type 
+and citrullinated species. In fact, confidence scores of −3.7 ± 0.3 were 
+found for 23-residue peptides mimicking the nuclear localization signal 
+of Inhibitor of Growth 4 [62], and values in between 3.5 and 4.0 for 
+shorter citrullination-prone peptides (15 or 16 residues long) derived 
+from the ubiquitin ligase MDM2 [61].
+To decrease computational costs, additional simulations were per­
+formed by using shortened peptides missing three residues at each end, 
+and employing as docking host the C-terminal PADI4 domain (residue 
+295−663) where docking poses accumulated. The confidence scores 
+were in this case more favorable (Table ST6), about −2.6. ± 0.2, and 
+again with no clear difference between wild-type and citrullinated 
+peptides. The catalytic protein residue Cys645 was the target of all the 
+peptides, including in some cases direct contact with the arginine side 
+chain. (Fig. S7). In particular, for RYBP peptides, contacts with at least 
+one arginine (for RYBP-wt) or a competition between the arginine and 
+citrulline (for RYBP-R53 and RYBP-R56 peptides) was observed.
+4. Discussion
+We have previously shown that the C-RING1B and RYBP intact 
+polypeptides were capable of binding to PADI4, with affinity constants 
+in the order of 10 μM (from the fluorescence measurements) and 1.5 μM 
+(from the point of view of ITC) [36,37]. In this work, we showed that the 
+isolated regions of each of those proteins, which are citrullinated by 
+PADI4, were also capable of binding to PADI4 with affinity constants 
+similar to those of the corresponding parental proteins, as obtained by 
+fluorescence (Table 2) and ITC (Table 3). Furthermore, as it happens 
+with the intact polypeptides, our colorimetric assays provided a direct 
+proof that the wild-type peptides were substrates of the enzymes 
+(Fig. S5); it is interesting to note that ITC experiments in the presence of 
+GSK484 (an inhibitor of PADI4) also suggested that the peptides aimed 
+to the active site. These results suggest that the isolated peptides could 
+be used as competitors of the interactions of the corresponding parental 
+proteins with PADI4. Furthermore, keeping in mind that the isolated 
+peptides could have different behavior to that of the corresponding 
+polypeptide region within the intact proteins, they might be used as the 
+starting point to obtain candidate binders that could work as inhibitors 
+of PADI4, and perhaps also other members of the family of PADI pro­
+teins. In the case of the Polycomb peptides, based on the enzymatic 
+results (Fig. S5), we showed that the selected polypeptides were sub­
+strates of PADI4.
+Although from the point of view of fluorescence the apparent affinity 
+constant measured are not very different from each other (Table 2), the 
+affinity constants measured by ITC (Table 3) and those estimated from 
+BLI (Table 4) indicate that the affinities of the citrullinated peptide were 
+smaller than those of the corresponding counterparts (i.e., larger Kd 
+values). These findings about how citrullination affects binding to 
+PADI4 agree with those previously found for other citrullinated peptides 
+with no relationship to RYBP or RING1B [61,62,72], and suggest that 
+once the substrate protein is citrullinated, PADI4 tends to dissociate 
+from the post-translationally modified protein, which is a phenomenon 
+observed in other enzymes for their substrate and the products of the 
+reaction [74]. Furthermore, this dissociation of the modified protein 
+occurs much faster than for the wild-type peptides (Table 4), which 
+agrees, in broader terms, with the kinetic parameters of the dissociation 
+reaction also measured for other citrullinated peptides [61,62,72].
+It is interesting to note that, in a previous work of ours, the Arg53 of 
+RYBP was predicted to be the residue prone to citrullinate [36]; how­
+ever, the close proximity of both Arg53 and Arg56 in our structural 
+model of the corresponding RYBP region bound to the catalytic residue 
+Cys645 of PADI4 prompted us to study the two citrullinated peptides. In 
+Fig. 5. Binding of the C-RING1B peptides to PADI4 as monitored by BLI: 
+Pseudo-first-order plots of the binding of C-RING-wt and C-RING-R231 peptides 
+to PADI4. The error bars of the fittings to Eq. (2) at each peptide concentration 
+are indicated. Experiments were carried out at 25 ◦C. Experiments were 
+repeated twice.
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+8 
+
+fact, both arginines interact with the nucleosome acidic patch during the 
+read-write mechanisms of the RYBP-PRC1 complexes [14,15], forming 
+an R-ring-acidic patch interface. Our current results showed that the 
+affinity for PADI4 was smaller for the peptide with citrullination 
+occurring at Arg56 than that for the peptide modified at Arg53, either as 
+measured by ITC (Table 3) or BLI (Table 4). The latter also suggested 
+that the velocity of separation from PADI4 was much larger for the 
+modification occurring at Arg56. Thus, citrullination at Arg56 appeared 
+to be less favored from both a thermodynamic and kinetic point of view.
+We also investigated whether the citrullinated peptides, despite their 
+smaller affinity for PADI4, could be also capable of binding to PADI4 and 
+aiming at its active site, similarly to the wild-type polypeptides. Our 
+molecular docking results, obtained by using a blind simulation proto­
+col, showed that the target hot-spot of all the peptides was the catalytic 
+site of PADI4 rather than an allosteric site. Although the confidence 
+scores of the docking poses were moderate, the values found were more 
+favorable than those we had recently reported for other wild-type and 
+citrullinated peptides of comparable size, all of them docking to PADI4 
+[61,62,72]. The confidence scores obtained for the two C-RING1B and 
+RYBP wild-type peptides were similar to those obtained for the cit­
+rullinated ones (Tables 5 and ST5). This indicates that the simulation 
+does not have a sufficient sensitivity to detect any variations due to the 
+small difference in the peptides (citrulline and arginine differ by a single 
+atom), similarly to fluorescence (Table 2), and at variance with both ITC 
+(Table 3) and BLI (Table 4).
+Consistently with the stochasticity of the diffusion-based docking 
+algorithm used and the variability observed in the results of different 
+simulation runs, we interpret the docking poses obtained as late-stage 
+intermediates along the PADI4/peptide binding process rather than 
+‘ideal’ binding configurations (i.e., they were not equivalent to struc­
+tures that might be obtained by crystallography or cryo-electron mi­
+croscopy). Furthermore, as previously hypothesized [61,62], such 
+variability may suggest an induced-fit association mechanism for the 
+corresponding Polycomb protein regions, which would limit the 
+conformational landscape in the process of recognition and binding to 
+PADI4.
+We pinpoint that in our previous works, we have shown that the 
+interaction between RING1B and PADI4 [37], and between RYBP and 
+PADI4 [36], was occurring in different cancer cell lines. We do not know 
+yet whether such interactions, and citrullination of the corresponding 
+arginines (Arg231 for C-RING1B, and Arg53 or Arg56 for RYBP), are 
+important for cancer development, but the fact that the corresponding 
+wild-type peptides bind to the active site of the enzyme suggest that 
+these peptides, once they are properly delivered into the cancer lines, 
+could be used as potential inhibitors of such interactions.
+5. Conclusions
+To sum up, we have shown that isolated peptides encompassing the 
+binding site of two proteins belonging to the Polycomb system, RING1B 
+and RYBP, were also substrates of the enzyme PADI4. Our study may 
+constitute one more step towards the understanding of complex epige­
+netic mechanisms, because the Polycomb system intervenes in crucial 
+pathways that include development during embryogenesis, preservation 
+of cell plasticity for specialization, and safeguarding of cell identity 
+during growth. All these mechanisms are crucial in preventing misregulation or mutations that might lead to cancer. The effect of cit­
+rullination in this context is still poorly understood, and studies on this 
+irreversible PTM seem to be still too sparse to get a general picture. In 
+this context, our study constitutes one more indication of involvement of 
+PADI4 (and possibly other PADI isoenzymes) on physiopathological 
+process involving Polycomb proteins. Although it might be too early to 
+draw conclusions on all the possible implications, we hope that this 
+could have an impact to reveal future opportunities in cancer therapies.
+Fig. 6. Docking poses of C-RING1B and RYBP peptides on PADI4 obtained by using the algorithm DiffDock: (A) Best docking poses for wild-type peptides, CRING-wt (green) and RYBP-wt (pink). PADI4 monomer in ribbon representation, with the C-terminal domain (residues 295−663) and active site (around residue 
+Cys645) explicitly labeled. The best five docking poses (red, orange, yellow, cyan, and blue) of citrullinated peptides are shown for (B) C-RING-R231, (C) RYBP-R53, 
+and (D) RYBP-R56.
+Table 5 
+Confidence score for the five most favorable docking poses 
+of C-RING1B and RYBP peptides to PADI4 as obtained with 
+the DiffDock algorithm.
+Peptide
+Confidence score
+C-RING-wt
+−3.13 ± 0.26
+C-RING-R231
+−3.31 ± 0.12
+RYBP-wt
+−3.19 ± 0.15
+RYBP-R53
+−3.29 ± 0.24
+RYBP-R56
+−3.35 ± 0.25
+M.G. ́Alvarez-Rodríguez et al. 
+Archives of Biochemistry and Biophysics 785 (2026) 110955 
+9 
+
+Supporting information available
+Seven figures showing: the amide region of the 1D-1H NMR spectra 
+of the Polycomb peptides (Fig. S1); fluorescence titrations for some of 
+the Polycomb peptides (Fig. S2); the ITC thermograms of the binding of 
+C-RING-wt and RYBP-wt peptides to PADI4 in the presence of the 
+competing inhibitor GSK484 (Fig. S3); the pseudo-first order plots for 
+the binding of RYBP peptides (Fig. S4); the results of the COLDER assays 
+with C-RING-wt and RYBP-wt peptides (Fig. S5); the most favorable 
+docking poses of C-RING-wt and RYBP-wt peptides on PADI4 obtained 
+by using the algorithm DiffDock (Fig. S6); and interactions between 
+selected residues of PADI4 and arginine/citrulline residues of the pep­
+tides in simulated docking poses (Fig. S7). Six tables containing the 1H 
+NMR assignments of the Polycomb peptides (Tables ST1 to ST5) and a 
+Table (ST6) containing the confidence scores for the five most favorable 
+docking poses of shortened C-RING1B and RYBP peptides to the C-ter­
+minal domain of PADI4 as obtained with the DiffDock algorithm.
+CRediT authorship contribution statement
+María Gabriela ́Alvarez-Rodríguez: Formal analysis, Investigation, 
+Methodology, Writing – review & editing. Emanuel Capone: Formal 
+analysis, Investigation, Writing – review & editing. Sonia Vega: Formal 
+analysis, Investigation, Writing – review & editing. Virginia Rejas: 
+Investigation, Methodology. Bruno Rizzuti: Conceptualization, Formal 
+analysis, Funding acquisition, Investigation, Methodology, Project 
+administration, Supervision, Writing – original draft, Writing – review & 
+editing. Adrian Velazquez-Campoy: Conceptualization, Formal anal­
+ysis, Funding acquisition, Investigation, Methodology, Project admin­
+istration, Supervision, Writing – original draft, Writing – review & 
+editing. Jos ́e L. Neira: Conceptualization, Formal analysis, Funding 
+acquisition, Investigation, Methodology, Project administration, Super­
+vision, Writing – original draft, Writing – review & editing.
+Conflict of interest
+The authors declare no conflict of interest.
+Acknowledgements
+This research was funded by Ministerio de Ciencia, Innovaci ́on y 
+Universidades MCIN/AEI/10.13039/501100011033/and “ERDF A way 
+of Making Europe” [PID2021-127296OB-I00 and PID2024-160408OBI00 to AVC]; Consellería de Educaci ́on, Cultura, Universidades y Empleo 
+(Generalitat Valenciana) [CIACO/2024/17 to JLN and AVC]. This 
+research was also funded by Next Generation EU program, Italian PNNR, 
+Mission 4, Component 2, Investment 1.5, “Innovation Ecosystems” 
+project Tech4You, “Technologies for Climate Change Adaptation and 
+Quality of Life Improvement” [CUP B83C22003980006 to BR]; and by 
+HORIZON European Union [EXPLORA GA n◦101181841 to JLN]. 
+MGAR was supported by EXPLORA GA n◦101181841.
+The funders had no role in the study design, data collection and 
+analysis, decision to publish, or preparation of the manuscript.
+We thank the two anonymous reviewers for helpful suggestions. We 
+thank Prof. Pablo Sobrado for handling the manuscript.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.abb.2026.110955.
+Data availability
+Data will be made available on request.

@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 11951,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 9524,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 10327,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 11182,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 4,
+    "chunk_length": 11958,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 5,
+    "chunk_length": 7398,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 6,
+    "chunk_length": 11391,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 7,
+    "chunk_length": 10994,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 8,
+    "chunk_length": 6282,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  }
+]

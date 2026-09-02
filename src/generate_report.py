@@ -2,15 +2,18 @@ import json
 import re
 from pathlib import Path
 
+
 def extract_doi_from_text(text: str) -> str:
-    """Extracts a DOI pattern from string or filename."""
+    """Extracts DOI pattern from text or filename."""
     match = re.search(r'10\.\d{4,9}/[-._;()/:A-Za-z0-9]+', text)
     return match.group(0) if match else ""
+
 
 def generate_html_report(
     input_file: str = "data/processed/final_results.jsonl",
     output_html: str = "data/processed/lcr_biocuration_report.html"
 ):
+    """Generates an interactive HTML biocuration dashboard with UniProt and DOI links."""
     input_path = Path(input_file)
     if not input_path.exists():
         print(f"Error: Input file {input_file} does not exist.")
@@ -25,17 +28,18 @@ def generate_html_report(
     for entry in lines:
         fname = entry.get("file", "Unspecified")
         entry_doi = entry.get("doi", extract_doi_from_text(fname))
-        
+
         for ann in entry.get("annotations", []):
             p_name = ann.get("protein_name", "").strip()
             start = str(ann.get("start_of_annotation", "")).strip()
             end = str(ann.get("end_of_annotation", "")).strip()
             ann_doi = ann.get("doi", entry_doi)
-            
+
             item = {
                 "file": fname,
                 "protein": p_name,
                 "organism": ann.get("organism", "Unspecified"),
+                "binding_target": ann.get("binding_target", "Unspecified"),
                 "evidence": ann.get("evidence", ""),
                 "note": ann.get("curator_note", ""),
                 "doi": ann_doi
@@ -54,7 +58,7 @@ def generate_html_report(
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LCR / LCD Biocuration Report</title>
+    <title>LCR / LCD Binding Biocuration Report</title>
     <style>
         :root {{
             --primary: #1e293b;
@@ -66,7 +70,7 @@ def generate_html_report(
             --border-color: #e2e8f0;
         }}
         body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg-main); color: var(--text-main); margin: 0; padding: 32px 24px; }}
-        .container {{ max-width: 1280px; margin: 0 auto; }}
+        .container {{ max-width: 1380px; margin: 0 auto; }}
         header {{ margin-bottom: 24px; border-bottom: 2px solid var(--border-color); padding-bottom: 16px; }}
         h1 {{ font-size: 26px; color: var(--primary); margin: 0 0 8px 0; }}
         .subtitle {{ color: #64748b; font-size: 14px; margin: 0; }}
@@ -80,6 +84,7 @@ def generate_html_report(
         .badge {{ font-size: 12px; padding: 2px 8px; border-radius: 12px; font-weight: 600; }}
         .badge-blue {{ background: #dbeafe; color: #1e40af; }}
         .badge-amber {{ background: #fef3c7; color: #92400e; }}
+        .badge-target {{ background: #f3e8ff; color: #6b21a8; font-weight: 700; padding: 3px 8px; border-radius: 6px; font-size: 12px; display: inline-block; }}
         table {{ width: 100%; border-collapse: collapse; background: var(--card-bg); border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 32px; font-size: 14px; }}
         th, td {{ padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border-color); vertical-align: top; }}
         th {{ background-color: #f1f5f9; color: var(--primary); font-weight: 600; font-size: 13px; }}
@@ -97,8 +102,8 @@ def generate_html_report(
 <body>
     <div class="container">
         <header>
-            <h1>🔬 LCR / LCD Biocuration Report</h1>
-            <p class="subtitle">Automated extraction of Low-Complexity Regions from scientific literature</p>
+            <h1>LCR / LCD Binding Biocuration Report</h1>
+            <p class="subtitle">Automated extraction of Low-Complexity Regions engaging in molecular binding interactions</p>
         </header>
 
         <div class="stats-grid">
@@ -117,27 +122,28 @@ def generate_html_report(
         </div>
 
         <div class="section-title">
-            <span>✅ Verified LCR Regions (Numerical Coordinates)</span>
+            <span>Verified Binding LCR Regions (Numerical Coordinates)</span>
             <span class="badge badge-blue">{len(verified)}</span>
         </div>
         <table>
             <thead>
                 <tr>
-                    <th style="width: 18%;">Protein / Source File</th>
+                    <th style="width: 16%;">Protein / Source File</th>
                     <th style="width: 10%;">Organism</th>
                     <th style="width: 10%;">Residues</th>
-                    <th style="width: 24%;">Proposed Function</th>
-                    <th style="width: 26%;">Verbatim Evidence</th>
-                    <th style="width: 12%;">External Links</th>
+                    <th style="width: 12%;">Binding Target</th>
+                    <th style="width: 22%;">Proposed Function</th>
+                    <th style="width: 20%;">Verbatim Evidence</th>
+                    <th style="width: 10%;">Links</th>
                 </tr>
             </thead>
             <tbody>
 """
 
     for v in verified:
-        doi_html = f'<a href="https://doi.org/{v["doi"]}" target="_blank" class="btn-link btn-doi">DOI ↗</a>' if v["doi"] else ''
+        doi_html = f'<a href="https://doi.org/{v["doi"]}" target="_blank" class="btn-link btn-doi">DOI</a>' if v["doi"] else ''
         uniprot_url = f"https://www.uniprot.org/uniprotkb?query={v['protein']}+{v['organism']}"
-        
+
         html_content += f"""
                 <tr>
                     <td>
@@ -146,10 +152,11 @@ def generate_html_report(
                     </td>
                     <td>{v['organism']}</td>
                     <td><strong>{v['start']} - {v['end']}</strong></td>
+                    <td><span class="badge-target">{v['binding_target']}</span></td>
                     <td>{v['function']}</td>
                     <td><blockquote class="evidence-quote">"{v['evidence']}"</blockquote></td>
                     <td class="actions-cell">
-                        <a href="{uniprot_url}" target="_blank" class="btn-link">UniProt ↗</a>
+                        <a href="{uniprot_url}" target="_blank" class="btn-link">UniProt</a>
                         {doi_html}
                     </td>
                 </tr>
@@ -160,26 +167,27 @@ def generate_html_report(
         </table>
 
         <div class="section-title">
-            <span>⚠️ Qualitative Mentions (Require UniProt Mapping)</span>
+            <span>Qualitative Binding Mentions (Require UniProt Mapping)</span>
             <span class="badge badge-amber">{len(qualitative)}</span>
         </div>
         <table>
             <thead>
                 <tr>
-                    <th style="width: 18%;">Protein / Source File</th>
+                    <th style="width: 16%;">Protein / Source File</th>
                     <th style="width: 10%;">Organism</th>
-                    <th style="width: 34%;">Verbatim Evidence</th>
-                    <th style="width: 26%;">Curator Note</th>
-                    <th style="width: 12%;">External Links</th>
+                    <th style="width: 12%;">Binding Target</th>
+                    <th style="width: 30%;">Verbatim Evidence</th>
+                    <th style="width: 22%;">Curator Note</th>
+                    <th style="width: 10%;">Links</th>
                 </tr>
             </thead>
             <tbody>
 """
 
     for q in qualitative:
-        doi_html = f'<a href="https://doi.org/{q["doi"]}" target="_blank" class="btn-link btn-doi">DOI ↗</a>' if q["doi"] else ''
+        doi_html = f'<a href="https://doi.org/{q["doi"]}" target="_blank" class="btn-link btn-doi">DOI</a>' if q["doi"] else ''
         uniprot_url = f"https://www.uniprot.org/uniprotkb?query={q['protein']}+{q['organism']}"
-        
+
         html_content += f"""
                 <tr>
                     <td>
@@ -187,10 +195,11 @@ def generate_html_report(
                         <div class="file-tag">{q['file']}</div>
                     </td>
                     <td>{q['organism']}</td>
+                    <td><span class="badge-target">{q['binding_target']}</span></td>
                     <td><blockquote class="evidence-quote">"{q['evidence']}"</blockquote></td>
                     <td>{q['note']}</td>
                     <td class="actions-cell">
-                        <a href="{uniprot_url}" target="_blank" class="btn-link">UniProt ↗</a>
+                        <a href="{uniprot_url}" target="_blank" class="btn-link">UniProt</a>
                         {doi_html}
                     </td>
                 </tr>
@@ -207,7 +216,8 @@ def generate_html_report(
     output_path = Path(output_html)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(html_content, encoding="utf-8")
-    print(f"✅ HTML Report with DOIs generated at: {output_html}")
+    print(f"HTML Report generated at: {output_html}")
+
 
 if __name__ == "__main__":
     generate_html_report()

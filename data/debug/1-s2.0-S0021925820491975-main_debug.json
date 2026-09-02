@@ -1,53 +1,72 @@
 [
   {
     "chunk_index": 0,
-    "chunk_length": 18364,
-    "raw_extracted_count": 2,
-    "valid_count": 2,
+    "chunk_length": 11906,
+    "raw_extracted_count": 1,
+    "valid_count": 0,
     "raw_annotations": [
       {
         "protein_name": "Zelda (ZLD)",
         "organism": "Drosophila melanogaster",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
-        "proposed_function": "Transcriptional activation of the zygotic genome",
-        "evidence": "We map the transcriptional activation domain of ZLD to a central region characterized by low complexity.",
-        "curator_note": "Qualitative mention of Zelda LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
+        "binding_target": "Protein",
+        "proposed_function": "Transcriptional activation via interaction of the low‑complexity activation domain with a protein cofactor",
+        "evidence": "Nonetheless, insect orthologs of ZLD activated transcription in Drosophila cells, suggesting that ZLD regulates transcription through conserved interactions with a protein cofactor(s).",
+        "curator_note": "Qualitative mention only; no exact residue positions provided."
+      }
+    ],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 8458,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 10847,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 8713,
+    "raw_extracted_count": 1,
+    "valid_count": 1,
+    "raw_annotations": [
       {
         "protein_name": "Zelda (ZLD)",
         "organism": "Drosophila melanogaster",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
+        "start_of_annotation": "904",
+        "end_of_annotation": "1297",
+        "binding_target": "Unspecified",
         "proposed_function": "Transcriptional activation",
-        "evidence": "We mapped the activation domain of ZLD to an internal region of 400 amino acids containing a number of low-complexity domains that are poorly conserved in other insects.",
-        "curator_note": "Qualitative mention of Zelda LC domain (internal region of 400 aa) - suggest looking up canonical sequence boundaries in UniProt"
+        "evidence": "We mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain.",
+        "curator_note": "Exact positions given (904–1297)"
       }
     ],
     "valid_annotations": [
       {
         "protein_name": "Zelda (ZLD)",
         "organism": "Drosophila melanogaster",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Transcriptional activation of the zygotic genome",
-        "evidence": "We map the transcriptional activation domain of ZLD to a central region characterized by low complexity.",
-        "curator_note": "Qualitative mention of Zelda LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "Zelda (ZLD)",
-        "organism": "Drosophila melanogaster",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
+        "start_of_annotation": "904",
+        "end_of_annotation": "1297",
+        "binding_target": "Unspecified",
         "proposed_function": "Transcriptional activation",
-        "evidence": "We mapped the activation domain of ZLD to an internal region of 400 amino acids containing a number of low-complexity domains that are poorly conserved in other insects.",
-        "curator_note": "Qualitative mention of Zelda LC domain (internal region of 400 aa) - suggest looking up canonical sequence boundaries in UniProt"
+        "evidence": "We mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain.",
+        "curator_note": "Exact positions given (904–1297)"
       }
     ]
   },
   {
-    "chunk_index": 1,
-    "chunk_length": 18560,
+    "chunk_index": 4,
+    "chunk_length": 11158,
     "raw_extracted_count": 1,
     "valid_count": 1,
     "raw_annotations": [
@@ -56,9 +75,10 @@
         "organism": "Drosophila melanogaster",
         "start_of_annotation": "904",
         "end_of_annotation": "1297",
-        "proposed_function": "Transcriptional activation domain",
-        "evidence": "Additionally, we mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain.",
-        "curator_note": "Exact positions (904-1297) identified in text as the minimal activation domain, which is described as a low-complexity protein domain."
+        "binding_target": "Protein",
+        "proposed_function": "Mediates transcriptional activation by interacting with a conserved protein cofactor",
+        "evidence": "Low-complexity Domains Mediate Transcriptional Activation by ZLD—The activation domain we defined does not contain any identifiable domains and is comprised of a low-complexity sequence. ZLD interacts with a conserved protein cofactor(s) to drive transcription in the early embryo.",
+        "curator_note": "Exact positions given (904-1297) for activation domain; low-complexity region inferred; suggest checking UniProt canonical entry for precise LCR boundaries."
       }
     ],
     "valid_annotations": [
@@ -67,73 +87,40 @@
         "organism": "Drosophila melanogaster",
         "start_of_annotation": "904",
         "end_of_annotation": "1297",
-        "proposed_function": "Transcriptional activation domain",
-        "evidence": "Additionally, we mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain.",
-        "curator_note": "Exact positions (904-1297) identified in text as the minimal activation domain, which is described as a low-complexity protein domain."
+        "binding_target": "Protein",
+        "proposed_function": "Mediates transcriptional activation by interacting with a conserved protein cofactor",
+        "evidence": "Low-complexity Domains Mediate Transcriptional Activation by ZLD—The activation domain we defined does not contain any identifiable domains and is comprised of a low-complexity sequence. ZLD interacts with a conserved protein cofactor(s) to drive transcription in the early embryo.",
+        "curator_note": "Exact positions given (904-1297) for activation domain; low-complexity region inferred; suggest checking UniProt canonical entry for precise LCR boundaries."
       }
     ]
   },
   {
-    "chunk_index": 2,
-    "chunk_length": 14499,
-    "raw_extracted_count": 3,
-    "valid_count": 3,
+    "chunk_index": 5,
+    "chunk_length": 4341,
+    "raw_extracted_count": 1,
+    "valid_count": 1,
     "raw_annotations": [
       {
         "protein_name": "ZLD",
-        "organism": "D. melanogaster",
+        "organism": "Drosophila melanogaster",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
-        "proposed_function": "Transcriptional activation domain; interacts with a protein cofactor(s) to drive transcription; potentially forms amyloid-like fibers.",
-        "evidence": "Additionally, we mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain.",
-        "curator_note": "Qualitative mention of ZLD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "ZLD",
-        "organism": "D. melanogaster",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Mediates transcriptional activation by interacting with a protein cofactor(s).",
-        "evidence": "The activation domain we defined does not contain any identifiable domains and is comprised of a low-complexity sequence.",
-        "curator_note": "Qualitative mention of ZLD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "ZLD orthologs",
-        "organism": "D. virilis, A. gambiae, N. vitripennis",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Transcriptional activation; shared feature providing capacity to activate transcription.",
-        "evidence": "Because ZLD orthologs contain low-complexity regions and similarly activate transcription, it is likely that this shared feature provides the capacity to activate transcription.",
-        "curator_note": "Qualitative mention of ZLD ortholog LC domains - suggest looking up canonical sequence boundaries in UniProt"
+        "binding_target": "Protein",
+        "proposed_function": "Transcriptional activation via interaction with protein cofactor(s) through low‑complexity domains",
+        "evidence": "our data showing that ZLD-PD can dominantly suppress activation mediated by ZLD-PA cumulatively suggest that ZLD is activating transcription by interacting with a protein cofactor(s) through these low-complexity domains.",
+        "curator_note": "Exact positions not provided; suggest consulting UniProt for ZLD (Zelda) canonical sequence to locate low-complexity domain."
       }
     ],
     "valid_annotations": [
       {
         "protein_name": "ZLD",
-        "organism": "D. melanogaster",
+        "organism": "Drosophila melanogaster",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
-        "proposed_function": "Transcriptional activation domain; interacts with a protein cofactor(s) to drive transcription; potentially forms amyloid-like fibers.",
-        "evidence": "Additionally, we mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain.",
-        "curator_note": "Qualitative mention of ZLD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "ZLD",
-        "organism": "D. melanogaster",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Mediates transcriptional activation by interacting with a protein cofactor(s).",
-        "evidence": "The activation domain we defined does not contain any identifiable domains and is comprised of a low-complexity sequence.",
-        "curator_note": "Qualitative mention of ZLD LC domain - suggest looking up canonical sequence boundaries in UniProt"
-      },
-      {
-        "protein_name": "ZLD orthologs",
-        "organism": "D. virilis, A. gambiae, N. vitripennis",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "proposed_function": "Transcriptional activation; shared feature providing capacity to activate transcription.",
-        "evidence": "Because ZLD orthologs contain low-complexity regions and similarly activate transcription, it is likely that this shared feature provides the capacity to activate transcription.",
-        "curator_note": "Qualitative mention of ZLD ortholog LC domains - suggest looking up canonical sequence boundaries in UniProt"
+        "binding_target": "Protein",
+        "proposed_function": "Transcriptional activation via interaction with protein cofactor(s) through low‑complexity domains",
+        "evidence": "our data showing that ZLD-PD can dominantly suppress activation mediated by ZLD-PA cumulatively suggest that ZLD is activating transcription by interacting with a protein cofactor(s) through these low-complexity domains.",
+        "curator_note": "Exact positions not provided; suggest consulting UniProt for ZLD (Zelda) canonical sequence to locate low-complexity domain."
       }
     ]
   }

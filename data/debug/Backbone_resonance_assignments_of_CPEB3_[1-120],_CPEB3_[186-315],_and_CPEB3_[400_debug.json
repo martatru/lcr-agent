@@ -1,120 +1,18 @@
 [
   {
     "chunk_index": 0,
-    "chunk_length": 12198,
-    "raw_extracted_count": 6,
-    "valid_count": 6,
-    "raw_annotations": [
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "1",
-        "end_of_annotation": "459",
-        "proposed_function": "Intrinsically disordered region (IDR) enriched in low-complexity sequence; key determinant of phase separation and aggregation; regulates translation of specific mRNAs (e.g., AMPA receptor subunits) via liquid-liquid phase separation and fibrillar structure formation.",
-        "evidence": "CPEB3 consists of 716 amino acids and contains a long N-terminal intrinsically disordered region (IDR; residues 1–459), followed by a structured C-terminal RNA-binding domain comprising two RNA recognition motifs and a zinc-finger domain (Huang et al. 2006). The IDR lacks stable tertiary structure and is enriched in low-complexity sequence, features that are recognized as key determinants of phase separation and aggregation in many RNA-binding proteins (Banani et al. 2017).",
-        "curator_note": "Exact positions given for the full N-terminal IDR (1-459)."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "1",
-        "end_of_annotation": "169",
-        "proposed_function": "Prion-like region critical for self-assembly and aggregation.",
-        "evidence": "Within the IDR, two prionlike regions spanning residues 1–169 and 284–449 are critical for self-assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties (Stephan et al. 2015).",
-        "curator_note": "Exact positions given for the first prion-like region."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "284",
-        "end_of_annotation": "449",
-        "proposed_function": "Prion-like region critical for self-assembly and aggregation.",
-        "evidence": "Within the IDR, two prionlike regions spanning residues 1–169 and 284–449 are critical for self-assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties (Stephan et al. 2015).",
-        "curator_note": "Exact positions given for the second prion-like region."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "1",
-        "end_of_annotation": "120",
-        "proposed_function": "N-terminal segment of the IDR; predominantly disordered with partial transient alpha-helix formation (Asp3-Met7); involved in self-aggregation mechanism.",
-        "evidence": "In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix.",
-        "curator_note": "Exact positions given for the N-terminal segment analyzed."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "186",
-        "end_of_annotation": "315",
-        "proposed_function": "Central segment of the IDR; forms partial transient alpha-helix (Ala226-Ala239); involved in self-aggregation mechanism.",
-        "evidence": "In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix.",
-        "curator_note": "Exact positions given for the central segment analyzed."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "400",
-        "end_of_annotation": "459",
-        "proposed_function": "C-terminal segment of the IDR; predominantly disordered; involved in self-aggregation mechanism.",
-        "evidence": "In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix.",
-        "curator_note": "Exact positions given for the C-terminal segment analyzed."
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "1",
-        "end_of_annotation": "459",
-        "proposed_function": "Intrinsically disordered region (IDR) enriched in low-complexity sequence; key determinant of phase separation and aggregation; regulates translation of specific mRNAs (e.g., AMPA receptor subunits) via liquid-liquid phase separation and fibrillar structure formation.",
-        "evidence": "CPEB3 consists of 716 amino acids and contains a long N-terminal intrinsically disordered region (IDR; residues 1–459), followed by a structured C-terminal RNA-binding domain comprising two RNA recognition motifs and a zinc-finger domain (Huang et al. 2006). The IDR lacks stable tertiary structure and is enriched in low-complexity sequence, features that are recognized as key determinants of phase separation and aggregation in many RNA-binding proteins (Banani et al. 2017).",
-        "curator_note": "Exact positions given for the full N-terminal IDR (1-459)."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "1",
-        "end_of_annotation": "169",
-        "proposed_function": "Prion-like region critical for self-assembly and aggregation.",
-        "evidence": "Within the IDR, two prionlike regions spanning residues 1–169 and 284–449 are critical for self-assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties (Stephan et al. 2015).",
-        "curator_note": "Exact positions given for the first prion-like region."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "284",
-        "end_of_annotation": "449",
-        "proposed_function": "Prion-like region critical for self-assembly and aggregation.",
-        "evidence": "Within the IDR, two prionlike regions spanning residues 1–169 and 284–449 are critical for self-assembly and aggregation, indicating that multiple segments of the IDR contribute to its assembly properties (Stephan et al. 2015).",
-        "curator_note": "Exact positions given for the second prion-like region."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "1",
-        "end_of_annotation": "120",
-        "proposed_function": "N-terminal segment of the IDR; predominantly disordered with partial transient alpha-helix formation (Asp3-Met7); involved in self-aggregation mechanism.",
-        "evidence": "In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix.",
-        "curator_note": "Exact positions given for the N-terminal segment analyzed."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "186",
-        "end_of_annotation": "315",
-        "proposed_function": "Central segment of the IDR; forms partial transient alpha-helix (Ala226-Ala239); involved in self-aggregation mechanism.",
-        "evidence": "In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix.",
-        "curator_note": "Exact positions given for the central segment analyzed."
-      },
-      {
-        "protein_name": "CPEB3",
-        "organism": "Mouse",
-        "start_of_annotation": "400",
-        "end_of_annotation": "459",
-        "proposed_function": "C-terminal segment of the IDR; predominantly disordered; involved in self-aggregation mechanism.",
-        "evidence": "In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1–120, 186–315, and 400–459). In agreement with sequence-based secondary structure predictions, the 1–120 and 400–459 segments were disordered, whereas the 186–315 segment formed a partial α-helix.",
-        "curator_note": "Exact positions given for the C-terminal segment analyzed."
-      }
-    ]
+    "chunk_length": 9960,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 4238,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
   }
 ]

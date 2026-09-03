@@ -10,30 +10,30 @@
         "organism": "Human",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "Mediates binding to RING1 within Polycomb repressive complexes",
-        "evidence": "RYBP, which binds to RING1 in some of the Polycomb complexes.",
-        "curator_note": "Qualitative mention only; no exact residue numbers provided."
+        "binding_target": "Protein (PADI4)",
+        "proposed_function": "Binding to PADI4 enzyme; intrinsically disordered region involved in protein-protein interaction",
+        "evidence": "The ncPRC1 complexes arrange around any of the six PCGF (PCGF1 to PCGF6), and they include RING1, as well as the intrinsically disordered RING1A and YY1-binding protein (RYBP, Uniprot: Q8N488) – or alternatively, its paralogue YY1-associated factor – which binds to the RAWUL domain of C-RING1B [26].",
+        "curator_note": "Qualitative mention of intrinsic disorder and binding to RAWUL domain. Specific residue coordinates for the disordered region are not provided in this sentence, though Arg53/56 are mentioned later as modification sites."
       },
       {
         "protein_name": "RYBP",
         "organism": "Human",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "Mediates binding to PADI4 (enzyme) as a substrate peptide",
-        "evidence": "We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides.",
-        "curator_note": "Qualitative mention only; no exact residue numbers for the RYBP region."
+        "binding_target": "Protein (PADI4)",
+        "proposed_function": "Binding to PADI4 enzyme; N-terminal region containing Arg53 is a substrate and binding site",
+        "evidence": "In RYBP, the arginine post-translationally modified by PADI4 seems to be Arg53, although Arg56 is also very close, both being located at its N-terminus [36]; and, in C-RING1B, the modified arginine is Arg231 [37].",
+        "curator_note": "Mentions N-terminal location and specific arginine residues (Arg53, Arg56) involved in PADI4 interaction/modification. Exact start/end of the disordered region are not specified."
       },
       {
-        "protein_name": "C-RING1B",
+        "protein_name": "RING1B",
         "organism": "Human",
         "start_of_annotation": "228",
         "end_of_annotation": "336",
-        "binding_target": "Protein",
-        "proposed_function": "Mediates binding to PADI4 (enzyme) via its C‑terminal low‑complexity/disordered region",
+        "binding_target": "Protein (PADI4)",
+        "proposed_function": "Binding to PADI4 enzyme; C-terminal region (C-RING1B) is a substrate and binding site",
         "evidence": "We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides.",
-        "curator_note": "Exact positions (228‑336) are provided in the text."
+        "curator_note": "Exact positions given (residues 228-336) for the C-terminal region (C-RING1B) which binds to PADI4."
       }
     ],
     "valid_annotations": [
@@ -42,20 +42,20 @@
         "organism": "Human",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "Mediates binding to PADI4 (enzyme) as a substrate peptide",
-        "evidence": "We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides.",
-        "curator_note": "Qualitative mention only; no exact residue numbers for the RYBP region."
+        "binding_target": "Protein (PADI4)",
+        "proposed_function": "Binding to PADI4 enzyme; N-terminal region containing Arg53 is a substrate and binding site",
+        "evidence": "In RYBP, the arginine post-translationally modified by PADI4 seems to be Arg53, although Arg56 is also very close, both being located at its N-terminus [36]; and, in C-RING1B, the modified arginine is Arg231 [37].",
+        "curator_note": "Mentions N-terminal location and specific arginine residues (Arg53, Arg56) involved in PADI4 interaction/modification. Exact start/end of the disordered region are not specified."
       },
       {
-        "protein_name": "C-RING1B",
+        "protein_name": "RING1B",
         "organism": "Human",
         "start_of_annotation": "228",
         "end_of_annotation": "336",
-        "binding_target": "Protein",
-        "proposed_function": "Mediates binding to PADI4 (enzyme) via its C‑terminal low‑complexity/disordered region",
+        "binding_target": "Protein (PADI4)",
+        "proposed_function": "Binding to PADI4 enzyme; C-terminal region (C-RING1B) is a substrate and binding site",
         "evidence": "We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides.",
-        "curator_note": "Exact positions (228‑336) are provided in the text."
+        "curator_note": "Exact positions given (residues 228-336) for the C-terminal region (C-RING1B) which binds to PADI4."
       }
     ]
   },
@@ -74,46 +74,46 @@
     "valid_count": 2,
     "raw_annotations": [
       {
-        "protein_name": "C-RING1B peptide",
+        "protein_name": "C-RING1B",
         "organism": "Unspecified",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "Protein",
-        "proposed_function": "Protein‑protein binding to PADI4",
-        "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
-        "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided."
+        "proposed_function": "Binding to PADI4",
+        "evidence": "3.2. C-RING1B and RYBP peptides were capable of binding to PADI4",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the binding region are not provided in the text, though the peptide sequence is implied to be derived from the C-RING domain."
       },
       {
-        "protein_name": "RYBP peptide",
+        "protein_name": "RYBP",
         "organism": "Unspecified",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "Protein",
-        "proposed_function": "Protein‑protein binding to PADI4",
-        "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
-        "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided."
+        "proposed_function": "Binding to PADI4",
+        "evidence": "3.2. C-RING1B and RYBP peptides were capable of binding to PADI4",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the binding region are not provided in the text, though the peptide sequence is implied to be derived from the RYBP domain."
       }
     ],
     "valid_annotations": [
       {
-        "protein_name": "C-RING1B peptide",
+        "protein_name": "C-RING1B",
         "organism": "Unspecified",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "Protein",
-        "proposed_function": "Protein‑protein binding to PADI4",
-        "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
-        "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided."
+        "proposed_function": "Binding to PADI4",
+        "evidence": "3.2. C-RING1B and RYBP peptides were capable of binding to PADI4",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the binding region are not provided in the text, though the peptide sequence is implied to be derived from the C-RING domain."
       },
       {
-        "protein_name": "RYBP peptide",
+        "protein_name": "RYBP",
         "organism": "Unspecified",
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "Protein",
-        "proposed_function": "Protein‑protein binding to PADI4",
-        "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
-        "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided."
+        "proposed_function": "Binding to PADI4",
+        "evidence": "3.2. C-RING1B and RYBP peptides were capable of binding to PADI4",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the binding region are not provided in the text, though the peptide sequence is implied to be derived from the RYBP domain."
       }
     ]
   },
@@ -145,9 +145,9 @@
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "DNA",
-        "proposed_function": "DNA binding mediated by a natively unfolded (intrinsically disordered) region that folds upon interaction",
-        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA.",
-        "curator_note": "Qualitative mention only; no exact residue positions provided."
+        "proposed_function": "Natively unfolded protein which folds upon binding to DNA",
+        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
       }
     ],
     "valid_annotations": [
@@ -157,17 +157,17 @@
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "DNA",
-        "proposed_function": "DNA binding mediated by a natively unfolded (intrinsically disordered) region that folds upon interaction",
-        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA.",
-        "curator_note": "Qualitative mention only; no exact residue positions provided."
+        "proposed_function": "Natively unfolded protein which folds upon binding to DNA",
+        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
       }
     ]
   },
   {
     "chunk_index": 6,
     "chunk_length": 12000,
-    "raw_extracted_count": 3,
-    "valid_count": 3,
+    "raw_extracted_count": 2,
+    "valid_count": 2,
     "raw_annotations": [
       {
         "protein_name": "RYBP",
@@ -175,9 +175,9 @@
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "DNA",
-        "proposed_function": "DNA binding (folds upon binding to DNA)",
-        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA.",
-        "curator_note": "Exact positions not provided; suggest checking UniProt for domain boundaries."
+        "proposed_function": "Natively unfolded protein which folds upon binding to DNA",
+        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
       },
       {
         "protein_name": "RYBP",
@@ -185,19 +185,9 @@
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "Protein",
-        "proposed_function": "Protein‑protein interaction with components of the polycomb complex and transcription factor YY1",
-        "evidence": "RYBP, a new repressor protein that interacts with components of the mammalian polycomb complex, and with the transcription factor YY1.",
-        "curator_note": "Exact positions not provided; suggest checking UniProt for domain boundaries."
-      },
-      {
-        "protein_name": "RYBP",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "Protein‑protein interaction with the citrullinating enzyme PADI4",
-        "evidence": "The intrinsically disordered, epigenetic factor RYBP binds to the citrullinating enzyme PADI4 in cancer cells.",
-        "curator_note": "Exact positions not provided; suggest checking UniProt for domain boundaries."
+        "proposed_function": "Intrinsically disordered epigenetic factor that binds to the citrullinating enzyme PADI4",
+        "evidence": "The intrinsically disordered, epigenetic factor RYBP binds to the citrullinating enzyme PADI4 in cancer cells",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
       }
     ],
     "valid_annotations": [
@@ -207,9 +197,9 @@
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "DNA",
-        "proposed_function": "DNA binding (folds upon binding to DNA)",
-        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA.",
-        "curator_note": "Exact positions not provided; suggest checking UniProt for domain boundaries."
+        "proposed_function": "Natively unfolded protein which folds upon binding to DNA",
+        "evidence": "The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
       },
       {
         "protein_name": "RYBP",
@@ -217,50 +207,18 @@
         "start_of_annotation": "Unspecified",
         "end_of_annotation": "Unspecified",
         "binding_target": "Protein",
-        "proposed_function": "Protein‑protein interaction with components of the polycomb complex and transcription factor YY1",
-        "evidence": "RYBP, a new repressor protein that interacts with components of the mammalian polycomb complex, and with the transcription factor YY1.",
-        "curator_note": "Exact positions not provided; suggest checking UniProt for domain boundaries."
-      },
-      {
-        "protein_name": "RYBP",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "Protein‑protein interaction with the citrullinating enzyme PADI4",
-        "evidence": "The intrinsically disordered, epigenetic factor RYBP binds to the citrullinating enzyme PADI4 in cancer cells.",
-        "curator_note": "Exact positions not provided; suggest checking UniProt for domain boundaries."
+        "proposed_function": "Intrinsically disordered epigenetic factor that binds to the citrullinating enzyme PADI4",
+        "evidence": "The intrinsically disordered, epigenetic factor RYBP binds to the citrullinating enzyme PADI4 in cancer cells",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
       }
     ]
   },
   {
     "chunk_index": 7,
     "chunk_length": 3499,
-    "raw_extracted_count": 1,
-    "valid_count": 1,
-    "raw_annotations": [
-      {
-        "protein_name": "PADI4",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "Mediates association of auto‑citrullinated disordered regions with the intact protein",
-        "evidence": "Isolated auto-citrullinated regions of PADI4 associate to the intact protein without altering their disordered conformation.",
-        "curator_note": "Qualitative mention only; no residue numbers provided."
-      }
-    ],
-    "valid_annotations": [
-      {
-        "protein_name": "PADI4",
-        "organism": "Unspecified",
-        "start_of_annotation": "Unspecified",
-        "end_of_annotation": "Unspecified",
-        "binding_target": "Protein",
-        "proposed_function": "Mediates association of auto‑citrullinated disordered regions with the intact protein",
-        "evidence": "Isolated auto-citrullinated regions of PADI4 associate to the intact protein without altering their disordered conformation.",
-        "curator_note": "Qualitative mention only; no residue numbers provided."
-      }
-    ]
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
   }
 ]

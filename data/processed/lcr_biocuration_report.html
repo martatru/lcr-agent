@@ -3,658 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LCR / LCD Binding Biocuration Report</title>
+    <title>Functional LCR Annotation Report</title>
     <style>
-        :root {
-            --primary: #1e293b;
-            --accent-blue: #2563eb;
-            --accent-amber: #d97706;
-            --bg-main: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #334155;
-            --border-color: #e2e8f0;
-        }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg-main); color: var(--text-main); margin: 0; padding: 32px 24px; }
-        .container { max-width: 1380px; margin: 0 auto; }
-        header { margin-bottom: 24px; border-bottom: 2px solid var(--border-color); padding-bottom: 16px; }
-        h1 { font-size: 26px; color: var(--primary); margin: 0 0 8px 0; }
-        .subtitle { color: #64748b; font-size: 14px; margin: 0; }
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 32px; }
-        .stat-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-        .stat-value { font-size: 28px; font-weight: 700; color: var(--primary); margin-bottom: 4px; }
-        .stat-card.verified .stat-value { color: var(--accent-blue); }
-        .stat-card.qualitative .stat-value { color: var(--accent-amber); }
-        .stat-label { font-size: 12px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
-        .section-title { font-size: 18px; font-weight: 600; margin: 32px 0 16px 0; display: flex; align-items: center; gap: 10px; color: var(--primary); }
-        .badge { font-size: 12px; padding: 2px 8px; border-radius: 12px; font-weight: 600; }
-        .badge-blue { background: #dbeafe; color: #1e40af; }
-        .badge-amber { background: #fef3c7; color: #92400e; }
-        .badge-target { background: #f3e8ff; color: #6b21a8; font-weight: 700; padding: 3px 8px; border-radius: 6px; font-size: 12px; display: inline-block; }
-        table { width: 100%; border-collapse: collapse; background: var(--card-bg); border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 32px; font-size: 14px; }
-        th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border-color); vertical-align: top; }
-        th { background-color: #f1f5f9; color: var(--primary); font-weight: 600; font-size: 13px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f8fafc; color: #334155; margin: 0; padding: 16px; font-size: 12px; }
+        .container { width: 100%; max-width: 1920px; margin: 0 auto; overflow-x: auto; }
+        h1 { font-size: 20px; color: #1e293b; margin-bottom: 2px; }
+        .subtitle { color: #64748b; margin-bottom: 16px; font-size: 12px; }
+        table { width: 100%; border-collapse: collapse; background: #ffffff; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); table-layout: auto; }
+        th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #e2e8f0; vertical-align: top; white-space: normal; word-wrap: break-word; }
+        th { background-color: #1e293b; color: #ffffff; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap; }
         tr:hover td { background-color: #f8fafc; }
-        .protein-name { font-weight: 700; color: var(--primary); font-family: monospace; font-size: 15px; }
-        .file-tag { font-size: 11px; color: #64748b; background: #f1f5f9; padding: 2px 6px; border-radius: 4px; display: inline-block; margin-top: 4px; }
-        .evidence-quote { font-style: italic; color: #475569; border-left: 3px solid #cbd5e1; padding-left: 8px; margin: 0; font-size: 13px; }
-        .btn-link { color: var(--accent-blue); text-decoration: none; font-weight: 600; font-size: 12px; background: #eff6ff; padding: 5px 9px; border-radius: 4px; display: inline-block; border: 1px solid #bfdbfe; white-space: nowrap; margin-bottom: 4px; }
-        .btn-link:hover { background: #dbeafe; }
-        .btn-doi { color: #475569; background: #f1f5f9; border-color: #cbd5e1; }
-        .btn-doi:hover { background: #e2e8f0; }
-        .actions-cell { display: flex; flex-direction: column; gap: 4px; }
+        .protein-id { font-family: monospace; font-weight: bold; color: #2563eb; text-decoration: none; }
+        .col-source { min-width: 450px; max-width: 650px; }
+        .evidence-quote { font-style: italic; color: #475569; margin: 0; border-left: 3px solid #cbd5e1; padding-left: 8px; line-height: 1.4; }
+        .badge-annot { background: #ffedd5; color: #c2410c; padding: 2px 5px; border-radius: 4px; font-weight: bold; font-family: monospace; }
+        .badge-type { background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
+        .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
+        .viz-container { padding: 12px; text-align: left; }
+        .viz-header { font-size: 12px; font-weight: bold; color: #1e293b; margin-bottom: 6px; text-align: left; }
+        .category-header-row td { background-color: #334155; color: #ffffff; font-weight: 700; font-size: 12px; padding: 10px 12px; letter-spacing: 0.5px; text-transform: uppercase; }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>LCR / LCD Binding Biocuration Report</h1>
-            <p class="subtitle">Automated extraction of Low-Complexity Regions engaging in molecular binding interactions</p>
-        </header>
-
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-value">4</div>
-                <div class="stat-label">Analyzed Papers</div>
-            </div>
-            <div class="stat-card verified">
-                <div class="stat-value">11</div>
-                <div class="stat-label">Verified LCRs (Exact Boundaries)</div>
-            </div>
-            <div class="stat-card qualitative">
-                <div class="stat-value">25</div>
-                <div class="stat-label">Qualitative Mentions (To Map)</div>
-            </div>
-        </div>
-
-        <div class="section-title">
-            <span>Verified Binding LCR Regions (Numerical Coordinates)</span>
-            <span class="badge badge-blue">11</span>
-        </div>
+        <h1>Functional LCR Annotation Report</h1>
+        <p class="subtitle">Structured low-complexity region dataset integrated with UniProt and PlaToLoCo predictions</p>
+        
         <table>
             <thead>
                 <tr>
-                    <th style="width: 16%;">Protein / Source File</th>
-                    <th style="width: 10%;">Organism</th>
-                    <th style="width: 10%;">Residues</th>
-                    <th style="width: 12%;">Binding Target</th>
-                    <th style="width: 22%;">Proposed Function</th>
-                    <th style="width: 20%;">Verbatim Evidence</th>
-                    <th style="width: 10%;">Links</th>
+                    <th>UniprotID</th>
+                    <th>Gene name</th>
+                    <th>Name</th>
+                    <th>Start of LCR</th>
+                    <th>End of LCR</th>
+                    <th>Protein length</th>
+                    <th>LCR type</th>
+                    <th>Organism</th>
+                    <th class="col-source">Source</th>
+                    <th>Source ID</th>
+                    <th>Start of annotation</th>
+                    <th>End of annotation</th>
+                    <th>Annotation Category</th>
+                    <th>Gene Ontology of category</th>
                 </tr>
             </thead>
             <tbody>
 
-                <tr>
-                    <td>
-                        <div class="protein-name">Gab1</div>
-                        <div class="file-tag">BIP-117-e70120.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>497 - 528</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>mediates protein-protein interaction with Grb2 SH3 domain via polyproline II helix</td>
-                    <td><blockquote class="evidence-quote">"a previously described complex of Grb2 with Gab1 (497–528) shows an extended polyproline II‑helix, which is analogous to other SH3‑mediated complexes such as CD2AP_2:RIN, Fyn:App12, and p40phox:p47phox."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Gab1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">Gab1</div>
-                        <div class="file-tag">BIP-117-e70120.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>180 - 187</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>potentially mediates interaction with SH2 domains via a transient helix around Tyr183</td>
-                    <td><blockquote class="evidence-quote">"interactions with SH2 domains cannot be excluded, since several SH2–phosphotyrosine interactions involving helical or partially helical peptide segments have been reported."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Gab1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">Gab1</div>
-                        <div class="file-tag">BIP-117-e70120.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>497 - 528</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Mediates SH3 domain binding via an extended polyproline II helix</td>
-                    <td><blockquote class="evidence-quote">"a previously described complex of Grb2 with Gab1 (497–528) shows an extended polyproline II-helix, which is analogous to other SH3-mediated complexes such as CD2AP_2:RIN, Fyn:App12, and p40phox:p47phox"</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Gab1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">C-RING1B</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><strong>228 - 336</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Mediates binding to PADI4 (enzyme) via its C‑terminal low‑complexity/disordered region</td>
-                    <td><blockquote class="evidence-quote">"We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=C-RING1B+Human" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>1 - 148</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Mediates protein‑protein self‑assembly into micelles and phase‑separated droplets</td>
-                    <td><blockquote class="evidence-quote">"In unphosphorylated TDP-43 LCD, contacts are broadly distributed along the sequence, with 2-2 interactions dominating, followed by 2–3, while 1-1 contacts are less frequent, likely due to the modest net positive charge of block 1."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>267 - 414</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Mediates protein-protein self‑association leading to phase separation</td>
-                    <td><blockquote class="evidence-quote">"To directly visualize the phase separation behavior of unphosphorylated and phosphorylated TDP-43 LCD, time-lapse fluorescence imaging was performed on a Yokogawa spinning disk confocal microscope."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><strong>240 - 253</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Mediates interaction with the SG nucleating protein G3BP1</td>
-                    <td><blockquote class="evidence-quote">"Radiation stress promoted the interaction between YBX1 and the SG nucleating protein G3BP1 via YBX1 amino acids 240–253."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Human" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><strong>240 - 253</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Mediates protein-protein interaction with G3BP1</td>
-                    <td><blockquote class="evidence-quote">"These results indicate that the amino acid sequence spanning residues 240–253 of YBX1 constitutes the core domain responsible for interaction with G3BP1."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Human" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><strong>190 - 250</strong></td>
-                    <td><span class="badge-target">RNA</span></td>
-                    <td>Facilitates RNA binding to GPX4 mRNA via phase‑separated condensates</td>
-                    <td><blockquote class="evidence-quote">"Cellular fluorescence imaging showed clear co-localization between YBX1 protein condensates and the FISH signal of GPX4 mRNA (Fig. 6G)."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Human" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>240 - 253</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Protein‑protein interaction with G3BP1 via the G3BP1‑interacting binding site</td>
-                    <td><blockquote class="evidence-quote">"YBX1 regulates ferroptosis through the G3BP1-interacting binding site (amino acids 240–253) and the IDR sequence."</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><strong>240 - 253</strong></td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td>Protein‑protein interaction with G3BP1 mediated by residues 240–253</td>
-                    <td><blockquote class="evidence-quote">"we demonstrated for the first time that YBX1 binds to G3BP1 in a stress-dependent manner via its amino acids 240–253"</blockquote></td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-            </tbody>
-        </table>
+            <tr>
+                <td><a href="https://www.uniprot.org/uniprotkb/G2TRN4" target="_blank" class="protein-id">G2TRN4</a></td>
+                <td><strong>erh1</strong></td>
+                <td style="max-width: 180px;">Enhancer of rudimentary homolog 1</td>
+                <td></td>
+                <td></td>
+                <td>104</td>
+                <td><span class="badge-type">Unspecified</span></td>
+                <td><i>Schizosaccharomyces pombe</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"Outside of its YTH domain, Mmi1 is primarily comprised of low-complexity amino acid sequence (residues 1–347) with no predicted secondary structure (Fig. 1A)."</blockquote></td>
+                <td><code>A_low-complexity_region_in_the_YTH_domain_protein_.pdf</code></td>
+                <td><span class="badge-annot">1</span></td>
+                <td><span class="badge-annot">347</span></td>
+                <td style="max-width: 180px;"><strong>Low-complexity amino acid sequence with no predicted secondary structure, part of the intrinsically disordered regions of the protein.</strong></td>
+                <td style="max-width: 200px;">GO:1905754 (C:ascospore-type prospore nucleus)<br>GO:0005737 (C:cytoplasm)<br>GO:1990342 (C:heterochromatin island)</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="14" class="viz-container">
+                    <div class="viz-header">
+                        <span>Sequence details (104 aa)</span>
+                    </div>
+                    <svg width="1030" height="162" viewBox="0 0 1030 162" style="background: #ffffff; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0; display: block; margin-left: 0;"><path d="M 10 16 L 129 16 L 135 24.0 L 129 32 L 10 32 Z" fill="#e2e8f0"/><text x="18" y="27" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">Annotated LCR</text><line x1="150" y1="24" x2="1000" y2="24" stroke="#e2e8f0" stroke-width="1.5"/><rect x="158.2" y="19" width="2827.9" height="10" fill="#f97316" rx="1"><title>Annotated LCR: 1-347</title></rect><path d="M 10 40 L 129 40 L 135 48.0 L 129 56 L 10 56 Z" fill="#e2e8f0"/><text x="18" y="51" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG-intermediate</text><line x1="150" y1="48" x2="1000" y2="48" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 64 L 129 64 L 135 72.0 L 129 80 L 10 80 Z" fill="#e2e8f0"/><text x="18" y="75" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG-strict</text><line x1="150" y1="72" x2="1000" y2="72" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 88 L 129 88 L 135 96.0 L 129 104 L 10 104 Z" fill="#e2e8f0"/><text x="18" y="99" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">CAST</text><line x1="150" y1="96" x2="1000" y2="96" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 112 L 129 112 L 135 120.0 L 129 128 L 10 128 Z" fill="#e2e8f0"/><text x="18" y="123" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">fLPS-strict</text><line x1="150" y1="120" x2="1000" y2="120" stroke="#e2e8f0" stroke-width="1.5"/><rect x="632.2" y="115" width="32.7" height="10" fill="#f43f5e" rx="1"><title>fLPS-strict: 59-63</title></rect><line x1="150" y1="138" x2="1000" y2="138" stroke="#334155" stroke-width="1.5"/><line x1="150.0" y1="138" x2="150.0" y2="143" stroke="#334155" stroke-width="1.5"/><text x="150.0" y="156" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">0</text><line x1="558.7" y1="138" x2="558.7" y2="143" stroke="#334155" stroke-width="1.5"/><text x="558.7" y="156" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">50</text><line x1="967.3" y1="138" x2="967.3" y2="143" stroke="#334155" stroke-width="1.5"/><text x="967.3" y="156" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">100</text></svg>
+                </td>
+            </tr>
 
-        <div class="section-title">
-            <span>Qualitative Binding Mentions (Require UniProt Mapping)</span>
-            <span class="badge badge-amber">25</span>
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th style="width: 16%;">Protein / Source File</th>
-                    <th style="width: 10%;">Organism</th>
-                    <th style="width: 12%;">Binding Target</th>
-                    <th style="width: 30%;">Verbatim Evidence</th>
-                    <th style="width: 22%;">Curator Note</th>
-                    <th style="width: 10%;">Links</th>
-                </tr>
-            </thead>
-            <tbody>
-
-                <tr>
-                    <td>
-                        <div class="protein-name">RYBP</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides."</blockquote></td>
-                    <td>Qualitative mention only; no exact residue numbers for the RYBP region.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RYBP+Human" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">C-RING1B peptide</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"C-RING1B and RYBP peptides were capable of binding to PADI4."</blockquote></td>
-                    <td>Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=C-RING1B peptide+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">RYBP peptide</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"C-RING1B and RYBP peptides were capable of binding to PADI4."</blockquote></td>
-                    <td>Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RYBP peptide+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">RYBP</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">DNA</span></td>
-                    <td><blockquote class="evidence-quote">"The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA."</blockquote></td>
-                    <td>Qualitative mention only; no exact residue positions provided.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RYBP+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">RYBP</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">DNA</span></td>
-                    <td><blockquote class="evidence-quote">"The transcriptional repressor RYBP is a natively unfolded protein which folds upon binding to DNA."</blockquote></td>
-                    <td>Exact positions not provided; suggest checking UniProt for domain boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RYBP+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">RYBP</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"RYBP, a new repressor protein that interacts with components of the mammalian polycomb complex, and with the transcription factor YY1."</blockquote></td>
-                    <td>Exact positions not provided; suggest checking UniProt for domain boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RYBP+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">RYBP</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"The intrinsically disordered, epigenetic factor RYBP binds to the citrullinating enzyme PADI4 in cancer cells."</blockquote></td>
-                    <td>Exact positions not provided; suggest checking UniProt for domain boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=RYBP+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">PADI4</div>
-                        <div class="file-tag">1-s2.0-S0003986126002274-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"Isolated auto-citrullinated regions of PADI4 associate to the intact protein without altering their disordered conformation."</blockquote></td>
-                    <td>Qualitative mention only; no residue numbers provided.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=PADI4+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b ), consistent with its strong experimental propensity for phase separation."</blockquote></td>
-                    <td>Exact residue boundaries of the LCD are not given; only a sub‑region (residues 101–148) is mentioned for phosphorylation sites. Suggest consulting UniProt for full LCD coordinates.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"The unphosphorylated LCD rapidly assembled into a dense population of micron‑scale fluorescent spherical droplets, already abundant within a few minutes of sample loading."</blockquote></td>
-                    <td>Exact residue positions not provided; consider looking up the canonical TDP-43 low‑complexity domain boundaries in UniProt.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"Although CK1 δ kinase is a processive enzyme that quantitatively phosphorylates TDP-43 LCDs at its preferred serine sites, some heterogeneity in charge patterning due to enzymatic processing is to be expected."</blockquote></td>
-                    <td>Exact positions not provided; consider consulting UniProt for canonical TDP-43 LCD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">RNA</span></td>
-                    <td><blockquote class="evidence-quote">"As TDP-43, which can also bind RNA, can shuttle between the nucleus and the cytoplasm, it might experience vastly different electrostatic environments [53]."</blockquote></td>
-                    <td>Exact residue positions for the LCD not provided; recommend consulting UniProt (e.g., PDB/UniProt entry for TDP-43) to define the LCD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"After a cylindrical core forms, the same groups act as stabilizing “fasteners”: screened carboxylates can form ion pairs and hydrogen bonds that “lock” the lateral surface of the cylinder, preventing twisting and back-conversion (“rounding”) into spheres."</blockquote></td>
-                    <td>Exact residue positions not provided; consider retrieving the canonical TDP-43 LCD boundaries from UniProt for precise annotation.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"Our findings also highlight the power of coarse-grained simulations as a predictive tool for protein–protein interactions. Through them, we identified micellization as a potential form of assembly for phosphorylated TDP-43 LCD, which was later confirmed by experiments."</blockquote></td>
-                    <td>Exact positions not provided; suggest consulting UniProt for TDP-43 LCD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Lipid</span></td>
-                    <td><blockquote class="evidence-quote">"We speculate that Tween-20 is incorporated into the protein micelles, forming mixed structures in which the hydrophobic tail of Tween-20 (the laurate) inserts into the core of the protein micelle, lowering the packing parameter and promoting a transition from spheres to cylinders."</blockquote></td>
-                    <td>Exact positions not provided; suggest consulting UniProt for TDP-43 LCD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"Through them, we identified micellization as a potential form of assembly for phosphorylated TDP-43 LCD, which was later confirmed by experiments."</blockquote></td>
-                    <td>Exact positions not provided; suggest consulting UniProt for TDP-43 LCD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Lipid</span></td>
-                    <td><blockquote class="evidence-quote">"Although Tween-20 is not a naturally occurring cellular component, the observation that 0.01% (v/v) of this surfactant dramatically remodels the assembly landscape of 12D TDP-43 LCD, converting a predominantly spherical population into well-defined wormlike micelles, highlights the in vitro sensitivity of these assemblies to amphiphilic co-solutes."</blockquote></td>
-                    <td>Exact positions not provided; suggest consulting UniProt for TDP-43 LCD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43 LCD</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"No quantitative image analysis was performed; the imaging served as direct optical confirmation of TDP-43 LCD phase separation and coalescence kinetics in the unphosphorylated state, as well as direct evidence for the suppression of phase separation in the phosphorylated state."</blockquote></td>
-                    <td>Exact positions not provided; suggest consulting UniProt for TDP-43 LCD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43 LCD+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">TDP-43</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"ALS Mutations Disrupt Phase Separation Mediated by α-Helical Structure in the TDP-43 Low-Complexity C-Terminal Domain"</blockquote></td>
-                    <td>Exact positions not provided; suggest consulting UniProt for the boundaries of the low‑complexity C‑terminal domain.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=TDP-43+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">Matrin-3</div>
-                        <div class="file-tag">ADVS-9999-e76625.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">RNA</span></td>
-                    <td><blockquote class="evidence-quote">"Matrin-3 Forms Spherical and Wormlike Assemblies That Are Modulated by RNA Binding and ALS/FTD-Associated Mutations"</blockquote></td>
-                    <td>Qualitative mention only; no residue positions provided</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=Matrin-3+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Human</td>
-                    <td><span class="badge-target">RNA</span></td>
-                    <td><blockquote class="evidence-quote">"YBX1 underwent liquid-liquid phase separation (LLPS) through its C-terminal intrinsically disordered region (IDR), and YBX1 condensates co-localized with GPX4 mRNA."</blockquote></td>
-                    <td>Qualitative mention only; exact positions not provided.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Human" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">RNA</span></td>
-                    <td><blockquote class="evidence-quote">"RT-PCR showed that YBX1 overexpression promoted GPX4 mRNA expression, whereas YBX1 lacking the IDR or G3BP1 knockdown suppressed YBX1-mediated GPX4 mRNA expression."</blockquote></td>
-                    <td>Qualitative mention only; no exact residue positions provided for the IDR.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">RNA</span></td>
-                    <td><blockquote class="evidence-quote">"we demonstrated that YBX1 directly binds to GPX4 mRNA through its CSD and enhances GPX4 mRNA stability"</blockquote></td>
-                    <td>Exact positions not provided; consider UniProt lookup for CSD boundaries.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">RNA</span></td>
-                    <td><blockquote class="evidence-quote">"YBX1 upregulates GPX4 expression through a post-transcriptional mechanism (enhancing GPX4 mRNA stability) using RIP, mRNA stability assays, and CSD mutants"</blockquote></td>
-                    <td>Exact positions not provided; IDR inferred; consider checking UniProt for YBX1 IDR region.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="protein-name">YBX1</div>
-                        <div class="file-tag">1-s2.0-S0898656826003888-main.pdf</div>
-                    </td>
-                    <td>Unspecified</td>
-                    <td><span class="badge-target">Protein</span></td>
-                    <td><blockquote class="evidence-quote">"ZO-1 interacts with YB-1 in endothelial cells to regulate stress granule formation during angiogenesis"</blockquote></td>
-                    <td>Interaction mentioned; low‑complexity region not explicitly described; IDR likely involved; positions unspecified.</td>
-                    <td class="actions-cell">
-                        <a href="https://www.uniprot.org/uniprotkb?query=YBX1+Unspecified" target="_blank" class="btn-link">UniProt</a>
-                        
-                    </td>
-                </tr>
-        
             </tbody>
         </table>
     </div>

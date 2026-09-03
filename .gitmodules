@@ -1,0 +1,3 @@
+[submodule "docker/platoloco"]
+	path = docker/platoloco
+	url = https://github.com/patryk-jarnot/lcr-metaserver.git

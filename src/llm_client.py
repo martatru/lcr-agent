@@ -63,7 +63,7 @@ class LightLLMClient:
         )
         # Multi-model fallback sequence with separate TPD quotas
         self.models = [
-        "openai/gpt-oss-120b"
+        "qwen/qwen3.8-27b"
         ]
 
     async def generate_lcr_annotations(self, prompt: str, text: str) -> list[dict]:

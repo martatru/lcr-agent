@@ -1,65 +1,38 @@
 [
   {
-    "file": "1-s2.0-S0003986126002274-main.pdf",
-    "protein_name": "RYBP",
-    "organism": "Human",
-    "binding_target": "Protein",
-    "evidence": "We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides.",
-    "curator_note": "Qualitative mention only; no exact residue numbers for the RYBP region.",
-    "flag": "Qualitative mention only (no exact numbers in text)"
-  },
-  {
-    "file": "1-s2.0-S0003986126002274-main.pdf",
-    "protein_name": "C-RING1B peptide",
-    "organism": "Unspecified",
-    "binding_target": "Protein",
-    "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
-    "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided.",
-    "flag": "Qualitative mention only (no exact numbers in text)"
-  },
-  {
-    "file": "1-s2.0-S0003986126002274-main.pdf",
-    "protein_name": "RYBP peptide",
-    "organism": "Unspecified",
-    "binding_target": "Protein",
-    "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
-    "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided.",
-    "flag": "Qualitative mention only (no exact numbers in text)"
-  },
-  {
-    "file": "1-s2.0-S0003986126002274-main.pdf",
-    "protein_name": "PADI4",
-    "organism": "Unspecified",
-    "binding_target": "Protein",
-    "evidence": "Isolated auto-citrullinated regions of PADI4 associate to the intact protein without altering their disordered conformation.",
-    "curator_note": "Qualitative mention only; no residue numbers provided.",
-    "flag": "Qualitative mention only (no exact numbers in text)"
-  },
-  {
-    "file": "ADVS-9999-e76625.pdf",
-    "protein_name": "TDP-43",
-    "organism": "Unspecified",
-    "binding_target": "Protein",
-    "evidence": "Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b ), consistent with its strong experimental propensity for phase separation.",
-    "curator_note": "Exact residue boundaries of the LCD are not given; only a sub‑region (residues 101–148) is mentioned for phosphorylation sites. Suggest consulting UniProt for full LCD coordinates.",
-    "flag": "Qualitative mention only (no exact numbers in text)"
-  },
-  {
-    "file": "ADVS-9999-e76625.pdf",
-    "protein_name": "Matrin-3",
+    "file": "A_low-complexity_region_in_the_YTH_domain_protein_.pdf",
+    "protein_name": "NXF1",
     "organism": "Unspecified",
     "binding_target": "RNA",
-    "evidence": "Matrin-3 Forms Spherical and Wormlike Assemblies That Are Modulated by RNA Binding and ALS/FTD-Associated Mutations",
-    "curator_note": "Qualitative mention only; no residue positions provided",
+    "evidence": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region also contribute to RNA interaction, for example in the nuclear RNA export factor 1 (NXF1) (32, 33)",
+    "curator_note": "Qualitative mention only; no specific residue coordinates provided in text.",
     "flag": "Qualitative mention only (no exact numbers in text)"
   },
   {
-    "file": "1-s2.0-S0898656826003888-main.pdf",
-    "protein_name": "YBX1",
-    "organism": "Human",
+    "file": "A_low-complexity_region_in_the_YTH_domain_protein_.pdf",
+    "protein_name": "FMRP",
+    "organism": "Unspecified",
     "binding_target": "RNA",
-    "evidence": "YBX1 underwent liquid-liquid phase separation (LLPS) through its C-terminal intrinsically disordered region (IDR), and YBX1 condensates co-localized with GPX4 mRNA.",
-    "curator_note": "Qualitative mention only; exact positions not provided.",
+    "evidence": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region also contribute to RNA interaction, for example in the nuclear RNA export factor 1 (NXF1) (32, 33) and Fragile X Mental Retardation Protein (FMRP) (34, 35).",
+    "curator_note": "Qualitative mention only; no specific residue coordinates provided in text.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "A_low-complexity_region_in_the_YTH_domain_protein_.pdf",
+    "protein_name": "Thymine DNA glycosylase",
+    "organism": "Unspecified",
+    "binding_target": "DNA",
+    "evidence": "In another example, a crystal structure of thymine DNA glycosylase with an extended N-terminus demonstrates that, although the structure of the N-terminal region is dynamic, it contributes to high affinity DNA binding, partly through an arginine contact to DNA backbone phosphates (38, 39).",
+    "curator_note": "Qualitative mention only; no specific residue coordinates provided in text.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "A_low-complexity_region_in_the_YTH_domain_protein_.pdf",
+    "protein_name": "Glucocorticoid receptor",
+    "organism": "Unspecified",
+    "binding_target": "DNA",
+    "evidence": "For example, an IDR in the glucocorticoid receptor induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation (44).",
+    "curator_note": "Qualitative mention only; no specific residue coordinates provided in text.",
     "flag": "Qualitative mention only (no exact numbers in text)"
   }
 ]

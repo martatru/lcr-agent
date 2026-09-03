@@ -1,0 +1,400 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 3,
+    "valid_count": 3,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "1",
+        "end_of_annotation": "347",
+        "binding_target": "Unspecified",
+        "proposed_function": "Low-complexity amino acid sequence with no predicted secondary structure, part of the intrinsically disordered regions of the protein.",
+        "evidence": "Outside of its YTH domain, Mmi1 is primarily comprised of low-complexity amino acid sequence (residues 1–347) with no predicted secondary structure (Fig. 1A).",
+        "curator_note": "Exact positions given (1-347). This annotation describes the general IDR composition rather than a specific binding interface, but it is the primary LCR context for the protein."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "1",
+        "end_of_annotation": "50",
+        "binding_target": "Protein",
+        "proposed_function": "Low-complexity region critical for binding the Ccr4-Not complex.",
+        "evidence": "We previously showed that the first 50 amino acids of Mmi1 contain a low-complexity region that is critical for binding Ccr4-Not (10).",
+        "curator_note": "Exact positions given (1-50). Binding target is the Ccr4-Not complex (Protein)."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "282",
+        "end_of_annotation": "326",
+        "binding_target": "RNA",
+        "proposed_function": "Upstream stabilization region (USR) that enhances RNA binding affinity by reducing the dissociation rate of the Mmi1-RNA complex.",
+        "evidence": "Here we show that a low-complexity region proximal to the Mmi1 YTH domain is required for stable RNA binding.",
+        "curator_note": "Exact positions inferred from text description of the 'upstream stabilization region' (USR) as residues 282-326 (derived from 'residues 282–488' construct minus 'residues 327–488' YTH construct). The text explicitly identifies this segment as the low-complexity region enhancing RNA binding."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "1",
+        "end_of_annotation": "347",
+        "binding_target": "Unspecified",
+        "proposed_function": "Low-complexity amino acid sequence with no predicted secondary structure, part of the intrinsically disordered regions of the protein.",
+        "evidence": "Outside of its YTH domain, Mmi1 is primarily comprised of low-complexity amino acid sequence (residues 1–347) with no predicted secondary structure (Fig. 1A).",
+        "curator_note": "Exact positions given (1-347). This annotation describes the general IDR composition rather than a specific binding interface, but it is the primary LCR context for the protein."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "1",
+        "end_of_annotation": "50",
+        "binding_target": "Protein",
+        "proposed_function": "Low-complexity region critical for binding the Ccr4-Not complex.",
+        "evidence": "We previously showed that the first 50 amino acids of Mmi1 contain a low-complexity region that is critical for binding Ccr4-Not (10).",
+        "curator_note": "Exact positions given (1-50). Binding target is the Ccr4-Not complex (Protein)."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "282",
+        "end_of_annotation": "326",
+        "binding_target": "RNA",
+        "proposed_function": "Upstream stabilization region (USR) that enhances RNA binding affinity by reducing the dissociation rate of the Mmi1-RNA complex.",
+        "evidence": "Here we show that a low-complexity region proximal to the Mmi1 YTH domain is required for stable RNA binding.",
+        "curator_note": "Exact positions inferred from text description of the 'upstream stabilization region' (USR) as residues 282-326 (derived from 'residues 282–488' construct minus 'residues 327–488' YTH construct). The text explicitly identifies this segment as the low-complexity region enhancing RNA binding."
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 2,
+    "valid_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "315",
+        "end_of_annotation": "326",
+        "binding_target": "Protein",
+        "proposed_function": "Folds back to contact the back of the YTH domain, forming a network of hydrophobic interactions with the YTH domain and N-clamp to stabilize the conformation and enhance RNA binding.",
+        "evidence": "In summary, our structure shows that part of the low-complexity USR of Mmi1 (residues 315–326) lacks secondary structure elements but adopts a defined fold on RNA-binding, forming contacts with the YTH domain.",
+        "curator_note": "Exact positions given (residues 315-326). The text describes hydrophobic contacts with the YTH domain (Protein) and N-clamp, which stabilizes the complex for RNA binding."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Protein",
+        "proposed_function": "The low-complexity N-clamp region interacts with the USR and YTH domain; its conformation is stabilized by the USR, and it contacts the 5' end of the RNA.",
+        "evidence": "Interestingly, the low-complexity N-clamp region adopted a similar conformation in two structures of Mmi1 determined in the absence of RNA (this work and (21)).",
+        "curator_note": "Qualitative mention only. The text identifies the N-clamp as a low-complexity region that interacts with the USR and YTH domain (Protein) and is involved in RNA binding."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "315",
+        "end_of_annotation": "326",
+        "binding_target": "Protein",
+        "proposed_function": "Folds back to contact the back of the YTH domain, forming a network of hydrophobic interactions with the YTH domain and N-clamp to stabilize the conformation and enhance RNA binding.",
+        "evidence": "In summary, our structure shows that part of the low-complexity USR of Mmi1 (residues 315–326) lacks secondary structure elements but adopts a defined fold on RNA-binding, forming contacts with the YTH domain.",
+        "curator_note": "Exact positions given (residues 315-326). The text describes hydrophobic contacts with the YTH domain (Protein) and N-clamp, which stabilizes the complex for RNA binding."
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 7,
+    "valid_count": 7,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces",
+        "start_of_annotation": "282",
+        "end_of_annotation": "346",
+        "binding_target": "RNA",
+        "proposed_function": "Stabilizes a helical conformation in bound RNA and enhances RNA binding affinity by reducing dynamic motion of the YTH RNA binding groove.",
+        "evidence": "Here, we show that stable RNA binding by Mmi1 is dependent not only on its YTH domain but also on an upstream low-complexity region (residues 282–346).",
+        "curator_note": "Exact positions given (282-346)."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces",
+        "start_of_annotation": "282",
+        "end_of_annotation": "326",
+        "binding_target": "RNA",
+        "proposed_function": "Indirectly contributes to RNA binding by stabilizing the conformation of the N- and C-clamps of the YTH domain.",
+        "evidence": "Within the low-complexity region, the USR (residues 282–326) likely contributes to RNA binding indirectly.",
+        "curator_note": "Exact positions given (282-326)."
+      },
+      {
+        "protein_name": "NXF1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region contribute to RNA interaction.",
+        "evidence": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region also contribute to RNA interaction, for example in the nuclear RNA export factor 1 (NXF1) (32, 33)",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "FMRP",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region contribute to RNA interaction.",
+        "evidence": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region also contribute to RNA interaction, for example in the nuclear RNA export factor 1 (NXF1) (32, 33) and Fragile X Mental Retardation Protein (FMRP) (34, 35).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "FMRP",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "Basic residues of an RGG peptide insert into the major groove of the RNA duplex and form hydrogen bonds with bases.",
+        "evidence": "A solution structure of an RGG peptide from FMRP bound to G-quadruplex RNA reveals that the basic residues insert into the major groove of the RNA duplex and form hydrogen bonds with bases (37).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "Thymine DNA glycosylase",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA",
+        "proposed_function": "Dynamic N-terminal region contributes to high affinity DNA binding, partly through an arginine contact to DNA backbone phosphates.",
+        "evidence": "In another example, a crystal structure of thymine DNA glycosylase with an extended N-terminus demonstrates that, although the structure of the N-terminal region is dynamic, it contributes to high affinity DNA binding, partly through an arginine contact to DNA backbone phosphates (38, 39).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "Glucocorticoid receptor",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA",
+        "proposed_function": "IDR induces allosteric changes in the DNA binding domain to enhance DNA binding by stabilizing a high affinity conformation.",
+        "evidence": "For example, an IDR in the glucocorticoid receptor induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation (44).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces",
+        "start_of_annotation": "282",
+        "end_of_annotation": "346",
+        "binding_target": "RNA",
+        "proposed_function": "Stabilizes a helical conformation in bound RNA and enhances RNA binding affinity by reducing dynamic motion of the YTH RNA binding groove.",
+        "evidence": "Here, we show that stable RNA binding by Mmi1 is dependent not only on its YTH domain but also on an upstream low-complexity region (residues 282–346).",
+        "curator_note": "Exact positions given (282-346)."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Schizosaccharomyces",
+        "start_of_annotation": "282",
+        "end_of_annotation": "326",
+        "binding_target": "RNA",
+        "proposed_function": "Indirectly contributes to RNA binding by stabilizing the conformation of the N- and C-clamps of the YTH domain.",
+        "evidence": "Within the low-complexity region, the USR (residues 282–326) likely contributes to RNA binding indirectly.",
+        "curator_note": "Exact positions given (282-326)."
+      },
+      {
+        "protein_name": "NXF1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region contribute to RNA interaction.",
+        "evidence": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region also contribute to RNA interaction, for example in the nuclear RNA export factor 1 (NXF1) (32, 33)",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "FMRP",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region contribute to RNA interaction.",
+        "evidence": "Arginine and glycine repeats (RGG-boxes) within a low-complexity region also contribute to RNA interaction, for example in the nuclear RNA export factor 1 (NXF1) (32, 33) and Fragile X Mental Retardation Protein (FMRP) (34, 35).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "FMRP",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "Basic residues of an RGG peptide insert into the major groove of the RNA duplex and form hydrogen bonds with bases.",
+        "evidence": "A solution structure of an RGG peptide from FMRP bound to G-quadruplex RNA reveals that the basic residues insert into the major groove of the RNA duplex and form hydrogen bonds with bases (37).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "Thymine DNA glycosylase",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA",
+        "proposed_function": "Dynamic N-terminal region contributes to high affinity DNA binding, partly through an arginine contact to DNA backbone phosphates.",
+        "evidence": "In another example, a crystal structure of thymine DNA glycosylase with an extended N-terminus demonstrates that, although the structure of the N-terminal region is dynamic, it contributes to high affinity DNA binding, partly through an arginine contact to DNA backbone phosphates (38, 39).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      },
+      {
+        "protein_name": "Glucocorticoid receptor",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA",
+        "proposed_function": "IDR induces allosteric changes in the DNA binding domain to enhance DNA binding by stabilizing a high affinity conformation.",
+        "evidence": "For example, an IDR in the glucocorticoid receptor induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation (44).",
+        "curator_note": "Qualitative mention only; no specific residue coordinates provided in text."
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 12000,
+    "raw_extracted_count": 2,
+    "valid_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "The USR (Unstructured Region) stabilizes a conformation of the YTH domain that binds RNA with high affinity.",
+        "evidence": "In the case of Mmi1, the USR stabilizes a conformation of the YTH domain that binds RNA with high affinity.",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the USR are not provided in this text snippet."
+      },
+      {
+        "protein_name": "Glucocorticoid receptor",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA",
+        "proposed_function": "An IDR induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation.",
+        "evidence": "For example, an IDR in the glucocorticoid receptor induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation (44).",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the IDR are not provided in this text snippet."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "The USR (Unstructured Region) stabilizes a conformation of the YTH domain that binds RNA with high affinity.",
+        "evidence": "In the case of Mmi1, the USR stabilizes a conformation of the YTH domain that binds RNA with high affinity.",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the USR are not provided in this text snippet."
+      },
+      {
+        "protein_name": "Glucocorticoid receptor",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA",
+        "proposed_function": "An IDR induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation.",
+        "evidence": "For example, an IDR in the glucocorticoid receptor induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation (44).",
+        "curator_note": "Qualitative mention only; specific residue coordinates for the IDR are not provided in this text snippet."
+      }
+    ]
+  },
+  {
+    "chunk_index": 4,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "valid_count": 0,
+    "raw_annotations": [],
+    "valid_annotations": []
+  },
+  {
+    "chunk_index": 5,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "valid_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "282",
+        "end_of_annotation": "327",
+        "binding_target": "RNA",
+        "proposed_function": "The USR (Upstream Stabilization Region) increases the affinity of interaction of the Mmi1 YTH domain with RNA and slows the off-rate of the YTH domain for RNA.",
+        "evidence": "The USR increases the affinity of interaction of the Mmi1 YTH domain with RNA.",
+        "curator_note": "Exact positions inferred from Figure 1A schematic (USR spans 282-327, YTH spans 327-488) and Table 1 construct definitions (USR-YTH is 282-488, YTH is 327-488). The text explicitly identifies the USR as a low-complexity region in the figure legend."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "282",
+        "end_of_annotation": "327",
+        "binding_target": "RNA",
+        "proposed_function": "The USR (Upstream Stabilization Region) increases the affinity of interaction of the Mmi1 YTH domain with RNA and slows the off-rate of the YTH domain for RNA.",
+        "evidence": "The USR increases the affinity of interaction of the Mmi1 YTH domain with RNA.",
+        "curator_note": "Exact positions inferred from Figure 1A schematic (USR spans 282-327, YTH spans 327-488) and Table 1 construct definitions (USR-YTH is 282-488, YTH is 327-488). The text explicitly identifies the USR as a low-complexity region in the figure legend."
+      }
+    ]
+  },
+  {
+    "chunk_index": 6,
+    "chunk_length": 9604,
+    "raw_extracted_count": 2,
+    "valid_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "315",
+        "end_of_annotation": "326",
+        "binding_target": "RNA",
+        "proposed_function": "Enhances high-affinity binding to DSR RNA by slowing the off-rate and stabilizing the RNA-bound conformation through hydrophobic contacts with the core YTH domain and N-clamp.",
+        "evidence": "Figure 4. A network of interactions is formed between the USR, N-clamp, and core YTH domain. (A) Co-crystal structure of Mmi1 USR-YTH (residues 315–488 modelled) with DSR RNA. Cartoon representation shows protein in blue and RNA in yellow. The USR is shown in darker blue. (B) The conformation of the USR is stabilized by hydrophobic contacts with the core YTH domain and N-clamp. Residues labelled in turquoise either appear or show large chemical shift changes on RNA binding in NMR experiments (see Fig. 5).",
+        "curator_note": "Exact positions for the USR (315-326) are explicitly stated in Figure 4 legend and labels. The construct modeled is 315-488."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "The USR, N-clamp, and C-clamps are dynamic in the absence of RNA and become more ordered on RNA-binding, contacting or reinforcing contacts with RNA to enhance affinity.",
+        "evidence": "Figure 8. Model for RNA-binding by Mmi1. (A) Schematic diagram showing the contribution of different regions of Mmi1 to DSR RNA-binding. The core conserved YTH fold acts as a platform for RNA-binding but is unable to bind RNA with high affinity alone. The USR, N-clamp and C-clamps have no secondary structure and are dynamic in the absence of RNA (dashed lines). The USR and N-clamp likely exist in an equilibrium between multiple conformers, at least one of which has high affinity for RNA. On RNA-binding these regions become more ordered and contact or reinforce contacts with RNA.",
+        "curator_note": "Qualitative mention of USR, N-clamp, and C-clamps as low-complexity/dynamic regions. Specific residue coordinates for N-clamp and C-clamps are not provided in this text snippet, though USR is defined elsewhere in the document."
+      }
+    ],
+    "valid_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "315",
+        "end_of_annotation": "326",
+        "binding_target": "RNA",
+        "proposed_function": "Enhances high-affinity binding to DSR RNA by slowing the off-rate and stabilizing the RNA-bound conformation through hydrophobic contacts with the core YTH domain and N-clamp.",
+        "evidence": "Figure 4. A network of interactions is formed between the USR, N-clamp, and core YTH domain. (A) Co-crystal structure of Mmi1 USR-YTH (residues 315–488 modelled) with DSR RNA. Cartoon representation shows protein in blue and RNA in yellow. The USR is shown in darker blue. (B) The conformation of the USR is stabilized by hydrophobic contacts with the core YTH domain and N-clamp. Residues labelled in turquoise either appear or show large chemical shift changes on RNA binding in NMR experiments (see Fig. 5).",
+        "curator_note": "Exact positions for the USR (315-326) are explicitly stated in Figure 4 legend and labels. The construct modeled is 315-488."
+      },
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA",
+        "proposed_function": "The USR, N-clamp, and C-clamps are dynamic in the absence of RNA and become more ordered on RNA-binding, contacting or reinforcing contacts with RNA to enhance affinity.",
+        "evidence": "Figure 8. Model for RNA-binding by Mmi1. (A) Schematic diagram showing the contribution of different regions of Mmi1 to DSR RNA-binding. The core conserved YTH fold acts as a platform for RNA-binding but is unable to bind RNA with high affinity alone. The USR, N-clamp and C-clamps have no secondary structure and are dynamic in the absence of RNA (dashed lines). The USR and N-clamp likely exist in an equilibrium between multiple conformers, at least one of which has high affinity for RNA. On RNA-binding these regions become more ordered and contact or reinforce contacts with RNA.",
+        "curator_note": "Qualitative mention of USR, N-clamp, and C-clamps as low-complexity/dynamic regions. Specific residue coordinates for N-clamp and C-clamps are not provided in this text snippet, though USR is defined elsewhere in the document."
+      }
+    ]
+  }
+]

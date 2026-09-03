@@ -1,0 +1,14 @@
+services:
+  platoloco-api:
+    build:
+      context: ./docker/platoloco/platolocorestapi
+      dockerfile: Dockerfile
+    container_name: lcr-platoloco-api
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5002:5002"
+    volumes:
+      - platoloco_data:/platolocorestapi/data
+
+volumes:
+  platoloco_data:

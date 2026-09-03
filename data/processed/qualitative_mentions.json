@@ -1,11 +1,65 @@
 [
   {
-    "file": "ADVS-9999-e76625.pdf",
-    "protein_name": "TDP-43 LCD",
+    "file": "1-s2.0-S0003986126002274-main.pdf",
+    "protein_name": "RYBP",
+    "organism": "Human",
+    "binding_target": "Protein",
+    "evidence": "We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides.",
+    "curator_note": "Qualitative mention only; no exact residue numbers for the RYBP region.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "1-s2.0-S0003986126002274-main.pdf",
+    "protein_name": "C-RING1B peptide",
     "organism": "Unspecified",
-    "binding_target": "Protein (self-association/micellization)",
-    "evidence": "Collectively, these results demonstrate that the phosphomimetic LCD variants 12D and 12DD reproduce the essential feature of phosphorylation-driven micellization, forming spherical micelles above a low-micromolar CMC with concentration-independent sizes, underscoring the role of C-terminal charge in redirecting self-organization.",
-    "curator_note": "Qualitative mention only; exact residue coordinates not provided. Suggest UniProt canonical lookup for TDP-43 LCD boundaries.",
+    "binding_target": "Protein",
+    "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
+    "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "1-s2.0-S0003986126002274-main.pdf",
+    "protein_name": "RYBP peptide",
+    "organism": "Unspecified",
+    "binding_target": "Protein",
+    "evidence": "C-RING1B and RYBP peptides were capable of binding to PADI4.",
+    "curator_note": "Qualitative mention of a disordered (low‑complexity) peptide; no exact residue positions provided.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "1-s2.0-S0003986126002274-main.pdf",
+    "protein_name": "PADI4",
+    "organism": "Unspecified",
+    "binding_target": "Protein",
+    "evidence": "Isolated auto-citrullinated regions of PADI4 associate to the intact protein without altering their disordered conformation.",
+    "curator_note": "Qualitative mention only; no residue numbers provided.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "ADVS-9999-e76625.pdf",
+    "protein_name": "TDP-43",
+    "organism": "Unspecified",
+    "binding_target": "Protein",
+    "evidence": "Under these conditions, unphosphorylated TDP-43-LCD (non-phLCD) readily formed continuously growing clusters (Figure 2b ), consistent with its strong experimental propensity for phase separation.",
+    "curator_note": "Exact residue boundaries of the LCD are not given; only a sub‑region (residues 101–148) is mentioned for phosphorylation sites. Suggest consulting UniProt for full LCD coordinates.",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "ADVS-9999-e76625.pdf",
+    "protein_name": "Matrin-3",
+    "organism": "Unspecified",
+    "binding_target": "RNA",
+    "evidence": "Matrin-3 Forms Spherical and Wormlike Assemblies That Are Modulated by RNA Binding and ALS/FTD-Associated Mutations",
+    "curator_note": "Qualitative mention only; no residue positions provided",
+    "flag": "Qualitative mention only (no exact numbers in text)"
+  },
+  {
+    "file": "1-s2.0-S0898656826003888-main.pdf",
+    "protein_name": "YBX1",
+    "organism": "Human",
+    "binding_target": "RNA",
+    "evidence": "YBX1 underwent liquid-liquid phase separation (LLPS) through its C-terminal intrinsically disordered region (IDR), and YBX1 condensates co-localized with GPX4 mRNA.",
+    "curator_note": "Qualitative mention only; exact positions not provided.",
     "flag": "Qualitative mention only (no exact numbers in text)"
   }
 ]

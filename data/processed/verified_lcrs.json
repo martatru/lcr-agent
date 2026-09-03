@@ -1,13 +1,57 @@
 [
   {
+    "file": "BIP-117-e70120.pdf",
+    "protein_name": "Gab1",
+    "organism": "Unspecified",
+    "start_of_annotation": 497,
+    "end_of_annotation": 528,
+    "binding_target": "Protein",
+    "proposed_function": "mediates protein-protein interaction with Grb2 SH3 domain via polyproline II helix",
+    "evidence": "a previously described complex of Grb2 with Gab1 (497–528) shows an extended polyproline II‑helix, which is analogous to other SH3‑mediated complexes such as CD2AP_2:RIN, Fyn:App12, and p40phox:p47phox.",
+    "curator_note": "Exact positions given"
+  },
+  {
+    "file": "1-s2.0-S0003986126002274-main.pdf",
+    "protein_name": "C-RING1B",
+    "organism": "Human",
+    "start_of_annotation": 228,
+    "end_of_annotation": 336,
+    "binding_target": "Protein",
+    "proposed_function": "Mediates binding to PADI4 (enzyme) via its C‑terminal low‑complexity/disordered region",
+    "evidence": "We have recently reported that PADI4 binds to RYBP [36] and the RAWUL domain of RING1B, C-RING1B (residues 228-336 of the intact protein) [37], modifying some of the arginines in those polypeptides.",
+    "curator_note": "Exact positions (228‑336) are provided in the text."
+  },
+  {
+    "file": "ADVS-9999-e76625.pdf",
+    "protein_name": "TDP-43 LCD",
+    "organism": "Unspecified",
+    "start_of_annotation": 1,
+    "end_of_annotation": 148,
+    "binding_target": "Protein",
+    "proposed_function": "Mediates protein‑protein self‑assembly into micelles and phase‑separated droplets",
+    "evidence": "In unphosphorylated TDP-43 LCD, contacts are broadly distributed along the sequence, with 2-2 interactions dominating, followed by 2–3, while 1-1 contacts are less frequent, likely due to the modest net positive charge of block 1.",
+    "curator_note": "Exact positions given for the LCD (residues 1–148)."
+  },
+  {
     "file": "ADVS-9999-e76625.pdf",
     "protein_name": "TDP-43",
     "organism": "Unspecified",
     "start_of_annotation": 267,
     "end_of_annotation": 414,
     "binding_target": "Protein",
-    "proposed_function": "Self-assembly and phase separation via multivalent interactions",
-    "evidence": "Its disordered C-terminal low-complexity domain (LCD, residues 267–414), rich in glycine, glutamine/asparagine, and serine, bears features of a prion-like region and plays a central role in self-assembly of the protein and in the pathogenesis of neurodegenerative diseases [ 3, 4 ].",
-    "curator_note": "Exact positions given (residues 267-414). Corresponds to canonical TDP-43 LCD."
+    "proposed_function": "Mediates protein-protein self‑association leading to phase separation",
+    "evidence": "To directly visualize the phase separation behavior of unphosphorylated and phosphorylated TDP-43 LCD, time-lapse fluorescence imaging was performed on a Yokogawa spinning disk confocal microscope.",
+    "curator_note": "Exact positions given (267-414); consider confirming with UniProt canonical sequence."
+  },
+  {
+    "file": "1-s2.0-S0898656826003888-main.pdf",
+    "protein_name": "YBX1",
+    "organism": "Human",
+    "start_of_annotation": 240,
+    "end_of_annotation": 253,
+    "binding_target": "Protein",
+    "proposed_function": "Mediates interaction with the SG nucleating protein G3BP1",
+    "evidence": "Radiation stress promoted the interaction between YBX1 and the SG nucleating protein G3BP1 via YBX1 amino acids 240–253.",
+    "curator_note": "Exact positions given."
   }
 ]

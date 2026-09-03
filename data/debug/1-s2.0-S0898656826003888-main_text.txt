@@ -170,7 +170,7 @@ China) also containing 10% FBS (Gibco). All cells were maintained at
 37 ◦C in a humidified incubator with 5% CO2. Subculture was per­
 formed when cells reached 80–90% confluence. All cell lines were 
 authenticated by Short Tandem Repeat (STR) profiling and confirmed to 
-be free of mycoplasma contamination using the MycoAlertTM kit. For 
+be free of mycoplasma contamination using the MycoAlert™ kit. For 
 hypoxic conditions, cells were cultured at 37 ◦C in an atmosphere of 1% 
 O2 and 5% CO2.
 2.4. Generation of gene knockout cell lines
@@ -248,17 +248,20 @@ Fisher Scientific, #88802) pre-coupled with the relevant antibody,
 rotating for 1 h at 4 ◦C. Subsequently, 50 μL of fresh Protein A/G 
 magnetic beads were added, and the mixture was incubated rotating for 
 an additional 4 h at 4 ◦C. After washing and elution, proteins were 
-analyzed by Western blotting. A mouse anti-rabbit IgG (conformationspecific) monoclonal antibody (HRP Conjugate, #5127) was used as 
+analyzed by Western blotting. A mouse anti-rabbit IgG (conformation- 
+specific) monoclonal antibody (HRP Conjugate, #5127) was used as 
 the secondary antibody where appropriate, followed by ECL detection.
 2.8. Fluorescence recovery after photobleaching (FRAP)
 FRAP assays were performed using a confocal microscope system 
 (Nikon AXR). Cells were seeded in glass-bottom confocal dishes and 
 cultured for 48 h. Suitable fields of view were identified, and pre-bleach 
 fluorescence images were captured. Whole droplets or regions of interest 
-were photobleached using a 561 nm laser at 50% power for 1 s. Timelapse images were acquired for 3 min post-bleaching. Fluorescence in­
+were photobleached using a 561 nm laser at 50% power for 1 s. Time- 
+lapse images were acquired for 3 min post-bleaching. Fluorescence in­
 tensity values were recorded to generate recovery curves [22].
 2.9. Real-time quantitative PCR (qRT-PCR)
-Total RNA was extracted using TRIzol (Invitrogen) and reversetranscribed to cDNA (PrimeScript RT Kit, Takara). The expression 
+Total RNA was extracted using TRIzol (Invitrogen) and reverse- 
+transcribed to cDNA (PrimeScript RT Kit, Takara). The expression 
 levels of FTL, FTH-1, IREB2, FSP1, DMT1, SLC7A11, and SLC3A2 were 
 detected using the SYBR Green method (TB Green Premix, Takara). 
 Relative expression levels were calculated with GAPDH as the internal 
@@ -272,7 +275,8 @@ FastPure Cell/Tissue Total RNA Isolation Kit (Vazyme, China). The pu­
 rified RNA was then reverse-transcribed into complementary DNA 
 (cDNA) using HiScript III RT SuperMix for qPCR (Vazyme, China). 
 Quantitative real-time PCR (qPCR) was carried out with Taq Pro Uni­
-versal SYBR qPCR Master Mix (Vazyme, China) on a 7500 Fast RealTime PCR System (Thermo Fisher Scientific, USA).
+versal SYBR qPCR Master Mix (Vazyme, China) on a 7500 Fast Real- 
+Time PCR System (Thermo Fisher Scientific, USA).
 2.11. mRNA stability assay
 The stability of GPX4 mRNA was evaluated using a transcriptional 
 inhibition assay. Cells were treated with actinomycin D (ActD; Sigma, 
@@ -280,9 +284,11 @@ A9415, USA) at a final concentration of 5 μg/mL to block de novo
 transcription. At specific time points after ActD treatment, total RNA 
 was extracted from the cells using an appropriate RNA isolation kit 
 (FastPure Cell/Tissue Total RNA Isolation, Vazyme). The abundance of 
-GPX4 mRNA at each time point was quantified by PCR using genespecific primers. The mRNA decay kinetics were analyzed by plotting 
+GPX4 mRNA at each time point was quantified by PCR using gene- 
+specific primers. The mRNA decay kinetics were analyzed by plotting 
 the relative GPX4 mRNA levels against the time after ActD treatment. 
-The half-life of GPX4 mRNA was calculated from the slope of the semilog linear regression line, assuming first-order decay kinetics.
+The half-life of GPX4 mRNA was calculated from the slope of the semi- 
+log linear regression line, assuming first-order decay kinetics.
 2.12. Animal model
 An orthotopic lung cancer model was established in male C57BL/6 
 mice (6–8 weeks old) by injecting 1 × 106LLC cells into the left lung via 
@@ -515,7 +521,8 @@ Cellular Signalling 147 (2026) 112731
 
 Mechanistic rescue experiments demonstrated that adding the ferrop­
 tosis inhibitor Ferrostatin-1 to cells treated with YBX1 knockout com­
-bined with radiotherapy significantly reversed the radiotherapyexacerbated ROS burst (Fig. 3E, F). Detection using ferrous ion fluo­
+bined with radiotherapy significantly reversed the radiotherapy- 
+exacerbated ROS burst (Fig. 3E, F). Detection using ferrous ion fluo­
 rescent probes, C11-BODIPY fluorescent probes (both immunofluores­
 cence and flow cytometry), and 4-HNE showed that the YBX1 knockout 
 combined with radiotherapy group exhibited the most significant 
@@ -559,7 +566,8 @@ mRNA expression was significantly downregulated upon YBX1 knockout
 in both cell lines (Fig. 4A-F). These results indicate that GPX4 is a key 
 downstream effector molecule mediating the function of YBX1. To verify 
 the role of GPX4 in YBX1-mediated ferroptosis suppression, we estab­
-lished four experimental groups: Control, GPX4 overexpression (OEGPX4), YBX1 knockout (YBX1-KO), and YBX1 knockout with GPX4 
+lished four experimental groups: Control, GPX4 overexpression (OE- 
+GPX4), YBX1 knockout (YBX1-KO), and YBX1 knockout with GPX4 
 overexpression (YBX1-KO + OE-GPX4). ROS and Fe2+ fluorescence 
 probe detection (Fig. 4G, H; Fig. S1K-N) showed that YBX1 knockout 
 significantly elevated ROS and Fe2+ levels, an effect effectively reversed 
@@ -590,16 +598,19 @@ also showed a synchronous increase. Molecular docking simulations
 predicted an interaction interface between YBX1 and G3BP1 proteins 
 (Fig. 5B). To confirm this interaction, co-immunoprecipitation (Co-IP) 
 experiments demonstrated that YBX1 and G3BP1 indeed interact 
-(Fig. 5C, D). Further Co-IP experiments showed that compared to nonirradiated cells, the interaction between YBX1 and G3BP1 proteins 
+(Fig. 5C, D). Further Co-IP experiments showed that compared to non- 
+irradiated cells, the interaction between YBX1 and G3BP1 proteins 
 was significantly enhanced in cells treated with 8 Gy irradiation (Fig. 5E, 
 F). To further confirm the direct nature of this interaction and exclude 
 potential interference from cross-reactivity of endogenous proteins, we 
 constructed expression vectors with different tags: FLAG-tagged YBX1 
-(FLAG-YBX1) and HA-tagged G3BP1 (HA-G3BP1). Following cotransfection into cells and treatment with or without 8 Gy irradiation, 
+(FLAG-YBX1) and HA-tagged G3BP1 (HA-G3BP1). Following co- 
+transfection into cells and treatment with or without 8 Gy irradiation, 
 Co-IP experiments confirmed that the interaction between exogenous 
 YBX1 and G3BP1 was also significantly enhanced in irradiated cells 
 compared to non-irradiated controls (Fig. 5G, H). These results indicate 
-that ionizing radiation treatment significantly promotes the proteinprotein interaction between YBX1 and G3BP1. To further map the spe­
+that ionizing radiation treatment significantly promotes the protein- 
+protein interaction between YBX1 and G3BP1. To further map the spe­
 cific interaction domain between YBX1 and G3BP1, we constructed 
 expression vectors for FLAG-tagged wild-type YBX1 (FLAG-YBX1-WT) 
 and mutant YBX1 with deletion of amino acids 240–253 (FLAG-YBX1- 
@@ -832,7 +843,8 @@ cally evaluate the roles of these genes in the YBX1-mediated ferroptosis
 pathway and whether they form a broader regulatory network with 
 YBX1.
 The principal discovery of this study is that YBX1 mediates radio­
-resistance in LUAD by enhancing GPX4 mRNA stability through a posttranscriptional mechanism, rather than by directly regulating GPX4 
+resistance in LUAD by enhancing GPX4 mRNA stability through a post- 
+transcriptional mechanism, rather than by directly regulating GPX4 
 L. Tong et al. 
 Cellular Signalling 147 (2026) 112731 
 13 
@@ -869,13 +881,15 @@ further supporting GPX4 as the primary downstream effector of YBX1 in
 suppressing ferroptosis.
 Notably, our study revealed that ionizing radiation significantly 
 induced the upregulation and enhanced interaction between YBX1 and 
-the SG nucleating protein G3BP1 [27]. Stress granules are nonmembranous organelles formed under stress conditions that promote 
+the SG nucleating protein G3BP1 [27]. Stress granules are non- 
+membranous organelles formed under stress conditions that promote 
 cell survival by transiently storing mRNA and translation complexes. 
 YBX1, as an RNA-binding protein, has been suggested to localize to SGs 
 in previous studies; however, its direct interaction with G3BP1 and the 
 regulatory mechanisms remained unclear. Through molecular docking, 
 co-immunoprecipitation, and domain truncation experiments, we 
-demonstrated for the first time that YBX1 binds to G3BP1 in a stressdependent manner via its amino acids 240–253. Functional ablation of 
+demonstrated for the first time that YBX1 binds to G3BP1 in a stress- 
+dependent manner via its amino acids 240–253. Functional ablation of 
 this interaction using the YBX1 Δ240–253 mutant not only abolished the 
 binding but also significantly impaired the ability of YBX1 to suppress 
 ferroptosis and confer radioresistance, as evidenced by increased ROS/ 
@@ -906,7 +920,8 @@ suppress ferroptosis and radiosensitization, as demonstrated by
 increased ROS/Fe2+, decreased GSH and cystine uptake, and reduced 
 cell viability. These results indicate that YBX1 phase separation is 
 required for the stable expression of GPX4 mRNA and the subsequent 
-protection against ferroptosis. This mode of spatially organized posttranscriptional regulation via phase separation offers a novel 
+protection against ferroptosis. This mode of spatially organized post- 
+transcriptional regulation via phase separation offers a novel 
 perspective on how tumor cells rapidly respond to stress and establish 
 therapeutic resistance.
 In vivo experiments further validated the translational potential of 
@@ -947,7 +962,8 @@ dual-mechanism synergy between HDAC inhibition and ferroptosis in­
 duction [32]. These findings suggest that combining epigenetic regula­
 tors (e.g., HDAC inhibitors) with ferroptosis inducers holds promising 
 translational potential. In contrast to the above studies, our work focuses 
-on YBX1, a core stress granule protein, and reveals a novel posttranscriptional mechanism by which YBX1 enhances GPX4 mRNA sta­
+on YBX1, a core stress granule protein, and reveals a novel post- 
+transcriptional mechanism by which YBX1 enhances GPX4 mRNA sta­
 bility in a phase separation-dependent manner, thereby suppressing 
 ferroptosis and promoting radioresistance. This enriches the mecha­
 nistic understanding of ferroptosis in tumor therapy resistance. 
@@ -976,7 +992,8 @@ Cellular Signalling 147 (2026) 112731
 15 
 
 This study has several limitations. First, although we clearly 
-demonstrated that YBX1 upregulates GPX4 expression through a posttranscriptional mechanism (enhancing GPX4 mRNA stability) using 
+demonstrated that YBX1 upregulates GPX4 expression through a post- 
+transcriptional mechanism (enhancing GPX4 mRNA stability) using 
 RIP, mRNA stability assays, and CSD mutants, we did not perform 
 ribosome profiling or translation efficiency assays. Therefore, the po­
 tential influence of YBX1 on GPX4 translation cannot be completely 
@@ -993,14 +1010,17 @@ shRNA-mediated knockdown rather than complete knockout. The
 possible residual functional compensation from partial knockdown still 
 needs to be confirmed using CRISPR/Cas9 knockout systems.
 The clinical translation of targeting YBX1 for LUAD therapy faces 
-multiple challenges. First, no highly selective, orally bioavailable smallmolecule inhibitors of YBX1 have yet entered clinical studies. Second, 
+multiple challenges. First, no highly selective, orally bioavailable small- 
+molecule inhibitors of YBX1 have yet entered clinical studies. Second, 
 YBX1 is also basally expressed in normal tissues and participates in stress 
 responses and cell survival. Systemic inhibition of YBX1 may increase 
 the radiosensitivity of normal tissues or overactivate ferroptosis, leading 
 to potential toxicity. Therefore, developing tumor-specific targeting 
-strategies (e.g., tumor microenvironment-responsive prodrugs, nanodelivery systems, or local combination with radiotherapy) may repre­
+strategies (e.g., tumor microenvironment-responsive prodrugs, nano- 
+delivery systems, or local combination with radiotherapy) may repre­
 sent future directions. Third, as an emerging targeting concept, phase 
-separation currently lacks mature drug screening platforms. Smallmolecule or peptide inhibitors targeting the YBX1 IDR or the G3BP1 
+separation currently lacks mature drug screening platforms. Small- 
+molecule or peptide inhibitors targeting the YBX1 IDR or the G3BP1 
 interaction interface require the establishment of high-throughput 
 screening systems based on droplet fusion, turbidity, or fluorescence 
 recovery, which are technically demanding. In summary, strategies 
@@ -1039,3 +1059,134 @@ This work was supported by grants from Guiding Plan for the Life and
 Health Sector of Dalian 2024ZDJH01PT189.
 Data availability
 Data will be made available on request.
+References
+[1] N. Bouchard, N. Daaboul, Lung Cancer: targeted therapy in 2025, Curr. Oncol. 32 
+(3) (2025) 146.
+[2] A. Banerjee, I. Vathiotis, D. Halder, U. Sen, X. Wang, M.D. Shields, R. 
+R. Veluswamy, K. Syrigos, F.R. Hirsch, T. Sen, Molecular landscape and therapeutic 
+strategies of lung Cancer lineage plasticity, J. Thorac. Oncol. 20 (11) (2025) 
+1582–1593.
+[3] Y. Shen, J.Q. Chen, X.P. Li, Differences between lung adenocarcinoma and lung 
+squamous cell carcinoma: driver genes, therapeutic targets, and clinical efficacy, 
+Genes Dis. 12 (3) (2024) 101374.
+[4] F. Meng, J. Li, Z. Xia, Q. Wang, Q. Sun, S. Wang, L. Xu, R. Yin, Persistent lineage 
+plasticity driving lung cancer development and progression, Clin. Transl. Med. 15 
+(8) (2025) e70458.
+[5] T. Li, Z. Zeng, C. Fan, W. Xiong, Role of stress granules in tumorigenesis and cancer 
+therapy, Biochim. Biophys. Acta Rev. Cancer 1878 (6) (2023) 189006.
+[6] G. Fonteneau, A. Redding, H. Hoag-Lee, E.S. Sim, S. Heinrich, M.M. Gaida, 
+E. Grabocka, Stress granules determine the development of obesity-associated 
+pancreatic Cancer, Cancer Discov. 12 (8) (2022) 1984–2005.
+[7] F. Meng, H. Li, Y. Huang, C. Wang, Y. Liu, C. Zhang, D. Chen, T. Zeng, S. Zhang, 
+Y. Li, B. Zhang, C. Lang, J. Xia, W. Xiong, S. Pan, X. Sun, R.F. Thorne, Y. Liu, 
+J. Wang, S. Zhang, R. Song, J. Wang, L. Liu, RIOK1 phase separation restricts PTEN 
+translation via stress granules activating tumor growth in hepatocellular 
+carcinoma, Nat Cancer. 6 (7) (2025) 1223–1241.
+[8] C. Wang, H. Tanizawa, C. Hill, A. Havas, Q. Zhang, L. Liao, X. Hao, X. Lei, L. Wang, 
+H. Nie, Y. Qi, B. Tian, A. Gardini, A.V. Kossenkov, A. Goldman, S.L. Berger, K. 
+I. Noma, P.D. Adams, R. Zhang, METTL3-mediated chromatin contacts promote 
+stress granule phase separation through metabolic reprogramming during 
+senescence, Nat. Commun. 15 (1) (2024) 5410.
+[9] H. Bi, W. Li, L. Ren, H. Zhang, L. Dong, A. Chan, X. Wang, L. Yang, X. Zhang, 
+M. Xue, H. Qin, X. Wu, J.T. Hoeve-Scott, B. Zhang, L. Li, M. Wunderlich, J. 
+C. Mulloy, S.T. Rosen, J. Chen, X. Li, C.W. Chen, R. Su, DDX6 undergoes phase 
+separation to modulate metabolic plasticity and chemoresistance, Nat. Commun. 
+17 (1) (2025) 260.
+[10] Z. Zhao, Y. Qing, L. Dong, L. Han, D. Wu, Y. Li, W. Li, J. Xue, K. Zhou, M. Sun, 
+B. Tan, Z. Chen, C. Shen, L. Gao, A. Small, K. Wang, K. Leung, Z. Zhang, X. Qin, 
+X. Deng, Q. Xia, R. Su, J. Chen, QKI shuttles internal m7G-modified transcripts into 
+stress granules and modulates mRNA metabolism, Cell 186 (15) (2023) 
+3208–3226.e27.
+[11] S. Challa, T. Nandu, H.B. Kim, X. Gong, C.W. Renshaw, W.C. Li, X. Tan, M. 
+W. Aljardali, C.V. Camacho, J. Chen, W.L. Kraus, RACK1 MARylation regulates 
+translation and stress granules in ovarian cancer cells, J. Cell Biol. 224 (2) (2025) 
+e202401101.
+[12] C. Huang, J. Huang, R. Lu, A.J. Yu, A.S. Yu, Y. Cao, L. Li, J. Li, H. Li, Z. Zhou, 
+Y. Zhang, A. Xu, R. Chen, Y. Wang, X. Zhao, J. Huang, Y. Fu, M. Xu, H. Zhang, 
+J. Yu, PABPC1 SUMOylation enhances cell survival by promoting mitophagy 
+through stabilizing U-rich mRNAs within stress granules, Nat. Commun. 16 (1) 
+(2025) 7308.
+[13] Y. Wang, J. Wei, L. Feng, O. Li, L. Huang, S. Zhou, Y. Xu, K. An, Y. Zhang, R. Chen, 
+L. He, Q. Wang, H. Wang, Y. Du, R. Liu, C. Huang, X. Zhang, Y.G. Yang, Q. Kan, 
+X. Tian, Aberrant m5C hypermethylation mediates intrinsic resistance to gefitinib 
+through NSUN2/YBX1/QSOX1 axis in EGFR-mutant non-small-cell lung cancer, 
+Mol. Cancer 22 (1) (2023) 81.
+[14] C. Lin, P. Lin, H. Yao, S. Liu, X. Lin, R. He, Z. Teng, X. Zuo, Y. Li, J. Ye, G. Zhu, 
+Modulation of YBX1-mediated PANoptosis inhibition by PPM1B and USP10 confers 
+chemoresistance to oxaliplatin in gastric cancer, Cancer Lett. 587 (2024) 216712.
+[15] H. Meng, H. Miao, Y. Zhang, T. Chen, L. Yuan, Y. Wan, Y. Jiang, L. Zhang, 
+W. Cheng, YBX1 promotes homologous recombination and resistance to platinum- 
+induced stress in ovarian cancer by recognizing m5C modification, Cancer Lett. 
+597 (2024) 217064.
+[16] B. Chen, Y. Deng, Y. Hong, L. Fan, X. Zhai, H. Hu, S. Yin, Q. Chen, X. Xie, X. Ren, 
+J. Zhao, C. Jiang, Metabolic recoding of NSUN2-mediated m5C modification 
+promotes the progression of colorectal Cancer via the NSUN2/YBX1/m5C-ENO1 
+positive feedback loop, Adv. Sci. (Weinh). 11 (28) (2024) e2309840.
+[17] Y. El Bakkouri, R. Chidiac, C. Delisle, J. Corriveau, G. Cagnone, V. Gaonac’h- 
+Lovejoy, A. Chin, ´E. L´ecuyer, S. Angers, J.S. Joyal, I. Topisirovic, L. Hulea, 
+A. Dubrac, J.P. Gratton, ZO-1 interacts with YB-1 in endothelial cells to regulate 
+stress granule formation during angiogenesis, Nat. Commun. 15 (1) (2024) 4405.
+L. Tong et al. 
+Cellular Signalling 147 (2026) 112731 
+16 
+
+[18] S. Mao, C. Xie, Y. Liu, Y. Zhao, M. Li, H. Gao, Y. Xiao, Y. Zou, Z. Zheng, Y. Gao, 
+J. Xie, B. Tian, L. Wang, Y. Hua, H. Xu, Apurinic/apyrimidinic 
+endodeoxyribonuclease 1 (APE1) promotes stress granule formation via YBX1 
+phosphorylation in ovarian cancer, Cell. Mol. Life Sci. 81 (1) (2024) 113.
+[19] Q. Zhou, Y. Meng, D. Li, L. Yao, J. Le, Y. Liu, Y. Sun, F. Zeng, X. Chen, G. Deng, 
+Ferroptosis in cancer: from molecular mechanisms to therapeutic strategies, Signal 
+Transduct. Target. Ther. 9 (1) (2024) 55.
+[20] S.J. Dixon, J.A. Olzmann, The cell biology of ferroptosis, Nat. Rev. Mol. Cell Biol. 
+25 (6) (2024) 424–442.
+[21] Y. Mou, J. Wang, J. Wu, D. He, C. Zhang, C. Duan, B. Li, Ferroptosis, a new form of 
+cell death: opportunities and challenges in cancer, J. Hematol. Oncol. 12 (1) (2019) 
+34.
+[22] A. Agarwal, A. Chandran, F. Raza, I.M. Ungureanu, C. Hilcenko, K. Stott, N. 
+A. Bright, N. Morone, A.J. Warren, J. Lautenschl¨ager, VAMP2 regulates phase 
+separation of α-synuclein, Nat. Cell Biol. 26 (8) (2024) 1296–1308.
+[23] G. Miotto, M. Rossetto, M.L. Di Paolo, L. Orian, R. Venerando, A. Roveri, A. 
+M. Vuˇckovi´c, V. Bosello Travain, M. Zaccarin, L. Zennaro, M. Maiorino, S. Toppo, 
+F. Ursini, G. Cozza, Insight into the mechanism of ferroptosis inhibition by 
+ferrostatin-1, Redox Biol. 28 (2020) 101328.
+[24] Y. Liu, Y. Wan, Y. Jiang, L. Zhang, W. Cheng, GPX4: the hub of lipid oxidation, 
+ferroptosis, disease and treatment, Biochim. Biophys. Acta Rev. Cancer 1878 (3) 
+(2023) 188890.
+[25] B. Huang, H. Wang, S. Liu, M. Hao, D. Luo, Y. Zhou, Y. Huang, Y. Nian, L. Zhang, 
+B. Chu, C. Yin, Palmitoylation-dependent regulation of GPX4 suppresses 
+ferroptosis, Nat. Commun. 16 (1) (2025) 867.
+[26] L. Zhou, G. Lian, T. Zhou, Z. Cai, S. Yang, W. Li, L. Cheng, Y. Ye, M. He, J. Lu, 
+Q. Deng, B. Huang, X. Zhou, D. Lu, F. Zhi, J. Cui, Palmitoylation of GPX4 via the 
+targetable ZDHHC8 determines ferroptosis sensitivity and antitumor immunity, 
+Nat. Cancer. 6 (5) (2025) 768–785.
+[27] Y. Ge, J. Jin, J. Li, M. Ye, X. Jin, The roles of G3BP1 in human diseases (review), 
+Gene 821 (2022) 146294.
+[28] K. Breunig, X. Lei, M. Montalbano, G.D.A. Guardia, S. Ostadrahimi, V. Alers, 
+A. Kosti, J. Chiou, N. Klein, C. Vinarov, L. Wang, M. Li, W. Song, W.L. Kraus, D. 
+S. Libich, S. Tiziani, S.T. Weintraub, P.A.F. Galante, L.O. Penalva, SERBP1 interacts 
+with PARP1 and is present in PARylation-dependent protein complexes regulating 
+splicing, cell division, and ribosome biogenesis, Elife 13 (2025) RP98152.
+[29] H. Zhou, D. Qin, C. Xie, J. Zhou, S. Jia, Z. Zhou, Y. Qiu, B. Xu, J. Zha, Combinations 
+of HDAC inhibitor and PPAR agonist induce ferroptosis of leukemic stem cell-like 
+cells in acute myeloid Leukemia, Clin. Cancer Res. 30 (23) (2024) 5430–5444.
+[30] Z. Yang, W. Su, Q. Zhang, L. Niu, B. Feng, Y. Zhang, F. Huang, J. He, Q. Zhou, 
+X. Zhou, L. Ma, J. Zhou, Y. Wang, W. Xiong, J. Xiang, Z. Hu, Q. Zhan, B. Yao, 
+Lactylation of HDAC1 confers resistance to ferroptosis in colorectal Cancer, Adv. 
+Sci. (Weinh). 12 (12) (2025) e2408845.
+[31] R. Liu, X. Li, J. Xu, L. Yan, K. Hu, M. Shi, Y. Zhang, Y. Zhao, Y. Fan, G. Wang, 
+Y. Guo, Y. Feng, P. Liu, The contrasting regulatory effects of valproic acid on 
+ferroptosis and disulfidptosis in hepatocellular carcinoma, Theranostics 15 (17) 
+(2025) 9091–9113.
+[32] E. Karaj, S.H. Sindi, N. Kuganesan, R.A. Koranne, J.R. Knoff, A.W. James, Y. Fu, L. 
+N. Kotsull, M.K. Pflum, Z. Shah, W.R. Taylor, L.M.V. Tillekeratne, First-in-class 
+dual mechanism ferroptosis-HDAC inhibitor hybrids, J. Med. Chem. 65 (21) (2022) 
+14764–14791.
+[33] J. Chen, Z. Shi, Y. Chen, K. Xiong, Y. Wang, H. Zhang, A CoQ10 analog ameliorates 
+cognitive impairment and early brain injury after subarachnoid hemorrhage by 
+regulating ferroptosis and neuroinflammation, Redox Biol. 84 (2025) 103684.
+[34] J. Chen, Z. Shi, C. Zhang, K. Xiong, W. Zhao, Y. Wang, Oroxin a alleviates early 
+brain injury after subarachnoid hemorrhage by regulating ferroptosis and 
+neuroinflammation, J. Neuroinflammation 21 (1) (2024) 116.
+L. Tong et al. 
+Cellular Signalling 147 (2026) 112731 
+17

@@ -43,10 +43,6 @@ class LCRAttribute(BaseModel):
         default="Requires Manual Check",
         description="Must be 'Verified' if experimental binding and coordinates are present; otherwise 'Requires Manual Check'"
     )
-    curator_note: str = Field(
-        default="Unspecified",
-        description="Flag or suggestion for biocuration, e.g. 'Exact positions given' or 'Qualitative mention only'"
-    )
 
 
 class LCRResponse(BaseModel):

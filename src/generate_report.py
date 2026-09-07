@@ -2,8 +2,8 @@
 LCR Biocuration HTML Report Generator.
 
 Integrates curated Low-Complexity Region (LCR) records with UniProt metadata
-and PlaToLoCo sequence visualizers. Features smart interval merging for clean tracks
-and hover-only coordinate tooltips to avoid visual clutter.
+and PlaToLoCo sequence visualizers. Features an expanded fluid dashboard layout,
+responsive table wrappers, and hover-only coordinate tooltips.
 """
 
 import json
@@ -320,14 +320,14 @@ def generate_platoloco_style_svg(
 ) -> str:
     """Generate multi-track SVG visualizer with merged regions and hover-only tooltips."""
     if not isinstance(seq_length, int) or seq_length <= 0:
-        return '<span style="color: #94a3b8; font-size: 11px;">Sequence length unavailable</span>'
+        return '<span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>'
 
     annot_regions = []
     if annot_start is not None and annot_end is not None and annot_start <= annot_end:
         annot_regions.append({"start": annot_start, "end": annot_end})
 
     tracks = [
-        {"label": "Annotated LCR", "color": "#f97316", "regions": annot_regions},
+        {"label": "Annotated Sequence", "color": "#f97316", "regions": annot_regions},
         {"label": "SEG", "color": "#d946ef", "regions": platoloco_methods.get("SEG", [])},
         {
             "label": "SEG-intermediate",
@@ -386,7 +386,7 @@ def generate_platoloco_style_svg(
             f"L {tag_x} {tag_y + tag_h} Z"
         )
 
-        svg_elements.append(f'<path d="{tag_path}" fill="#e2e8f0"/>')
+        svg_elements.append(f'<path d="{tag_path}" fill="#f1f5f9"/>')
         svg_elements.append(
             f'<text x="{tag_x + 8}" y="{y_base + 3}" fill="#475569" '
             f'font-size="10" font-weight="600" font-family="sans-serif">'
@@ -399,7 +399,6 @@ def generate_platoloco_style_svg(
             f'y2="{y_base}" stroke="#e2e8f0" stroke-width="1.5"/>'
         )
 
-        # Merge overlapping or closely adjacent regions for clean rendering
         merged_regions = merge_regions(track["regions"], max_gap=4)
 
         for reg in merged_regions:
@@ -435,20 +434,20 @@ def generate_platoloco_style_svg(
             f'stroke="#334155" stroke-width="1.5"/>'
         )
         svg_elements.append(
-            f'<text x="{x_tick:.1f}" y="{ruler_y + 18}" fill="#475569" font-size="10" '
+            f'<text x="{x_tick:.1f}" y="{ruler_y + 18}" fill="#64748b" font-size="10" '
             f'text-anchor="middle" font-family="sans-serif">{curr_tick}</text>'
         )
         curr_tick += tick_step
 
     return (
-        f'<svg id="svg-{uniprot_id}" width="{total_width}" height="{total_height}" viewBox="0 0 {total_width} {total_height}" '
-        f'xmlns="http://www.w3.org/2000/svg" style="display: block; margin-left: 0;">'
+        f'<svg id="svg-{uniprot_id}" width="100%" height="{total_height}" viewBox="0 0 {total_width} {total_height}" '
+        f'xmlns="http://www.w3.org/2000/svg" style="display: block; max-width: 100%; height: auto;">'
         f'{"".join(svg_elements)}</svg>'
     )
 
 
 def render_record_rows(item: Dict[str, Any]) -> str:
-    """Render table row with SVG track subrow enabled for all rows."""
+    """Render individual table row for a distinct LCR entry with SVG track subrow."""
     protein_name = item.get("protein_name") or "Unknown"
     organism = item.get("organism") or "Unspecified"
 
@@ -507,8 +506,6 @@ def render_record_rows(item: Dict[str, Any]) -> str:
                 <td><a href="{uniprot_link}" target="_blank" class="protein-id">{uniprot_id}</a></td>
                 <td><strong>{gene_name}</strong></td>
                 <td style="max-width: 180px;">{full_name}</td>
-                <td></td>
-                <td></td>
                 <td>{length if length > 0 else 'N/A'}</td>
                 <td><span class="badge-type">{lcr_type_val}</span></td>
                 <td><i>{organism}</i></td>
@@ -520,7 +517,7 @@ def render_record_rows(item: Dict[str, Any]) -> str:
                 <td style="max-width: 200px;">{go_ontology_str}</td>
             </tr>
             <tr class="subrow">
-                <td colspan="14" class="viz-container">
+                <td colspan="12" class="viz-container">
                     {svg_track}
                 </td>
             </tr>
@@ -568,40 +565,83 @@ def generate_html_report(
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f8fafc; color: #334155; margin: 0; padding: 16px; font-size: 12px; }
-        .container { width: 100%; max-width: 1920px; margin: 0 auto; overflow-x: auto; }
-        h1 { font-size: 20px; color: #1e293b; margin-bottom: 2px; }
-        .subtitle { color: #64748b; margin-bottom: 16px; font-size: 12px; }
+        * { box-sizing: border-box; }
+        html, body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            background-color: #f8fafc; 
+            color: #334155; 
+            margin: 0; 
+            padding: 24px; 
+            font-size: 13px; 
+            overflow-x: hidden; 
+            max-width: 100vw;
+        }
+        .container { 
+            width: 98%; 
+            max-width: 1920px; 
+            margin: 0 auto; 
+        }
+        header {
+            margin-bottom: 24px;
+        }
+        h1 { font-size: 24px; color: #0f172a; margin: 0 0 4px 0; font-weight: 700; }
+        .subtitle { color: #64748b; margin: 0; font-size: 13px; }
         
-        .section-banner { background: #1e293b; color: #ffffff; padding: 10px 14px; border-radius: 6px 6px 0 0; margin-top: 24px; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: space-between; text-transform: uppercase; }
-        .section-banner.warning { background: #b45309; }
+        .section-banner { 
+            background: #1e293b; 
+            color: #ffffff; 
+            padding: 12px 16px; 
+            border-radius: 8px 8px 0 0; 
+            margin-top: 32px; 
+            font-size: 13px; 
+            font-weight: 600; 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            letter-spacing: 0.3px;
+        }
+        .section-banner.warning { background: #d97706; }
         
-        table { width: 100%; border-collapse: collapse; background: #ffffff; border-radius: 0 0 6px 6px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 16px; table-layout: auto; }
-        th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #e2e8f0; vertical-align: top; white-space: normal; word-wrap: break-word; }
-        th { background-color: #334155; color: #ffffff; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap; }
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            background: #ffffff;
+            border-radius: 0 0 8px 8px;
+            border: 1px solid #e2e8f0;
+            border-top: none;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            margin-bottom: 24px;
+        }
+
+        table { width: 100%; border-collapse: collapse; min-width: 1100px; }
+        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #f1f5f9; vertical-align: top; word-break: break-word; }
+        th { background-color: #f8fafc; color: #475569; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e2e8f0; white-space: nowrap; }
         tr:hover td { background-color: #f8fafc; }
         
-        .protein-id { font-family: monospace; font-weight: bold; color: #2563eb; text-decoration: none; }
-        .col-source { min-width: 450px; max-width: 650px; }
-        .evidence-quote { font-style: italic; color: #475569; margin: 0; border-left: 3px solid #cbd5e1; padding-left: 8px; line-height: 1.4; }
-        .badge-annot { background: #ffedd5; color: #c2410c; padding: 2px 5px; border-radius: 4px; font-weight: bold; font-family: monospace; }
-        .badge-type { background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
+        .protein-id { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 600; color: #2563eb; text-decoration: none; }
+        .protein-id:hover { text-decoration: underline; }
+        .col-source { min-width: 350px; max-width: 500px; }
+        .evidence-quote { font-style: italic; color: #475569; margin: 0; border-left: 3px solid #cbd5e1; padding-left: 10px; line-height: 1.5; }
+        .badge-annot { background: #ffedd5; color: #c2410c; padding: 3px 6px; border-radius: 4px; font-weight: 600; font-family: monospace; font-size: 11px; }
+        .badge-type { background: #e0f2fe; color: #0369a1; padding: 4px 8px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
         .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
-        .viz-container { padding: 12px; text-align: left; }
+        .viz-container { padding: 16px; text-align: left; }
         
-        /* Interactive styling for SVG LCR region rectangles */
         .lcr-region-rect { cursor: pointer; transition: opacity 0.15s ease-in-out; }
         .lcr-region-rect:hover { opacity: 0.75; stroke: #0f172a; stroke-width: 1px; }
         
-        .export-container { margin-top: 20px; text-align: left; padding-bottom: 30px; }
-        .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 9px 18px; font-size: 12px; font-weight: 600; border-radius: 4px; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.1); transition: background 0.2s; }
+        .export-container { margin-top: 24px; text-align: left; padding-bottom: 40px; }
+        .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 10px 20px; font-size: 13px; font-weight: 600; border-radius: 6px; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: background 0.2s, transform 0.1s; }
         .btn-export:hover { background-color: #6d28d9; }
+        .btn-export:active { transform: translateY(1px); }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Functional LCR Annotation Report</h1>
-        <p class="subtitle">Structured low-complexity region dataset integrated with UniProt and PlaToLoCo predictions</p>
+        <header>
+            <h1>Functional LCR Annotation Report</h1>
+            <p class="subtitle">Structured low-complexity region dataset integrated with UniProt and PlaToLoCo predictions</p>
+        </header>
 """
 
     if verified_records:
@@ -610,14 +650,13 @@ def generate_html_report(
             <span>1. Verified LCRs (Experimental Binding & Coordinates)</span>
             <span>{len(verified_records)} entries</span>
         </div>
+        <div class="table-wrapper">
         <table>
             <thead>
                 <tr>
                     <th>UniprotID</th>
                     <th>Gene name</th>
                     <th>Name</th>
-                    <th>Start of LCR</th>
-                    <th>End of LCR</th>
                     <th>Protein length</th>
                     <th>LCR type</th>
                     <th>Organism</th>
@@ -636,6 +675,7 @@ def generate_html_report(
         html_content += """
             </tbody>
         </table>
+        </div>
 """
 
     if manual_check_records:
@@ -644,14 +684,13 @@ def generate_html_report(
             <span>2. Requires Manual Check (Qualitative Mentions or Missing Coordinates)</span>
             <span>{len(manual_check_records)} entries</span>
         </div>
+        <div class="table-wrapper">
         <table>
             <thead>
                 <tr>
                     <th>UniprotID</th>
                     <th>Gene name</th>
                     <th>Name</th>
-                    <th>Start of LCR</th>
-                    <th>End of LCR</th>
                     <th>Protein length</th>
                     <th>LCR type</th>
                     <th>Organism</th>
@@ -670,11 +709,12 @@ def generate_html_report(
         html_content += """
             </tbody>
         </table>
+        </div>
 """
 
     html_content += """
         <div class="export-container">
-            <button class="btn-export" onclick="exportReportToZIP()">Export Report</button>
+            <button class="btn-export" onclick="exportReportToZIP()">Export Report (ZIP)</button>
         </div>
     </div>
 
@@ -684,12 +724,12 @@ def generate_html_report(
             const rows = document.querySelectorAll('tr');
             let csv = [];
 
-            csv.push('"UniprotID","Gene name","Name","Start of LCR","End of LCR","Protein length","LCR type","Organism","Source","Source ID","Start of annotation","End of annotation","Annotation Category","Gene Ontology of category"');
+            csv.push('"UniprotID","Gene name","Name","Protein length","LCR type","Organism","Source","Source ID","Start of annotation","End of annotation","Annotation Category","Gene Ontology of category"');
 
             rows.forEach((row) => {
                 if (row.classList.contains('subrow') || row.classList.contains('section-banner')) return;
                 const cols = row.querySelectorAll('th, td');
-                if (cols.length === 14) {
+                if (cols.length === 12) {
                     let rowData = [];
                     cols.forEach(col => {
                         let cellText = col.innerText.replace(/\\n/g, ' ').replace(/\\s+/g, ' ').trim();

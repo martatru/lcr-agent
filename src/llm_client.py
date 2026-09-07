@@ -23,15 +23,15 @@ class LCRAttribute(BaseModel):
     )
     start_of_annotation: str = Field(
         default="Unspecified",
-        description="Numerical start position if explicitly stated (e.g. '2'), otherwise 'Unspecified'"
+        description="Explicit numerical start residue position if stated in text (e.g., '904'), otherwise 'Unspecified'"
     )
     end_of_annotation: str = Field(
         default="Unspecified",
-        description="Numerical end position if explicitly stated (e.g. '214'), otherwise 'Unspecified'"
+        description="Explicit numerical end residue position if stated in text (e.g., '1297'), otherwise 'Unspecified'"
     )
     binding_target: str = Field(
         default="Unspecified",
-        description="Target molecule bound by the LCR, e.g., 'RNA', 'DNA', 'Protein', 'Lipids', or 'Unspecified'"
+        description="Precise interaction type using the suffix '-binding', e.g., 'protein-binding', 'RNA-binding', 'DNA-binding', 'lipid-binding', or 'Unspecified'. Never use isolated nouns."
     )
     proposed_function: str = Field(
         description="Specific molecular binding function or phase transition described in text"
@@ -50,7 +50,7 @@ class LCRAttribute(BaseModel):
 
 
 class LCRResponse(BaseModel):
-    """Container for a list of extracted LCR attributes."""
+    """Container for a list of extracted LCR annotations."""
     annotations: list[LCRAttribute] = Field(
         default_factory=list,
         description="List of extracted LCR annotations"
@@ -71,11 +71,12 @@ class LightLLMClient:
             mode=instructor.Mode.MD_JSON
         )
         self.models = [
-            "qwen/qwen3.8-27b"
+            "openai/gpt-oss-120b",
+            # "openai/gpt-oss-20b"
         ]
 
     async def generate_lcr_annotations(self, prompt: str, text: str) -> list[dict]:
-        """Generates structured LCR annotations, failing over to backup models on 429 TPD."""
+        """Generates structured LCR annotations, failing over to backup models on rate limits."""
         async with self.semaphore:
             for model_name in self.models:
                 for attempt in range(1, 4):

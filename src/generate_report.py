@@ -2,8 +2,8 @@
 LCR Biocuration HTML Report Generator.
 
 Integrates curated Low-Complexity Region (LCR) records with UniProt metadata
-and PlaToLoCo sequence visualizers, strictly separating 'Verified' entries from
-those that 'Requires Manual Check into distinct report sections.
+and PlaToLoCo sequence visualizers. Features smart interval merging for clean tracks
+and hover-only coordinate tooltips to avoid visual clutter.
 """
 
 import json
@@ -296,6 +296,21 @@ def query_platoloco(
     return method_results
 
 
+def merge_regions(regions: List[Dict[str, int]], max_gap: int = 4) -> List[Dict[str, int]]:
+    """Merge overlapping or closely neighboring coordinate regions to keep visual tracks clean."""
+    if not regions:
+        return []
+    sorted_regs = sorted(regions, key=lambda x: x.get("start", 0))
+    merged = [dict(sorted_regs[0])]
+    for current in sorted_regs[1:]:
+        prev = merged[-1]
+        if current.get("start", 0) <= prev.get("end", 0) + max_gap:
+            prev["end"] = max(prev.get("end", 0), current.get("end", 0))
+        else:
+            merged.append(dict(current))
+    return merged
+
+
 def generate_platoloco_style_svg(
     seq_length: int,
     annot_start: Optional[int],
@@ -303,7 +318,7 @@ def generate_platoloco_style_svg(
     platoloco_methods: Dict[str, List[Dict[str, int]]],
     uniprot_id: str = "protein",
 ) -> str:
-    """Generate multi-track SVG visualizer with coordinate clamping to prevent overflow."""
+    """Generate multi-track SVG visualizer with merged regions and hover-only tooltips."""
     if not isinstance(seq_length, int) or seq_length <= 0:
         return '<span style="color: #94a3b8; font-size: 11px;">Sequence length unavailable</span>'
 
@@ -384,7 +399,10 @@ def generate_platoloco_style_svg(
             f'y2="{y_base}" stroke="#e2e8f0" stroke-width="1.5"/>'
         )
 
-        for reg in track["regions"]:
+        # Merge overlapping or closely adjacent regions for clean rendering
+        merged_regions = merge_regions(track["regions"], max_gap=4)
+
+        for reg in merged_regions:
             raw_start = reg.get("start", 1)
             raw_end = reg.get("end", 1)
             coord_str = f"{raw_start}-{raw_end}"
@@ -393,19 +411,12 @@ def generate_platoloco_style_svg(
             p_end = max(1, min(raw_end, seq_length))
 
             x_pos = start_x_line + (p_start / seq_length) * track_area_width
-            rect_w = max(((p_end - p_start) / seq_length) * track_area_width, 4)
+            rect_w = max(((p_end - p_start) / seq_length) * track_area_width, 3)
 
             svg_elements.append(
-                f'<rect x="{x_pos:.1f}" y="{y_base - 4}" width="{rect_w:.1f}" height="10" '
+                f'<rect class="lcr-region-rect" x="{x_pos:.1f}" y="{y_base - 4}" width="{rect_w:.1f}" height="10" '
                 f'fill="{track["color"]}" rx="1">'
                 f'<title>{track["label"]}: {coord_str}</title></rect>'
-            )
-
-            text_x = x_pos + (rect_w / 2)
-            svg_elements.append(
-                f'<text x="{text_x:.1f}" y="{y_base - 6}" fill="#0f172a" '
-                f'font-size="9" font-weight="700" text-anchor="middle" font-family="sans-serif">'
-                f'{coord_str}</text>'
             )
 
     ruler_y = top_offset + (len(tracks) * row_height) + 6
@@ -436,8 +447,8 @@ def generate_platoloco_style_svg(
     )
 
 
-def render_record_rows(item: Dict[str, Any], include_svg: bool = True) -> str:
-    """Render table row with optional SVG track subrow."""
+def render_record_rows(item: Dict[str, Any]) -> str:
+    """Render table row with SVG track subrow enabled for all rows."""
     protein_name = item.get("protein_name") or "Unknown"
     organism = item.get("organism") or "Unspecified"
 
@@ -450,7 +461,7 @@ def render_record_rows(item: Dict[str, Any], include_svg: bool = True) -> str:
     go_terms = uni_data.get("go_terms", [])
 
     platoloco_methods = {}
-    if sequence and include_svg:
+    if sequence:
         platoloco_methods = query_platoloco(sequence, header=uniprot_id)
 
     lcr_type_val = (
@@ -467,15 +478,13 @@ def render_record_rows(item: Dict[str, Any], include_svg: bool = True) -> str:
     start_annot_str = str(annot_start) if annot_start is not None else "Unspecified"
     end_annot_str = str(annot_end) if annot_end is not None else "Unspecified"
 
-    svg_track = ""
-    if include_svg:
-        svg_track = generate_platoloco_style_svg(
-            length,
-            annot_start,
-            annot_end,
-            platoloco_methods,
-            uniprot_id=uniprot_id,
-        )
+    svg_track = generate_platoloco_style_svg(
+        length,
+        annot_start,
+        annot_end,
+        platoloco_methods,
+        uniprot_id=uniprot_id,
+    )
 
     uniprot_link = (
         f"https://www.uniprot.org/uniprotkb/{uniprot_id}"
@@ -492,16 +501,6 @@ def render_record_rows(item: Dict[str, Any], include_svg: bool = True) -> str:
         or "Unspecified"
     )
     go_ontology_str = "<br>".join(go_terms) if go_terms else "N/A"
-
-    subrow_html = ""
-    if include_svg:
-        subrow_html = f"""
-            <tr class="subrow">
-                <td colspan="14" class="viz-container">
-                    {svg_track}
-                </td>
-            </tr>
-        """
 
     return f"""
             <tr>
@@ -520,7 +519,11 @@ def render_record_rows(item: Dict[str, Any], include_svg: bool = True) -> str:
                 <td style="max-width: 180px;"><strong>{category}</strong></td>
                 <td style="max-width: 200px;">{go_ontology_str}</td>
             </tr>
-            {subrow_html}
+            <tr class="subrow">
+                <td colspan="14" class="viz-container">
+                    {svg_track}
+                </td>
+            </tr>
 """
 
 
@@ -586,6 +589,10 @@ def generate_html_report(
         .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
         .viz-container { padding: 12px; text-align: left; }
         
+        /* Interactive styling for SVG LCR region rectangles */
+        .lcr-region-rect { cursor: pointer; transition: opacity 0.15s ease-in-out; }
+        .lcr-region-rect:hover { opacity: 0.75; stroke: #0f172a; stroke-width: 1px; }
+        
         .export-container { margin-top: 20px; text-align: left; padding-bottom: 30px; }
         .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 9px 18px; font-size: 12px; font-weight: 600; border-radius: 4px; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.1); transition: background 0.2s; }
         .btn-export:hover { background-color: #6d28d9; }
@@ -625,7 +632,7 @@ def generate_html_report(
             <tbody>
 """
         for item in verified_records:
-            html_content += render_record_rows(item, include_svg=True)
+            html_content += render_record_rows(item)
         html_content += """
             </tbody>
         </table>
@@ -659,7 +666,7 @@ def generate_html_report(
             <tbody>
 """
         for item in manual_check_records:
-            html_content += render_record_rows(item, include_svg=False)
+            html_content += render_record_rows(item)
         html_content += """
             </tbody>
         </table>
@@ -674,14 +681,9 @@ def generate_html_report(
     <script>
         async function exportReportToZIP() {
             const zip = new JSZip();
-            
-            // Collect main table data excluding subrows
-            const table = document.getElementById('lcr-report-table');
-            // If multiple tables exist, handle them safely:
             const rows = document.querySelectorAll('tr');
             let csv = [];
 
-            // Add Header manually or grab from first table
             csv.push('"UniprotID","Gene name","Name","Start of LCR","End of LCR","Protein length","LCR type","Organism","Source","Source ID","Start of annotation","End of annotation","Annotation Category","Gene Ontology of category"');
 
             rows.forEach((row) => {

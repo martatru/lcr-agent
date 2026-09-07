@@ -1,13 +1,24 @@
 [
   {
-    "file": "A_low-complexity_region_in_the_YTH_domain_protein_.pdf",
-    "protein_name": "Mmi1",
-    "organism": "Schizosaccharomyces pombe",
-    "start_of_annotation": 282,
-    "end_of_annotation": 326,
-    "binding_target": "RNA",
-    "proposed_function": "Stabilizes the interaction with RNA by reducing the dissociation rate (off-rate) of the Mmi1 YTH domain-RNA complex.",
-    "evidence": "When we analyzed RNA binding by EMSA using this construct, a stable RNA-protein complex was visualized as a better-defined band on the gel (Fig. 1B, right).",
-    "curator_note": "Exact positions given (residues 282-326 defined as USR); experimental binding to RNA confirmed via EMSA and kinetics."
+    "file": "1-s2.0-S0021925820491975-main.pdf",
+    "protein_name": "ZLD",
+    "organism": "Drosophila",
+    "start_of_annotation": 1117,
+    "end_of_annotation": 1487,
+    "binding_target": "DNA-binding",
+    "proposed_function": "sequence-specific DNA-binding via a C-terminal cluster of four zinc fingers",
+    "evidence": "To specifically define the DNA-binding domain, we tested the ability of a ZLD fragment containing amino acids 1117–1487 to bind specifically to TAGteam elements.",
+    "curator_note": "Exact positions given"
+  },
+  {
+    "file": "1-s2.0-S0021925820491975-main.pdf",
+    "protein_name": "Zelda (ZLD)",
+    "organism": "Drosophila melanogaster",
+    "start_of_annotation": 1117,
+    "end_of_annotation": 1487,
+    "binding_target": "DNA-binding",
+    "proposed_function": "Sequence-specific DNA binding via zinc-finger cluster",
+    "evidence": "Mutation of any individual zinc finger ablated DNA binding in EMSAs (Fig. 3C), even when we used protein amounts corresponding to the maximum amount of wild-type MBP-ZLD1117–1487 used.",
+    "curator_note": "Exact coordinates provided and experimental DNA-binding evidence."
   }
 ]

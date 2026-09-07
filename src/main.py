@@ -21,16 +21,15 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-PROMPT_LCR = """You are an expert biocuration AI. Your task is to extract Low Complexity Regions (LCRs/LCDs/IDRs/PLDs) from the text and classify them based on experimental binding evidence and functional impact.
+PROMPT_LCR = """You are an expert biocuration AI. Your task is to extract Low Complexity Regions (LCRs/IDRs/PLDs), their coordinate ranges, and associated binding interactions from scientific text.
 
 Guidelines:
-1. **Verified Category**: Extract only if the text describes a clear experimental finding where an LCR directly mediates a binding function or molecular interaction (e.g., RNA-binding, DNA-binding, protein binding) and precise numerical residue coordinates are stated.
-2. **Requires Manual Check Category**: Capture entries that mention LCRs with functional roles or binding properties, but lack explicit numerical coordinates, or represent broad qualitative descriptions (e.g., "protein X contains low-complexity domains involved in complex assembly") without a verified binding partner.
-3. **Strict Exclusions**: Completely ignore pure bioinformatics speculations, speculative discussions without results, or incidental mentions of low complexity without any functional role.
-4. **Evidence Rule**: 'evidence' must contain an exact verbatim sentence from the text proving the statement. Do not synthesize or paraphrase.
-5. **Missing Fields**: If a binding target or coordinate is missing for a qualitative mention, explicitly set it to 'Unspecified' and flag the record as 'Requires Manual Check' in curation_status.
+1. **Coordinate Extraction (CRITICAL)**: Scrutinize the text for any residue numbers, ranges, or amino acid positions (e.g., "residues 904–1297", "amino acids 50-100", "positions 12-61"). If numerical coordinates are present, you MUST extract the start integer into 'start_of_annotation' and the end integer into 'end_of_annotation'. Do not leave them as 'Unspecified' if numbers are stated.
+2. **Binding Interaction Naming**: In 'binding_target', specify the precise interaction type using the suffix '-binding' (e.g., 'protein-binding', 'RNA-binding', 'DNA-binding'). Never use isolated nouns like 'Protein'. If no target is mentioned, set to 'Unspecified'.
+3. **Verified Category**: Set 'curation_status' to 'Verified' ONLY if explicit numerical coordinates AND experimental binding evidence are found.
+4. **Requires Manual Check Category**: Set 'curation_status' to 'Requires Manual Check' if numerical coordinates are completely missing from the text or the mention is purely qualitative.
+5. **Evidence Rule**: 'evidence' must contain an exact verbatim sentence from the text proving the statement.
 """
-
 
 async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
     """Processes a single PDF file, chunks text, queries Groq API, and validates results."""

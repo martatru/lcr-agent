@@ -1,11 +1,29 @@
 [
   {
-    "file": "A_low-complexity_region_in_the_YTH_domain_protein_.pdf",
-    "protein_name": "glucocorticoid receptor",
+    "file": "1-s2.0-S0021925820491975-main.pdf",
+    "protein_name": "Zelda",
+    "organism": "Drosophila melanogaster",
+    "binding_target": "protein-binding",
+    "evidence": "ZLD regulates transcription through conserved interactions with a protein cofactor(s).",
+    "curator_note": "Low‑complexity activation domain described qualitatively; no explicit residue coordinates provided.",
+    "flag": "Requires Manual Check (missing coordinates or qualitative mention)"
+  },
+  {
+    "file": "1-s2.0-S0021925820491975-main.pdf",
+    "protein_name": "Zelda (ZLD)",
+    "organism": "Drosophila melanogaster",
+    "binding_target": "protein-binding",
+    "evidence": "Amino Acids 904–1297 Comprise the Transcriptional Activation Domain of ZLD—Because ZLD-PD and ZLD-PF likely bind a cofactor necessary for mediating transcriptional activation, this interaction domain must exist N‑terminally to the DNA‑binding domain we identified.",
+    "curator_note": "Region defined with coordinates; binding inferred but not directly demonstrated.",
+    "flag": "Requires Manual Check (missing coordinates or qualitative mention)"
+  },
+  {
+    "file": "1-s2.0-S0021925820491975-main.pdf",
+    "protein_name": "Unspecified",
     "organism": "Unspecified",
-    "binding_target": "DNA",
-    "evidence": "For example, an IDR in the glucocorticoid receptor induces allosteric changes in the DNA binding domain to enhance DNA binding, likely by stabilizing a high affinity conformation (44).",
-    "curator_note": "Qualitative mention of IDR function; specific residue coordinates are not provided.",
+    "binding_target": "Unspecified",
+    "evidence": "Low-complexity regions within protein sequences have position-dependent roles.",
+    "curator_note": "No residue coordinates provided",
     "flag": "Requires Manual Check (missing coordinates or qualitative mention)"
   }
 ]

@@ -3,11 +3,11 @@
     "file": "A_low-complexity_region_in_the_YTH_domain_protein_.pdf",
     "protein_name": "Mmi1",
     "organism": "Schizosaccharomyces pombe",
-    "start_of_annotation": 1,
-    "end_of_annotation": 347,
-    "binding_target": "Unspecified",
-    "proposed_function": "Low-complexity amino acid sequence with no predicted secondary structure, part of the intrinsically disordered regions of the protein.",
-    "evidence": "Outside of its YTH domain, Mmi1 is primarily comprised of low-complexity amino acid sequence (residues 1–347) with no predicted secondary structure (Fig. 1A).",
-    "curator_note": "Exact positions given (1-347). This annotation describes the general IDR composition rather than a specific binding interface, but it is the primary LCR context for the protein."
+    "start_of_annotation": 282,
+    "end_of_annotation": 326,
+    "binding_target": "RNA",
+    "proposed_function": "Stabilizes the interaction with RNA by reducing the dissociation rate (off-rate) of the Mmi1 YTH domain-RNA complex.",
+    "evidence": "When we analyzed RNA binding by EMSA using this construct, a stable RNA-protein complex was visualized as a better-defined band on the gel (Fig. 1B, right).",
+    "curator_note": "Exact positions given (residues 282-326 defined as USR); experimental binding to RNA confirmed via EMSA and kinetics."
   }
 ]

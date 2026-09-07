@@ -2,9 +2,8 @@
 LCR Biocuration HTML Report Generator.
 
 Integrates curated Low-Complexity Region (LCR) records with UniProt metadata
-and PlaToLoCo sequence visualizers. Clamps visual coordinates to protein length
-to prevent overflow and displays explicit coordinate labels on all tracks including
-Annotated LCR.
+and PlaToLoCo sequence visualizers, strictly separating 'Verified' entries from
+those that 'Requires Manual Check into distinct report sections.
 """
 
 import json
@@ -390,7 +389,6 @@ def generate_platoloco_style_svg(
             raw_end = reg.get("end", 1)
             coord_str = f"{raw_start}-{raw_end}"
 
-            # Clamp visual coordinates to sequence length boundaries to avoid layout overflows
             p_start = max(1, min(raw_start, seq_length))
             p_end = max(1, min(raw_end, seq_length))
 
@@ -438,8 +436,8 @@ def generate_platoloco_style_svg(
     )
 
 
-def render_record_rows(item: Dict[str, Any]) -> str:
-    """Render table row maintaining empty Start/End of LCR columns."""
+def render_record_rows(item: Dict[str, Any], include_svg: bool = True) -> str:
+    """Render table row with optional SVG track subrow."""
     protein_name = item.get("protein_name") or "Unknown"
     organism = item.get("organism") or "Unspecified"
 
@@ -452,7 +450,7 @@ def render_record_rows(item: Dict[str, Any]) -> str:
     go_terms = uni_data.get("go_terms", [])
 
     platoloco_methods = {}
-    if sequence:
+    if sequence and include_svg:
         platoloco_methods = query_platoloco(sequence, header=uniprot_id)
 
     lcr_type_val = (
@@ -469,13 +467,15 @@ def render_record_rows(item: Dict[str, Any]) -> str:
     start_annot_str = str(annot_start) if annot_start is not None else "Unspecified"
     end_annot_str = str(annot_end) if annot_end is not None else "Unspecified"
 
-    svg_track = generate_platoloco_style_svg(
-        length,
-        annot_start,
-        annot_end,
-        platoloco_methods,
-        uniprot_id=uniprot_id,
-    )
+    svg_track = ""
+    if include_svg:
+        svg_track = generate_platoloco_style_svg(
+            length,
+            annot_start,
+            annot_end,
+            platoloco_methods,
+            uniprot_id=uniprot_id,
+        )
 
     uniprot_link = (
         f"https://www.uniprot.org/uniprotkb/{uniprot_id}"
@@ -492,6 +492,16 @@ def render_record_rows(item: Dict[str, Any]) -> str:
         or "Unspecified"
     )
     go_ontology_str = "<br>".join(go_terms) if go_terms else "N/A"
+
+    subrow_html = ""
+    if include_svg:
+        subrow_html = f"""
+            <tr class="subrow">
+                <td colspan="14" class="viz-container">
+                    {svg_track}
+                </td>
+            </tr>
+        """
 
     return f"""
             <tr>
@@ -510,22 +520,18 @@ def render_record_rows(item: Dict[str, Any]) -> str:
                 <td style="max-width: 180px;"><strong>{category}</strong></td>
                 <td style="max-width: 200px;">{go_ontology_str}</td>
             </tr>
-            <tr class="subrow">
-                <td colspan="14" class="viz-container">
-                    {svg_track}
-                </td>
-            </tr>
+            {subrow_html}
 """
 
 
 def generate_html_report(
-    input_file: str = "data/processed/verified_lcrs.json",
+    input_file: str = "data/processed/final_results.jsonl",
     output_html: str = "data/processed/lcr_biocuration_report.html",
 ) -> None:
-    """Generate HTML report with flat ZIP export (Report.zip) containing CSV and SVGs."""
+    """Generate structured HTML report dividing records into Verified and Manual Check sections."""
     input_path = Path(input_file)
     if not input_path.exists():
-        alt_path = Path("data/processed/final_results.jsonl")
+        alt_path = Path("data/processed/verified_lcrs.json")
         if alt_path.exists():
             input_path = alt_path
         else:
@@ -537,16 +543,18 @@ def generate_html_report(
         print(f"Warning: No valid records found in {input_path}.")
         return
 
-    specified_records = []
-    unspecified_records = []
+    verified_records = []
+    manual_check_records = []
 
     for item in data:
+        status = str(item.get("curation_status", "")).lower()
         st_val = parse_coord(item.get("start_of_annotation"))
         end_val = parse_coord(item.get("end_of_annotation"))
-        if st_val is not None and end_val is not None:
-            specified_records.append(item)
+
+        if status == "verified" and st_val is not None and end_val is not None:
+            verified_records.append(item)
         else:
-            unspecified_records.append(item)
+            manual_check_records.append(item)
 
     html_content = """<!DOCTYPE html>
 <html lang="en">
@@ -561,10 +569,15 @@ def generate_html_report(
         .container { width: 100%; max-width: 1920px; margin: 0 auto; overflow-x: auto; }
         h1 { font-size: 20px; color: #1e293b; margin-bottom: 2px; }
         .subtitle { color: #64748b; margin-bottom: 16px; font-size: 12px; }
-        table { width: 100%; border-collapse: collapse; background: #ffffff; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); table-layout: auto; }
+        
+        .section-banner { background: #1e293b; color: #ffffff; padding: 10px 14px; border-radius: 6px 6px 0 0; margin-top: 24px; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: space-between; text-transform: uppercase; }
+        .section-banner.warning { background: #b45309; }
+        
+        table { width: 100%; border-collapse: collapse; background: #ffffff; border-radius: 0 0 6px 6px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 16px; table-layout: auto; }
         th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #e2e8f0; vertical-align: top; white-space: normal; word-wrap: break-word; }
-        th { background-color: #1e293b; color: #ffffff; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap; }
+        th { background-color: #334155; color: #ffffff; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap; }
         tr:hover td { background-color: #f8fafc; }
+        
         .protein-id { font-family: monospace; font-weight: bold; color: #2563eb; text-decoration: none; }
         .col-source { min-width: 450px; max-width: 650px; }
         .evidence-quote { font-style: italic; color: #475569; margin: 0; border-left: 3px solid #cbd5e1; padding-left: 8px; line-height: 1.4; }
@@ -572,7 +585,6 @@ def generate_html_report(
         .badge-type { background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
         .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
         .viz-container { padding: 12px; text-align: left; }
-        .category-header-row td { background-color: #334155; color: #ffffff; font-weight: 700; font-size: 12px; padding: 10px 12px; letter-spacing: 0.5px; text-transform: uppercase; }
         
         .export-container { margin-top: 20px; text-align: left; padding-bottom: 30px; }
         .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 9px 18px; font-size: 12px; font-weight: 600; border-radius: 4px; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.1); transition: background 0.2s; }
@@ -583,8 +595,15 @@ def generate_html_report(
     <div class="container">
         <h1>Functional LCR Annotation Report</h1>
         <p class="subtitle">Structured low-complexity region dataset integrated with UniProt and PlaToLoCo predictions</p>
-        
-        <table id="lcr-report-table">
+"""
+
+    if verified_records:
+        html_content += f"""
+        <div class="section-banner">
+            <span>1. Verified LCRs (Experimental Binding & Coordinates)</span>
+            <span>{len(verified_records)} entries</span>
+        </div>
+        <table>
             <thead>
                 <tr>
                     <th>UniprotID</th>
@@ -605,23 +624,48 @@ def generate_html_report(
             </thead>
             <tbody>
 """
-
-    for item in specified_records:
-        html_content += render_record_rows(item)
-
-    if unspecified_records:
+        for item in verified_records:
+            html_content += render_record_rows(item, include_svg=True)
         html_content += """
-                <tr class="category-header-row">
-                    <td colspan="14">LCRs with Unspecified Range</td>
-                </tr>
-"""
-        for item in unspecified_records:
-            html_content += render_record_rows(item)
-
-    html_content += """
             </tbody>
         </table>
+"""
 
+    if manual_check_records:
+        html_content += f"""
+        <div class="section-banner warning">
+            <span>2. Requires Manual Check (Qualitative Mentions or Missing Coordinates)</span>
+            <span>{len(manual_check_records)} entries</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>UniprotID</th>
+                    <th>Gene name</th>
+                    <th>Name</th>
+                    <th>Start of LCR</th>
+                    <th>End of LCR</th>
+                    <th>Protein length</th>
+                    <th>LCR type</th>
+                    <th>Organism</th>
+                    <th class="col-source">Source</th>
+                    <th>Source ID</th>
+                    <th>Start of annotation</th>
+                    <th>End of annotation</th>
+                    <th>Annotation Category</th>
+                    <th>Gene Ontology of category</th>
+                </tr>
+            </thead>
+            <tbody>
+"""
+        for item in manual_check_records:
+            html_content += render_record_rows(item, include_svg=False)
+        html_content += """
+            </tbody>
+        </table>
+"""
+
+    html_content += """
         <div class="export-container">
             <button class="btn-export" onclick="exportReportToZIP()">Export Report</button>
         </div>
@@ -630,24 +674,29 @@ def generate_html_report(
     <script>
         async function exportReportToZIP() {
             const zip = new JSZip();
+            
+            // Collect main table data excluding subrows
             const table = document.getElementById('lcr-report-table');
-            const rows = table.querySelectorAll('tr');
+            // If multiple tables exist, handle them safely:
+            const rows = document.querySelectorAll('tr');
             let csv = [];
 
-            for (let i = 0; i < rows.length; i++) {
-                const row = rows[i];
-                if (row.classList.contains('subrow')) continue;
+            // Add Header manually or grab from first table
+            csv.push('"UniprotID","Gene name","Name","Start of LCR","End of LCR","Protein length","LCR type","Organism","Source","Source ID","Start of annotation","End of annotation","Annotation Category","Gene Ontology of category"');
 
+            rows.forEach((row) => {
+                if (row.classList.contains('subrow') || row.classList.contains('section-banner')) return;
                 const cols = row.querySelectorAll('th, td');
-                let rowData = [];
-
-                for (let j = 0; j < cols.length; j++) {
-                    let cellText = cols[j].innerText.replace(/\\n/g, ' ').replace(/\\s+/g, ' ').trim();
-                    cellText = cellText.replace(/"/g, '""');
-                    rowData.push('"' + cellText + '"');
+                if (cols.length === 14) {
+                    let rowData = [];
+                    cols.forEach(col => {
+                        let cellText = col.innerText.replace(/\\n/g, ' ').replace(/\\s+/g, ' ').trim();
+                        cellText = cellText.replace(/"/g, '""');
+                        rowData.push('"' + cellText + '"');
+                    });
+                    csv.push(rowData.join(','));
                 }
-                csv.push(rowData.join(','));
-            }
+            });
 
             zip.file("report.csv", csv.join('\\n'));
 

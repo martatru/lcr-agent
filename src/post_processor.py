@@ -1,3 +1,7 @@
+"""
+Post-processing module to split extracted data into verified and manual review sets.
+"""
+
 import json
 import csv
 from pathlib import Path
@@ -9,7 +13,7 @@ def process_results(
     qualitative_output_file: str = "data/processed/qualitative_mentions.json",
     qualitative_csv_file: str = "data/processed/qualitative_mentions.csv"
 ):
-    """Processes JSONL output into clean JSON and CSV files separated by coordinate availability."""
+    """Processes JSONL output into clean JSON and CSV files using curation status and coordinate checks."""
     input_path = Path(input_file)
     if not input_path.exists():
         print(f"Error: Input file {input_file} does not exist!")
@@ -32,10 +36,12 @@ def process_results(
             p_name = ann.get("protein_name", "").strip()
             start = str(ann.get("start_of_annotation", "")).strip()
             end = str(ann.get("end_of_annotation", "")).strip()
+            status = ann.get("curation_status", "Requires Manual Check")
 
             has_numbers = start.isdigit() and end.isdigit()
+            is_verified = (status.lower() == "verified" and has_numbers)
 
-            if has_numbers:
+            if is_verified:
                 if p_name not in seen_verified:
                     seen_verified.add(p_name)
                     all_verified.append({
@@ -59,7 +65,7 @@ def process_results(
                         "binding_target": ann.get("binding_target", "Unspecified"),
                         "evidence": ann.get("evidence", ""),
                         "curator_note": ann.get("curator_note", ""),
-                        "flag": "Qualitative mention only (no exact numbers in text)"
+                        "flag": "Requires Manual Check (missing coordinates or qualitative mention)"
                     })
 
     v_path = Path(verified_output_file)

@@ -1,3 +1,7 @@
+"""
+Core pipeline orchestration module for PDF text extraction and LLM biocuration.
+"""
+
 import os
 import json
 import logging
@@ -17,15 +21,14 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-PROMPT_LCR = """You are an expert biocuration AI. Your task is to exhaustively extract ALL Low Complexity Regions (LCRs/LCDs/IDRs/PLDs) mentioned in the text that mediate BINDING INTERACTIONS or MOLECULAR ASSOCIATIONS (e.g., RNA-binding, DNA-binding, protein-protein interactions, membrane/lipid binding).
+PROMPT_LCR = """You are an expert biocuration AI. Your task is to extract Low Complexity Regions (LCRs/LCDs/IDRs/PLDs) from the text and classify them based on experimental binding evidence and functional impact.
 
 Guidelines:
-1. Extract every protein mentioned to contain or form an LCR/LCD that engages in binding or interaction.
-2. In 'binding_target', explicitly state what molecule the LCR binds or interacts with (e.g., 'RNA', 'DNA', 'Protein', 'Lipid', 'Small Molecule'). If no binding target is mentioned, set to 'Unspecified'.
-3. If numerical residue coordinates are given (e.g., 'residues 2-214'), extract them as strings in start_of_annotation and end_of_annotation. If no numbers are provided, set them to 'Unspecified'.
-4. 'evidence' MUST be an exact verbatim sentence from the text proving the LCR and its binding function or interaction.
-5. In 'curator_note', state whether exact positions were found or suggest UniProt canonical lookup.
-6. If no binding LCRs are found at all, return an empty list.
+1. **Verified Category**: Extract only if the text describes a clear experimental finding where an LCR directly mediates a binding function or molecular interaction (e.g., RNA-binding, DNA-binding, protein binding) and precise numerical residue coordinates are stated.
+2. **Requires Manual Check Category**: Capture entries that mention LCRs with functional roles or binding properties, but lack explicit numerical coordinates, or represent broad qualitative descriptions (e.g., "protein X contains low-complexity domains involved in complex assembly") without a verified binding partner.
+3. **Strict Exclusions**: Completely ignore pure bioinformatics speculations, speculative discussions without results, or incidental mentions of low complexity without any functional role.
+4. **Evidence Rule**: 'evidence' must contain an exact verbatim sentence from the text proving the statement. Do not synthesize or paraphrase.
+5. **Missing Fields**: If a binding target or coordinate is missing for a qualitative mention, explicitly set it to 'Unspecified' and flag the record as 'Requires Manual Check' in curation_status.
 """
 
 
@@ -40,7 +43,6 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
 
     clean_text = prepare_full_text(raw_text)
 
-    # Save clean extracted text to debug folder
     debug_dir = Path("data/debug")
     debug_dir.mkdir(parents=True, exist_ok=True)
     pdf_stem = Path(pdf_path).stem
@@ -50,7 +52,6 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
         f.write(clean_text)
     logger.info("Saved extracted text (%d chars) to: %s", len(clean_text), text_debug_file)
 
-    # Chunk text (~12,000 chars per chunk to avoid TPM rate limits)
     chunks = chunk_text(clean_text, chunk_size=12000, overlap=2000)
     all_annotations = []
     debug_logs = []
@@ -73,11 +74,9 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
         if valid_annotations:
             all_annotations.extend(valid_annotations)
 
-        # Pause to reset token-per-minute limits
         if idx < len(chunks) - 1:
             await asyncio.sleep(20)
 
-    # Save diagnostic debug logs
     json_debug_file = debug_dir / f"{pdf_stem}_debug.json"
     with open(json_debug_file, "w", encoding="utf-8") as f:
         json.dump(debug_logs, f, indent=2, ensure_ascii=False)
@@ -110,14 +109,12 @@ async def main():
                 "annotations": annotations
             })
 
-    # Save raw JSONL results
     with open(jsonl_output_file, "w", encoding="utf-8") as f:
         for entry in results:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     logger.info("Saved raw results to: %s", jsonl_output_file)
 
-    # Generate clean JSON/CSV splits
     process_results(
         input_file=str(jsonl_output_file),
         verified_output_file=str(output_dir / "verified_lcrs.json"),
@@ -125,7 +122,6 @@ async def main():
         qualitative_csv_file=str(output_dir / "qualitative_mentions.csv")
     )
 
-    # Generate interactive HTML report
     logger.info("Generating HTML biocuration report...")
     generate_html_report(
         input_file=str(jsonl_output_file),

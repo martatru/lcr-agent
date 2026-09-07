@@ -1,3 +1,7 @@
+"""
+LLM Client module using Instructor and Groq for structured LCR extraction.
+"""
+
 import os
 import logging
 import asyncio
@@ -35,7 +39,12 @@ class LCRAttribute(BaseModel):
     evidence: str = Field(
         description="Exact verbatim sentence from the text as proof of LCR binding or interaction"
     )
+    curation_status: str = Field(
+        default="Requires Manual Check",
+        description="Must be 'Verified' if experimental binding and coordinates are present; otherwise 'Requires Manual Check'"
+    )
     curator_note: str = Field(
+        default="Unspecified",
         description="Flag or suggestion for biocuration, e.g. 'Exact positions given' or 'Qualitative mention only'"
     )
 
@@ -61,9 +70,8 @@ class LightLLMClient:
             AsyncGroq(api_key=api_key),
             mode=instructor.Mode.MD_JSON
         )
-        # Multi-model fallback sequence with separate TPD quotas
         self.models = [
-        "qwen/qwen3.8-27b"
+            "qwen/qwen3.8-27b"
         ]
 
     async def generate_lcr_annotations(self, prompt: str, text: str) -> list[dict]:

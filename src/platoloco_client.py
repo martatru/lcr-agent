@@ -10,9 +10,7 @@ logger = logging.getLogger(__name__)
 
 PLATOLOCO_API_URL = "http://127.0.0.1:5002/restapi"
 
-# Standardized mapping for all 8 PlaToLoCo predictor methods
 METHOD_LABELS: Dict[str, str] = {
-    # SEG variants
     "SEG": "SEG",
     "seg": "SEG",
     "seg_default": "SEG",
@@ -21,16 +19,13 @@ METHOD_LABELS: Dict[str, str] = {
     "seg_intermediate": "SEG_intermediate",
     "SEG_strict": "SEG_strict",
     "seg_strict": "SEG_strict",
-    # CAST
     "CAST": "CAST",
     "cast": "CAST",
-    # fLPS variants
     "fLPS": "fLPS",
     "FLPS": "fLPS",
     "flps": "fLPS",
     "fLPS_strict": "fLPS_strict",
     "flps_strict": "fLPS_strict",
-    # SIMPLE & GBSC
     "SIMPLE": "SIMPLE",
     "simple": "SIMPLE",
     "GBSC": "GBSC",
@@ -81,7 +76,6 @@ class PlatoLoCoClient:
                 logger.error("PlaToLoCo failed to return a valid job token.")
                 return []
 
-            # Poll until task completion
             while True:
                 status_res = requests.get(
                     f"{self.api_url}/job/{token}", timeout=self.timeout
@@ -113,7 +107,6 @@ class PlatoLoCoClient:
             intervals: List[Dict[str, Any]] = []
             seen_intervals = set()
 
-            # 1. Parse detailed wrapper array endpoint
             if p_internal_id is not None:
                 try:
                     details_res = requests.get(
@@ -159,7 +152,6 @@ class PlatoLoCoClient:
                 except requests.RequestException as err:
                     logger.warning("Detail parsing request error: %s", err)
 
-            # 2. Parse top-level summary keys as a fallback
             for key, val in protein_summary.items():
                 std_method = METHOD_LABELS.get(key) or METHOD_LABELS.get(key.lower())
                 if std_method and isinstance(val, list) and val:
@@ -216,6 +208,17 @@ class PlatoLoCoClient:
             "score_mono": 1.0,
             "score_di": 1.0,
             "score_tri": 1.0,
+            "score_tetra": 1.0,
+            "score_penta": 1.0,
+            "score_hexa": 1.0,
+            "score_hepta": 1.0,
+            "score_octa": 1.0,
+            "score_nona": 1.0,
+            "score_deca": 1.0,
+            "window": 20,
+            "num_of_rand": 1000,
+            "rand_method": 1,
+            "stringency": 1.0,
         }
 
         gbsc_params = {

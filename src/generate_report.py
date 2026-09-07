@@ -141,6 +141,28 @@ def query_single_platoloco_method(
         "regions": {"single": True, "multiple": True, "whole": False},
     }
 
+    simple_params = {
+        "score_mono": 1.0,
+        "score_di": 1.0,
+        "score_tri": 1.0,
+        "score_tetra": 1.0,
+        "score_penta": 1.0,
+        "score_hexa": 1.0,
+        "score_hepta": 1.0,
+        "score_octa": 1.0,
+        "score_nona": 1.0,
+        "score_deca": 1.0,
+        "window": 20,
+        "num_of_rand": 1000,
+        "rand_method": 1,
+        "stringency": 1.0,
+    }
+
+    gbsc_params = {
+        "score": 0,
+        "distance": 0,
+    }
+
     methods_flag = {
         "seg_default": False,
         "seg_intermediate": False,
@@ -166,8 +188,8 @@ def query_single_platoloco_method(
             "cast": {"threshold": 40, "matrix": 1},
             "flps": flps_params,
             "flps_strict": flps_params,
-            "simple": {},
-            "gbsc": {},
+            "simple": simple_params,
+            "gbsc": gbsc_params,
         },
     }
 

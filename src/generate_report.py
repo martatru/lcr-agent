@@ -2,7 +2,9 @@
 LCR Biocuration HTML Report Generator.
 
 Integrates curated Low-Complexity Region (LCR) records with UniProt metadata
-and resilient multi-track sequence visualizers for PlaToLoCo predictors.
+and PlaToLoCo sequence visualizers. Clamps visual coordinates to protein length
+to prevent overflow and displays explicit coordinate labels on all tracks including
+Annotated LCR.
 """
 
 import json
@@ -65,6 +67,19 @@ def load_input_data(input_path: Path) -> List[Dict[str, Any]]:
             pass
 
     return records
+
+
+def parse_coord(value: Any) -> Optional[int]:
+    """Safely convert coordinate values to integers or return None."""
+    if value is None:
+        return None
+    try:
+        val_str = str(value).strip()
+        if val_str.isdigit():
+            return int(val_str)
+        return None
+    except (ValueError, TypeError):
+        return None
 
 
 def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
@@ -158,10 +173,7 @@ def query_single_platoloco_method(
         "stringency": 1.0,
     }
 
-    gbsc_params = {
-        "score": 0,
-        "distance": 0,
-    }
+    gbsc_params = {"score": 0, "distance": 0}
 
     methods_flag = {
         "seg_default": False,
@@ -211,7 +223,6 @@ def query_single_platoloco_method(
                 if st == "FINISHED":
                     break
                 if st == "ERROR":
-                    print(f"PlaToLoCo predictor '{method_name}' returned ERROR status.")
                     return regions_list
             time.sleep(0.5)
 
@@ -228,10 +239,13 @@ def query_single_platoloco_method(
 
         if p_internal_id is not None:
             details_res = requests.get(
-                f"{PLATOLOCO_API_URL}/proteins/{token}/{p_internal_id}", timeout=8
+                f"{PLATOLOCO_API_URL}/proteins/{token}/{p_internal_id}",
+                timeout=8,
             )
             if details_res.status_code == 200:
-                wrapper_items = details_res.json().get("data", {}).get("wrapper", [])
+                wrapper_items = (
+                    details_res.json().get("data", {}).get("wrapper", [])
+                )
                 for item in wrapper_items:
                     for reg in item.get("regions", []):
                         try:
@@ -288,17 +302,14 @@ def generate_platoloco_style_svg(
     annot_start: Optional[int],
     annot_end: Optional[int],
     platoloco_methods: Dict[str, List[Dict[str, int]]],
+    uniprot_id: str = "protein",
 ) -> str:
-    """Generate a multi-track SVG map matching PlaToLoCo's native UI visual style."""
+    """Generate multi-track SVG visualizer with coordinate clamping to prevent overflow."""
     if not isinstance(seq_length, int) or seq_length <= 0:
         return '<span style="color: #94a3b8; font-size: 11px;">Sequence length unavailable</span>'
 
     annot_regions = []
-    if (
-        annot_start is not None
-        and annot_end is not None
-        and annot_start <= annot_end
-    ):
+    if annot_start is not None and annot_end is not None and annot_start <= annot_end:
         annot_regions.append({"start": annot_start, "end": annot_end})
 
     tracks = [
@@ -327,18 +338,27 @@ def generate_platoloco_style_svg(
 
     label_width = 150
     track_area_width = 850
-    total_width = label_width + track_area_width + 30
-    row_height = 24
-    top_offset = 12
+    total_width = label_width + track_area_width + 40
+    row_height = 28
+    top_offset = 36
     ruler_height = 30
-    total_height = top_offset + (len(tracks) * row_height) + ruler_height
+    total_height = top_offset + (len(tracks) * row_height) + ruler_height + 12
 
     svg_elements = []
 
-    for idx, track in enumerate(tracks):
-        y_base = top_offset + (idx * row_height) + 12
+    svg_elements.append(
+        f'<rect x="0" y="0" width="{total_width}" height="{total_height}" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>'
+    )
 
-        tag_x = 10
+    svg_elements.append(
+        f'<text x="16" y="24" fill="#0f172a" font-size="12" font-weight="700" font-family="sans-serif">'
+        f'Sequence details ({seq_length} aa)</text>'
+    )
+
+    for idx, track in enumerate(tracks):
+        y_base = top_offset + (idx * row_height) + 14
+
+        tag_x = 16
         tag_w = label_width - 25
         tag_h = 16
         tag_y = y_base - 8
@@ -353,40 +373,54 @@ def generate_platoloco_style_svg(
         )
 
         svg_elements.append(f'<path d="{tag_path}" fill="#e2e8f0"/>')
-
         svg_elements.append(
             f'<text x="{tag_x + 8}" y="{y_base + 3}" fill="#475569" '
             f'font-size="10" font-weight="600" font-family="sans-serif">'
             f'{track["label"]}</text>'
         )
 
+        start_x_line = label_width + 10
         svg_elements.append(
-            f'<line x1="{label_width}" y1="{y_base}" x2="{label_width + track_area_width}" '
+            f'<line x1="{start_x_line}" y1="{y_base}" x2="{start_x_line + track_area_width}" '
             f'y2="{y_base}" stroke="#e2e8f0" stroke-width="1.5"/>'
         )
 
         for reg in track["regions"]:
-            p_start = reg.get("start", 1)
-            p_end = reg.get("end", 1)
-            x_pos = label_width + (p_start / seq_length) * track_area_width
+            raw_start = reg.get("start", 1)
+            raw_end = reg.get("end", 1)
+            coord_str = f"{raw_start}-{raw_end}"
+
+            # Clamp visual coordinates to sequence length boundaries to avoid layout overflows
+            p_start = max(1, min(raw_start, seq_length))
+            p_end = max(1, min(raw_end, seq_length))
+
+            x_pos = start_x_line + (p_start / seq_length) * track_area_width
             rect_w = max(((p_end - p_start) / seq_length) * track_area_width, 4)
 
             svg_elements.append(
-                f'<rect x="{x_pos:.1f}" y="{y_base - 5}" width="{rect_w:.1f}" height="10" '
+                f'<rect x="{x_pos:.1f}" y="{y_base - 4}" width="{rect_w:.1f}" height="10" '
                 f'fill="{track["color"]}" rx="1">'
-                f'<title>{track["label"]}: {p_start}-{p_end}</title></rect>'
+                f'<title>{track["label"]}: {coord_str}</title></rect>'
+            )
+
+            text_x = x_pos + (rect_w / 2)
+            svg_elements.append(
+                f'<text x="{text_x:.1f}" y="{y_base - 6}" fill="#0f172a" '
+                f'font-size="9" font-weight="700" text-anchor="middle" font-family="sans-serif">'
+                f'{coord_str}</text>'
             )
 
     ruler_y = top_offset + (len(tracks) * row_height) + 6
+    start_x_line = label_width + 10
     svg_elements.append(
-        f'<line x1="{label_width}" y1="{ruler_y}" x2="{label_width + track_area_width}" '
+        f'<line x1="{start_x_line}" y1="{ruler_y}" x2="{start_x_line + track_area_width}" '
         f'y2="{ruler_y}" stroke="#334155" stroke-width="1.5"/>'
     )
 
     tick_step = 50 if seq_length <= 350 else (100 if seq_length <= 1000 else 200)
     curr_tick = 0
     while curr_tick <= seq_length:
-        x_tick = label_width + (curr_tick / seq_length) * track_area_width
+        x_tick = start_x_line + (curr_tick / seq_length) * track_area_width
         svg_elements.append(
             f'<line x1="{x_tick:.1f}" y1="{ruler_y}" x2="{x_tick:.1f}" y2="{ruler_y + 5}" '
             f'stroke="#334155" stroke-width="1.5"/>'
@@ -398,30 +432,18 @@ def generate_platoloco_style_svg(
         curr_tick += tick_step
 
     return (
-        f'<svg width="{total_width}" height="{total_height}" viewBox="0 0 {total_width} {total_height}" '
-        f'style="background: #ffffff; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0; display: block; margin-left: 0;">'
+        f'<svg id="svg-{uniprot_id}" width="{total_width}" height="{total_height}" viewBox="0 0 {total_width} {total_height}" '
+        f'xmlns="http://www.w3.org/2000/svg" style="display: block; margin-left: 0;">'
         f'{"".join(svg_elements)}</svg>'
     )
 
 
-def parse_coord(value: Any) -> Optional[int]:
-    """Safely convert coordinate values to integers or return None."""
-    if value is None:
-        return None
-    try:
-        return int(value)
-    except (ValueError, TypeError):
-        return None
-
-
 def render_record_rows(item: Dict[str, Any]) -> str:
-    """Render table row and subrow visual map for a single dataset record."""
+    """Render table row maintaining empty Start/End of LCR columns."""
     protein_name = item.get("protein_name") or "Unknown"
     organism = item.get("organism") or "Unspecified"
 
-    print(f"Fetching UniProt data for: {protein_name} ({organism})...")
     uni_data = fetch_uniprot_metadata(protein_name, organism)
-
     uniprot_id = uni_data["uniprot_id"]
     gene_name = uni_data["gene_name"]
     full_name = uni_data["full_name"]
@@ -431,7 +453,6 @@ def render_record_rows(item: Dict[str, Any]) -> str:
 
     platoloco_methods = {}
     if sequence:
-        print(f"Querying PlaToLoCo for {protein_name}...")
         platoloco_methods = query_platoloco(sequence, header=uniprot_id)
 
     lcr_type_val = (
@@ -445,22 +466,15 @@ def render_record_rows(item: Dict[str, Any]) -> str:
     annot_start = parse_coord(item.get("start_of_annotation"))
     annot_end = parse_coord(item.get("end_of_annotation"))
 
-    start_annot_str = (
-        str(annot_start)
-        if annot_start is not None
-        else item.get("start_of_annotation", "Unspecified")
-    )
-    end_annot_str = (
-        str(annot_end)
-        if annot_end is not None
-        else item.get("end_of_annotation", "Unspecified")
-    )
+    start_annot_str = str(annot_start) if annot_start is not None else "Unspecified"
+    end_annot_str = str(annot_end) if annot_end is not None else "Unspecified"
 
     svg_track = generate_platoloco_style_svg(
         length,
         annot_start,
         annot_end,
         platoloco_methods,
+        uniprot_id=uniprot_id,
     )
 
     uniprot_link = (
@@ -470,9 +484,7 @@ def render_record_rows(item: Dict[str, Any]) -> str:
     )
 
     evidence_text = item.get("evidence") or "No evidence statement provided."
-    source_id = (
-        item.get("source_id") or item.get("doi") or item.get("file") or "N/A"
-    )
+    source_id = item.get("source_id") or item.get("doi") or item.get("file") or "N/A"
     category = (
         item.get("annotation_category")
         or item.get("proposed_function")
@@ -500,9 +512,6 @@ def render_record_rows(item: Dict[str, Any]) -> str:
             </tr>
             <tr class="subrow">
                 <td colspan="14" class="viz-container">
-                    <div class="viz-header">
-                        <span>Sequence details ({length} aa)</span>
-                    </div>
                     {svg_track}
                 </td>
             </tr>
@@ -513,7 +522,7 @@ def generate_html_report(
     input_file: str = "data/processed/verified_lcrs.json",
     output_html: str = "data/processed/lcr_biocuration_report.html",
 ) -> None:
-    """Generate an HTML biocuration report grouping unspecified ranges at the bottom."""
+    """Generate HTML report with flat ZIP export (Report.zip) containing CSV and SVGs."""
     input_path = Path(input_file)
     if not input_path.exists():
         alt_path = Path("data/processed/final_results.jsonl")
@@ -545,6 +554,8 @@ def generate_html_report(
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functional LCR Annotation Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f8fafc; color: #334155; margin: 0; padding: 16px; font-size: 12px; }
         .container { width: 100%; max-width: 1920px; margin: 0 auto; overflow-x: auto; }
@@ -561,8 +572,11 @@ def generate_html_report(
         .badge-type { background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
         .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
         .viz-container { padding: 12px; text-align: left; }
-        .viz-header { font-size: 12px; font-weight: bold; color: #1e293b; margin-bottom: 6px; text-align: left; }
         .category-header-row td { background-color: #334155; color: #ffffff; font-weight: 700; font-size: 12px; padding: 10px 12px; letter-spacing: 0.5px; text-transform: uppercase; }
+        
+        .export-container { margin-top: 20px; text-align: left; padding-bottom: 30px; }
+        .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 9px 18px; font-size: 12px; font-weight: 600; border-radius: 4px; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.1); transition: background 0.2s; }
+        .btn-export:hover { background-color: #6d28d9; }
     </style>
 </head>
 <body>
@@ -570,7 +584,7 @@ def generate_html_report(
         <h1>Functional LCR Annotation Report</h1>
         <p class="subtitle">Structured low-complexity region dataset integrated with UniProt and PlaToLoCo predictions</p>
         
-        <table>
+        <table id="lcr-report-table">
             <thead>
                 <tr>
                     <th>UniprotID</th>
@@ -607,7 +621,47 @@ def generate_html_report(
     html_content += """
             </tbody>
         </table>
+
+        <div class="export-container">
+            <button class="btn-export" onclick="exportReportToZIP()">Export Report</button>
+        </div>
     </div>
+
+    <script>
+        async function exportReportToZIP() {
+            const zip = new JSZip();
+            const table = document.getElementById('lcr-report-table');
+            const rows = table.querySelectorAll('tr');
+            let csv = [];
+
+            for (let i = 0; i < rows.length; i++) {
+                const row = rows[i];
+                if (row.classList.contains('subrow')) continue;
+
+                const cols = row.querySelectorAll('th, td');
+                let rowData = [];
+
+                for (let j = 0; j < cols.length; j++) {
+                    let cellText = cols[j].innerText.replace(/\\n/g, ' ').replace(/\\s+/g, ' ').trim();
+                    cellText = cellText.replace(/"/g, '""');
+                    rowData.push('"' + cellText + '"');
+                }
+                csv.push(rowData.join(','));
+            }
+
+            zip.file("report.csv", csv.join('\\n'));
+
+            const svgs = document.querySelectorAll('svg[id^="svg-"]');
+            svgs.forEach((svg) => {
+                const protId = svg.id.replace('svg-', '');
+                const svgData = new XMLSerializer().serializeToString(svg);
+                zip.file(`${protId}_platoloco.svg`, svgData);
+            });
+
+            const content = await zip.generateAsync({ type: "blob" });
+            saveAs(content, "Report.zip");
+        }
+    </script>
 </body>
 </html>
 """

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functional LCR Annotation Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f8fafc; color: #334155; margin: 0; padding: 16px; font-size: 12px; }
         .container { width: 100%; max-width: 1920px; margin: 0 auto; overflow-x: auto; }
@@ -20,8 +22,11 @@
         .badge-type { background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
         .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
         .viz-container { padding: 12px; text-align: left; }
-        .viz-header { font-size: 12px; font-weight: bold; color: #1e293b; margin-bottom: 6px; text-align: left; }
         .category-header-row td { background-color: #334155; color: #ffffff; font-weight: 700; font-size: 12px; padding: 10px 12px; letter-spacing: 0.5px; text-transform: uppercase; }
+        
+        .export-container { margin-top: 20px; text-align: left; padding-bottom: 30px; }
+        .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 9px 18px; font-size: 12px; font-weight: 600; border-radius: 4px; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.1); transition: background 0.2s; }
+        .btn-export:hover { background-color: #6d28d9; }
     </style>
 </head>
 <body>
@@ -29,7 +34,7 @@
         <h1>Functional LCR Annotation Report</h1>
         <p class="subtitle">Structured low-complexity region dataset integrated with UniProt and PlaToLoCo predictions</p>
         
-        <table>
+        <table id="lcr-report-table">
             <thead>
                 <tr>
                     <th>UniprotID</th>
@@ -68,15 +73,52 @@
             </tr>
             <tr class="subrow">
                 <td colspan="14" class="viz-container">
-                    <div class="viz-header">
-                        <span>Sequence details (104 aa)</span>
-                    </div>
-                    <svg width="1030" height="258" viewBox="0 0 1030 258" style="background: #ffffff; padding: 12px; border-radius: 6px; border: 1px solid #e2e8f0; display: block; margin-left: 0;"><path d="M 10 16 L 129 16 L 135 24.0 L 129 32 L 10 32 Z" fill="#e2e8f0"/><text x="18" y="27" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">Annotated LCR</text><line x1="150" y1="24" x2="1000" y2="24" stroke="#e2e8f0" stroke-width="1.5"/><rect x="158.2" y="19" width="2827.9" height="10" fill="#f97316" rx="1"><title>Annotated LCR: 1-347</title></rect><path d="M 10 40 L 129 40 L 135 48.0 L 129 56 L 10 56 Z" fill="#e2e8f0"/><text x="18" y="51" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG</text><line x1="150" y1="48" x2="1000" y2="48" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 64 L 129 64 L 135 72.0 L 129 80 L 10 80 Z" fill="#e2e8f0"/><text x="18" y="75" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG-intermediate</text><line x1="150" y1="72" x2="1000" y2="72" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 88 L 129 88 L 135 96.0 L 129 104 L 10 104 Z" fill="#e2e8f0"/><text x="18" y="99" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG-strict</text><line x1="150" y1="96" x2="1000" y2="96" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 112 L 129 112 L 135 120.0 L 129 128 L 10 128 Z" fill="#e2e8f0"/><text x="18" y="123" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">CAST</text><line x1="150" y1="120" x2="1000" y2="120" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 136 L 129 136 L 135 144.0 L 129 152 L 10 152 Z" fill="#e2e8f0"/><text x="18" y="147" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">fLPS</text><line x1="150" y1="144" x2="1000" y2="144" stroke="#e2e8f0" stroke-width="1.5"/><rect x="779.3" y="139" width="122.6" height="10" fill="#db2777" rx="1"><title>fLPS: 77-92</title></rect><rect x="632.2" y="139" width="155.3" height="10" fill="#db2777" rx="1"><title>fLPS: 59-78</title></rect><rect x="632.2" y="139" width="269.7" height="10" fill="#db2777" rx="1"><title>fLPS: 59-92</title></rect><path d="M 10 160 L 129 160 L 135 168.0 L 129 176 L 10 176 Z" fill="#e2e8f0"/><text x="18" y="171" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">fLPS-strict</text><line x1="150" y1="168" x2="1000" y2="168" stroke="#e2e8f0" stroke-width="1.5"/><rect x="632.2" y="163" width="32.7" height="10" fill="#f43f5e" rx="1"><title>fLPS-strict: 59-63</title></rect><path d="M 10 184 L 129 184 L 135 192.0 L 129 200 L 10 200 Z" fill="#e2e8f0"/><text x="18" y="195" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SIMPLE</text><line x1="150" y1="192" x2="1000" y2="192" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 10 208 L 129 208 L 135 216.0 L 129 224 L 10 224 Z" fill="#e2e8f0"/><text x="18" y="219" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">GBSC</text><line x1="150" y1="216" x2="1000" y2="216" stroke="#e2e8f0" stroke-width="1.5"/><line x1="150" y1="234" x2="1000" y2="234" stroke="#334155" stroke-width="1.5"/><line x1="150.0" y1="234" x2="150.0" y2="239" stroke="#334155" stroke-width="1.5"/><text x="150.0" y="252" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">0</text><line x1="558.7" y1="234" x2="558.7" y2="239" stroke="#334155" stroke-width="1.5"/><text x="558.7" y="252" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">50</text><line x1="967.3" y1="234" x2="967.3" y2="239" stroke="#334155" stroke-width="1.5"/><text x="967.3" y="252" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">100</text></svg>
+                    <svg id="svg-G2TRN4" width="1040" height="330" viewBox="0 0 1040 330" xmlns="http://www.w3.org/2000/svg" style="display: block; margin-left: 0;"><rect x="0" y="0" width="1040" height="330" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/><text x="16" y="24" fill="#0f172a" font-size="12" font-weight="700" font-family="sans-serif">Sequence details (104 aa)</text><path d="M 16 42 L 135 42 L 141 50.0 L 135 58 L 16 58 Z" fill="#e2e8f0"/><text x="24" y="53" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">Annotated LCR</text><line x1="160" y1="50" x2="1010" y2="50" stroke="#e2e8f0" stroke-width="1.5"/><rect x="168.2" y="46" width="841.8" height="10" fill="#f97316" rx="1"><title>Annotated LCR: 1-347</title></rect><text x="589.1" y="44" fill="#0f172a" font-size="9" font-weight="700" text-anchor="middle" font-family="sans-serif">1-347</text><path d="M 16 70 L 135 70 L 141 78.0 L 135 86 L 16 86 Z" fill="#e2e8f0"/><text x="24" y="81" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG</text><line x1="160" y1="78" x2="1010" y2="78" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 16 98 L 135 98 L 141 106.0 L 135 114 L 16 114 Z" fill="#e2e8f0"/><text x="24" y="109" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG-intermediate</text><line x1="160" y1="106" x2="1010" y2="106" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 16 126 L 135 126 L 141 134.0 L 135 142 L 16 142 Z" fill="#e2e8f0"/><text x="24" y="137" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SEG-strict</text><line x1="160" y1="134" x2="1010" y2="134" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 16 154 L 135 154 L 141 162.0 L 135 170 L 16 170 Z" fill="#e2e8f0"/><text x="24" y="165" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">CAST</text><line x1="160" y1="162" x2="1010" y2="162" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 16 182 L 135 182 L 141 190.0 L 135 198 L 16 198 Z" fill="#e2e8f0"/><text x="24" y="193" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">fLPS</text><line x1="160" y1="190" x2="1010" y2="190" stroke="#e2e8f0" stroke-width="1.5"/><rect x="789.3" y="186" width="122.6" height="10" fill="#db2777" rx="1"><title>fLPS: 77-92</title></rect><text x="850.6" y="184" fill="#0f172a" font-size="9" font-weight="700" text-anchor="middle" font-family="sans-serif">77-92</text><rect x="642.2" y="186" width="155.3" height="10" fill="#db2777" rx="1"><title>fLPS: 59-78</title></rect><text x="719.9" y="184" fill="#0f172a" font-size="9" font-weight="700" text-anchor="middle" font-family="sans-serif">59-78</text><rect x="642.2" y="186" width="269.7" height="10" fill="#db2777" rx="1"><title>fLPS: 59-92</title></rect><text x="777.1" y="184" fill="#0f172a" font-size="9" font-weight="700" text-anchor="middle" font-family="sans-serif">59-92</text><path d="M 16 210 L 135 210 L 141 218.0 L 135 226 L 16 226 Z" fill="#e2e8f0"/><text x="24" y="221" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">fLPS-strict</text><line x1="160" y1="218" x2="1010" y2="218" stroke="#e2e8f0" stroke-width="1.5"/><rect x="642.2" y="214" width="32.7" height="10" fill="#f43f5e" rx="1"><title>fLPS-strict: 59-63</title></rect><text x="658.6" y="212" fill="#0f172a" font-size="9" font-weight="700" text-anchor="middle" font-family="sans-serif">59-63</text><path d="M 16 238 L 135 238 L 141 246.0 L 135 254 L 16 254 Z" fill="#e2e8f0"/><text x="24" y="249" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">SIMPLE</text><line x1="160" y1="246" x2="1010" y2="246" stroke="#e2e8f0" stroke-width="1.5"/><path d="M 16 266 L 135 266 L 141 274.0 L 135 282 L 16 282 Z" fill="#e2e8f0"/><text x="24" y="277" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">GBSC</text><line x1="160" y1="274" x2="1010" y2="274" stroke="#e2e8f0" stroke-width="1.5"/><line x1="160" y1="294" x2="1010" y2="294" stroke="#334155" stroke-width="1.5"/><line x1="160.0" y1="294" x2="160.0" y2="299" stroke="#334155" stroke-width="1.5"/><text x="160.0" y="312" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">0</text><line x1="568.7" y1="294" x2="568.7" y2="299" stroke="#334155" stroke-width="1.5"/><text x="568.7" y="312" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">50</text><line x1="977.3" y1="294" x2="977.3" y2="299" stroke="#334155" stroke-width="1.5"/><text x="977.3" y="312" fill="#475569" font-size="10" text-anchor="middle" font-family="sans-serif">100</text></svg>
                 </td>
             </tr>
 
             </tbody>
         </table>
+
+        <div class="export-container">
+            <button class="btn-export" onclick="exportReportToZIP()">Export Report</button>
+        </div>
     </div>
+
+    <script>
+        async function exportReportToZIP() {
+            const zip = new JSZip();
+            const table = document.getElementById('lcr-report-table');
+            const rows = table.querySelectorAll('tr');
+            let csv = [];
+
+            for (let i = 0; i < rows.length; i++) {
+                const row = rows[i];
+                if (row.classList.contains('subrow')) continue;
+
+                const cols = row.querySelectorAll('th, td');
+                let rowData = [];
+
+                for (let j = 0; j < cols.length; j++) {
+                    let cellText = cols[j].innerText.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+                    cellText = cellText.replace(/"/g, '""');
+                    rowData.push('"' + cellText + '"');
+                }
+                csv.push(rowData.join(','));
+            }
+
+            zip.file("report.csv", csv.join('\n'));
+
+            const svgs = document.querySelectorAll('svg[id^="svg-"]');
+            svgs.forEach((svg) => {
+                const protId = svg.id.replace('svg-', '');
+                const svgData = new XMLSerializer().serializeToString(svg);
+                zip.file(`${protId}_platoloco.svg`, svgData);
+            });
+
+            const content = await zip.generateAsync({ type: "blob" });
+            saveAs(content, "Report.zip");
+        }
+    </script>
 </body>
 </html>

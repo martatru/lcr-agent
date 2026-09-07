@@ -21,14 +21,21 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-PROMPT_LCR = """You are an expert biocuration AI. Your task is to extract Low Complexity Regions (LCRs/IDRs/PLDs), their coordinate ranges, and associated binding interactions from scientific text.
+PROMPT_LCR = """Your task is to go through the text provided, read it thoroughly, and identify the exact presence or close-remote relationship of the following keywords: low-complexity, low-complexity region(s), 
+LCR, repeat(s), tandem repeat(s), repetitive, instrinsically disordered region(s), IDP, IDR, and any other related terms that indicate the presence of a low-complexity region (LCR) or low-complexity domain (LCD) 
+in a protein. 
 
 Guidelines:
-1. **Coordinate Extraction (CRITICAL)**: Scrutinize the text for any residue numbers, ranges, or amino acid positions (e.g., "residues 904–1297", "amino acids 50-100", "positions 12-61"). If numerical coordinates are present, you MUST extract the start integer into 'start_of_annotation' and the end integer into 'end_of_annotation'. Do not leave them as 'Unspecified' if numbers are stated.
-2. **Binding Interaction Naming**: In 'binding_target', specify the precise interaction type using the suffix '-binding' (e.g., 'protein-binding', 'RNA-binding', 'DNA-binding'). Never use isolated nouns like 'Protein'. If no target is mentioned, set to 'Unspecified'.
-3. **Verified Category**: Set 'curation_status' to 'Verified' ONLY if explicit numerical coordinates AND experimental binding evidence are found.
-4. **Requires Manual Check Category**: Set 'curation_status' to 'Requires Manual Check' if numerical coordinates are completely missing from the text or the mention is purely qualitative.
-5. **Evidence Rule**: 'evidence' must contain an exact verbatim sentence from the text proving the statement.
+1. Extract all instance candidates of the specified keywords.
+2. Extract all mentioned proteins or genes, including their names and identifiers (e.g., UniProt ID, gene symbol).
+3. Extract any presence of a function, regulation, or interaction mentioned in the text.
+4. For each interaction, function, or regulation role, map it to the corresponding protein or gene if possible. ELSE, flag it as 'Unspecified'.
+5. DO NOT ASSUME that the presence of a keyword, a function, or a protein implies an actual relationship between them.
+6. If present, map coordinates to the LCRs or proteins mentioned. If coordinates are not present, flag them as 'Unspecified'. DO NOT ASSUME coordinates 
+based on the text.
+7. 'evidence' MUST be an exact verbatim sentence from the text proving the LCR and its relationship to the identified protein or gene, and function IF 
+the relationship EXISTS.
+
 """
 
 async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:

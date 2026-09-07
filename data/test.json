@@ -1,0 +1,70 @@
+{
+  "test_cases": [
+    {
+      "tier": 1,
+      "difficulty": "Explicit coordinates and experimental binding function",
+      "examples": [
+        {
+          "protein_name": "FUS",
+          "uniprot_id": "P35627",
+          "organism": "Homo sapiens",
+          "results": "To determine the functional architecture of the human FUS protein, we performed systematic deletion mapping combined with in vitro binding assays. Our quantitative measurements revealed that the N-terminal low complexity domain, precisely spanning residues 1 to 214, exhibits robust and specific affinity for single-stranded RNA substrates. Isothermal titration calorimetry further confirmed direct thermodynamic interactions between this prion-like segment and target transcripts, demonstrating a dissociation constant in the nanomolar range. Mutational disruption of amino acids within this interval completely abolished the transcript-binding phenotype, establishing its primary role in ribonucleoprotein assembly.",
+          "discussion": "The identification of residues 1–214 as the core RNA-binding module provides clear biochemical evidence connecting compositional bias to specific molecular functions. Unlike globular RNA-recognition motifs, this low complexity region leverages aromatic and polar residue distribution to drive cooperative binding cascades. These findings align with previous observations regarding phase separation and stress granule recruitment, suggesting that precise sequence boundaries dictate both functional specificity and higher-order structural transitions.",
+          "conclusion": "Residues 1–214 of the human FUS protein constitute a verified, experimentally tractable RNA-binding low complexity domain essential for direct molecular recognition and subsequent ribonucleoprotein complex formation."
+        },
+        {
+          "protein_name": "TDP-43",
+          "uniprot_id": "Q13148",
+          "organism": "Homo sapiens",
+          "results": "In this study, we evaluated the carboxy-terminal region of TAR DNA-binding protein 43 (TDP-43). Using recombinant truncation mutants and electrophoretic mobility shift assays, we demonstrated that residues 274 to 414 function as a direct nucleic acid-binding domain. Titration curves indicated high-affinity binding specifically toward UG-rich RNA repeats, confirming that this glycine-rich low-complexity tract mediates direct sequence recognition.",
+          "discussion": "The mapping of the nucleic acid binding interface within the low complexity tail challenges the traditional view that only structured RRM domains participate in target recognition. The modular arrangement of aromatic residues within positions 274–414 facilitates cooperative stacking interactions on RNA strands, rationalizing its propensity for forming pathogenic inclusions when mutated.",
+          "conclusion": "The segment spanning residues 274–414 of TDP-43 represents a functionally verified low-complexity RNA-binding domain required for specific ribonucleoprotein interactions."
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "difficulty": "Implicit or paraphrased descriptions requiring semantic inference",
+      "examples": [
+        {
+          "protein_name": "hnRNPA1",
+          "uniprot_id": "P09651",
+          "organism": "Homo sapiens",
+          "results": "Investigation into the heterogeneous nuclear ribonucleoprotein hnRNPA1 architecture highlighted a distinct compositional bias situated toward the carboxy-terminal portion of the polypeptide chain. Sequence analysis indicated a high prevalence of glycine and aromatic residues within this segment. Functional evaluations using pull-down assays and cross-linking mass spectrometry demonstrated that this modular C-terminal domain readily engages in extensive protein-protein contact networks, facilitating cooperative multimerization and stable integration into cellular ribonucleoprotein complexes upon transcriptional activation.",
+          "discussion": "Although strict numerical coordinate limits were not exhaustively mapped via truncation series in this study, the biochemical assays consistently implicate the glycine-rich C-terminal tail in driving homotypic and heterotypic interactions. The diffuse nature of these interaction interfaces highlights the challenge of defining rigid boundaries for intrinsically disordered sequence domains. Nevertheless, the enrichment of specific amino acid motifs strongly correlates with the observed assembly dynamics and scaffolding capabilities.",
+          "conclusion": "The C-terminal glycine-rich low complexity segment of hnRNPA1 functions as a major driver of protein-protein interactions, facilitating cooperative macromolecular assembly within nuclear ribonucleoprotein complexes."
+        },
+        {
+          "protein_name": "EWSR1",
+          "uniprot_id": "Q01844",
+          "organism": "Homo sapiens",
+          "results": "Characterization of the Ewing sarcoma breakpoint region 1 product revealed an extensive N-terminal domain enriched in tyrosine and glutamine residues. Through co-immunoprecipitation and cellular fractionation assays, we observed that this compositionally biased stretch promotes robust associations with basal transcription machinery components, driving efficient assembly into functional transcriptional condensates.",
+          "discussion": "While precise amino-acid start and end boundaries were left unspecified due to the high sequence repetition and technical limitations in resolving exact cleavage borders, the functional readouts point undeniably toward modular scaffolding behavior. The repetitive motifs act collectively rather than as isolated points, indicating that semantic interpretation of the entire N-terminal context is necessary to grasp its regulatory impact.",
+          "conclusion": "The tyrosine- and glutamine-rich N-terminal sequence tract of EWSR1 acts as an implicit driver of transcription factor recruitment and macromolecular condensation."
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "difficulty": "Qualitative mentions lacking explicit ranges or experimental binding assays",
+      "examples": [
+        {
+          "protein_name": "Zelda",
+          "uniprot_id": "Q7YU17",
+          "organism": "Drosophila melanogaster",
+          "results": "Genome-wide and structural sequence inspection of the Drosophila Zelda transcription factor revealed the presence of multiple low-complexity tracts distributed across various functional domains. While our current experimental workflow focused primarily on overall transcriptional activation potential rather than isolated peptide mapping, sequence alignments across related species show high conservation of these compositionally biased regions. Qualitative reporter assays involving full-length protein variants indicated robust enhancement of target gene expression in embryonic extracts.",
+          "discussion": "The precise physical boundaries and structural contributions of individual low-complexity regions within Zelda remain unverified by direct binding measurements in our current dataset. However, their structural conservation strongly suggests a biological role in mediating nuclear cofactor recruitment. It is plausible that these flexible sequence stretches act modularly to increase local concentration and stabilize pre-initiation complexes, though dedicated fine-mapping and in vitro reconstitution will be required to validate specific interaction partners.",
+          "conclusion": "Zelda harbors several qualitative low-complexity sequence motifs that correlate with transcriptional activation capacity, though precise residue coordinates and isolated binding functions await experimental delineation."
+        },
+        {
+          "protein_name": "TAF1",
+          "uniprot_id": "P20226",
+          "organism": "Homo sapiens",
+          "results": "Sequence analysis of human TATA-binding protein associated factor 1 indicated extensive tracts of glutamine-rich repeats scattered throughout auxiliary domains. No targeted mutagenesis or truncation series were performed in this report, and functional assays were limited to broad cellular growth observations under stress conditions.",
+          "discussion": "Although low-complexity repeats are clearly visible from primary sequence data, their exact functional consequences in vivo remain completely speculative within the scope of our findings. Mentions of these segments are purely observational, serving as a structural foundation for future investigations into transcriptional regulation without providing concrete biochemical mapping.",
+          "conclusion": "The protein features qualitative low-complexity homopolymeric stretches whose functional relevance requires rigorous experimental validation in subsequent studies."
+        }
+      ]
+    }
+  ]
+}

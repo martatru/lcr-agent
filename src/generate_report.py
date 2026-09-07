@@ -658,13 +658,13 @@ def generate_html_report(
                     <th>Gene name</th>
                     <th>Name</th>
                     <th>Protein length</th>
-                    <th>LCR type</th>
+                    <th>LCR-keyword Presence</th>
                     <th>Organism</th>
                     <th class="col-source">Source</th>
                     <th>Source ID</th>
                     <th>Start of annotation</th>
                     <th>End of annotation</th>
-                    <th>Annotation Category</th>
+                    <th>Function</th>
                     <th>Gene Ontology of category</th>
                 </tr>
             </thead>

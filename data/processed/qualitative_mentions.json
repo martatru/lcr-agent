@@ -1,29 +1,20 @@
 [
   {
     "file": "1-s2.0-S0021925820491975-main.pdf",
-    "protein_name": "Zelda",
-    "organism": "Drosophila melanogaster",
-    "binding_target": "protein-binding",
-    "evidence": "ZLD regulates transcription through conserved interactions with a protein cofactor(s).",
-    "curator_note": "Low‑complexity activation domain described qualitatively; no explicit residue coordinates provided.",
-    "flag": "Requires Manual Check (missing coordinates or qualitative mention)"
-  },
-  {
-    "file": "1-s2.0-S0021925820491975-main.pdf",
     "protein_name": "Zelda (ZLD)",
     "organism": "Drosophila melanogaster",
     "binding_target": "protein-binding",
-    "evidence": "Amino Acids 904–1297 Comprise the Transcriptional Activation Domain of ZLD—Because ZLD-PD and ZLD-PF likely bind a cofactor necessary for mediating transcriptional activation, this interaction domain must exist N‑terminally to the DNA‑binding domain we identified.",
-    "curator_note": "Region defined with coordinates; binding inferred but not directly demonstrated.",
+    "evidence": "Zelda binds DNA using C-terminal zinc fingers and activates transcription through a low-complexity domain.",
+    "curator_note": "",
     "flag": "Requires Manual Check (missing coordinates or qualitative mention)"
   },
   {
     "file": "1-s2.0-S0021925820491975-main.pdf",
-    "protein_name": "Unspecified",
-    "organism": "Unspecified",
-    "binding_target": "Unspecified",
-    "evidence": "Low-complexity regions within protein sequences have position-dependent roles.",
-    "curator_note": "No residue coordinates provided",
+    "protein_name": "ZLD",
+    "organism": "Drosophila melanogaster",
+    "binding_target": "protein-binding",
+    "evidence": "Additionally, we mapped the activation domain to a poorly conserved, low-complexity protein domain just N-terminal to the DNA-binding domain. Amino acids 904–1297 constitute a minimal domain required to drive ZLD-mediated transcriptional activation.",
+    "curator_note": "",
     "flag": "Requires Manual Check (missing coordinates or qualitative mention)"
   }
 ]

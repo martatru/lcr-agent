@@ -2,7 +2,7 @@
 LCR Biocuration HTML Report Generator.
 
 Integrates curated Low-Complexity Region (LCR) records with UniProt metadata
-and multi-track sequence visualizers utilizing supported PlaToLoCo predictors.
+and resilient multi-track sequence visualizers for PlaToLoCo predictors.
 """
 
 import json
@@ -122,20 +122,18 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
     }
 
 
-def query_platoloco(
-    sequence: str, header: str = "seq"
-) -> Dict[str, List[Dict[str, int]]]:
-    """Submit sequence to PlaToLoCo API requesting supported core prediction methods[cite: 2]."""
-    method_results: Dict[str, List[Dict[str, int]]] = {
-        "SEG_intermediate": [],
-        "SEG_strict": [],
-        "CAST": [],
-        "fLPS_strict": [],
+def query_single_platoloco_method(
+    sequence: str, method_name: str, header: str = "seq"
+) -> List[Dict[str, int]]:
+    """Query a single PlaToLoCo method independently to isolate execution errors."""
+    seg_default_params = {
+        "window": 12,
+        "locut": 2.2,
+        "hicut": 2.5,
+        "k1": 2.2,
+        "k2": 2.5,
     }
-    if not sequence:
-        return method_results
 
-    unique_job_id = f"{header}_{uuid.uuid4().hex[:6]}"
     flps_params = {
         "min_tract_len": 15,
         "max_tract_len": 500,
@@ -143,137 +141,124 @@ def query_platoloco(
         "regions": {"single": True, "multiple": True, "whole": False},
     }
 
-    # Restrict to verified core callers configuration[cite: 2]
+    methods_flag = {
+        "seg_default": False,
+        "seg_intermediate": False,
+        "seg_strict": False,
+        "cast": False,
+        "flps": False,
+        "flps_strict": False,
+        "simple": False,
+        "gbsc": False,
+    }
+    methods_flag[method_name] = True
+
     payload = {
-        "name": unique_job_id,
+        "name": f"{header}_{method_name}_{uuid.uuid4().hex[:4]}",
         "sequences": f">{header}\n{sequence.strip()}\n",
-        "methods": {
-            "seg_default": False,
-            "seg_intermediate": True,
-            "seg_strict": True,
-            "cast": True,
-            "flps": False,
-            "flps_strict": True,
-            "simple": False,
-            "gbsc": False,
-        },
-        "enrichment": {
-            "pfam": False,
-            "phobius": False,
-            "aafrequency": False,
-        },
+        "methods": methods_flag,
+        "enrichment": {"pfam": False, "phobius": False, "aafrequency": False},
         "params": {
+            "seg": seg_default_params,
+            "seg_default": seg_default_params,
             "seg_strict": {},
             "seg_intermediate": {"window": 15, "k1": 1.9, "k2": 2.5},
             "cast": {"threshold": 40, "matrix": 1},
+            "flps": flps_params,
             "flps_strict": flps_params,
+            "simple": {},
+            "gbsc": {},
         },
     }
 
-    canonical_map = {
-        "seg_intermediate": "SEG_intermediate",
-        "SEG_intermediate": "SEG_intermediate",
-        "seg_strict": "SEG_strict",
-        "SEG_strict": "SEG_strict",
-        "cast": "CAST",
-        "CAST": "CAST",
-        "flps_strict": "fLPS_strict",
-        "fLPS_strict": "fLPS_strict",
-    }
+    regions_list: List[Dict[str, int]] = []
 
     try:
-        res = requests.put(f"{PLATOLOCO_API_URL}/query", json=payload, timeout=10)
+        res = requests.put(f"{PLATOLOCO_API_URL}/query", json=payload, timeout=8)
         if res.status_code != 200:
-            return method_results
+            return regions_list
 
         token = res.json().get("token")
         if not token:
-            return method_results
+            return regions_list
 
-        for _ in range(30):
-            status_res = requests.get(
-                f"{PLATOLOCO_API_URL}/job/{token}", timeout=5
-            )
+        for _ in range(15):
+            status_res = requests.get(f"{PLATOLOCO_API_URL}/job/{token}", timeout=5)
             if status_res.status_code == 200:
                 st = status_res.json().get("status")
                 if st == "FINISHED":
                     break
                 if st == "ERROR":
-                    print(f"PlaToLoCo execution error for token {token}")
-                    return method_results
-            time.sleep(1)
+                    print(f"PlaToLoCo predictor '{method_name}' returned ERROR status.")
+                    return regions_list
+            time.sleep(0.5)
 
-        list_res = requests.get(f"{PLATOLOCO_API_URL}/proteins/{token}", timeout=10)
+        list_res = requests.get(f"{PLATOLOCO_API_URL}/proteins/{token}", timeout=8)
         if list_res.status_code != 200:
-            return method_results
+            return regions_list
 
         proteins = list_res.json().get("proteins", [])
         if not proteins:
-            return method_results
+            return regions_list
 
         prot_summary = proteins[0]
         p_internal_id = prot_summary.get("id")
 
         if p_internal_id is not None:
-            try:
-                details_res = requests.get(
-                    f"{PLATOLOCO_API_URL}/proteins/{token}/{p_internal_id}",
-                    timeout=10,
-                )
-                if details_res.status_code == 200:
-                    wrapper_items = (
-                        details_res.json()
-                        .get("data", {})
-                        .get("wrapper", [])
-                    )
-                    for item in wrapper_items:
-                        raw_m = item.get("method", "")
-                        std_m = canonical_map.get(raw_m) or canonical_map.get(
-                            raw_m.lower()
-                        )
-                        if std_m in method_results:
-                            for reg in item.get("regions", []):
-                                try:
-                                    method_results[std_m].append({
-                                        "start": int(reg["beg"]),
-                                        "end": int(reg["end"]),
-                                    })
-                                except (KeyError, ValueError, TypeError):
-                                    pass
-            except Exception as err:
-                print(f"Detail parsing error: {err}")
-
-        for key, val in prot_summary.items():
-            std_m = canonical_map.get(key) or canonical_map.get(key.lower())
-            if std_m in method_results and isinstance(val, list) and val:
-                if not method_results[std_m]:
-                    for reg in val:
-                        if isinstance(reg, list) and len(reg) == 2:
-                            try:
-                                method_results[std_m].append({
-                                    "start": int(reg[0]),
-                                    "end": int(reg[1]),
-                                })
-                            except (ValueError, TypeError):
-                                pass
-
-        for std_m in method_results:
-            seen = set()
-            unique = []
-            for reg in sorted(
-                method_results[std_m], key=lambda x: (x["start"], x["end"])
-            ):
-                pair = (reg["start"], reg["end"])
-                if pair not in seen:
-                    seen.add(pair)
-                    unique.append(reg)
-            method_results[std_m] = unique
-
-        return method_results
+            details_res = requests.get(
+                f"{PLATOLOCO_API_URL}/proteins/{token}/{p_internal_id}", timeout=8
+            )
+            if details_res.status_code == 200:
+                wrapper_items = details_res.json().get("data", {}).get("wrapper", [])
+                for item in wrapper_items:
+                    for reg in item.get("regions", []):
+                        try:
+                            regions_list.append({
+                                "start": int(reg["beg"]),
+                                "end": int(reg["end"]),
+                            })
+                        except (KeyError, ValueError, TypeError):
+                            pass
 
     except Exception as err:
-        print(f"PlaToLoCo communication error: {err}")
+        print(f"PlaToLoCo method '{method_name}' query error: {err}")
+
+    return regions_list
+
+
+def query_platoloco(
+    sequence: str, header: str = "seq"
+) -> Dict[str, List[Dict[str, int]]]:
+    """Query all 8 PlaToLoCo predictors using isolated requests."""
+    method_results: Dict[str, List[Dict[str, int]]] = {
+        "SEG": [],
+        "SEG_intermediate": [],
+        "SEG_strict": [],
+        "CAST": [],
+        "fLPS": [],
+        "fLPS_strict": [],
+        "SIMPLE": [],
+        "GBSC": [],
+    }
+    if not sequence:
         return method_results
+
+    method_key_map = {
+        "seg_default": "SEG",
+        "seg_intermediate": "SEG_intermediate",
+        "seg_strict": "SEG_strict",
+        "cast": "CAST",
+        "flps": "fLPS",
+        "flps_strict": "fLPS_strict",
+        "simple": "SIMPLE",
+        "gbsc": "GBSC",
+    }
+
+    for req_key, canonical_key in method_key_map.items():
+        regs = query_single_platoloco_method(sequence, req_key, header)
+        method_results[canonical_key] = regs
+
+    return method_results
 
 
 def generate_platoloco_style_svg(
@@ -296,6 +281,7 @@ def generate_platoloco_style_svg(
 
     tracks = [
         {"label": "Annotated LCR", "color": "#f97316", "regions": annot_regions},
+        {"label": "SEG", "color": "#d946ef", "regions": platoloco_methods.get("SEG", [])},
         {
             "label": "SEG-intermediate",
             "color": "#c026d3",
@@ -307,11 +293,14 @@ def generate_platoloco_style_svg(
             "regions": platoloco_methods.get("SEG_strict", []),
         },
         {"label": "CAST", "color": "#a21caf", "regions": platoloco_methods.get("CAST", [])},
+        {"label": "fLPS", "color": "#db2777", "regions": platoloco_methods.get("fLPS", [])},
         {
             "label": "fLPS-strict",
             "color": "#f43f5e",
             "regions": platoloco_methods.get("fLPS_strict", []),
         },
+        {"label": "SIMPLE", "color": "#64748b", "regions": platoloco_methods.get("SIMPLE", [])},
+        {"label": "GBSC", "color": "#475569", "regions": platoloco_methods.get("GBSC", [])},
     ]
 
     label_width = 150
@@ -502,7 +491,7 @@ def generate_html_report(
     input_file: str = "data/processed/verified_lcrs.json",
     output_html: str = "data/processed/lcr_biocuration_report.html",
 ) -> None:
-    """Generate an HTML biocuration report grouping unspecified ranges at the bottom[cite: 3]."""
+    """Generate an HTML biocuration report grouping unspecified ranges at the bottom."""
     input_path = Path(input_file)
     if not input_path.exists():
         alt_path = Path("data/processed/final_results.jsonl")

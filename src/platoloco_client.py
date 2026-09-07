@@ -108,37 +108,82 @@ class PlatoLoCoClient:
             if not proteins:
                 return []
 
-            p_internal_id = proteins[0]["id"]
-            details_res = requests.get(
-                f"{self.api_url}/proteins/{token}/{p_internal_id}",
-                timeout=self.timeout,
-            )
-            details_res.raise_for_status()
-            details = details_res.json()
-
-            protein_seq = details.get("sequence", "")
+            protein_summary = proteins[0]
+            p_internal_id = protein_summary.get("id")
             intervals: List[Dict[str, Any]] = []
+            seen_intervals = set()
 
-            for result in details.get("data", {}).get("wrapper", []):
-                raw_method = result.get("method", "")
-                regions = result.get("regions", [])
-                output_method = METHOD_LABELS.get(raw_method, raw_method)
+            # 1. Parse detailed wrapper array endpoint
+            if p_internal_id is not None:
+                try:
+                    details_res = requests.get(
+                        f"{self.api_url}/proteins/{token}/{p_internal_id}",
+                        timeout=self.timeout,
+                    )
+                    if details_res.status_code == 200:
+                        details = details_res.json()
+                        protein_seq = details.get("sequence", "")
 
-                for region in regions:
-                    start = int(region["beg"])
-                    end = int(region["end"])
-                    sub_seq = protein_seq[start - 1 : end] if protein_seq else ""
+                        for result in details.get("data", {}).get("wrapper", []):
+                            raw_method = result.get("method", "")
+                            output_method = METHOD_LABELS.get(
+                                raw_method,
+                                METHOD_LABELS.get(raw_method.lower(), raw_method),
+                            )
 
-                    intervals.append({
-                        "method": output_method,
-                        "start": start,
-                        "end": end,
-                        "length": end - start + 1,
-                        "sequence": sub_seq,
-                        "description": region.get("description", ""),
-                    })
+                            for region in result.get("regions", []):
+                                try:
+                                    start = int(region["beg"])
+                                    end = int(region["end"])
+                                    sub_seq = (
+                                        protein_seq[start - 1 : end]
+                                        if protein_seq
+                                        else ""
+                                    )
+                                    pair_key = (output_method, start, end)
 
-            return intervals
+                                    if pair_key not in seen_intervals:
+                                        seen_intervals.add(pair_key)
+                                        intervals.append({
+                                            "method": output_method,
+                                            "start": start,
+                                            "end": end,
+                                            "length": end - start + 1,
+                                            "sequence": sub_seq,
+                                            "description": region.get(
+                                                "description", ""
+                                            ),
+                                        })
+                                except (KeyError, ValueError, TypeError):
+                                    pass
+                except requests.RequestException as err:
+                    logger.warning("Detail parsing request error: %s", err)
+
+            # 2. Parse top-level summary keys as a fallback
+            for key, val in protein_summary.items():
+                std_method = METHOD_LABELS.get(key) or METHOD_LABELS.get(key.lower())
+                if std_method and isinstance(val, list) and val:
+                    for reg in val:
+                        if isinstance(reg, list) and len(reg) == 2:
+                            try:
+                                start = int(reg[0])
+                                end = int(reg[1])
+                                pair_key = (std_method, start, end)
+
+                                if pair_key not in seen_intervals:
+                                    seen_intervals.add(pair_key)
+                                    intervals.append({
+                                        "method": std_method,
+                                        "start": start,
+                                        "end": end,
+                                        "length": end - start + 1,
+                                        "sequence": sequence[start - 1 : end],
+                                        "description": "",
+                                    })
+                            except (ValueError, TypeError):
+                                pass
+
+            return sorted(intervals, key=lambda x: (x["method"], x["start"]))
 
         except requests.RequestException as error:
             logger.warning(
@@ -149,13 +194,45 @@ class PlatoLoCoClient:
             return []
 
     def _make_payload(self, sequence: str, protein_id: str) -> Dict[str, Any]:
-        """Construct JSON query payload enabling all 8 prediction algorithms."""
+        """Construct JSON query payload with explicit parameters for all 8 algorithms."""
         formatted_fasta = f">{protein_id}\n{sequence.strip()}\n"
+
+        seg_default_params = {
+            "window": 12,
+            "locut": 2.2,
+            "hicut": 2.5,
+            "k1": 2.2,
+            "k2": 2.5,
+        }
+
         flps_params = {
             "min_tract_len": 15,
             "max_tract_len": 500,
             "pval": 0.001,
             "regions": {"single": True, "multiple": True, "whole": False},
+        }
+
+        simple_params = {
+            "score_mono": 1.0,
+            "score_di": 1.0,
+            "score_tri": 1.0,
+        }
+
+        gbsc_params = {
+            "score": 0,
+            "distance": 0,
+        }
+
+        payload_params = {
+            "seg": seg_default_params,
+            "seg_default": seg_default_params,
+            "seg_strict": {},
+            "seg_intermediate": {"window": 15, "k1": 1.9, "k2": 2.5},
+            "cast": {"threshold": 40, "matrix": 1},
+            "flps": flps_params,
+            "flps_strict": flps_params,
+            "simple": simple_params,
+            "gbsc": gbsc_params,
         }
 
         return {
@@ -176,14 +253,5 @@ class PlatoLoCoClient:
                 "phobius": False,
                 "aafrequency": False,
             },
-            "params": {
-                "seg_default": {},
-                "seg_strict": {},
-                "seg_intermediate": {"window": 15, "k1": 1.9, "k2": 2.5},
-                "cast": {"threshold": 40, "matrix": 1},
-                "flps": flps_params,
-                "flps_strict": flps_params,
-                "simple": {},
-                "gbsc": {},
-            },
+            "params": payload_params,
         }

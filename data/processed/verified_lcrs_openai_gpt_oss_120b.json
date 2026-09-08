@@ -1,0 +1,192 @@
+[
+  {
+    "file": "HARD_L1_SYN01 (Level 1 - Explicit (Distractor Domains))",
+    "annotations": [
+      {
+        "protein_name": "XenP-88",
+        "organism": "Sulfolobus artificialis",
+        "start_of_annotation": "142",
+        "end_of_annotation": "298",
+        "binding_target": "DNA-binding",
+        "proposed_function": "binds single-stranded DNA",
+        "evidence": "In vitro binding titrations proved that the central low-complexity region spanning residues 142 to 298 directly binds single-stranded DNA with high affinity (Kd = 16 ± 2 nM).",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L1_SYN02 (Level 1 - Explicit)",
+    "annotations": [
+      {
+        "protein_name": "GlpX-12",
+        "organism": "Halobacterium fictitium",
+        "start_of_annotation": "310",
+        "end_of_annotation": "475",
+        "binding_target": "protein-binding",
+        "proposed_function": "protein-binding module necessary for recruiting cofactor Cpa-3 during transcriptional complex assembly",
+        "evidence": "the carboxy-terminal low-complexity region spanning residues 310 to 475 bound Cpa-3 with nanomolar affinity (Kd = 38 nM).",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L1_SYN03 (Level 1 - Explicit (Multiple Annotations))",
+    "annotations": [
+      {
+        "protein_name": "KrpM-9",
+        "organism": "Thermococcus syntheticus",
+        "start_of_annotation": "85",
+        "end_of_annotation": "210",
+        "binding_target": "DNA-binding",
+        "proposed_function": "functional DNA-binding domain for chromatin attachment",
+        "evidence": "The low-complexity segment spanning residues 85 to 210 acts as a functional DNA-binding domain, whereas adjacent disordered tracts do not participate in nucleic acid binding.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L1_SYN04 (Level 1 - Explicit)",
+    "annotations": [
+      {
+        "protein_name": "VesT-44",
+        "organism": "Pyrococcus artificialis",
+        "start_of_annotation": "205",
+        "end_of_annotation": "390",
+        "binding_target": "lipid-binding",
+        "proposed_function": "membrane anchoring via lipid binding",
+        "evidence": "Our structural partitioning shows that Pyrococcus artificialis VesT-44 utilizes its central low-complexity domain (residues 205–390) as a dedicated lipid-binding module to anchor vesicle machinery.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L2_SYN05 (Level 2 - Implicit (Spatial Deduction))",
+    "annotations": [
+      {
+        "protein_name": "NucF-77",
+        "organism": "Neurospora fictitia",
+        "start_of_annotation": "101",
+        "end_of_annotation": "250",
+        "binding_target": "DNA-binding",
+        "proposed_function": "DNA-binding (double-stranded DNA retention)",
+        "evidence": "Gel shift assays demonstrated that while the N-terminal domain is catalytically inert, the 150-residue low-complexity segment directly binds plasmid DNA substrates.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L2_SYN06 (Level 2 - Implicit (Boundary Calculation))",
+    "annotations": [
+      {
+        "protein_name": "SplX-50",
+        "organism": "Arabidopsis artificialis",
+        "start_of_annotation": "181",
+        "end_of_annotation": "340",
+        "binding_target": "protein-binding",
+        "proposed_function": "protein-binding module anchoring Spt-9",
+        "evidence": "In contrast, deletion mapping proved that the 160-residue low-complexity region spanning positions 181 to 340 forms the exclusive interface for Spt-9.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L2_SYN07 (Level 2 - Implicit (Active vs Inert LCR Distractors))",
+    "annotations": [
+      {
+        "protein_name": "LcpA-3",
+        "organism": "Methanococcus fictitius",
+        "start_of_annotation": "40",
+        "end_of_annotation": "90",
+        "binding_target": "Unspecified",
+        "proposed_function": "inert compositional bias (no RNA binding)",
+        "evidence": "Binding assays on LCR-1 (40–90) showed zero RNA affinity.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "LcpA-3",
+        "organism": "Methanococcus fictitius",
+        "start_of_annotation": "185",
+        "end_of_annotation": "310",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA-binding and driving biomolecular condensate formation",
+        "evidence": "Binding titrations for LCR-2 demonstrated that the segment spanning residues 185 to 310 directly binds viral RNA with high affinity (Kd = 15 nM), driving biomolecular condensate formation in vitro.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L2_SYN08 (Level 2 - Implicit (Flanking Domain Math))",
+    "annotations": [
+      {
+        "protein_name": "ChrD-88",
+        "organism": "Danio artificialis",
+        "start_of_annotation": "151",
+        "end_of_annotation": "270",
+        "binding_target": "DNA-binding",
+        "proposed_function": "auxiliary DNA-binding module",
+        "evidence": "The 120-residue basic low-complexity segment spanning positions 151–270 acts as an auxiliary DNA-binding module, cooperating with the chromodomain during chromatin remodeling.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L3_SYN09 (Level 3 - Negative Control (Excluded))",
+    "annotations": [
+      {
+        "protein_name": "MedY-12",
+        "organism": "Kluyveromyces fictitius",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "transactivation",
+        "evidence": "Computational filtering of Kluyveromyces fictitius Mediator subunits using SEG and fLPS predicted two glutamine-rich low-complexity transactivation domains in MedY-12.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L3_SYN10 (Level 3 - Qualitative (Requires Manual Check))",
+    "annotations": [
+      {
+        "protein_name": "CenP-Z",
+        "organism": "Xenopus artificialis",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "pericentromeric recruitment",
+        "evidence": "Immunofluorescence microscopy of deletion mutants showed that removing this region impairs pericentromeric recruitment.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L3_SYN11 (Level 3 - Negative Control (Excluded))",
+    "annotations": [
+      {
+        "protein_name": "SptR-99",
+        "organism": "Thalassiosira fictitia",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "potential interaction with cofactors (binding)",
+        "evidence": "Bioinformatic screening of Thalassiosira fictitia factors flagged a prominent proline-rich low-complexity motif in SptR-99.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "file": "HARD_L3_SYN12 (Level 3 - Qualitative (Requires Manual Check))",
+    "annotations": [
+      {
+        "protein_name": "TfX-99",
+        "organism": "Thermophilum fictitium",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "condensate assembly",
+        "evidence": "Although cellular imaging links the N-terminal disordered region of TfX-99 to condensate assembly, the lack of exact coordinates necessitates manual curation review.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

@@ -68,7 +68,6 @@ class LightLLMClient:
         )
         self.models = [
             "openai/gpt-oss-120b",
-            # "openai/gpt-oss-20b"
         ]
 
     async def generate_lcr_annotations(self, prompt: str, text: str) -> list[dict]:

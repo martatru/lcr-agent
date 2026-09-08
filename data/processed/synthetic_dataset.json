@@ -1,0 +1,262 @@
+{
+  "benchmark_metadata": {
+    "dataset_name": "LCR-Agent Tricky Extended Benchmark Dataset",
+    "version": "4.0",
+    "description": "Extended 12-paper synthetic benchmark designed to evaluate LLMs on complex spatial math, distractor LCR domains, negative experimental controls, and qualitative descriptions without data leakage.",
+    "total_papers": 12
+  },
+  "papers": [
+    {
+      "paper_id": "HARD_L1_SYN01",
+      "title": "Structural Mapping of Single-Stranded DNA Recognition by Extremophilic Factor XenP-88",
+      "difficulty_level": "Level 1 - Explicit (Distractor Domains)",
+      "difficulty_note": "Explicit coordinates (142 to 298) flanked by structured distractor domain (1-120).",
+      "sections": {
+        "results": "To dissect nucleic acid engagement in Sulfolobus artificialis, recombinant full-length XenP-88 and truncation variants were purified. Sequence profiling identified an N-terminal zinc-finger motif (residues 1–120) and a C-terminal dimerization domain. Situated between these structured modules is an uncharacterized glycine/alanine-rich sequence. Quantitative electrophoretic mobility shift assays (EMSA) revealed that full-length XenP-88 binds single-stranded DNA with high affinity (Kd = 12 nM).\n\nTo establish the precise interaction module, isolated domain fragments were tested. While deletion of the N-terminal zinc-finger (1–120) retained baseline DNA binding, deletion of the central low-complexity domain completely abolished nucleic acid association. In vitro binding titrations proved that the central low-complexity region spanning residues 142 to 298 directly binds single-stranded DNA with high affinity (Kd = 16 ± 2 nM). Isothermal titration calorimetry (ITC) confirmed that the isolated 142–298 peptide exhibits enthalpy-driven DNA binding identical to the full-length protein.",
+        "discussion": "Our biochemical characterization confirms that Sulfolobus artificialis XenP-88 engages nucleic acids via an intrinsically disordered sequence. Although sequence analysis initially emphasized the folded N-terminal zinc-finger (residues 1–120), our empirical assays prove that the central low-complexity region, spanning residues 142 to 298, serves as the primary DNA-binding module.\n\nThe sufficiency of residues 142 to 298 to bind single-stranded DNA autonomously demonstrates that disordered conformational ensembles can drive selective nucleic acid engagement. This modular architecture highlights the functional versatility of low-complexity domains."
+      },
+      "full_text": "Results\nTo dissect nucleic acid engagement in Sulfolobus artificialis, recombinant full-length XenP-88 and truncation variants were purified. Sequence profiling identified an N-terminal zinc-finger motif (residues 1–120) and a C-terminal dimerization domain. Situated between these structured modules is an uncharacterized glycine/alanine-rich sequence. Quantitative electrophoretic mobility shift assays (EMSA) revealed that full-length XenP-88 binds single-stranded DNA with high affinity (Kd = 12 nM).\n\nTo establish the precise interaction module, isolated domain fragments were tested. While deletion of the N-terminal zinc-finger (1–120) retained baseline DNA binding, deletion of the central low-complexity domain completely abolished nucleic acid association. In vitro binding titrations proved that the central low-complexity region spanning residues 142 to 298 directly binds single-stranded DNA with high affinity (Kd = 16 ± 2 nM). Isothermal titration calorimetry (ITC) confirmed that the isolated 142–298 peptide exhibits enthalpy-driven DNA binding identical to the full-length protein.\n\nDiscussion\nOur biochemical characterization confirms that Sulfolobus artificialis XenP-88 engages nucleic acids via an intrinsically disordered sequence. Although sequence analysis initially emphasized the folded N-terminal zinc-finger (residues 1–120), our empirical assays prove that the central low-complexity region, spanning residues 142 to 298, serves as the primary DNA-binding module.\n\nThe sufficiency of residues 142 to 298 to bind single-stranded DNA autonomously demonstrates that disordered conformational ensembles can drive selective nucleic acid engagement. This modular architecture highlights the functional versatility of low-complexity domains.",
+      "ground_truth": {
+        "protein_name": "XenP-88",
+        "organism": "Sulfolobus artificialis",
+        "start_of_annotation": "142",
+        "end_of_annotation": "298",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Direct single-stranded DNA binding mediated by central low-complexity region",
+        "curation_status": "Verified",
+        "evidence": "In vitro binding titrations proved that the central low-complexity region spanning residues 142 to 298 directly binds single-stranded DNA with high affinity (Kd = 16 ± 2 nM)."
+      }
+    },
+    {
+      "paper_id": "HARD_L1_SYN02",
+      "title": "Cofactor Recruitment Mediated by GlpX-12 in Halobacterium fictitium",
+      "difficulty_level": "Level 1 - Explicit",
+      "difficulty_note": "Explicit coordinates (310 to 475) for protein-protein interaction.",
+      "sections": {
+        "results": "We investigated the physical assembly of transcriptional complexes in Halobacterium fictitium. Co-immunoprecipitation and surface plasmon resonance (SPR) assays established a direct interaction between the nuclear factor GlpX-12 and the cofactor Cpa-3. Truncation analysis was performed to map the recruitment interface across GlpX-12.\n\nAssays using recombinant fragments demonstrated that the structured N-terminal catalytic domain (residues 1–250) showed no interaction with Cpa-3. In contrast, the carboxy-terminal low-complexity region spanning residues 310 to 475 bound Cpa-3 with nanomolar affinity (Kd = 38 nM). Complete removal of residues 310–475 abolished Cpa-3 retention, whereas the isolated 310–475 peptide bound Cpa-3 with kinetics comparable to wild-type GlpX-12.",
+        "discussion": "Our experiments demonstrate that Halobacterium fictitium GlpX-12 utilizes its C-terminal disordered tail for cofactor engagement. Specifically, the low-complexity region encompassing residues 310 to 475 constitutes a dedicated protein-binding module necessary for recruiting Cpa-3 during complex assembly."
+      },
+      "full_text": "Results\nWe investigated the physical assembly of transcriptional complexes in Halobacterium fictitium. Co-immunoprecipitation and surface plasmon resonance (SPR) assays established a direct interaction between the nuclear factor GlpX-12 and the cofactor Cpa-3. Truncation analysis was performed to map the recruitment interface across GlpX-12.\n\nAssays using recombinant fragments demonstrated that the structured N-terminal catalytic domain (residues 1–250) showed no interaction with Cpa-3. In contrast, the carboxy-terminal low-complexity region spanning residues 310 to 475 bound Cpa-3 with nanomolar affinity (Kd = 38 nM). Complete removal of residues 310–475 abolished Cpa-3 retention, whereas the isolated 310–475 peptide bound Cpa-3 with kinetics comparable to wild-type GlpX-12.\n\nDiscussion\nOur experiments demonstrate that Halobacterium fictitium GlpX-12 utilizes its C-terminal disordered tail for cofactor engagement. Specifically, the low-complexity region encompassing residues 310 to 475 constitutes a dedicated protein-binding module necessary for recruiting Cpa-3 during complex assembly.",
+      "ground_truth": {
+        "protein_name": "GlpX-12",
+        "organism": "Halobacterium fictitium",
+        "start_of_annotation": "310",
+        "end_of_annotation": "475",
+        "binding_target": "protein-binding",
+        "proposed_function": "Direct binding to accessory factor Cpa-3 recruiting transcriptional machinery",
+        "curation_status": "Verified",
+        "evidence": "In contrast, the carboxy-terminal low-complexity region spanning residues 310 to 475 bound Cpa-3 with nanomolar affinity (Kd = 38 nM)."
+      }
+    },
+    {
+      "paper_id": "HARD_L1_SYN03",
+      "title": "Double-Stranded DNA Anchoring by Thermococcus syntheticus KrpM-9",
+      "difficulty_level": "Level 1 - Explicit (Multiple Annotations)",
+      "difficulty_note": "Explicit coordinates (85 to 210) for DNA binding, with a non-functional distractor mentioned later.",
+      "sections": {
+        "results": "In Thermococcus syntheticus, KrpM-9 regulates hyperthermophilic chromatin compaction. Sequence filters highlighted an N-terminal lysine-rich tract (residues 85–210) and a C-terminal serine-rich motif (residues 250–300). Gel shift assays demonstrated that full-length KrpM-9 binds plasmid DNA substrates in vitro.\n\nMapping experiments revealed that isolated recombinant fragments of residues 85 to 210 directly bound double-stranded DNA with micromolar affinity (Kd = 1.4 µM). In contrast, the C-terminal serine-rich region (250–300) displayed no nucleic acid binding over background controls. Deletion of residues 85–210 completely eliminated DNA retention.",
+        "discussion": "These findings show that KrpM-9 relies on its N-terminal basic region for chromatin attachment. The low-complexity segment spanning residues 85 to 210 acts as a functional DNA-binding domain, whereas adjacent disordered tracts do not participate in nucleic acid binding."
+      },
+      "full_text": "Results\nIn Thermococcus syntheticus, KrpM-9 regulates hyperthermophilic chromatin compaction. Sequence filters highlighted an N-terminal lysine-rich tract (residues 85–210) and a C-terminal serine-rich motif (residues 250–300). Gel shift assays demonstrated that full-length KrpM-9 binds plasmid DNA substrates in vitro.\n\nMapping experiments revealed that isolated recombinant fragments of residues 85 to 210 directly bound double-stranded DNA with micromolar affinity (Kd = 1.4 µM). In contrast, the C-terminal serine-rich region (250–300) displayed no nucleic acid binding over background controls. Deletion of residues 85–210 completely eliminated DNA retention.\n\nDiscussion\nThese findings show that KrpM-9 relies on its N-terminal basic region for chromatin attachment. The low-complexity segment spanning residues 85 to 210 acts as a functional DNA-binding domain, whereas adjacent disordered tracts do not participate in nucleic acid binding.",
+      "ground_truth": {
+        "protein_name": "KrpM-9",
+        "organism": "Thermococcus syntheticus",
+        "start_of_annotation": "85",
+        "end_of_annotation": "210",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Direct double-stranded DNA binding regulating chromatin compaction",
+        "curation_status": "Verified",
+        "evidence": "Mapping experiments revealed that isolated recombinant fragments of residues 85 to 210 directly bound double-stranded DNA with micromolar affinity (Kd = 1.4 µM)."
+      }
+    },
+    {
+      "paper_id": "HARD_L1_SYN04",
+      "title": "Phospholipid Microdomain Anchoring by VesT-44 in Pyrococcus artificialis",
+      "difficulty_level": "Level 1 - Explicit",
+      "difficulty_note": "Explicit coordinates (205 to 390) for lipid binding.",
+      "sections": {
+        "results": "Subcellular targeting of VesT-44 in Pyrococcus artificialis depends on membrane lipid recognition. Liposome sedimentation assays showed selective binding toward PI(4,5)P2 vesicles. Systematic truncation identified the central disordered proline/arginine-rich region as the primary membrane anchor.\n\nSpecifically, recombinant fragments corresponding to residues 205 to 390 bound PI(4,5)P2 liposomes with high affinity (Kd = 22 nM). Deletion of positions 205–390 rendered VesT-44 completely soluble and incapable of membrane association.",
+        "discussion": "Our structural partitioning shows that Pyrococcus artificialis VesT-44 utilizes its central low-complexity domain (residues 205–390) as a dedicated lipid-binding module to anchor vesicle machinery."
+      },
+      "full_text": "Results\nSubcellular targeting of VesT-44 in Pyrococcus artificialis depends on membrane lipid recognition. Liposome sedimentation assays showed selective binding toward PI(4,5)P2 vesicles. Systematic truncation identified the central disordered proline/arginine-rich region as the primary membrane anchor.\n\nSpecifically, recombinant fragments corresponding to residues 205 to 390 bound PI(4,5)P2 liposomes with high affinity (Kd = 22 nM). Deletion of positions 205–390 rendered VesT-44 completely soluble and incapable of membrane association.\n\nDiscussion\nOur structural partitioning shows that Pyrococcus artificialis VesT-44 utilizes its central low-complexity domain (residues 205–390) as a dedicated lipid-binding module to anchor vesicle machinery.",
+      "ground_truth": {
+        "protein_name": "VesT-44",
+        "organism": "Pyrococcus artificialis",
+        "start_of_annotation": "205",
+        "end_of_annotation": "390",
+        "binding_target": "lipid-binding",
+        "proposed_function": "Selective binding to PI(4,5)P2 lipid membranes driving subcellular membrane anchoring",
+        "curation_status": "Verified",
+        "evidence": "Specifically, recombinant fragments corresponding to residues 205 to 390 bound PI(4,5)P2 liposomes with high affinity (Kd = 22 nM)."
+      }
+    },
+    {
+      "paper_id": "HARD_L2_SYN05",
+      "title": "Multi-Sentence Coordinate Offset in Neurospora fictitia NucF-77",
+      "difficulty_level": "Level 2 - Implicit (Spatial Deduction)",
+      "difficulty_note": "Requires math: N-term domain (aa 1-100), followed immediately by 150 aa LCR extending to C-term domain starting at 251 -> LCR spans 101 to 250.",
+      "sections": {
+        "results": "In Neurospora fictitia, the nuclear factor NucF-77 features a modular layout: an N-terminal regulatory domain (amino acids 1–100), followed immediately by a disordered 150-amino-acid low-complexity region extending to the carboxyl-terminal domain starting at residue 251. Gel shift assays demonstrated that while the N-terminal domain is catalytically inert, the 150-residue low-complexity segment directly binds plasmid DNA substrates.\n\nFine-scale deletion confirmed that this 150-aa segment (positioned between residue 101 and residue 250) is necessary and sufficient for double-stranded DNA retention in vitro (Kd = 75 nM). Truncation of positions 101–250 completely abolished nucleic acid association.",
+        "discussion": "Calculating spatial boundaries from the regulatory domain terminus (100) across the 150 aa disordered expanse defines positions 101–250 as an active DNA-binding domain in Neurospora fictitia NucF-77."
+      },
+      "full_text": "Results\nIn Neurospora fictitia, the nuclear factor NucF-77 features a modular layout: an N-terminal regulatory domain (amino acids 1–100), followed immediately by a disordered 150-amino-acid low-complexity region extending to the carboxyl-terminal domain starting at residue 251. Gel shift assays demonstrated that while the N-terminal domain is catalytically inert, the 150-residue low-complexity segment directly binds plasmid DNA substrates.\n\nFine-scale deletion confirmed that this 150-aa segment (positioned between residue 101 and residue 250) is necessary and sufficient for double-stranded DNA retention in vitro (Kd = 75 nM). Truncation of positions 101–250 completely abolished nucleic acid association.\n\nDiscussion\nCalculating spatial boundaries from the regulatory domain terminus (100) across the 150 aa disordered expanse defines positions 101–250 as an active DNA-binding domain in Neurospora fictitia NucF-77.",
+      "ground_truth": {
+        "protein_name": "NucF-77",
+        "organism": "Neurospora fictitia",
+        "start_of_annotation": "101",
+        "end_of_annotation": "250",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Direct double-stranded DNA binding mediated by central 150-aa low-complexity domain",
+        "curation_status": "Verified",
+        "evidence": "Fine-scale deletion confirmed that this 150-aa segment (positioned between residue 101 and residue 250) is necessary and sufficient for double-stranded DNA retention in vitro (Kd = 75 nM)."
+      }
+    },
+    {
+      "paper_id": "HARD_L2_SYN06",
+      "title": "Splicing Complex Anchor Dynamics of Arabidopsis artificialis SplX-50",
+      "difficulty_level": "Level 2 - Implicit (Boundary Calculation)",
+      "difficulty_note": "RRM domain ends at residue 180. The adjacent 160 aa LCR ending at residue 340 binds Spt-9 -> LCR spans 181 to 340.",
+      "sections": {
+        "results": "SplX-50 orchestrates pre-mRNA processing in Arabidopsis artificialis. Primary sequence profiling indicates an RRM domain terminating at residue 180, followed downstream by a disordered 160-amino-acid low-complexity tract ending precisely at position 340. Pull-down titrations revealed that the RRM domain binds RNA transcripts, but does not interact with the cofactor Spt-9.\n\nIn contrast, deletion mapping proved that the 160-residue low-complexity region spanning positions 181 to 340 forms the exclusive interface for Spt-9. Recombinant fragments of 181–340 bound Spt-9 with nanomolar affinity (Kd = 50 nM).",
+        "discussion": "Our structural mapping shows a clear functional division in SplX-50. While the folded RRM (1–180) binds RNA, the adjacent 160-aa low-complexity domain (181–340) acts as a protein-binding module anchoring Spt-9."
+      },
+      "full_text": "Results\nSplX-50 orchestrates pre-mRNA processing in Arabidopsis artificialis. Primary sequence profiling indicates an RRM domain terminating at residue 180, followed downstream by a disordered 160-amino-acid low-complexity tract ending precisely at position 340. Pull-down titrations revealed that the RRM domain binds RNA transcripts, but does not interact with the cofactor Spt-9.\n\nIn contrast, deletion mapping proved that the 160-residue low-complexity region spanning positions 181 to 340 forms the exclusive interface for Spt-9. Recombinant fragments of 181–340 bound Spt-9 with nanomolar affinity (Kd = 50 nM).\n\nDiscussion\nOur structural mapping shows a clear functional division in SplX-50. While the folded RRM (1–180) binds RNA, the adjacent 160-aa low-complexity domain (181–340) acts as a protein-binding module anchoring Spt-9.",
+      "ground_truth": {
+        "protein_name": "SplX-50",
+        "organism": "Arabidopsis artificialis",
+        "start_of_annotation": "181",
+        "end_of_annotation": "340",
+        "binding_target": "protein-binding",
+        "proposed_function": "Direct interaction with splicing cofactor Spt-9 forming an active splicing complex",
+        "curation_status": "Verified",
+        "evidence": "In contrast, deletion mapping proved that the 160-residue low-complexity region spanning positions 181 to 340 forms the exclusive interface for Spt-9."
+      }
+    },
+    {
+      "paper_id": "HARD_L2_SYN07",
+      "title": "Bipartite LCR Screening in Methanococcus fictitius LcpA-3",
+      "difficulty_level": "Level 2 - Implicit (Active vs Inert LCR Distractors)",
+      "difficulty_note": "LCR-1 (aa 40-90, no binding) vs LCR-2 (185-310, active RNA binding). Model must correctly identify LCR-2.",
+      "sections": {
+        "results": "Methanococcus fictitius LcpA-3 contains two distinct low-complexity regions: an N-terminal alanine tract (LCR-1, residues 40–90) and a central glutamine/serine domain (LCR-2). To evaluate their roles, isolated deletion constructs were synthesized and tested against viral messenger RNA.\n\nBinding assays on LCR-1 (40–90) showed zero RNA affinity. Conversely, binding titrations for LCR-2 demonstrated that the segment spanning residues 185 to 310 directly binds viral RNA with high affinity (Kd = 15 nM), driving biomolecular condensate formation in vitro.",
+        "discussion": "Differentiating between inert compositional bias (LCR-1) and functional binding motifs (LCR-2: 185–310) is essential. Our results prove that residues 185–310 function as an active RNA-binding low-complexity domain."
+      },
+      "full_text": "Results\nMethanococcus fictitius LcpA-3 contains two distinct low-complexity regions: an N-terminal alanine tract (LCR-1, residues 40–90) and a central glutamine/serine domain (LCR-2). To evaluate their roles, isolated deletion constructs were synthesized and tested against viral messenger RNA.\n\nBinding assays on LCR-1 (40–90) showed zero RNA affinity. Conversely, binding titrations for LCR-2 demonstrated that the segment spanning residues 185 to 310 directly binds viral RNA with high affinity (Kd = 15 nM), driving biomolecular condensate formation in vitro.\n\nDiscussion\nDifferentiating between inert compositional bias (LCR-1) and functional binding motifs (LCR-2: 185–310) is essential. Our results prove that residues 185–310 function as an active RNA-binding low-complexity domain.",
+      "ground_truth": {
+        "protein_name": "LcpA-3",
+        "organism": "Methanococcus fictitius",
+        "start_of_annotation": "185",
+        "end_of_annotation": "310",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Direct viral mRNA binding driving biomolecular condensate formation",
+        "curation_status": "Verified",
+        "evidence": "Conversely, binding titrations for LCR-2 demonstrated that the segment spanning residues 185 to 310 directly binds viral RNA with high affinity (Kd = 15 nM), driving biomolecular condensate formation in vitro."
+      }
+    },
+    {
+      "paper_id": "HARD_L2_SYN08",
+      "title": "Chromatin Tail Retention by Danio artificialis ChrD-88",
+      "difficulty_level": "Level 2 - Implicit (Flanking Domain Math)",
+      "difficulty_note": "Chromodomain spans 50-150. Flanking basic LCR of 120 aa ends at 270 -> LCR spans 151 to 270.",
+      "sections": {
+        "results": "In Danio artificialis, ChrD-88 features a central chromodomain (positions 50–150) flanked downstream by a basic lysine-rich low-complexity tract of 120 residues ending at position 270. Microscale thermophoresis demonstrated that while the chromodomain binds methylated histones, DNA retention requires the adjacent basic tract.\n\nInternal deletion of the 120-residue basic domain (spanning positions 151 to 270) abolished non-specific DNA binding. Isolated fragments of 151–270 bound double-stranded DNA substrates with micromolar affinity.",
+        "discussion": "The 120-residue basic low-complexity segment spanning positions 151–270 acts as an auxiliary DNA-binding module, cooperating with the chromodomain during chromatin remodeling."
+      },
+      "full_text": "Results\nIn Danio artificialis, ChrD-88 features a central chromodomain (positions 50–150) flanked downstream by a basic lysine-rich low-complexity tract of 120 residues ending at position 270. Microscale thermophoresis demonstrated that while the chromodomain binds methylated histones, DNA retention requires the adjacent basic tract.\n\nInternal deletion of the 120-residue basic domain (spanning positions 151 to 270) abolished non-specific DNA binding. Isolated fragments of 151–270 bound double-stranded DNA substrates with micromolar affinity.\n\nDiscussion\nThe 120-residue basic low-complexity segment spanning positions 151–270 acts as an auxiliary DNA-binding module, cooperating with the chromodomain during chromatin remodeling.",
+      "ground_truth": {
+        "protein_name": "ChrD-88",
+        "organism": "Danio artificialis",
+        "start_of_annotation": "151",
+        "end_of_annotation": "270",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Cooperative non-specific DNA binding during chromatin remodeling",
+        "curation_status": "Verified",
+        "evidence": "Internal deletion of the 120-residue basic domain (spanning positions 151 to 270) abolished non-specific DNA binding."
+      }
+    },
+    {
+      "paper_id": "HARD_L3_SYN09",
+      "title": "Bioinformatic Rejection of Predicted Transactivation LCRs in MedY-12",
+      "difficulty_level": "Level 3 - Negative Control (Excluded)",
+      "difficulty_note": "In silico predictions (SEG/fLPS) suggested LCR binding, but empirical pull-down assays disproved interaction. Must be Excluded.",
+      "sections": {
+        "results": "Computational filtering of Kluyveromyces fictitius Mediator subunits using SEG and fLPS predicted two glutamine-rich low-complexity transactivation domains in MedY-12. Recombinant deletion constructs were expressed to test physical interactions in vitro.\n\nHowever, pull-down assays and yeast two-hybrid screens against general transcription factors detected no specific binding over controls. Isolated LCR fragments failed to engage binding partners or induce condensate assembly.",
+        "discussion": "Although bioinformatic algorithms flag MedY-12 as containing low-complexity tracts, empirical testing disproved their binding capacity. These predicted regions are excluded from functional curation."
+      },
+      "full_text": "Results\nComputational filtering of Kluyveromyces fictitius Mediator subunits using SEG and fLPS predicted two glutamine-rich low-complexity transactivation domains in MedY-12. Recombinant deletion constructs were expressed to test physical interactions in vitro.\n\nHowever, pull-down assays and yeast two-hybrid screens against general transcription factors detected no specific binding over controls. Isolated LCR fragments failed to engage binding partners or induce condensate assembly.\n\nDiscussion\nAlthough bioinformatic algorithms flag MedY-12 as containing low-complexity tracts, empirical testing disproved their binding capacity. These predicted regions are excluded from functional curation.",
+      "ground_truth": {
+        "protein_name": "MedY-12",
+        "organism": "Kluyveromyces fictitius",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Unspecified",
+        "curation_status": "Excluded",
+        "evidence": "However, pull-down assays and yeast two-hybrid screens against general transcription factors detected no specific binding over controls."
+      }
+    },
+    {
+      "paper_id": "HARD_L3_SYN10",
+      "title": "Qualitative Pericentromeric Targeting by Xenopus artificialis CenP-Z",
+      "difficulty_level": "Level 3 - Qualitative (Requires Manual Check)",
+      "difficulty_note": "Qualitative mention without exact residue ranges or isolated molecular partners. Must be Requires Manual Check.",
+      "sections": {
+        "results": "In Xenopus artificialis, CenP-Z localizes to pericentromeric chromatin during mitosis. Sequence analysis indicates a serine-rich low-complexity region in its N-terminal half. Immunofluorescence microscopy of deletion mutants showed that removing this region impairs pericentromeric recruitment.\n\nHowever, severe proteolytic degradation during purification prevented defining exact numerical amino acid boundaries or isolating discrete molecular binding targets in vitro.",
+        "discussion": "While cellular imaging implicates the N-terminal low-complexity region of CenP-Z in kinetochore recruitment, precise numerical coordinates remain unmapped, requiring manual curation review."
+      },
+      "full_text": "Results\nIn Xenopus artificialis, CenP-Z localizes to pericentromeric chromatin during mitosis. Sequence analysis indicates a serine-rich low-complexity region in its N-terminal half. Immunofluorescence microscopy of deletion mutants showed that removing this region impairs pericentromeric recruitment.\n\nHowever, severe proteolytic degradation during purification prevented defining exact numerical amino acid boundaries or isolating discrete molecular binding targets in vitro.\n\nDiscussion\nWhile cellular imaging implicates the N-terminal low-complexity region of CenP-Z in kinetochore recruitment, precise numerical coordinates remain unmapped, requiring manual curation review.",
+      "ground_truth": {
+        "protein_name": "CenP-Z",
+        "organism": "Xenopus artificialis",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Qualitative involvement in pericentromeric recruitment without exact residue boundaries",
+        "curation_status": "Requires Manual Check",
+        "evidence": "However, severe proteolytic degradation during purification prevented defining exact numerical amino acid boundaries or isolating discrete molecular binding targets in vitro."
+      }
+    },
+    {
+      "paper_id": "HARD_L3_SYN11",
+      "title": "Empirical Disproof of Predicted Interaction Motifs in SptR-99",
+      "difficulty_level": "Level 3 - Negative Control (Excluded)",
+      "difficulty_note": "Bioinformatic scan suggested LCR interaction, but empirical SPR disproved it completely. Must be Excluded.",
+      "sections": {
+        "results": "Bioinformatic screening of Thalassiosira fictitia factors flagged a prominent proline-rich low-complexity motif in SptR-99. To validate interaction capacity, surface plasmon resonance (SPR) and NMR titrations were performed with candidate cofactors.\n\nSPR titrations showed no binding activity across all tested concentrations, and 15N-HSQC spectra confirmed that the peptide remains fully disordered without structural transition upon ligand exposure.",
+        "discussion": "Empirical testing disproved bioinformatic predictions for SptR-99. Compositional bias alone does not confer interactive function, requiring this entry to be Excluded."
+      },
+      "full_text": "Results\nBioinformatic screening of Thalassiosira fictitia factors flagged a prominent proline-rich low-complexity motif in SptR-99. To validate interaction capacity, surface plasmon resonance (SPR) and NMR titrations were performed with candidate cofactors.\n\nSPR titrations showed no binding activity across all tested concentrations, and 15N-HSQC spectra confirmed that the peptide remains fully disordered without structural transition upon ligand exposure.\n\nDiscussion\nEmpirical testing disproved bioinformatic predictions for SptR-99. Compositional bias alone does not confer interactive function, requiring this entry to be Excluded.",
+      "ground_truth": {
+        "protein_name": "SptR-99",
+        "organism": "Thalassiosira fictitia",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Unspecified",
+        "curation_status": "Excluded",
+        "evidence": "SPR titrations showed no binding activity across all tested concentrations, and 15N-HSQC spectra confirmed that the peptide remains fully disordered without structural transition upon ligand exposure."
+      }
+    },
+    {
+      "paper_id": "HARD_L3_SYN12",
+      "title": "Qualitative Phase Separation Assessment of Thermophilum fictitium TfX-99",
+      "difficulty_level": "Level 3 - Qualitative (Requires Manual Check)",
+      "difficulty_note": "Qualitative observation of condensates without numerical residue limits or isolated target.",
+      "sections": {
+        "results": "In Thermophilum fictitium, the nucleolar protein TfX-99 undergoes phase separation in vivo. Deletion of its N-terminal proline-rich region disrupts droplet formation in cellular assays.\n\nHowever, isolated recombinant fragments aggregated unpredictably in vitro, preventing exact numerical coordinate mapping or thermodynamic binding measurements.",
+        "discussion": "Although cellular imaging links the N-terminal disordered region of TfX-99 to condensate assembly, the lack of exact coordinates necessitates manual curation review."
+      },
+      "full_text": "Results\nIn Thermophilum fictitium, the nucleolar protein TfX-99 undergoes phase separation in vivo. Deletion of its N-terminal proline-rich region disrupts droplet formation in cellular assays.\n\nHowever, isolated recombinant fragments aggregated unpredictably in vitro, preventing exact numerical coordinate mapping or thermodynamic binding measurements.\n\nDiscussion\nAlthough cellular imaging links the N-terminal disordered region of TfX-99 to condensate assembly, the lack of exact coordinates necessitates manual curation review.",
+      "ground_truth": {
+        "protein_name": "TfX-99",
+        "organism": "Thermophilum fictitium",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Qualitative involvement in nucleolar condensate assembly lacking explicit coordinates",
+        "curation_status": "Requires Manual Check",
+        "evidence": "However, isolated recombinant fragments aggregated unpredictably in vitro, preventing exact numerical coordinate mapping or thermodynamic binding measurements."
+      }
+    }
+  ]
+}

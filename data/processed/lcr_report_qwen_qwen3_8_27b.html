@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional LCR Annotation Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        html, body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            background-color: #f8fafc; 
+            color: #334155; 
+            margin: 0; 
+            padding: 24px; 
+            font-size: 13px; 
+            overflow-x: hidden; 
+            max-width: 100vw;
+        }
+        .container { 
+            width: 98%; 
+            max-width: 1920px; 
+            margin: 0 auto; 
+        }
+        header {
+            margin-bottom: 24px;
+        }
+        h1 { font-size: 24px; color: #0f172a; margin: 0 0 4px 0; font-weight: 700; }
+        .subtitle { color: #64748b; margin: 0; font-size: 13px; }
+        
+        .section-banner { 
+            background: #1e293b; 
+            color: #ffffff; 
+            padding: 12px 16px; 
+            border-radius: 8px 8px 0 0; 
+            margin-top: 32px; 
+            font-size: 13px; 
+            font-weight: 600; 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            letter-spacing: 0.3px;
+        }
+        .section-banner.warning { background: #d97706; }
+        
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            background: #ffffff;
+            border-radius: 0 0 8px 8px;
+            border: 1px solid #e2e8f0;
+            border-top: none;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            margin-bottom: 24px;
+        }
+
+        table { width: 100%; border-collapse: collapse; min-width: 1100px; }
+        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #f1f5f9; vertical-align: top; word-break: break-word; }
+        th { background-color: #f8fafc; color: #475569; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e2e8f0; white-space: nowrap; }
+        tr:hover td { background-color: #f8fafc; }
+        
+        .protein-id { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 600; color: #2563eb; text-decoration: none; }
+        .protein-id:hover { text-decoration: underline; }
+        .col-source { min-width: 350px; max-width: 500px; }
+        .evidence-quote { font-style: italic; color: #475569; margin: 0; border-left: 3px solid #cbd5e1; padding-left: 10px; line-height: 1.5; }
+        .badge-annot { background: #ffedd5; color: #c2410c; padding: 3px 6px; border-radius: 4px; font-weight: 600; font-family: monospace; font-size: 11px; }
+        .badge-type { background: #e0f2fe; color: #0369a1; padding: 4px 8px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
+        .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
+        .viz-container { padding: 16px; text-align: left; }
+        
+        .lcr-region-rect { cursor: pointer; transition: opacity 0.15s ease-in-out; }
+        .lcr-region-rect:hover { opacity: 0.75; stroke: #0f172a; stroke-width: 1px; }
+        
+        .export-container { margin-top: 24px; text-align: left; padding-bottom: 40px; }
+        .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 10px 20px; font-size: 13px; font-weight: 600; border-radius: 6px; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: background 0.2s, transform 0.1s; }
+        .btn-export:hover { background-color: #6d28d9; }
+        .btn-export:active { transform: translateY(1px); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Functional LCR Annotation Report</h1>
+            <p class="subtitle">Structured low-complexity region dataset integrated with UniProt and PlaToLoCo predictions</p>
+        </header>
+
+        <div class="section-banner">
+            <span>1. Verified LCRs (Experimental Binding & Coordinates)</span>
+            <span>7 entries</span>
+        </div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>UniprotID</th>
+                    <th>Gene name</th>
+                    <th>Name</th>
+                    <th>Protein length</th>
+                    <th>LCR-keyword Presence</th>
+                    <th>Organism</th>
+                    <th class="col-source">Source</th>
+                    <th>Source ID</th>
+                    <th>Start of annotation</th>
+                    <th>End of annotation</th>
+                    <th>Function</th>
+                    <th>Gene Ontology of category</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>XenP-88</strong></td>
+                <td style="max-width: 180px;">XenP-88</td>
+                <td>N/A</td>
+                <td><span class="badge-type">DNA-binding</span></td>
+                <td><i>Sulfolobus artificialis</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"In vitro binding titrations proved that the central low-complexity region spanning residues 142 to 298 directly binds single-stranded DNA with high affinity (Kd = 16 ± 2 nM)."</blockquote></td>
+                <td><code>HARD_L1_SYN01 (Level 1 - Explicit (Distractor Domains))</code></td>
+                <td><span class="badge-annot">142</span></td>
+                <td><span class="badge-annot">298</span></td>
+                <td style="max-width: 180px;"><strong>Primary DNA-binding module that binds single-stranded DNA with high affinity</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>GlpX-12</strong></td>
+                <td style="max-width: 180px;">GlpX-12</td>
+                <td>N/A</td>
+                <td><span class="badge-type">protein-binding</span></td>
+                <td><i>Halobacterium fictitium</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"In contrast, the carboxy-terminal low-complexity region spanning residues 310 to 475 bound Cpa-3 with nanomolar affinity (Kd = 38 nM)."</blockquote></td>
+                <td><code>HARD_L1_SYN02 (Level 1 - Explicit)</code></td>
+                <td><span class="badge-annot">310</span></td>
+                <td><span class="badge-annot">475</span></td>
+                <td style="max-width: 180px;"><strong>Cofactor engagement and recruitment of Cpa-3 during complex assembly</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>KrpM-9</strong></td>
+                <td style="max-width: 180px;">KrpM-9</td>
+                <td>N/A</td>
+                <td><span class="badge-type">DNA-binding</span></td>
+                <td><i>Thermococcus syntheticus</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"The low-complexity segment spanning residues 85 to 210 acts as a functional DNA-binding domain, whereas adjacent disordered tracts do not participate in nucleic acid binding."</blockquote></td>
+                <td><code>HARD_L1_SYN03 (Level 1 - Explicit (Multiple Annotations))</code></td>
+                <td><span class="badge-annot">85</span></td>
+                <td><span class="badge-annot">210</span></td>
+                <td style="max-width: 180px;"><strong>Functional DNA-binding domain for chromatin attachment</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>VesT-44</strong></td>
+                <td style="max-width: 180px;">VesT-44</td>
+                <td>N/A</td>
+                <td><span class="badge-type">lipid-binding</span></td>
+                <td><i>Pyrococcus artificialis</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"Our structural partitioning shows that Pyrococcus artificialis VesT-44 utilizes its central low-complexity domain (residues 205–390) as a dedicated lipid-binding module to anchor vesicle machinery."</blockquote></td>
+                <td><code>HARD_L1_SYN04 (Level 1 - Explicit)</code></td>
+                <td><span class="badge-annot">205</span></td>
+                <td><span class="badge-annot">390</span></td>
+                <td style="max-width: 180px;"><strong>dedicated lipid-binding module to anchor vesicle machinery</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>NucF-77</strong></td>
+                <td style="max-width: 180px;">NucF-77</td>
+                <td>N/A</td>
+                <td><span class="badge-type">DNA-binding</span></td>
+                <td><i>Neurospora fictitia</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"Fine-scale deletion confirmed that this 150-aa segment (positioned between residue 101 and residue 250) is necessary and sufficient for double-stranded DNA retention in vitro (Kd = 75 nM)."</blockquote></td>
+                <td><code>HARD_L2_SYN05 (Level 2 - Implicit (Spatial Deduction))</code></td>
+                <td><span class="badge-annot">101</span></td>
+                <td><span class="badge-annot">250</span></td>
+                <td style="max-width: 180px;"><strong>double-stranded DNA retention</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>SplX-50</strong></td>
+                <td style="max-width: 180px;">SplX-50</td>
+                <td>N/A</td>
+                <td><span class="badge-type">protein-binding</span></td>
+                <td><i>Arabidopsis artificialis</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"In contrast, deletion mapping proved that the 160-residue low-complexity region spanning positions 181 to 340 forms the exclusive interface for Spt-9."</blockquote></td>
+                <td><code>HARD_L2_SYN06 (Level 2 - Implicit (Boundary Calculation))</code></td>
+                <td><span class="badge-annot">181</span></td>
+                <td><span class="badge-annot">340</span></td>
+                <td style="max-width: 180px;"><strong>forms the exclusive interface for Spt-9</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>ChrD-88</strong></td>
+                <td style="max-width: 180px;">ChrD-88</td>
+                <td>N/A</td>
+                <td><span class="badge-type">DNA-binding</span></td>
+                <td><i>Danio artificialis</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"The 120-residue basic low-complexity segment spanning positions 151–270 acts as an auxiliary DNA-binding module, cooperating with the chromodomain during chromatin remodeling."</blockquote></td>
+                <td><code>HARD_L2_SYN08 (Level 2 - Implicit (Flanking Domain Math))</code></td>
+                <td><span class="badge-annot">151</span></td>
+                <td><span class="badge-annot">270</span></td>
+                <td style="max-width: 180px;"><strong>Auxiliary DNA-binding module cooperating with the chromodomain during chromatin remodeling; binds double-stranded DNA substrates with micromolar affinity.</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+        </div>
+
+        <div class="section-banner warning">
+            <span>2. Requires Manual Check (Qualitative Mentions or Missing Coordinates)</span>
+            <span>6 entries</span>
+        </div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>UniprotID</th>
+                    <th>Gene name</th>
+                    <th>Name</th>
+                    <th>Protein length</th>
+                    <th>LCR type</th>
+                    <th>Organism</th>
+                    <th class="col-source">Source</th>
+                    <th>Source ID</th>
+                    <th>Start of annotation</th>
+                    <th>End of annotation</th>
+                    <th>Annotation Category</th>
+                    <th>Gene Ontology of category</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>LcpA-3</strong></td>
+                <td style="max-width: 180px;">LcpA-3</td>
+                <td>N/A</td>
+                <td><span class="badge-type">Unspecified</span></td>
+                <td><i>Methanococcus fictitius</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"Binding assays on LCR-1 (40–90) showed zero RNA affinity."</blockquote></td>
+                <td><code>HARD_L2_SYN07 (Level 2 - Implicit (Active vs Inert LCR Distractors))</code></td>
+                <td><span class="badge-annot">40</span></td>
+                <td><span class="badge-annot">90</span></td>
+                <td style="max-width: 180px;"><strong>Inert compositional bias with zero RNA affinity</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>LcpA-3</strong></td>
+                <td style="max-width: 180px;">LcpA-3</td>
+                <td>N/A</td>
+                <td><span class="badge-type">RNA-binding</span></td>
+                <td><i>Methanococcus fictitius</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"Conversely, binding titrations for LCR-2 demonstrated that the segment spanning residues 185 to 310 directly binds viral RNA with high affinity (Kd = 15 nM), driving biomolecular condensate formation in vitro."</blockquote></td>
+                <td><code>HARD_L2_SYN07 (Level 2 - Implicit (Active vs Inert LCR Distractors))</code></td>
+                <td><span class="badge-annot">185</span></td>
+                <td><span class="badge-annot">310</span></td>
+                <td style="max-width: 180px;"><strong>Directly binds viral RNA with high affinity (Kd = 15 nM), driving biomolecular condensate formation in vitro</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>MedY-12</strong></td>
+                <td style="max-width: 180px;">MedY-12</td>
+                <td>N/A</td>
+                <td><span class="badge-type">Unspecified</span></td>
+                <td><i>Kluyveromyces fictitius</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"Computational filtering of Kluyveromyces fictitius Mediator subunits using SEG and fLPS predicted two glutamine-rich low-complexity transactivation domains in MedY-12."</blockquote></td>
+                <td><code>HARD_L3_SYN09 (Level 3 - Negative Control (Excluded))</code></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td style="max-width: 180px;"><strong>Predicted glutamine-rich low-complexity transactivation domains; empirical testing disproved binding capacity and condensate assembly.</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>CenP-Z</strong></td>
+                <td style="max-width: 180px;">CenP-Z</td>
+                <td>N/A</td>
+                <td><span class="badge-type">Unspecified</span></td>
+                <td><i>Xenopus artificialis</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"Sequence analysis indicates a serine-rich low-complexity region in its N-terminal half."</blockquote></td>
+                <td><code>HARD_L3_SYN10 (Level 3 - Qualitative (Requires Manual Check))</code></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td style="max-width: 180px;"><strong>pericentromeric recruitment</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>SptR-99</strong></td>
+                <td style="max-width: 180px;">SptR-99</td>
+                <td>N/A</td>
+                <td><span class="badge-type">Unspecified</span></td>
+                <td><i>Thalassiosira fictitia</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"SPR titrations showed no binding activity across all tested concentrations, and 15N-HSQC spectra confirmed that the peptide remains fully disordered without structural transition upon ligand exposure."</blockquote></td>
+                <td><code>HARD_L3_SYN11 (Level 3 - Negative Control (Excluded))</code></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td style="max-width: 180px;"><strong>No binding activity; peptide remains fully disordered without structural transition upon ligand exposure.</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="#" target="_blank" class="protein-id">N/A</a></td>
+                <td><strong>TfX-99</strong></td>
+                <td style="max-width: 180px;">TfX-99</td>
+                <td>N/A</td>
+                <td><span class="badge-type">Unspecified</span></td>
+                <td><i>Thermophilum fictitium</i></td>
+                <td class="col-source"><blockquote class="evidence-quote">"In Thermophilum fictitium, the nucleolar protein TfX-99 undergoes phase separation in vivo. Deletion of its N-terminal proline-rich region disrupts droplet formation in cellular assays."</blockquote></td>
+                <td><code>HARD_L3_SYN12 (Level 3 - Qualitative (Requires Manual Check))</code></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td><span class="badge-annot">Unspecified</span></td>
+                <td style="max-width: 180px;"><strong>Phase separation and condensate assembly</strong></td>
+                <td style="max-width: 200px;">N/A</td>
+            </tr>
+            <tr class="subrow">
+                <td colspan="12" class="viz-container">
+                    <span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+        </div>
+
+        <div class="export-container">
+            <button class="btn-export" onclick="exportReportToZIP()">Export Report (ZIP)</button>
+        </div>
+    </div>
+
+    <script>
+        async function exportReportToZIP() {
+            const zip = new JSZip();
+            const rows = document.querySelectorAll('tr');
+            let csv = [];
+
+            csv.push('"UniprotID","Gene name","Name","Protein length","LCR type","Organism","Source","Source ID","Start of annotation","End of annotation","Annotation Category","Gene Ontology of category"');
+
+            rows.forEach((row) => {
+                if (row.classList.contains('subrow') || row.classList.contains('section-banner')) return;
+                const cols = row.querySelectorAll('th, td');
+                if (cols.length === 12) {
+                    let rowData = [];
+                    cols.forEach(col => {
+                        let cellText = col.innerText.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+                        cellText = cellText.replace(/"/g, '""');
+                        rowData.push('"' + cellText + '"');
+                    });
+                    csv.push(rowData.join(','));
+                }
+            });
+
+            zip.file("report.csv", csv.join('\n'));
+
+            const svgs = document.querySelectorAll('svg[id^="svg-"]');
+            svgs.forEach((svg) => {
+                const protId = svg.id.replace('svg-', '');
+                const svgData = new XMLSerializer().serializeToString(svg);
+                zip.file(`${protId}_platoloco.svg`, svgData);
+            });
+
+            const content = await zip.generateAsync({ type: "blob" });
+            saveAs(content, "Report.zip");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1213 @@
+--- Results ---
+
+
+
+Both the N-terminal half and the C-terminal half FUS-LC form
+amyloid-like fibrils. In fibrils formed by full-length FUS-LC with
+the sequence in Fig. 1a, residues 39–95 form the structurally
+ordered cross-β core, whereas the C-terminal half of the sequence
+is mainly dynamically disordered21,30. However, when FUS-LC is
+truncated to residues 111–214, the resulting FUS-LC-C construct
+readily forms amyloid-like fibrils under common solution conditions (40 μM protein concentration, 20 mM Tris-HCl buffer pH
+7.4, 24°C). In negative-stain transmission electron microscope
+(TEM) images, FUS-LC-C fibrils have a pronounced apparent
+width modulation with a period of 44 ± 4 nm (Fig. 1b). When
+FUS-LC is truncated to residues 2–108, the resulting N-terminal
+construct (FUS-LC-N) also forms fibrils, as expected (Fig. 1c).
+
+Two-dimensional (2D) 15N-13°C ssNMR spectra of FUS-LC-C
+fibrils show sharp cross-peak signals, with full-width at halfmaximum linewidths of 1.2 and 0.6 p.p.m. in 15N and 13°C
+dimensions, respectively, consistent with a well-ordered structure.
+
+
+However, the extreme LC character of the FUS-LC-C sequence
+(34.6% Gly, 22.1% Ser, 19.2% Gln, 10.6% Tyr, 12.5% other) leads
+to 2D spectra with clusters of overlapping cross-peaks (Fig. 1d
+and Supplementary Fig. 1a). The 2D spectra of FUS-LC-N fibrils
+also show overlapping cross-peaks, although with more crosspeaks that are fully or partially resolved. Cross-peak positions in
+2D spectra of FUS-LC-N fibrils are in good agreement with crosspeak positions in 2D spectra of full-length FUS-LC fibrils (Fig. 1e
+and Supplementary Fig. 1b). Specifically, 35 resolved or partially
+resolved cross-peaks in the 2D 15N-13°C spectrum of FUS-LC-N
+fibrils have chemical shift values that agree to within the ssNMR
+linewidths with those of cross-peaks in the corresponding
+spectrum of FUS-LC fibrils (Fig. 1e). More than 50 resolved or
+partially resolved cross-peaks in the 2D 13°C-13°C spectrum of
+FUS-LC-N fibrils have chemical shift values that agree to within
+the
+ssNMR
+linewidths
+with
+those
+of
+cross-peaks
+in
+the
+corresponding
+spectrum
+of
+
+
+FUS-LC
+fibrils
+(Supplementary
+Fig. S1b). Thus, the molecular structure of the FUS-LC-N fibril
+core is very similar to the core structure in full-length FUS-LC
+fibrils determined earlier21.
+
+Measurements of the mass-per-length (MPL) of FUS-LC-C
+fibrils by dark-field TEM33 yielded a value of 41.8 ± 1.0 kDa/nm
+(Supplementary Fig. 2a–c). Given that the molecular weight of a
+FUS-LC-C monomer is 10.02 kDa and the spacing between β-
+strands in a β-sheet is 0.47–0.48 nm, the MPL value for a single
+cross-β subunit in FUS-LC-C fibrils is expected to be about 21
+kDa/nm, assuming a cross-β motif with one monomer per β-
+sheet spacing. The experimental MPL value therefore suggests a
+structure containing two cross-β subunits. In contrast, full-length
+FUS-LC fibrils contain a single cross-β unit21.
+
+
+Cryo-EM reveals a two-fold symmetric core in FUS-LC-C
+fibrils. To determine the molecular structure of FUS-LC-C fibrils,
+we used cryo-EM and helical reconstruction in RELION 3.034,35,
+with software modifications to include orientational correlations
+
+a
+
+b
+
+50 nm
+
+100 nm
+
+d
+
+Gly Cα
+
+Ser/Tyr/Gln/Asn/
+Asp/Met/Arg Cα
+
+Ser Cβ
+
+Tyr/Asn/Asp Cβ
+
+65
+60
+55
+50
+45
+40
+35
+30
+
+13°C NMR frequency (ppm)
+
+e
+
+70
+60
+50
+40
+30
+20
+
+13°C NMR frequency (ppm)
+
+about the fibril growth direction for particles extracted from the
+same fibril segment36. Conditions are given in Table 1. Morphologically uniform, rapidly twisting fibrils were observed in
+cryo-EM images (Fig. 2a). β-Strands with the expected spacing of
+about 4.8 Å were clearly observed in 2D class images (Fig. 2b).
+Three-dimensional (3D) helical reconstruction followed by 3D
+
+c
+
+100 nm
+
+
+FUS-LC-C
+
+95
+15N NMR frequency (ppm)
+
+100
+
+105
+
+Gln Cβ/Cγ
+
+110
+
+115
+
+120
+
+125
+
+130
+
+
+95
+
+FUS-LC-N
+
+100
+
+105
+
+110
+
+115
+15N NMR frequency (ppm)
+
+120
+
+125
+
+95
+
+100
+
+105
+
+110
+
+115
+
+120
+
+125
+
+
+Full-length FUS-LC
+refinement with pseudo-21 symmetry yielded a final density map
+with 2.62 Å average resolution32, based on the standard Fourier
+shell correlation criterion (Fig. 2c and Supplementary Fig. 3). In
+calculations without symmetry in the helical repeat unit, the final
+density map was nearly the same but with 2.70 Å resolution
+(Supplementary Fig. 3). Calculations in which C2 symmetry was
+
+
+Data collection
+
+Microscope
+Titan Krios
+Camera
+
+
+
+Gatan K2 Summit
+Voltage
+300 kV
+Magnification
+×130,000
+
+
+Defocus range
+−1.0 μm to −2.5 μm
+
+
+Pixel size
+1.07 Å
+Exposure time (s)
+6 s
+
+
+Electron dose
+47 e−/Å2
+
+
+Reconstruction, EMDB code EMD-22169
+
+Box size
+400 pixels
+
+
+
+Interbox distance
+35.89 Å
+
+
+Number of initial particles
+499,206
+
+
+
+Number of final particles in 3D reconstruction
+275,520
+
+
+
+Symmetry imposed
+Pseudo-21
+Helical rise/helical twist
+2.44 Å/178.94°
+
+
+Map resolution
+2.62 Å
+
+
+Map sharpening B-factor
+−83.2 Å2
+
+imposed resulted in a density map with a similar cross-section,
+but with unphysical connections between neighboring repeats
+along the fibril growth direction.
+
+Helical rise and twist parameters for the density map in Fig. 2c
+are 2.44 Å and 178.94°, repsectively. The left-handed twist of the
+density map is consistent with atomic force microscope (AFM)
+height images (Supplementary Fig. 2d), which show left-handed
+asymmetry at crossovers. The 414.3 Å crossover period of the
+density map is in good agreement with the average crossover
+periods of 432 Å and 440 Å in AFM and TEM images,
+respectively (Supplementary Fig. 2e).
+
+
+Assuming that the repeat unit is one complete FUS-LC-C
+molecule (including both ordered and disordered segments), the
+density map implies MPL = 41.1 kDa/nm, in good agreement
+with the dark-field TEM result. Cross-sectional views of the
+density map show that, within each cross-β subunit (purple and
+cyan in Fig. 2c), structurally ordered portions of FUS-LC-C
+molecules adopt U-shaped conformations, with two extended
+segments connected by a sharp bend or loop. Each cross-β
+subunit contains two layers of in-register parallel β-sheets.
+
+Molecular model for the FUS-LC-C fibril core. The density map
+from cryo-EM shows that >50% of the residues in the structurally
+ordered core have bulky side chains, and that these residues occur
+sequentially, implying that the Ser/Gly-rich segments of FUS-LC-
+C (residues 163–175, 182–193, and 199–207) are not in the fibril
+core. We therefore focused on residues 111–160 in our attempts
+to fit the FUS-LC-C sequence into the cryo-EM density map for
+the fibril core. The clearly resolved side-chain densities could only
+be fit with a model comprised of residues 112–150, with residues
+112–127 and 132–150 forming the outer and inner extended
+segments, respectively (Fig. 3a). This model accounts for nearly
+
+all of the high-density regions of the map (Supplementary Fig. 4)
+and is consistent with dynamical information from NMR measurements described below. In contrast, models that comprised
+other segments of FUS-LC-C resulted in poor agreement with the
+density map, with multiple empty side-chain densities and side
+chains of the molecular models extending outside of the density
+(Supplementary Fig. 5).
+
+
+Corrugations of backbone density align with the directions of
+backbone carbonyl groups in β-strand segments (Fig. 3b). If we
+replace the left-handed density map with its right-handed mirror
+image, backbone density corrugations no longer align with
+backbone carbonyl group directions in the molecular model that
+fits the mirror-image density (Supplementary Fig. 6). Thus, both
+molecular modeling and AFM images (Supplementary Fig. 2d)
+support a left-handed twist for FUS-LC-C fibrils.
+
+The molecular model in Fig. 3a was created initially in Coot37,
+then refined by simulated annealing in Xplor-NIH38, using the
+density map as a restraint on atomic positions (probDistPot
+potential in Xplor-NIH). Conditions are given in Table 2.
+Structure bundles generated by multiple independent XplorNIH calculations32 show that the molecular conformation is
+defined more precisely than the nominal resolution of the density
+map would indicate (Supplementary Fig. 7a–c). In structure
+bundles calculated with or without an additional statistical
+potential
+to
+restrain
+side-chain
+conformations
+(TorsionDB
+potential in Xplor-NIH), the root-mean-squared-displacement
+(RMSD) values for all backbone atoms of residues 113–149 are
+0.30 Å and 0.26 Å, respectively. RMSD values for all nonhydrogen atoms of residues 113–149 are 0.79 Å and 0.75 Å,
+respectively. The fact that many side-chain conformations are
+uniquely determined, so that the all-atom RMSD is substantially
+less than 2.63 Å, is attributable of the asymmetric shapes of the
+side-chain densities (Supplementary Fig. 7d).
+
+The molecular model shows that residues 113–122, 135–136,
+and 139–149 form the β-strands of in-register parallel β-sheets.
+Here, β-strands are defined to be segments in which backbone
+amide and carbonyl groups form intermolecular hydrogen bonds
+along the fibril growth direction and successive amino acid side
+chains are on alternating faces of the β-sheets. Residues 123–134
+adopt an irregular conformation that allows the protein chain to
+fold back on itself. Non-β-strand conformations at G137 and
+G138 break residues 135–149 into two discontinuous β-strands,
+although this segment remains fully extended.
+
+Side chains of most Gln residues in residues 112–150 are
+buried within the FUS-LC-C fibril core, with the sole exception of
+Q124. In contrast, the majority of Ser side chains are exposed on
+the surface of the structurally ordered core, interacting with
+solvent or possibly with disordered segments in residues 151–214.
+
+
+Thus, burial of Gln side chains appears to be a factor that
+determines the core structure. The larger number of glutamines
+in residues 111–150 (11), compared with residues 151–214 (9),
+may contribute to the thermodynamic preference for residues
+112–150 as the core-forming segment of FUS-LC-C. The smaller
+number of glycines in residues 111–150 (7 vs. 29) is also expected
+to be an important factor.
+
+a
+b
+
+100 nm
+
+c
+
+90°
+
+ 41.4 nm 
+
+c
+a
+
+7.0 nm
+
+
+Q124
+
+S121
+
+Y113
+
+S119
+
+S112
+
+S117
+
+S115
+
+S127
+
+S129
+
+S148
+
+
+
+Y130
+
+N150
+4.0 nm
+
+d
+b
+
+
+Y122 S120
+Q118 S116 G114
+400 Å
+
+
+Q118
+Y143
+
+Y122
+
+Q141
+
+Q140
+
+Q139
+*
+*
+
+
+Q139
+* *
+
+
+Q140
+
+Q141
+
+Y143
+Y136
+Y136
+
+Y122
+84°
+
+
+Xplor-NIH potentials
+
+Potential
+Scale factor
+probDistPot (cryo-EM density map)
+5.0
+posDiffPot (2.5 Å bound, backbone atoms only)
+10,000
+NCS (conformational equivalence)
+100
+DistSymmpot (translational symmetry)
+100
+
+
+TorsionDB
+0.002–2.0
+
+
+HBDB
+Default
+RepelPot
+0.004–4.0
+
+
+BOND
+Default
+ANGL
+0.4–1.0
+
+
+IMPR
+0.1–1.0
+
+
+Structure validation statistics, PDB code 6XFM
+
+
+
+MolProbity clash score
+
+
+
+2.0
+Ramachandran favored
+93.0%
+
+
+Ramachandran allowed
+7.0%
+
+
+Ramachandran outliers
+0.0%
+
+
+RMSD of bonds
+0.01 Å
+
+
+RMSD of angles
+1.50°
+
+
+Number of non-hydrogen atoms
+2360
+Number of residues
+39
+
+
+
+An expanded view of the central region of the fibril core
+(Supplementary Fig. 3) shows a classic steric zipper interdigitation of Gln side chains39, both within each cross-β subunit (Q118
+and Q140) and in the interface between subunits (Q139 and
+Q141). Amide groups of Gln side chains can form linear
+hydrogen-bonded chains, i.e., polar zippers40, which stabilize
+the in-register, parallel cross-β organization (together with
+backbone hydrogen bonds). The interface between subunits also
+includes contacts between aromatic side chains of Y136 and
+Y143, possibly creating favorable π-stacking interactions41. Along
+the fibril growth direction, π-stacking interactions of Tyr side
+chains may also contribute to the stability of the in-register,
+parallel cross-β structure42. Additional aspects of interactions that
+stabilize the FUS-LC-C core structure are discussed below.
+
+The angle between β-strands and the fibril growth direction is
+about 84° (Fig. 3d). This angle, together with the quasi-21
+symmetry, creates a complex pattern of contacts between the two
+cross-β subunits. For example, if the Q139 side chain of molecule
+j in the first subunit is surrounded by Q139 and Q141 side chains
+of molecules k and k + 1 in the second subunit, then the
+
+
+Q145 side chain of molecule j is near Y136 side chains of
+molecules k + 1 and k + 2, whereas the Q132 side chain of
+molecule j is near Y149 side chains of molecules k and k −1.
+Thus, each molecule in one subunit interacts with four molecules
+in the other subunit. The complexity of these inter-subunit
+interactions contributes to the stability of the FUS-LC-C core
+structure in the MD simulations discussed below and presumably
+affects the kinetics and mechanism of fibril growth.
+
+The C-terminal segment of FUS-LC-C is dynamically disordered.
+
+
+To
+identify
+dynamically
+disordered
+residues,
+we
+acquired one-dimensional (1D) 13°C and 2D 1H-13°C NMR spectra
+of uniformly 15N,13°C-labeled FUS-LC-C fibrils at 24°C using the
+Insensitive Nuclei Enhanced by Polarization Transfer (INEPT)
+technique for scalar coupling-driven 1H-13°C polarization trans-
+fers43. Signals that appear in the INEPT spectra can only arise
+from segments of FUS-LC-C that execute large-amplitude
+motions on sub-microsecond timescales21,44,45. The 1D and 2D
+INEPT spectra (Fig. 4a, b) show strong signals near random-coil
+1H and 13°C chemical shifts of Ser, Tyr, Gln, Asn, Asp, Met, and
+
+Arg residues46. Signals with chemical shifts of Pro residues are
+weak. The presence of Arg and Asp signals, and the weakness of
+
+
+Pro signals indicate that the dynamically disordered segment
+begins after residue 150, consistent with the molecular model
+developed above.
+
+For spectra in Fig. 4, the INEPT pulse sequence has the form
+90X,H–τ1–180X,H180X,C–τ1–90Y,H90Y,C–τ2–180X,H180X,C–τ2. The
+maximum peak area for the Gly Cα signal spectra occurs at
+τ1,max ≈1.4 ms and τ2,max ≈0.7 ms, whereas the other Cα peaks
+have their maximum total area at τ1,max ≈1.2 ms and τ2,max ≈1.2
+ms (Fig. 4c). Assuming transverse spin relaxation times T2H and
+T2°C for 1Hα and 13Cα nuclei, the peak areas are expected to be
+proportional to sin 2πJτ1
+ð
+Þ sin 2πkJτ2
+ð
+Þ exp  2τ1
+
+
+
+
+
+
+
+exp  2τ2
+
+,
+where J ≈140 Hz is the 1Hα-13Cα scalar coupling constant, with
+k being the number of 1Hα nuclei (i.e., k = 2 for Gly Cα; k = 1 for
+other
+Cα
+sites).
+
+
+The
+relaxation
+times
+are
+then
+T2H 1⁄4
+tanð2πJτ1;maxÞ=ðπJÞ
+and
+T2°C 1⁄4 tanð2πkJτ2;maxÞ=ðkπJÞ.
+
+
+From
+these expressions, we estimate that the average relaxation times
+for Gly residues are T2H ≈6.4 ms and T2°C ≈3.2 ms, and transverse
+spin relaxation reduces the maximum 13Cα signal of Gly residues
+in the 1D INEPT spectra by a factor of 0.37 relative to the ideal
+maximum value. For other residues, T2H ≈T2°C ≈4.0 ms, and
+transverse spin relaxation reduces their maximum 13Cα signals by
+a factor of 0.23. Figure 4c shows that the ratio of maximum 1D
+INEPT signals for Gly and non-Gly residues is 0.42. Taking into
+account the signal reduction factors, the ratio of dynamically
+disordered Gly residues in FUS-LC-C fibrils to dynamically
+disordered non-Gly residues is approximately (0.23/0.37) ×
+0.42 = 0.26. In other words, Gly residues represent about 0.26/
+(1 + 0.26) = 21% of the dynamically disordered residues. As Gly
+residues constitute 45% of residues 151–214 (Fig. 1a), only a
+subset of these disordered residues execute motions with
+sufficiently large amplitude on sufficiently short timescales to
+contribute to the INEPT spectra.
+
+
+T2H
+T2°C
+
+
+Thirteen Ser residues are contained within the core-forming
+segment of FUS-LC-C, in rough agreement with the number of
+resolved or partially resolved Ser Cβ cross-peaks in Fig. 1d.
+However, only six Gly residues are contained within the coreforming segment, whereas the 2D 15N-13°C ssNMR spectrum
+shows signals from at least 14 inequivalent Gly residues. This
+observation is consistent with the conclusion from INEPT spectra
+that only a subset of the Gly residues are dynamically disordered.
+
+
+Internal water and stabilizing interactions revealed by MD
+simulations. Each cross-β subunit of the FUS-LC-C fibril core
+contains a pore defined by side chains of Y122, S135, and Q140
+and by Gly residues 137 and 138 (Fig. 3a). To investigate the
+properties of water within this pore, to identify other locations for
+internal water molecules, and to gain additional insights into
+interactions that stabilize the FUS-LC-C core structure, we performed all-atom MD simulations on five repeats of the 21-symmetric structure (i.e., ten copies of FUS-LC-C residues 112–150)
+in explicit solvent at 303 K. Two trajectories were analyzed from
+calculations with NAMD software47, one for 400 ns in which
+position constraints were applied to all Cα sites, to ensure that the
+core structure did not disassemble during the simulation, the
+other for 500 ns without position constraints (see Supplementary
+Movies 1 and 2). With constraints, the backbone RMSD of the
+entire protein assembly was ~0.8 Å relative to the initial configuration throughout the 400 ns trajectory. Even without constraints, the core structure remained intact over the 500 ns
+trajectory, with the backbone RMSD of the six central chains
+remaining below 2.3 Å relative to the initial configuration (Supplementary Fig. 8a). We attribute the resistance of the core
+
+a
+
+Asp Cβ
+
+Arg Cδ
+
+Ser Cβ
+
+Pro Cα
+
+Ser/Tyr/Gln/Asn/Asp/Met/Arg Cα
+
+65
+60
+55
+50
+45
+40
+35
+30
+25
+
+13°C NMR frequency (ppm)
+
+b
+
+Ser/Tyr/Gln/Asn/Asp/Met/Arg
+
+140
+120
+100
+80
+60
+40
+20
+
+13°C NMR frequency (ppm)
+
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+
+60
+
+c
+
+50
+
+13°C peak area (arb. units)
+
+40
+
+30
+
+20
+
+10
+
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+0
+
+1.0
+
+Arg Cβ
+
+Arg Cγ
+
+1.5
+
+1H NMR frequency (ppm)
+
+Pro Cβ
+
+2.0
+
+Pro Cγ
+
+2.5
+
+Gln Cβ
+
+3.0
+
+Gln/Met Cγ
+
+Tyr/Asn Cβ
+
+Met Cβ
+
+3.5
+
+4.0
+
+Gly Cα
+
+4.5
+
+5.0
+
+
+5.5
+
+Gly
+2 (ms)
+
+G Cα, 1=1.45 ms
+
+G Cα, 2=0.70 ms
+
+SYQNDMR Cα, 1=1.15 ms
+
+SYQNDMR Cα, 2=1.15 ms
+
+1 (ms)
+
+
+S116
+(i)
+(ii)
+
+
+S142
+(viii)
+
+
+Y136
+Q145
+Q147
+
+Y149
+(vii)
+
+
+Y130
+
+S135
+Q140
+
+Q126
+
+S120
+
+Y122
+Y143
+
+P125
+(v)
+(vi)
+
+structure to structural distortions, despite the fact that 40% of
+FUS-LC-C molecules in these MD simulations were located at the
+fibril ends, to the complex pattern of inter-subunit interactions
+discussed above.
+
+In the constrained MD simulation, residues 113–122, 135–136,
+and 139–149 maintained their β-strand character throughout the
+trajectory. In the unconstrained MD simulation, fraying occurred
+at the N- and C-terminal ends, so that the stable β-strand
+segments became residues 115–122, 135–136, and 139–147. Lefthanded helicity persisted throughout the unconstrained simulation, with a final value of approximately −2.5° per 4.82 Å repeat.
+
+As shown in Fig. 5, water molecules filled the main pores of the
+two cross-β subunits (Fig. 5, vi). Isolated water molecules also
+entered the core at other locations, especially near hydroxyl and
+amide groups of Tyr and Gln side chains (Fig. 5, v). The density
+of internal water equilibrated within 0.7 ns in the unconstrained
+trajectory (Supplementary Fig. 8b). All internal water molecules
+were mobile on the nanosecond time scale (Supplementary
+Fig. 8c), but average times for internal water molecules to move
+10 Å were at least a factor of 10 greater than for external, bulk
+water (Supplementary Fig. 8d). Occupancy of hydrogen bonds to
+internal water was greatest for side-chain hydroxyl and amide
+groups around the main pores (S120, Y122, S135, and Q140), but
+was also relatively large for Q118, Q126, Y136, and Y143
+(Supplementary Fig. 9a). Density attributable to partially ordered
+
+
+Q141
+
+Q139
+(iii)
+
+
+Q126
+
+Q133
+
+Q139
+Q140
+(iv)
+
+
+Q141
+G137
+
+G137
+
+Y136
+
+Q147
+water molecules is observed near side chains of Q140 and S135 in
+the cryo-EM density map (Fig. 3c), consistent with the MD
+simulations.
+
+
+Previous studies based on crystallography48,49 and ssNMR30
+have identified side-chain hydrogen bonds as likely stabilizing
+interactions for cross-β assemblies formed by LC sequences.
+
+
+Several distinct types of side-chain hydrogen bonds were
+apparent in our MD simulations. Most surprising was the
+observation of highly occupied sidechain-to-backbone hydrogen
+bonds between β-sheet layers (Fig. 5, iii, iv, and vii), including
+hydrogen bonds between side-chain amide groups of Q126 or
+
+
+Q141 and backbone carbonyl groups of Q133 or G137,
+respectively, and side-chain hydroxyl groups of Y149 and
+backbone
+carbonyl groups
+of Y130. Sidechain-to-backbone
+hydrogen bonds were found both within each cross-β subunit
+(Supplementary Fig. 9b) and between subunits (Supplementary
+Fig. 9c). Sidechain-to-sidechain hydrogen bonds between β-sheet
+layers were also observed (Fig. 5, i and viii), including intrasubunit hydrogen bonds beween hydroxyl groups of S116 and
+S142 (Supplementary Fig. 9b) and inter-subunit hydrogen bonds
+between hydroxyl groups of Y136 and amide groups of Q145 and
+Q147 (Supplementary Fig. 9c).
+
+
+Side-chain hydrogen bonds were also observed along the the
+fibril growth direction (Fig. 5, i and ii). In addition to the expected
+polar zipper interactions among Gln side chains (Supplementary
+
+Fig. 9d) and among N150 side chains, these included intermolecular hydrogen bonds between side-chain hydroxyl and
+backbone amide groups of S131, and the aforementioned
+S116–S142 hydrogen bonds (Supplementary Fig. 9e).
+
+
+Finally, the MD simulations revealed a diverse spectrum of
+side-chain dynamics. All six Tyr residues were found to have
+strongly preferred side-chain conformations that presumably
+optimize π-stacking interactions along the fibril growth direc-
+tion42, corresponding to side-chain torsion angles χ1 ≈−65° and
+χ2 ≈±100°. Tyr aromatic ring flips could then be visualized as
+rapid changes in the sign of χ2. In MD simulations with and
+without constraints, Y130, Y136, and Y143 did not undergo ring
+flips on the time scale of these simulations (Supplementary
+Figs. 10a and 11a, respectively). In contrast, in simulations
+without constraints, Y122 side chains, which project into the
+main water pores, did flip in the simulated trajectories, as did the
+solvent-exposed side chains of Y113 and Y149.
+
+
+Orientations and dynamics of Gln side chains were quantified
+by means of a pseudo-torsion angle ξ, defined by the coordinates
+of the following four atoms: Nε2, Oε1, and Cα for a Gln residue in
+molecule k of one cross-β subunit, and Cα for the same residue in
+molecule k + 1 of the same subunit. With this definition, if the
+Oε1-Nε2 direction (i.e., the direction of the side-chain amide
+group) is parallel or antiparallel to the fibril growth direction, ξ is
+~0° or approximately ±180°, respectively. In MD simulations
+without constraints (Supplementary Fig. 10b), side-chain amide
+groups of Q133, Q139, and Q141 maintained constant orientations throughout the 500 ns trajectory. These residues participated in stable polar zippers (Supplementary Fig. 9d). The Q126
+side-chain orientation was also nearly constant, but with ξ ≈100°,
+corresponding to stable intramolecular hydrogen bonds between
+Q126 side-chain amide and Q133 backbone carbonyl groups. The
+solvent-exposed side chain of Q124 exhibited rapid, nearly
+random
+orientational
+fluctuations.
+
+
+Other
+Gln
+side
+chains,
+including Q118, Q132, Q140, Q145, Q146, and Q147, exhibited
+transitions among preferred orientations, including orientations
+that allow polar zipper interactions (ξ ≈0°, ±180°) and orientations that allow hydrogen bonds to nearby polar side chains, to
+internal water molecules, or to backbone carbonyl groups (ξ ≈
+50°, ±100°). Similar behaviors were observed in MD simulations
+with backbone Cα restraints, indicating that the dynamics and
+interactions of Gln side chains do not depend on large-amplitude
+backbone motions or on large deviations of the backbone
+conformation from the initial cryo-EM-based molecular model.
+
+--- Discussion ---
+Comparison of FUS-LC-C and FUS-LC-N fibril structures.
+According to ssNMR data in Fig. 1 and Supplementary Fig. 1, the
+core structure in FUS-LC-N fibrils is the same as in full-length
+FUS-LC fibrils, which was shown previously to contain an inregister, parallel cross-β stacking of residues 39–95 in an
+approximate S-shaped conformation21,31. Results described above
+show that the core structure in FUS-LC-C fibrils is qualitatively
+different, consisting of two in-register, parallel cross-β stacks of
+residues 112–150 in U-shaped conformations, with quasi-21
+symmetry about the stacking direction (i.e., the fibril growth
+direction). Despite their structural differences, amino acid compositions of the two cores are similar (31.6% Ser, 21.1% Gly, 17.5%
+Gln, 14.0% Tyr, 10.5% Thr, 5.3% Asn/Asp/Pro in residues 39–95
+of FUS-LC; 33.3% Ser, 28% Gln, 15.4% Gly, 15.4% Tyr, 7.7% Asn/
+Pro in residues 112–150 of FUS-LC). Potentially significant differences include the higher Gln content and the lower contents of
+Gly and hydroxyl-bearing residues in the FUS-LC-C core.
+
+The FUS-LC-C core includes continuous β-strand segments
+with 10-residue and 11-residue lengths, with 59% of the coreforming sequence participating in β-sheets. In contrast, the two
+longest β-strand segments in the FUS-LC-N core are 5 and 7
+residues in length, and 40% of the core-forming sequence
+participates in β-sheets. The term Low-complexity AromaticRich Kinked Segments (LARKS) was introduced by Eisenberg and
+colleagues48 to describe cross-β motifs in full-length FUS-LC and
+other LC-domain fibrils, and to distinguish these motifs from the
+wider or flatter β-sheets observed in other amyloid fibrils50–54.
+The FUS-LC-C core structure is not obviously LARKS-like.
+Rather, the β-sheet formed by residues 113–122 is quite flat. The
+β-sheet formed by residues 139–149 has a crease at G144, but side
+chains of these residues appear tightly packed and interdigitated,
+as in standard steric zipper structures39.
+
+
+Factors that determine the structure of full-length FUS-LC
+fibrils. The experimental fact that full-length FUS-LC fibrils have
+the FUS-LC-N core rather than the FUS-LC-C core requires
+explanation. One possibility is that a core formed by residues
+39–95 is simply more stable than a core formed by residues
+112–150. Measurements of the optical absorbance of supernatants
+from pelleted fibril suspensions (see “Methods” in Supplementary
+Information), indicate equilibrium solubilities of 4.5 ± 1.3 μM for
+FUS-LC-C and 2.7 ± 1.7 μM for FUS-LC-N under our experimental conditions (mean ± SD, three independent experiments).
+Solubility ratios of 1.9 ± 0.6 imply a difference in the free energy of
+fibril
+formation
+ΔΔG  RTlnð1:9 ± 0:6Þ = 0.35 ± 0.19 kcal/mol.
+Thus, FUS-LC-N fibrils are apparently more stable than FUS-LC-C
+fibrils under our experimental conditions, suggesting that the
+39–95 core is indeed preferred thermodynamically. However,
+the difference is small. If the relative stability of the two cores were
+the only factor, one might expect two distinct FUS-LC fibril
+structures to coexist, as observed in the case of 40-residue amyloid-
+β (Aβ40) fibril polymorphs with similarly small differences in
+thermodynamic stability55.
+
+Kinetic factors may play a role. As described above, the FUSLC-C core contains a complex pattern of contacts between the
+two cross-β subunits of the quasi-21-symmetric structure, with
+each molecule in one subunit interacting with four molecules of
+the other subunit. Formation of this structure may then be
+inherently
+slower
+than
+formation
+of
+the
+
+
+FUS-LC-N
+core
+structure, which consists of a single cross-β unit.
+
+
+Another potentially important factor is the effect of fibril
+formation on protein segments outside the fibril core. As the
+
+
+FUS-LC-N and FUS-LC-C cores contain only 57 and 39 residues,
+respectively, more than 70% of the FUS-LC sequence remains
+disordered upon fibril formation. NMR spectra show that the
+disordered segments, or portions thereof, execute large-amplitude
+motions on sub-microsecond timescales, both in FUS-LC-C
+fibrils (Fig. 4) and in full-length FUS-LC fibrils21. However, the
+close proximity of the disordered segments of neighboring
+molecules
+within
+an
+in-register,
+parallel
+cross-β
+structure
+necessarily restricts the volume available to each disordered
+segment, leading to a substantial decrease in configurational
+entropy. A 100-residue disordered polypeptide in free solution
+adopts conformations characterized by a radius of gyration rg ≈
+30 Å56. If the available volume is limited to 15rg3 when the same
+polypeptide is attached to a cross-β fibril core, the number of
+accessible conformations may decrease by a factor of 10057,
+corresponding to a free energy contribution of RTln(100) ≈2.8
+kcal/mol.
+
+
+The qualitative structural differences between the FUS-LC-N
+and FUS-LC-C cores may lead to substantial differences in the
+available volumes for disordered segments in the context of fulllength FUS-LC. Specifically, the U-shaped conformation of
+residues 112–150 in the FUS-LC-C core would bring N-
+
+terminal and C-terminal disordered segments in close proximity,
+whereas the S-shaped conformation of residues 39–95 in the FUSLC-N core does not (Supplementary Fig. 12a). The greater entropy
+loss of disordered segments may therefore prevent formation of
+full-length FUS-LC fibrils with the FUS-LC-C core. In future
+experiments on other segments of FUS-LC, it may be possible to
+demonstrate the effects of disordered segments on the identities
+and structures of core-forming segments, using cryo-EM and
+ssNMR measurements. For example, in fibrils formed by residues
+2-X of FUS-LC, the core structure may switch from that of FUSLC-N to that of FUS-LC-C as X decreases from 214 to 150.
+
+One might also ask why full-length FUS-LC fibrils that contain
+both core structures do not exist. A structure containing a central
+21-symmetric FUS-LC-C core and two flanking FUS-LC-N cores
+may seem plausible when viewed in cross-section (Supplementary
+Fig. 12b). However, the FUS-LC-C core has an inherent lefthanded twist, rotating 360° in 88 ± 8 nm. The fact that variations
+in the twist period are small (Supplementary Fig. 2e) implies that
+untwisting the FUS-LC-N core would require work that greatly
+exceeds thermal energy. The centers of mass of FUS-LC-N cores
+in a putative triple-core structure must then follow spiral paths
+around the fibril growth direction (Supplementary Fig. 12c). With
+a twist period L ≈88 nm and a radius R ≈5.5 nm, the spiral path
+length
+would
+be
+
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+L2 þ 4π2R2
+p
+
+≈95 nm.
+
+
+Consequently,
+the
+average
+intermolecular
+spacing
+in
+the
+
+
+
+FUS-LC-N
+cross-β
+structure must increase by a factor of 95/88 = 1.08, to 5.1–5.2
+Å. The energetic cost of stretching hydrogen bonds or straining
+molecular conformations to accommodate the larger spacing may
+then preclude structures such as the one depicted in Fig. 5b.
+
+Similar principles may affect the structure of amyloid fibrils
+formed by other proteins, especially fibrils formed by proteins
+larger than 15 kDa and proteins with uniform amino acid
+compositions. Entropy loss associated with segments outside the
+fibril core may determine the identities and conformations of
+core-forming segments. The diameter of the fibril core, and hence
+the length of the core-forming segment, may be limited by the
+energetics of intermolecular hydrogen bonds and molecular
+conformations at the perimeter of the core.
+
+
+It should also be noted that FUS-LC-N contains 18 Gly and 7
+
+
+
+Pro residues, whereas FUS-LC-C contains 36 Gly and 4 Pro
+residues. The larger population of Gly residues in FUS-LC-C may
+contribute to the identity of the core-forming segment in FUS-LC
+fibrils. The fact that Gly residues are concentrated after residue
+165 contributes to the selection of residues 112–150 for the core
+of FUS-LC-C fibrils.
+
+Interactions within the FUS-LC-C fibril core. MD simulations
+described above reveal several characteristics of the FUS-LC-C
+fibril core that are likely to be shared with other amyloid structures. In addition to water that fills the large internal pores
+around Y122 side chains, isolated water molecules occupy smaller
+cavities, especially around the side chains of Q132 and Y143.
+Residence times of water in large and small cavities are similar
+and roughly ten times longer than outside the core (Supplementary Fig. 8).
+
+Hydrogen-bonding interactions within the core are surprisingly diverse. Polar zipper interactions within rows of Gln side
+chains vary in their occupancy and stability, being highly
+occupied and directionally stable for Q139, Q133, and Q141,
+but more variable for other Gln residues (Supplementary Figs. 9–
+11). Variations in dynamics and ordering of Gln side chains may
+explain the variability of Gln side-chain signals in ssNMR studies
+of amyloid fibrils, including full-length FUS-LC fibrils21,30.
+Similar considerations apply to Tyr side chains, which exhibit a
+range of ring flip rates (Supplementary Figs. 10 and 11).
+
+
+In addition to polar zippers, Gln side chains can engage in
+hydrogen bonds to nearby backbone sites or polar side chains.
+For example, the Q126–Q133 interaction (Fig. 5, iii) apparently
+stabilizes the β-turn between these residues, together with
+hydrogen bonds between S131 hydroxyls and S129 carbonyls.
+Other highly occupied sidechain–backbone hydrogen bonds
+include Y149–Y130 and Q141–G137 interactions that contribute
+to the interface between cross-β subunits (Supplementary Fig. 9).
+
+Direct sidechain–sidechain hydrogen bonds between different
+residues are less prevalent than sidechain–backbone hydrogen
+bonds. The most prominent example is the S116–S142 interaction, which apparently helps stabilize the interface between β-
+strand segments of a single subunit. Related examples of
+sidechain–backbone and sidechain–sidechain hydrogen bonds
+occur
+in
+cross-β
+crystal
+structures
+of
+amyloid-forming
+peptides39,58,
+including
+peptides
+from
+FUS-LC49,59.
+Intersubunit Ser-Ser sidechain–sidechain hydrogen bonds may exist
+in
+21-symmetric
+
+
+TDP43
+fibrils60.
+ssNMR
+data
+indicate
+sidechain–backbone and sidechain–sidechain hydrogen bonds
+involving Ser and Thr residues in the core of full-length FUS-LC
+fibrils30.
+
+
+Hydrophobic interactions
+and salt bridges can also be
+important stabilizing interactions for pathogenic amyloid fibrils,
+as indicated by structural studies of amyloid-β50,54,61,62 and α-
+synuclein51,63 fibrils, as well as for functional amyloids64–66. The
+absence of charged amino acid side chains and the absence of
+purely hydrophobic residues other than Pro within the FUS-LC-C
+fibril core implies that hydrophobic interactions and salt bridges
+do not account for the formation of FUS-LC-C fibrils.
+
+Recurring structural motifs in amyloid fibrils. U-shaped
+molecular conformations and two-fold symmetry about the
+growth direction were reported previously in early ssNMR-based
+structural models for synthetic Aβ40 fibrils67, as well as in a
+recent cryo-EM structure of fibrils formed by residues 84–178 of
+human PrP68. Structural similarity to the FUS-LC-C fibril core
+reported above is especially remarkable in light of the qualitatively different amino acid compositions of Aβ40 and PrP (both
+of which contain multiple Ala, Phe, Val, Leu, Ile, and Met residues in their core-forming segments). As pointed out pre-
+viously21, the S-shaped molecular conformation in the FUS-LC-N
+core closely resembles the conformation in α-synuclein fibril
+cores51. A threefold symmetric core structure has been reported
+for Gln-rich Orb2 fibrils52, similar to threefold-symmetric Aβ40
+fibrils structures from ssNMR61,69. Apparently, recurring structural motifs in amyloid cores can be stabilized either by hydrophobic interactions or by a variety of side-chain hydrogenbonding interactions, contributing to the nearly generic propensity of polypeptide chains to self-assemble into amyloid
+fibrils70.

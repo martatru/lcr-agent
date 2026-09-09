@@ -1,0 +1,2222 @@
+--- Results ---
+The IRF2BPL central region contains three LCRs and a highercomplexity domain with distinct compositional features and
+evolutionary dynamics
+To better define the possible structural and functional roles of the
+IRF2BPL central region, we first undertook a comprehensive analysis of
+its compositional features and predicted structure (Fig. 1a-d; Supplementary Figs. 1 and 2; Supplementary Data 1-3).
+
+From the structural point of view, the AlphaFold IRF2BPL atomiclevel structural model (Fig. 1b; Supplementary Data 1) indicates that
+the LCR1 polyA and polyQ repeats may form α-helical structures with
+CC propensity (CC1), consistent with a Paircoil2 prediction (Fig. 1a,
+Supplementary Fig. 1b) and previous experimental studies12,13, whereas
+LCR2 and LCR3 are mostly disordered, except for two short α-helices in
+LCR3, consistent with their enrichment in structure-breaking P/G
+residues12. The fourth region is predicted to be a structured highercomplexity domain (HCD) of unknown function, with a CC-prone α-
+helix (CC2) followed by a complex α/β-sandwich (Fig. 1a, b; Supplementary Fig. 1b). Other α-helical and β-strand structural elements in
+IRF2BPL are predicted within the ZnF and RING domains, LCR1 (polyA/
+polyQ CCs), and LCR3 (Fig. 1a, “α/β” blocks).
+
+Overall, these findings indicate that the central region is formed
+by four heterogeneous subregions that may differentially contribute
+to IRF2BPL function and disease-related dysfunction.
+
+
+The central portion of IRF2BPL has been generally viewed as a
+variable region, as opposed to the conserved ZnF and RING domains.
+Based on these findings, we systematically analyzed IRF2BPL evolution
+across >450 vertebrate species (Supplementary Fig. 3a; Supplementary Data 4) to test whether its four central subregions, in addition to
+having distinct compositional and structural features, also display
+differential evolutionary dynamics (Fig. 1a, d; Supplementary Fig. 3b-
+e). We found that, while the LCRs are quite variable, the HCD is highly
+conserved, like the ZnF and RING domains. Indeed, the mean entropy
+at each position of a primary sequence alignment of the IRF2BPL
+orthologs, a measure of evolutionary variation rate, is significantly
+higher within the three LCRs and lower within the other domains
+(ZnF, HCD, RING; Fig. 1a (Ent) and Fig. 1d). A one-way ANOVA
+(F(5,1115) = 64.031, p < 0.001) indicated significant differences in the
+mean entropy (measured across all residues of each domain) between
+each one of the LCRs and the other three domains (p < 0.001, NewmanKeuls (NK) post hoc test in all pairwise comparisons).
+
+
+Furthermore, we found that the overall amino acid composition
+varied differentially across LCR and non-LCR domains, as shown by the
+mean coefficient of variation (CV) of amino acid occurrence across
+
+nine major clades of different stem age along the vertebrate lineage
+(Supplementary Fig. 3a, b; Supplementary Data 2). Indeed, the mean
+CV for the 20 amino acids was higher for the LCRs in comparison with
+the other domains (Supplementary Fig. 3b). The LCR compositional
+dynamics across clades are primarily related to marked changes in the
+occurrence of a few amino acids, such as A, G, P, Q, and S (Supplementary Data 2). Some of these changes significantly correlate with
+clade stem ages, with a gradual increase or decrease in amino acid
+
+occurrence going from older (Chondrichthyes) to younger clades
+(Euarchontoglires; Supplementary Fig. 3c). Remarkably, these graded
+changes were mainly related to the length variation of amino acid
+repeats (AARs) that are found not only within LCR1 (long polyA and
+polyQ tracts) but also within LCR2/3, which bear multiple short polyP
+and polyG stretches (Supplementary Fig. 3d, e; Supplementary Data 3).
+These observations of regular clade stem age-related trends in LCR/
+AAR parameters, instead of random clade-specific oscillations, suggest
+
+the possibility that selective pressure may have favored gradual compositional change in IRF2BPL along the vertebrate lineage for functional reasons30,31. These trends may be related to the emergence of
+longer polyA/polyQ CCs in LCR1, which promote protein oligo-/polymerization, and of downstream P/G-rich LCRs with opposite effects12,13
+
+(see below and “Discussion”).
+
+Truncating and non-truncating disease-related mutations differentially affect LCRs and other IRF2BPL domains
+Given the considerable differences in their composition and evolutionary dynamics, we investigated whether the LCR and non-LCR
+portions of IRF2BPL also differ in their predicted sensitivity to
+mutation and observed frequency of disease-related mutation
+types, i.e., truncating (TR, i.e., nonsense and frameshift) vs nontruncating (nTR; i.e., missense and in-frame indels; Supplementary Data 5).
+
+First, we assessed the potential impact of nTR missense mutations along IRF2BPL using MetaDome32,33 and AlphaMissense34, which
+respectively predict functional tolerance to mutation and pathogenicity of amino acid substitutions (Fig. 1a; Supplementary Fig. 4a,
+b). MetaDome identified most IRF2BPL residues as relatively mutation-intolerant, with low tolerance predicted for the ZnF and RING
+domains, as expected, but also for large portions of the HCD and
+LCRs (Fig. 1a). Consistent with these observations, AlphaMissense
+(Fig. 1a, ‘αM’; Supplementary Fig. 4a) predicted high pathogenicity
+for mutations in the ZnF, HCD, and RING domains, as well as in
+multiple LCR regions.
+
+Second, we evaluated the impact of known disease-associated TR
+and nTR mutations using MutPred235 (Supplementary Data 6). This
+analysis predicted that TR mutations disrupt post-translational modification sites (e.g., SUMOylation, amidation), whereas nTR mutations
+are more likely to alter local structure (e.g., “gain of helix” and “altered
+coiled coil” for P372R in the HCD) or impair functional sites (e.g.,
+“altered metal binding” for F30L in the ZnF).
+
+
+Third, as NEDAMSS and IRF2BPL-related disorders can be caused
+by both TR and nTR mutations, as also found for other neurodevelopmental disorders36, we analyzed their respective distribution along
+the gene regions encoding LCR and non-LCR domains of IRF2BPL.
+Remarkably, TR and nTR mutations affect these regions in a significantly different manner (Fig. 1e). Indeed, 75% of the truncating
+mutations target the LCRs whereas 77.4% of the missense mutations
+impact the non-LCR domains (p < 0.01, Fisher’s exact test). Notably,
+50% of disease-related truncating mutation sites fall within LCR1, which
+represents only 12% of the protein length (Fig. 1a). Similarly, 48% of the
+missense mutations target the HCD, which accounts for 23% of the
+protein length. These findings are consistent with the notion that
+structured domains may be sensitive even to single amino acid substitutions caused by missense mutations, while LCRs may be more
+tolerant in this respect37,38. However, evidence exists that missense
+
+Color scale from blue (benign) to red (pathogenic). b AF IRF2BPL model (domain
+colors as a). c Pie charts highlighting the biased composition of LCRs (Q + A: black,
+P + Q + S: dark gray, other amino acids: light gray). d Mean per-position entropy for
+each domain in an alignment of 456 IRF2BPL orthologs. Box plots report mean
+(cross), median (line), 25-75 percentile (limits), and 10-90 percentile (whiskers).
+One-way ANOVA: F(5,1115) = 64.031, p < 0.0001, n = 88 (ZnF), 133 (LCR1), 231 (LCR2),
+204 (HCD), 357 (LCR3), and 108 (RING) alignment positions. Asterisks indicate
+significant differences vs. non-LCR domains (p < 0.05, NK test). e Significantly different distribution of truncating (n = 31) and non-truncating (n = 8) mutations
+across LCRs (red) and non-LCR domains (gray). (p = 0.0098, Fisher’s exact (FE)
+test). f Confocal and STED images of NPC-derived human neurons after immunocitochemistry (ICC) with α-IRF2BPL and α-MAP2 antibodies (65 DIV). Left and
+middle panels: IRF2BPL (green) and MAP2 (red) signals. Scale bars: 2.5 and 5 μm,
+respectively. A nucleus (yellow box) is magnified in the STED image on the right
+(scale bar: 0.5 μm). a, c–e Source data are provided as a Source Data file.
+
+mutations, such as G195V in IRF2BPL, can also be pathogenic within
+LCRs39.
+
+
+It is also noteworthy that LCR1 is predicted to contain codon
+repeat-stimulated frameshifting sites (Supplementary Fig. 4c) and that
+several stop codons introduced by LCR1- and LCR2-targeting nonsense
+mutations may be prone to translational readthrough promoted by
+small molecules (Supplementary Fig. 4d, e).
+
+Together with the previous findings, these observations indicate
+that the IRF2BPL central region is formed by four subregions with
+distinct compositional, evolutionary, and mutational features, whose
+physiopathological roles are yet to be defined. Furthermore, they
+identify LCR1 and the HCD as mutational hotspots for disease-related
+TR and nTR mutations, respectively.
+
+
+IRF2BPL undergoes condensation in neural progenitor cell
+(NPC)-derived human neurons and in other neuronal and nonneuronal cells
+In search of possible functional roles of the IRF2BPL central region,
+we considered that LCRs and CC domains are known to promote
+LLPS16. Interestingly, ZnF domains can also mediate LLPS25. Based on
+these premises, we hypothesized that the LCRs and CCs of the central
+region,
+and/or
+the
+flanking
+
+
+ZnF
+domain,
+may
+mediate
+IRF2BPL LLPS.
+
+Consistent with this hypothesis, the FuzDrop algorithm40 identified four major segments predicted to undergo LLPS, which overlap
+the three LCRs, including CC1. Smaller regions with LLPS propensity
+were predicted at the N-terminal and C-terminal ends of the ZnF
+domain and within the HCD (Fig. 1a).
+
+
+These findings strongly suggest that IRF2BPL undergoes LLPS,
+possibly driven by the LCRs and potentially by flanking domains such
+as the ZnF and HCD.
+
+To experimentally test this hypothesis, we first explored whether
+the protein may form the typical LLPS-driven condensates in the cellular context (Fig. 1f, Fig. 2). We observed that both endogenous and
+exogenous IRF2BPL form discrete, rounded condensates in neuronal
+and non-neuronal cells, a hallmark of LLPS16,20, that were detected by
+confocal microscopy and further characterized using super-resolution
+imaging.
+
+Figures 1f and 2a show the subcellular distribution of endogenous
+IRF2BPL in human neural progenitor cell (NPC)-derived neurons, as
+detected
+after
+immunocytochemistry
+(ICC)
+using
+
+
+STED
+superresolution imaging and conventional confocal microscopy. The protein forms numerous nuclear and extranuclear condensate-like rounded foci of variable size which were also present in the axon and
+neurites.
+
+
+The same condensation pattern was observed in differentiated
+neuronal cell lines (NG108-15)41–43. Figure 2b and Supplementary Fig. 5a
+show Airyscan super-resolution images of the cell-wide distribution of
+either endogenous (detected using immunocytochemistry, ICC) or
+
+exogenous GFP-tagged IRF2BPL condensates in differentiated neuronal cells. Condensates were detected in the nucleus as well as in axons,
+neurites, and growth cones.
+
+Non-neuronal human cells (HEK293; Fig. 2c; Supplementary
+Fig. 5b) also displayed a similar nuclear and extranuclear pattern of
+condensation. The IRF2BPL-GFP condensates in these cells can
+coalesce with each other into large assemblies in a time-dependent
+
+manner, as is typical of LLPS-driven protein complexes44, especially
+in the cytoplasm where they have a higher degree of mobility and
+can coalesce rapidly once in contact (Fig. 2c, d; Supplementary
+Fig. 5b, c; Supplementary Movie 1).
+
+Taken together, these findings show that IRF2BPL forms intracellular assemblies with morphological features and coalescence
+behavior typical of LLPS-driven condensates.
+
+
+IRF2BPL condensation relies on LLPS
+
+
+
+The morphology of IRF2BPL condensates and their coalescence
+behavior strongly suggest that LLPS mediates their assembly. To corroborate this conclusion, we used established criteria22 to assess their
+LLPS-based nature in cells through ultrastructural, fluorescence
+dynamics, and biochemical approaches.
+
+First, through correlative light and electron microscopy (CLEM),
+we found that, at the ultrastructural level, the condensates formed by
+GFP-tagged IRF2BPL in cells are anisotropic membraneless assemblies,
+as is typical of LLPS-driven condensates (Fig. 2e).
+
+Second, we found that IRF2BPL condensates are largely disrupted
+after a 15’ incubation of cells with 1,6-Hexanediol (1,6-Hex), a compound known to destabilize the weak molecular interactions underlying LLPS, but not with the control compound 2,5-Hexanediol
+(2,5-Hex), which is known not to disrupt LLPS-driven condensates45
+
+(Fig. 2f-j; Supplementary Fig. 5d-f). A one-way ANOVA indicated overall
+significant differences among the groups (F(2,36) = 10.54, p < 0.001),
+with a significant reduction of condensation for the 1,6-Hex treatment
+(condensate area: 0.20 ± 0.05, n = 13 microscopy fields, for the 1,6-Hex
+group vs. 1.00 ± 0.11, n = 13, for the control group, values normalized to
+the control group mean, p < 0.01, NK post hoc test), but not for the 2,5-
+Hex group (1.15 ± 0.24, n = 13, p = 0.51 NK test vs. the control group), in
+comparison with the control group (Fig. 2f, g).
+
+The dissolution of condensates (Fig. 2h, i; Supplementary Fig. 5e)
+was already substantial (F(2,20) = 8.67, p < 0.01, one way-ANOVA) even
+after 5’ of 1,6-Hex application (condensate area: 0.32 ± 0.05, n = 9, vs.
+1 ± 0.21, n = 9, in the control group, p < 0.01, NK post hoc test), and was
+maintained at 15’ (0.13 ± 0.02, n = 6, p < 0.01, NK post hoc test vs.
+control).
+
+
+The protein from the dissolved condensates diffused to the
+cytoplasm (Fig. 2h, j), with significant differences (F(2,20) = 63.92,
+p < 0.001, one way-ANOVA) already at 5’ (Log N/C fluorescence intensity ratio: −0.10 ± 0.01, n = 9, vs. 0.29 ± 0.03, n = 9, in the control group,
+p < 0.001,
+
+
+NK
+post
+hoc
+test),
+which
+were
+maintained
+at
+15’
+(−0.08 ± 0.01, n = 5, p < 0.001, NK post hoc test vs. control).
+
+
+Similar phenomena were observed for the exogenous GFP-tagged
+IRF2BPL protein, which was also able to recondense spontaneously
+after 1,6-Hex washout (Supplementary Fig. 5f). Indeed, while the
+total condensate area was significantly reduced after 15’ of exposure to
+1,6-Hex (one-way ANOVA: F(2, 51) = 159.82, p < 0.001; condensate area
+0.39 ± 0.02, n = 18, vs. 1.00 ± 0.03, n = 18, in the control group,
+p < 0.001 NK post hoc test), condensates reformed within 1 h after 1,6-
+Hex washout, covering a similar area as found under control conditions, even with a modest rebound effect (1.14 ± 0.08, n = 18, p < 0.001,
+NK post hoc test vs. control). Such rapid reversibility of protein condensation and decondensation is another hallmark feature of LLPSdriven processes.
+
+treated with 1,6-Hex or 2,5-Hex, or untreated (control) and immunostained (ICC) to
+reveal IRF2BPL (green; blue: DAPI; scale bar: 10 μm). g. Effect of 1,6-Hex and 2,5-Hex
+on condensation. Values normalized to the control group. One-way ANOVA:
+F(2,36) = 10.549, p = 0.00025, n = 13 microscopy fields for all groups. Asterisks indicate significant differences (p < 0.05, NK test; also in i,j; n.s.: non-significant). Box
+plots (also in i,j) report mean (cross), median (line), interquartile (limits), and 10–90
+percentile (whiskers). h Upper row: as in f, for cells fixed after 5’ or 15’ of 1,6-Hex
+treatment (blue: DAPI; scale bar: 40 μm). Lower row: magnified details (IRF2BPL
+only; scale bar: 10 μm). i Effect of 1,6-Hex on condensation, as in (h). Data presented
+as in (g). One-way ANOVA: F(2,20) = 8.6752, p = 0.0019, n = 9 (control), 9 (5’), and 5
+(15’). j IRF2BPL translocation, as in (h), as log ratio between nuclear (N) and cytoplasmic (C) signals. One-way ANOVA: F(2,20) = 63.925, p < 0.00001, n = 9 (control), 9
+(5’), and 5 (15’) microscopy fields. k IRF2BPL-GFP FRAP. Upper panel: time-lapse
+images of photobleached (p) and control (c) condensates. Lower panel: FRAP time
+course (t1/2 = 50 s; Mf = 83%). g–k Source data are provided as a Source Data file.
+
+Third, we found that IRF2BPL condensates undergo rapid fluorescence recovery after photobleaching (FRAP) (Fig. 2k; Supplementary
+Fig. 5g, h), indicative of a highly dynamic exchange of the protein
+between condensates and the surrounding cellular environment,
+which is characteristic of phase-separated protein assemblies.
+
+
+Together with their morphological features and coalescence
+propensity, these ultrastructural, biochemical, and dynamic properties
+of the IRF2BPL condensates indicate that they are held together
+by LLPS.
+
+The N-terminal region (NTR) encompassing the ZnF and LCR1
+drives IRF2BPL LLPS
+Based on the previous findings, we sought to determine whether a
+specific region of IRF2BPL is mainly responsible for its LLPS. As the
+three LCRs were the most prominent candidates based on the FuzDrop
+prediction (Fig. 1a, “LLPS propensity”, pDP score), we used a molecular
+dissection approach to determine which one of them may be required
+for condensation (Fig. 3).
+
+We initially tested whether LLPS may rely on the polyA/polyQbearing LCR1 rather than on the other two P/G/S-rich LCRs. Thus, we
+expressed in cells either the N-terminal region (NTR; a.a. 1–173) of the
+protein, containing LCR1 with the upstream ZnF, or the remaining part
+of it (ΔNTR), containing LCR2/LCR3 with the HCD and RING domains,
+as GFP fusions (Fig. 3a). We found that the NTR alone largely recapitulated the condensation behavior of wild-type (WT) IRF2BPL, albeit
+with some differences (see below). The NTR fragment underwent
+significant
+condensation
+compared
+with
+the
+
+
+GFP
+control
+(F(3,
+99) = 45.681, p < 0.001, one-way ANOVA; 0.67 ± 0.05, n = 38
+microscopy fields vs. 0.01 ± 0.08, n = 17, values normalized to WT
+IRF2BPL; p < 0.001, NK post hoc test), although the total area occupied
+by condensates was reduced relative to full-length WT IRF2BPL
+(1.00 ± 0.06, n = 29; p < 0.01, NK post hoc test). In contrast, the ΔNTR
+fragment did not form condensates (0.01 ± 0.08, n = 19; p = 0.98, NK
+post hoc test vs. GFP control), displaying a diffuse GFP-like distribution
+confined to the nucleus, consistent with the presence of the NLS in it.
+These results indicate that the N-terminal region of IRF2BPL, which
+contains LCR1 but not LCR2 or LCR3, serves as the primary physiological driver of LLPS.
+
+
+The ZnF and LCR1 together shape the LLPS behavior of the
+
+
+
+IRF2BPL NTR
+Besides LCR1 (a.a. 76-173), the NTR contains the ZnF with short flanking
+peptides (ZnF domain, a.a. 1–75) which also displayed LLPS propensity
+in the FuzDrop analyses (Fig. 1a). Thus, we proceeded further with the
+molecular dissection approach to determine the relative contribution
+to LLPS of the two constituent parts of the NTR, which were alternatively expressed in cells as GFP fusions (Fig. 3b).
+
+While the ZnF fragment formed condensates in cells, although in
+a limited number, the LCR1 exhibited a completely diffuse distribution. Indeed, cultures expressing the ZnF alone displayed significantly more condensates than the negative control cultures (GFP;
+F(3,
+37) = 856.24,
+p < 0.001,
+one-way
+ANOVA;
+condensate
+area:
+0.11 ± 0.01, n = 13 microscopy fields, vs. 0.005 ± 0.002, n = 5, respectively, values normalized to the NTR group mean, p < 0.001, NK post
+
+hoc test), while this was not the case for cultures expressing LCR1
+alone (0.02 ± 0.01, n = 13, p = 0.66, NK post hoc test). The condensation ability of the ZnF alone, however, was considerably
+reduced in comparison with that of the whole NTR (1.00 ± 0.06,
+n = 10, p < 0.001, NK post hoc test). This indicates that the ZnF and
+LCR1 act synergistically to drive NTR-mediated LLPS, with the ZnF
+possessing an intrinsic ability to undergo phase separation and
+
+playing a triggering role in the LLPS of the NTR region and of the
+whole IRF2BPL protein.
+
+--- These conclusions were confirmed when we expressed in cells ---
+IRF2BPL mutants lacking either the ZnF or LCR1 (Fig. 3c). The ZnF
+deletion (ΔZnF) was sufficient to essentially abolish IRF2BPL condensation, consistent with a key role of this domain in driving LLPS
+(one-way
+ANOVA:
+F(2,34) = 126.41,
+p < 0.00001;
+condensate
+area:
+0.06 ± 0.02, n = 14 microscopy fields, vs. 1.00 ± 0.02, n = 10, values
+normalized to the WT IRF2BPL group, p < 0.001, NK post hoc test).
+
+Conversely, the internal LCR1 deletion (ΔLCR1) only reduced, in
+comparison with WT IRF2BPL (0.81 ± 0.02, n = 13, p < 0.01, NK post hoc
+test), but did not abolish condensation (p < 0.001 vs. ΔZnF, NK post
+hoc test), thus suggesting that other portions of the protein may
+functionally replace LCR1 in promoting LLPS together with the ZnF.
+
+Taken together, thesefindings indicate thatthe ZnF is essential for
+the LLPS of IRF2BPL and its NTR. However, since the ZnF alone exhibits
+limited condensation capacity, the presence of LCR1 appears necessary
+to enable substantial condensation of the NTR.
+
+
+The IRF2BPL NTR can rapidly undergo photo-triggered LLPS
+using the optoDroplet system
+Another hallmark of LLPS-prone peptides is their ability to undergo
+phase separation with relatively rapid kinetics. To assess whether the
+LLPS-driving region of IRF2BPL exhibits this dynamic behavior, we
+employed the optoDroplet system46, which enables rapid, temporally
+controlled, and reversible induction of condensation of LLPS-prone
+peptides over tens of seconds (Fig. 3d, f).
+
+To perform these experiments, the NTR was expressed as a fusion
+protein with mCherry (mCh) and an A. thaliana cryptochrome 2 protein (Cry2) fragment (Fig. 3d). The NTR-mCh-Cry2 fusion protein displayed, as expected, some spontaneous condensation after 24 h of
+expression. Moreover, photoactivation (488 nm) rapidly triggered
+massive condensation (Fig. 3e, f; F(3,77) = 20.804, p < 0.001, two-way
+
+
+ANOVA,
+construct × treatment
+interaction;
+condensation
+area:
+2.28 ± 0.44%, n = 12, vs. 6.22 ± 0.47%, n = 12, for non-photoactivated
+and photoactivated cultures, respectively, p < 0.001 NK post hoc test).
+Neither spontaneous nor photoactivated condensation was observed,
+as expected, for the control construct mCh-Cry2. Thus, both spontaneous and triggered condensation of the NTR were significantly
+increased in comparison with the mCh-Cry2 control (spontaneous
+condensation area: 2.28 ± 0.44 %, n = 12 microscopy fields, for the NTR
+vs. 0.08 ± 0.04 %, n = 7, for the control; triggered condensation
+6.22 ± 0.47 %, n = 12, for the NTR, and 0.08 ± 0.07 %, n = 6, for the
+control; p < 0.001, NK post hoc test for both comparisons).
+
+We used the same approach to further characterize the relative
+ability of the ZnF and the LCR1 to undergo LLPS (Fig. 3e, f). Similar to
+what was observed in the previous experiments, the ZnF displayed
+some spontaneous condensation (condensate area: 1.09 ± 0.09 %,
+n = 12, vs, 0.08 ± 0.04 %, n = 7, for the control; p < 0.05, NK post hoc
+test), which was moderately enhanced by photoactivation (∼25% of
+
+F(2,34) = 126.41, p < 0.00001, n = 10 (WT), 14 (ΔZnF), 13 (ΔLCR1). d OptoDroplet
+system46: illumination (488 nm) triggers the condensation of an LLPS-prone peptide of interest (POI) in fusion with mCherry (mCh) and a cryptochrome fragment
+(Cry2). Graph (e) reporting the proportion (%; mean ± SEM) of mCh-positive cell
+area occupied by condensates in cultures expressing the indicated constructs that
+were either photoactivated (488 nm) or not (f; scale bar: 10 μm). Two-way ANOVA:
+F(3,77) = 20.804, p < 0.00001, n = 12 microscopy fields for all groups except for
+control groups (n = 7 and 6). g DIC and fluorescence imaging of FITC-labeled ZnF
+peptide droplets formed in vitro in saline buffer. Top left image: low-magnification
+image. Arrowhead: condensate. Scale bar: 20 μm. The square boxed in yellow is
+magnified in the second panel. Scale bar: 4 μm. The corresponding DIC and overlay
+images are shown in the third and fourth panels. Bottom row: higher magnification
+images of condensates. Scale bar: 2.5 μm. a–c, e Source data are provided as a
+Source Data file.
+
+that of the NTR construct). Conversely, LCR1 did not display any significant
+spontaneous
+condensation
+(0.07 ± 0.03
+%,
+n = 12,
+vs,
+0.08 ± 0.04 %, n = 7, for the control; p = 0.99, NK post hoc test) nor a
+significant increase in condensation induced by photoactivation
+(p = 0.73, NK post hoc test).
+
+These findings show that the NTR can rapidly undergo triggered
+LLPS and further confirm that both the ZnF and LCR1 are required to
+determine its overall condensation behavior.
+
+
+The ZnF domain of IRF2BPL also undergoes LLPS in vitro
+To further characterize the ability of IRF2BPL and its ZnF domain to
+undergo LLPS, as found in the cellular context, we sought to study
+their intrinsic phase separation behavior also in a purified form in vitro,
+independently of other cellular cofactors. We produced WT IRF2BPL in
+E. coli but the protein was not soluble, consistent with the known
+in vitro aggregation propensity of LLPS-prone proteins bearing long
+polyQ and polyA tracts47–49 (see Methods and Supplementary Fig. 6).
+
+Thus, we chemically synthesized the ZnF domain (a.a. 1-75), the
+key LLPS-promoting region of the protein, conjugated to the fluorophore FITC for visualization during in vitro LLPS assays50. This peptide, which has a relatively low condensation propensity in cells, was
+also considerably more soluble than the WT protein and allowed us to
+perform in vitro analyses of condensation. We found that the
+fluorescently-labeled peptide can form condensates also in vitro, even
+in a physiological phosphate saline buffer (pH 7.4) devoid of crowding
+agents (such as PEG-8000), as shown by simultaneous differential
+interference contrast (DIC) and fluorescence imaging (Fig. 3g).
+
+These findings indicate that the ZnF, i.e., the key LLPS-promoting
+region of IRF2BPL, can autonomously undergo condensation in vitro,
+at physiological pH and ionic strength, mimicking its behavior in the
+cellular context.
+
+Disease-related truncated IRF2BPL mutants form aberrant condensates with altered size, shape, and subcellular localization
+Most of the known disease-related IRF2BPL mutations lead to the
+production of truncated forms of the protein1,8. A plot of the local
+frequency of the truncation sites along IRF2BPL (Fig. 4a) indicates that
+they are mostly clustered within or near LCR1 and its junction with
+LCR2 (cluster 1; a.a. 116-221). These mutations lead to the production of
+N-terminal IRF2BPL protein fragments bearing the ZnF and variable
+portions of LCR1 overlapping, entirely or partially, the LLPS-driving
+region that we identified (i.e., a.a. 1-173). Interestingly, pathogenic
+truncating mutations also target sites clustered at the junction of LCR2
+with the HCD (cluster 2) and of LCR3 with the RING domain (cluster 3).
+
+Thus, we tested whether the different disease-related truncating
+mutations may alter the IRF2BPL LLPS behavior. Towards this aim, we
+generated constructs for the cellular expression of representative
+mutant forms of the protein (Fig. 4a, upper panel). Given the quantitative prominence of cluster 1 truncations, we included in this analysis
+three of them, i.e., Y173X8, which bears an intact LCR1 with its entire
+
+polyA and polyQ repeats, Q123X26, with a partial polyQ truncation, and
+Q116X (reported in the ClinVar database (variation ID: 1801711) as likely
+pathogenic) with an even shorter polyQ tract. We also generated two
+mutants reproducing cluster 2 truncations between LCR2 and HCD
+(R331X) and cluster 3 truncations between LCR3 and the RING
+domain (A708X).
+
+
+When we expressed GFP-tagged cluster 1 mutant fragments for
+24 h in cells (Fig. 4b-d; Supplementary Fig. 7a, b), we found that all of
+them still formed condensates. However, these condensates displayed
+length-dependent alterations in their subcellular localization, morphology, ultrastructure, and biochemical properties, which were more
+pronounced with the progressive shortening of LCR1.
+
+
+As observed previously, WT IRF2BPL forms both nuclear and
+cytoplasmic condensates (Fig. 4b). The former are numerous and
+small, whereas the latter have more variable dimensions and tend to
+coalesce into larger ones with time. To characterize quantitatively
+the condensation patterns of WT and mutant IRF2BPL, we measured
+five parameters, all of which varied significantly between WT and
+mutant IRF2BPL, i.e. the total cell area occupied by condensates
+(Fig. 4c, first panel from the left; F(3, 58) = 15.892, p < 0.001, one-way
+ANOVA), the number of condensates per cell unit area (Fig. 4c,
+second panel; F(3,
+58) = 19.674, p < 0.001, one-way ANOVA), the
+mean
+size
+of
+individual
+condensates
+(Fig.
+4c,
+third
+panel;
+F(3,
+45523) = 266.29, p < 0.001, one-way ANOVA), as well as the
+proportion of condensates in the nucleus (Fig. 4c, fourth panel;
+F(3, 20) = 367.84, p < 0.001, one-way ANOVA) and the proportion of
+condensate
+area
+in
+the
+nucleus
+(Supplementary
+Fig.
+7b;
+F(3, 20) = 957.35, p < 0.001, one-way ANOVA).
+
+The Y173X mutant displayed a pattern of condensation relatively
+closer to that of WT IRF2BPL, although with a strong reduction in the
+number of small nuclear condensates and an increase in that of larger
+cytoplasmic ones. The shorter truncation mutants (Q123X, Q116X)
+prevalently formed a few, mostly cytoplasmic large condensates,
+which were seldom found in the nucleus (Fig. 4b, c; Supplementary
+Fig. 7b). Smaller intranuclear condensates formed by these mutants
+were only transiently observed in the very first phases of their
+expression. The progressive coalescence of these mutant condensates
+in the cytoplasm led to a further reduction in condensate number and
+an increase in condensate size after 24 h of expression (see below and
+Supplementary Movies 3, 4).
+
+
+The progressive shortening of LCR1 in the mutants, from Y173X
+to Q116X, resulted in the gradual loss of the small nuclear condensates, which were replaced by fewer and larger cytoplasmic
+ones. Quantitatively, this corresponded to a decrease in both the
+total area occupied by condensates and their number, with an
+increase in their average size compared with WT IRF2BPL (p < 0.01 in
+all instances, NK post hoc test; Fig. 4c). Notably, the longer mutant
+(Y173X) differed from the two shorter ones in all these respects
+(p < 0.05 in all instances, NK post hoc test), indicating a lengthdependency for the condensation phenotypes of cluster 1 mutants.
+Moreover, with the shortening of the expressed N-terminal fragment, we also noticed that condensates, which are typically rounded
+for WT IRF2BPL, became progressively more eccentric and elongated (Fig. 4b, d). This latter shape distortion may be related to the
+apparent reduction in the average size of the condensates formed
+by Q116X in comparison with those of Q123X. The condensates of
+both mutants were anyway larger than those of the longer
+mutant Y173X.
+
+The mutant forms of IRF2BPL also displayed an altered subcellular distribution in comparison with the WT protein. Indeed, all
+three mutants showed a dramatic reduction in the proportion of
+
+(Q123X),16 (Q116X) microscopy fields), the number of condensates per GFPpositive cell unit area (second graph; one-way ANOVA: F(3,58) = 19.674, p < 0.00001,
+n = 16 (WT), 15, (Y173X), 15 (Q123X), 16 (Q116X) microscopy fields), the average
+condensate size (third graph; one-way ANOVA: F(3,45523) = 266.29, p < 0.00001,
+n = 16362 (WT), 13087, (Y173X), 8599 (Q123X), 7479 (Q116X) condensates), and the
+proportion (%) of nuclear condensates (fourth graph; one-way ANOVA:
+F(3,20) = 367.84, p < 0.00001, n = 6 microscopy fields per group) in HEK293 cell
+expressing the indicated proteins for 24 h. In the first three graphs, values are
+normalized to those of the WT group. Asterisks indicate statistically significant
+differences (p < 0.05, NK test). Box plots report mean (cross), median (line),
+interquartile (limits), and 10–90 percentile (whiskers). d Histograms showing the
+distribution of condensates, formed by the indicated GFP-tagged proteins, binned
+by eccentricity (0.05 bins). Note how the proportion of condensates with higher
+eccentricity increases progressively with the shortening of LCR1 in the different
+mutants. a, c, d Source data are provided as a Source Data file.
+
+their condensate area occupying the nuclear compartment (Supplementary Fig. 7b), with a decrease in the number of intranuclear
+condensates (Fig. 4c; p < 0.001 vs. WT IRF2BPL in all instances, NK
+post hoc test).
+
+
+These findings indicate that the truncation mutants undergo
+qualitatively and quantitatively aberrant LLPS, with altered condensate
+dynamics and distribution in comparison with WT IRF2BPL. These
+changes appear to be related to the length of the N-terminalfragments.
+
+The differential LLPS behavior of Y173X and Q116X, together with
+the lower condensation tendency of the ZnF (a.a. 1-75; Fig. 3e), suggests the hypothesis that the 76–115 region, which overlaps with CC1
+and contains the first polyA and part of the polyQ, may represent the
+strongest LLPS-promoting LCR1 subregion. Together with our previous
+observations on the relative stability of polyA versus polyQ CCs13,51,
+these findings suggest that the progressive loss of the region downstream CC1, and even of its less stable polyQ part, may stabilize CC
+formation by the remaining polyA tract, which may in turn enhance
+LLPS20 (see “Discussion”). Moreover, other downstream parts of the
+protein may have important regulatory roles on the physiological LLPS
+of IRF2BPL, which are lost when they are elided by truncating
+mutations.
+
+
+The two more downstream truncations R331X and A708X also
+led to substantial aberrations in condensation patterns (Supplementary Fig. 7c-f). Indeed, while the total cell area occupied by
+condensates of the two mutants was not different from that occupied
+by
+
+
+WT
+IRF2BPL
+condensates
+after
+24 h
+of
+expression
+(F(2,66) = 0.14, p = 0.86, one-way ANOVA; Supplementary Fig. 7e, first
+graph from the left), the number, size, and subcellular distribution
+(proportion of condensate area and number in the nucleus) of the
+condensates were significantly altered (F(2,66) = 17.41, p < 0.001,
+F(2,64002) = 236.47, p < 0.001, F(2,15) = 44.61, p < 0.001, F(2,15) = 28.88,
+p < 0.001, respectively; Supplementary Fig. 7d, e). Indeed, as found
+for cluster 1 mutants, both R331X and A708X formed fewer (Supplementary Fig. 7e, second graph) and larger (Supplementary Fig. 7e,
+third graph) condensates in comparison with the WT protein
+(p < 0.001 in all instances, NK post hoc test). These condensates were
+also mislocalized, i.e., mostly cytoplasmic for R331X and quite evenly
+split between the cytoplasm and the nucleus for A708X (p < 0.02 vs.
+WT IRF2BPL in all instances, NK post hoc test, for both localizationrelated parameters; Supplementary Fig. 7d and 7e, fourth graph). For
+these two mutants, we did not observe the marked changes in condensate eccentricity as found for the cluster 1 mutants (Supplementary Fig. 7f).
+
+Together with the previous findings, these observations indicate
+that truncations along the protein up to the end of LCR3 can significantly alter the LLPS behavior of IRF2BPL in the cellular context,in
+both quantitative and qualitative terms. For technical reasons (see
+above), we could not study the impact of the same mutations on the
+ZnF-dependent LLPS of IRF2BPL in vitro.
+
+
+The aberrant condensates formed by disease-related IRF2BPL
+truncated mutants display accelerated coalescence kinetics,
+reduced sensitivity to 1,6-Hex, and blunted FRAP in the cellular
+context
+Building on the previous findings, we investigated whether condensates formed by truncated IRF2BPL mutants may exhibit, in addition to aberrant morphology and localization, also altered dynamic
+behavior. Thus, we studied their coalescence kinetics, sensitivity to 1,6-
+Hex-mediated disruption, and molecular exchange with the surrounding cellular environment as assessed by FRAP.
+
+
+First, we compared the coalescence dynamics of condensates
+formed by two disease-related mutants (Q123X and Y173X) with
+those of WT IRF2BPL condensates. Towards this aim, we performed
+live-cell fluorescence imaging experiments of cells expressing
+either GFP-tagged IRF2BPL-Q123X, IRF2BPL-Y173X, or WT IRF2BPL,
+starting 24 h after transfection, over a time course of 12 h (Fig. 5a, b
+and Supplementary Movies 2-4). These experiments revealed that the
+condensates formed by the Q123X and Y173X mutants have a significantly stronger tendency to coalesce than those formed by WT
+IRF2BPL. Indeed, at the beginning of the time course experiment, the
+cells expressing the two mutants already had a significantly lower
+number of condensates than cells expressing WT IRF2BPL (Fig. 5b,
+left two panels; F(2,380) = 29.30, p < 0.001, two-way ANOVA, with significant differences between the mean number of condensates for
+WT IRF2BPL vs. the two mutants, both at 24 and 36 h, p < 0.01 in all
+instances, NK post hoc test). Furthermore, the mutant condensates
+coalesced more rapidly than the wild-type ones during the subsequent 12 h (Fig. 5b, right two panels). At 36 h after transfection,
+only a few (1–4) large cytoplasmic condensates were usually found in
+cells expressing IRF2BPL-Q123X and -Y173X, whereas WT IRF2BPL still
+displayed numerous small nuclear condensates. The reduction in
+condensate number was significantly greater for the two mutants in
+comparison with the WT protein (one-way ANOVA: F(2,190) = 4.7065,
+p < 0.05, NK test, in both instances).
+
+Second, we analyzed the differential effects of 1,6-Hex on the
+condensation of WT and mutant IRF2BPL (Y173X, Q123X, and Q116X;
+Fig. 5c, d). These experiments revealed that the sensitivity to 1,6-Hex of
+Y173X mutant condensates is significantly reduced in comparison to
+that of WT condensates in terms of total cellular area occupied by
+condensates. Indeed, a two-way ANOVA indicated a differential effect
+of 1,6-Hex across constructs for total condensate area, condensate
+number
+per
+cell
+unit
+area,
+and
+individual
+condensate
+size
+(F(3,34) = 20.47, F(3,34) = 24.17, F(3,34) = 10.55, respectively, p < 0.001 in all
+instances, one-way ANOVA for normalized condensate area in 1,6-Hextreated cultures). The total area occupied by condensates was not
+significantly reduced for the two shortest mutants (Q123X and Q116X).
+However, 1,6-Hex was still able to induce fragmentation of their large
+condensates into more numerous, smaller ones (p < 0.001 for both
+mutants vs. WT, NK post hoc test), indicating that even the aberrant
+condensates formed by these mutants retain some sensitivity to the
+action of the diol.
+
+Third, we compared the FRAP of WT and mutant (Y173X, Q123X)
+IRF2BPL condensates (Fig. 5e, f). We found that the condensates
+formed by both mutants display substantially reduced FRAP in comparison with those formed by WT IRF2BPL. Indeed, while the mobile
+fraction (Mf) of WT IRF2BPL condensates was 83%, that of the Y173X
+and Q123X mutants was reduced to 52% and 45%, respectively. These
+results indicate that the mutant protomers are exchanged at a lower
+rate between the condensates and the surrounding cellular environment in comparison with WT ones.
+
+The concurrent alterations in condensate coalescence, sensitivity
+to 1,6-Hex, and FRAP indicate that the dynamics of IRF2BPL phase
+separation are significantly altered by disease-related mutations, with
+the formation of aberrant condensates that are significantly more
+stable than those formed by the WT protein.
+
+
+The aberrant condensates formed by disease-related IRF2BPL
+truncated mutants display altered ultrastructure and lengthdependent reduction in degradation rate
+
+
+Based
+on
+the
+previous
+findings,
+we
+tested
+whether
+the
+observed altered dynamics of condensates may be related to ultrastructural changes in the molecular organization of the mutant
+IRF2BPL protomers.
+
+Towards this aim, we performed CLEM of cells expressing either
+WT IRF2BPL or its Y173X and Q123X mutants in search of possible
+differences in the internal ultrastructural organization of their condensates (Fig. 6; Supplementary Fig. 8). Inverse fast Fourier transform
+(iFFT) analysis of CLEM images revealed that whereas the rounded FL
+condensates are isotropic and amorphous, the elongated Y173X and
+Q123X condensates exhibit a regular internal organization of evenly
+spaced fibrillary profiles, generally aligned with the major condensate
+axis. The mean spacing (s̄) between fibrils, as calculated using FFT
+analyses, was ∼16.5 nm for both mutants. Such spacing was conserved
+in different areas of one same condensate and across condensates
+(Supplementary Fig. 8a, b). The mean spacing was not significantly
+different
+across
+mutants
+(16.45 ± 0.19 nm,
+n = 9
+fields,
+vs.
+16.82 ± 0.33 nm, n = 6 fields, for Q123X and Y173X, respectively;
+p = 0.31, t-test; Supplementary Fig. 8c).
+
+
+These findings suggested that the packing of mutant proteins
+into larger, more stable condensates, with a more ordered internal
+organization, may reduce their molecular turnover, thus increasing
+their half-life and persistence in cells. To test this hypothesis, we
+compared the relative degradation rate of GFP-tagged WT and
+mutant forms of IRF2BPL, and of GFP alone, through a cycloheximide (CHX) chase assay (Fig. 7a). We found that the degradation
+rate was lower for all IRF2BPL proteins in comparison with GFP alone
+(Fig. 7b; F(3,8) = 9.25, p < 0.01, one-way ANOVA, n = 3 per group;
+p < 0.05 in all comparisons, NK test) and for the truncated mutants
+in comparison with the WT protein (Fig. 7c; F(2,6) = 7.14, p < 0.03,
+n = 3 per group, values normalized to the WT group; p < 0.05 in both
+cases, NK test). The lower degradation rate of the truncated mutants
+may be the combined result of the absence of the three PEST
+sequences and the reduced accessibility of their protomers within
+large condensates.
+
+These findings show that the truncated IRF2BPL mutants display
+length-dependent alterations in their stability and persistence in cells
+in comparison with the WT protein.
+
+The aberrant cytoplasmic condensates of disease-related truncated mutants recruit WT IRF2BPL, subtracting it from nuclear
+and axonal compartments, in a length-dependent manner
+PolyA/polyQ CC domains, such as those in LCR1, can mediate physiological protein homo-/hetero-typic interactions12,13,52. In certain diseases, polyA/polyQ proteins can entrap in their condensates and
+aggregates other cellular proteins bearing similar repeats, causing
+their loss of function12–15,52. Sinha Ray et al. (2022)27 reported how
+truncated IRF2BPL mutants sequester the normal WT IRF2BPL protein
+in their cytoplasmic condensates. Based on this evidence and our
+previous findings of length-dependent condensate alterations, we
+tested whether the recruitment of WT IRF2BPL into the aberrant
+condensates of its mutant forms may also be dependent on the length
+of their variably truncated LCR1.
+
+We found that all three truncated LCR1 mutants, when exogenously expressed in NPC-derived human neurons, as well as in neuronal
+and non-neuronal cell lines, were able to sequester WT IRF2PBL
+(Fig. 7d-h). Indeed, the WT and mutant proteins appeared to cocondensate mostly in the cytoplasm. WT IRF2BPL was detected
+through ICC using an antibody against an epitope that is not present in
+the truncated mutant proteins. Such sequestration visibly subtracted
+WT IRF2BPL from the nuclear and axonal compartments of neuronal
+cells (Fig. 7d, g, h).
+
+
+To
+quantify
+this
+phenomenon,
+we
+measured
+the
+mean
+number of condensates in nuclei of transfected cells (nt) expressing
+a given IRF2BPL mutant and compared it with that found in
+control nuclei (nc) of neighboring, non-transfected cells in the same
+culture (Fig. 7d). All mutants displayed a significantly reduced number of IRF2BPL condensates in the nuclei of transfected
+cells (nt) in comparison with the nuclei of neighboring nontransfected control cells (nc; Fig. 7e; F(3,3335) = 15,68, p < 0.001, twoway
+
+
+ANOVA,
+construct × transfection
+interaction;
+p < 0.001
+for all mutants, but not for GFP, NK test). Such recruitment
+was not observed in control cells expressing GFP alone (Supplementary Fig. 9a). Moreover, this reduction was more intense for the
+shortest mutants (Fig. 7f; p < 0.02 for Q116X vs Y173X, NK post
+hoc test).
+
+These results show that the length-dependent alteration of the
+molecular properties of the aberrant condensates varies their ability
+to recruit WT IRF2BPL. This can cause a length-dependent gain-offunction of cluster 1 truncated mutants contributing to the molecular pathogenesis of IRF2BPL-related disorders by sequestering
+the WT copies of the protein produced from the normal allele.
+Ultimately, these observations identify aberrant LLPS as the biophysical basis of a key mechanism in the cellular pathogenesis of
+NEDAMSS, i.e., the sequestration of WT IRF2BPL outside of the
+nucleus
+within
+the
+aberrant
+cytoplasmic
+condensates
+of
+its
+mutant forms.
+
+Mutant forms of IRF2BPL, undergoing aberrant LLPS in cells and
+sequestering the WT protein, trigger molecular disease
+mechanisms
+The sequestration of WT IRF2BPL out of the nucleus by aberrant
+condensates may in turn trigger downstream cellular and molecular
+mechanisms, ultimately leading to neural damage and disease. To
+identify some of these mechanisms, we performed genetic and electrophysiological experiments in the cellular context (Fig. 8). These
+experiments aimed at testing whether the expression of NEDAMSSrelated IRF2BPL mutants undergoing aberrant LLPS may trigger, by
+sequestering WT IRF2BPL, cellular and molecular mechanisms of the
+disease.
+
+To this end, we first used CRISPR/Cas9-mediated gene editing of
+the IRF2BPL locus in human HEK293 cells to generate cell lines carrying a monoallelic truncating mutation from cluster 1 (Q127X;
+Fig. 8a, b), thereby mimicking the genetic makeup observed at the
+IRF2BPL locus in NEDAMSS, or a knockout (KO) of the IRF2BPL gene
+(Fig. 8d, e). Isogenic cell lines, for both Q127X and KO HEK293 cells,
+were used as controls. The Q127X mutation was chosen for the presence of a favorable CRISPR/Cas9 editing site at codon 127 of the
+IRF2BPL ORF.
+
+
+Like
+other
+cluster
+1
+mutations
+(e.g.,
+Q123X),
+
+
+Q127X
+caused marked depletion of WT IRF2BPL from the nucleus.
+
+
+Indeed, immunostaining with available antibodies targeting a
+C-terminal epitope of IRF2BPL, thus not recognizing its N-terminal
+fragments, showed that the full-length WT protein produced by
+the normal allele was largely mislocalized to extranuclear condensates (Fig. 8b). This sequestration was sufficient to induce a
+significant
+upregulation
+of
+
+
+WNT1
+in
+these
+cells,
+as
+shown
+by qPCR experiments (Fig. 8c; p < 0.05, t-test), a recently identified
+key molecular mechanism of the disease8. Remarkably, a similar
+degree of WNT1 upregulation was found in KO cells (Fig. 8f; p < 0.05,
+t-test).
+
+These results show how the cytoplasmic sequestration of functional WT IRF2BPL, mediated by the aberrant LLPS of its mutant forms,
+can trigger dominant-negative disease mechanisms (WNT1 upregulation) in a manner that is quantitatively comparable to the complete
+knockout of the WT protein.
+
+IRF2BPL, that were treated (+) or not (-) with 1,6-Hex for 15 min. Scale bar: 10 μm.
+d Box plots showing the relative GFP-positive cell area occupied by condensates
+(first graph from the left; one-way ANOVA: F(3,34) = 20.476, p < 0.00001, n = 11 (WT),
+13 (Y173X), 9 (Q123X), 5 (Q116X) microscopy fields), the number of condensates per
+GFP-positive cell unit area (second graph; one-way ANOVA; F(3,34) = 24.177,
+p < 0.00001, n as above), and the individual condensate size (third graph; one-way
+ANOVA: F(3,34) = 10.559, p = 0.00005, n per group as above) in HEK293 cultures,
+expressing the indicated constructs, that were treated (+) or not (-) with 1,6-Hex for
+15 min as in (c) (asterisks indicate statistically significant differences; p < 0.05, NK
+test). e FRAP dynamics for condensates of WT and mutant IRF2BPL. For each
+construct, photobleached (p) and control (c) condensates are shown before (pre)
+and at the indicated times after photobleaching, as in Fig. 2k. f Differential FRAP
+time course for WT (same data as in Fig. 2k), Y173X, and Q123X condensates.
+b, d, f Source data are provided as a Source Data file.
+
+
+Mutant forms of IRF2BPL undergoing aberrant LLPS produce
+electrophysiological alterations in neuronal cell resting potential and excitability
+Based on the previous findings, we also tested whether the extranuclear sequestration of WT IRF2BPL into aberrant condensates, and
+the consequent dysregulation of disease-related molecular pathways
+such as WNT1, ultimately leads to functional impairments in neuronal
+cells. As IRF2BPL has been implicated in neuronal function and
+maintenance8, we searched for possible electrophysiological phenotypes in differentiated neuronal cells (NG108-15) in which either WT
+or mutant forms of IRF2BPL were expressed (Fig. 8g, k). First, we found
+that the expression for 48 h of IRF2BPL mutants (i.e., IRF2BPL-Q173X-
+GFP and -Q123X-GFP; Fig. 8g) significantly reduced the cell resting
+potential in comparison to control cells expressing either WT IRF2BPL
+or GFP (F(3,86) = 4.54, p < 0.01 one-way ANOVA; p < 0.05 NK post hoc
+test; Fig. 8h). Input resistance was not different across groups (Supplementary Fig. 9b, c). Second, we found that the same two mutants
+significantly impaired spiking ability, as determined by measuring
+spike peak amplitude (both from resting potential, as in Fig. 8i
+(F(3,86) = 3.75, p < 0.02, one-way ANOVA), and from the steady-state
+potential (sp) in the plateau phase following depolarization, as in
+Fig. 8j; F(3,85) = 4.53, p < 0.01, one-way ANOVA), in comparison to either
+WT IRF2BPL or GFP. Indeed, the proportion of cells with a spike peak
+amplitude ≥70 mV was significantly lower for both the Y173X and
+Q123X mutant experimental groups (p < 0.02 in both instances, Fisher’s exact (FE) test; Fig. 8k). Threshold currents did not vary across
+experimental groups (Supplementary Fig. 9d).
+
+Taken together, these findings indicate that the expression of
+mutant forms of IRF2BPL undergoing aberrant LLPS can significantly
+alter neuronal excitability and induce neuronal damage, as signaled in
+particular by the reduction of the resting potential53, in agreement with
+evidence of other phenotypes indicating neuronal damage in
+NEDAMSS1,8.
+
+Together with the results of the gene-editing experiments, these
+findings indicate that the aberrant LLPS of
+
+
+NEDAMSS-related
+IRF2BPL mutants can trigger cellular and molecular mechanisms of
+the disease.
+
+
+Disease-related missense mutations cluster in the HCD of the
+
+
+
+IRF2BPL central region, which is predicted to be structurally
+homologous to methyl-DNA-binding domains
+The previous findings prompted us to test whether the non-truncating
+disease-related missense mutations may also lead to aberrant LLPS, as
+found for the truncating ones (Figs. 9 and 10). Our initial bioinformatics screening (Fig. 1a) had shown how, unlike truncating mutation
+sites that cluster within LCR1, most disease-related missense mutation
+sites cluster in gene region coding for the middle portion of the
+IRF2BPL central region (cluster 4; see below and Figs. 1a and 10a, b).
+Notably, this region overlaps with the HCD, which was identified in the
+AF structural model, consisting of a long CC-prone helix (CC2)
+
+followed by an α/β-sandwich (Fig. 9a, upper left panel) comprised
+between the mostly disordered LCR2 and LCR3. Thus, before studying
+the impact on LLPS of missense mutations targeting this region, we
+decided to characterize it in further detail, also because of its possible
+relevance to the physiological function of IRF2BPL.
+
+Remarkably, this region of the protein did not display primary
+sequence similarity to other proteins in a BLAST search, except for
+
+IRF2BP1, an IRF2BPL paralog containing a similar predicted domain
+(Supplementary Figs. 9e, f, 10, and 11a). However, a DALI structural
+similarity search in the PDB, revealed instead striking resemblance of
+the HCD α/β-sandwich to that of known DNA-binding domains. Using
+this α/β-sandwich region as the query in a more refined DALI search, the
+top hit was the methyl-DNA binding protein MPND bound to DNA (PDB:
+7ydw). In matching the two structures, we found that a DNA-facing
+
+MPND region, formed by a β-hairpin, an α-helix, and an interposed loop,
+is also present within the core of the predicted IRF2BPL HCD, possibly
+representing a DNA-binding site. Furthermore, when we used this core
+region (Fig. 9a upper middle panel) as the query, we found numerous
+hits represented by methyl-DNA-binding proteins (Supplementary
+Data 7). Other hits included RNA-binding proteins.
+
+A structural matching of the α/β-sandwich core to human methylDNA-binding domains (MBDs) belonging to MBD-2, −4, −5, and MeCP2,
+whose structures are available in the PDB, revealed a striking similarity these domains (Fig. 9a, upper right panel). Furthermore, while the
+primary sequence similarity between the IRF2BPL HCD core region and
+the other human MBDs is low, many key residues forming the MBD
+hydrophobic core, or involved in DNA binding, are conserved or
+similar (Fig. 9b). Figure 9a (lower left and middle panels) highlights
+how the HCD core overlaps very well with the resolved structure of a
+MeCP2 MBD fragment bound to DNA.
+
+
+In the sequence alignment of the HCD core and the MBDs
+(Fig. 9b), several residues that bind DNA in human MBDs are present,
+or are conservatively replaced, in IRF2BPL (V408, K410, K418, S433,
+K439), forming a “belt” potentially oriented towards DNA (Fig. 9a,
+lower middle and right panels). Three positively charged Ks are strategically located at the ends (K410, K439) or in the center (K418) of this
+potential DNA-binding interface (Fig. 9a, lower right panel). The
+functional relevance of the HCD is also suggested by its high degree of
+phylogenetic conservation (Supplementary Fig. 11b), and by the fact
+that, within its core portion, the residues that are part of the predicted
+α-helical and β-strand structures are even more conserved than those
+in the random coil loops separating them (Supplementary Fig. 11c, d).
+These loops appear to be more tolerant to amino acid substitutions or
+even small deletions (e.g., four-residue gap in MBD1/2 in the alignment
+in Fig. 9b).
+
+Remarkably, four of the eight disease-related IRF2BPL missense
+mutations cause substitutions in the α/β-sandwich (P372R, R391°C,
+K418N) or in the upstream CC2 (P332A; Fig. 10a). K418N elides a
+charged residue in the β-hairpin that may play a key DNA-binding role.
+The actual ability of the α/β-sandwich domain to bind methylated vs.
+non-methylated DNA will have to be experimentally determined once
+potential consensus sequences are identified.
+
+The presence of the CC2 region upstream of the α/β-sandwich is
+reminiscent of a domain organization found in transcription factors
+undergoing CC-mediated dimerization upon DNA binding, such as
+FOXP254. This suggests that CC2 and the α/β-sandwich may constitute a
+functional unit, the HCD, that may represent a putative DNA-binding
+domain of IRF2BPL.
+
+Circular dichroism structural analysis confirms the presence of a
+β-hairpin structure in the HCD core
+To test experimentally whether the presumed DNA-binding β-hairpin
+in the HCD is folded as in the AF model, and not disordered as the
+flanking LCRs, we chemically synthesized an HCD core peptide (a.a.
+395-448; Fig. 9b) and studied its secondary structure by circular
+dichroism (CD) in physiological saline buffer (Fig. 9c, d). In the AF
+model, this peptide contains 35% of β-strand with a 5-residue turn (9%),
+
+image processing (last three rows; see also Supplementary Fig. 8; see “Methods”).
+The fourth row displays pseudocolored inverse FTT (iFTT) images derived from the
+corresponding EM images shown in the third row. The associated Fourier-space
+representation images (FFT) are in the bottom row. The even spacing of the parallel
+fibrillary profiles (arrowheads) within the Y173X and Q123X mutant condensates is
+highlighted by white dots. The plots in the fifth row present graphs of fibril spacing
+measured along the inclined white segments shown in the pseudocolored images
+of the fourth row. Note how the WT condensate does not display any regular
+internal periodicity, whereas both Y173X and Q123X condensates display a regular
+pattern of parallel fibrillary profiles, with a mean spacing (s̄) of 16.4 and 16.8 nm,
+respectively.
+
+22% of α-helix, and 33% of random coil. The deconvolution analysis of
+the peptide CD spectra revealed four structural components in proportions (33% β-strand, 13% turns, 15% α-helix, and 39% random coil)
+that are in excellent agreement with the AlphaFold model (Fig. 9c, d,
+upper panels). These components were quite stable upon heating from
+5 to 75°C (Fig. 9c, lower panel). In particular, the β-strand structure,
+i.e., the major structural component that was observed, was only
+marginally destabilized (−15%) by heating the peptide solution up to
+75°C, which caused only a modest increase in the random coil component (+14.5%; Fig. 9d, lower panel).
+
+Taken together, these findings indicate that the HCD contains in
+its core region folded structural elements, including a prominent,
+thermally stable β-strand component, in good quantitative agreement
+with the AlphaFold structural model of IRF2BPL.
+
+Disease-related missense mutations alter IRF2BPL LLPS behavior and subcellular localization
+Finally, we tested the potential impact of missense mutations on the
+LLPS behavior of IRF2BPL. We selected for this analysis two mutations
+(R372R and K418N) targeting the HCD, which represents the protein
+domain with the highest occurrence of missense mutations (cluster 4;
+Fig. 1a and Fig. 10a, b). K418N falls in the middle portion of the β-
+hairpin homologous to the DNA-binding interface in MBDs. We also
+studied a third mutation (F30L) targeting the N-terminal ZnF domain,
+which is known to be involved in DNA binding27.
+
+To test whether also these mutations may impact LLPS, like the
+truncating ones, we compared the condensation patterns of the three
+mutants, expressed in cells as GFP fusions for 24 h, with those of WT
+IRF2BPL (Fig. 10c,d; Supplementary Fig. 12a). As previously done for
+the truncating mutations, to quantitatively characterize the condensation patterns of WT and mutant IRF2BPL, we measured five
+parameters, four of which varied significantly between WT and mutant
+IRF2BPL, i.e., the total cell area occupied by condensates, the only
+parameter that did not vary (Fig. 10d, first graph from the left;
+F(3,39) = 0.18, p = 0.9, one-way ANOVA), the number of condensates per
+cell unit area (Fig. 10d, second graph; F(3,39) = 4.03, p < 0.02, one-way
+ANOVA), the mean size of individual condensates (Fig. 10d, third
+graph; F(3,51153) = 87.960, p < 0.001, one-way ANOVA), as well as the
+proportion of condensate area in the nucleus (Fig. 10d, fourth graph;
+F(3,18) = 29.01, p < 0.001, one-way ANOVA), and the proportion of condensates in the nucleus (Supplementary Fig. 12b; F(3,18) = 10.53,
+p < 0.001, one-way ANOVA).
+
+
+Indeed, when these proteins were expressed in cells for 24 h
+(Fig. 10c, Supplementary Fig. 12a), the overall cellular area occupied by
+condensates was not significantly different for the three mutants and
+the WT protein. However, the mutants displayed markedly altered
+patterns of condensation in terms of condensate number, size, and
+subcellular localization (Fig. 10d, Supplementary Fig. 12b). While the
+F30L and P372R mutants showed an increased mean condensate size
+(p < 0.01, NK post hoc test for both mutants vs. WT), and a trend
+towards a reduction in condensate number, the K418N mutant displayed the most evident alterations of the condensation pattern.
+Indeed, this mutant showed a substantial loss of small intranuclear
+
+condensates, as well as a considerable reduction in condensate number (p < 0.02, NK post hoc test vs. WT) with a notable increase in
+condensate size (p < 0.001, NK post hoc test vs. WT). The most dramatic changes for these three mutants were observed in terms of
+subcellular localization. Indeed, all three mutants displayed marked
+mislocalization, with most of their condensates found in the cytoplasmic compartment (p < 0.03, NK post hoc test for all mutants vs.
+
+WT), perhaps owing to an altered DNA binding capacity. The degree of
+mislocalization was again maximal for the K418N mutant. As for the
+cluster 2 and 3 truncating mutants, we did not observe major changes
+in condensate shape (Supplementary Fig. 12c).
+
+These findings indicate that disease-related missense mutations
+can significantly alter the physiological condensation pattern of
+IRF2BPL. While some of the condensation phenotypes were less
+
+dramatically altered in comparison with what we observed with cluster
+1 truncations, the substantial mislocalization of the enlarged mutant
+condensates to the cytoplasm suggested the possibility that also these
+mutants may recruit WT IRF2BPL, thus triggering a fundamental
+mechanism in the molecular pathogenesis of NEDAMSS.
+
+Disease-related missense mutants can also lead to depletion of
+intranuclear WT IRF2BPL condensates
+To test whether missense mutants may recruit WT IRF2BPL, causing its
+mislocalization to the cytoplasm and the loss of its nuclear condensates, we used a similar approach to that used for the truncated
+mutants. We performed this analysis for the K418N mutant, which
+displayed the most dramatic alterations in LLPS behavior in the previous experiments. This mutant was expressed for 24 h in NG108-15
+neuronal cells as a GFP fusion, while GFP alone was expressed in
+control cultures. The subcellular distribution of the K418N mutant and
+WT IRF2BPL was studied using fluorescence microscopy (Fig. 10e) to
+visualize, in both transfected and non-transfected cells, the GFP green
+fluorescence of the mutant protein and the red fluorescence arising
+from the immunostaining of total IRF2BPL, either WT or mutant, as the
+available antibodies recognize both forms of the protein.
+
+
+These experiments revealed that the number of red-fluorescent
+IRF2BPL-positive condensates in the nuclei of transfected cells
+expressing IRF2BPL-K418N was significantly reduced in comparison
+with
+neighboring
+non-transfected
+control
+cells
+(Fig.
+10e,
+f;
+F(1,107) = 5.20,
+p < 0.03,
+two-way
+
+
+ANOVA,
+construct × transfection
+interaction; p < 0.04, NK post hoc test). Thus, the expression of this
+missense mutant can deplete the nuclear pool of IRF2BPL condensates, as found for the truncated mutants. Such loss of nuclear
+IRF2BPL condensates was not observed in control cells expressing GFP
+alone (Fig. 10f p = 0.78, NK post hoc test). The number of nuclear
+IRF2BPL condensates was significantly lower in cells expressing
+
+
+IRF2BPL-K418N-GFP in comparison to cells expressing GFP alone
+(Fig. 10g; p < 0.01, t-test).
+
+Most of the IRF2BPL-positive red-fluorescent signal in transfected
+cells was also green-fluorescent, strongly suggesting that the WT
+protein was recruited into the mostly cytoplasmic mutant condensates. Given the lack of WT-specific antibodies, other mechanisms
+(e.g., enhanced degradation) leading to the loss of nuclear IRF2BPL
+condensates cannot be ruled out in principle.
+
+These findings indicate that the nuclear depletion of WT IRF2BPL,
+i.e., a key molecular mechanism of NEDAMSS, can also be triggered by
+missense mutations that are associated with aberrant LLPS and WT
+protein mislocalization, similar to what was observed for the truncating mutations.
+
+--- Discussion ---
+The results of our experiments identify the aberrant LLPS of mutant
+forms of IRF2BPL as the biophysical basis of the extranuclear
+
+unit area in cells expressing the indicated constructs vs. non-transfected control
+cells in the same cultures. Data normalized to those of control cells for each coverslip (two-way ANOVA: F(3,3335) = 15.683, p < 0.00001, n = 501 (Y173X,nc), 500
+(Y173X,nt), 957 (Q123X,nc), 403 (Q123X,nt), 296 (Q116X,nc), 168 (Q116X,nt), 381
+(GFP,nc), 137 (GFP,nt) cells; asterisks indicate significant differences, p < 0.05 NK
+test). Box plots (also in f) report mean (cross), median (line), interquartile (limits),
+and 10–90 percentile (whiskers). f Efficiency of the three mutants (d, e) in reducing
+WT IRF2BPL intranuclear condensates in a length-dependent manner (two-way
+ANOVA and asterisks as in e; data normalized to the GFP group). g Lower right
+image: As in d, for human NPC-derived neurons. Scale bar: 10 μm. Lower middle
+image: MAP2 immunostaining (white). Scale bar: 10 μm. All other images are
+magnifications of a single neuron. Scale bar (as for the upper right image): 5 μm.
+Y173X condensates recruit WT IRF2BPL. h As in d, for an NG108-15 cell axon. Axonal
+Y173X condensates (arrowhead) recruit endogenous IRF2BPL. Scale bar: 5 μm.
+b, c, e, f Source data are provided as a Source Data file.
+
+recruitment and nuclear depletion of wild-type IRF2BPL, a fundamental event in the molecular pathogenesis of NEDAMSS. In turn, this
+process triggers the activation of downstream cellular and molecular
+mechanisms of the disease, including transcriptional dysregulation,
+with WNT1 upregulation, and neuronal cell dysfunction.
+
+Specifically, we uncovered the ability of the IRF2BPL protein to
+physiologically undergo intra- and extra-nuclear LLPS, identifying the
+polyA/polyQ-bearing portion of its central region, and the flanking
+ZnF domain, as the key drivers of this process. Furthermore, we found
+how both truncating and non-truncating disease-related mutations
+lead to aberrant LLPS behavior of IRF2BPL, with alterations in the
+morphology, ultrastructure, biochemical properties, dynamic behavior, and subcellular localization of its condensates. The aberrant,
+mostly cytoplasmic assemblies formed by mutant IRF2BPL sequester
+the wild-type protein, removing it from the nuclear and axonal compartments, triggering downstream disease mechanisms with WNT1
+upregulation, and leading to alterations in the electrophysiological
+properties of neuronal cells indicative of cellular damage.
+
+
+These findings uncover the ability of IRF2BPL to undergo LLPS
+under physiological conditions and identify a key role for aberrant
+LLPS in the molecular pathogenesis of NEDAMSS and IRF2BPL-related
+disorders.
+
+
+A revised domain organization of the IRF2BPL protein
+We have undertaken a systematic analysis of the IRF2BPL central
+region which, based on our findings, is not simply a “variable” LCR11.
+This analysis led to a substantial redefinition of the domain structure of
+IRF2BPL. We found that the vast central region of the protein is characterized by a complex internal articulation of heterogeneous parts.
+Indeed, we showed how it contains three LCRs, with distinct compositional features and structural propensity, one of which (LCR1) plays a
+key role in LLPS, and a central domain (HCD) with sequence/structure
+similarities to DNA-binding domains. Our findings support a revised
+
+
+IRF2BPL domain structure, with three LCRs and three non-LCR
+domains (ZnF, HCD, RING).
+
+This revised domain organization of the IRF2BPL protein can help
+rationalize the distribution of pathogenic mutation sites along the
+IRF2BPL gene. Indeed, 75% of the missense pathogenic mutations hit
+non-LCR domains, whereas most truncating mutations affect the LCRs.
+This differential distribution may be explained by the fact that single
+amino acid substitutions are more likely to impact structurally constrained domains rather than conformationally more flexible LCRs.
+Conversely, truncating mutations within LCRs lead to the production
+of variably truncated protein fragments from this intronless gene27
+
+that can gain non-physiological functions—like aberrant LLPS as we
+have found—contributing to the pathogenesis of the disease. These
+conclusions are consistent with previous analyses, showing that LCRs
+have greater mutational robustness than ordered protein domains and
+that truncating mutations are enriched in LCRs37,38.
+
+a
+
+c
+
+f
+
+
+WNT1 mRNA
+
+-
+*
+
+-
+
+2.5
+
+qPCR fold change
+
+2
+
+1.5
+
+1
+
+
+0.5
+
+WT Q127X
+0
+
+b
+
+g
+2.0
+h
+i
+j
+
+
+Q123X
+
+control
+
+Y173X
+
+WT
+Spike ampl. (norm.)
+
+0.0
+*
+*
+
+RMP (norm. to WT)
+
+1.5
+
+*
+*
+
+-0.5
+
+1.0
+
+-1.0
+
+0.5
+
+-1.5
+
+0.0
+
+control
+
+
+Q123X
+
+Y173X
+
+WT
+-2.0
+
+Consistent with these views, the HCD that we identified displays
+disease-related mutational patterns typical of highly constrained protein domains and a high degree of evolutionary conservation. Notably,
+a previous survey in the human population also found that one of the
+two “constrained coding regions” in IRF2BPL falls within the HCD55,
+supporting, together with our findings, the notion that this domain has
+an important functional role. Our experiments with missense mutants
+
+*
+d
+
+
+WNT1 mRNA
+-
+
+-
+
+3
+
+qPCR fold change
+
+2
+
+1
+
+WT KO
+0
+
+e
+
+k
+<70 mV
+≥70 mV
+
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+2.5
+
+∆V peak-sp (norm.)
+
+2.0
+
+% cells
+
+1.5
+
+*
+
+*
+*
+
+*
+
+1.0
+
+0.5
+
+0.0
+
+control
+
+
+Q123X
+
+Y173X
+
+WT
+
+control
+
+Q123X
+
+Y173X
+
+WT
+indicate that the HCD contributes to the regulation of IRF2BPL LLPS,
+possibly by mediating or modulating DNA binding. The possible loss of
+DNAbinding induced by the K418N mutation may be responsible for
+the observed cytoplasmic mislocalization of IRF2BPL-K418N. Additional functions of the domain cannot be ruled out. Our CD structural
+analyses corroborate the AlphaFold model in showing that the HCD
+core forms a stable structural configuration similar to that which binds
+
+DNA in structurally related MBDs. Future experiments will have to fully
+characterize this domain, including its ability to bind methylated versus non-methylated DNA56 and/or RNA.
+
+
+IRF2BPL physiologically undergoes LLPS driven by a ZnF
+domain and polyA/polyQ repeats
+We found that IRF2BPL undergoes LLPS in neuronal and non-neuronal
+cells, both in the nucleus and in the cytoplasm. Such condensation
+displays canonical hallmarks of an LLPS-driven process, in morphological, kinetic, and biochemical terms, as observed for other LLPS-prone
+polyA/polyQ proteins16,20. Remarkably, IRF2BPL condensates were also
+found in axons, neurites, and growth cones, indicating that the protein
+is trafficked in a cell-wide manner in neuronal cells and may have
+unknown functional roles in axonal and synaptic compartments.
+
+We have mapped the IRF2BPL portion that is critical for LLPSdriven condensation to the N-terminal region (NTR), comprising the
+ZnF and the polyA/polyQ LCR1. The condensation behavior of the
+IRF2BPL NTR relies on the combination of the ZnF and LCR1. The ZnF
+alone appears to be the trigger of the process as it can autonomously
+undergo LLPS, both in vitro and in the cellular context. A similar
+interplay between LCRs and flanking domains has been observed for
+other polyA and polyQ proteins. Indeed, the polyA/polyQ region
+driving RUNX2 condensation and aggregation displays a diffuse distribution in cells when expressed without the rest of the protein13,20.
+The condensation and aggregation of the N-terminal huntingtin (HTT)
+fragment, driven by an expanded polyQ tract, is enhanced or reduced,
+respectively, by an upstream helical peptide (N17) and a downstream
+polyproline tract12,57,58. As for these proteins, IRF2BPL condensation
+appears to rely on the interplay of flanking protein regions with different degrees of sequence complexity and LLPS propensity. It is
+interesting to note how the presence of proline-rich LCR2 and LCR3 in
+truncated forms of the protein (R331X and A708X, respectively) leads
+to less marked alterations in LLPS patterns in comparison with
+upstream truncations leaving only LCR1, or portions of it, downstream
+of the ZnF. Thus, the presence of LCR2 and LCR3 may negatively regulate the LLPS propensity of the more N-terminal regions of IRF2BPL.
+Ultimately, the overall LLPS behavior of the entire protein may be
+determined by the functional interplay of its constituent domains
+which can have opposite effects on the process of phase separation.
+
+
+Aberrant LLPS in the molecular pathogenesis of NEDAMSS and
+
+
+
+IRF2BPL-related disorders
+Our findings indicate that disease-related missense and truncating
+mutations alter IRF2BPL physiological LLPS in the cellular context,
+leading to mislocalization of the WT protein produced by the normal
+allele. LCR1 is the protein region most affected by truncating mutations
+(cluster 1), which lead to the highest degree of distortion of the
+intracellular LLPS pattern in comparison with that of WT IRF2BPL.
+Downstream truncations and missense mutations, while profoundly
+altering the LLPS behavior of the protein, had relatively less dramatic
+
+or mutant IRF2BPL, or GFP (control). Cells expressing Y173X or Q123X display and
+impaired spiking ability. Quantification, in neuronal cells expressing the indicated
+constructs, of resting membrane potential (RMP; h; one-way ANOVA:
+F(3,86) = 4.5456, p = 0.0052, n = 25 (WT), 21 (Y173X), 18 (Q123X), 26 (GFP) cells), and
+peak spike amplitude measured either from RMP (i; F(3,86) = 3.7546, p = 0.013, n asin
+h) or from the steady-state potential (sp) after the peak (ΔV peak-sp; j; one-way
+ANOVA: F(3,85) = 4.5359, p = 0.0053, n = 25 (n as in h except for GFP (n = 25)). Values
+normalized to the WT group mean (RMP: −74.5 mV; spike amplitude: 93.1 mV from
+RMP and 24.2 mV from sp). Asterisks: significant differences, p < 0.05 NK test (also
+in k). Box plots report mean (cross), median (line), interquartile (limits), and 10–90
+percentile (whiskers). k Cells with depolarization peak <70 mV are more numerous
+in the Y173X and Q123X groups (FE test: p = 0.0061 (WT vs.173X). p = 0.01 (WT vs.
+Q123X), n = 25 (WT), 21 (Y173X), 18 (Q123X) cells) but not in the GFP group (n = 26;
+p = 0.22, FE test). c, d, f, h–k Source data are provided as a Source Data file.
+
+effects than cluster 1 truncations. Notably, this may correlate at the
+clinical level with the fact that missense mutations and distal truncations appear to cause milder phenotypes, as observed in the first
+described NEDAMSS patients1,27. However, to support these conclusions, careful genotype-phenotype correlations will need to be performed once a sufficiently high number of clinical cases have been
+characterized.
+
+We have studied the impact of disease-related mutations on the
+physiological LLPS of IRF2BPL in the in vivo cellular environment. This
+approach was based both on technical considerations and current
+trends in the study of LLPS pathophysiology. Indeed, given the insolubility of the polyA/polyQ-rich IRF2BPL protein, it was not technically
+possible to perform in vitro LLPS assays on it or its disease-related
+mutants, although these experiments could have provided additional
+support for the in vivo evidence, as obtained for the isolated ZnF
+domain, i.e. the key physiological LLPS trigger in the protein. To our
+knowledge, IRF2BPL has not been previously purified in a soluble form,
+consistent with known technical obstacles in polyA/polyQ protein
+purification47–49. While the in vitro study of IRF2BPL may represent a
+direction for future work, a growing body of evidence in the literature
+questions the relevance of LLPS assays, performed under artificial
+in vitro conditions to protein behavior in the cellular environment59–62.
+Nevertheless, we obtained in vitro evidence supporting the role of the
+more soluble ZnF as a key LLPS-driving domain of IRF2BPL in vivo.
+Notably, ZnF LLPS in vitro was observed using a physiological buffer
+without any highly artificial biochemical triggers such as crowding
+agents (e.g., PEG-8000), high ionic strength, or severely altered pH62.
+
+Truncated mutants, consisting of the ZnF and variable portions of
+the polyA/polyQ LCR1, form condensates with altered localization,
+morphology, and ultrastructure in comparison with those formed by
+WT IRF2BPL. The aberrant condensates have a mostly cytoplasmic
+localization, which may be explained by the lack of the NLS and by the
+fact that, based on our findings, the ZnF appears to carry a nuclear
+export signal (NES). Indeed, when expressed alone, the ZnF is cytoplasmic whereas ΔZnF-IRF2BPL is purely nuclear. Thus, the distribution of IRF2BPL may derive from the combined action of the NLS and
+the NES, and the action of the latter would prevail in the case of
+truncated mutants.
+
+In morphological terms, the condensates formed by the truncated
+IRF2BPL mutants displayed, with the shortening of their length, progressively increasing ellipticity. This was paralleled at the ultrastructural level by the emergence of a fibrillary organization within the
+condensates. These condensates also coalesce more rapidly, display
+blunted FRAP, and are more resistant to disruption by 1,6-Hex and by
+the protein degradation machinery. Overall, the molecular assemblies
+of these fragments appear to transition from a liquid-like, transient
+condensate towards a more solid-like and persistent aggregated state,
+as is frequently observed in neurodegenerative disorders24. A similar
+transition, with the initial LLPS-driven assembly of liquid-like condensates preluding to the consolidation of solid-like aggregates, has
+
+been observed for the polyQ-expanded N-terminal fragments of HTT23,
+the molecular mediator of Huntington disease.
+
+We have studied multiple cluster 1 LCR1 truncation mutants (115,
+122, and 172 residue-long) whose aberrant condensation phenotypes
+appeared to be inversely related to their length. Considering that the
+ZnF alone (a.a. 1-75) condensates at low levels, and that the Q116X
+mutant displays the most pronounced aberrant condensation, the
+
+IRF2BPL 76-115 region appears to be the strongest LLPS-promoting
+subregion within LCR1. This region overlaps with CC1 (a.a. 76-136),
+containing the first polyA and part of the polyQ repeat. Previous studies on hybrid polyA/polyQ CCs indicate that their polyA section is
+considerably more stable than the polyQ one13. Thus, the loss of the
+CC1 distal portion (a.a. 116-136, including 13 Qs) in Q116X may stabilize
+the polyA CC, enhancing its LLPS and subsequent more solid-like
+
+assembly. Such progressive CC1 stabilization, arising from the gradual
+erosion of its relatively less stable C-terminal polyQ portion, may
+explain the length-dependent LLPS phenotypes displayed by cluster 1
+truncated mutants.
+
+Besides these length-based correlations for cluster 1 truncations,
+other structure-function interpretations may be given for the altered
+LLPS behavior of more distally truncated or missense mutants. Indeed,
+the overall LLPS behavior of the IRF2BPL protein conceivably relies on
+the interplay between its constituent domains, some of which are lost
+in truncated mutants. The variable loss of these domains may alter the
+balance between LLPS-promoting regions (ZnF+LCR1) of the protein
+and downstream LCRs, or structured domains, with potential LLPSlimiting roles. For instance, RING domains can inhibit LLPS63. Moreover, the LLPS behavior of IRF2BPL may also be regulated by its DNAbinding capacity, which may be altered by missense mutations in
+domains known or predicted to bind DNA. For instance, the only
+known missense mutation targeting the ZnF, i.e., F30L, is predicted to
+alter zinc binding, based on our bioinformatics analyses. This may in
+turn alter the DNA binding ability of the protein7, favoring the
+observed alterations in condensation patterns. Mutations in the HCD
+(e.g., K418N) may have a similar impact. Missense mutations in the
+RING domain, such as N770H, may also potentially dysregulate LLPS63.
+
+
+The aberrant condensates and aggregates formed by a mutant
+polyA/polyQ protein can sequester non-mutant protomers of the same
+protein, as well as other cellular proteins, causing their loss-of-
+function12–16. This phenomenon has also been recently observed for
+IRF2BPL truncated mutants which appear to recruit the nuclear WT
+protein, a process representing a key molecular dysfunction underlying the molecular pathogenesis of NEDAMSS27. These four mutants
+(E172X, Y173X, R188X, A708fs), which contain the intact LLPS-driving
+region that we identified, displaye some differences in their ability to
+recruit WT IRF2BPL, which were tentatively attributed to the variable
+retention of the NLS in them27.
+
+We analyzed instead the effects of upstream mutations truncating
+within LCR1, as they target the LLPS-driving region of IRF2BPL. We
+found that the cytoplasmic assemblies of all three mutants (Y173X,
+Q123X, and Q116X) recruit the WT protein, in agreement with Sinha Ray
+et al.27. Our results provide mechanistic insight into this process.
+Indeed, they show that the degree of IRF2BPL recruitment is inversely
+related to the length of the N-terminal mutant fragment12,13,64. The
+polyA/polyQ repeats may enhance this interaction as a function of
+their CC stability12 which, for the IRF2BPL NTR, is inversely related to
+LCR1 length. Our observations of a lesser, but still significant degree of
+distortion of the LLPS pattern of the A708X mutant, which also
+retained a more nuclear localization in comparison with mutants with
+upstream truncations, are also consistent with the findings of Sinha
+Ray et al.27. Overall, these observations suggest that longer truncated
+forms of the protein may cause milder phenotypes than shorter ones.
+This hypothesis which arises from observations at the cellular and
+molecular levels warrants future genotype-phenotype analyses once a
+larger number of clinical cases are studied.
+
+human MBD1, MBD2, and MeCP2, and of Drosophila MBD2/3 (X stands for the
+species-specific insert ‘ANNNASSNNNSSATASSNNNNN’). c CD spectra (mean residue molar ellipticity (MRME), 190–250 nm range) of an HCD core peptide (a.a. 395-
+448). The spectrum at physiological temperature (37°C, saline buffer; top panel)
+indicates a mixture of secondary structures, with a random coil (rc)-related negative peak (∼200 nm) and a shoulder around 220 nm indicative of structured components. The stability of the structure was tested at 5, 25, 50, and 75°C (bottom
+panel). d Upper graph: relative proportion of α-helical (α), β-strand (β), turn, and
+random coil (rc) conformations in the HCD core peptide as predicted by AF and as
+measured at37°C using CD. The CD results are consistent with the AF model. Lower
+graph: proportion of the two prevalent structural components (e.g., β and rc) in CD
+spectra measured at increasing temperatures. c, d Source data are provided as a
+Source Data file.
+
+We found that also missense mutations can alter IRF2BPL LLPS.
+The fact that some of them have a lesser overall impact on LLPS than
+truncating ones may also rationalize their milder phenotypic impact27.
+Thus, our findings indicate that aberrant LLPS may be a prevalent
+mechanism, triggered by both truncating and missense mutations, in
+the molecular pathogenesis of NEDAMSS and IRF2BPL-related disorders. Moreover, they suggest the possibility that the degree of LLPS
+disruption may correlate with phenotypic impact and disease severity,
+ultimately providing a basis to rationalize future genotype-phenotype
+correlations. This scenario does not rule out that loss-of-function
+mechanisms, caused by either missense or truncating mutations, may
+have a relevant role in the molecular pathogenesis of NEDAMSS, either
+autonomously or in combination with aberrant LLPS.
+
+
+Dysfunctional LLPS has been implicated in developmental and
+neurodegenerative disorders, including polyQ- and polyA-expansion
+diseases20,23. Our findings indicate that LLPS and its dysregulation can
+play a fundamental role in the molecular pathogenesis of NEDAMSS
+and IRF2BPL-related disorders by inducing WT protein mislocalization
+and triggering downstream cellular and molecular mechanisms
+underlying these disorders.
+
+
+NEDAMSS and IRF2BPL-related disorders have been attributed to
+the loss-of-function of the mutant IRF2BPL variants1. However, true
+haploinsufficiency may often not occur as WT IRF2BPL protein levels
+can be normal or mildly reduced in patient-derived cells expressing
+truncated mutants27. Thus, additional gain-of-function and dominantnegative mechanisms should be considered. Even if not directly toxic1,
+aberrant IRF2BPL condensates may gain cellular toxicity through the
+CC-mediated homotypic recruitment of WT IRF2BPL and, conceivably,
+through the heterotypic recruitment of other CC-prone cellular
+proteins12–14,16,27,65.
+
+
+The pathogenesis of NEDAMSS and IRF2BPL-related disorders has
+been hypothesized to derive also from neurodegenerative mechanisms, in addition to developmental ones8,66,67. The analogies that we
+found between the IRF2BPL mutants and protein fragments involved in
+polyQ diseases strongly support the hypothesis that IRF2BPL-related
+disorders and neurodegenerative diseases may share fundamental
+molecular mechanisms related to the formation of dysfunctional
+protein assemblies.
+
+Ultimately, our findings identify aberrant protein LLPS as a key
+player in the molecular pathogenesis of NEDAMSS and IRF2BPL-related
+disorders, which lie at the intersection of neurodevelopmental and
+neurodegenerative diseases.
+
+academic research. Its use has been authorized by Vita-Salute San Raffaele University (protocol authorization number: RF-2018-12366703).
+
+
+Bioinformatic characterization of human IRF2BPL
+The primary sequences of human IRF2BPL and its orthologs in vertebrates were derived from the Uniprot (www.uniprot.org) and NCBI
+protein databases. The search for low-complexity protein regions
+
+(LCRs) in the IRF2BPL primary sequence, as plotted in Fig. 1a, (“LCR”)
+was performed using the SEG algorithm29 on PlaToLoCo69. The perresidue CC propensity for the IRF2BPL primary sequence was obtained
+using Paircoil270. The polyA/polyQ CC-prone IRF2BPL region (CC1) was
+identified using a Pscore threshold of 0.2 (1-Pscore ≥0.8 as in Fiumara
+et al.12; Fig. 1a and Supplementary Fig. 1b). CC2 was identified using a
+threshold of 0.4 to include its initial part which was not detected using
+
+
+Evolutionary analyses
+For evolutionary analyses, an alignment of IRF2BPL orthologous
+sequences belonging to 9 major clades of different stem age along the
+
+(p < 0.05 NK test; also in f, g). Box plots (also in f, g) report mean (cross), median
+(line), interquartile (limits), and 10–90 percentile (whiskers). e NG108-15 cells,
+expressing either IRF2BPL-K418N-GFP or GFP, immunostained to reveal total
+IRF2BPL (WT and mutant, in red; blue: DAPI). Some nuclear profiles are highlighted
+in white. Arrowhead: recruitment of the WT protein to a cytoplasmic condensate in
+a K418N-expressing cell. Scale bar: 10 μm. f Mean number of condensates per
+nuclear unit area in cells expressing (nt) IRF2BPL-K418N-GFP or GFP alone, in
+comparison with neighboring non-transfected control cells (nc) in the same cultures. Data normalized to the mean value in control cells. Two-way ANOVA:
+F(1,107) = 5.2052, p = 0.024, n = 37 (K418N,nc), 17 (K418N,nt), 36 (GFP,nc), 21 (GFP,nt).
+g Mean number of condensates per nuclear unit area in cells alternatively expressing IRF2BPL-K418N-GFP or GFP alone (nt). Data were first normalized to nontransfected controls for both groups and then to the GFP nt group. Asterisk:
+p = 0.0029, t-test, n = 17 (K418N), 21 (GFP). b, d, f, g Source data are provided as a
+Source Data file.
+
+vertebrate lineage (Primates, Rodentia, Laurasiatheria, Atlantogenata,
+Marsupialia, Sauropsida, Lissamphibia, Actinopterygii, Chondrichthyes;
+IDs in Supplementary Data 4) was obtained using the NCBI Cobalt tool76
+
+frameshifting sites (CRSF) was derived from Ren et al.83. The translational readthrough probabilities at premature stop codons introduced
+by nonsense mutations in IRF2BPL were derived from Toledano et al.84.
+
+
+The residues forming the hydrophobic core in the aligned MBD
+domain sequences in Fig. 9b were derived from Wakefield et al.87 and
+Hung et al.88. Those involved in DNA binding from Ohki et al.89 and
+Hung et al.88.
+
+
+Experimental characterization of the HCD core structure using
+circular dichroism (CD)
+A peptide encompassing the human IRF2BPL HCD core region (a.a.
+395-448) was chemically synthesized (LifeTein LLC) with N-terminal
+acetylation, C-terminal amidation, and purity >95%. The peptide was
+dissolved in a saline buffer (100 mM NaCl, 20 mM phosphate buffer,
+pH 7.4)12 to generate a stock solution (∼3 mg/mL). This solution was
+slightly opalescent and peptide concentration was calculated based on
+peptide weight12,51. Before each measurement, the peptide was further
+diluted in the saline buffer (0.2 mg/mL), transferred to a 1-mm quartz
+cuvette, and CD spectra (190–260 nm) were collected using a J-815
+spectropolarimeter (Jasco). Blank spectra from the saline buffer alone
+were subtracted from the peptide spectra. The mean residue molar
+ellipticity (MRME or [θ]) was calculated as in Fiumara et al. (2010)12. To
+test structural stability, the samples were heated (from 5°C to 75°C;
+10°C/min) while recording ellipticity at 222 nm. Data were analyzed
+using Spectra Analysis (as part of the Spectra Manager suite; Jasco).
+Spectra deconvolution was performed using the Contin-LL algorithm90
+
+
+Plasmids and molecular cloning
+In all cloning procedures, polymerase chain reaction (PCR) products
+were obtained using the CloneAmp-HiFi PCR Premix (ClontechTakara). The PCR primer oligonucleotides were designed with 15/18-bp
+extensions suitable for the In-fusion cloning system (Clontech-Takara).
+The sequence of these and other oligonucleotide primers used in this
+study (see below) is reported in the Supplementary Data 8 file. PCR
+products were separated by agarose gel electrophoresis and purified
+using QIAquick (Qiagen) or NucleoSpin (Macherey-Nagel) kits. Purified
+PCR products were subcloned into linearized plasmids of interest
+using the In-fusion system. Plasmids were amplified using Stellar
+
+chemically competent cells (Clontech) and purified using QIAprep
+
+
+Spin
+Mini-/Maxi-prep
+(Qiagen),
+
+
+NucleoSpin
+plasmid
+Mini
+kit
+(Macherey-Nagel), or NucleoBond Xtra MIDI EF (Macherey-Nagel) kits.
+For all plasmids that were generated, the protein-coding sequences
+were verified by Sanger sequencing. The intronless IRF2BPL gene openreading frame (ORF) was amplified by PCR, using the CloneAmp-HiFi
+PCR Premix from human genomic DNA extracted from HEK293F cells
+(ThermoFisher) using the QIAamp DNA Investigator Kit (QIAGEN), with
+primers bearing 15 bp extensions suitable for its subcloning into
+the pAcGFP-N1-In-Fusion-Ready plasmid (Clontech-Takara) using the
+In-Fusion cloning system to generate the p-IRF2BPL-GFP plasmid
+(forward primer: 5’-AAGGCCTCTGTCGACCACCATGTCGGCGGCGCAG
+
+
+GTGTCC
+TCGTCC-3’;
+reverse
+primer:
+5’-AGAATTCGCAAGCTTAGGGTC
+
+
+TCTCTCCTTTTTCACTTTAA
+To generate suitable plasmid vectors for optoDroplet induction
+experiments46, PCR-amplified sequences encoding IRF2BPL fragments
+of interest (NTR, ZnF, LCR1) were cloned into the pX-mCh-Cry2
+plasmid16 using the In-Fusion system.
+
+
+To generate plasmid vectors for the production of recombinant
+IRF2BPL in E. coli, N-terminally tagged with 6xHis-GST (thrombin/TEV
+cleavable), the coding sequence of the protein was PCR-amplified from
+the p-IRF2BPL-GFP plasmid and subcloned into the pGAT3 vector
+(Addgene, #112589) using the In-Fusion system.
+
+Strep (ThermoFisher; 1%), B27 (ThermoFisher; 1:50), SU5402 (SigmaAldrich, 10 μM), PD0325901 (Sigma-Aldrich, 8 μM), and DAPT (SigmaAldrich, 10 μM)), was added and replaced daily for two days. At day 3,
+cells were detached either using Accutase or heating (10 min at 37°C)
+to obtain a single-cell suspension. Cells were centrifuged, counted, and
+seeded at a density of 55,000 cells/cm2 onto plates coated with poly-L-
+lysine/laminin/fibronectin (Sigma-Aldrich, 100 μg/ml, 2 μg/ml, 2 μg/ml,
+respectively) in neuronal maturation medium (Neurobasal A with 1X
+B-27 supplement, 2 mM glutamine, 1% Pen/Strep, BDNF (Peprotech,
+20 ng/ml), ascorbic acid (Sigma-Aldrich, 100 nM), laminin (1 μg/μl),
+DAPT (10 μM), dibutyryl-cAMP (db-cAMP; Selleckchem, 250 μM))
+supplemented with the ROCK inhibitor Y27632 (10 μM) for the first
+24 h. The culture medium was replaced the next day to remove the
+
+
+ROCK inhibitor, and then half of the medium was replaced
+twice a week.
+
+
+NG108-15 cells were obtained from the American Type Culture
+Collection (ATCC; catalog # HB-12317; validated and tested for Mycoplasma contamination (negative) by ATCC) were maintained in Dulbecco’s Modified Eagle’s Medium (DMEM; Sigma) with 10% fetal bovine
+serum (FBS; Sigma) and 1X HAT supplement (ThermoFisher)92. To
+induce neuronal differentiation, NG108-15 cells were plated onto poly-
+D-lysine-coated glass coverslips in a 24-well plate and, after 24-48 h,
+the culture medium was replaced with a differentiation medium consisting of DMEM with 5% FBS, 1X HAT, 1 mM db-cAMP (Sigma), and
+1 mM dexamethasone (Sigma), for 7–14 days92. Half of the differentiation medium was replaced on alternate days. For electrophysiological
+experiments, cells were plated in 35 mm cell culture dishes in maintenance medium. Four hours after plating, the medium was replaced
+with differentiation medium which was kept for 7–8 days. Half of the
+differentiation medium was replaced with fresh one on alternate days.
+
+HEK293 cells (293-F; catalog # 293-F; Thermo Fisher Scientific;
+validated and tested for Mycoplasma contamination (negative) by
+Thermo Fisher Scientific) were maintained following standard procedures at 37°C with 5% CO2 in DMEM (Thermo Fisher Scientific) supplemented with 10% FBS, 2mM L-glutamine, 100 units/mL penicillin,
+and 100 μg/mL streptomycin. The cells that were used for immunocytochemistry or plasmid transfection were plated onto glass coverslips coated with poly-L-lysine (0.1 mg/mL, Sigma) in 24-well plates. For
+optoDroplet experiments, HEK293 cells were plated onto 50 mm
+plastic culture dishes with a central 14 mm glass coverslip (Mattek)
+coated with poly-L-lysine.
+
+
+Cell culture transfection
+
+
+
+Transfection of human neurons, NG108-15, and HEK293 cells was
+performed 24 h after plating using Lipofectamine 2000 (Thermo
+Fisher Scientific) following the manufacturer’s protocol, using
+0.25–1 μg of plasmid DNA for each coverslip in a single well of a 24-
+well plate with a 3:1 Lipofectamine (μl) to DNA (μg) ratio. Similar
+relative differences in terms of LLPS quantitation were observed
+between WT and mutant forms of IRF2BPL when transfecting with
+DNA concentrations in this range. Four hours after transfection, the
+culture medium of the NG108-15 cells was entirely replaced with
+fresh medium. Twenty-four hours after transfection, this medium
+was replaced with differentiation medium (half of which was
+replaced on alternate days). NG108-15 cells were fixed after 7–14 days
+of differentiation. HEK293 cells were fixed 24–48 h after transfection.
+The cells were fixed, after rinsing with PBS, using 4% PFA in PBS (pH
+7.4) for 15-20 min at RT. After rinsing in PBS (3X), the coverslips were
+mounted onto microscopy slides using DAKO mounting medium
+(Agilent).
+
+For electrophysiological experiments, NG108-15 cells were transfected at days 5–6 of differentiation with plasmid constructs for the
+expression of proteins of interest using Lipofectamine 2000. Electrophysiological recordings were performed after 24-48 h at days 7–8 of
+differentiation.
+
+Immunocytochemistry (ICC)
+Cultured human neurons growing on glass coverslips were fixed in 4%
+paraformaldehyde (PFA) and 4% sucrose for 15 min. After rinsing (3X)
+with PBS, the cells were then permeabilized using 0.2% Triton X-100 in
+PBS, pH 7.4, for 1 min, rinsed again in PBS (3X), and then incubated for
+1 h in blocking solution containing 1% bovine serum albumin (BSA;
+Thermo Fisher Scientific). The cells were then incubated with primary
+antibodies, i.e., IRF2BPL (Abcam, cat. # ab221099; 1:1000) and MAP2
+(Merck/Sigma-Aldrich, AB15452; 1:10000) for 2 h at room temperature
+(RT) in PBS containing 1% BSA and 0.2% Triton X-100. After rinsing with
+PBS (3X), the cells were incubated with secondary fluorescentlyconjugated antibodies (DyLight 649-conjugated goat anti-chicken IgG
+antibody (Rockland; cat. # 603-143-126), or DyLight 488-conjugated
+goat anti-Rabbit IgG (Thermo Fisher Scientific, cat. # 35552) for 1 h at
+RT and rinsed with PBS. Finally, nuclei were stained with 2 mg/ml
+Hoechst (Thermo Fisher Scientific) in PBS and, after rinsing in PBS, the
+coverslips were mounted on microscopy slides using the ProLong
+Glass Antifade mounting medium (Thermo Fisher Scientific).
+
+
+ICC of NG108-15 and HEK293 cells was performed with a similar
+protocol with minor variations. NG108-15 cells were fixed at days 7–14
+of differentiation and HEK293 after 24–48 h after plating. The cells
+were immunostained using the same anti-IRF2BPL primary antibody
+(Abcam, cat. # ab221099; 1:200) and anti-rabbit secondary antibodies
+fluorescently labeled with Alexa Fluor 488 (1:500) or 555 (1:1000; both
+from Thermo Fisher Scientific, cat. # A-11008 and # A-21428, respectively). The cells were incubated with DAPI (Thermo Fisher Scientific)
+for 15 min at RT to stain nuclei. Coverslips were then mounted onto
+microscopy slides using DAKO mounting medium (Agilent).
+
+Confocal fluorescence microscopy and super-resolution imaging (Airyscan, STED)
+Confocal and super-resolution imaging (Airyscan) of NG108-15 and
+HEK293 cells was performed using a ZEISS LSM 800 Airyscan microscope (Zeiss) with a 63X immersion objective using default Airyscan
+settings. Some confocal images of these cells were acquired using a
+Fluoview FV300 confocal microscope (Olympus). Multichannel fluorescence imaging, also in live-cell time-lapse experiments, was performed using a MICA imaging microhub (Leica Microsystems),
+equipped with 20× and 63× objectives. Images acquired with MICA
+were further processed using Thunder deconvolution (within Leica
+Application Suite X, LasX, v. 1.4.6; Leica Microsystems). Confocal and
+STED images of differentiated human neurons were obtained using a
+Leica TCS SP5 STED (Leica) inverted confocal/STED microscope.
+Samples were viewed with a 100X Apochromat (NA = 1.4) oilimmersion objective. Excitation was provided by a white light laser
+and the 488 and 633 nm wavelengths were obtained by an acousticoptical
+tunable
+filter
+(AOTF),
+detecting
+fluorescence
+in
+the
+500–575 nm range for AlexaFluor 488 and the 650–750 nm range for
+AlexaFluor 647, with the pinhole set to 1 Airy size and pixel size set at
+13 nm. Line scanning speed ranged from 1000 to 1400 Hz in standard
+acquisition mode, and line averages ranged from 96 to 128. In gatedSTED mode, the 592 nm CW laser beam was superimposed at a typical
+power of 180 mW before the objective. In this modality, we also
+enabled a second detector in the spectral range from 400 to 475 to
+collect the Hoechst fluorescence two-photon excited by the STED
+beam93. The detector gating time was set to 1.4 ns for STED imaging.
+Image analysis was carried out using FIJI software94, applying background subtraction (rolling ball radius: 50 px) and Gaussian blur
+(radius: 1 px) to improve the signal-to-background and signal-to-noise
+ratios.
+
+
+Live cell imaging
+Short-term live-cell imaging of HEK293 cells expressing IRF2BPL-GFP
+was performed using a GE Healthcare DeltaVision Ultra fluorescence
+microscopy system. Time-lapse videos of up to 300 s were recorded
+
+capturing a frame every 2 s. Images were processed using FIJI
+software (NIH).
+
+To perform longer (12 h) live-cell time-lapse imaging experiments
+to measure condensate coalescence dynamics, NG108-15 cells were
+plated at low density in 10-well glass-bottom Cellview microslides
+(Greiner Bio-One) and differentiated for 5–6 days. On days 6–7, cells
+were co-transfected with plasmids encoding mCherry, as a whole-cell
+marker, and either IRF2BPL-GFP, IRF2BPL-Y173x-GFP, or IRF2BPL-
+Q123x-GFP. Imaging, using a MICA Microhub system (Leica), started
+∼24 h post-transfection and continued for 12 h at 37°C in a 5% CO2
+atmosphere using an on-stage incubator (OkoLab). For each construct,
+3-4 imaging fields, each containing at least 5–10 cells, were selected
+and imaged every 30 min for 12 h. Illumination of the cells was adjusted
+to prevent phototoxicity in repeated scans. The acquired image series
+were processed using Thunder deconvolution (Leica) and adjusted for
+brightness and contrast to highlight fluorescent condensates. The
+images were cropped to generate single-cell time-lapse series in which
+the number of condensates per cell was automatically quantified at
+each time point using an ad hoc CellProfiler pipeline. Only cells with
+more than 5 and fewer than 40 condensates at the beginning of the
+experiment were included in the analysis. These criteria excluded from
+the analysis cells with no further condensate coalescence potential or
+morphologically anomalous cells with unusually large size and a high
+number of condensates. To study coalescence dynamics, we quantified both the absolute and relative variation over time in the number of
+condensates per cell. In the latter case, for each cell, the number of
+condensates at each time point was normalized to the number of
+condensates at the beginning of the experiment. For each cell, 12 data
+points were obtained from the 24-image series by averaging the two
+values measured at 30-min intervals during each hour of the
+experiment.
+
+Liquid–liquid phase separation (LLPS) analysis
+The spontaneous formation of condensates by fluorescently tagged
+human IRF2BPL, its fragments, deletion mutants, and disease-related
+mutant forms was quantified by confocal fluorescence imaging in
+HEK293 and NG108-15 cells 24–48 h after transfection. Cell cultures
+expressing the different mutants were fixed in each experiment at the
+same time to allow quantitative comparisons between condensation
+patterns which evolve dynamically (see Supplementary Movies 2-4).
+Given the dynamic nature of LLPS and the coalescence dynamics of the
+condensates, cells expressing an LLPS-prone construct display relatively heterogeneous condensation patterns when fixed at a given time
+point. Thus, for quantitative imaging analyses, we used at least five
+Z-stack maximum intensity projections of fluorescence confocal images of large microscopy fields (233 × 233 μm, or 350 × 350 μm), each
+containing tens of cells. These images were converted into 8-bit images using ImageJ (NIH). The brightness and contrast of each image
+were alternatively adjusted to highlight either the fluorescent condensates, identified as discrete bright rounded puncta with an abovebackground fluorescence signal, or the entire profiles of the fluorescent nuclei/cells. These two sets of images were used to automatically quantify, for each microscopy field, the proportion of the
+fluorescent (GFP- or mCherry-positive) surface area occupied by condensates, the number of condensates per unit area of the fluorescent
+nuclei/cells, the size and eccentricity of each condensate, and the total
+area occupied by fluorescent nuclei/cells using ad hoc CellProfiler
+pipelines. To quantify the nuclear versus cytosolic localization of
+condensates, we generated two sets of images, one containing all
+condensates and a second one in which cytosolic condensates were
+manually removed, based on their lack of overlap with DAPI-stained
+nuclear profiles, leaving only nuclear condensates. Using custom
+CellProfiler pipelines, we quantified both the total number and total
+area of condensates, as well as the number and area of nuclear condensates. From these parameters, for each field, we calculated the
+
+proportion of condensate area, or condensate number, found in the
+nuclear compartment. For each experimental group, we also analyzed
+the average area size and eccentricity of condensates. In general, for
+each experimental group, we analyzed 10–20 microscopy fields from
+cell cultures derived from 3-6 transfections.
+
+
+To define the sensitivity to 1,6-Hex of endogenous IRF2BPL,
+HEK293 cultures were exposed to 5% 1,6-Hex for 5 or 15 min16,95. Control experiments were performed using the same concentration of 2,5-
+Hexanediol, which is known not to alter LLPS45. The cells were then
+rinsed with PBS and fixed in 4% PFA in PBS (15–20 min at RT) and
+processed for ICC using an anti-IRF2BPL primary antibody (Abcam; cat.
+# ab221099; lot # 1047602-7). Control cultures were treated in the
+same manner, except that 1,6-Hex was omitted. The proportion of the
+fluorescent area occupied by condensates and the number of condensates were measured as described above. The subcellular distribution of the protein was quantified by measuring the mean
+fluorescence intensity in nuclei (N), identified by DAPI staining, and in
+the cytoplasm (C), within a perinuclear ring of fixed thickness around
+the nuclei, using an ad hoc CellProfiler pipeline. The logarithm of the
+ratio between the two mean intensities (N/C) was used as a quantitative
+indicator of the subcellular distribution of the protein. Indeed, Log(N/
+C) is equal to 0 when the protein is evenly distributed between the
+nucleus and the cytoplasm and becomes greater or smaller than 0
+when the protein is prevalently localized in the nucleus or the cytoplasm, respectively.
+
+The same protocol was also used to quantify the sensitivity to 1,6-
+Hex and 2,5-Hex of exogenously expressed, GFP-tagged WT or mutant
+IRF2BPL. We also tested whether the 1,6-Hex effect on LLPS was
+reversible by adding an experimental group in which cells expressing
+IRF2BPL-GFP, before fixation and LLPS quantification, were incubated
+for an additional hour in normal culture medium after washing out
+1,6-Hex.
+To quantify acutely phototriggered LLPS through the optoDroplet system46, HEK293 cells, grown onto poly-L-lysine-coated glass
+coverslips and expressing either IRF2BPL fragments of interest fused
+to mCh-Cry2 or mCh-Cry2 alone as a control, were photoactivated
+24–36 h after transfection. Photoactivation was obtained by illuminating the entire coverslip for 7 min using 488 nm blue light emitted by
+a led light array in a custom-made apparatus, with a 10 cm working
+distance between the leds and the cell culture16. The intensity of the
+blue light, regulated through a potentiometer, was set at a level that, in
+pilot experiments, was able to trigger the condensation of an LLPSprone Cry2 mutant form (mCh-Cry2Olig; positive control) but not of
+mCh-Cry2 (negative control)46. Two minutes after photoactivation, the
+cells were rinsed in PBS and fixed with 4% PFA in PBS. Coverslips were
+mounted onto microscopy slides for confocal imaging to detect the
+mCherry fluorescence. Control cells were treated in the same manner,
+but photoactivation was omitted. LLPS-driven condensation was
+quantified, as described above, by calculating the relative proportion
+of the mCh-positive cell area occupied by condensates using an ad hoc
+CellProfiler pipeline.
+
+Correlative light and electron microscopy (CLEM)
+HEK293 cells were seeded on 35 mm dishes containing a gridded glass
+coverslip (MatTek) and transfected with plasmids to express IRF2BPL-
+GFP or GFP-tagged IRF2BPL disease-related mutants. Twenty-four
+hours after transfection, cells were fixed with 4% PFA, 1% glutaraldehyde in 0.1 M HEPES buffer (pH 7.4). To obtain additional references for a precise alignment of the fluorescence and EM images, cell
+cultures expressing IRF2BPL-GFP were also stained with MitoTracker
+Red CMXRos (200 nM, Thermo Fisher Scientific) and Hoechst 33342
+(Thermo Fisher Scientific) to label mitochondria and nuclei, respectively. Confocal images of cells expressing IRF2BPL-GFP were acquired
+using a FluoVIEW 3000 RS system (Evident Scientific) equipped with a
+UPLSAPO 60×/1.3 Silicon objective. Z-stacks encompassing the entire
+
+cell were acquired with an optical section depth of 0.21 μm and the
+images were deconvolved using Huygens Software (v. 24.1; Scientific
+Volume Imaging; SVI) before alignment with the matching EM images.
+The cell cultures were then postfixed with reduced osmium (1% OsO4,
+1.5% potassium ferrocyanide in 0.1 M cacodylate buffer, pH 7.4) for 1 h
+on ice. After several washes in ultrapure water, they were incubated in
+0.5% uranyl acetate overnight at 4°C. Samples were then dehydrated
+with increasing ethanol concentrations, embedded in epoxy resin, and
+polymerized for 48 h at 60°C. Ultrathin serial sections (70 nm thickness) were obtained using an UC7 ultramicrotome (Leica), collected on
+formvar-carbon coated copper slot grids, stained with uranyl acetate
+and Sato’s lead solutions, and observed under a Talos L120°C transmission electron microscope (FEI, ThermoFisher) operating at 120 kV.
+Images were acquired with a Ceta CCD camera (FEI, ThermoFisher) and
+aligned with confocal images using the Fiji macro-plugin Big Warp.
+
+To highlight periodicities in the EM images, we performed a Fast
+Fourier Transform (FFT) analysis using Image-J (NIH). Each image was
+converted to 8-bit format and a corresponding Fourier frequency
+domain image was obtained using the “FFT” command. Thresholding
+of the latter image was applied to highlight the main frequency components. Inverse Fast Fourier Transform (iFFT) processing was then
+performed using the iFFT command to obtain the final images (see
+Fig. 6 and Supplementary Fig. 8) that were pseudo-colored using the
+“Red Hot” Image-J lookup table.
+
+Cycloheximide (CHX) chase experiment
+HEK293 cells, plated on 6-well plastic culture plates (VWR) and
+expressing GFP-tagged proteins of interest, or GFP alone, for 36 h,
+
+were treated for 12 h with either 0.05 μg/mL CHX (Merck), dissolved in
+DMSO, or with DMSO alone as a control. The cells were then harvested
+in ice-cold PBS. Whole-cell extracts were prepared in lysis buffer
+(2% w/v sodium dodecyl-sulfate (SDS) and 12% v/v β-mercaptoethanol)
+and separated on Nupage 3–8% Tris-acetate gels (Thermo Fisher
+Scientific). Immunoblotting was performed using anti-GFP HRP-conjugated primary antibodies (Proteintech, cat. # HRP-66002).
+
+
+In vitro LLPS assay
+To test the ability of IRF2BPL to undergo LLPS also in vitro, we
+attempted to express the protein in E. coli of two different strains (BL21
+and Rosetta) and purify it. Bacterial cells were transformed with the
+pGAT3-IRF2BPL vector, transferred into LB medium, and used to
+inoculate variable volumes of Terrific Broth (TB) medium. Antibiotic
+selection was maintained during all steps. After reaching OD600 = 0.6
+at 37°C with shaking incubation (180 rounds per minute (RPM);
+0.35 g), bacterial cultures were transferred to different incubating
+temperatures (16, 20, and 25°C) and gene expression was induced by
+adding IPTG (0.1 or 1 mM). Protein purification was attempted under
+different conditions, using either one of the two available tags, i.e. GST
+or 6xHis, by means of GST-trap and His-trap columns (Cytiva),
+respectively. For GST-trap purification, cells were lysed in a phosphate
+buffer (50 mMKPi pH 7.4, 200 mM NaCl) with 50 μM ZnSO4 to increase
+ZnF domain stability, resuspended in buffer supplemented with protease inhibitor cocktail (Roche), and sonicated. The soluble protein
+fraction was separated through centrifugation (100,000 g 4°C,
+45 min) and loaded on a previously equilibrated GST-trap fast flow
+column (1 mL resin, Cytiva). Elution was performed with 50 mM KPi
+(pH 7.4), 200 mM NaCl, 50 μM ZnSO4, 20 mM reduced glutathione,
+and 1 mM DTT. For His-trap purification, cells were resuspended in
+50 mM KPi (pH 7.4), 200 mM NaCl, 50 μM ZnSO4 supplemented with
+protease inhibitor cocktail and 15 mM imidazole. After sonication and
+centrifugation 100,000 g at 4°C for 45 min), the soluble fraction was
+loaded on a pre-equilibrated His-trap High Performance 5 mL column
+(Cytiva). The bound protein was eluted with 400 mM imidazole in the
+same buffer. His-trap purification was also attempted under denaturing conditions using urea as a chaotropic agent. Cells were resuspended in a buffer containing 50 mM TrisHCl (pH 7.5), 500 mM NaCl,
+4 M urea, and 15 mM imidazole, and disrupted by stirring for 2 h. After
+centrifugation to remove insoluble debris, the supernatant was loaded
+on a His-gravitrap column 1 mL resin (Cytiva). Elution was achieved by
+adding 500 mM imidazole to the buffer. Alleluates were separated into
+fractions using size exclusion chromatography (SEC).
+
+Under all purification and elution conditions that were tested, we
+were not able to reliably detect protein products of the expected
+molecular weight of tagged IRF2BPL upon electrophoretic separation
+of bacterial lysates, or eluted fractions, and subsequent gel staining to
+detect proteins. Consistent with the hypothesis that aggregation was
+responsible for the lack of penetration of the protein in a soluble form
+into the separating gels, we found, using direct immunoblotting of
+lysates and eluted fractions onto nitrocellulose (dot blot; see below
+and Supplementary Fig. 6), that the protein was indeed expressed by
+bacteria and that smaller amounts of it were present in some eluted
+fractions. Light microscopy analyses of these fractions confirmed the
+presence of large amounts of aggregated material (Supplementary Fig. 6).
+
+To overcome these issues, we sought to chemically synthesize the
+key LLPS-driving region of IRF2BPL, i.e. the ZnF domain, which displays
+a lower condensation tendency in the cellular context, as compared to
+the full-length protein, and may therefore be more amenable to in vitro
+studies. A peptide encompassing the ZnF region (a.a. 1–75) of human
+IRF2BPL was chemically synthesized (LifeTein, LLC) with an N-terminal
+FITC tag linked through a 6-aminohexanoic acid (ahx) spacer,
+C-terminal amidation, and purity >90%. The peptide was dissolved in
+saline buffer (100 mM NaCl, 20 mM phosphate buffer, pH 7.412, with
+
+the addition of 0.1 mM ZnCl2, to generate a 100 μM solution. The
+solution was spun to remove insoluble debris and 30 μL aliquots of the
+cleared peptide solution were dispensed into an 18-well glass-bottom
+plate (Ibidi) for imaging using the MICA imaging system (Leica). Imaging commenced a few minutes post-plating and continued up to
+12–24 h. Images were acquired using a 63× oil-immersion objective,
+capturing both transmitted light DIC images, to visualize rounded
+droplet-like condensate structures, and green fluorescence from FITC
+to confirm that the observed condensates were formed by the peptide.
+In a physiological buffer at room temperature, condensation of the
+peptide started to become visible after 1-2 h and further increased up
+to 24 h of incubation, similar to what previously found with other
+proteins in vitro97.
+
+
+Dot blot
+Crude bacterial lysates and size-exclusion chromatography (SEC)
+fractions of protein eluates were directly applied onto a nitrocellulose
+membrane (1 μl per sample). The membrane was allowed to air dry for
+∼10 min at room temperature (RT), blocked in 2.5% non-fat dry milk in
+Tris-buffered saline with 0.1% Tween-20 (1×TBS-T) for 1 h at RT with
+gentle agitation. After blocking, the membrane was washed three
+times for 10 min with 1×TBS-T with gentle shaking and then incubated
+overnight at 4°C with a primary antibody against IRF2BPL (Abcam, cat.
+# ab221099; 1:1000) in blocking solution (2.5% milk in 1× TBS-T). The
+membrane was washed three times with 1×TBS-T (10 min per wash)
+and then incubated for 1 h at RT with an HRP-conjugated secondary
+antibody (Thermo Fisher Scientific, cat. # 31460; 1:3000) in blocking
+solution. After incubation, the membrane underwent three additional
+10-min washes with 1×TBS-T. Membrane-bound secondary antibodies
+were detected using the Enhanced Chemiluminescence (ECL) reagent
+(Promega) and images were captured using the ChemiDoc imaging
+system (Bio-Rad).
+
+
+Generation of a human cell line bearing a pathogenic Q127X
+mutation
+To generate a HEK293T mutant cell line bearing an IRF2BPL pathogenic mutation, we introduced the heterozygous IRF2BPL c.379°C>T
+
+
+AGCTCAATCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCG
+GCCCC-3’) was designed to introduce the c.379°C>T mutation along
+with a synonymous c.387°C>T change, aimed at abolishing the BstXI
+restriction site, enabling downstream genotyping via restriction fragment length polymorphism (RFLP) analysis. HEK293T cells were seeded in six-well plates and transfected at >80% confluency with sgRNABlast and spCas9-Puro constructs and ssODN using Lipofectamine LTX
+(Thermo Fisher Scientific), according to the manufacturer’s instructions. Following transfection, cells were subjected to dual selection
+with puromycin (1 μg/ml; Sigma-Aldrich) and blasticidin (10 μg/ml;
+Thermo Fisher Scientific). Successfully co-transfected cells were subjected to fluorescence-activated cell sorting (FACS) for single-cell
+clone isolation. The FACS sequential gating/sorting strategies are
+illustrated in Supplementary Fig. 13. Genomic DNA (gDNA) of the
+clones was extracted by incubating HEK293T cells for 4 h at 55°C in a
+digestion buffer mix (100 mM Tris–HCl pH 8.0, 200 mM NaCl, 5 mM
+EDTA, and 0.5% SDS, supplemented with proteinase K). Then, genomic
+DNA was purified using isopropanol, washed with 70% ethanol, and
+resuspended in nuclease-free water. The genomic regions flanking the
+mutation site were amplified by PCR using 100 ng of genomic DNA as a
+template and suitable primers (Fwd: 5’-GACTTCTCGGAACCCGTATG-
+3’; Rev: 5’-CGTCTGCGGTAGCAGGTT-3’). PCR products were analyzed
+on 1% agarose gels and purified (Wizard SV gel and PCR Clean-Up
+System, Promega). For RFLP genotyping, 300 ng of the purified PCR
+products were incubated with 10U of BstXI enzyme in NEB buffer r3.1
+(New England Biolabs) overnight. Edited clones were confirmed by
+Sanger sequencing (Eurofins).
+
+
+RNA extraction and quantitative gene expression analysis
+WT and mutant (KO and Q127X) HEK293 WT cells were plated on 6-well
+plates and, 48 h later, total RNA was isolated cells using TRIzol Reagent
+(Thermo Fisher Scientific), following the manufacturer’s protocol. RNA
+was reverse transcribed using the PrimeScript RT Reagent Kit with
+gDNA Eraser (Takara). WNT1 RNA levels were measured by quantitative
+real-time PCR (qPCR) using Luna Universal qPCR Master Mix (New
+England Biolabs) on a CFX96 Connect Thermal Cycler (Bio-Rad). Gene
+expression levels were normalized to GAPDH mRNA. The primers for
+WNT1 were: Fwd, 5’– CTGTCCTGCCTCCTCATC–3’; Rev, 5’-GGACCC
+AGCACAATAAATAGTT–3’. The primers for GAPDH were: Fwd, 5’-TTC
+GACAGTCAGCCGCATCTTCTT–3’; Rev, 5’– GCCCAATACGACCAAA
+TCCGTTGA–3’.
+
+
+Electrophysiological recordings
+Whole-cell patch-clamp recordings were performed using an AxoClamp 2A amplifier and Clampex software (within the pClamp software
+suite; v. 11.1; Molecular Devices). Differentiated NG108-15 neuronal
+cells transfected with plasmids to express IRF2BPL-GFP, IRF2BPL-
+Y173X-GFP, IRF2BPL-Q123X-GFP, or GFP alone (used as a negative
+control) were recorded at room temperature. Cells were continuously
+
+perfused with an external solution containing 125 mM NaCl, 2.5 mM
+KCl, 2 mM CaCl2, 1 mM MgCl2, 1.25 mM NaHCO3, and 10 mM glucose
+(pH 7.4). Patch pipettes (10–20 MΩ resistance) were filled with an
+internal solution containing 130 mM potassium gluconate, 2 mM
+MgCl2, 0.5 mM EGTA, and 10 mM HEPES (pH 7.2). The osmolarity of
+these solutions was adjusted to 290 mOsm/l with sucrose. Recordings
+were acquired in current-clamp mode. The resting membrane potential (RMP) was measured immediately upon achieving the whole-cell
+configuration. To test cell excitability, cells were depolarized by delivering a series of 200-600 ms depolarizing pulses of increasing
+intensity, from 0 to +300 pA, in 50 pA steps which were delivered at 15-
+s intervals. Voltage responses were analyzed by measuring both the
+peak membrane potential, relative to the RMP, and the ΔV between the
+same peak and the steady-state potential (sp) reached in the remaining
+part of the depolarizing step. For each cell, we assessed the depolarizing current threshold that triggered an active response (>5 mV). The
+proportion of cells exhibiting peak depolarizations ≥70 mV was also
+quantified. Input resistance was assessed by delivering 50 pA hyperpolarizing pulses (200 ms) and measuring the associated membrane
+potential change. Data were analyzed using Clampfit software (Molecular Devices).
+
+
+Statistics and reproducibility
+All experiments, including those for which representative images are
+shown in Figs. 1f, 2a, b, c, e, f, h, 3g, 4b, 7d, g, 8b, e, and 10c, as well as in
+Supplementary Figs. 5a, b, 6a, b, 7a, c, 8a, b, 9a, b, and 12a, have been
+performed at least in three independent replicates with similar results.
+Student’s t-test, one- or two-way analysis of variance (ANOVA) followed
+by the Newman-Keuls post hoc test, which includes a multiple comparison correction, and Fisher’s exact test were performed, where
+appropriate, as indicated in the Results section and the figure legends.
+All tests were two-sided, when possible. A value of p ≤0.05 was considered statistically significant in all instances.

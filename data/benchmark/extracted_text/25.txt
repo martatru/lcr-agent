@@ -1,0 +1,585 @@
+--- SUMMARY ---
+Yeast ataxin-2, also known as Pbp1 (polyA binding
+protein-binding protein 1), is an intrinsically disordered protein implicated in stress granule formation,
+RNA biology, and neurodegenerative disease. To understand the endogenous function of this protein,
+we identify Pbp1 as a dedicated regulator of TORC1
+signalingandautophagy under conditions thatrequire
+mitochondrial respiration. Pbp1 binds to TORC1 specifically duringrespiratorygrowth, bututilizesan additional methionine-rich, low complexity (LC) region to
+inhibit TORC1. This LC region causes phase separation, forms reversible fibrils, and enables self-association into assemblies required for TORC1 inhibition.
+
+
+Mutants that weaken phase separation in vitro exhibit
+reduced capacity to inhibit TORC1 and induce autophagy. Loss of Pbp1 leads to mitochondrial dysfunction and reduced fitness during nutritional stress.
+Thus, Pbp1 forms a condensate in response to respiratory status to regulate TORC1 signaling.
+
+--- RESULTS
+
+Pbp1 Regulates Autophagy and Cell Growth under ---
+
+
+
+Conditions that Require Mitochondrial Respiration
+To interrogate a possible role for Pbp1 in the regulation of autophagy, we assayed autophagy in wild-type (WT) and pbp1D cells
+under a growth condition that requires mitochondrial respiration
+(Figures 1A–1°C). In the presence of the non-fermentable carbon
+source lactate, cells lacking Pbp1 were unable to induce autophagy following the switch from rich (YPL) to minimal (SL) medium as determined by three different assays: appearance of
+Mito-DsRed reporter in vacuoles (Figure 1A), the GFP-cleavage
+assay that is indicative of mitophagy (Figure 1B), and the alkaline
+phosphatase (ALP) reporter assay as a quantitative measure of
+general autophagy (Figure 1°C). In contrast, pbp1D mutants
+showed no deficit in autophagy induction upon switch to the
+more commonly utilized high glucose, nitrogen starvation condition (SD-N medium) (Figures S1A and S1B). These data suggest
+that the function of Pbp1 is selectively required when cell growth
+is restricted by non-fermentable carbon sources that require an
+increased dependency on mitochondria for energy.
+
+Suppression of autophagy by deletion of core autophagy machinery components severely impedes cell growth following the
+switch to SL medium (Wu and Tu, 2011). Surprisingly, pbp1D
+cells exhibited a significantly increased growth rate in SL medium despite the lack of autophagy (Figure 1D), indicative of dysregulation of cellular growth control pathways. This increased
+growth phenotype of pbp1D was not observed when glucose
+was present as the carbon source (Figure S1°C). Taken together,
+the lack of autophagy and abnormal growth phenotypes of
+pbp1D mutant cells in SL medium indicate the protein is involved
+in the regulation of cell growth under conditions that require
+mitochondrial respiration.
+
+
+Pbp1 Functions by Negatively Regulating TORC1
+Signaling
+
+
+
+These phenotypes of pbp1D cells were reminiscent of mutants
+lacking the function of a three-protein complex (Iml1-Npr2-
+Npr3) previously identified to be required for autophagy under
+these conditions (Sutter et al., 2013; Wu and Tu, 2011). Subsequent work revealed that this complex, termed SEACIT or
+GATOR1, acts as a negative regulator of TORC1 (Bar-Peled
+et al., 2013; Panchaud et al., 2013). Interestingly, iml1D, npr2D,
+and npr3D mutants all bypass autophagy and exhibit an
+increased growth rate in SL medium (Laxman et al., 2013; Wu
+and Tu, 2011), just like pbp1D mutants. These similarities suggest that the autophagy and growth phenotypes of pbp1D mutants might also be due to hyperactive TORC1 signaling.
+
+
+We therefore tested whether Pbp1 might induce autophagy via
+negative regulation of TORC1 signaling. Treatment with rapamycin completely restored autophagy (Figure 1E) and reversed the
+increased growth of Pbp1-deficient cells in SL medium (Fig-
+
+(G) Phosphorylation of endogenously tagged Sch9, Atg13, Gln3, and Npr1 at the indicated time points before and after switch to SL medium. Phosphorylated
+species exhibit reduced migration during SDS-PAGE. Sch9 samples were analyzed using phos-tag SDS-PAGE. Rapamycin and cycloheximide (CHX) treatment
+were used to assess the migration of low and high phosphorylated states of these substrates. pbp1D mutant cells exhibited increased phosphorylation of TORC1
+substrates following switch to SL medium.
+See also Figure S1 and Table S1.
+
+ure 1F), suggesting that these phenotypes are indeed mediated
+through TORC1. To assess whether the rapamycin-reversible
+phenotypes of pbp1D cells are due to increased TORC1 activity,
+we examined phosphorylation of TORC1-dependent substrates,
+Sch9, Atg13, Gln3, and Npr1. Each protein exhibited increased
+phosphorylation in pbp1D cells compared to WT following the
+switch to SL medium (Figure 1G).
+
+
+We next performed a proteomic survey to investigate the basis
+of the increased growth of pbp1D mutants in SL medium. Using a
+SILAC (stable-isotope labeling by amino acids in cell culture)
+experiment, we found the proteins that were most significantly
+increased in pbp1D cells in SL medium were enzymes involved
+in anabolic metabolism and biosynthesis (Figures S1D and
+S1E; Table S1). In particular, proteins involved in ribosome
+biogenesis were significantly increased in abundance in pbp1D
+cells (Figure S1F; Table S2). Thus, the increased abundance of
+proteins involved in translation and anabolic biosynthesis was
+also consistent with the reporters of increased TORC1 activity
+in pbp1D cells. Taken together, these data suggest that pbp1D
+cells have hallmarks of hyperactive TORC1 signaling, and
+Pbp1 is therefore a negative regulator of TORC1.
+
+
+Pbp1 Interacts with TORC1 Specifically during
+
+
+
+Respiratory Growth
+
+
+
+We next tested whether Pbp1 might interact with components of
+TORC1 as a possible mechanism of regulation. Taking into account growth conditions in which Pbp1 is required for autophagy, we observed that endogenous Kog1, the yeast ortholog
+of RAPTOR, co-immunoprecipitated with Pbp1 exclusively in
+the minimal lactate medium (SL), but not in minimal glucose medium (SD) (Figure 2A). Moreover, this interaction between Pbp1
+and Kog1 in SL medium was substantially decreased following
+switch back to glucose medium (SD) (Figure 2B). In pbp1D cells,
+more TORC1 appeared associated with vacuolar membranes as
+assessed by imaging of Kog1-GFP expressed at an endogenous
+level (Figure S2A). Therefore, the association between Pbp1 and
+Kog1 is responsive to cellular metabolic conditions and is more
+prominent when cells are grown in a non-fermentable carbon
+source. Increased association between Pbp1 and TORC1 under
+these conditions is consistent with inhibition of TORC1 and
+reduced vacuolar localization.
+
+
+To identify the region within Pbp1 required for binding to
+
+
+
+TORC1, we constructed a series of deletion mutants of Pbp1
+(Figure 2°C) and tested their ability to co-immunoprecipitate
+Kog1. Pbp1 possesses two putative RNA-binding domains,
+Like SM (Lsm) and Lsm associated domain (LsmAD), near its
+N-terminus, with the remainder of the protein having no predicted
+secondary structure (Figure 2°C). Pbp1 mutants lacking one or
+both RNA-binding domains (Figure 2°C, mutants 3, 4, 5) retained
+the ability to interact with Kog1 (Figure 2D). The addition of RNase
+
+
+A to lysates also did not affect the interaction between Pbp1
+and Kog1 (Figure S2B). The mutants lacking the RNA-binding
+
+domains also did not affect autophagy or growth (Figures S2°C
+and S2D).
+
+We then tested the ability of other Pbp1 truncation mutants to
+co-immunoprecipitate Kog1 (Figure S2E). We observed that the
+interaction between Pbp1 and Kog1 is mediated through a 100
+amino acid region (aa 338–442) downstream of the two putative
+RNA-binding domains (Figures 2E and S2E, mutants 6, 8, 9, 12,
+13). Pbp1 mutants lacking this region exhibited the same
+increased growth and defective autophagy phenotype as the
+pbp1D mutant (Figures 2F and 2G), as well as increased phosphorylation of the TORC1-responsive substrate Atg13 (Figure 2H). These data demonstrate that an interaction between
+Pbp1 and Kog1 is required for the inhibition of TORC1 during respiratory growth.
+
+
+Pbp1 Self-Associates to Form Nebulous Assemblies
+
+
+
+To further investigate how Pbp1 regulates TORC1 signaling, we
+examined a possible link to Pbp1 as a component of stress granules (Buchan et al., 2008). Under severe heat stress, Pbp1 was
+reported to sequester TORC1 in foci-like stress granules, which
+prevent TORC1 activation (Takahara and Maeda, 2012). However, in cells expressing normal amounts of Pbp1-GFP, Pbp1 did
+not form any structures reminiscent of defined, foci-like granules
+in SL medium (Figure 3A). Two other stress granule markers,
+
+
+Pab1 and Pub1, also did not localize to foci-like granules in
+
+
+
+SL medium as compared to the glucose-deprivation medium
+(Figure S3A). Instead, Pbp1 exhibited a
+non-uniform distribution, and the protein
+appeared to be present in the form of dynamic, nebulous assemblies throughout the cell, reminiscent of
+a condensate (Banani et al., 2017) (Figure 3A; Video S1). Treatment of cells with 1,6-hexanediol, an alcohol commonly used
+to disrupt weak hydrophobic interactions and disturb phase separation (Lin et al., 2016; Molliex et al., 2015; Ribbeck and Go ̈ rlich,
+2002; Romero et al., 2007), caused the distribution of Pbp1 to
+become more uniform, further consistent with the idea that it
+forms a condensate in vivo (Figure S3B). Cycloheximide, which
+reportedly inhibits stress granule formation, did not change the
+distribution pattern of Pbp1 within cells (Figure S3°C). Interestingly, in glucose medium, Pbp1 exhibited a more uniform distribution throughout the cytoplasm (Figure 3A).
+
+
+It has previously been suggested that Pbp1 has the potential
+to homo-multimerize (Mangus et al., 1998), which could explain
+its ability to form assemblies (Figure 3A). Using diploid cells expressing two different epitope-tagged versions of Pbp1, we
+examined the ability of Pbp1 to self-interact as assessed by
+co-immunoprecipitation from cell extracts. Pbp1 was strongly
+self-associated in extracts from cells grown in SL medium, in
+contrast to cells grown in SD (Figure 3B). Furthermore, the addition of glucose to cells growing in SL medium gradually reduced
+the ability of Pbp1 to self-associate (Figure 3°C). Therefore, the
+ability of Pbp1 to interact with both itself and Kog1 is dynamic
+and responsive to cellular metabolic state.
+
+
+Fractionation experiments showed that in cells grown in SL
+medium, the majority of Pbp1 protein was present in the pellet
+
+(legend continued on next page)
+
+fraction, consistent with the idea that it may form large protein
+assemblies under such conditions (Figure 3D). However, in cells
+grown in glucose, substantial amounts of Pbp1 were present in
+the soluble fraction, in addition to the pellet fraction (Figure 3D).
+
+
+Taken together, these observations indicate that at normal
+expression levels and physiological temperatures, Pbp1 does
+not form foci-like granules and is instead present in the form of
+pelletable assemblies during respiratory growth, which may
+play a role in the negative regulation of TORC1.
+
+
+A C-Terminal Low-Complexity Region of Pbp1 that
+
+
+
+Phase Separates Is Required for Inhibition of TORC1
+
+
+
+We next tested whether other regions of Pbp1 were required
+for self-association and perhaps the inhibition of TORC1. It
+has been noted that Pbp1 possesses a methionine- and proline-rich C-terminal region (Mangus et al., 1998). Sequence
+analysis of this region revealed that it is of low-complexity
+(LC) (Figure S4A), which is a feature of proteins that have a
+tendency to self-assemble or aggregate (Han et al., 2012; Molliex et al., 2015). To determine whether this region of Pbp1
+might be necessary for regulating TORC1 signaling, we constructed a Pbp1 mutant lacking the C-terminal low-complexity
+region (Pbp1DLC) (Figure 4A). Upon assessment of its function
+in vivo, this mutant exhibited increased phosphorylation of
+Atg13 (Figure 4B), reduced autophagy (Figure 4°C), and an
+increased growth phenotype indistinguishable from pbp1D
+cells (Figure 4D).
+
+To assess the biochemical features of this LC region, we recombinantly expressed and purified a fragment comprising this
+portion of Pbp1 (Pbp1_LC, aa570-722) (Figure 4A). Upon
+lowering the salt concentration to physiological levels, this
+purified fragment readily phase-separated into droplets in vitro
+(Figure 4E), and the droplets were stable within the time
+observed. In addition, these Pbp1_LC droplets were sensitive
+to 1,6-hexanediol. The droplets exhibited higher sensitivity to
+1,6-hexanediol compared to 2,5-hexanediol (Figure 4F), which
+can be a property of proteins that phase separate (Kroschwald
+et al., 2015; Lin et al., 2016; Shi et al., 2017).
+
+
+Using electron microscopy, we further observed that purified
+Pbp1_LC could readily form fibrils of 15–20 nm in width (Figure 4G). Consistent with the phase-separated droplets, these
+fibrils were also more sensitive to 1,6-hexanediol (Figure S4B).
+X-ray diffraction analysis of Pbp1_LC yielded a characteristic
+diffraction pattern with circular reflections at 4.7 A ̊ and 10 A ̊ ,
+indicating that the fibrils are of cross-b structure (Figure 4H)
+(Astbury et al., 1935; Geddes et al., 1968; Sunde and Blake,
+1997). These Pbp1_LC fibrils were highly labile and completely
+disassembled upon incubation at 37C in the absence of
+
+
+SDS, in contrast to fibers formed by the yeast prion protein
+Sup35 (Figure 4I). Taken together, these observations suggest
+that the C-terminal LC region of Pbp1 has a propensity to selfassociate into reversible, higher-order assemblies of cross-b
+structure.
+
+(H) X-ray diffraction pattern of His6-Pbp1_LC polymer pellets. Clear X-ray reflections were observed at 4.7 A ̊ and 10 A ̊ indicative of a cross-b structure.
+(I) SDD-AGE analysis of yeast Sup35 NM amyloid polymers and His6-Pbp1_LC polymers. SDS exposure did not substantially affect ySup35 NM amyloid polymers
+whereas Pbp1_LC polymers were fully depolymerized under all conditions.
+See also Figure S4.
+
+The C-Terminal LC Region Enables Pbp1 to SelfAssociate and Form a Perimitochondrial Condensate
+
+
+In Vivo
+We next examined whether this C-terminal LC region of Pbp1 enables its self-association in cells. We expressed a variant of
+Pbp1 lacking the C-terminal LC region (Pbp1DLC) in diploid
+cells with two different tags and assayed self-association using
+immunoprecipitation. In contrast to full-length Pbp1, Pbp1DLC
+showed reduced ability to self-associate (Figure 5A). Moreover,
+the Pbp1DLC mutant was less concentrated in the pellet after
+fractionation (Figure 5B).
+
+
+Pbp1DLC also exhibited a more uniform distribution pattern
+throughout the cytosol compared to full-length Pbp1 protein
+(Figure 5°C). When the C-terminal LC region of Pbp1 alone was
+expressed in cells, we observed that it formed punctate-like
+structures in both lactate and glucose medium (Figure 5D). Interestingly, these Pbp1_LC puncta were perimitochondrial (Figure 5D). Full-length Pbp1 did not co-localize with organelles
+such as the vacuole or endoplasmic reticulum (Figure S5). However, using a mitochondrial DsRed marker, we observed that
+Pbp1 appeared to be proximal, but exclusive of the mitochondria
+(Figure S5). Therefore, the C-terminal LC region of Pbp1 may
+enable the protein to form a nebulous condensate proximal to
+the mitochondria. Collectively, these results suggest that the
+propensity of the C-terminal LC region to phase separate may
+explain the non-uniform distribution of full-length Pbp1, its ability
+to self-associate to form pelletable assemblies, as well as its
+ability to inhibit TORC1 in vivo.
+
+
+Methionine Residues in the C-Terminal LC Region of
+
+
+
+Pbp1 Influence Stability of Phase Separation and Are
+
+
+
+Critical for Inhibition of TORC1
+Sequence analysis of the Pbp1°C-terminal LC region revealed an
+unusually high frequency of methionine residues (24 methionines
+in 150 aa) compared to the rest of the yeast proteome (Figures 6A
+and 6B). To test the importance of these methionines, we
+constructed a series of C-terminal truncation mutants lacking
+increasing numbers of methionine residues (Figure 6°C) and
+examined their ability to induce autophagy in SL medium
+(Figure 6D).
+
+
+We observed that a Pbp1 mutant lacking a region containing
+the last 8 methionines (M17–M24) (Figure 6°C, mutant (2)) could still
+induce autophagy, but further deletion of a region that contains
+M11–M16 significantly reduced autophagy (Figure 6D), suggesting the importance of this subset of methionines for function.
+
+
+By mutating pairs of adjacent methionine residues among
+M11–M16 to serine, we observed that Pbp1_LC M11,12 / S exhibited the weakest ability to form fibrils in vitro (Figure S6A).
+
+
+We therefore mutated M11, M12, and immediately upstream
+and downstream methionine residues to serine, to generate a series of mutants containing 2, 4, 6, or 8 M / S mutations.
+
+Strikingly, increasing the number of M / S substitutions
+within this region gradually reduced the ability of Pbp1 to induce
+
+autophagy in cells. In particular, the M7–14S mutant exhibited
+severely reduced autophagy (Figure 6E). Moreover, this mutant
+protein was less concentrated in the pellet fraction, with a
+substantial amount instead present in the soluble fraction
+(Figure 6F).
+
+
+We then tested the effect of increasing numbers of methionine
+mutations on phase-separated droplet formation of theLC region.
+All of the mutant combinations tested still phase-separated into
+droplets (Figure S6B). However, variants harboring increasing
+numbers of methionine mutations significantly decreased the
+stability of phase separated droplets as the droplets dissolved
+more readily upon lowering the protein concentration (Figure S6°C). Using a fluorescence recovery after photobleaching
+(FRAP) assay, we observed that the Pbp1_LC M7–14S droplets
+were able to recover much faster compared to WT droplets (Figures 6G and 6H; Videos S2 and S3), consistent with their
+decreased stability. Therefore, the functional WT Pbp1_LC region
+exhibits slower FRAP and is more solid-like, whereas a non-functional mutant in vivo exhibits faster FRAP and is more liquid-like.
+
+
+Taken together, we observed a strong correlation between the
+stability of phase-separated droplets in vitro and the ability of
+theprotein tosediment to the pelletandinduce autophagyin cells.
+
+
+Pbp1 Is Important for Maintaining Cellular Fitness and
+
+
+
+Mitochondrial Function
+
+
+
+Cells lacking Pbp1 bypass autophagy and continue to grow
+inappropriately under conditions that require mitochondrial
+respiration. To investigate the physiological consequences of
+loss of Pbp1, we measured the cell division times of more than
+1,000 WT and pbp1D cells as they replicatively age in SL medium
+using a microfluidic device. Newly born pbp1D daughter cells
+exhibited a shorter G1 phase (Figure 7A), which is consistent
+with the increased growth phenotype in batch cultures (Figure 1D). However, after the first few divisions, pbp1D mother
+cells displayed significantly protracted division times in comparison to WT mother cells (Figure 7B). In contrast, when pbp1D
+cells were grown in glucose, their division times were comparable to WT even after many divisions (Figure S7A). Moreover,
+there were substantially more pbp1D cells that appeared replicatively senescent (>2,000 min between divisions) (Figure 7°C) or
+with abnormal morphology (Figures 7D and S7B).
+
+To examine a possible role for Pbp1 in maintaining mitochondrial function, we grew WT and pbp1D cells in SL medium to stationary phase as a means of chronic nutritional stress. After a
+
+methionines was counted for each 150 aa window. The number of 150 aa peptides (y axis) with indicated numbers of methionine residues (x axis) was plotted. Red
+line indicates the position of the Pbp1°C-terminal LC region (24 methionines).
+(C) Schematic representation of a series of C-terminal truncation mutants lacking increasing numbers of methionine residues.
+(D) GFP cleavage assay showing autophagy in cells expressing the mutants depicted in (C). Cells expressing Pbp1 mutants lacking the region containing M11 to
+M16 (mutant (3), (4)) showed reduced autophagy.
+(E) GFP cleavage assay showing autophagy in cells expressing Pbp1 mutants with indicated methionine to serine point mutations. Cells expressing Pbp1
+with 8 methionine mutations (M7–14 S) showed severely reduced autophagy.
+(F) Western blot showing the distribution of Pbp1 mutant proteins with indicated methionine to serine mutations in SL medium. The Pbp1 protein
+containing 8 methionine mutations (M7–14 S) was less concentrated in the pellet fraction. Cells were cultured and processed as described in Figure 3D.
+(G) FRAP (fluorescence recovery after photobleaching) analysis of phase-separated droplets formed by purified Pbp1_LC WT or M7-14 S variant (100 mM). See
+also Videos S2 and S3.
+(H) Quantification of FRAP in (G). Note the phase-separated droplets of Pbp1_LC M7–14 S recovered faster compared to WT. Plots are generated from 9 droplets in
+3 independent experiments.
+See also Figure S6.
+
+prolonged period in stationary phase, pbp1D cells produced
+significantly more petites (Figure 7E), suggesting that many cells
+gradually lost mitochondrial respiratory function, as well as
+reduced survivability (Figure 7F). It thus appears that mitochondrial dysfunction and cell death may emerge due to loss of Pbp1
+following prolonged metabolic or nutritional stress, or as a
+function of age. Consistent with this idea, the abundance of
+
+
+Pbp1 appears to decrease substantially in replicatively aged
+cells (Janssens et al., 2015). Pbp1 may therefore sense respiratory status and mitochondrial dysfunction to properly modulate
+TORC1 signaling.
+
+--- DISCUSSION ---
+In this study, we show that Pbp1 is a bona fide negative regulator of TORC1 signaling whose function becomes especially
+important when cells heavily utilize mitochondria for energy production. Loss of Pbp1 function most prominently results in phenotypes associated with hyperactive TORC1 signaling, which
+include the inhibition of autophagy and increased anabolic
+metabolism due to promoting the biosynthetic functions of mitochondria (Chen et al., 2017). There has been a lack of clarity
+regarding the normal physiological function of Pbp1. Previous
+studies have implicated the protein in various aspects of RNA
+processing and as a component of stress granules (Buchan
+et al., 2008; Mangus et al., 1998; Swisher and Parker, 2010).
+However, during respiratory growth under physiological temperatures and expression levels, we find no evidence that
+
+
+Pbp1 forms discrete, punctate-like bodies that are typically
+associated with stress granules. Instead, it forms a more
+disperse condensate whose properties are dependent on the
+metabolic state. When cells are growing in lactate, Pbp1 is
+almost exclusively in the pellet fraction and exhibits a more
+non-uniform localization throughout the cytosol. With the ability
+to associate with Kog1, this form of Pbp1 appears to be capable
+of inhibiting the TORC1 complex.
+
+However, we further identified an unusual, methionine-rich low
+complexity region of Pbp1 that is also required for the inhibition
+of TORC1. This LC region readily phase separates to form droplets in vitro. Mutational analysis revealed a specific subset of
+methionine residues that weaken phase separation. Importantly,
+these same methionines are critical for inhibition of TORC1 and
+induction of autophagy in vivo. Taken together, our findings
+reveal how Pbp1 inhibits TORC1 through an unconventional
+
+mechanism involving phase separation. The C-terminal LC region enables Pbp1 to form an intracellular condensate, which
+is required for inhibiting TORC1 during respiratory growth.
+
+
+TORC1 still appears present at vacuoles in SL medium, but at
+reduced amounts compared to pbp1D cells (Figure S2A), which
+is potentially consistent with a physical sequestration model of
+inhibition (Takahara and Maeda, 2012). However, because a
+portion of the protein outside of the C-terminal LC region mediates actual binding to TORC1 (Figures 2E and S2E), we propose
+that an additional mechanism linked to phase separation of
+the LC region is required for the inhibition of TORC1, perhaps
+through modulation of distinct conformational or oligomeric
+states of TORC1 (Prouteau et al., 2017).
+
+Ataxin-2 is the mammalian ortholog of yeast Pbp1. Polyglutamine expansions near the N terminus of human ataxin-2 are
+linked to both ALS and spinocerebellar ataxia. However, just
+
+like yeast Pbp1, the normal physiological function of ataxin-2 remains unclear (Alves-Cruzeiro et al., 2016; Carmo-Silva et al.,
+2017; Lastres-Becker et al., 2008). Mutants lacking ataxin-2
+have been constructed in multiple species and exhibit several
+phenotypes consistent with those reported here for Pbp1 as a
+negative regulator of TORC1. These include increased ribosomal
+protein amounts (Fittschen et al., 2015) and increased body size
+of dietary-restricted animals that is accompanied by more rapid
+animal development (Bar et al., 2016). In addition, ataxin-2 has
+been reported to cross-talk with disease-associated proteins
+such as C9orf72 and Gr2b (growth factor receptor-bound protein 2), pointing to putative functions in autophagy and nutrient
+signaling (Drost et al., 2013; Sellier et al., 2016). Consistent
+with results herein, a recent report also demonstrates that a
+C-terminal intrinsically disordered region of ataxin-2 mediates
+the formation of RNP granules in Drosophila cells (Bakthavachalu et al., 2018). Our findings on the function and consequences of loss of Pbp1 in yeast suggest that compromising
+ataxin-2 function in neurons might result in mitochondrial
+dysfunction, energetic crisis, and eventually apoptosis, hallmarks that have all been linked to neurodegenerative disease
+(Nixon, 2013; Tatton and Olanow, 1999).
+
+
+Last, why might an intracellular condensate be required to
+regulate TORC1 specifically during respiratory growth? In addition to ATP synthesis, the mitochondria also play a key role in
+the biosynthesis of nitrogen-containing amino acids, which is
+promoted by activation of TORC1 (Chen et al., 2017; Laxman
+et al., 2014). An increased reliance on mitochondria for ATP synthesis leads to an increased dependency on inhibitors of TORC1
+to toggle the mitochondria between ATP and biosynthesis
+modes in tune with the metabolic state or demands of the
+cell. Because cells lacking Pbp1 begin to exhibit mitochondrial
+dysfunction and reduced survivability following prolonged nutritional stress or as a function of age under respiratory conditions,
+we propose that Pbp1 specifically senses some aspect of mitochondrial activity or dysfunction to adjust TORC1 for purposes of
+sustaining mitochondrial health. In the accompanying paper,
+we show precisely how the methionine-rich LC region of Pbp1
+senses hydrogen peroxide as a signal of mitochondrial dysfunction to subsequently modulate TORC1 signaling for metabolic
+adaptation (Kato et al., 2019 [this issue of Cell]). In closing, our
+findings have revealed an unanticipated spatial organization
+and regulation of signaling and metabolism within the cell necessitated by mitochondrial respiration.
+
+STAR+METHODS
+
+Detailed methods are provided in the online version of this paper
+and include the following:
+
+d KEY RESOURCES TABLE
+
+d CONTACT FOR REAGENT AND RESOURCE SHARING
+
+d EXPERIMENTAL MODEL AND SUBJECT DETAILS
+
+
+B Yeast strains
+
+B Yeast growth media and procedures
+d METHOD DETAILS
+
+
+B Assays to monitor autophagy
+
+
+
+B TCA-precipitated whole cell extracts preparation
+
+
+
+B TORC1 substrate phosphorylation
+
+
+
+B SILAC experiments to identify changes in protein
+
+abundance
+
+
+
+B Immunoprecipitation
+
+B Fractionation
+to
+assess
+intracellular
+assembly
+formation
+
+
+B Protein expression and purification
+
+
+
+B Phase-separated droplet formation
+
+
+
+B Transmission electron microscopy
+
+B X-Ray diffraction
+
+
+
+B Dissolution of phase-separated droplets
+B Semi-denaturing detergent agarose gel electrophoresis (SDD-AGE)
+
+
+B Dissolution of phase-separated droplets by dilution
+B Fluorescence recovery after photobleaching (FRAP)
+
+and quantification
+
+
+B Petite formation
+
+B Time-lapse microscopy
+
+
+
+B Image processing
+
+
+
+B Cell division period and replicative lifespan assays
+
+
+
+B Identification and quantification of cells with abnormal
+morphology
+
+
+B Proteome-wide analysis of methionine content
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+
+
+B Low complexity sequence analysis
+d DATA AND SOFTWARE AVAILABILITY
+
+
+B Methionine content analysis
+
+B Image processing analysis

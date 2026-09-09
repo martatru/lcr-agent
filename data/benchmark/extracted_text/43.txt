@@ -1,0 +1,595 @@
+--- Results ---
+
+
+
+To investigate the phase separation of hnRNPH1, we first
+cloned different domains of hnRNPH1 (as shown in SI
+Appendix, Fig. S1A) into bacterial expression constructs with an
+N-terminal mCherry tag. Purified, recombinant proteins comprising mCherry-linked hnRNPH1 domains were then concentrated up to 100 mg/mL and prepared as small droplets on
+glass-bottomed chambers. Upon incubation at room temperature for 1 wk, pure solutions of full-length (amino acids 2
+through 449) and C-terminal half (amino acids 192 through
+449) hnRNPH1 became hydrogel-like state that could be visualized by confocal microscopy (CM) (Fig. 1A, Top Left and Middle). The LC1 domain (amino acids 192 through 280) of
+hnRNPH1 also became a hydrogel-like state; however, gelation
+took longer than for the full-length or C-terminal half and
+hydrogel droplets were not as solid, easily detaching upon addition of buffer (Fig. 1A, Top Right). The other domains of
+hnRNPH1 (N-terminal half, RRM3, and LC2 domain) did not
+become hydrogel. We next used a transmission electron microscope (TEM) to identify the nature of hydrogel droplets
+
+composed of the full-length, C-terminal half, and LC1 domain
+of hnRNPH1. TEM images revealed that the hnRNPH1 hydrogel droplets were composed of polymeric fibers (Fig. 1A, Bottom), which were shorter and more tangled in the case of the
+LC1 domain (Fig. 1A, Bottom Right).
+
+
+In contrast to the extreme stability of pathogenic amyloid
+fibers (21, 22), phase separation–driven polymeric fibers are
+known to be labile to disassembly when exposed to sodium
+dodecyl sulfate (SDS) (1, 4). To examine the biochemical properties of polymeric fibers formed from the C-terminal half of
+hnRNPH1 in comparison with polymers composed of the typical prion, yeast Sup35 (ySup35) protein (SI Appendix, Fig. S2A)
+(23), we subjected polymer samples to semidenaturing detergent agarose gel electrophoresis (SDDAGE). When incubated
+in buffer containing no SDS or 0.5%, 1%, or 2% SDS, the
+ySup35 polymers did not depolymerize, even in the buffer with
+the highest SDS concentration (2%), instead migrating as large
+polymers by electrophoresis (Fig. 1B, Left). However, polymers
+of hnRNPH1°C-terminal half almost fully disassembled into
+monomers in gelation buffer containing no SDS (Fig. 1B,
+Right). In the previous studies, it was reported that the
+reversible amyloid-like polymers and LLDs formed by phase
+separation of LC domains are melted specifically by an aliphatic alcohol, 1,6-HD (hexanediol), but not by 2,5-HD
+(24, 25). As shown in SI Appendix, Fig. S2B, the hydrogel droplets composed of the C-terminal half of hnRNPH1 was melted
+by incubation with 15% level of 1,6-HD but not by 2,5-HD,
+indicating that the hydrogel droplet of hnRNPH1°C-terminal
+half is composed of labile polymers.
+
+LC1 Domain of hnRNPH1 Drives Phase Separation. To further assess
+the subregions of hnRNPH1 responsible for phase separation,
+we used a hydrogel-binding assay. The hydrogel-binding assay
+is a reliable technique for identifying protein regions responsible for phase separation or phase separation–dependent association
+between
+proteins
+(2,
+24).
+
+
+We
+therefore
+incubated
+mCherry
+hydrogel
+droplets
+composed
+of
+the
+hnRNPH1°C-terminal half with soluble GFP-linked proteins representing
+different regions of hnRNPH1 (Fig. 2A). Consistent with our
+polymerization and hydrogel formation assays (Fig. 1), the fulllength, C-terminal half, and LC1 domain of hnRNPH1 were
+retained on mCherry hydrogel droplets composed of the
+hnRNPH1°C-terminal half but the N-terminal half, and LC2
+domain of hnRNPH1 were not. Furthermore, ΔLC1 hnRNPH1
+did not bind mCherry hydrogel droplets composed of the
+hnRNPH1°C-terminal half. These data suggest that the LC1
+domain is required for phase separation–dependent selfassociation of hnRHNPH1.
+
+
+Recent studies have shown that the LC domains of a variety
+of RNA regulatory proteins can undergo phase separation into
+LLDs (4, 26). To examine whether hnRNPH1 can also become
+LLDs, we subjected purified, recombinant proteins of different
+
+
+GFP-linked regions of hnRNPH1 to an in vitro LLD formation
+assay. When dialyzed in buffer containing a physiological concentration of salt (150 mM NaCl), all the hnRNPH1 proteins
+tested remained clear. However, upon addition of the crowding
+agent, 10% polyethylene glycol (PEG), we observed formation
+of spherical-shaped LLDs in a concentration- and timedependent manner for the LC1 domain of hnRNPH1 (Fig. 2B).
+
+
+We could observe the LC1 domain LLDs from 30 min after
+addition of 10% PEG (Fig. 2B). We validated the formation of
+labile LLDs by monitoring the effects of the aliphatic alcohols
+and as shown in Fig. 2°C, the LC1 LLDs were melted substantially by 10% level of 1,6-HD but not by 2,5-HD following overnight
+incubation.
+
+
+Interestingly,
+robust
+formation
+of
+the
+aggregation-like precipitates was observed for full-length and
+C-terminal half of hnRNPH1, and it was also concentrationand time-dependent (Fig. 2B). The aggregation-like precipitates were melted upon addition of 0.5% SDS or 10% 1,6-HD
+but not by 10% 2,5-HD, implying the reversible and labile
+nature of the precipitates produced from each protein sample
+(SI Appendix, Fig. S3A). The N-terminal half, RRM3, LC2, and
+
+
+BIOCHEMISTRY
+ΔLC1 of hnRNPH1 formed only small precipitates at high concentrations and after longer incubation time, suggesting that
+the formation of the labile aggregation-like precipitates is LC1
+domain dependent (Fig. 2B and SI Appendix, Fig. S3A).
+
+
+Given that the LC1 domain of hnRNPH1 is sufficient for
+phase separation into LLDs, while full-length or C-terminal
+half exhibited stronger hydrogel formation and were prone to
+precipitate in LLD formation assays, we asked whether RRM3
+or LC2 domains modulate phase behavior of the LC1 domain.
+To test this, mCherry-linked recombinant proteins of the C terminus (LC1/RRM3/LC2), ΔLC1 (RRM3/LC2), ΔRRM3 (LC1/
+LC2), and ΔLC2 (LC1/RRM3) and LC1 alone of hnRNPH1
+were subjected to hydrogel formation. Of note, mCherry-linked
+ΔRRM3 (LC1/LC2) became hydrogel droplets more effectively
+than the C terminus (LC1/RRM3/LC2), indicating that the
+LC2 domain enhances phase separation (SI Appendix, Fig.
+S3B). The other mCherry-linked proteins did not become
+hydrogel droplets until 10 d of incubation (SI Appendix, Fig.
+S3B). We confirmed that the hydrogel droplets composed of
+mCherry-linked ΔRRM3 (LC1/LC2) were melted upon incubation with 15% level of 1,6-HD but not by 2,5-HD (SI Appendix,
+Fig. S3B). To further understand the contribution of the LC1,
+
+
+RRM3, and
+LC2 to
+phase separation,
+we
+next applied
+mCherry-linked recombinant proteins of the LC1, RRM3, or
+
+
+LC2 domains to the LLDs composed of the GFP-linked LC1
+domain and examined the incorporation of the mCherry-linked
+proteins into the LLDs. As shown in Fig. 2D, mCherry-linked
+LC1 domain exhibited strong incorporation into LLDs composed of GFP-linked LC1 domain, while no such incorporation
+was observed for the mCherry alone, mCherry-linked RRM3,
+or LC2 domains. Collectively, these data suggest that the LC1
+domain is critical for driving phase separation of hnRNPH1,
+while the LC2 domain is capable of modulating phase behavior
+but dispensable for phase separation.
+
+The LC1 Domain Is Required for Interactions between hnRNPH1 and
+Other RBPs. For hnRNPH1 to function as a regulator of RNAprocessing in cells, it needs to form a complex through interactions with a variety of RNAs and RNA regulatory proteins
+(27). Considering that the hnRNPH1 LC1 domain underwent
+phase separation into reversible polymeric fibers or LLDs and
+was sufficient to drive homotypic association in hydrogelbinding assays, we hypothesized that the LC1 domain contributes to hnRNPH1 interactions with other RBPs harboring LC
+domains by forming dynamic LC–LC interactions. To test this
+possibility, we first challenged hydrogel droplets composed of
+LC domains appended to different types of RBPs (FUS,
+TAF15, DHX9, hnRNPA1, or hnRNPA2) with soluble GFPlinked proteins of different regions of hnRNPH1. As shown in
+Fig. 3A, the LC1 domain of hnRNPH1 was avidly trapped by
+all hydrogel droplets tested. Weak trapping was observed when
+the full-length or C-terminal half of hnRNPH1 were exposed to
+hydrogel droplets, and no trapping was observed when the
+N-terminal half, LC2 domain, or ΔLC1 hnRNPH1 were
+exposed. Given that neither the N-terminal half nor the LC2
+domain are, on their own, capable of phase separation in vitro,
+these data tentatively indicate that hnRNPH1 makes use of the
+LC1 domain to adhere to existing hydrogel droplets of different
+LC domains. We also tested whether the LC1 domain is important for hnRNPH1 interaction with hnRNPF, its coregulator
+for RNA-splicing, which contains LC domain in the C-terminal
+domain (SI Appendix, Fig. S1A). As shown in SI Appendix, Fig.
+S4, the C-terminal region of hnRNPF underwent phase separation into hydrogel droplet, which was melted upon incubation
+with 15% level of 1,6-HD but not by 2,5-HD. In hydrogelbinding assays, hydrogel droplets composed of the hnRNPF
+
+
+C-terminal region trapped the GFP-linked C-terminal half and
+
+
+
+LC1 domain of hnRNPH1 avidly, the full-length hnRNPH1
+weakly, and the N-terminal half, LC2, and ΔLC1 of hnRNPH1
+poorly (Fig. 3A, Right), implying a role for the hnRNPH1 LC1
+domain in the interactions between hnRNPH1 and hnRNPF.
+
+To further validate the internal domain of hnRNPH1 responsible for interaction with other RBPs in living cells, we subjected Flag-tagged full-length, ΔLC1 domain, or ΔLC2 domain
+hnRNPH1 to pull-down assays in human embryonic kidney
+(HEK)-293T cells. As shown in Fig. 3B, full-length hnRNPH1
+coprecipitated with a variety of RBPs including FUS, TAF15,
+DHX9, hnRNPA1, hnRNPA2, and hnRNPF. Consistent with
+the
+in
+vitro
+hydrogel-binding
+assay,
+interactions
+between
+hnRNPH1 and these RBPs were reduced by deletion of the
+hnRNPH1 LC1 domain (ΔLC1) but not by deletion of the LC2
+domain (ΔLC2). These data suggest that the LC1 domain but
+not the LC2 domain is critical for interactions between
+hnRNPH1 and other RBPs in cells.
+
+
+Tyrosine Residues in LC1 Are Important Determinants for Phase
+Separation of hnRNPH1. Many LC domains that undergo phase
+separation contain repeats of aromatic amino acids—tyrosine
+and/or phenylalanine residues. Previous studies have revealed
+that repetitive tyrosine or phenylalanine residues are critical for
+phase separation and function of LC domains (1, 3, 5, 28).
+Tyrosine-to-serine (Y-to-S) substitutions within the [G/S]Y[G/S]
+triplet repeats of FUS and TAF15 LC domains effectively disrupt the formation of amyloid-like polymers as well as the transcriptional activity of the LC domains (3). In the case of
+hnRNPA2, a single phenylalanine-to-serine (F-to-S) substitution
+is sufficient to interrupt incorporation of the LC domain into
+preexisting LLDs or hydrogel droplets (5). The LC1 domain of
+hnRNPH1 contains 11 repeats of the triplet sequence [G/
+S]Y[G/S] and four phenylalanine residues (SI Appendix, Fig.
+S1B). To identify the sequence determinants for phase separation of the hnRNPH1 LC1 domain, we generated 11 mutant
+LC1 domains with a single Y-to-S (Y195S, Y210S, Y219S,
+
+
+Y236S, Y240S, Y243S, Y246S, Y249S, Y253S, Y266S, and
+Y276S) substitution and four with a single F-to-S (F228S,
+F255S, F260S, and F268S) substitution. Wild-type (WT) or
+
+mutant LC1 domains were produced recombinantly in the form
+of fusion proteins with an N-terminal GFP tag and applied to
+chamber slides containing hydrogel droplets composed of the
+mCherry-linked hnRNPH1°C-terminal half. Following overnight
+incubation, hydrogel-trapping of WT or mutant GFP-tagged
+LC1 domains of hnRNPH1 was analyzed using confocal microscopy. As shown in Fig. 4A, the intensity of hydrogel binding was
+decreased among LC1 domains with Y236S, Y240S, or Y243S
+substitutions compared with that of the WT LC1, suggesting
+that residues Y236, Y240, and Y243 are critical to trapping by
+hydrogel droplets of the hnRNPH1°C-terminal half. We then
+tested the effect of the Y/F-to-S substitutions on LLD formation
+of the hnRNPH1 LC1 domain. GFP-linked recombinant proteins of WT or mutant hnRNPH1 LC1 domains were dialyzed
+in buffer containing 150 mM NaCl and 10% PEG. As shown in
+Fig. 4B and SI Appendix, Fig. S5A, WT LC1 formed stable droplets at all protein concentrations (1 to 10 μM), and single Y/F-
+to-S substitutions did not lead to observable changes in the
+formation of LLDs except for Y210S and Y219S, which exhibited slight decreases in the size of LLDs. We therefore generated a double Y-to-S mutant, Y210/219S (Y2S), and a triple
+Y-to-S mutant, Y236/240/243S (Y3S), and examined their
+effects on LLD formation. As shown in Fig. 4B, the Y2S LC1
+mutant formed droplets at all protein concentrations, but the
+LLDs were smaller than those of the WT LC1 domain. Further,
+the Y3S LC1 mutant failed to form LLDs at 1 μM and formed
+much smaller droplets at 3 and 10 μM compared with those of
+the WT LC1 or Y2S LC1 mutant (Fig. 4B). These results suggest that the three tyrosine residues, Y236, Y240, and Y243, in
+
+
+BIOCHEMISTRY
+the LC1 domain are critical for phase separation into LLDs and
+polymer formation.
+
+To test whether the phase separation–deficient Y-to-S mutations impact hnRNPH1–RBP interactions, we examined trapping of GFP-linked WT or mutant hnRNPH1 LC domains by
+the six mCherry-linked hydrogel droplets presented in Fig. 3A,
+and hydrogel droplets composed of the hnRNPH1°C-terminal
+half using confocal microscopy. As shown in Fig. 4°C, sequential
+diminishment in hydrogel-trapping was observed for Y2S or
+Y3S mutants. Consistent with the in vitro hydrogel-binding
+assays, Y2S and Y3S substitutions induced a reduction in interaction between hnRNPH1 and different kinds of RBPs as analyzed by immunoprecipitation assays (SI Appendix, Fig. S5B)
+without altering the subcellular localization of hnRNPH1 (SI
+Appendix, Fig. S5°C). It is possible that the reduction in RBP
+interactions of hnRNPH1 mutants reflects the changes in their
+RNA-binding ability. This proved not to be the case. When we
+conducted RT-PCR following immunoprecipitation of Flagtagged WT, ΔLC1, Y2S, and Y3S hnRNPH1 expressed in
+
+
+HEK-293T cells
+for
+human
+telomerase
+RNA
+component
+(hTERC), which has been reported to bind hnRNPH1 (29)
+ΔLC1 but neither Y2S nor Y3S reduced RNA-binding ability
+(SI Appendix, Fig. S5D). We also examined the effect of the
+phenylalanine residues (F228, F255, and F268) on hydrogeltrapping, RBP interaction, and alternative RNA-splicing (SI
+Appendix, Fig. S5 E–G). Although substitution of all three phenylalanine
+residues
+to
+serine
+(F3S)
+somewhat
+decreased
+hydrogel-trapping of the LC1 domain of hnRNPH1, they did
+not affect RBP-binding and -splicing activity of hnRNPH1.
+
+These results indicate that the effects of Y-to-S mutations on
+hnRNPH1 phase behavior and protein interactions are correlated, supporting the conclusion that phase separation is essential for protein–protein interactions of hnRNPH1.
+
+
+Phase Separation of the LC1 Domain Is Required for Splicing
+Regulation by hnRNPH1. Knowing that the Y-to-S substitutions in
+the LC1 domain interfere with phase separation and interaction
+with other proteins, we hypothesized that diminished phase
+separation ability caused by these LC1 mutations might affect
+the function of hnRNPH1 as an alternative RNA-splicing regulator. To test this possibility, we analyzed changes in splicing
+pattern of transcripts produced from C2orf18, CDK2, Man2a2,
+and PEX26 genes upon knockdown (KD) of endogenous
+hnRNPH1 expression using RT-PCR. A small interfering RNA
+(siRNA) targeting hnRNPH1, its paralog hnRNPH2, and the
+homolog hnRNPF was used for KD because these proteins
+have functional redundancy in control of alternative RNAsplicing in cells (12). KD of the endogenously expressed
+hnRNPH1/2 and hnRNPF was validated using immunoblotting
+(SI Appendix, Fig. S6A). As shown in Fig. 4D, KD of hnRNPH/
+F resulted in a significant decrease in the percent spliced in
+(PSI) levels of C2orf18 exon 5, CDK2 exon 5, Man2a2 exon 11,
+and PEX26 exon 11. Upon transient transfection of the WT
+hnRNPH1 gene, the PSI levels of those exons were increased
+(Fig. 4D, third lane); whereas the Y2S and Y3S hnRNPH1
+mutants failed to restore PSI levels as much as the WT
+hnRNPH1 (Fig. 4D, fourth and fifth lanes). Expression of the
+transiently expressed hnRNPH1 proteins was analyzed by
+
+Western blotting (SI Appendix, Fig. S6B). Thus, these data indicate that phase separation mediated by the LC1 domain might
+be required for the biological function of hnRNPH1 in regulating RNA-splicing.
+
+
+The hnRNPH1 LC2 Domain Can Function as a Transcriptional
+Activation Domain. B-cell precursor acute lymphoblastic leukemia (BCP-ALL) is the most-common pediatric cancer, and its
+prognosis in adults is generally unfavorable (30). Chimeric
+fusion proteins involving transcription factors are hallmarks of
+BCP-ALL. A recent human genetic study reported the presence
+of genes encoding fusions between the N-terminal DBD of the
+
+
+MEF2D transcription factor and the C-terminal regions of two
+different hnRNPs, hnRNPH1 and hnRNPUL1, in BCP-ALL
+(17). Remarkably, both MEF2D-hnRNPH1 and MEF2D-
+hnRNPUL1 retain the LC domains of the hnRNP protein.
+
+
+Although MEF2D-BCL9, the most-common MEF2D fusion
+protein found in ALL, results in enhanced transcriptional activity (31), little is known about the mechanisms by which
+MEF2D–hnRNP fusion genes contribute to tumorigenesis (17).
+
+
+We hypothesized that the LC domains in the C terminus of
+hnRNPH1 might activate transcription, because LC domains
+from the FET (FUS, EWS, and TAF15) protein family have
+been shown to function as potent transcriptional activation
+domains in oncogenic fusion proteins (3, 32). To test this possibility, we linked hnRNPH1 genes of different lengths and containing different subregions to the GAL4-DBD and assayed for
+transcriptional activation of the firefly luciferase gene as a
+reporter. As
+shown
+in
+Fig.
+
+
+5A,
+the C-terminal
+half
+of
+hnRNPH1 linked to GAL4 DBD activated transcription of
+luciferase downstream of the upstream activation sequence
+(Materials and Methods) by more than 10-fold compared with
+the GAL4 control, while the N-terminal half of hnRNPH1 did
+not, suggesting that the C terminus of hnRNPH1 indeed gained
+transcriptional activity through the formation of a fusion gene
+with the DBD. Further dissecting the C-terminal half of
+hnRNPH1 for transcriptional activity revealed the highest transcriptional activity in cells transfected with the LC2 domain,
+while LC1 or RRM3 alone did not transactivate the luciferase
+reporter gene (Fig. 5A).
+
+
+The Y-to-S mutations inhibiting in vitro phase separation of
+
+
+
+FUS and TAF15 LC domains also abolished the transcriptional
+activity of these LC domains (3), while Y-to-F mutations, which
+enhanced phase separation of AKAP95 to form less-dynamic
+droplets, impaired AKAP95 functions in gene expression and
+tumorigenesis (33). Thus, mutations perturbing phase separation in opposite directions may actually be deleterious to protein function. Similarly, although in vitro phase separation into
+a hydrogel-like state or LLDs was not observed for the
+hnRNPH1 LC2 domain, it is still possible that mutations altering the phase property of the LC2 domain can affect transcriptional activity. To explore this possibility, we first generated
+
+
+GAL4-linked mutant LC2 domains where tyrosine residues
+were mutated to serine (SI Appendix, Fig. S1B). In GAL4-
+dependent transcriptional reporter assays, all seven mutant
+LC2 domains showed decreased transcriptional activity compared with the WT one: in particular, the Y408S mutation
+almost completely abolished LC2-mediated transcription of the
+luciferase reporter gene (Fig. 5B). Since the C-terminal half
+without LC1 (RRM3/LC2) was considerably more active than
+WT C-terminal half of hnRNPH1 as shown in Fig. 5A, it was
+hypothesized that the phase separation capability of the LC1
+domain might interfere with the transcriptional activity of the
+LC2 domain. To test this possibility, we conducted luciferase
+reporter assays using WT, Y408S, Y2S, and Y3S C-terminal
+half of hnRNPH1 linked to GAL4-DBD. While Y408S mutation significantly decreased the transcriptional activity of the
+hnRNPH1°C-terminal half, C-terminal variants carrying either
+Y2S or Y3S exhibited transcriptional activation capacity indistinguishable from WT, suggesting that phase separation property of LC1 is separate from the LC2-mediated transcriptional
+activation (SI Appendix, Fig. S7A).
+
+
+We then examined the effects of the Y408S mutation on the
+phase behavior of the LC2 domain. To do this, we generated
+hydrogel droplets using mCherry-linked hnRNPH1°C-terminal
+halfs having WT or Y408S mutant LC2 domains (Fig. 5°C). The
+C-terminal half of hnRNPH1 harboring Y408S formed hydrogel droplets that were fully analogous to those formed from
+WT protein. However, unlike the WT hydrogel droplets, which
+were melted substantially by 1,6-HD, hydrogel droplets composed of the C terminus with Y408S mutation were resistant to
+1,6-HD even after overnight exposure at 37°C (Fig. 5°C). Moreover, in hydrogel-binding assays using mCherry hydrogel droplets composed of different types of LC domain, the GFP-linked
+
+
+Y408S LC2 domain exhibited avid hydrogel-trapping, which
+was not observed for the GFP-linked WT LC2 domain (Fig.
+5D). However, Y408S LC2 domain did not form hydrogel droplets on its own, like the WT LC2 domain (SI Appendix, Fig.
+S7B). These results suggest that the Y408S mutation not only
+promotes phase separation of the C-terminal half of hnRNPH1
+into less-labile droplets but also induces the LC2 domain to
+favor hydrogel-dependent interactions with other LC domains
+of a variety of RBPs. Taken together, these data indicate that
+the
+transcriptional
+activation
+capacity
+of
+the
+hnRNPH1°C-terminal requires its LC2 domain and is impaired by perturbation of the phase separation property. We propose a model
+in which LC1 drives dynamic protein–protein interactions,
+
+regulating splicing function of hnRNPH1 under physiological
+conditions, while LC2, which shows little tendency to phaseseparate, is important for the transcriptional activation capacity
+of hnRNPH1 when divorced from its normal setting.
+
+--- Discussion ---
+
+
+
+The proper function of hnRNPH1 in splicing regulation is
+highly dependent on its multivalent interactions with RBPs
+including hnRNPF, a coregulator of alternative-splicing (29).
+
+
+Here, we showed that the C-terminal half of hnRNPH1, which
+contains two LC domains (LC1 and LC2), became hydrogel
+droplets composed of reversible polymers by phase separation
+(Fig. 1). Of the two LC domains of hnRNPH1, the LC1 domain
+was not only required for phase separation–dependent interactions with a variety of other LC domains but also sufficient for
+phase separation into reversible polymers as well as LLDs
+in vitro (Figs. 1 and 2). Aliphatic alcohols showed similar abilities to melt both hydrogels and LLDs composed of the LC1
+domain, implying that the LC1 domains are disposed similarly
+in hydrogel droplets and LLDs (Figs. 2 and 5) (2). Despite the
+sequence similarity of the tyrosine triplets, in vitro phase separation was not observed for the LC2 domain. The LC1 domain
+was also required for interaction with other RBPs including
+
+
+FUS, TAF15, DHX9, hnRNPA1, hnRNPA2, and hnRNPF as
+revealed by in vitro hydrogel-binding assays and pull-down
+assays in living cells (Fig. 3). By investigating the aromatic
+amino acid residues of [G/S]Y[G/S] triplets and FG dipeptide
+repeats within the LC1 domain, we demonstrated that the tyrosine residues might be the key drivers of phase separation (Fig.
+4 A and B). Notably, the Y210/219S (Y2S) and Y236/240/243S
+(Y3S) mutations that abrogate phase separation of the LC1
+domain prevented both trapping of the LC1 domain by the
+hydrogel droplets composed of the LC domains appended to
+different kinds of RBPs in vitro and RBP interaction of
+hnRNPH1 in vivo without altering the subcellular localization
+and the RNA-binding ability of hnRNPH1 (Fig. 4°C and SI
+Appendix, Fig. S5). In addition, the hnRNPH1 genes containing
+Y2S or Y3S mutations failed to restore the splicing of endogenous target gene transcripts in HEK-293T cells (Fig. 4D). Thus,
+our data link the phase properties of hnRNPH1 to its physiological function in splicing via its ability to compartmentalize
+multiple proteins.
+
+
+BIOCHEMISTRY
+
+
+
+A causal role of hnRNPH1 phase separation in its splicing
+activities is consistent with previous studies showing a role for
+phase separation of Rbfox proteins in their splicing activity (34)
+and the importance of LC domain-mediated interactions
+between the hnRNPA and D families in splicing regulation
+(35). The present study extends earlier work in several ways.
+
+
+First, we established a role for phase separation in the
+protein–protein interactions of hnRNPH1. Multivalent interactions between hnRNPs and other RBPs together with their distinct RNA-binding specificities underlie the mechanisms of
+hnRNP-dependent control of alternative RNA-splicing (36).
+Using in vitro hydrogel-binding assays and pull-down assays in
+cells, we demonstrated that hnRNPH1 recruits other related
+
+
+RBPs containing LC domain possibly via the phase separation
+process of the LC1 domain (Fig. 3). Second, we uncovered the
+sequence determinants for hnRNPH1 phase properties and
+provided evidence that both hnRNPH1 interactions with RBPs
+in vitro and the splicing activity of hnRNPH1 in HEK-293T
+cells are disrupted in phase separation–deficient mutants (Fig.
+4). Interestingly, the LC domains enriched in [G/S]Y[G/S]
+motifs have been implicated in the formation of membraneless
+organelles and fibrillar-like structures in vivo (1, 28, 37, 38).
+
+
+Moreover, aberrant assembly of these structures can lead to
+formation of protein aggregates implicated in multisystem
+degenerative diseases (6). However, how protein assemblies
+
+formed by the LC domains containing [G/S]Y[G/S] and other
+types of repeat motifs regulate the physiological functions of
+RBPs are poorly understood. Our results demonstrate that
+phase
+separation
+control
+of
+multivalent
+interactions
+of
+hnRNPH1 might represent an important mechanism underlying splicing regulation.
+
+
+The diverse functions played by hnRNPH1 are not limited to
+mRNA biogenesis. Genomic approaches have recently identified MEF2D–hnRNPH1 fusion as a novel rearrangement in
+BCP-ALL (17). However, the roles of the MEF2D–hnRNPH1
+fusion molecule in the pathogenesis of leukemia remains
+unclear. The resulting gene product is a fusion protein in which
+a DBD of MEF2D is connected to the C-terminal region of
+hnRNPH1, retaining LC1 domain, LC2 domain, and RRM3.
+By employing a simple, functional read-out (transcriptional
+activation), we demonstrated that the LC2 domain has strong
+transcriptional activation capacity, whereas the LC1 domains
+and RRM3 show no detectable transcriptional activity (Fig.
+5A). Furthermore, evaluation of single–amino acid substitutions
+of all seven tyrosine residues within the hnRNPH1 LC2 domain
+with respect to their abilities to activate transcription revealed
+that the transcriptional activity is strongly dependent upon tyrosine residues within the LC2 domain (Fig. 5B and SI Appendix,
+Fig. S1B). Evidence that the LC2 domain of hnRNPH1 is able
+to function as a transcriptional activation domain is consistent
+with recent studies of the cancer-causing fusion proteins linking
+FET (FUS, EWS, and TAF15) LC domains to a variety of different DBDs (3, 32, 39, 40). In the form of fusion genes with
+the GAL4-DBD, the LC domains of FUS and TAF15 exhibited
+strong transcriptional activity, which was in correlation with the
+phase separation capabilities of the LC domains (3). However,
+transcriptional regulation of hnRNPH1 and FET proteins
+shows different dependencies on phase separation propensity,
+suggesting a context-dependent regulation of protein function
+by phase properties. Collectively, our findings reveal that the
+hnRNPH1°C-terminal region gains an activity affecting gene
+expression when fused to DBDs, giving rise to the intriguing
+possibility that MEF2D–hnRNPH1 may contribute to the process
+of
+oncogenesis
+through
+an
+aberrant
+transcriptiondependent mechanism.
+
+
+How, then, might one conceptualize the manner in which
+intact hnRNPH1 proteins regulate RNA alternative-splicing in
+the context of their normal cellular function, while isolated
+parts of hnRNPH1 proteins that are translocated onto DBDs
+in cancer can achieve transcriptional activation? One possibility
+is that intact hnRNPH1 proteins are able to bind to RNAs via
+RRMs in their N-terminal regions. Perhaps the presence of
+
+
+RNAs might contribute to phase separation of hnRNPH1 into
+labile structures that are required for recruitment of RBPs
+implicated in splicing regulation to an hnRNPH1 complex. Further studies are required to understand the dynamic behavior
+of the LC domains under physiological and pathological conditions. Importantly, mutations of key residues in the LC1 and
+
+
+LC2
+domains
+perturb
+the
+phase
+separation
+property
+of
+hnRNPH1 in opposite directions. Blocking of splicing function
+by Y-to-S mutations in the LC1 domain probably results from a
+failure in phase separation for recruiting key proteins into local
+proximity. By contrast, the Y408S mutation in the LC2 domain,
+which induces phase separation into less-labile hydrogel droplets, may slow down biochemical reaction kinetics inside by
+restricting movement and interactions of other macromolecules
+such as transcription factors and coactivators. Enhanced homotypic and heterotypic bindings to hydrogel droplets composed
+of different LC domains and resistance to 1,6-HD-mediated
+melting (Fig. 5) suggest that the Y408S mutation of the LC2
+domain may restrict hnRNPH1 dynamics. Taken together,
+our findings suggest that the two LC domains in hnRNPH1
+take on distinct roles: the LC1 domain regulates normal
+
+splicing
+activity,
+whereas
+the
+
+
+LC2
+domain
+is
+required
+for aberrant transcriptional activation, providing a potential
+therapeutic approach directed against the oncogenic function of hnRNPH1.

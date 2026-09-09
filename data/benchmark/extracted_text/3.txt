@@ -1,0 +1,487 @@
+--- Results ---
+
+
+
+A low-complexity region proximal to the Mmi1 YTH domain
+stabilizes the interaction with RNA
+
+
+To investigate the interaction between the Mmi1 YTH
+domain and RNA, we performed electrophoretic mobility shift
+assays (EMSAs) with a fluorescently-labeled RNA substrate
+composed of a DSR sequence from the rec8 3-UTR (rec8DSR,
+Fig. 1A). Full-length Mmi1 could only be expressed in small
+quantities and was difficult to purify to homogeneity. Thus, we
+tested binding with an Mmi1 YTH domain construct encompassing the RNA-binding domain, plus an additional 20 N-terminal amino acids with no predicted secondary structures that
+are nevertheless ordered in a published crystal structure and
+contact RNA (residues 327–488, Fig. 1A) (22). Although free
+
+
+RNA disappeared upon addition of increasing amounts of the
+YTH protein, a stable protein–RNA complex was not observed
+in the gel (Fig. 1B, left panel). It is likely that the YTH protein
+
+binds RNA but dissociates during electrophoresis, i.e. the offrate is too fast to observe complex formation by EMSA.
+
+To determine whether additional N-terminal sequence elements are involved in RNA binding and stabilization of the
+complex, we used a longer construct, including residues 282–
+488 (Fig. 1A). Residues 282–326 are largely hydrophilic and
+include 10 serines, a lysine/arginine-rich stretch (residues
+301–309), and three prolines (residues 313–315). Purified
+Mmi1(282–488) behaved well in solution: nano-differential
+scanning fluorimetry (nano-DSF) and circular dichroism (CD)
+spectroscopy data were consistent with a folded YTH domain
+(Fig. S1). Furthermore, size-exclusion chromatography coupled to multiangle light scattering (SEC-MALS) showed that it
+was monomeric and monodisperse in solution (Fig. S2). When
+we analyzed RNA binding by EMSA using this construct, a stable RNA–protein complex was visualized as a better-defined
+band on the gel (Fig. 1B, right panel). Therefore, the upstream
+sequence proximal to the YTH domain likely increases the
+binding affinity of the YTH domain for DSR RNA. We termed
+this 45-amino acid segment the “upstream stabilization region”
+(USR).
+
+To quantitatively measure the binding affinity (KD) of
+YTH and USR–YTH proteins for RNA, we used fluorescence
+polarization with a short 15-mer DSR-containing substrate
+(DSRshort). Longer RNAs exhibit secondary binding events at
+higher concentrations, observed as a supershifted band in the
+EMSA (Fig. 1B, asterisk). We used increasing protein concentrations and buffer containing either 50 or 150 mM NaCl and
+measured the change in fluorescence polarization of the labeled
+
+
+Fluorescence polarization,
+calculated KD (nM)
+
+
+SwitchSENSE
+Construct (residues)
+
+(50 mM NaCl)
+(150 mM NaCl)
+
+YTH (327–488)
+42  18
+154  85
+16  2
+3.0  0.4
+4.90  0.04
+USR-YTH (282–488)
+0.14  0.01
+6.1  0.7
+0.090  0.006
+8.3  0.5
+0.075  0.0005
+YTH-C (327–483)
+160  80
+12  5
+190  20
+YTH-N (347–488)
+15,000  3,000
+0.81  0.13
+1200  200
+YTH-NC (347–483)
+51,000  34,000
+0.38  0.25
+1900  700
+
+RNA. The resulting equilibrium binding curves were fitted with
+a quadratic single-site binding curve. This revealed that at 150
+mM NaCl, the binding affinity (KD) of YTH was 154  85 nM
+(Fig. 1°C). In comparison, an earlier study reported a binding
+affinity of 440 nM for Mmi1 residues 322–488, and 390 nM for
+residues 316–499, with a 10-mer RNA using isothermal titration calorimetry (22). In contrast, the USR–YTH construct had
+a binding affinity of 6.1  0.7 nM, 25-fold stronger than YTH
+(Fig. 1D). A similar trend was observed at lower salt (Table 1).
+
+
+Therefore, the USR stabilizes the interaction between the YTH
+domain and RNA.
+
+
+The USR slows the off-rate for Mmi1 binding to RNA
+
+
+
+We used SwitchSENSE technology to quantify the kinetics of
+the interaction between DSR-containing RNA and the Mmi1
+constructs. SwitchSENSE measures the dynamics of protein
+binding to electro-switchable DNA nanolevers on a chip (26–
+28). Chimeric oligonucleotides that contained the 15-mer
+DSRshort sequence followed by 42 deoxyribonucleotides complementary to the single-stranded DNA nanolever on the surface were used to functionalize the chip. Protein was then
+flowed across the surface, and the change in the switching
+dynamics of the nanolevers was measured. We fitted the resulting association and dissociation curves with single phase exponential decay curves (Fig. 2).
+
+SwitchSENSE measurements revealed similar on-rate constants of 3.0  105 M1 s1 for YTH and 8.3  105 M1 s1
+
+for USR–YTH. In contrast, the off-rate for YTH was 2 orders of
+magnitude faster than for USR–YTH: 3.5  103 and 7.5 
+105 s1, respectively.
+Dissociation constants calculated using these on- and offrate constants agree with the equilibrium binding curves from
+fluorescence polarization at similar ionic strengths (Table 1).
+Thus, the USR increases the stability and longevity of the Mmi1
+YTH domain–DSR RNA complex.
+
+The USR influences the chemical environment of the Mmi1°C terminus
+
+
+Because the USR has no predicted secondary structure, we
+used NMR spectroscopy to investigate its properties in solution. We recorded 1H-15N BEST-TROSY spectra, which correlate the backbone amide nitrogen and hydrogen resonance frequencies to give a spectral “fingerprint” of the protein, with one
+cross-peak possible for each amino acid in the protein except
+prolines. The spectrum of USR–YTH showed good dispersion,
+suggesting a folded construct with both -helical and -sheet
+secondary structure (Fig. 3A). Even though 50 residues have
+low sequence complexity, there was no evidence of substantial
+
+Calculated KD (nM)
+
+(40 mM NaCI)
+kon ( 105 M1 s1)
+koff (103 s1)
+
+random coil regions, which would typically manifest as relatively sharp peaks at 8–8.5 ppm in the proton dimension. Thus,
+the USR may have some order.
+
+
+We next recorded three-dimensional spectra for backbone
+assignment of USR–YTH. Spectra of 13°C-15N–labeled protein
+were incomplete and had low signal intensities. This suggested
+either faster overall relaxation as a result of a large hydrodynamic radius or line broadening caused by conformational
+averaging. Overall relaxation behavior improved with deuteration of nonlabile carbon-attached protons; however, samples
+obtained from expression in deuterated media suffered from a
+lack of “back-exchange” for residues later identified to be from
+the -sheet. These slowly-exchanging amide protons yielded
+signals only after incubation of the sample with a chaotropic
+agent (4 M urea) followed by dialysis to remove urea. Taken
+together, this indicates a highly dynamic domain with a rigid
+core consisting of the -sheet and more flexible regions where
+only broad or no signals were observed. In total, only 60% of
+residues were assignable. This included only 14 confirmed residues in the low-complexity region, suggesting that the remainder of the signals from this region are missing due to line broadening; there were 50 fewer cross-peaks than expected, even in
+the BEST-TROSY experiment with nondeuterated protein.
+The lack of narrow, intense signals attributable to unstructured
+regions due to quasi-individual mobility of residues means the
+results obtained here suggest a sampling of interconverting
+conformations on a micro- to millisecond time scale.
+
+We compared the assigned USR–YTH spectrum with an
+unassigned YTH spectrum using nearest neighbor minimal
+chemical shift perturbation maps (Fig. 3). These maps show the
+distance from a USR–YTH peak to the closest peak in the unassigned YTH spectrum (which may or may not represent the
+same residue) and thus indicate which amide groups have different chemical environments, as well as the smallest shift that
+could occur. Some of the largest chemical shift differences
+occur in residues in the C-terminal helix, consistent with the
+N-terminal USR being in close proximity to (or influencing
+the chemical environment of) residues in the C terminus of the
+protein. Together, our observations suggest that the USR likely
+exhibits a preferred conformation in solution in the absence of
+RNA.
+
+
+The USR and the YTH domain interact via a network of
+hydrophobic contacts
+
+
+In a previous crystal structure of the Mmi1 YTH domain
+(residues 322–488), most of the USR was not included (22).
+
+
+DSR RNA was bound in a pseudo-helical conformation in a
+groove generated by the central -sheet and the C-terminal
+
+-helix using both positively-charged and hydrophobic surfaces. Residues N- and C-terminal to the annotated YTH
+domain contact the 3 and 5 ends of the UNAAAC motif,
+respectively. We hereafter refer to these regions of Mmi1 as the
+N- and C-clamps. This structure revealed the molecular basis
+for recognition of specific RNA sequences, but there was no
+structural information available on how the USR increases the
+affinity for RNA. The USR region could enhance RNA binding
+through additional direct interactions or by influencing the
+known RNA-binding interface. To distinguish these possibilities, we attempted to crystallize USR–YTH in complex with
+RNA.
+
+We were not successful in crystallizing the USR–YTH construct itself, but removal of an additional 19 residues from the N
+terminus allowed us to crystallize Mmi1 residues 301–488
+bound to a 7-mer DSR RNA (UUAAACC). We determined its
+X-ray crystal structure to 1.4 Å resolution (Table S1) and built
+an atomic model for residues 315–488 and all seven nucleotides (Fig. 4). We also determined a structure of apo-Mmi1
+residues 327–488 (Table S1).
+
+
+The core YTH domain of our structure of Mmi1-RNA is
+similar to apo-Mmi1 and to previously reported structures (21,
+22) with a central five-stranded -sheet surrounded by four
+-helices. Part of the N-terminal USR region of the polypeptide,
+
+which was line broadened in NMR spectra (making structural
+analysis of this region impossible by NMR), was ordered in the
+crystal structure and folds back to contact the back of the YTH
+domain (Fig. 4A). This results in a network of hydrophobic
+interactions involving residues Leu-316, Phe-318, and His-324
+of the USR, Met-334 and Ile-335 from the N-clamp, and Met-
+465 and Arg-471 from the YTH domain (Fig. 4B). Interestingly,
+the low-complexity N-clamp region adopted a similar conformation in two structures of Mmi1 determined in the absence of
+RNA (this work and Ref. 21). Both apo- and RNA-bound structures have crystal-packing contacts in their N-terminal regions
+(Fig. S3). This could stabilize the conformation of the low-complexity region, even in the absence of RNA. Furthermore, structural alignments of all known Mmi1 YTH domain structures
+show that the core fold is highly similar (r.m.s.d. 0.5 Å), but
+the N- and C-clamps are more divergent (Fig. S4, A and B). This
+observation is also consistent with higher relative B-factors in
+these regions (Fig. S4°C). In summary, our structure shows that
+part of the low-complexity USR of Mmi1 (residues 315–326)
+lacks secondary structure elements but adopts a defined fold on
+RNA binding, forming contacts with the YTH domain.
+
+Dynamic changes in Mmi1 USR–YTH on RNA binding
+
+Because we were unable to crystallize the full-length USR–
+YTH construct and the USR may adopt more than one conformational state, we further studied RNA binding using NMR.
+Again, we performed backbone experiments on USR–YTH,
+this time bound to unlabeled 19-mer DSR-containing RNA. We
+could assign 70% of the residues in the RNA-bound form. In
+contrast to the unbound protein, a peak count of the 15N-1H
+spectrum showed that almost all residues were represented by a
+cross-peak.
+
+
+Next, to map residues whose chemical environments change
+on RNA binding, we compared the assigned NMR amide group
+chemical shifts in the spectra of USR–YTH in the presence and
+
+absence of RNA. We observed some large-scale shifts and the
+appearance of new peaks on RNA binding (Fig. 5A). When
+these chemical shift perturbations are mapped onto the crystal
+structure, few changes are found on the RNA-binding central
+-sheet, but instead they are located mainly in the N- and
+C-terminal regions (Fig. 5B). Surprisingly, 31 additional amide
+peaks of the low-complexity region could be assigned in the
+presence of RNA (Fig. 5B, yellow lines). Some of these correspond to residues not observed in the crystal structure. Thus, in
+the presence of RNA, it is likely that the conformation of the
+
+
+USR and N-clamp become even more constrained, reducing
+the line broadening in NMR spectra and thereby leading to the
+appearance of additional protein amide peaks.
+
+RNA binding to USR–YTH also leads to loss of amide signals
+corresponding to the C-terminal helix of Mmi1 (again precluding NMR structural analysis) (Fig. 5B, asterisk), suggesting that,
+in the presence of RNA, this region may adopt multiple conformations or is contacted transiently by the USR. Examination of
+relative B-factors from our crystal structures suggests that the
+final C-terminal helix is relatively rigid when bound to RNA
+(Fig. S4°C). The N terminus of the modeled density in our crystal
+structure is in a position such that residues further upstream
+could extend toward the C-clamp (Fig. 4A), consistent with
+transient interactions with the USR, resulting in the line broadening seen by NMR.
+
+
+We also used minimal chemical shift perturbation maps to
+compare the assigned USR–YTH/RNA spectra to unassigned
+spectra of YTH bound to RNA to examine how the USR influences binding (Fig. 6, A and B). There are several changes in the
+USR–YTH spectrum, clustered at the N and C termini. For
+example, the chemical environments of Asp-467 and Arg-471
+at the top of the C-terminal helix change. These residues contact the N-clamp and USR, respectively (Fig. 4B). In addition, a
+cluster of residues within the N-clamp, including Asn-344,
+
+Figure5.TheUSRbecomesmoreorderedonRNAbinding.A,overlayofthe 1H-15NBEST-TROSYspectraofUSR–YTHMmi1intheabsence(red)andpresence
+(orange) of RNA. Selected assigned peaks that show large chemical shift perturbations (denoted with arrows) or appear on RNA binding are labeled. Residues
+labeled in turquoise are shown in Fig. 4B. B, plot showing the chemical shift perturbations per residue. Yellow bars indicate peaks that are only present in the
+RNA-boundform.ThegapintheC-terminalregion(asterisk)isduetolinebroadeninginthepresenceofRNA.OthermissingsignalsinthecoreYTHdomainfold
+are due to incomplete back-exchange of the deuterated protein.
+
+Ile-346, and Ser-347, are in a different chemical environment,
+possibly because of increased flexibility of this region in the
+absence of the USR.
+
+
+These data are consistent with the USR contributing to the
+interaction with RNA via stabilizing the conformation and
+reducing the flexibility of the N-clamp in solution. The transient nature of this interaction and the subsequent line broadening made formal determination of this conformation elusive
+by the traditional NMR structural technique of NOE analysis;
+however, to determine how backbone dynamics are altered, we
+performed 1H-15N heteronuclear NOE (hetNOE) experiments
+that are sensitive to motion on the picosecond time scale. When
+a residue is part of a rigid secondary structure element, such as
+a -sheet, the hetNOE value is 0.8. Residues from more flexible parts of the protein have lower hetNOE values, often reaching negative values at highly flexible N and C termini. The hetNOE experiments show that the N- and C-terminal regions of
+USR–YTH become more ordered on RNA binding (Fig. 6°C).
+Specifically, the N-clamp, the USR, and residues 485–488 are
+flexible or unassigned in the absence of RNA but have enhanced
+
+rigidity in the presence of RNA, confirming our indirect observation that the addition of RNA stabilizes the dynamic nature of
+the protein resulting in more residue peaks being present in the
+NMR data. In addition, the first -strand of the core YTH
+domain is exchange-broadened in the absence but not in the
+presence of RNA, suggestive of enhanced rigidity upon binding.
+
+
+Together, our observations show that the USR influences the
+chemical environment of both the N- and C-clamps to enhance
+RNA binding.
+
+
+The USR adopts the same conformation with longer RNA
+substrates
+
+The RNA used in NMR experiments (19 nucleotides) is longer than the RNA used in crystallographic experiments (7
+nucleotides). To determine whether the conformation of the
+
+
+USR and N-clamp are influenced by RNA length, we compared
+spectra of the USR–YTH construct bound to 19- and 7-mer
+DSR-containing RNAs (Fig. S5, A and B). There are no major
+differences between the spectra or the minimal perturbation
+maps. Two clusters of residues close to the C-clamp region of
+
+Figure6.TheUSRinfluencestheRNA-boundN-andC-clamps.2D-NMRspectralanalysisofYTHandUSR–YTHconstructsboundtoa19-merDSR-containing
+RNA.A,overlayof 1H-15NBEST-TROSYspectra.B,nearestneighborCSPmaps(bottom).LightergraypeaksdenoteresiduespresentintheUSR–YTHconstructbut
+not the YTH construct. Asterisks mark chemical shifts 
+0.3 ppm. Regions showing large chemical shift differences (above 0.1 ppm; red) or line broadening
+(yellow) are mapped onto the crystal structure of the Mmi1 YTH domain (top). C, plot of 1H-15N heteronuclear NOE values per residue in the absence (red) and
+presence (orange) of RNA. Positive values approaching 1 represent more ordered amide backbone regions. Peak absences represent residues that are not
+assigned. Many N-terminal residues that appear on RNA binding have hetNOE values that suggest they are ordered. The hash symbol marks some regions,
+assigned in both the absence and presence of RNA, with enhanced rigidity in the presence of RNA.
+
+the core YTH domain show moderate changes. Binding of the
+5-end of the longer RNA in the C-clamp may involve additional contacts, altering the chemical environment of this particular region. Alternatively, an interaction of the RNA with the
+USR may contribute to these changes.
+
+
+To determine whether nucleotides outside the UNAAAC
+motif are recognized by Mmi1, we determined a crystal structure of USR–YTH (residues 301–488) bound to an 11-mer
+RNA containing a DSR (Fig. S5, C and D; Table S1). We could
+model residues 312–488. In this structure, the longer RNA
+does not form any additional contacts with the YTH domain,
+and RNA binding is confined to the DSR motif. Furthermore,
+the conformation of the N-terminal USR is largely similar to
+those seen in the other structures.
+
+Mmi1 residues 282–346 are critical for DSR binding
+
+
+Together, binding assays, NMR, and X-ray crystallography
+suggested that residues 282–346 (which include the USR) contribute structurally to the interaction with RNA. In addition,
+the C-terminal residues of Mmi1 have a different chemical
+environment upon RNA binding (Fig. 5B) We used truncation
+mutants to examine the effects of these regions on RNA binding
+in vitro. All truncation mutants could be purified after overexpression in Escherichia coli and were similar to the USR–YTH
+protein in CD and nano-DSF experiments (Fig. S1).
+
+A C-terminal truncation of the YTH construct (YTH-C,
+residues 327–483) results in an 10-fold reduction in RNAbinding affinity compared with YTH (residues 327–488) (Fig.
+7A and Table 1). Removal of the N terminus from YTH (YTH-
+N, residues 347–488) reduces binding by 2 orders of magnitude (Fig. 7B). When both the N and C termini are deleted
+(YTH-NC, residues 347–483), RNA binding is further abrogated (Fig. 7°C). The RNA binding affinity of YTH-NC, corresponding to the conserved YTH domain fold, is relatively
+weak (KD 51 M), underlining the key contribution of the
+low-complexity regions to RNA binding.
+
+--- Discussion ---
+
+
+
+Specific and high-affinity RNA binding are likely important
+for Mmi1 to efficiently repress expression of its target RNAs
+and prevent premature entry into meiosis. Here, we show that
+stable RNA binding by Mmi1 is dependent not only on its YTH
+domain but also on an upstream low-complexity region (residues 282–346). This N-terminal, low-complexity region does
+not adopt any formal secondary structure but forms a stablyfolded platform encompassing the N-clamp and extending
+across the YTH domain to contact the C-terminal helix (Fig.
+8A). Although this low-complexity region contributes only two
+residues to RNA-binding (residues Asn-336 and Arg-338), our
+truncation experiments demonstrate that it is critical for the
+
+interaction with DSR RNA. Residues 282–346 most likely further stabilize a helical conformation in the bound RNA, and the
+resultant base-stacking may thermodynamically drive stable
+binding.
+
+Within the low-complexity region, the USR (residues 282–
+326) likely contributes to RNA binding indirectly. We were able
+to model 15 residues of the USR using crystal structures. The
+USR adopts a preferred conformation in solution: a network of
+interactions secures it onto the back of the core YTH domain
+(Fig. 4). The remaining part of the USR is likely more dynamic,
+but we investigated its properties using NMR. On RNA binding,
+the chemical environment of the USR changes (Fig. 5), and the
+USR becomes even less dynamic (Fig. 6°C), thus stabilizing its
+conformation (Fig. 8). Substantial portions of the USR correspond to broadened or missing signals, suggesting that this
+region is not in a random-coil conformation but samples a
+number of structures on the micro- to milli-second time scale.
+Taken with the flexibility of those observable residues in the
+USR without RNA by hetNOE analysis, this slow inter-conversion of states is not likely to include a substantial amount of
+formal secondary structure. Light-scattering experiments also
+support this conclusion, with inclusion of the USR increasing
+the hydrodynamic radius from 2.2 to 2.8 nm (Fig. S2). Interestingly the radius decreases to 2.6 nm in the presence of RNA
+suggesting a compaction of the low-complexity region. Finally,
+
+
+CD spectra recorded for all the constructs showed a similar
+line shape, although the magnitude of the signal at 225 nm
+increases as more of the low-complexity region is included (Fig.
+S1B). This can be characteristic of proteins with a molten-globule conformation (29).
+
+
+The USR most likely enhances RNA binding by reducing the
+dynamic motion of the YTH RNA-binding groove. The USR
+interacts with residues of both the N- and C-clamps of Mmi1,
+thus stabilizing the conformation of residues within these
+regions that contact RNA. This is supported by comparative
+NMR analysis of USR–YTH and YTH, showing that the chemical environments differ for both N-terminal low-complexity
+residues and residues in the C-terminal helix. The interaction
+between Mmi1 and the 3-end of the DSR RNA is stabilized by
+the hydrophobic interface between the low-complexity region
+and the N terminus of the core YTH fold (Fig. 4).
+
+
+In the presence of RNA, signals assigned to the C-terminal
+helix of the YTH domain become line broadened (Fig. 5B), precluding any comparison of the dynamics of this region when
+bound to RNA. Given the close proximity of the USR to the C
+terminus on RNA binding, this may be due to the formation of
+
+a dynamic interface with RNA in this region. In agreement with
+this, the N-terminal (residues 322–338) and C-terminal (residues 483–488) regions were found to be disordered in a previous crystal structure (22).
+
+Residues 301–311 of the USR are not visible in our crystal
+structure, and signals from most of this region are line broadened in NMR experiments. This includes a basic region (Arg-
+301–Arg-309). Regions rich in arginine and lysine can contribute to RNA binding directly. For example, serine/arginine-rich
+regions are intrinsically disordered but are important for functional RNA binding (30, 31). Arginine and glycine repeats (RGG
+boxes) within a low-complexity region also contribute to RNA
+interaction, for example in the nuclear RNA export factor 1
+(NXF1) (32, 33) and fragile X mental retardation protein
+(FMRP) (34, 35). Many DNA-binding proteins, including transcription factors, also contain IDRs that directly interact with
+DNA (36). Because of the lack of defined structures for IDRs,
+there are only a few examples of studies that reveal molecular
+details of their interaction with DNA/RNA. A solution structure of an RGG peptide from FMRP bound to G-quadruplex
+RNA reveals that basic residues insert into the major groove of
+the RNA duplex and form hydrogen bonds with bases (37). In
+another example, a crystal structure of thymine DNA glycosylase with an extended N terminus demonstrates that, although
+the structure of the N-terminal region is dynamic, it contributes to high-affinity DNA binding, partly through an arginine
+contact to DNA backbone phosphates (38, 39). In Mmi1, if the
+basic region transiently contacts RNA, it could be through
+either of these mechanisms: backbone phosphate contacts or
+interaction with bases. Three prolines (Pro-313–Pro-315) may
+constrain the basic region such that it is more likely to interact
+with RNA.
+
+In addition to potential direct charge-mediated interactions with RNA, low-complexity regions can contribute to
+RNA binding indirectly by stabilizing a particular conformation of a folded domain, as we show here for Mmi1. RNAbinding proteins often contain IDRs proximal to a folded
+RNA-binding domain. Our model for RNA binding by Mmi1
+is likely applicable to many of these other proteins. The
+canonical RNA-binding domains would provide specificity,
+whereas the IDRs contribute to RNA binding in a sequenceindependent manner. The sequence of the USR is not conserved outside Schizosaccharomyces Mmi1 orthologues (Fig.
+S6 and S7), although a proximal intrinsically disordered
+region appears to be present in all YTH domain-containing
+protein clades examined (Fig. S8). IDRs are not constrained
+by 3D structure, and therefore their sequence may evolve
+more rapidly than the sequence of structured domains (40).
+
+
+It is possible that the IDRs in other RNA-binding proteins
+act similarly to increase their affinity for RNA, but sequence
+analysis in the absence of structural information makes comparative studies difficult.
+
+More broadly, this function of a low-complexity region represents a general mechanism to stabilize a specific conformation of a globular protein. On binding to an interacting partner,
+IDRs can modulate conformational entropy and result in allosteric coupling (36, 41, 42). An ensemble of conformational
+states of a structured domain can be influenced by binding of
+an IDR, selecting for a certain conformation (43). In the case
+of Mmi1, the USR stabilizes a conformation of the YTH
+domain that binds RNA with high affinity. Such a mechanism has also been demonstrated in other proteins (42). For
+example, an IDR in the glucocorticoid receptor induces
+allosteric changes in the DNA binding domain to enhance
+DNA binding, likely by stabilizing a high-affinity conformation (44). Thus, Mmi1 is an example of a protein with a
+low-complexity region that can act as an enhancer element
+to fine-tune protein conformation.

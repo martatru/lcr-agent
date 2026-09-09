@@ -1,0 +1,340 @@
+--- Our results clearly show that liquid droplets of TDP-43-LC ---
+mature into β-strand rich fibrils stabilized by residues 365−
+400. Support for our conclusion comes from a study by
+Babinchak et al. on a similar TDP-43-LC construct (Histagged residues 274−414).32 First, atomic force microscopy
+images clearly show fibrils emanating from dried liquid
+droplets.32 Second, although this study used reduced pH to
+slow the liquid droplet to fibril transition, fibrils with an
+identical appearance and significant clumping were observed at
+near neutral pH.32 Third, TDP-43-LC liquid droplets initially
+exhibit minimal ThT fluorescence followed by a significant
+increase in intensity after a lag phase.32 Finally, fibrils obtained
+without the formation of liquid droplets had the same visual
+appearance and fluorescent properties as those nucleated in the
+liquid droplets.32 The similarities between our sample
+preparations and those in this study strongly support our
+interpretation that the fibrils characterized here are the
+structure that condenses out of the liquid droplets.
+
+Competing Structural Conformations in TDP-43-LC.
+In the context of existing studies on the C-terminal LC domain
+of TDP-43, our results are quite intriguing. Residues 311−360
+of TDP-43-LC are necessary for aggregation in cells17 and in
+isolation; this “aggregation core” segment forms stable cross-β
+protein fibrils through backbone β-strand hydrogen bonding,
+side chain Gln polar zippers, and a substantial hydrophobic
+core20,21 reminiscent of those formed by the β-amyloid
+peptide40 and α-synuclein.41 Notably, the cryo-EM structures
+of the residue 311−360 fragment indicate extensive hydrophobic interfaces involving the side chains of five Met residues
+and five Gln residues positioned to facilitate intermolecular
+hydrogen bonds.21 The reader should note that we are
+unaware of any existing studies that show in either full-length
+TDP-43 or the complete TDP-43-LC that residues 311−360
+adopt the structures observed for the isolated fragment.
+
+
+However, after aging liquid droplets formed by the complete
+
+
+
+LC domain, we find the most stable segment of the protein
+begins at least 10 residues after this region. This “second core”
+region lacks any structured Met residues, has a single weakly
+structured Gln site, and contains eight more Gly and four more
+Ser residues. These differences indicate the “second core” has
+limited interactions between extended side chain moieties and
+a substantially smaller fraction of buried hydrophobic surface
+area. These differences seem to suggest the second core might
+be less thermodynamically favored than the aggregation
+promoting core between residues 311 and 360. Nevertheless,
+our data indicate that the “second core” is the stable
+conformation for aged liquid droplets of TDP-43-LC.
+
+Solution NMR measurements indicate that residues 321−
+341 transiently populate a helical conformation in TDP-43-LC
+monomers.18 Interactions between the helical region and
+residues 382−385 (squarely in our “second core”) facilitate the
+formation of oligomeric species in a concentration dependent
+manner.18 The liquid droplet state is difficult to probe using
+solution NMR due to rapid rigidification of TDP-43-LC
+droplet samples.18 However, mutations that disrupt the helical
+structure correlate with a decreased propensity to form liquid
+droplets.18 Both transient helix formation by residues 321−341
+and their brief interactions with residues 382−385 seem to be
+essential for liquid droplet formation.18 It should not escape
+notice that the unassigned Ala residue (or residues) in our data
+has a chemical shift signature indicating it is in a helical
+
+conformation, although the chemical shift values are not
+precisely those observed by solution NMR18 for the multiple
+Ala residues in the helical prone region. We were not able to
+unambiguously assign this residue due to a lack of strong
+magnetization transfer to neighboring residues. However, the
+data from our measurements are consistent with part of the
+poly-Ala stretch between residues 324 and 329 adopting a
+helical-like conformation that is loosely ordered and only
+immobilized sufficiently to permit CP based magnetization
+transfers for one or two Ala sites in this region and no other
+residues.
+
+
+Our data are therefore consistent with an assembly process
+where the helical region between residues 321 and 341 is
+prevented from converting into its fibril conformation through
+a weak interaction with the primarily β-strand structure formed
+by residues 365−400. We propose that our solid state NMR
+data from fibrils of TDP-43-LC, the cryo-EM21 and solid state
+NMR20 characterization of fibrils formed by the residue 311−
+360 fragment, and the solution NMR and mutational analysis18
+
+of TDP-43-LC are all consistent with a model where a
+functional propensity for residues 365−400 to form stable β-
+strand structures prevents detrimental aggregation of residues
+311−360.
+
+
+A recent solid state NMR study on TDP-43-LC aggregates
+seeded from protein isolated from E. coli inclusion bodies
+suggests that both core regions can form a stable fibril
+conformation simultaneously (i.e., residues 306−343 and
+362−397).42 However, our result is quite distinct from that
+work. First, our samples were purified under conditions that
+completely solubilized the inclusion body fraction of the E. coli.
+Second, the chemical shifts we report are significantly different
+for 24 out of the 29 structured residues between 365 and 397,
+as defined by a greater than 0.5 ppm difference in CA or CB
+chemical shifts. These differences, illustrated in Supplemental
+Figure 11, are not explained by a constant additive correction
+to all shifts or uncertainties due to low signal-to-noise. The
+fibril structure stabilized by the E. coli inclusion body
+environment42 is therefore different from what matures out
+of TDP-43-LC liquid droplets in our hands. One likely
+explanation for this difference is the lack of a templating
+structure stabilized by the molecular components of the E. coli
+inclusion body environment. This longer ordered segment
+incorporating both fibril-prone core regions could be the TDP-
+43-LC structure after the helix in residues 321−341 fully
+converts to its β-strand conformation. An alternative
+interpretation of the solid state NMR characterization of the
+E. coli inclusion body study42 is that the sample contains two
+populations of fibrils, one stabilized by the “aggregation core”
+in residues 311−360 and the other stabilized by the “second
+core” after residue 360. However, both interpretations require
+that the fibril structures adopted by both the “second core”
+segment identified here and the “aggregation core” in residues
+311−36020 undergo significant structural changes, since the
+boundaries of the rigid segments are not the same and the
+chemical shifts for the ordered residues in common between
+these preparations are different. Supplemental Figure 11 shows
+the chemical shift differences for all residues that are structured
+in either the aggregation core (residues 311−360) or the
+“second core” (residues 365−400), and the E. coli inclusion
+body fibrils.
+
+
+TDP-43-LC Domain Interactions in the Full-Length
+Protein. Solid state NMR measurements from Shenoy et al.19
+
+on fibrils formed by the full-length TDP-43 sequence, residues
+
+1−414, and a set of truncation mutants provide context for the
+
+
+LC domain assembly process when the N-terminal RRM and
+oligomerization motifs are present. The presence of multiple
+
+
+Ala residues in both fibril-prone regions provides a
+straightforward way to compare these spectra19 with our data
+and the data from the residue 311−360 fragment fibrils.20
+
+formed by the full-length TDP-43 sequence do not give rise to
+strong Ala signals with chemical shifts characteristic of β-strand
+conformations.19 A truncated version of TDP-43-LC missing
+residues 367−414 gives a similar pattern of Ala signals as the
+full-length protein.19 However, the helical Ala signal present in
+our spectra is also observed in these spectra. Figure 6c also
+shows that a similar construct as the one investigated in this
+paper, His-tagged residues 267−414, gives rise to a pattern of
+
+construct
+ref
+experimental method
+assembly
+“aggregation core” conformation
+“second core” conformation
+
+residues 262−414
+this work
+solid state NMR
+aged droplet/fibril
+α-helix
+β-strand
+residues 267−414
+Conicella et al.18
+solution NMR
+droplet/oligomer
+α-helix
+loosely ordered
+residues 274−414
+Chang et al.42
+solid state NMR
+inclusion body fibril
+β-strand
+β-strand
+residues 311−360
+Zhuo et al.20
+solid state NMR
+fibril
+β-strand
+not present
+residues 311−360
+Cao et al.21
+cryo-EM
+fibril
+β-strand
+not present
+residues 1−414
+Shenoy et al.19
+solid state NMR
+fibril
+α-helix
+not detected
+residues 1−366
+Shenoy et al.19
+solid state NMR
+fibril
+α-helix
+not present
+residues 90−414
+Shenoy et al.19
+solid state NMR
+fibril
+α-helix
+β-strand
+residues 267−414
+Shenoy et al.19
+solid state NMR
+fibril
+α-helix
+β-strand
+
+Ala signals19 partially consistent with our spectra. Signals for
+the helical Ala, A381, and A382 are present, but there are three
+peaks in the vicinity of A391 and signals for A366 and A388
+are absent. The differences are likely due to the different
+electrostatic environments and protonation states of these
+samples (in ref 19 the fibrils were prepared in 20 mM MES
+buffer at pH 7.5 without salt and extensively washed with
+water, while the fibrils in our study are prepared in 20 mM
+sodium phosphate and 200 mM sodium chloride at pH 7.4).
+Figure 6b shows the chemical shifts from the residue 311−360
+fragment fibrils.20 Comparison with our spectra (Figure 6a)
+and that of the full-length TDP-43 (Figure 6c)19 reveals that
+this conformation is not strongly ordered in the fibrils of longer
+TDP-43 constructs. Figure 6d shows the chemical shifts from
+the E. coli inclusion body templated TDP-43-LC fibrils.42
+
+
+Comparison with the Ala signals from other TDP-43 fibrils
+(Figure 6a−c) further illustrates the structural differences for
+these templated fibrils. Table 1 summarizes the TDP-43
+assemblies characterized to date and the structures associated
+with the two competing core regions.
+
+
+What does it mean that the resonances reporting on the
+fibril conformations for residues 311−360 and 365−400 are
+absent from the spectrum of the full-length TDP-43 fibrils? It is
+likely that in the full-length TDP-43 CP based spectra
+increased molecular motion of the protein backbone in the
+fibril-prone region leads to poor magnetization transfers and
+reduced or missing signal intensities. For instance, the β-
+strand-rich segment we identified as 365−400 may adopt a
+dynamic β-strand conformation in full-length TDP-43 fibrils
+that is mobile enough to not give rise to signals. Despite this
+difference, the full-length fibrils19 and our samples both exhibit
+the intense Ala signal we report as helical structure in residues
+324−329. The presence of this same strong helical Ala signal
+suggests that both structures lack even a loosely ordered β-
+strand-rich conformation from residues 311−360. However,
+solid state NMR and cryo-EM studies on the residue 311−360
+TDP-43-LC fragment show these residues adopt a rigid β-
+strand-rich structure in isolation.20,21 This observation
+reinforces our assertion that the propensity of residues 365−
+400 to adopt a fibril conformation directly prevents the
+conversion of the remainder of the TDP-43-LC into a β-strand
+structure. In this model, removal of residues after 366 favors
+the pathological assembly process of residues 311−360. This
+type of dynamically structured LC domain is not unprecedented, as we have recently observed such a phenomenon in an
+LC domain of intermediate filament protein assemblies.43
+
+
+These data all reinforce our interpretation that delicately
+balanced interactions determine the functional and pathological assembly of TDP-43-LC.
+
+LC Domains and (a Lack of) Fibril Polymorphism.
+
+
+Given the reduced amino acid complexity of the TDP-43-LC,
+it is perhaps not surprising that several segments are able to
+form stable fibrils. 63% of the LC domain sequence is
+composed of Ala, Asn, Gly, and Ser residues. On the basis of
+similarities with prion-like domains, regions rich in these
+residues are expected to adopt fibril conformations.44
+
+Pathogenically associated amyloid-like protein fibrils such as
+β-amyloid and α-synuclein are highly prone to structural
+polymorphism.22 TDP-43 is found in pathological inclusions in
+patient tissues,15 and a residue 285−331 fragment, in addition
+to the residue 311−360 fragment and residues 365−400 in the
+complete TDP-43-LC, has also been observed to form stable
+fibrils.21 This polymorphism supports a purely pathogenic role
+for the TDP-43-LC. On the other hand, the full-length LC
+domains studied to date are notably not polymorphic with
+respect to fibril formation.11,23,45 However, the lack of
+polymorphism observed in the fibrils formed by complete
+
+
+LC domains does not exclude the presence of multiple
+fibrillation-prone regions in these sequences. For example,
+electron diffraction studies on microcrystals of small fragments
+from outside the core fibril forming region of the FUS LC
+show these fragments adopt similar conformations as those
+that stabilize the fibrils of the complete LC domain.7,24
+
+Video S1 of liquid droplets (MP4)
+
+Quantification of denaturant; additional bright field and
+TEM images; overlay and difference 13°C−13°C CP-DARR
+spectra; overlay and difference spectra of CP-NCACX
+spectra; CP-NCOCX spectra; 2D planes from 3D
+NCACX spectrum; 2D planes from 3D NCOCX
+spectrum; 2D planes from 3D CANCO spectrum;
+secondary chemical shift and secondary structure
+analyses; chemical shift difference analysis (PDF)
+■AUTHOR INFORMATION
+
+
+Corresponding Author
+Dylan T. Murray −Department of Chemistry, University of
+
+California, Davis, California 95616, United States;
+
+orcid.org/0000-0002-2402-810X; Email: dtmurray@
+ucdavis.edu
+
+
+Authors
+Blake D. Fonda −Department of Chemistry, University of
+
+
+California, Davis, California 95616, United States
+Khaled M. Jami −Department of Chemistry, University of
+
+
+California, Davis, California 95616, United States
+Natalie R. Boulos −Department of Chemistry, University of
+
+
+California, Davis, California 95616, United States

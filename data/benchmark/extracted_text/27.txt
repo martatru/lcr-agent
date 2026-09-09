@@ -1,0 +1,351 @@
+--- Results ---
+Three families of PDEs can regulate cAMP–cGMP crosstalk
+in the vasculature: phosphodiesterase 2 (PDE2), PDE3, and
+phosphodiesterase 5 (PDE5) (26–28). Thus, our initial experiments aimed to evaluate protein levels and enzymatic activities of these PDEs in mouse lung exposed to LPS. Our data
+indicate that LPS exposure does not alter the protein levels of
+PDE2, PDE3A, or PDE5 (Fig. 1, A–C, respectively) in the
+mouse lung. However, certain PDE enzymatic activities were
+modulated by LPS. Although PDE2 activity was not altered
+(Fig. 1D), the activity of PDE3 was significantly increased
+(Fig. 1E), whereas PDE5 was significantly reduced (Fig. 1F).
+
+
+Furthermore, we identified dramatic changes in the levels of
+the second messenger levels cAMP and cGMP such that
+cAMP levels were significantly attenuated (Fig. 1G), whereas
+the levels of cGMP were significantly increased (Fig. 1H). It is
+
+likely that the elevation of cGMP levels is linked to the inhibition of cGMP-specific PDE5 we observed (Fig. 1F), whereas
+an activation of cAMP-specific PDE3 leads to cAMP level
+decrease (Fig. 1E). Since PDE3A is the only PDE3 isoform
+expressed in lung tissue (24), we assume that PDE3 activity in
+our experiments can be attributed to this isoform. Nitrosative
+stress is characteristic for in vitro and in vivo models of ALI
+(16–19, 29, 30) where it is associated with alterations in
+protein–enzyme functions because of protein tyrosine nitration (16, 17). To explore a possible link between reactive nitrogen species generation and changes in cAMP–cGMP levels
+and PDE activities in lungs of LPS-challenged mice, we pretreated a group of animals with a peroxynitrite scavenger,
+manganese
+(III)
+tetrakis(1-methyl-4-pyridyl)porphyrin
+(MnTMPyP). Data obtained clearly demonstrated that changes
+in cAMP and cGMP levels detected in LPS-challenged mice
+were
+peroxynitrite
+dependent:
+
+
+MnTMPyP
+pretreatment
+significantly diminished this effect of LPS (Fig. 1, G and H).
+
+
+Moreover, MnTMPyP efficiently reversed the levels of PDE
+activities induced by LPS (Fig. 1, D–F), suggesting that
+peroxynitrite-dependent modifications of cyclic nucleotide
+signaling exist in ALI.
+
+LPS-induced nitrosative stress modulates cyclic nucleotide–
+dependent protein kinase activity in the mouse lung
+
+
+Significant changes in PDE activities and cyclic nucleotide
+levels in the lungs of LPS-challenged mice may affect functions
+of the downstream effectors, cAMP-dependent and cGMPdependent protein kinases (PKA and PKG-Iα). This, in turn,
+may have critical consequences for vascular permeability
+in vivo. To study these possible effects of LPS, we evaluated
+protein levels and enzymatic activities of the respective protein
+kinases. Our data demonstrate that, while the protein levels of
+PKG-Iα (Fig. 2A) and PKA (Fig. 2D) were unchanged by LPS
+treatment, their activities were impaired in LPS-treated lungs.
+Both PKG activity (Fig. 2, B and C) and PKA activity (Fig. 2E)
+were
+significantly
+decreased.
+
+
+Importantly,
+treatment
+of
+LPS-challenged mice with MnTMPyP attenuated the LPSinduced decrease in PKG and PKA activity (Fig. 2, B, C, and
+E) without any significant effect on their protein levels (Fig. 2,
+A and D). Together, these results indicate that nitrative stress
+plays an important role in the modulation of enzymatic activities of cAMP-dependent and cGMP-dependent protein
+kinases in ALI.
+
+PKG-Iα nitration is increased in lung tissue of LPS-challenged
+mice
+
+
+LPS-induced signaling increased peroxynitrite levels in vivo,
+as determined by the oxidation of dihydrorhodamine 123
+(DHR123) to rhodamine 123, whereas MnTMPyP abrogated
+an accumulation of peroxynitrite in LPS-exposed tissue
+(Fig. 3A). Using 3-nitrotyrosine–specific antibody, we were
+able to detect a significant increase in PKG-Iα nitration
+(Fig. 3B). We have previously reported that PKG-Iα is susceptible to nitration at Y247 and that this modification impairs
+PKG activity (17), and using an antibody developed specifically
+against nitrated Y247 of PKG-Iα (17), we also found a significant increase in this PKG-Iα modification in PKG-Iα–transfected human embryonic kidney 293T (HEK293T) cells
+exposed
+to
+the
+peroxynitrite
+generator,
+3-
+morpholinosydnonimine (Fig. 3°C) and, more importantly, in
+mouse lungs exposed to LPS (Fig. 3D). Specificity was again
+validated by our data showing that DHR123 oxidation and
+PKG-Iα nitration were attenuated by MnTMPyP (Fig. 3).
+
+Identification of a novel PKG-specific phosphorylation site in
+
+
+PDE3A involved in regulating PDE3A activity
+To study possible effects of PKG-Iα on PDE3A function, we
+first determined if a physical association exists between the
+two proteins. To accomplish this, we overexpressed PKG-Iα in
+HEK293T cells, and using immunoprecipitation (IP) analysis,
+we were able to demonstrate an association of PKG-Iα and
+
+
+PDE3A in a pulled-down protein complex, which may suggest
+an interaction between the enzymes (Fig. 4A). Furthermore,
+this association between PDE3A and PKG-Iα correlated with a
+decrease in PDE3 activity (Fig. 4B) and an increase in cAMP
+levels (Fig. 4°C). Taken together, these data suggest that PDE3A
+may be phosphorylated by PKG-Iα, and this phosphorylation
+regulates PDE3A activity toward cAMP. To further investigate
+this possibility, we performed database searches in order to
+reveal putative PKG-dependent phosphorylation sites in the
+PDE3A primary structure using NetPhos 3.1 (DTU Bioinformatics). Several PKG-specific phosphorylation sites conserved
+in human and mouse PDE3A amino acid sequences were
+predicted (Fig. 4D). To validate these PKG-Iα–specific posttranslational modifications, we then used MS analysis. To
+accomplish
+this,
+
+
+HEK293T
+cells
+were
+transfected
+with
+expression plasmids containing PDE3A and PKG-Iα complementary DNAs (Fig. 5A). PDE3A was then immunopurified
+
+from the cell lysates, separated by SDS-PAGE and in-gel
+trypsinized. MS analysis was performed on the extracted
+peptides. Our results identified S654 phosphorylation in
+PDE3A in cells overexpressing PKG-Iα (Fig. 5, B and C). To
+further validate this PKG-dependent PDE3A phosphorylation
+site, we generated an antibody to specifically recognize p-S654
+
+in PDE3A. Using this antibody, we were able to demonstrate
+an increase in p-S654-PDE3A when PDE3A was coexpressed with
+PKG-Iα in HEK293T cells (Fig. 5D). Using this antibody, we
+were also able to detect an abundant phosphorylation of
+
+
+PDE3A at S654 in the mouse lung and importantly demonstrate
+that
+
+
+LPS
+challenge
+dramatically
+decreases
+this
+posttranslational modification (Fig. 5E). To study the possible
+regulatory
+role
+of PKG-Iα–mediated
+phosphorylation
+of
+
+
+PDE3A at S654, we generated a PDE3A mutant in which S654
+was replaced by alanine (S654A-PDE3A) and tested its
+
+functional regulation in vitro. myc-DDK-tagged wtPDE3A or
+the S654A-PDE3A mutant was expressed in the presence or the
+absence of PKG-Iα in HEK293T cells. IP analysis showed that
+both wtPDE3A and the S654A-PDE3A mutant efficiently
+interacted with PKG-Iα (Fig. 6A). wtPDE3A was also phosphorylated at S654, when the cells expressing wtPDE3A were
+simultaneously transfected with PKG-Iα (Fig. 6B). However,
+the S654A-PDE3A–PKG-Iα interaction (Fig. 6A) did not lead to
+S654A-PDE3A mutant phosphorylation (Fig. 6B). The phosphorylation of wtPDE3A by PKG-Iα correlated with a decrease
+in wtPDE3 activity (Fig. 6°C) and a subsequent increase in
+cAMP levels (Fig. 6D). In contrast, the activity of the phosphonull S654A-PDE3A mutant (Fig. 6°C) was unaffected, and cAMP
+levels (Fig. 6D) were unchanged in the presence of PKG-Iα.
+Together, these data clearly indicate that S654 is a previously
+
+unidentified PKG-dependent phosphorylation site in PDE3A
+that negatively regulates PDE3A activity.
+
+--- Discussion ---
+
+
+
+Stimulation of soluble guanylate cyclases by nitric oxide or
+nitric oxide–independent activators leads to intracellular
+cGMP elevation and PKG-Iα activation. Moreover, soluble
+guanylate cyclase activation is accompanied by an increase in
+cAMP levels and PKA activity (31–33). This suggests direct
+crosstalk between cGMP-dependent and cAMP-dependent
+pathways. However, the molecular mechanisms underlying
+this crosstalk are not completely understood. PKG-Iα is a wellknown cGMP-dependent modulator of vasorelaxation, which
+acts, in part, via phosphorylation of actin cytoskeleton–
+
+regulatory
+protein
+vasodilator-stimulated
+phosphoprotein
+(VASP) at serine 239 (S239) (34, 35). However, recent publications have identified VASP-S239–independent effects of
+PKG-Iα in smooth muscle cells, suggesting other PKG-Iα–
+dependent regulatory mechanisms exist. These mechanisms
+may involve PKG-dependent phosphorylation of MYPT1,
+myosin light chain–targeting subunit of PP1 (36) and an
+inhibitory phosphorylation of RhoA (37). In this study, we
+show the involvement of PKG-Iα in the regulation of cAMP–
+cGMP signaling crosstalk via an inhibitory phosphorylation of
+the cAMP-degrading enzyme, PDE3A. The identified phosphorylation site, S654, is present in the C-terminal region of
+PDE3A. Furthermore, we have confirmed that S654 phosphorylation status is crucial for PDE3A activity and intracellular levels of cAMP. Mutation of S654 to A654 produced a
+PDE3A mutant insensitive to PKG-Iα regulation. Recently,
+
+
+PKA and PKC phosphorylation events have been identified in
+PDE3A that stimulate its activity (38–40). The respective
+phosphorylation sites, serine 312 (S312) and serine 428 (S428),
+are present in the common N-terminal sequences in the
+
+
+PDE3A1 and PDE3A2 splice variants, whereas the shorter
+
+
+
+PDE3A3 variant lacks the N-terminal region containing S312
+and S428 and cannot be modulated by PKA and PKC (40).
+
+
+Interestingly, PDE3A1 is mainly phosphorylated by PKA at
+
+
+
+S312, whereas PDE3A2 is mainly phosphorylated by PKC at
+S428. This difference in regulation determines further specificity in protein–protein interactions and PDE3A stability (40).
+
+
+In contrast, S654 is located in the common C-terminal region
+of PDE3A, and, therefore, all three variants of the PDE3A
+enzyme could be inhibited by PKG-Iα phosphorylation.
+
+
+However, further studies will be required to investigate this
+possibility.
+
+Inhibition of cyclic nucleotide–specific PDEs is a therapeutic approach for a number of pathological states (41, 42).
+Cyclic nucleotide–dependent cell signaling plays an important
+role in the endothelial barrier–protective role in both cellular
+and animal models of ALI–ARDS (13, 43). Various compounds activating adenylate cyclase and, respectively, stimulating cAMP synthesis (such as purine receptor agonists) are
+protective
+against
+effects
+of
+
+
+LPS
+or
+other
+barriercompromising factors in vitro and in vivo (13, 43–45). However, this effect is rather transient, since cyclic nucleotides can
+be rapidly degraded by specific PDEs. Moreover, some cAMP
+effectors can actually stimulate PDE isoforms allowing the
+termination of the signaling cascade (46). Therefore, active
+cAMP-specific PDEs may be involved in the direct inhibition
+of cAMP production. In our study of crosstalk in cyclic nucleotides in ALI, we evaluated the activities of the three families of PDEs that regulate cAMP–cGMP crosstalk in the
+vasculature: PDE2, PDE3A, and PDE5 (26, 28). It is well
+documented that PDEs 2, 3, and 5 are involved in the
+modulation of cGMP-dependent cell signaling. PDE2 is
+cGMP-specific PDE, whereas PDE5 is cGMP-activated cAMPspecific PDE (28). Our data show a specific perturbance of
+cyclic nucleotide signaling in LPS-exposed lung tissues. We
+found that LPS exposure activated PDE3A and inhibited PDE5.
+
+
+As a result, cAMP levels are diminished, and cGMP levels are
+elevated. However, cGMP elevation did not result in PKG-Iα
+activation because of the inhibitory effect of a peroxynitriteinduced modification resulting in the nitration of the protein
+at Y247 nitration.
+
+
+PDE3 is one of the critical regulators of cAMP-dependent
+signaling cascades. It is rather unique among other cAMPspecific PDEs because of its very low Km toward cAMP as a
+substrate (47), which indicates that PDE3 is able to regulate
+basal levels of cAMP, and its activation does not depend on an
+increase in intracellular cAMP concentration. In contrast,
+other cAMP-specific PDEs require high levels of cAMP for an
+efficient downregulation of cAMP signaling. Together, this
+suggests that PDE3 may be particularly critical for the efficient
+downregulation of stimuli-induced cAMP signaling as it will
+already be active at early stages of the cAMP induction process. In addition, recent studies have revealed PDE3 specificity
+toward cUMP, novel cyclic nucleotide secondary messenger
+involved in the regulation of PKG–PKA activities (reviewed in
+Ref. (48)). However, the importance of cUMP in the regulation
+of the endothelial function and pulmonary pathology will
+require further investigation. Recently, intracellular compartmentalization of PDE3A has been shown to exist, and its
+involvement in signalosome complexes suggests it plays an
+important role in fine tuning of cyclic nucleotide–induced
+signaling (49). PDE3 activity is also critical for the regulation
+of endothelial permeability via cytoskeletal rearrangements.
+Thus, the inhibition of PDE3 itself may have the barrierenhancing effects. Indeed, in primary rat brain capillary
+endothelial cells and human brain microvascular endothelial
+cells, treatment with the PDE3 inhibitor, cilostazol, led to
+reorganization of F-actin, a dramatic increase in the expression
+of the tight junction protein, claudin-5, and barrier enhancement (50, 51). Cilostazol treatment also protected the barrier
+integrity of human brain microvascular endothelial cells from
+ethanol-induced disruption (52). The effects of cilostazol are
+abolished by PKA inhibition (50–52), suggesting that PDE3
+inhibition increases basal levels of cAMP and stimulates PKAdependent signaling. Therefore, PKG-Iα–dependent control of
+PDE3A activity via S654 phosphorylation in pulmonary endothelium could be absolutely critical for maintaining barrier
+integrity. Conversely, LPS-induced inhibition of PKG-Iα via
+Y247 nitration may be sufficient to initiate endothelial barrier
+disruption secondary to PDE3A activation and a decrease in
+cAMP levels.
+
+PKG-Iα has been shown to act as redox effector, since under
+oxidative stress conditions, the enzyme is activated by dimerization via S–S bond formation (53, 54). This activation occurs
+in the absence of cGMP (53, 54) and is considered to be a celldefensive mechanism. However, in ALI, when oxidative stress
+is also accompanied by increases in peroxynitrite formation,
+nitration of Y247 ultimately leads to PKG-Iα inhibition, and we
+show here that Y247 nitration, which impairs binding of cGMP
+by PKG-Iα (17), keeps the protein kinase in an inactive state
+even in the presence of cGMP. This inhibition likely plays a
+role in the endothelial barrier dysfunction associated with LPS,
+at least in part, through the resulting increase in PDE3A activity and the subsequent increased degradation of cAMP.
+
+Basal cAMP levels are important in maintaining the endothelial barrier, and ALI-induced endothelial integrity loss is
+characterized by decreases in intracellular cAMP (14, 15) followed by inhibition of the barrier-protective effectors PKA and
+
+
+Epac-1 as well as small GTPase, Rac-1, all of which have been
+shown to be critical for maintaining endothelial integrity (55).
+
+
+Furthermore, our data suggest that under normal physiological
+conditions, PKG-Iα controls basal levels of cAMP. The protective effects of peroxynitrite scavenging in our experiments
+suggest a link between decreased PKG-Iα tyrosine nitration
+and the recovery of basal levels of cAMP.
+
+--- Thus, in conclusion, we have elucidated a novel aspect of ---
+intracellular
+cAMP
+regulation
+via
+a
+cGMP-dependent
+pathway. This cyclic nucleotide crosstalk is regulated by
+cGMP-dependent PKG-Iα via an inhibitory phosphorylation
+of cAMP-specific PDE3A. Inhibition of PKG-Iα activity by
+nitration during ALI results in a dramatic loss of intracellular
+cAMP secondary to PDE3A activation, which is then followed
+by endothelial barrier disruption (summarized in Fig. 7).
+Finally, we speculate that the novel functional link described
+
+here may result in new approaches to ALI focused on preventing PKG-Iα nitration, thereby maintaining cAMP levels
+and leading to the protection of the pulmonary endothelial
+barrier.

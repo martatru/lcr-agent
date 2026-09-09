@@ -1,0 +1,801 @@
+--- SUMMARY
+
+Polymerization and phase separation of proteins ---
+containing low-complexity (LC) domains are important factors in gene expression, mRNA processing
+and trafficking, and localization of translation. We
+have used solid-state nuclear magnetic resonance
+methods to characterize the molecular structure of
+self-assembling fibrils formed by the LC domain of
+the fused in sarcoma (FUS) RNA-binding protein.
+From the 214-residue LC domain of FUS (FUS-LC),
+a segment of only 57 residues forms the fibril core,
+while other segments remain dynamically disordered. Unlike pathogenic amyloid fibrils, FUS-LC fibrils lack hydrophobic interactions within the core
+and are not polymorphic at the molecular structural
+level. Phosphorylation of core-forming residues by
+DNA-dependent protein kinase blocks binding of soluble FUS-LC to FUS-LC hydrogels and dissolves
+phase-separated, liquid-like FUS-LC droplets. These
+studies offer a structural basis for understanding LC
+domain self-assembly, phase separation, and regulation by post-translational modification.
+
+--- Here, we report results from solid-state NMR experiments to ---
+characterize the molecular structure of fibrils formed by the LC
+
+domain of the fused in sarcoma (FUS) RNA-binding protein
+(FUS-LC).
+
+
+Despite
+the
+repetitive
+nature
+of
+the
+FUS-LC
+sequence, we find that the structured core of FUS-LC fibrils
+is formed reproducibly by a specific 57-residue segment
+in the N-terminal half. Other segments, especially in the C-terminal half, remain dynamically disordered. Interestingly, the
+amino acid composition of the core-forming segment of
+
+
+FUS-LC is not much different from the overall composition,
+showing that subtle variations in sequence can distinguish
+structure-forming segments from dynamically disordered segments within an LC polymer. From a large set of experimental
+restraints, we develop a detailed structural model for the
+FUS-LC fibril core, which may serve as a basis for understanding both biophysical and biologic properties of LC domains in
+general.
+
+--- We also report results from experiments that examine the ---
+effects of phosphorylation of Ser and Thr sidechains by DNAdependent protein kinase (DNA-PK) on FUS-LC self-assembly
+(binding to preformed FUS-LC hydrogels) and phase separation
+of FUS-LC droplets. The DNA-PK experiments reveal site-specific variations in the effects of phosphorylation that correlate
+with the fibril core-forming segment identified by solid-state
+NMR experiments. The site-specificity of effects on droplet formation argues in favor of a molecular structural contribution to
+
+
+LC domain phase separation, as well as a similarity between
+FUS-LC conformations in fibrils and droplets.
+
+--- RESULTS
+
+Fibril Formation by FUS-LC ---
+
+
+
+His-tagged FUS-LC, bearing the amino
+acid sequence in Figure 1A, was expressed in E. coli and purified by Ni2+
+
+affinity chromatography under denaturing
+conditions. Polymerization was initiated
+by concentrating the protein to 30 mM, removing denaturant
+by dialysis, and incubating at room temperature. Fibrils were
+also prepared by seeded growth (see STAR Methods). As shown
+in Figure 1B, negatively stained FUS-LC fibrils have the straight,
+unbranched appearance of typical amyloid fibrils in transmission
+electron microscope (TEM) images. Atomic force microscope
+(AFM) images indicate uniform fibril diameters of 5.5 ± 0.7 nm
+(Figure 1°C). FUS-LC fibrils also exhibit typical amyloid dye-binding properties (Figures S1A and S1B).
+
+Measurements of the mass-per-length (MPL) of individual fibrils by dark-field TEM (Chen et al., 2009) (Figures 1D and
+S1°C) yielded the MPL histogram in Figure 1E. The histogram
+was fit with a single Gaussian distribution centered at MPL =
+50 ± 2 kDa/nm, in good agreement with the 51.9–53.0 kDa/nm
+value expected from a single cross-b structural unit comprised
+of monomers with the 24.9 kDa molecular weight of His-tagged
+FUS-LC and the 0.47–0.48 nm intermolecular spacing of a
+standard b sheet. The width of the MPL histogram (11 kDa/nm
+full-width-at-half-maximum) arises from random background
+intensity variations in the dark-field images (see Figure S1D).
+
+
+NMR Spectra Indicate a Structurally Ordered Core in
+
+
+
+FUS-LC Fibrils, Coexisting with Dynamically Disordered
+
+
+
+Segments
+NMRmeasurementswereperformedinitiallyonuniformly 15N,13°C-
+labeled FUS-LC (U-FUS-LC) fibrils, pelleted by ultracentrifugation
+
+and loadeddirectlyintomagic-anglespinning(MAS)rotorswithout
+lyophilization or drying. Measurements under conditions appropriate for solid-state NMR, especially the use of cross-polarization
+(CP) driven by magnetic dipole-dipole couplings for nuclear spin
+polarization transfers (Pines et al., 1973) and high-power 1H decoupling (Bennett et al., 1995), select NMR signals from residues
+that are immobilized in the fibrils. Conversely, measurements under conditions similar to those in solution NMR spectroscopy,
+especially the use of the INEPT (insensitive nuclei enhanced bypolarization transfer) technique for polarization transfers driven by
+scalar couplings (Morris and Freeman, 1979) and low-power 1H
+decoupling, select NMR signals from residues that undergo rapid
+and nearly isotropic motion.
+
+
+Two-dimensional
+(2D)
+13°C-13°C
+and
+15N-13°C
+spectra
+of
+U-FUS-LC fibrils, obtained with solid-state NMR (i.e., CP-based)
+conditions, contain strong, sharp crosspeaks attributable to 50
+residues, including ten Gly, ten Ser, five Thr, one Pro, and two
+Asp/Asn residues (Figures 2A and 2B). No Ala signals were detected. Crosspeak patterns were reproducible over multiple independent sample preparations, with minor variations in intensities of weaker crosspeaks, indicating a single predominant
+
+
+FUS-LC fibril structure without the variable
+polymorphism
+that
+has
+been
+observed in solid-state NMR studies of
+other amyloid fibrils, even under a single
+set of growth conditions (Heise et al.,
+2005;
+
+
+Paravastu
+et
+al.,
+2008;
+
+
+Xiao
+et al., 2015).
+
+Four types of three-dimensional (3D)
+solid-state NMR spectra of U-FUS-LC fibrils were also recorded (Figure S2).
+Crosspeak signals attributable to 49–57
+residues were detected in each of the
+
+
+3D spectra with adequate signal-to-noise
+for subsequent analysis (55 in NCACX, 49
+in NCOCX, 57 in CONCA, 49 in CANCX
+spectra). Differences in the number of
+detectable
+residues
+in
+different
+3D
+spectra arise from differences in polarization transfer pathways, spectral resolution, and overall signal-to-noise. From
+the 2D and 3D solid-state NMR spectra,
+it is clear that the core of FUS-LC fibrils contains fewer than 60
+structurally ordered residues, although the full sequence (without
+the His tag) contains 214 residues.
+
+
+NMR
+spectra
+of
+U-FUS-LC
+fibrils
+were
+also
+obtained
+under solution NMR conditions (Figures 2°C and 2D). 2D 1H-13°C
+and
+
+
+1H-15N INEPT spectra show strong crosspeaks from
+nearly all amino acid types in FUS-LC, with
+
+
+1H and
+13°C
+chemical shifts close to random coil values. The average transverse 15N spin relaxation time (T2 value) for these signals was
+73 ± 2 ms, as determined by a spin echo decay after 1H-15N
+INEPT. Thus, certain segments remain highly flexible in FUS-LC
+fibrils, executing nearly isotropic motions on sub-microsecond
+timescales.
+
+
+Identification of the Core-Forming Segments
+
+
+
+Assignment of signals in 3D solid-state NMR spectra of
+U-FUS-LC fibrils to specific amino acid sites allows us to identify
+the immobilized, core-forming segments. However, the repetitive nature of the FUS-LC sequence and the fact that less
+than 25% of the sequence contributes to these spectra makes
+it difficult to establish the uniqueness of assignments obtained
+
+by conventional manual methods. Therefore, we used a computationally aided approach based on the MCASSIGN algorithm
+(Hu et al., 2011), which has been applied previously in solid-state
+
+
+NMR studies of amyloid fibrils and viral capsid assemblies
+(Bayro et al., 2014; Lu et al., 2013). Briefly, the MCASSIGN algorithm uses a Monte Carlo/simulated annealing approach to
+assign sets of crosspeak signals from each 3D spectrum in a
+manner that is consistent with the amino acid sequence, with
+manual residue-type assignments for each signal, and with the
+required connections (i.e., chemical shift matches) among the
+3D spectra. Results from multiple MCASSIGN runs can be
+compared, allowing signals with assignments that are uniquely
+defined by the data to be distinguished from signals with multiple
+possible assignments.
+
+
+Two independent sets of MCASSIGN calculations, using
+somewhat different approaches and input files, resulted in
+unique signal assignments to residues 39–40, 44–54, and
+63–95 (Figure S3A; Table S1; STAR Methods). We therefore
+conclude that residues 39–95 constitute the structurally ordered
+core of FUS-LC fibrils, with partial disorder or enhanced dynamics in residues 55–62 that precludes detection or unambiguous assignment of solid-state NMR signals to these sites.
+
+Crosspeak amplitudes for different residues varied significantly. For example, in the 3D CONCA spectrum of U-FUS-LC
+fibrils, assigned crosspeaks from 43 residues have signal-tonoise ratios above 5.0, but the amplitudes of these crosspeaks
+vary by a factor of 5.2 (Figure S3B). The observed variations in
+crosspeak amplitudes suggest a distribution of motional amplitudes or timescales, even within the fibril core.
+
+
+Certain signals in the 3D spectra could not be assigned
+uniquely (Figure S3°C; Table S2). These signals have relatively
+low signal-to-noise in most cases and apparently arise from individual residues or short segments that are sufficiently immobile
+to contribute to some 3D spectra but are flanked by more mobile
+residues, thereby preventing sequential signal assignment.
+Thus, certain segments outside of residues 39–95 are partially
+ordered, perhaps by loose association with the FUS-LC fibril
+core or by inter-fibril interactions.
+
+
+Confirmation by Segmental Isotopic Labeling
+As an additional test of the identity of FUS-LC fibril core, samples
+were prepared with uniform 15N,13°C-labeling of either N-terminal
+or C-terminal segments of the FUS-LC sequence, using native
+chemical ligation of labeled and unlabeled segments (Figure S4;
+STAR Methods). We introduced a single Cys substitution at the
+junction between labeled and unlabeled segments (Figure 3A)
+as required for the ligation reaction (Shah et al., 2012).
+
+Figures 3B and 3°C show 1D 13°C NMR spectra of fibrils with a
+
+
+Ser112-Cys substitution and with labeling of either residues
+1-111 (N112-FUS-LC) or residues 112-214 (C112-FUS-LC). For
+N112-FUS-LC fibrils, the ratio of the total 13°C NMR signal amplitude from aliphatic sites observed under solid-state NMR conditions to that observed under solution NMR conditions is 13 ± 1.
+For C112-FUS-LC fibrils, this ratio is 0.47 ± 0.02. Thus, most immobilized sites are in residues 1–111. Figures 3D–3G show 2D
+solid-state NMR spectra of N112-FUS-LC and C112-FUS-LC
+fibrils. 2D spectra of N112-FUS-LC fibrils are nearly identical to
+corresponding spectra of U-FUS-LC fibrils (Figures 2A and
+
+2B), confirming that the core-forming segment resides in residues 1–111. 3D CONCA and NCACX spectra of N112-FUS-LC
+fibrils were also recorded and used to confirm signal assignments (STAR Methods).
+
+
+2D solid-state NMR spectra of C112-FUS-LC fibrils show
+relatively weak and broad signals, with few of the sharp crosspeaks that are observed in the corresponding spectra of
+U-FUS-LC fibrils. Solid-state NMR signals from C112-FUS-LC
+fibrils are attributable to partially ordered residues outside the
+fibril core, as discussed above. Fibrils were also prepared with
+a Gln60-Cys substitution and with labeling of either residues
+1–59 (N60-FUS-LC) or residues 60–214 (C60-FUS-LC) (Figure S5A). For N60-FUS-LC fibrils, the ratio of the total 13°C
+
+
+NMR signal amplitude from aliphatic sites observed under
+solid-state NMR conditions to that observed under solution
+NMR conditions is 8.2 ± 0.8. For C60-FUS-LC fibrils, this ratio
+is 1.26 ± 0.06 (Figures S5B and S5°C). 2D solid-state NMR
+spectra of these samples are also consistent with signal assignments from 3D spectra of U-FUS-LC fibrils (Figures
+S5D–S5G).
+
+
+Structural Model for the FUS-LC Fibril Core
+
+
+
+Development of a detailed molecular structural model for the
+FUS-LC fibril core requires experimental restraints on intermolecular alignment, backbone conformation, and inter-residue contacts. Structures were calculated with the Xplor-NIH program
+(Schwieters et al., 2006), using the following restraints: (1) MPL
+data in Figure 1 and the observation of a single set of solid-state
+NMR chemical shifts, implying that FUS-LC fibrils contain a single
+cross-b unit in which all molecules have equivalent conformations
+and structural environments; (2) predictions of backbone f and c
+torsion angles from 15N and 13°C chemical shifts by the TALOS-N
+program (Shen and Bax, 2013) (Figure S6A; Table S1); (3) measurements of intermolecular 13°C-13°C magnetic dipole-dipole couplings with the PITHIRDS-CT technique (Tycko, 2007) on FUS-LC
+fibrils that were
+13°C-labeled at backbone carbonyl sites of
+either all Tyr residues or all Thr residues. These data indicate intermolecular 13°C-13°C distances of 0.47 ± 0.02 nm (Figure S6B),
+implying an in-register parallel intermolecular alignment within
+the cross-b core; (4) measurements of 15N-15N dipole-dipole
+couplings among nearest-neighbor backbone nitrogen sites
+with the 15N-BARE technique (Hu et al., 2012) on U-FUS-LC fibrils
+and on FUS-LC fibrils that were uniformly
+
+
+15N-labeled and
+partially 13°C-labeled (Castellani et al., 2003; Hong and Jakes,
+1999), using 2-13°C-glycerol as the carbon source (2-GlycFUS-LC; Figure S6°C); (5) measurements of long-range inter-residue crosspeaks in 2D 13°C-13°C and 3D NCACX and NCOCX
+spectra of 2-Glyc-FUS-LC fibrils and FUS-LC fibrils that were uniformly 15N-labeled and partially 13°C-labeled, using 1,3-13°C-glycerol as the carbon source (1,3-Glyc-FUS-LC; Figures S6D–S6F).
+Xplor-NIH calculations were performed on nine copies of residues
+37–97, resulting in final models that represent a fibril segment with
+a length of 3.8 nm (STAR Methods). Restraints and structure
+statistics are summarized in Tables S4 and S5. The final bundle
+of 20 structural models was deposited in the Protein Data
+Bank: 5W3N.
+
+
+As shown in Figure 4, the overall backbone conformation of
+residues 43–95 and the orientations of sidechains for residues
+
+44–52 and 65–95 are well determined by the experimental
+restraints. (Sidechain orientations are reversed for residues
+86–90 and 93–95 in 1 out of 20 models.) Sidechain orientations
+and backbone torsion angles are not determined for residues
+53–64, reflecting the absence of chemical shift assignments for
+residues 55–62. These residues are likely to be partially dynamic
+in FUS-LC fibrils. Sidechain torsion angles are not restrained by
+the existing data, so variations in sidechain conformations do not
+necessarily indicate real static or dynamic disorder.
+
+
+Segments that form b strands of a cross-b motif in all 20
+models, defined by the characteristic alignment of backbone
+carbonyl groups with the fibril growth axis, include residues
+44–46, 52–54, 62–64, 67–70, 85–90, and 93–95. It appears that
+much of the structurally ordered core of FUS-LC fibrils (50%
+of residues with assigned solid-state NMR signals) does not
+participate in the intermolecular hydrogen bonding interactions
+that help stabilize a cross-b structure.
+
+
+Phosphorylation-Mediated Effects
+on Hydrogel Binding and Liquid-like
+
+
+Droplet Formation by FUS-LC
+The LC domain of FUS can be phosphorylated by DNA-dependent protein kinase
+(DNA-PK) upon DNA damage (Gardiner
+et al., 2008). If pre-exposed to DNA-PK,
+a fusion protein linking FUS-LC to green
+fluorescent
+protein
+(GFP)
+is
+blocked
+from binding to hydrogels composed of
+FUS-LC linked to mCherry (Han et al.,
+2012). Although liquid-like droplet formation by the LC domain of FUS has been studied (Burke et al.,
+2015; Lin et al., 2015; Murakami et al., 2015; Patel et al., 2015),
+effects of phosphorylation on droplet formation have not been
+described previously.
+
+
+In living cells, phosphorylation of the LC domain of FUS has
+been reported to correlate with translocation of the protein
+from the cell nucleus to the cytoplasm upon DNA damage,
+coupled with a distinct alteration in its pattern of migration as
+deduced by SDS-PAGE (Deng et al., 2014). It has also been reported that all phosphorylation of the FUS protein incurred upon
+DNA damage is localized to the LC domain (Deng et al., 2014). To
+establish a comprehensive map of DNA-PK phosphorylation
+sites, a purified fusion protein linking FUS-LC to GFP was incubated with DNA-PK in the presence of ATP. The fusion protein
+was then digested with chymotrypsin and subjected to proteomic analysis to map phosphorylation sites via mass spectrometry (see STAR Methods). These efforts led to the identification
+
+of 14 phosphorylation sites, including Ser residues 30, 42, 54, 61,
+84, 87, 112, 117, 131, and 142 and Thr residues 7, 11, 19, and 68
+(Figure 5A). The level of phosphorylation of individual sites
+increased proportionally upon incubation with DNA-PK and
+ATP from 30 to 60 min, and the ultimate level of phosphorylation
+for the individual sites, or closely spaced pairs of sites, ranged
+from 30% to 80%.
+
+As a means of blocking phosphorylation at specific sites, pairs
+of Ser and Thr residues were simultaneously mutated to Ala,
+generating nine double mutants (Figure 6A). All double mutants
+were phosphorylated to the same degree as wild-type FUS-LC
+(Figures 5B and 5°C), showing that none of the mutated sites
+dominates the ultimate level of DNA-PK-mediated phosphorylation. All double mutants were compared in hydrogel binding assays, using fusion proteins in which double mutant FUS-LC was
+linked to GFP (Figure 6B). In the absence of phosphorylation,
+all but one of the double mutants were observed to bind to
+mCherry:FUS hydrogel droplets to an equivalent degree as the
+wild-type FUS-LC:GFP fusion protein. Hydrogel binding by the
+S84A/S87A mutant was observed to be reduced relative to
+wild-type protein by 50%. According to the structural model
+for FUS-LC fibrils, S84 can form a hydrogen bond network with
+
+Y75 and T78 (Figure 4°C). This hydrogen
+bond network may be important to stabilize the loop between residues 74 and 87.
+
+
+Because both S84 and S87 are located in
+this loop, disruption of the loop conformation may impair FUS-LC fibril formation.
+
+
+Phosphorylation by DNA-PK reduced
+binding
+of
+wild-type
+FUS-LC:GFP
+to
+mCherry:FUS hydrogels by a factor of
+ten (Figure 6B). Similarly large reductions
+in hydrogel binding were observed for the
+T7A/T11A and S131A/S142A mutants,
+consistent with phosphorylation of residues 7, 11, 131, and 142 having little
+effect on hydrogel binding by wild-type
+FUS-LC.
+
+
+Reductions
+by
+a
+factor
+of
+approximately three were observed for the S112A/S117A,
+S84A/S87A, and T19A/S30A mutants. Smaller reductions in hydrogel binding upon phosphorylation were observed for the
+S42A/S54A, S30A/S61A, S61A/T68A, and S42A/S84A mutants.
+
+
+The same nine double mutants were also examined in assays
+scoring for the formation of liquid-like droplets. In this assay,
+His-tagged FUS-LC was assayed as an isolated, purified polypeptide not linked to GFP (STAR Methods). Without phosphorylation, all nine double mutants formed droplets in a manner
+indistinguishable from the wild-type protein. Inclusion of both
+
+
+DNA-PK and ATP in the assay allowed initial droplet formation
+by wild-type FUS-LC, followed by dissolution of the droplets
+over a 2-hr period (Figure 6°C). No such ‘‘droplet melting’’ was
+observed upon elimination of either ATP or DNA-PK from the
+reaction mixture (Figure 6D). For four of the double mutants,
+droplet melting induced by phosphorylation was strongly
+impeded (factor of 8–10), including the S42A/S54A, S61A/
+T68A, S42A/S84A, and S84A/S87A double mutants. Droplet
+melting was partially impeded for the T19A/S30A double
+mutant and only weakly affected for the T7A/T11A, S30A/
+
+
+S61A,
+S112A/S117A,
+and
+S131A/S142A
+double
+mutants
+(Figure 6°C).
+
+Effects of the double Ala substitutions on the ability of DNA-PK
+to either inhibit hydrogel binding by FUS-LC or melt FUS-LC
+droplets were correlatively similar (Figure 6E). Elimination of
+phosphorylation sites within the core-forming region identified
+by solid-state NMR (i.e., the S42A/S54A, S61A/T68A, and
+S42A/S84A mutants) strongly reduced the effects of DNA-PK
+treatment on both hydrogel binding and droplet formation.
+By contrast, elimination of phosphorylation sites outside the fibril
+core (i.e., the T7A/T11A, T19A/S30A, S112A/S117A, and S131A/
+S142A mutants) generally had less impact on the effects of
+DNA-PK treatment in both assays.
+
+
+In order to quantitatively evaluate these data, we separated
+mutated residues into two groups according to their effects on
+the ability of DNAPK to either impede hydrogel binding or dissolve
+liquid-like droplets. None of the mutations in six different non-core
+residues were observed to impede the ability of DNA-PK to either
+inhibit hydrogel binding or dissolve liquid-like droplets. Of eight
+residues mutated to eliminate sites of phosphorylation that could
+be interpreted to impede the ability of DNA-PK to inhibit hydrogel
+binding, six mapped to the fibril core. Likewise, of six residues
+mutated to eliminate DNAPK phosphorylation sites resulting in
+impediments in phosphorylation-mediated dissolution of liquidlike droplets, five mapped within the fibril core. The partitioning
+of core phosphorylation sites in the phenotypic effects of DNAPK-mediated phosphorylation on the two assays were of substantive statistical significance (Table S5).
+
+--- DISCUSSION
+
+Summary of NMR Results ---
+NMR spectra obtained under conditions that select signals from
+immobilized, structurally ordered residues show that the core of
+FUS-LC fibrils contains only a small subset of the full FUS-LC
+sequence (Figures 2A and 2B). NMR spectra obtained under
+conditions that select signals from dynamically disordered residues show that a large part of the sequence remains highly flexible (Figures 2°C and 2D). In principle, the fibril core could be
+comprised of multiple protein segments that are separated by
+long disordered loops. However, site-specific assignments of
+the solid-state NMR signals (Figures S2 and S3; Table S1) indicate that the core-forming segments are localized within residues 39–95, with one partially dynamic loop in residues 55–62.
+The size of the FUS-LC fibril core (60 amino acids), approximates the sizes of fibril cores assembled from the LC domains
+of Nup54 and hnRNPA2, as deduced from N-acetylimidazole
+footprinting (Shi et al., 2017; Xiang et al., 2015).
+
+
+Identification of the FUS-LC fibril core is confirmed by NMR
+spectra of segmentally labeled FUS-LC fibrils (Figures 3 and
+S5). Highly dynamic segments are primarily localized in the
+C-terminal half of FUS-LC. N-terminal segments before residue
+39 may have slower dynamics, as suggested by the weakness
+of INEPT signals in Figures 3B and S5B. From a variety of experimental restraints (Figure S6; Table S4), we developed the structural model for the FUS-LC fibril core shown in Figure 4. The principal structural features are well determined by the experimental
+data, including intermolecular alignment, backbone conformation, and sidechain orientations. Sidechain conformations are
+undetermined.
+
+
+Movie S1 depicts the FUS-LC fibril as revealed by NMR
+measurements, with its relatively rigid, structurally ordered
+core surrounded by dynamically disordered N- and C-terminal
+segments. Future experiments may provide additional insight
+into quantitative aspects of the motional amplitudes and timescales of these segments, as well as their roles in functional
+interactions.
+
+--- Movie S2 shows results from molecular dynamics simulations ---
+on a short piece of the FUS-LC core structure, consisting of five
+copies of residues 37–97, in explicit water (see STAR Methods).
+
+
+Although water molecules penetrate the core within 10 ns, the
+core structure remains stable for the 150 ns duration of the simulation. This observation suggests that relatively small clusters of
+
+
+FUS-LC molecules can adopt stable or metastable oligomeric
+configurations that closely resemble the molecular structure
+within FUS-LC fibrils.
+
+What Determines the Fibril Core?
+Our finding that residues 39–95 form the core of FUS-LC fibrils is
+not predicted by computational methods that assess propensities for amyloid formation by segments within protein sequences (Figure S7). Aggrescan, FISH, FoldAmyloid, MetAmyl,
+and PASTA 2.0 predict a low propensity for amyloid formation
+across the FUS-LC sequence, presumably because these algorithms emphasize the importance of hydrophobic interactions
+(de Groot et al., 2012; Emily et al., 2013; Garbuzynskiy et al.,
+2010; Gasior and Kotulska, 2014; Walsh et al., 2014). ZipperDB,
+
+
+Zyggregator, and WALTZ, which include other physicochemical
+and structural properties of protein segments (Thompson et al.,
+2006; Tartaglia and Vendruscolo, 2008; Maurer-Stroh et al.,
+2010), predict that certain short segments of FUS-LC may form
+amyloid-like structures, but with no consensus on the identities
+of these segments.
+
+Why then do residues 39–95 form the fibril core? The amino
+acid composition of residues 39–95 (21.1% Gly, 31.6% Ser,
+17.5% Gln, 14.0% Tyr, and 10.5% Thr) is not very different
+from that of residues 1–214 (21.8% Gly, 23.8% Ser, 20.1%
+Gln, 12.6% Tyr, and 4.7% Thr). The amino acid composition of
+residues 39–95 is also not very different from that of residues
+96–165 (15.7% Gly, 28.6% Ser, 24.2% Gln, 14.3% Tyr, and
+1.4% Thr), apart from the absence of Thr residues after T109.
+Apparently, subtle differences in local sequences are important.
+
+
+Although the FUS-LC sequence is quasi-repetitive, sequences
+longer than four amino acids (e.g., SGYSQ, YSSYG, etc.) generally occur only once. Thus, the specific sequence in residues
+39–95 may form a cross-b structure with somewhat greater stability than other segments of FUS-LC, perhaps due to more
+
+(C) Optical images of liquid-like droplets formed by wild-type and double mutant FUS-LC in the presence of DNA-PK and ATP, recorded at T = 0.5 hr and 2.0 hr
+after initiation of droplet formation. Droplet melting caused by gradual phosphorylation is reduced for certain double mutants. Scale bars in (B) and (C) are 500 mm
+and 50 mm, respectively.
+(D) Visualization of liquid-like droplets by wild-type FUS-LC at indicated time points after initial droplet formation. Droplets dissolved progressively in the presence
+of both DNA-PK and ATP, but were stable in the absence of either component. Scale bar, 50 mm.
+(E) Correlation plot for effects of DNA-PK phosphorylation on hydrogel binding and liquid-like droplet melting by FUS-LC double mutants. The horizontal axis
+shows ratios of GFP fluorescence intensities from phosphorylated GFP:FUS-LC on mCherry-FUS hydrogels to corresponding intensities from control samples.
+The vertical axis shows ratios of the total areas of liquid-like droplets of His6-K-FUS-LC remaining at the 2.0 hr time point to total areas of liquid-like droplets at the
+0.5 hr time point. Error bars are SD from 3–4 hydrogel binding measurements for each condition and three droplet image sections for each condition. Solid line is a
+least-squares fit to the experimental points. Residues located in the FUS-LC fibril core are indicated in red. The correlation coefficient is R = 0.70.
+See also Table S5.
+
+favorable arrangements and interactions among sidechains
+within the fibril core. Alternatively, subtle sequence differences
+may affect the entropic cost or desolvation energy for converting
+dynamically disordered segments to cross-b structures (Thirumalai et al., 2012). A core that is formed by a single contiguous
+portion of the FUS-LC sequence may also be intrinsically more
+stable than a core that is formed by segments that are separated
+by long loops, because the latter case requires both ends of the
+loops to have fixed positions, thereby increasing the total
+entropic cost of polymerization (Zhou, 2004).
+
+Three Tyr sidechains (Y50, Y66, and Y75) are buried in the
+fibril core, while others are solvent-exposed or may interact
+weakly with segments of FUS-LC that do not have detectable
+or assignable solid-state NMR signals. Although sidechain
+conformations are undetermined, Y50 and Y66 may engage
+in p-stacking interactions that help stabilize the core structure.
+The sidechain of D46, the only charged residue in the coreforming segment, is either solvent-exposed or interacts with
+sidechains of S44 and Q52, thereby reducing electrostatic repulsions by increasing the local effective dielectric constant.
+
+
+Buried sidechains of Q69, Q73, Q88, and Q93 may participate
+in polar zipper interactions along the fibril growth axis (Perutz
+et al., 1994).
+
+Sidechains of certain polar residues may participate in interresidue hydrogen bonds that help stabilize the core. For
+example, Y75, T78, and S84 may form a hydrogen bond network
+that stabilizes the loop between residues 74 and 87. Folding of
+residues 44–50 against residues 64–80 may be stabilized by interactions of S48 with Q69 and T71 and interactions of T45 and
+T47 with S77. Additionally, S70, Q73, S90, Q93, and S95 may
+interact with one another to stabilize folding of residues 69–73
+against residues 90–95.
+
+
+What Distinguishes FUS-LC Fibrils from Pathogenic
+Amyloids?
+
+
+Detailed molecular structural models for wild-type 40- and 42-
+residue Ab (Ab40 and Ab42) fibrils (Colvin et al., 2016; Lu et al.,
+2013; Wa ̈ lti et al., 2016; Xiao et al., 2015), Glu22-deletion mutant
+Ab40 (E22D-Ab40) fibrils (Schu ̈ tz et al., 2015) and a-synuclein
+fibrils (Tuttle et al., 2016) have been developed recently from
+solid-state NMR data. These models are compared with our
+model for the FUS-LC fibril core in Figure 7. In common with
+the FUS-LC fibril core, the pathogenic fibrils contain in-register
+parallel cross-b structures and have backbone conformations
+comprised of b strand segments of varying lengths (from two
+to nine residues), irregular bends, and loops. While FUS-LC
+and a-synuclein fibrils indicate a single cross-b unit within each
+
+fibril, Ab fibrils contain two or three cross-b units, arranged with
+2-fold or 3-fold symmetry about the fibril growth axis. The backbone conformation of the FUS-LC core is remarkably similar to
+that of a-synuclein (Figure 7B), despite the complete lack of
+sequence homology.
+
+
+The most striking difference between FUS-LC fibrils and
+pathogenic amyloid fibrils is the nature of sidechain-sidechain interactions in the fibril cores. Both a-synuclein and Ab fibrils are
+stabilized by multiple intramolecular and intermolecular hydrophobic interactions in their cores, involving sidechains of Ala,
+Val, Leu, Ile, Met, and Phe residues (green in Figure 7). These hydrophobic interactions augment the intermolecular backbone
+hydrogen bonding interactions of the cross-b architecture. The
+absence of purely hydrophobic sidechains (except Pro72) in
+the core of FUS-LC fibrils likely contributes to their lability to
+disassembly (Kato et al., 2012).
+
+The FUS-LC fibril core has a higher density of polar sidechains,
+which may participate in hydrogen bonding networks as discussed above. Cross-b crystal structures of Ser-containing peptides determined by Sawaya et al. (2007) provide relevant examples of these networks. In the case of SSTSAA peptide crystals
+(PDB: 2ONW), in-register parallel b sheets stack on one another
+
+such that Ser1 sidechains of one sheet
+interdigitate with Ser2 and Ser4 sidechains of an adjoining sheet, with 2.8 A ̊
+
+inter-sheet
+oxygen-oxygen
+distances,
+consistent
+with
+direct
+inter-sheet
+hydrogen bonds among Ser sidechains.
+Additionally, single-file rows of water molecules bind between Thr3 sidechains in
+one sheet and S2 sidechains of an
+adjoining sheet, with 2.8 A ̊ distances between water oxygens and sidechain hydroxyl oxygens of both Thr3 and Ser2,
+consistent with water-mediated hydrogen
+bonding. Similar direct and water-mediated hydrogen bonds, as well as electrostatic dipole-dipole interactions among
+polar sidechains, may contribute to the
+stability of the FUS-LC core structure.
+
+
+The abundance of hydroxyl-containing sidechains in the
+FUS-LC core provides a mechanism by which the thermodynamic stability of FUS-LC polymers could potentially be modulated by phosphorylation. In the case of purely pathogenic fibrils,
+the relative scarcity of hydroxyl-containing sidechains in the core
+may reflect the absence of evolved functions that facilitate regulation of polymerization.
+
+The non-polymorphic character of FUS-LC fibrils distinguishes them from Ab and a-synuclein fibrils, but is reminiscent of biologically functional fibrils formed by the fungal
+HET-s prion protein (Van Melckebeke et al., 2010). We offer
+the speculative hypothesis that non-polymorphic polymers,
+such as those formed by the HET-s and FUS-LC polypeptides, may represent the proper biologic function of these
+gene products. Proteins that assemble into a variety of polymorphic conformations, such as Ab and a-synuclein, may
+instead represent aberrant assemblies unrelated to biologic
+function. The absence of hydrophobic interactions in the fibril
+core may allow self-assembling FUS-LC chains to anneal
+their structures efficiently to the global free energy minimum,
+rather than being trapped in local minima that represent
+polymorphs.
+
+
+Phosphorylation-Mediated Inhibition of FUS-LC
+
+
+
+Polymerization and Phase Separation
+
+
+
+Proteomic analysis of FUS-LC following exposure to DNA-PK
+and ATP identified 14 phosphorylated residues, including six
+localized between residues 39 and 95 (Figure 5). DNA-PK-mediated phosphorylation of the LC domain has previously been reported to inhibit binding of soluble GFP:FUS-LC to mCherry:FUS
+hydrogels (Han et al., 2012). Phosphorylation by DNA-PK also
+causes FUS-LC droplets to dissolve, suggesting the involvement
+of similar intermolecular interactions in the phenomena of LC
+polymerization and LC phase separation. To investigate the
+site specificity of phosphorylation effects, we systematically
+mutated pairs Ser and Thr residues to Ala, thereby blocking
+phosphorylation at the mutated sites. Data in Figure 6 show
+strong dependences on the locations of Ala substitutions, for
+both hydrogel binding and droplet melting. The strongest effects
+are observed when phosphorylation sites in residues 42–87 are
+eliminated (Figures 6B, 6°C, and 6E). Elimination of phosphorylation sites outside the fibril core-forming region identified by solidstate NMR generally has weaker effects. These results argue in
+favor of a role for molecular structure in both polymerization
+and phase separation by FUS-LC and especially for the relevance of the fibril core structure in Figure 4 to these two phenomena. Alternative interpretations of the data in Figure 6 based
+purely on variations in the amino acid composition or in the density of phosphorylation sites along the FUS-LC sequence would
+not explain, for example, why Ala substitutions at residues 61
+and 68 or residues 42 and 84 have large effects, while Ala substitutions at residues 7 and 11 or residues 112 and 117 have
+small effects.
+
+
+We suggest that phosphorylation of Ser and Thr residues
+within the fibril core-forming segment inhibits hydrogel binding
+and droplet formation most strongly because phosphorylation
+at these sites interferes with cross-b interactions. If assembled
+as in-register, cross-b polymers similar to the structural model
+in Figure 4, core-forming residues of FUS-LC would be separated by about 4.7 A ̊ . Negative charges introduced by phosphorylation would be expected to exert repulsive forces that reduce
+polymer stability.
+
+Our results from experiments involving FUS-LC phosphorylation are consistent with previous studies of the LC domain of
+hnRNPA2. Correlative mutagenesis and chemical footprinting
+studies have given evidence that the same structures and forces
+account for the ability of the hnRNPA2 LC domain to partition into
+either hydrogels or liquid-like droplets (Xiang et al., 2015). Likewise, the correlative effects of aliphatic alcohols on the melting
+of both hydrogels and liquid-like droplets indicate that these
+two states of phase separation are driven by related chemical
+forces (Lin et al., 2016). If correct, these studies, coupled with
+the data presented herein, offer a satisfying unity to studies on
+LC domains as phase-separated into either liquid-like droplets
+or hydrogels.
+
+
+We close with a point emphasized repeatedly in previous
+studies (Kato et al., 2012; Kwon et al., 2013; Lin et al., 2016;
+Shi et al., 2017; Xiang et al., 2015). LC domain polymers characterized in this and earlier reports, when employed in living cells
+and subject to many forms of post-translational modification,
+are undoubtedly far more dynamic than the long amyloid-like
+
+fibrils that are formed by self-assembly of unmodified polypeptides purified in recombinant form from bacteria. We hope that
+studies of DNA-PK-mediated phosphorylation of the FUS-LC
+domain may offer an initial glimpse of the rich and complex
+web of cellular processes involved in regulating the dynamics
+of LC domain polymerization.
+
+STAR+METHODS
+
+Detailed methods are provided in the online version of this paper
+and include the following:
+
+d KEY RESOURCES TABLE
+
+d CONTACT FOR REAGENT AND RESOURCE SHARING
+
+d EXPERIMENTAL METHOD AND SUBJECT DETAILS
+
+d METHOD DETAILS
+
+
+B Production of FUS-LC proteins
+
+
+
+B Production of segmentally labeled FUS-LC
+
+
+
+B Fibril formation conditions
+
+B Electron microscopy
+
+
+
+B Atomic force microscopy
+
+
+
+B Thioflavin T and Congo Red binding assays
+
+
+
+B Predictions of amyloid formation
+
+B NMR measurements
+
+
+
+B MCASSIGN calculations
+
+
+
+B Calculation of structural models for the FUS-LC
+fibril core
+
+
+B Molecular dynamics simulations
+B Identification and quantification of FUS-LC phosphorylation sites
+
+
+B Effects of phosphorylation on hydrogel binding
+
+
+
+B Effects of phosphorylation on droplet formation
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+
+d DATA AND SOFTWARE AVAILABILITY

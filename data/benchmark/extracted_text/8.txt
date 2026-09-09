@@ -1,0 +1,213 @@
+--- 2. Results ---
+2.1. Identification of a Cryptic Amyloid Sequence Inside a Disordered and Low Complexity Region in Hsf1
+
+The order/disorder content of yeast Hsf1 was studied. First, the locations of constituent functional
+domains and unstructured regions in the full-length protein were examined (Figure 1). PFAM indicates
+that yeast Hsf1 contains a single annotated functional domain comprising residues 175–275, which
+correspond to the HSF_DNA-binding domain [21]. This domain is highly conserved both structurally
+and sequentially from yeast to humans and binds to specific DNA regulatory regions involved in
+the modulation of the complex HSF transcriptional activity [2]. Thus, according to PFAM, less
+than 15% of Hsf1 residues are implicated in the formation of functional folded moieties in the
+monomeric state. Indeed, the N-terminal Hsf1 1–167 region has been experimentally shown to
+lack any regular structure [22]. This is consistent with the predictions of protein disorder provided
+by two different algorithms, ESpritz-NMR [23] and IUPred [24], which point out that the protein
+regions at the two sides of the HSF_DNA-binding domain are essentially disordered (Figure 1).
+The SEG algorithm [25] indicates that Hsf1-disordered regions contain several short low complexity
+segments (Figure 1). We used FELLS [26] to determine if any of these low complexity regions displayed
+compositional bias. Interestingly enough, the region comprising residues 493–527 exhibits a striking
+compositional bias, with an overall asparagine content of 40% (Figure 1). Notably, this is an N
+enrichment comparable to that observed in the prion domains of several yeast prions [27,28]. In yeast,
+these glutamine/asparagine (Q/N)-rich domains promote self-assembling interactions, which result
+in conformational conversion [29] and phase separation [30].
+
+Int. J. Mol. Sci. 2018, 19, 1384
+3 of 13
+
+We have recently shown that the disordered, low complexity, Q/N-rich regions of yeast prions and
+other prion-like proteins might contain cryptic amyloidogenic regions that can contribute significantly
+to trigger protein assembly [31–33]. These regions differ from the classical amyloid cores found in
+pathogenic proteins in that they are longer and more polar, in such a way that the amyloid potential
+is less concentrated, allowing the protein to remain in a soluble state under most physiological
+conditions, while still keeping a certain amyloid propensity that might facilitate its assembly in certain
+circumstances [34]. We analyzed whether the disordered and N-rich Hsf1 region 493–527 hid an
+amylogenic stretch using WALTZ, an algorithm that exploits a position-specific scoring matrix to
+identify potential amyloid sequences [35]. WALTZ predicted the 504-INDIIFNTNLANNLSNYN-521
+sequence as the longest region displaying significant amyloid potential. It is worth mentioning
+that, in this segment, 55% of the residues have a polar nature and accordingly, the hydropathicity
+is much lower than that of the typical amyloid cores found in disease-linked proteins (Table 1).
+This explains why well-validated aggregation predictors like Aggrescan [36] and Zyggregator [37],
+which consider sequence hydrophobicity as a major contributor to protein aggregation, did not detect
+any aggregation-prone regions in Hsf1 sequence 493–527.
+
+Here, it was investigated whether our candidate amyloid core could potentially be a region involved
+in the establishment of intermolecular contacts. To this end, ANCHOR [38] and DisoRDPbind [39] were
+used, which are two conceptually different algorithms that aimed to identify protein binding sequences
+in disorder proteins or regions. Interestingly enough, both programs successfully identified the sequence
+stretch around Hsf1 residues 504–521 as a potential protein binding region (Figure 1).
+
+Overall, the bioinformatics analysis suggest that Hsf1 might contain a functional amyloid core
+embedded in a disordered and low complexity region. To confirm that this soluble transcription factor
+bears a sequence with the potential to form amyloid-like assemblies, the 18-residue-long peptide was
+synthesized and characterized experimentally.
+
+Int. J. Mol. Sci. 2018, 19, 1384
+4 of 13
+
+
+Protein
+Amyloid Core
+Gravy Score
+
+Hsf1
+INDIIFNTNLANNLSNYN
+−0.283
+
+
+ASYN
+GVLYVG
+1.683
+
+
+GGAVVTGVTAVAQ
+1.238
+
+Aβ42
+
+
+GAIIGLMVGGVVI
+2.462
+
+
+QKLVFFAE
+0.562
+
+2.2. The Amyloid Core of Hsf1 Assembles into β-Sheet Enriched Aggregates
+
+As a first step, and in order to determine whether the candidate peptide has the ability to aggregate
+in vitro, Hsf1 amyloid core peptide samples were prepared at 25, 50, and 100 μM and incubated at
+25 ◦C for 120 h. Aggregation was systematically monitored by measuring changes in synchronous
+light scattering [41]. As shown in Figure 2A, a concentration-dependent scattering signal could be
+observed, reaching a maximum at 100 μM of peptide. These data indicate that despite the candidate
+amyloid core is clearly less hydrophobic than those in classic amyloids, it can still establish the initial
+intermolecular interactions that lead to the buildup of high-order assemblies.
+
+Next, we explored the presence of exposed hydrophobic clusters in the formed peptide aggregates
+by measuring their binding to 4,4-bis-1-anilinonaphthalene-8-sufonate (Bis-ANS), a dye that exhibits
+fluorescence enhancement upon interaction with exposed hydrophobic surfaces as well as a blue shift
+of the peak maximum [42,43] (Figure 2B). We found complete agreement between the Bis-ANS and
+the light-scattering assays. The Bis-ANS fluorescence presents a concentration-dependent intensity
+increase and the maximum emission shifts from 521 nm (in the presence of 25 μM of peptide) to
+505 nm at 100 μM. These spectral changes indicate that the peptide aggregation results in the formation
+of novel/larger hydrophobic patches, thus suggesting that the interactions between the peptide
+hydrophobic residues lead to its assembly.
+
+To analyze the secondary structure content of the Hsf1 peptide aggregates, the amide I region
+of the Fourier Trasform Infrared (FT-IR) spectrum (1700–1600 cm−1) upon its incubation at 100 μM
+for 120 h was recorded. Deconvolution of the obtained spectra allow us to identify a strong band
+
+Int. J. Mol. Sci. 2018, 19, 1384
+5 of 13
+
+at 1628 cm−1, which is indicative of a predominance of extended intermolecular β-sheet structures.
+This signal is the largest contributor to the absorbance spectrum, accounting for 62% of the total area.
+The other detected peak at 1667 cm−1 is attributable to the presence of β-turns (Figure 3). Because no
+anti-parallel β-sheet band was detected at ~1690 cm−1, a preferential parallel β-sheet organization for
+the self-assembled peptide is suggested.
+
+Collectively, the data indicate that the predicted amyloid core of Hsf1 spontaneously
+self-assembles into highly ordered supramolecular structures highly enriched in β-sheet content.
+
+
+2.3. Hsf1 Amyloid Core Forms Amyloid-Like Fibrillary Structures
+Next, to assess whether the detected β-sheets structures in Hsf1 peptide aggregates correspond
+to amyloid-like assemblies, the amyloid-specific dyes Congo red (CR), Thioflavin-T (ThT) and
+Thioflavin-S (ThS) were used [44]. CR is widely used for the detection of amyloid material [45];
+when the dye is bound to cross β-sheet structures there is hypercromicity and a red shift of the
+absorbance maximum. We analyzed CR binding to the aggregated peptide at 25, 50, and 100 μM.
+As expected, the peptide at 100 μM promoted the maximum shift in the CR spectra from 497 nm, in the
+absence of peptide, to 515 nm (Figure 4A).
+
+Similarly, binding of ThT to the Hsf1 amyloid core peptide induced a large enhancement in
+the intensity of ThT fluorescence emission relative to the free dye, increasing as a function of the
+peptide concentration (Figure 4B). Additionally, binding of ThS to 100 μM peptide aggregate was
+tested by fluorescence microscopy. Areas rich in fibrous material appear stained with ThS, giving a
+bright green-yellow fluorescence against a dark background (Figure 4°C). Overall, the results reported
+from the dye staining experiments strongly suggest an amyloid-like organization of the peptide in
+the aggregates.
+
+Int. J. Mol. Sci. 2018, 19, 1384
+6 of 13
+
+To check whether the peptide assemblies could have any internal fibrillar structure, we performed
+a morphological analysis using transmission electron microscopy (TEM) (Figure 5). In agreement with
+the above reported results, the 100 μM Hsf1 amyloid core peptide solution self-assembles, forming
+fibrillar arrangements after 120 h incubation at 25 ◦C. The resultant fibrils are straight, unbranched,
+and exhibit a diameter that varies from 6 to 12 nm, being thus similar to the fibrillar structures formed
+by amyloidogenic proteins involved in neurodegenerative disorders [46].
+
+Int. J. Mol. Sci. 2018, 19, 1384
+7 of 13
+
+
+2.4. Hsf1 Amyloid Core Self-Assembles Very Fast
+While the classical predictors suggested a low amyloid propensity for the Hsf1 peptide, the above
+data indicate the contrary. To assess if the aggregation tendency of the peptide was high enough to
+promote its immediate assembly, the properties of the solution upon peptide dilution at 100 μM in
+Phosphate buffered saline (PBS) (time 0 h) were monitored, and compared with those of the final
+aggregates (120 h). Synchronous light scattering indicated an initial level of aggregated material similar
+to that observed at the end point of the reaction (Figure 6A). However, the conformational properties
+of early and late aggregates are significantly different. Early aggregates display a higher Bis-ANS
+signal (Figure 6B); in contrast, they exhibit much lower ThT binding than late aggregates (Figure 6°C).
+This observation is consistent with their less ordered architecture as assessed by TEM images, which
+show the presence of proto-fibrillar assemblies that tend to coalescence in larger aggregates (Figure 6D).
+Altogether, the data indicate that the Hsf1 amyloid core undergoes a very fast aggregation reaction
+into proto-fibrils with exposed hydrophobic patches and a low average content of amyloid-like regions.
+The evolution of these aggregates into the typical amyloid assemblies observed at the end of the
+reaction necessarily involves the burial of a fraction of previously exposed hydrophobic residues
+inside the ordered fibrils. These data corroborate the strong aggregation propensity of the identified
+disordered region of Hsf1.
+
+Int. J. Mol. Sci. 2018, 19, 1384
+8 of 13
+
+--- 3. Discussion ---
+The present work exemplifies a strategy to uncover hidden amyloid segments in the disordered
+regions of proteins. Together, the computational and biophysical analyses provide evidence for the
+existence of a cryptic amyloid core embedded in a disordered and low complexity region of yeast
+Hsf1. A peptide corresponding to this region spontaneously self-assembles into CR- and ThT-positive
+β-sheet enriched amyloid fibrils in vitro.
+
+While hydrophobic interactions seem to be important for the assembly, the majority of the
+residues in the amyloid core have a polar nature, which endorses this segment with an overall lower
+hydrophobicity than the cores in pathogenic amyloids. Indeed, 70% of the polar residues in this
+region correspond to asparagine, a composition that is reminiscent of that found in the amyloidogenic
+regions of prion-like domains, which contribute significantly to their conformational conversion [28,31].
+While in the light of the extensive literature on Hsf1 it is unlikely that in vivo and in the context of
+the full-length protein this region would drive Hsf1 amyloid formation, it is now evident that protein
+
+Int. J. Mol. Sci. 2018, 19, 1384
+9 of 13
+
+evolution tends to purge out aggregation-prone regions if they do not serve functional purposes,
+especially if they are constantly exposed to solvent, as occurs in disordered protein regions [47]. In fact,
+in contrast to classical pathogenic amyloids, when amyloid sequences occur in disordered regions,
+their aggregation potential tends to be less concentrated, thus precluding uncontrolled aggregation and
+suggesting they might play instead a functional role [33]. Indeed, ANCHOR [38] and DisoRDPbind [39]
+predictions converge to suggest that the cryptic amyloid core we identified in Hsf1 might correspond
+to a molecular recognition element [48]. If this comes to be true, it would imply that both in the context
+of folded and disordered proteins the determinants for functional and deleterious interactions tend to
+overlap. Indeed, a number of diseases that have been associated with disorder-containing proteins
+seem to be caused by undesirable protein interactions [49].
+
+This work contributes new data in favor of the hypothesis that protein aggregation-prone regions
+might play a role in protein–protein interactions [50]; thus supporting the vision that, despite the
+medical relevance of pathogenic amyloid formation, this deleterious reaction constitutes only one of
+the many different aggregation-driven phenomena that might occur in a cell [51].
+
+It is evident that more work is needed to confirm the suggested relationship between binding
+and amyloid propensities in the context of Hsf1. However, the fact that the properties of the identified
+amylogenic segment coincide precisely with those of the amyloid core we found previously in
+the prion-like domain of the bacterial transcription terminator Rho [52,53], which was afterwards
+confirmed to self-assemble in vivo through this specific region in order to regulate its activity [54],
+indicates that a deeper characterization of Hsf1 conformational and self-assembling properties will be
+worth the effort.

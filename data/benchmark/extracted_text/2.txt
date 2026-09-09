@@ -1,0 +1,71 @@
+--- Discussion ---
+We identified TAFII130 as a protein that interacts with mutant proteins containing expanded polyQ stretches. The binding was confirmed by four independent methods, including the yeast
+two-hybrid, far-western, co-precipitation and co-localization
+assays. These observations are further supported by the co-localization of TAFII130 in vivo with NIIs in the autopsied brains of
+patients with DRPLA and MJD/SCA3. Because there are no common homologous domains among these truncated proteins used
+in the transient expression studies except for the polyQ stretches,
+and the regions flanking the polyQ stretches in the truncated
+DRPLA protein and ataxin-2 are particularly short (the numbers
+of amino acid residues upstream and downstream were 8 and 8 for
+truncated DRPLA protein, and 8 and 9 for the truncated ataxin-2,
+respectively), it is suggested that TAFII130 interacts with the polyQ
+stretch itself. The length-dependency of the binding of polyQ
+stretches with TAFII130 further supports this interpretation.
+
+There have been reports suggesting the possibility that CREBdependent transcriptional activation is altered in CAG-repeat
+diseases. First, the expression concentrations of cAMP-responsive genes, including those encoding enkephalin, somatostatin
+and CRH, have been shown to be selectively decreased in CAGrepeat diseases34–36. Second, reduction in long-term potentiation
+(LTP) in hippocampal neurons has recently been demonstrated
+in a ‘knock-in’ mouse model of HD (ref. 37). Third, stably transfected PC12 cells that express the N-terminal fragment of mutant
+huntingtin lack the neurite extension response to nerve growth
+factor38. These findings could be explained by the inhibition of
+CREB-dependent transcriptional activation.
+
+Several proteins have been identified to bind to the gene products of CAG repeat diseases27, including HAP1 (ref. 28), HIP1 (ref.
+29), LANP (ref. 30), intermediate filaments31 and PQBP-1 (ref.
+32). In contrast to the finding that most of these proteins do not
+directly bind to the expanded polyQ stretches, PQBP-1 has
+recently been shown to interact preferentially with expanded
+polyQ stretches32. Although PQBP-1 inhibits transcriptional activation of a brain-specific transcription factor, Brn-2, the role of the
+interaction between PQBP-1 and expanded polyQ stretches in the
+pathogenesis of CAG repeat diseases remains to be investigated.
+
+
+One of the most noteworthy findings of this study is that
+expanded polyQ-induced death of COS-7 and neuro2a cells was
+suppressed by TAFII130. Recent studies have shown that mutant
+CREB reduced the survival of cerebellar granule cells, and that
+CREB is a critical regulator of neurotrophin-dependent neuronal
+survival partly through bcl-2 transcription39,40. Moreover, cAMP
+has recently been shown to partially suppress polyQ-induced
+cytotoxicity in primary rat cerebellar granule neurons41, in which
+increased intracellular cAMP concentrations may have stimulated the phosphorylation of CREB by PKA.
+
+TAFII130 is a transcriptional coactivator associated with TBP,
+which is required for CREB-dependent transcriptional activation.
+CREB mediates transcriptional activation of several genes that
+contain cAMP-responsive elements (CREs) through PKA-mediated phosphorylation of CREB at Ser-133 (ref. 33). The activation
+domain of CREB consists of a glutamine-rich Q2 constitutive
+domain and a kinase-inducible domain26 (KID). For target gene
+activation, a phospho-(Ser-133)-dependent interaction between
+
+
+In addition to CREB, TAFII130 has also been shown to directly
+bind to Sp1 (refs 21,25). Although Sp1-dependent transcriptional
+activation was not examined in here, it would be intriguing to investigate whether the binding of expanded polyQ stretches to TAFII130
+also interferes with Sp1-dependent transcriptional activation.
+
+
+In the immunohistochemical observation of autopsied brains
+of DRPLA and MJD/SCA3 cases, we found that TBP, CREB and
+
+a
+b
+
+Our results have demonstrated that TAFII130 interacts preferentially with expanded polyQ stretches, and that this interaction
+inhibits CREB-dependent transcriptional activation. Suppression of the inhibition of CREB-dependent transcriptional activation caused by expanded polyQ stretches may offer opportunities
+for the development of new and potent therapeutic strategies for
+the treatment of CAG-repeat diseases.
+
+c
+d

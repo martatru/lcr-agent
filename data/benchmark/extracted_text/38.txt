@@ -1,0 +1,483 @@
+--- Results ---
+
+
+
+The recruitment of hnRNP G to nascent RNAPII transcripts
+is independent from its RRM. Using an autoimmune serum 
+from dog that shows specificity for hnRNP G,22,25 we find that 
+one major band of the correct molecular weight is detected in 
+nuclear extracts from Xenopus laevis oocytes and HeLa cells 
+(Suppl. Fig. 1). The same serum labels intensely most loops of 
+the LBCs by indirect immunofluorescence on nuclear spread 
+preparations (Fig. 1). This distribution pattern is very similar to 
+the one obtained with antibodies directed against other hnRNPs 
+(our unpublished data for hnRNP Q and L) and RNP proteins 
+such as the nuclear factor 7.26 In particular, while the majority 
+of the loops are labeled equally well, some of them present a 
+higher level of staining (Fig. 1). The only other nuclear structures labeled were the Cajal bodies (CBs), which are organelles 
+implicated in all nuclear RNA processing.27
+
+It is difficult to evaluate the contribution of the several weak 
+cross-reacting proteins seen on western blots (Suppl. Fig. 1) to 
+the staining of LBCs. Since our autoimmune serum sample was 
+too small to attempt a purification against hnRNP G, we decided 
+instead to define the sub-nuclear distribution of the full-length 
+human hnRNP G tagged with the HA (hemagluttinin) epitope 
+(Fig. 2 and Table 1). Capped, in vitro made transcripts coding 
+for the human HA-hnRNP G protein were injected in the cytoplasm of stage IV-V oocytes. After 18–24 hours of incubation, 
+the newly made HA-hnRNP G was detected on nuclear spreads 
+by indirect immunofluorescence, using the anti-HA antibody 
+mAb 3F10. We found that the HA-hnRNP G associates with 
+the nascent RNP fibrils of most loops transcribed by RNAPII 
+(Fig. 2). These numerous RNAPII loops are readily distinguishable by phase contrast microscopy and often present a thin-tothick morphology, indicative of an active transcription.23 This 
+association can be detected as soon as 4 hours post injection as 
+a weak labeling of most loops (data not shown). The intensity 
+of the labeling increases overtime and reaches a plateau at ∼14 
+hours post injection. Like in the staining pattern obtained with 
+the autoimmune serum, several loops appear to be more intensely 
+labeled than all the others. Newly made HA-hnRNP G does not 
+associate with CBs, however.
+
+
+In frog oocytes, both RNAPII and RNAPIII are actively
+engaged in transcription on LBCs. In contrast, the activity of 
+RNAPI is restricted to the numerous non-chromosomal nucleoli.
+
+
+The sites of RNAPIII transcription were previously mapped to
+∼90 distinct chromosomal loci.28 These sites lack the density created by nascent RNP fibrils on RNAPII loops and, thus, are not 
+visible by phase contrast microscopy. They are, however, readily detected using anti-RNAPIII antibodies.28 To test whether 
+hnRNP G also associates with RNAPIII transcription sites, we 
+used an antibody directed against one of the specific subunits 
+of RNAPIII, RPC53, to localize RNAPIII on nuclear spreads 
+
+prepared from oocytes expressing HA-hnRNP G 
+(Fig. 3). We found that a newly expressed HA-hnRNP
+
+
+G is excluded from the LBC sites enriched in RNAPIII,
+demonstrating that hnRNP G association with LBCs 
+is restricted to RNAPII nascent transcripts. Identical 
+results were obtained using a different anti-RNAPIII 
+antibody directed against the RPC15 subunit (data 
+not shown). Finally, the same distribution patterns 
+were obtained in a colocalization study using the 
+autoimmune serum and the anti-RPC53 antibody 
+(data not shown). Importantly, the staining pattern 
+of HA-hnRNP G on LBCs is essentially identical to 
+the pattern obtained with the autoimmune serum.
+
+--- This result strongly supports our conclusion that the ---
+epitope detected on LBCs by the autoimmune serum 
+corresponds primarily to hnRNP G.
+
+The fact that newly expressed HA-hnRNP G associates with LBC loops provided the unique opportunity to investigate the domain(s) required for the 
+association of hnRNP G with nascent RNAPII transcripts. We generated several mutant forms of hnRNP 
+G by either N-ter (∆N) or/and C-ter (∆C) deletions 
+(Table 1). The corresponding transcripts were made 
+in vitro and injected into the cytoplasm of stage 
+IV-V oocytes. The distribution of the newly made
+
+
+HA-tagged proteins was then analyzed on nuclear
+spreads 18–24 hours later (Fig. 2 and Suppl. Fig. 2). 
+Notably, the deletion of residues 186–236 prevents 
+the translocation of the proteins to the nucleus and 
+result in their accumulation in the cytoplasm (Fig. 4, 
+Table 1). The addition of a nuclear localization signal 
+(NLS), derived from the SV40 large antigen, to these 
+mutants was thus necessary to localize the expressed 
+proteins to the nucleus in order to investigate their 
+recruitment to the LBC loops (Fig. 4B). Surprisingly, 
+we find that the N-ter RRM is dispensable for the 
+association of hnRNP G with nascent transcripts, 
+as demonstrated by the fact that the ∆N82, ∆N185, 
+∆N82∆C289 and ∆N82∆C237 proteins still interact 
+strongly with the LBC loops (Fig. 2, Suppl. Fig. 2 
+and Table 1). Instead, the recruitment of hnRNP G 
+to nascent transcripts requires a central domain of 51 
+aa (residues 186–236) since the mutants lacking this 
+domain (NLS∆N82∆C186, NLS∆C83, NLS∆C186) 
+are not detected on the LBCs despite their nuclear accumulation. 
+Interestingly, these mutants accumulate in nucleoli (Fig. 2: the 
+large rounded structures in the merge panel of NLS∆N82∆C186.
+
+
+They appear yellow rather than red, indicating the presence
+of the newly made protein; Suppl. Fig. 2A: the large rounded 
+structures that are labeled in the ∆C186 panel). The reason for 
+this apparent nucleolar association is unknown, but it is often 
+encountered for mutated nuclear proteins that are expressed in 
+frog oocytes.26 Remarkably, the newly defined domain composed of residues 186–236 can target LBC loops autonomously 
+(Fig. 2, panel HA-NTD). This central domain of 51 amino acids 
+
+is thus necessary and sufficient for recruitment to LBC loops, and 
+was named NTD for nascent transcripts targeting domain.
+
+A new RNA motif targeted by human hnRNP G. The fact 
+that some of the LBC loops accumulate a higher concentration of 
+hnRNP G than most others could reflect a higher density of transcripts on these transcription units. Equally likely, such a preferential association could stem from a higher affinity of hnRNP 
+G for specific transcripts. Interestingly, hnRNP G was recently 
+shown to bind RNA in a sequence-specific way.21 In addition, we 
+recently showed that human hnRNP G and its different amphibian orthologues interact strongly with an in vitro synthesized 
+
+cRNA probe (WEc RNA) of 250 nucleotides (manuscript in preparation), possibly through recognition of specific RNA motif(s), 
+as proposed earlier by Penrad-Mobayed et al.29 The species-conserved interaction between hnRNP G and WEc RNA prompted 
+us, therefore, to search for the RNA motif(s) targeted by human 
+hnRNP G and embedded within WEc.
+
+Initially, we checked the specificity of interaction of the human 
+hnRNP G protein with WEc using several other RNA probes 
+
+issued from the same DNA clone.30 We used a mono-dimensional 
+Northwestern assay on nuclear HeLa cells proteins, and obtained 
+data suggesting that human hnRNP G interacts preferentially with 
+the radiolabeled WEc RNA. The hnRNP G protein was identified 
+using the anti-hnRNP G autoimmune serum. While hnRNP G 
+was found to bind two of the control RNAs, these interactions 
+were substantially weaker than the one observed with WEc RNA 
+(Fig. 5). To identify the targeted motif(s) present within the 
+
+All proteins were tagged with the HA epitope and detected using the mAb 3F10 antibody. Whether each protein displays a nuclear localization and 
+associates with LBC loops is also indicated. HA, hemagglutinin tag; NLS, SV40 nuclear localization signal; N-RRM, N-terminal RNA recognition motif; 
+NTD, nascent transcripts targeting domain.
+
+WEc RNA, several smaller and overlapping RNAs (50 nt), which 
+together span the entire WEc sequence, were synthesized and used 
+as 32P-labeled probes on 1D-Northwestern assays (Fig. 6A–C). 
+Residues 93–142 (RNAB) of the 250 nucleotides long WEc RNA 
+appear to be the primary binding site for human hnRNP G. 
+Other regions of the WEc RNA show very little or no significant interaction. Surprisingly, while RNA2 and RNA3 contain 
+the first and second half of RNAB, respectively, they both display very weak interactions with hnRNP G. The recognition of 
+RNAB by hnRNP G was further confirmed by 2D-Northwestern assays, where RNAB is recognized as well as the WEc RNA by 
+the major pI isoforms of hnRNP G (Fig. 6D). Interestingly, an 
+
+analysis of the RNAB structure using the mfold program reveals 
+the very high probability that the 50 nucleotides forming RNAB 
+adopt a stable hairpin structure formed of a long stem and a short 
+loop of 5 residues (GGAAA) (Fig. 6E). This stem-pentaloop 
+structure is also predicted in the WEc RNA, but is absent from
+
+
+RNA2 and RNA3, which together form the primary structure
+of RNAB. Although the GGAAA sequence is also present in the 
+RNA controls RNA3 and RNA4, the conformation of the predicted secondary structure of this sequence is different from the 
+one present in RNAB (Table 2). Together, these data suggest that 
+hnRNP G recognizes a hairpin structure (RNAB) present within 
+the WEc RNA.
+
+A new RNA binding domain in human hnRNP G. With the 
+characterization of the NTD and a specific RNA substrate, one 
+attractive possibility was that the NTD might target hnRNP 
+G through interaction with this substrate. To test this idea, we 
+expressed several deleted forms of HA-tagged hnRNP G in 
+amphibian oocytes and tested their ability to bind RNAB on 
+1D-Northwestern assays (Fig. 7A and B). Capped, in vitro–
+synthesized transcripts coding for the polypeptides of interest 
+were injected into the cytoplasm of stage V-VI oocytes. After 
+
+24 h of incubation, nuclear protein extracts were prepared 
+and used for a 1D-Northwestern assay, using RNAB as an 
+RNA probe. The newly made proteins were detected using the 
+anti-HA antibody 16B12, and in all cases a single protein band 
+with the expected molecular weight was observed. As expected, 
+full-length HA-hnRNP G shows a strong RNA binding activity.
+
+
+Surprisingly, mutated proteins lacking the RRM or the NTD are
+still able to interact with the RNA probe as well as the wild type 
+hnRNP G. Notably, the same is also true for all mutated proteins 
+
+with an intact C-ter region (of 103 residues). However, when 
+the C-ter region is deleted, as it is the case for the two mutants 
+∆N82∆C289 and ∆C186, a total loss of affinity for RNAB is 
+observed, strongly suggesting that this region bears an RNA 
+binding activity.
+
+
+To confirm these data and further characterize the RNA
+binding domain present in the C-ter region, two purified polypeptides spanning the carboxyl terminal region of hnRNP G 
+were tested on 1D-Northwestern assays (Fig. 7A and C). These 
+polypeptides were bacterially expressed in fusion with the 
+
+RNA probe (≈250 nt)
+RNA probe (≈50 nt)
+
+
+WEc
+PB6
+BP7
+PB7
+PP6
+B
+1
+2
+3
+4
+A
+C
+D
+
+Sequence GGAAA
++
++
+-
+-
++
++
+-
+-
++
++
+
+
+-
+-
+-
+
+Stem-pentaloop GGAAA
++
+-
+-
+-
+-
++
+
+
+-
+-
+-
+-
+-
+-
+-
+
+Interaction with hnRNP G
+++
++
+-
+-
+-
+++
+-
+-
+-
+-
+-
+-
+-
+
+The tested RNA probes were investigated for the presence of GGAAA in their sequence or of stem-pentaloop GGAAA in their secondary structure 
+predicted by the mfold program. The relative intensity of interaction with hnRNP G protein was based on Northwestern data.
+
+glutathione-S-transferase (GST) protein and purified by affinity 
+chromatography. Unfortunately, the full-length hnRNP G could 
+not be used as a standard positive control because it is unstable 
+in E. coli.31 Of the two polypeptides, only the one corresponding 
+to the last 58 residues of hnRNP G exhibits a high affinity for 
+the WEc hairpin. Collectively, these results demonstrate a new 
+RBD, which is distinct from the RRM and the NTD. This RBD 
+is located at the C-ter region of hnRNP G, and displays a strong 
+affinity for RNAB.
+
+
+Conservation of the newly identified domains NTD and
+Cter-RBD. Sequence comparisons of human hnRNP G and 
+corresponding orthologues from several other species reveal 
+a high level of conservation for the NTD domain among different species (similarity 76–100% with tetrapods, 62–68% 
+with fish orthologues) (Fig. 8A). Similarly, the newly identified 
+C-ter RBD is also highly conserved (similarity 86–100% with 
+tetrapods, 64–70% with fish orthologs) (Fig. 8B). Such levels 
+of similarities are consistent with the functional definition of 
+these domains, and strongly suggest that their roles are conserved 
+among species. Interestingly, sequence alignments of these two 
+new domains from the human hnRNP G with the other proteins 
+members of the RBMX/RBMY family show a striking divergence of sequences in the RBMY structure where a long stretch 
+of intervening amino acids interrupts the NTD domain and only 
+35% of similarity with hnRNP G was observed for the C-ter 
+RBD (Fig. 8°C and D). This sequence divergence suggests that 
+these domains may not have the same functions in the testisspecific protein RBMY.
+
+--- Discussion ---
+
+
+
+While hnRNP G was long ignored for a lack of function and a
+low nuclear concentration, it has recently seen a renewed interest 
+with the demonstration that it can act as a pre-mRNA splicing 
+factor implicated in specific splice site selections. In the present 
+study, we confirm that hnRNP G associates with most nascent
+
+
+RNAs transcribed by RNAPII in the amphibian oocyte, and we
+characterize two novel functional domains: (1) a C-ter RBD, 
+which is distinct from the RRM and for which we also identify a potential RNA interacting motif; (2) an NTD, which is a 
+domain required for both the nuclear localization of hnRNP G 
+and its targeting to nascent transcripts.
+
+The recruitment of hnRNP G to nascent RNAPII transcripts. The association of the endogenous and a newly expressed 
+hnRNP G with most RNAPII nascent transcripts strongly suggests that hnRNP G comprises part of the general transcription/
+
+processing machinery. Remarkably, the targeting to nascent transcript is independent of the two RBDs, but instead requires the 
+newly defined NTD. The nature of the interactions between the 
+NTD and the nascent transcripts is not known. However, the 
+lack of affinity for RNA, at least on Northwestern blots, suggests that the NTD binds nascent transcripts indirectly through 
+protein-protein interactions with other RNP factors.
+
+
+Nevertheless, these data support a model in which the known
+sequence-specific RNA binding properties of hnRNP G are dispensable for recruitment to active transcription units. One could 
+assume that hnRNP G interacts with nascent transcripts mainly 
+in an indirect way, using the NTD, to fulfill a general role in
+
+
+RNP organization, and only engages in direct RNA binding
+when appropriate cis-acting RNA elements emerge on specific 
+transcripts. This model would offer an explanation to the apparent contradiction of a protein that associates with most RNAPII 
+transcription units, but that plays a role in the splicing regulation 
+of specific transcripts.
+
+
+Interestingly, several loops were consistently better labeled
+than all the others. When observed by phase contrast or DIC 
+microscopy, these loops are indistinguishable from all the other 
+labeled loops. In particular, they do not correspond to the socalled landmark or complex loops, which usually display bulkier RNP matrices. Instead these loops have a regular fine RNP 
+matrix, often showing a thin-to-thick morphology. It is unlikely, 
+therefore, that the higher level of staining observed for these 
+loops is the result of a complex folding of the RNP matrix. It is 
+tempting to speculate that the nascent RNAs of these transcription units present a higher affinity for hnRNP G, perhaps by displaying specific cis-acting RNA elements targeted by the N-ter 
+RRM and/or the C-ter RBD. However, in absence of information about the RNAs transcribed on these intensely labeled 
+loops, other interpretations cannot be ruled out. For instance, 
+an elevated density of RNAs on these loops would almost certainly result in a higher concentration of hnRNP G. Another 
+possibility is that these loops serve as preferential sites of storage for hnRNP G for later use during early development. The 
+idea of specialized “storage loops” was suggested previously for 
+the protein ADAR1, which is proposed to accumulate at high 
+concentrations to specific loops through interactions with noncoding RNAs.32
+
+Nevertheless, our model joins others where splice site selection requires the formation of dynamic RNA/protein complexes 
+in which the cooperation among several trans-splicing factors is 
+required to achieve specific RNA recognition.33,34 Interestingly, 
+several known RNA processing factors, such as hnRNP C, 
+
+SAM68, YT521-B, SAFB and Tra2β, were previously shown to 
+interact with hnRNP G.17,21,35 Whether some of these factors are 
+implicated in recruiting hnRNP G to nascent transcripts, perhaps as part of a preassembled complex, is not known, however.
+
+
+The NTD also appears critical for nuclear accumulation of
+hnRNP G. Whether it harbors a genuine nuclear localization 
+signal (NLS) is not clear, however. Indeed, sequence analysis 
+shows that the NTD is rich in arginine residues, but it does 
+not reveal the presence of a short peptide with the consensus 
+sequence of a classical NLS. One possibility is that the NTD 
+acts in a similar way to the acidic M9 domain, which is involved 
+in regulating the nucleo-cytoplasmic exchanges of hnRNP 
+A1.36 The M9 domain does not contain a classical NLS, but it 
+was shown to act in nuclear targeting through a direct interaction with the transportin receptor Karyopherin β2.37 Another 
+possibility stems from the fact that hnRNP G is theoretically 
+small enough to diffuse through the channel of nucleopore complexes. Thus, hnRNP G may not have an NLS. Rather it could 
+simply be retained in the nucleus through its interactions with 
+nascent transcripts. More puzzling is the observation that some 
+truncated forms of hnRNP G were primarily cytoplasmic upon 
+expression in Xenopus oocytes. Additional work will be needed 
+to test whether such distribution is due to an aberrant behavior 
+of these mutated proteins or whether it is indicative of a specific 
+cytoplasmic retention.
+
+HnRNP G exhibits two distinct RBDs. In eukaryotic cells, 
+hnRNP G is thought to interact directly with RNAs through its 
+N-terminal RRM, which is a protein motif widely encountered in 
+RBPs. Supporting this model is the demonstration that the RRM 
+of the human hnRNP G binds to specific RNAs in vitro.21 The
+
+
+RRM may not be the only mean of RNA binding for hnRNP G,
+however, as we demonstrate in the present study a novel RBD in 
+its C-terminal region. This domain, which is composed of the 
+last 58 residues of hnRNP G, can act autonomously as it is able 
+to bind RNA when produced bacterially as a recombinant polypeptide. This was also shown by testing the affinity of human 
+hnRNP G and various deletion mutants synthesized in vitro or in 
+Xenopus oocytes for RNAB. This RNA, which putatively forms 
+a hairpin structure, interacted with hnRNP G at a higher affinity 
+than all the other tested RNAs of the same length. Interestingly
+
+
+RNA2 and RNA3, which combined sequences form the primary
+structure of RNAB, displayed only a low affinity for hnRNP 
+G. A similar low level of interaction was found for several other 
+tested RNAs and could merely be a reflection of the fact that 
+hnRNP G displays a basal level of sequence-independent affinity for single stranded nucleic acids, since it can be retained on a 
+ssDNA affinity column.22 This is the case for many RNA binding proteins. A good example is the protein U2B”, which was 
+shown to bind the U2 small nuclear RNA (U2 snRNA) with a 
+high affinity as part of the U2 snRNP complex, but also to bind 
+RNA non-specifically in vitro.38 It is likely, therefore, that the 
+higher affinity of hnRNP G for RNAB than for RNA2 or RNA3 
+is due to the structural element, a stable stem-(GGAAA)loop, 
+predicted to form in RNAB.
+
+The N-ter RRM and C-ter RBD have very different primary structure, and not surprisingly, they exhibit distinct RNA 
+
+binding specificity. In particular the N-ter RRM has no affinity 
+for RNAB. This is in agreement with the recent finding that the
+
+
+N-ter RRM of hnRNP G does not display any preference for
+stable stem structures, but rather binds preferentially to CCA/C 
+motif present in single stranded RNAs.21 The C-ter RDB is rich 
+in arginine, glycine and serine, which are residues often enriched 
+in RNA binding domains, like the RGG box and the SR domain 
+of many RBPs. In fact, there are three RGG repeats toward the 
+end of the C-ter RBD. Interestingly, the activity of these domains 
+can be regulated through post-translational modification: serine phosphorylation and arginine methylation, respectively.
+
+
+We recently obtained evidence that several isoforms of human
+hnRNP G are phosphorylated. However, treating hnRNP
+
+
+G with alkaline phosphatase does not inhibit the binding to
+RNAB (unpublished data). In addition, a bacterially expressed 
+C-ter RBD still maintains its ability to bind RNAB. Therefore, 
+the RNA binding activity of the C-ter RBD is unlikely to be 
+regulated by phosphorylation. Many hnRNP proteins, including hnRNP G, are methylated on arginine residues.39 Whether 
+methylation of the C-ter RBD influences its RNA binding activity is not known, however.
+
+
+The presence of several RBDs in hnRNP G suggests that it
+could interact with multiple RNA targets. This is the case for 
+many other processing factors with multiple RBDs. A good 
+example is the protein nucleolin, which has four distinct RRM 
+motifs. Two of them are implicated in the recognition of different 
+regions of a same stem-loop structure containing the motif U/
+GCCCGA, also called the nucleolin recognition element (NRE). 
+In contrast, all four RRMs are required for interacting with a 
+short single stranded RNA, referred to as the evolutionary conserved element (ECM),40 which highlights a fundamental concept: different combinations of RBDs within one single protein 
+may be used to specifically interact with distinct RNA targets. 
+In the light of the role of hnRNP G in splice site selection,8,21 it 
+will be of a great interest, therefore, to further investigate whether 
+the two RBDs of hnRNP G are involved in two distinct roles 
+or are acting in concert to regulate specific splicing events. In 
+the latter case, it would be particularly interesting to examine 
+whether both RBDs could be involved in bringing distant RNA 
+sequences to close proximity. This is the case for two of the four 
+RBDs of the polypyrimidine tract binding protein (PTB), which 
+were recently shown to interact with each other. This interaction 
+lead to a model in which PTB could induce RNA looping when 
+bound to two distinct polypyrimidine tracts on the same premRNA in order to regulate splicing.41
+
+
+Remarkably, the C-ter RBD of hnRNP G lies within the
+region previously characterized as an interacting domain for the 
+human splicing factor, transformer-2 (hTra2-β1).42 HnRNP G 
+and hTra2-b1 have antagonistic effects on the alternative splicing of several genes in a tissue specific manner.8 One attractive 
+possibility, then, is that the interaction of hTra2-β1 with hnRNP
+
+
+G would modulate the RNA binding specificity of hnRNP G by
+inhibiting the C-ter RBD. This idea is in good agreement with 
+the recent demonstration that hnRNP G retains its role in splice 
+site selection in absence of its RRM.21 Together, these data favour 
+a model in which the RRM and the C-ter RBD exhibit distinct 
+
+functions, and where the C-ter RBD would play a critical role in 
+the regulation of alternative splicing by hnRNP G.

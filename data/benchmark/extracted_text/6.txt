@@ -1,0 +1,885 @@
+--- SUMMARY
+
+Stress
+granules
+are
+membrane-less
+organelles ---
+composed of RNA-binding proteins (RBPs) and
+RNA. Functional impairment of stress granules has
+been implicated in amyotrophic lateral sclerosis,
+frontotemporal dementia, and multisystem proteinopathy—diseases that are characterized by fibrillar
+inclusions of RBPs. Genetic evidence suggests a
+link between persistent stress granules and the
+accumulation of pathological inclusions. Here, we
+demonstrate that the disease-related RBP hnRNPA1
+undergoes liquid-liquid phase separation (LLPS) into
+protein-rich droplets mediated by a low complexity
+sequence domain (LCD). While the LCD of hnRNPA1
+is sufficient to mediate LLPS, the RNA recognition
+motifs contribute to LLPS in the presence of RNA,
+giving rise to several mechanisms for regulating assembly. Importantly, while not required for LLPS,
+fibrillization is enhanced in protein-rich droplets.
+
+
+We suggest that LCD-mediated LLPS contributes
+to the assembly of stress granules and their liquid
+properties and provides a mechanistic link between
+persistent stress granules and fibrillar protein pathology in disease.
+
+--- RESULTS
+
+hnRNPA1 Undergoes Liquid-Liquid Phase Separation ---
+To gain insight into the role of individual RBPs with LCDs in the
+assembly of stress granules, we expressed and purified
+hnRNPA1 and TDP-43 as fusions with solubility-enhancing HisSUMO tags (His-SUMO-hnRNPA1 and His-SUMO-TDP-43).
+Importantly, this purification always included careful RNA digestion followed by ion exchange and gel filtration chromatography
+to remove all nucleotides (Figure S1). The hnRNPA1 solution exhibited temperature-dependent reversible turbidity (Figure 1A),
+which was revealed by differential interference contrast microscopy to reflect the presence of numerous droplets (Figure 1B).
+The His-SUMO-TDP-43 solution was also turbid due to the presence of a multitude of small droplets (Figure 1°C). The formation of
+hnRNPA1 droplets was inducible by a decrease in temperature,
+was rapidly reversible, and required a minimum protein concentration that was dependent on temperature (Movie S1). Droplets
+of hnRNPA1 exhibited wetting when they encountered the surface of the coverslip, suggesting liquid properties (Figure 1D
+and Movie S2). To further probe the nature of the droplets, we fluorescently labeled hnRNPA1 by conjugation to Oregon Green
+and observed that these protein droplets tended to fuse rapidly
+
+into larger droplets within seconds, further reflecting liquid properties (Figure 1E and Movie S3). Removal of the His-SUMO tag
+from hnRNPA1 led to the same observations, demonstrating
+that properties intrinsic to hnRNPA1 mediate the ability for assembly into droplets (Figure S2). We assessed the mobility of
+hnRNPA1 molecules between the droplet and bulk phases by
+fluorescence recovery after photobleaching (FRAP) measurements (Figure 1F). After photobleaching a single droplet, the
+majority of its fluorescence signal (80%) recovered with a characteristic recovery time of 3.7 s (Table S1). These data demonstrate that hnRNPA1 is highly dynamic, with rapid exchange of
+molecules between the droplets and the surrounding solution.
+The appearance of this second liquid phase in a temperatureand protein-concentration-dependent manner is consistent
+with LLPS by hnRNPA1 as described by Flory-Huggins theory
+(Flory, 1942; Huggins, 1942). hnRNPA1 is also able to assemble
+into hydrogels composed of uniformly polymerized amyloid-like
+fibers (Kato et al., 2012).
+
+
+We produced hydrogels from purified His-SUMO-hnRNPA1
+according to the protocol of (Kato et al., 2012); thus, purified
+hnRNPA1 was dialyzed at 4C overnight, sonicated, concentrated, and incubated for 48 hr at room temperature, resulting
+in hydrogel formation. While hnRNPA1 hydrogels exhibit dynamic properties (Kato et al., 2012), they did not show any
+detectable fluorescence recovery after photobleaching in experiments lasting >15 min (Figures 1G and 1H), demonstrating that
+hnRNPA1 is more rigidly incorporated into hydrogels than into
+liquid droplets. These data are in agreement with the report
+that hnRNPA1 hydrogels are composed of cross-b fibrils, which
+may represent a thermodynamically stabilized or kinetically
+trapped state of the protein. While hnRNPA1 droplets showed
+a wide size distribution and grew over time by fusion events,
+
+
+TDP-43 droplets were similar in size with an upper limit of
+1 mm and often appeared in strings as if fusion events into
+larger droplets were initiated but did not proceed (Movie S4).
+Their spherical nature suggested that they were also formed by
+
+
+LLPS, but since the material properties of TDP-43 droplets
+appeared more complex than classic liquid, we focused on the
+biophysical properties of hnRNPA1 going forward.
+
+LLPS has been proposed as the molecular mechanism underlying formation of membrane-less cellular bodies that exhibit
+liquid properties, such as P granules and nucleoli (Brangwynne
+et al., 2009; Elbaum-Garfinkle et al., 2015; Fromm et al., 2014;
+Li et al., 2012; Nott et al., 2015). We observed that stress granules in cells exhibit liquid properties, regularly fusing into larger
+structures (Figure 1I and Movie S5). Moreover, hnRNPA1 in
+stress granules is in dynamic equilibrium with the surrounding
+cytosol, as illustrated by FRAP measurements showing similar
+recovery times (4.2 s) to purified hnRNPA1 in liquid droplets (Figure 1J). These classic liquid properties suggest that stress granules represent a separate liquid phase that is formed via LLPS.
+
+
+The LCD of hnRNPA1 Mediates Liquid-Liquid Phase
+
+
+
+Separation and Is Sufficient for Incorporation into Stress
+
+
+
+Granules
+
+
+
+In order to map the domains responsible for LLPS of hnRNPA1,
+we engineered His-SUMO fusion constructs containing either
+the folded N-terminal RNA recognition motifs (A1-RRM) or the
+
+
+A
+
+25 oC 
+4 oC 
+25 oC 
+B
+4 oC 
+
+BSA
+hnRNPA1
+20 μm
+
+20 μm
+
+
+C
+
+D
+
+0 s
+93 s
+178s
+20 μm
+
+5 μm
+
+C-terminal LCD (A1-LCD) (Table S2), which is predicted to be
+intrinsically disordered (Figures 2A and S3). The A1-LCD alone
+had the ability to form liquid droplets, whereas A1-RRM failed
+to undergo LLPS under comparable conditions to full-length
+hnRNPA1 (A1-FL) and all other conditions tested (Figure 2B).
+
+hnRNPA1 amino acid residues 259–264 correspond to a steric
+zipper motif centered in the LCD and are essential to hnRNPA1’s
+intrinsic tendency to fibrillize (Kim et al., 2013). Importantly, the
+corresponding deletion mutant (A1-Dhexa), which does not fibrillize (Kim et al., 2013), readily underwent LLPS, demonstrating
+that LLPS and fibrillization are two mechanistically distinct processes (Figures 2A and 2B). To test the role of LCD-mediated
+LLPS in the formation of stress granules, we transiently expressed wild-type, GFP-tagged LCD from hnRNPA1 (GFPLCD) or a version with deletion of aa259–264 constituting the
+steric zipper (GFP-LCD Dhexa) in HeLa cells (Figure 2°C). Both
+proteins were efficiently incorporated into stress granules,
+suggesting that stress granule assembly does not require fibrilli-
+
+
+E
+
+F
+
+Fractional recovery
+0.4
+0.6
+0.8
+1.0
+
+3 s
+
+0.0
+0.2
+
+70
+60
+50
+40
+30
+20
+10
+
+Time (s)
+
+
+0
+
+Fractional recovery
+5 μm
+
+
+G
+H
+0.4
+0.6
+0.8
+1.0
+
+0 s
+41 s
+120 s
+
+0
+0.0
+0.2
+
+10 μm
+
+60
+50
+40
+30
+20
+10
+Time (s)
+
+
+I
+J
+
+Fractional recovery
+0.4
+0.6
+0.8
+1.0
+
+0
+0.0
+0.2
+
+60
+50
+40
+30
+20
+10
+Time (s)
+
+10 μm
+
+zation and hence is distinct from hydrogel formation (Figures 2D
+and 2E).
+
+
+Liquid-Liquid Phase Separation by hnRNPA1 Is Based
+on Weak Interactions
+To gain further insight into the intermolecular interactions underlying LLPS by hnRNPA1, we measured the temperature at which
+droplets first formed as a function of protein concentration and
+molecular crowding, allowing the construction of a phase diagram (Figure 3A). Whereas LLPS by hnRNPA1 occurs spontaneously in a temperature- and protein-concentration-dependent
+manner in the absence of a crowding agent (Figure S4A), we
+mapped the phase diagram in the presence of Ficoll, a typical
+crowding agent, to mimic the crowded cellular environment,
+which is thought to contain 200 mg/ml of macromolecules (Ellis, 2001). Ficoll was used for most experiments, but polyethylene glycol (PEG) was also able to promote hnRNPA1 LLPS
+(Figure S4B). These data demonstrated that the propensity for
+
+
+A
+B
+
+A1-FL
+A1-RRM
+A1-LCD
+
+RRM2
+LCD
+RRM1
+A1-FL
+A1-RRM
+A1-LCD
+
+
+
+RRM2
+RRM1
+
+LCD
+
+RRM2
+LCD
+RRM1
+A1-∆hexa
+
+20 μm
+
+
+C
+
+D
+
+GFP
+
+GFP
+
+GFP
+eIF4G
+Merge
+Inset
+
+LCD
+GFP
+
+GFP-LCD
+
+GFP
+
+
+
+GFP-LCD
+GFP-LCD
+
+LCD
+GFP
+GFP-LCD ∆hexa
+
+E
+
+10 μm
+
+% of transfected cells with SG
+
+∆hexa
+
+
+GFP-LCD
+
+GFP-LCD
+
+GFP
+∆hexa
+
+phase separation increased with increased molecular crowding,
+and the hnRNPA1 concentration necessary for phase separation
+drops substantially approaching conditions of intracellular molecular crowding. From the shape of the phase diagram, we
+conclude that hnRNPA1 has an upper critical solution temperature (UCST), i.e., a critical temperature exists, above which the
+two-phase regime cannot be accessed. A UCST phase diagram
+indicates that LLPS is driven mostly by enthalpy, with favorable
+interactions between protein molecules mediating assembly
+(Flory, 1942; Huggins, 1942). We also observed that lowering
+the NaCl concentration led to LLPS at lower A1-FL concentrations, suggesting that electrostatic interactions contributed to
+LLPS. Again, the hnRNPA1 concentration necessary for phase
+separation dropped substantially approaching conditions of
+intracellular salt concentration (Figure 3B). Interestingly, LLPS
+by A1-FL was disrupted by hexanediol, a compound that disables the selectivity filter of the nuclear pore complex by disrupting the interactions of phenylalanines in the FG repeats (Patel
+et al., 2007; Ribbeck and Go ̈ rlich, 2002), suggesting that aromatic residues in the LCD contribute to LLPS of hnRNPA1 (Figure 3°C). These results indicate that multiple types of favorable
+molecular interactions contribute to hnRNPA1 LLPS.
+
+
+Increasing the Cytoplasmic Concentration
+of Endogenous LCD-Containing hnRNPs Is Sufficient
+to Drive Stress Granule Assembly
+
+
+To manipulate the cytoplasmic concentration of endogenous
+hnRNPA1 and related hnRNPs in cells, we transiently expressed
+M9M peptide in HeLa cells. M9M peptide was designed to have
+a significantly greater affinity for Karyopherin-b2 than natural PYNLSs present in hnRNPA1 and several closely related RNA-binding proteins (Bernis et al., 2014; Cansizoglu et al., 2007). As a
+result, M9M prevents Karyopherin-b2 from binding a select subset of PY-NLS-containing endogenous clients and results in their
+
+A1-∆hexa
+
+accumulation in the cytoplasm (Cansizoglu et al., 2007; Dormann
+et al., 2012). We observed that transient expression of YFP-M9M
+in HeLa cells resulted in increased cytoplasmic concentration of
+hnRNPA1 and related LCD-containing RNA-binding proteins
+(hnRNPA2 and FUS), resulting in an increased assembly of
+stress granules compared to the cells transfected with YFP
+only (Figures 3D, 3E, S5A, and S5B). Together with the in vitro
+data, these observations suggest that concentration-dependent
+
+
+LLPS drives assembly of stress granules and requires a
+threshold protein concentration.
+
+
+RNA Facilitates Liquid-Liquid Phase Separation
+by hnRNPA1 by Binding to RRMs and LCD
+
+
+Stress granules are enriched in RNA-binding proteins and
+translationally stalled mRNAs (Kedersha and Anderson, 2002).
+hnRNPA1 contains two RNA recognition motifs (Figure 2A) that
+have been shown to bind RNA (Burd and Dreyfuss, 1994); thus,
+we tested whether the association with RNA plays a role in
+hnRNPA1 phase separation properties. Based on CLIP-seq,
+hnRNPA1 has been shown to bind >1,000 RNA species through
+a relatively short, degenerate sequence motif (Huelga et al.,
+2012). Thus, rather than engineer a specific sequence, we used
+a random oligonucleotide RNA sequence. Fluorescently labeled
+RNA (fl-RNA44) was recruited into the protein-dense droplets
+formed by hnRNPA1 (Figure 4A). Notably, the addition of RNA
+substantially decreased the hnRNPA1 concentration required
+for phase separation to as low as 500 nM, well within the estimated intracellular concentration of hnRNPA1 (Figure 4B and
+Supplemental Information). The increased propensity for LLPS
+in the presence of RNA suggested the formation of larger
+hetero-oligomers. Indeed, despite our previous results that A1-
+
+
+RRM alone was not able to undergo LLPS under any conditions
+when tested in isolation, it readily phase separated in the presence of RNA (Figure 4°C). The two RRM domains and multiple
+
+
+A
+
+35
+
+One phase
+
+150 100 75
+
+30
+[Ficoll] (mg/ml)
+
+Temperature ( C)
+
+25
+
+
+20
+
+Two phases
+
+15
+
+10
+
+50
+100
+150
+200
+250
+300
+[A1-FL] (μM)
+
+
+Inset
+D
+
+hnRNPA1
+YFP
+eIF4G
+
+Merge
+
+YFP
+YFP-M9M
+10 μm
+
+binding motifs for RRMs on the RNA likely mediate weak multivalent interactions that lead to LLPS. Droplets formed by A1-LCD
+also recruited RNA (Figure 4°C), indicating that the LCD of
+hnRNPA1 binds RNA, as shown previously (Mayeda et al.,
+1994). Indeed, using fluorescence anisotropy, we confirmed
+that A1-FL, A1-RRM, and A1-LCD interacted with fl-RNA44 with
+micromolar affinity (Figure 4D). In this experiment, we added
+increasing concentrations of the indicated proteins to fl-RNA44.
+Protein binding to RNA slows the tumbling of the labeled species,
+andthisisdetectedby anincrease influorescenceanisotropy;the
+inflection point on the curve corresponds approximately to
+the dissociation constant of the interaction. Thus, RNA can bind
+the RRM domains, as well as the LCD in hnRNPA1, and this multi-
+
+
+B
+
+350
+
+300
+[NaCl] (mM)
+
+250
+
+200
+
+150
+
+100
+
+50
+
+1
+100
+10
+
+[A1-FL] (μM)
+
+
+No droplets
+Droplets
+
+C
+
+A1-FL
+
+A1-FL
++ hexanediol
+
+20 μm
+20 μm
+
+E
+
+% of transfected cells with SG
+
+60
+
+**
+
+(mean ± SEM)
+
+40
+
+
+20
+
+YFP
+YFP-M9M
+0
+valency likely results in the formation of large higher-order complexes that promote LLPS of hnRNPA1 more efficiently than via
+the LCD alone.Our findings suggest a mechanism by which multivalentinteractionsbetweenRNA andsomeRNA-bindingproteins
+may contribute to the formation of stress granules.
+
+
+Disease-Causing Mutation to hnRNPA1 Does Not
+
+
+
+Significantly Alter Liquid-Liquid Phase Separation
+Properties
+
+
+
+The disease-causing hnRNPA1 mutant, D262V, was associated
+with increased stress granule assembly, as well as formation of
+hnRNPA1 fibrils, but the relationship of these observations was
+unclear (Kim et al., 2013). To examine the impact of disease
+
+
+A
+B
+
+Merge
+RNA
+
+A1-FL
+
+100
+[RNA] (μM)
+
+10
+
+1
+
+0
+
+0
+0.1
+1
+10
+100
+20 μm
+
+20 μm
+
+20 μm
+
+[A1-FL] (μM)
+
+
+C
+D
+0.26
+
+A1-LCD + RNA
+
+A1-RRM + RNA
+
+
+A1-FL
+A1-RRM
+A1-LCD
+
+Fluorescence Anisotropy
+0.22
+
+0.18
+
+0.14
+
+0.1
+
+20 μm
+
+20 μm
+
+0.06
+
+10-10
+10-9
+10-8
+10-7
+10-6
+10-5
+10-4
+10-3
+
+[hnRNPA1] (M)
+
+mutation on LLPS of hnRNPA1, we expressed and purified HisSUMO-hnRNPA1-D262V (A1-D262V) and determined that this
+mutant protein undergoes spontaneous temperature- and concentration-dependent LLPS to create liquid droplets that were
+morphologically indistinguishable from liquid droplets formed
+by wild-type protein (Movie S6). Assessment of A1-D262V in
+liquid droplets by FRAP showed a recovery time of similar duration (2.9 s) to that of wild-type hnRNPA1, illustrating that the mutation did not significantly impact dynamic exchange with the
+surrounding solution—at least in the time frames examined (Figure 5A). We mapped the phase diagram of mutant hnRNPA1 in
+the presence of molecular crowder (Ficoll at 100 mg/ml) and
+300 mM NaCl and found no significant differences from that of
+wild-type hnRNPA1 (Figure 5B). Finally, we observed that wildtype and mutant hnRNPA1 were miscible in droplets (Figure 5°C).
+Together, these results suggest that the disease-causing mutation does not significantly impact the interactions that drive
+phase separation.
+
+
+Liquid-Liquid Phase Separation Promotes Fibrillization
+of the Disease-Causing Mutant
+
+
+While examining the LLPS properties of A1-D262V, we noted
+that reversible droplet assembly was accompanied by the accumulation of insoluble precipitate on the coverslip surface (Figure 6A). After the temperature was raised and the droplets
+dispersed, the surface of the coverslip was found to be blanketed with Thioflavin-T (ThT)-positive fibrils (Figure S6). This phenomenon occurred within minutes of droplet assembly by
+
+
+A1-D262V and was not observed with wild-type hnRNPA1 or
+A1-Dhexa. We tested the fibrillization propensity of the HisSUMO-tagged proteins under agitation at 25C by ThT fluorescence and observed substantially greater fibrillization of the
+mutant compared to wild-type, whereas hnRNPA1-Dhexa did
+not fibrillize over a period of 24 hr (Figure 6B). Fibrillization by
+
+
+A1-D262V under these conditions occurred on a timescale of
+hours, consistent with previous results (Kim et al., 2013). To
+
+
+No droplets
+
+Droplets
+observe the effect of LLPS on fibrillization, we mixed purified
+wild-type hnRNPA1 and mutant hnRNPA1 under conditions
+that allowed LLPS and noted that fibrils of mutant hnRNPA1
+formed almost immediately in the floating condensed liquid
+droplets (Figure 6°C) and gradually deposited on the coverslip
+surface (Figure 6D). Interestingly, we observed that mutant
+hnRNPA1 fibrils eventually seeded the assembly of wild-type
+hnRNPA1, resulting in mixed fibrils on the coverslip surface (Figure 6D), which is consistent with the previous observation that
+preformed fibrils of hnRNPA1 can seed assembly (Kim et al.,
+2013). To further illustrate the role of phase separation in driving
+fibrillization, we investigated the temporal correlation of the
+onset of fibrillization with LLPS. The protein was held in the
+one-phase regime (33C) or held in the two-phase regime
+(16C) by decreasing the temperature at different time points
+(0 min and 20 min). Mutant hnRNPA1 always formed fibrils immediately upon LLPS at either early or late time points but never
+formed fibrils when the protein was maintained in the one-phase
+regime over the same period of time (Figure 6E). Taken together,
+our findings demonstrate that LLPS increases the propensity of
+hnRPA1-D262V to form amyloid-like fibrils, likely by increasing
+the local protein concentration in droplets and enhancing nucleation. The presence of wild-type protein in droplets, or presumably other RBPs at risk for aggregation in stress granules, such
+as TDP-43, leads to its co-recruitment into fibrils.
+
+--- DISCUSSION ---
+We showed that the RBPs hnRNPA1 and TDP-43, diseaserelated proteins that are typical components of stress granules,
+are able to assemble into protein-rich droplets via LLPS (Figure 1). The LCD of hnRNPA1 mediates LLPS in vitro and is sufficient for recruitment into stress granules in cells (Figure 2). LLPS
+of hnRNPA1 is tunable by environmental conditions; specifically,
+lower salt concentration, molecular crowding, and interaction
+with RNA all reduce the protein concentration required for
+
+
+A
+B
+
+C
+LLPS to a physiologically relevant range (Figures 3 and 4).
+
+
+Forced increase in the cytoplasmic concentration of hnRNPA1
+and closely related RBPs is sufficient to drive stress granule assembly, which is consistent with an LLPS-mediated process
+(Figure 3). Fibrillization of hnRNPA1 promoted by a potent steric
+zipper in the LCD is dispensable for LLPS and for the recruitment
+of the LCD to stress granules (Figure 2). Furthermore, protein
+molecules can exchange between the protein-poor and protein-rich phases on a timescale of seconds, which is consistent
+with the dynamics observed in stress granules in cells (Figure 1).
+By contrast, LCD-containing RBPs are more rigidly incorporated
+into hydrogels composed of uniformly polymerized amyloid-like
+fibers (Kato et al., 2012; Figure 1). Nevertheless, it is evident that
+a propensity toward fibrillization is a conserved feature of LCDcontaining RBPs, possibly due to the sequence features giving
+rise to LLPS and specific interactions with other binding partners. The fibrillization propensity may also be physiologically
+relevant to stress granule function as has been previously suggested (Kato et al., 2012), perhaps representing a process of
+maturation after assembly is initiated by LLPS. On the other
+hand, the propensity toward fibrillization within the condensed
+liquid environment of stress granules also poses a risk, particularly when the LCD contains a fibril-promoting mutation (such
+as the disease-causing D262V mutation in hnRNPA1), which
+can lead to excess, pathological fibrillization as observed in
+
+
+ALS, FTD, myopathy, and MSP and as predicted by Weber
+and Brangwynne (2012) (Figures 6 and 7).
+
+
+LCD Sequence Properties Promoting LLPS
+
+
+
+Proteins harboring LCDs are abundant in RNA granules and
+other membrane-less organelles (Anderson and Kedersha,
+2006; Buchan and Parker, 2009; Voronina et al., 2011). Our
+finding that the LCD of hnRNPA1 mediates LLPS is consistent
+
+with recent reports that LCD-mediated LLPS of the DEAD-box
+helicases Ddx4 and Laf-1 play roles in the assembly of P granules (Elbaum-Garfinkle et al., 2015; Nott et al., 2015). As with
+generic IDPs (Das and Pappu, 2013; Das et al., 2015; Mu ̈ llerSpa ̈ th et al., 2010), amino acid composition and sequence
+patterning likely determine interactions within and conformational properties of LCDs and encode their ability to undergo
+phase separation. What might these features be? We find that
+LLPS of hnRNPA1 is enthalpy driven and that aromatic and electrostatic interactions are driving forces (Figure 3). Indeed,
+hnRNPA1 is enriched in the aromatic residues phenylalanine
+and tyrosine and the positively charged residue arginine relative
+to the overall eukaryotic proteome (Hormoz, 2013). Moreover,
+the LCD sequence of hnRNPA1 is patterned; phenylalanine
+and tyrosine residues are relatively evenly distributed with a
+mean spacing of 6.2 ± 2.3 residues (Figure S7). Positively
+charged residues, mainly arginines, are also well distributed (Figure S7). They may thus represent reiterated interaction motifs in
+the background of a polar polymer and enable multivalent interactions that drive LLPS.
+
+Multivalent RNA/RRM Domains Mediate Assembly
+of Large Complexes
+
+
+Stress granules are, of course, composed not only of RBPs
+but also untranslated mRNAs (Buchan and Parker, 2009;
+Teixeira et al., 2005), posing the question of what role RNA plays
+in mediating LLPS of RBPs. Upon LLPS of a mixture of hnRNPA1
+and RNA, we find that RNA not only localizes to the dense
+protein
+phase
+but
+reduces
+the
+hnRNPA1
+concentrations
+required for LLPS. RNA likely engages hnRNPA1 in a multivalent
+fashion via both the RRM domains and the LCD, resulting in
+large, cross-linked complexes that undergo LLPS at reduced
+concentrations. This interpretation is supported by several
+
+
+A
+
+B
+C
+D
+
+E
+
+Individual mRNPs
+
+RNA Granule
+Pathological
+(one phase)
+
+inclusions
+(two phases)
+
+
+Fibrillization 
+
+AAA
+
+m7Gppp
+
+AAA
+
+m7Gppp
+
+LLPS
+
+Evolution
+
+
+
+AAA
+
+to 
+pathology
+
+m7Gppp
+
+AAA
+
+m7Gppp
+[RBP]low = low risk
+
+[RBP]high = high risk
+
+of amyloid formation
+
+of fibrillization
+
+mRNA-binding protein
+with low-complexity domain
+
+
+Reversible
+interaction
+Stress granule
+
+Amyloid
+
+component
+findings: (1) the folded RRM domains alone do not phase separate in the absence of RNA under any conditions tested; (2) RNA
+promotes LLPS of the RRM domains, presumably by engaging
+the two RRM domains in a multivalent fashion via several nucleotide motifs, as was previously shown for PTB/RNA interactions
+(Li et al., 2012), resulting in large, cross-linked complexes; and (3)
+the LCD also binds RNA. Thus, our results suggest that both protein-protein and protein-RNA interactions work synergistically in
+the assembly of RNA granules.
+
+Fibrillization of RBPs in Stress Granules—Pathology
+or Physiological Function?
+hnRNPA1 is intrinsically prone to fibrillization—a propensity that
+is strongly enhanced by mutations that cause ALS and MSP (Kim
+et al., 2013). Although fibrillization is not required for LLPS, and
+disease mutation does not significantly impact LLPS behavior
+on short timescales (Figure 5), fibrillization of mutant hnRNPA1
+is enhanced in the two-phase regime (Figure 6). We propose
+that the high local protein concentration in the condensed liquid
+droplets increases the probability of rare nucleation events and
+of the rate constant for adding monomers to a growing fibril,
+which is in agreement with typical nucleation-driven fibrillization
+processes (Eisenberg and Jucker, 2012). Changes in the conformational ensemble and dynamics of the LCD compared to the
+dispersed state may also play roles in enhanced nucleation
+(Pappu et al., 2008). Nevertheless, the fact that wild-type
+hnRNPA1 is prone to fibrillization on longer timescales, a
+behavior shared by a large number of related RBPs (Ramaswami
+et al., 2013), suggests that this property could occur in the
+context of RNA granules in cells and potentially contribute
+to physiological functions. For example, short length-scale
+dynamic fibrils might assemble in the condensed liquid phase
+during maturation of long-lived RNA granules and play functional
+roles or provide mechanical stability.
+
+Irrespective of a potential physiological role in normal stress
+granules, our findings provide a model to explain the relationship
+between disease-associated genetic mutations that promote
+
+m7Gppp
+
+
+AAA
+
+stress granule formation or prolong their
+assembly (Figure 7) and the fibrillar pathology that dominates end-stage disease.
+
+
+Thus,
+we
+propose
+that
+the
+condensed liquid state of stress granules
+resulting from LLPS of hnRNPA1 and
+related RBPs presents a low probability
+risk of assembling amyloid-like fibrils
+that, under normal conditions, can be
+managed by granule disassembly and
+cellular proteostasis machinery. However,
+when stress granules are composed of
+
+
+RBPs that contain LCD mutations that
+promote fibrillization (Kim et al., 2013;
+Klar et al., 2013; Kwiatkowski et al., 2009; Sreedharan et al.,
+2008; Vieira et al., 2014), or when stress granules persist due
+to disturbances in disassembly machinery (Buchan et al., 2013;
+Figley et al., 2014), pathogenic fibrils can assemble and escape
+quality control surveillance.
+
+m7Gppp
+
+
+AAA
+
+Insoluble residua
+
+formed from the
+
+most
+amyloidogenic
+constituents of
+
+granules

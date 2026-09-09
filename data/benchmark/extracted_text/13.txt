@@ -1,0 +1,484 @@
+--- RESULTS
+
+We have previously identified several members of the ---
+hnRNP-A/B protein family as specific interactors of region
+321–366 of TDP-43 and have shown that these contacts are
+very important for maintaining the splicing functionality of
+TDP-43 (34, 40). Interestingly, half of the residues making up
+this sequence are represented by Gln/Asn residues, forming a
+region that is somewhat reminiscent of “prion domains” in
+which alternating Gln and Asn residues can be arranged in a
+self-propagating amyloid conformation. In keeping with this
+possibility, the region spanning residues 320–367 has been
+shown to be responsible for sequestration of TDP-43 in polyglutamine aggregates and cause loss-of-function effects (36, 57)
+as predicted by a model previously proposed (14).
+
+To understand the aggregation process, a thorough knowledge of the interactions of TDP-43 and its partners was needed.
+
+
+We have focused on the TDP-43-hnRNP-A2 interaction being
+one of the most prominent and verified by several proteomic/
+interaction studies (38–40, 43). We have first extended our
+investigation of the TDP-43-hnRNP-A2 interactions mapping
+the minimal sequences needed on both sides. Once this was
+established and sequences finely mapped, we have looked at the
+
+aggregation properties of the minimal TDP-43 region involved
+in the process and set up a cellular model of aggregation.
+
+hnRNP-A2 Binding Region to TDP-43—As already mentioned, we have previously narrowed down the region of
+TDP-43 interacting with hnRNP-A2 to residues 321–366 of
+this protein (34). However, very little data are available with
+regard to which region of hnRNP-A2 is directly binding to
+TDP-43. In fact, previous experiments from our laboratory had
+only loosely identified the C-terminal tail of hnRNP-A2 and
+-A1 as being responsible for this interaction (40) but not specific short amino acid sequences. Deletion mutants of
+hnRNP-A2 performed in our laboratory have suggested, using
+band shift experiments, that the TDP-43-binding site was
+restricted to residues spanning from 288 to 341 of hnRNP-A2
+(data not shown).
+
+To validate this interaction in a more natural setting, we then
+decided to perform several co-immunoprecipitation (co-IP)
+analyses using constructs that expressed these hnRNP-A2 and
+TDP-43 regions fused to EGFP. In the first co-IP experiment,
+we co-transfected in Hep3B cells constructs EGFP-A2(288–
+322) or EGFP-A2(288–341) together with a construct that
+expressed a FLAG-TDP-43 protein. Following IP with an
+anti-EGFP Ab, the Western blot was probed with an antiFLAG antibody to detect the eventually associated FLAGTDP-43 protein. As shown in Fig. 1A, whereas EGFP-
+A2(288–322) could IP only weakly the FLAG-TDP-43
+protein, pulldown efficiency was very much enhanced in the
+case of the EGFP-A2(288–341) protein. As expected, no signal could be detected using an EGFP protein alone. Moreover, all EGFP constructs were expressed at equal levels in
+the transfected cells as determined using an anti-EGFP antibody (Fig. 1A, bottom panel).
+
+
+In a second co-IP experiment, we used a similar strategy,
+differing only in the EGFP molecule utilized, that was fused
+
+with the 321–366 residues of TDP-43 (EGFP-TDP-43(321–
+366)) and co-transfecting this construct with a flagged
+hnRNP-A2 expression plasmid. As above, IP was performed
+using an anti-EGFP Ab, and the pulled down flagged
+hnRNP-A2 molecule was detected using an anti-FLAG antibody. Also in this case, the results reported in Fig. 1B show that
+EGFP-TDP-43(321–366) could efficiently co-IP the flagged
+hnRNP-A2 protein and that no signal could be detected for the
+EGFP protein alone. Finally, we confirmed these results in vivo
+by immunoprecipitation of TDP-43 from cells that stably
+expressed the flagged TDP-43 F4L and TDP-43 321–366
+mutants previously described from our laboratory (58) (the F4L
+mutant was chosen as a positive control because it is unable to
+down-regulate the endogenous TDP-43). Immunoprecipitation using anti-FLAG antibodies shows that the F4L mutant is
+much more efficient at co-immunoprecipitating endogenous
+TDP-43 (that is barely detectable in the lane for the 321–366
+mutant) (Fig. 1°C). Taken together, these results show that
+hnRNP-A2 residues 288–341 and TDP-43 residues 321–366
+are sufficient to support the interaction between these two proteins in the natural cellular environment and also without the
+support of additional protein sequences.
+
+Refining the 321–366 hnRNP-A2 Binding Sequence of
+TDP-43—In parallel to these experiments, we were also interested in better defining the 321–366 sequence with the use of
+synthetic peptides that spanned different portions of this
+TDP-43 region. As a first approach, we synthesized a number of
+peptides that divided up this sequence in four different ways
+(Fig. 2A). Each peptide was used in competition analysis in the
+presence of TDP-43 bound to a labeled UG6 oligonucleotide
+and supershifted following the addition of hnRNP-A2 (Fig. 2B,
+indicated by an arrow). In a first experiment, Fig. 2B shows that
+neither peptides spanning residues 321–346 nor 346–366
+could successfully compete for supershift formation (compare
+
+with the 321–366 peptide). In addition, no competition could
+also be observed for the peptide spanning residues 321–338
+(Fig. 2°C). However, successful competition could be observed
+using a peptide spanning the 339–366 region of TDP-43 (Fig.
+2°C). To see if this region could be reduced even further, we then
+prepared a second set of peptides where only the extremities of
+the 339–366 sequence were deleted (Fig. 3A). This analysis
+showed that efficient competition could be obtained with a
+peptide spanning residues 342–366 (Fig. 3B). It was noted that
+within this sequence there were three Gln/Asn-rich stretches
+(342–345, 352–357, and 363–366), raising the possibility that
+
+they were mediating this interaction. Therefore, all these residues were selectively mutated in alanines (Fig. 3°C), and the
+effect of these substitutions was tested in a supershift assay.
+The results showed that mutating even a single Gln/Asn-rich
+region within these sequences completely abolished the ability of the peptide to successfully compete in the supershift
+assay (Fig. 3D). Interestingly, in all these experiments, whenever we used synthetic peptides in EMSA analysis all the
+successful candidates (p321–366, p339–366, and p342–366)
+not only disrupted the supershifted complex but also caused
+the appearance of a highly retarded radioactive signal (composed of TDP-43 bound to radioactive RNA oligonucleotide)
+that remained within the wells of the polyacrylamide gel
+(Figs. 2°C and 3B). The same phenomenon was also present in
+our previous work (see Figs. 5 and 8D in Ref. 34). Taking in
+mind the role of Gln and Asn residues in the protein aggregation process, it was possible that the Gln/Asn residues
+from this TDP-43 region could be implicated in the aggregation process itself. Consistent with this finding, none of the
+peptides in which the alanines substituted the Gln/Asn
+sequences were observed to give rise to aggregate formation
+in the wells (Fig. 3D). Additionally, the aggregate formation
+in the wells observed in the presence of the p321–366 peptide was progressively reduced in vitro following addition of
+increasing amounts of GST-hnRNP-A2(288–341) in the
+reaction mixture. This experiment suggested that the A2
+sequence was displacing or avoiding the interaction of p321–
+366 peptide with TDP-43 and its aggregation (supplemental
+Fig. 1).
+
+
+Taken together, all these in vitro data demonstrated that the
+residues 342–366 from TDP-43 conform to the minimal
+sequence necessary to interact with hnRNPA2. Additionally,
+the rich composition in Gln/Asn residues of this sequence and
+the observation that all the competing peptides caused the production of pre-aggregates make this region a good target to
+study its role in TDP-43 aggregation.
+
+Use of Tandem Repeats Carrying the 331–369 Gln/Asn-rich
+Region Alone Can Promote Aggregation in Vitro and in Transfected U2OS Cells—According to the results observed previously, it was then decided to determine whether this Gln/Asn
+region was capable of inducing a similar kind of aggregate formation in vivo. Initially, we used synthetic hybrid peptides,
+including the 321–366 and 342–366 sequences linked to a fluorophore and fused to an HIV sequence, to facilitate their introduction into the cell. It was observed that the peptides entered
+all cells causing a limited cytoplasmic TPD-43 aggregation phenomenon (supplemental Fig. 2). At this point, it was hypothesized that for the formation of inclusions, there may be a need of
+an aggregation focus, and it was decided to try with plasmids
+carrying multiple copies of the peptide sequence. To achieve
+this, we chose the 331–369 region rather than the minimal
+342–366 sequence studied in vitro to provide some additional
+degree of structural integrity. To achieve this aim, we engineered several plasmids that carried 1, 4, or 12 different copies
+of the 331–369 region fused to EGFP (Fig. 4, A and B).
+
+First of all, these constructs were cloned in a bacterial expression vector to include an N-terminal His6 tag. Following their
+expression and purification, the purified proteins were then
+mixed with GST-TDP-43 wild type and an unlabeled UG oligonucleotide. Aggregate formation was then measured using a
+filter binding assay (Fig. 4°C). This experiment showed that with
+
+respect to the EGFP protein or the EGFP proteins carrying one
+and four repeats (EGFP-1Gln/Asn and EGFP 4Gln/Asn),
+only the EGFP protein carrying 12 repeats (EGFP-12Gln/
+Asn) was capable of efficiently promoting TDP-43 aggregation.
+
+This ability of EGFP-12Gln/Asn to sequester the wild type
+TDP-43 protein to form aggregates in vitro was then assayed in
+a more natural setting following its transfection in U2OS cells
+together with FLAG-TDP-43 (co-transfection with EGFP was
+used as a control). The transfected samples were then centrifuged, and the soluble and pelleted fractions were analyzed by
+Western blot both for FLAG-TDP-43 expression and EGFP/
+EGFP-12Gln/Asn expression. As shown in Fig. 4D, co-transfection with EGFP-12Gln/Asn substantially increased the
+amount of FLAG-TDP-43 in the P fraction (lane 6) as opposed
+to co-transfection with EGFP (lanes 1–3). These results were
+confirmed by three independent experiments. Their quantification is shown in Fig. 4E. All these results indicated that the
+interaction of TDP-43 with multiple repeats composed by the
+331–369 TDP-43 sequence can induce in vitro and in vivo
+TDP-43 aggregation.
+
+Cellular Distribution of the EGFP-12Gln/Asn Aggregates—
+We performed a preliminary characterization of this aggregation process in connection with endogenous TDP-43 distribution by transfecting EGFP, EGFP-1Gln/Asn, EGFP-4
+Gln/Asn,
+and
+EGFP-12Gln/Asn
+in
+
+
+U2OS
+cells
+and
+HEK-293 (data not shown). This transfection experiment (Fig.
+
+5A) showed that aggregate formation of the EGFP carrying Gln/
+
+
+Asn repeats could not be observed at all for the control EGFP
+and EGFP-1Gln/Asn constructs. However, aggregate formation was weakly apparent for the EGFP-4Gln/Asn construct
+(diffuse green spots in the cytoplasm) and much more prominent for EGFP-12Gln/Asn expression. In this respect, it
+should be noted that transfecting three times the amount of
+EGFP-4Gln/Asn with respect to EGFP-12Gln/Asn did not
+result in similar aggregate formation, suggesting that this phenomenon is not just a consequence of the absolute amount of
+Gln/Asn repeats introduced into cells (data not shown). Most
+importantly, the aggregates formed by the EGFP-12Gln/Asn
+constructs were observed to co-localize with the endogenous
+TDP-43 (Fig. 5A, enlarged image). The observation that neither
+FUS protein (fused to a V5 epitope) nor TIA-1 (a typical stress
+granules marker expressed as a FLAG-tagged protein) co-localized with these aggregates shows both the specificity of the
+EGFP-12Gln/Asn for sequestering endogenous TDP-43 and
+that these aggregates are different from stress granules. In the
+case of TIA-1, in fact, it is known that just the overexpression of
+this protein can induce stress granule formation rendering useful this phenomenon to differentiate stress granules from other
+kind of aggregates (59). It should be kept in mind, however, that
+Liu-Yesucevitz et al. (60) reported the presence of TIA-1 in
+spinal cord aggregates of ALS patients. Finally, cell fractionation studies performed following the co-transfection of
+
+V5-tagged FUS and EGFP-12Gln/Asn construct showed that
+in contrast with the TDP-43 case (Fig. 4D) no change in solubility could be observed for FUS confirming its absence in
+EGFP-12Gln/Asn aggregates (data not shown).
+
+Role of TDP-43 Functional Domains on Aggregate Colocalization—To eventually understand the triggering factors for aggregation, it is essential to know the functional
+domains/properties of TDP-43 that are important for EGFP-
+12Gln/Asn-TDP-43 co-localization. Fig. 6 shows co-transfection of the EGFP-12Gln/Asn construct with FLAGTDP-43 wild type and two mutants, one carrying a deletion in
+the 321–366 region (FLAG-TDP-43-321–366) and the other
+carrying two Phe/Leu substitutions in RRM-1 that render it
+unable to bind RNA (FLAG-TDP-43 F147L,F149L). To avoid
+any interference from endogenous TDP-43, U2OS cells were
+treated
+with
+
+
+TDP-43
+siRNA
+before
+transfecting
+these
+siRNA-resistant mutants. The results of this experiment clearly
+showed that co-localization with EGFP-12Gln/Asn aggregates occurs with FLAG-TDP-43 wild type and with the mutant
+lacking RNA binding capacity (FLAG-TDP-43 F147L,F149L).
+
+
+Interestingly, in the case of FLAG-TDP-43 wild type, it was
+observed occasionally that the nuclei of the cells containing
+extensive aggregation were almost devoid of TDP-43 (see
+
+enlarged image at Fig. 6, bottom left panel). Conversely, the
+co-localization with the EGFP-12Gln/Asn aggregates was
+completely abolished in the case of FLAG-TDP-43-321–366,
+the mutant lacking the Gln/Asn region. No cytoplasmic co-localization could be observed when any of these mutants were
+co-transfected with EGFP alone (supplemental Fig. 3). These
+experiments demonstrate that the EGFP-12Gln/Asn aggregates
+can sequester TDP-43 only if it carries the 321–366 sequence.
+
+
+Moreover, once recruited in these aggregates the FLAG-TDP-43
+wildtypewasobservedtobecomebothubiquitinated(Fig.7A)and
+phosphorylated in the two 409 and 410 serine residues (Fig. 7B)
+that represent two distinguishing features of the inclusions
+observed in the brain of ALS and FTLD patients. These results
+were confirmed by Western blot analysis (supplemental Fig. 4). It
+should also be noted that in several instances we observed aggregates of EGFP-12Gln/Asn that lack TDP-43 and also lack ubiquitination and phosphorylation, suggesting that EGFP-12Gln/
+Asn can aggregate in the absence of much full-length TDP-43. We
+havenotbeenabletodetectcleavedfragments,buttheycouldbea
+lateeventinthedevelopmentofthediseasethatisnoteasilyreproducible in cell culture.
+
+
+It is not really known if the aggregates in the brains of
+patients are neurotoxic (see the review by Baloh (61) for a dis-
+
+FIGURE7.ImmunofluorescenceexperimentshowsthataggregatesarepositiveforubiquitinationandabnormalphosphorylationinTDP-43residues
+Ser-409/410. A, FLAG-TDP-43WT (red) was co-transfected with EGFP-12Gln/Asn (green) plus HA-ubiquitin (blue). The co-localization of aggregates with
+HA-ubiquitin is observed as white. B, cells were co-transfected with FLAG-TDP-43WT (red) and EGFP-12Gln/Asn (green), and the phosphorylation of Ser-409/
+410 TDP-43 residues was detected using a specific anti-Ser(P)-409/410 Ab (blue). The co-localization of the aggregates with phosphorylated Ser-409/410
+residues is observed as white. Nuclei are highlighted with white dotted lines. Scale bars, 10 m.
+
+cussion on this subject). It was then of interest to examine
+whether transfection with the Gln/Asn repeat constructs was
+associated with increased cellular toxicity as determined by lactate dehydrogenase release. The results of this assay failed to
+detect any increased release of lactate dehydrogenase levels in
+the presence of the 1Gln/Asn, 4Gln/Asn, and 12Gln/Asn
+constructs with respect to controls (Fig. 8). In this respect, it
+should be noted that preliminary immunohistochemical studies of our inclusions with anti-p62 and anti-LC3 antibodies
+
+were suggestive of an initial autophagic response (data not
+shown); this observation may provide an explanation for the
+lack of toxicity and deserves further studies.
+
+
+We have previously shown that human TDP-43 could
+replace the Drosophila TBPH in the development of the neuromuscular junction (34, 60) and that they shared also their functional properties in splicing assays (30). Interestingly we
+observe aggregate co-localization when the EGFP-12Gln/
+Asn construct was co-transfected with Drosophila TBPH showing once more the considerable functional homology of human
+TDP-43 (supplemental Fig. 5). In keeping with this similarity,
+especially with regard to the role played by the C-terminal tail,
+deleting the C-terminal tail of TBPH also abolished co-localization with EGFP-12Gln/Asn (supplemental Fig. 5).
+
+Finally, all these experiments were performed in non-neuronal cell lines, and thus we considered it important to check if the
+EGFP-12Gln/Asn construct was capable of inducing aggregate formation also in neuronal cells. To perform this, we prepared primary neuronal cultures from rat trigeminal dorsal
+ganglia and transfected the EGFP-12Gln/Asn construct into
+them. As shown in Fig. 9, transfection of EGFP-12Gln/Asn
+caused the appearance of one or few more round cytoplasmic
+inclusions that are highly similar to what is commonly observed
+in the neurons of affected patients.
+
+--- DISCUSSION ---
+
+
+
+TDP-43 is a typical hnRNP protein whose involvement in
+several neurodegenerative diseases has recently received a lot of
+attention by the research community (14, 15, 33). A detailed
+knowledge of its biochemical properties and hence its basic role
+in
+biological
+processes
+such
+as
+transcription
+(62,
+63),
+pre-mRNA splicing (56, 64–66), microRNA processing (67),
+
+and mRNA stability (68, 69) is essential to develop novel diagnostic and therapeutic approaches. As usual for most hnRNP
+proteins, these functional properties are mediated by its characteristic domains that include an N-terminal sequence, two
+
+
+RNA recognition motif domains, and a Gly-rich C-terminal
+region.
+
+
+The C-terminal region is particularly significant as it has
+been found that TDP-43 mutations associated with disease (41,
+42, 70) are mostly localized within the C-terminal region and
+are generally thought to enhance inclusion formation (46, 71,
+72). Indeed, on the basis of sequence homology, an intriguing
+hypothesis has also been recently made regarding the presence
+in this region of a potentially infectious “prion domain” from
+residue 277 to 414 (35), a characteristic that may be shared with
+other proteins involved in ALS/FTLD (73). With regard to the
+C-terminal tail, our previous work on TDP-43-hnRNP interactions suggested that the interaction of TDP-43 with its 321–366
+Gln/Asn-rich sequence was stronger than the interaction with
+hnRNP-A2 as the 321–366-residue peptide was able to disrupt
+the TDP-43-hnRNP-A2 complex and produce a material that is
+retained at the origin of the gel (34). Consistent with this observation, it was recently shown that the presence of a Gln/Asnrich region spanning residues 320–367 is responsible for
+sequestration of TDP-43 in polyglutamine aggregates and
+causes loss-of-function effects (36, 57).
+
+--- At the moment, in fact, the simple conclusion that TDP-43 ---
+aggregates are just toxic by themselves and can thus explain the
+neurodegeneration has not been upheld by several studies, as
+recently reviewed (61). Regarding this issue, a large series of
+reports have focused on the potential toxicity of overexpression
+of the whole TDP-43 (certainly toxic with or without aggregation) and/or several large CTFs similar to those found in the
+brain extracts from patients. It is certain, in fact, that overexpression of TDP-43 and/or its fragments can promote aggregation in the cellular cytoplasm, as discussed in many recent
+reviews (61, 74). How they may do this is still not clear, and a
+“two-hit” model has been recently proposed (75). However, the
+significance of cleavage in the pathological pathway is not well
+established, and hence the significance of CTFs aggregation
+should be cautiously interpreted.
+
+--- Our results are in keeping with this view, as cytotoxicity ---
+measurements failed to detect a significant effect following
+transfection with our 1, 4, and 12Gln/Asn constructs into
+U2OS cells. Moreover, this lack of toxicity of the aggregations
+per se has been also reported by Johnson et al. (76) using a yeast
+aggregation model in which toxicity was associated with aggregation only when the RRM motifs and glycine-rich domains
+were included in the expressed constructs (either singly or in
+pairs). This finding further strengthens the hypothesis that the
+pathological significance of the aggregates probably resides in
+their ability to function as a “TDP-sink” in the cytoplasm,
+resulting in various loss-of-function effects within the nucleus.
+
+
+An alternative explanation that cannot be excluded is that
+aggregates may be toxic by themselves.
+
+
+We show here that a repeated TDP-43 amino acid sequence
+331–369 is capable of inducing TDP-43 aggregate formation
+both in non-neuronal and neuronal cells that mimic many but
+not all of the characteristics of the inclusions found in patients
+(see Table 1 for a comparison between the characteristics of our
+inclusions and patient observations). In particular, this system
+is capable of recapitulating some of the morphological features
+of TDP-43 aggregates found in ALS and FTLD brains. In fact it
+produces round and large formations, as we observed in rat
+dorsal ganglion neurons or granular dot-like inclusions, as we
+observed in U2OS and HEK-293 cells (data not shown). Their
+localization is predominantly cytoplasmic with occasional
+nuclear occurrence. Our data demonstrate that the key interaction for aggregate formation is TDP-43 with itself through
+
+
+Aggregate characteristics
+12Gln/Asn aggregates
+
+
+Pathological aggregates
+
+Origin
+Expression of 339–369-residue Gln/Asn repeats
+
+
+Unknown
+Localization
+Preferentially cytoplasmic
+
+
+
+Preferentially cytoplasmic
+Time of generation
+24 h
+Unknown (probably late in lifetime)
+
+
+Stress granules
+Apparently not
+Uncertain
+
+
+
+TIA-1 co-localization
+No
+Uncertaina
+Ubiquitination
+Yes
+Yes
+
+
+
+Hyperphosphorylation
+Yes
+Yes
+Cleavage
+No
+Yes
+Empty nuclei
+
+
+
+In some cells following transient transfection
+
+
+
+Yes in some neurons
+Overexpression of endogenous TDP-43
+No
+
+
+
+Uncertain
+a There is some controversy regarding this issue as initial reports did not find any co-localization in the aggregates from the spinal cords of three sporadic ALS patients (83).
+
+However, a later and more detailed study reported that co-localization between TIA-1 and TDP-43 aggregates could be observed in four ALS patients (spinal cord) and five
+FTLD-U patients (brains) (60).
+
+the 331–369 region. In fact, TDP-43 147/149 Phe 3 Leu is not
+able to bind RNA, but it is efficient in forming aggregates,
+whereas TDP-43 321–366 does not induce aggregation (Fig.
+6). It is also clear from the results shown in Fig. 7 that ubiquitination and phosphorylation follow the aggregation. It is also
+worth noting that in some cells, where there is substantial cytoplasmic aggregation, there is a scant presence of TDP-43 in the
+nucleus, strengthening the hypothesis that sequestering
+
+--- TDP-43 in the aggregates essentially results in a situation ---
+equivalent to a nuclear knock-out of TDP-43 with its well
+known consequences (77–81).
+
+The observation that the FLAG-TDP-43-321–366 construct does not co-localize with the EGFP-12Gln/Asn aggregates in U2OS cells suggests that the normal interactions of
+TDP-43 with other hnRNPs might keep TDP-43 soluble. This is
+consistent with the substantial overlap of the 321–366 region
+with the site that interacts with hnRNP-A2 and with the result
+
+observed in supplemental Fig. 1. Moreover, the irrelevance for
+aggregation of the TDP-43 RNA binding domain mutant suggests that protein-protein contact may modulate the aggregation process and that the trigger may be a defect in the TDP-43
+normal interactions. This would also be consistent with the
+observation that TDP-43 aggregates in patients do not contain
+hnRNP proteins (82). All these considerations are summarized
+in the schematic model reported in Fig. 10. Indeed, in our case
+the aggregation seems to be a process that involves mainly
+
+
+TDP-43 self-interactions and that leads to phosphorylation,
+ubiquitination, and possibly nuclear TDP-43 depletion.
+
+Finally, it is important to highlight that because all the inclusions reported in this paper were induced using the same basic
+construct (EGFP-12Gln/Asn), it is clear that this system may
+be a formidable research tool as it represents a much needed
+cell-based TDP-43 aggregation model. Such a model will be
+fundamental for the identification of the factors involved in the
+
+formation of the original aggregate core and its impact in cellular metabolism and to follow the modifications that are seen
+in the final stage of the aggregates observed in the brains of
+patients. The aggregation model described in this study is the
+subject of the patent application RM2011A000582.
+
+Acknowledgments—We thank Dr. Maurizio Romano for the FLAGTBPH plasmids and Dr. Marco Baralle for helping with trigeminal
+dorsal ganglion neuron extraction.

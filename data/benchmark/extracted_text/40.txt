@@ -1,0 +1,809 @@
+--- Results ---
+Huntingtin N17 Folds Back to the Polyproline Region. To test for an
+intramolecular interaction between the regions flanking the polyglutamine tract of huntingtin, we developed a conformational
+sensor using FRET efficiency as readout. We chose a fluorophore
+pair for FRET that consisted of a mCerulean donor and an enhanced yellow fluorescent protein (eYFP) acceptor. FRET was
+calculated using fluorescence lifetime imaging microscopy (FLIM)
+by time-correlated single photon counting (TCSPC) (23, 24).
+
+
+Fluorescence lifetime refers to the amount of time a valence
+electron from a fluorophore remains in the excited state before
+returning to ground state and emitting a photon. The lifetime of
+a fluorophore can be directly affected by FRET, which results in
+a decrease in the donor fluorophore lifetime. All of the necessary
+controls were performed to validate the fluorophore lifetime values in our live-cell system (Fig. 1 A–C).
+
+We constructed a FRET sensor using exon1 fragments of varying polyglutamine lengths with a donor and an acceptor fluorophore at the amino and carboxyl termini of exon1 with a 1:1
+ratio of donor:acceptor. At a wild-type length of 17 polyglutamine repeats, we noted a robust lifetime decrease, thus a relative increase in percent FRET efficiency, indicating a close
+proximity of the donor and acceptor fluorophores (Fig. 1 D and
+H). This FRET was intramolecular, because coexpression of
+mCerulean-huntingtin exon1 and huntingtin exon1-eYFP together, on separate plasmids, did not result in a donor lifetime
+change at these expression levels (Fig. 1 E and G). When a
+similar sensor with a polyglutamine expansion of 138 repeats was
+tested, the fluorescence lifetime values were increased relative to
+the wild-type polyglutamine length, resulting in a reduced FRET
+efficiency (Fig. 1 F and H). We controlled for expression of
+huntingtin fragment levels in the assays to avoid the effects of
+protein aggregation on lifetime values.
+
+
+Typical pathogenic polyglutamine lengths for midlife onset of
+HD are between 45–50 repeats (1); however, HD is fully penetrant at any length over 40 repeats. Most HD models use huntingtin genes with very long CAG repeats (>100) to induce a
+robust phenotype (5). To date, no assay in live cells has noted a
+phenotype at polyglutamine lengths close to 37 repeats or even
+typical HD repeat lengths. Using the huntingtin exon1 FRET
+sensor, we tested the effect of varying glutamine repeat lengths
+to determine if we could detect a conformational change at the
+pathogenic threshold for HD. We detected a significant decrease
+in FRET efficiency between 32 and 37 repeats; however, minimal
+changes were measured between 37, 46, and 138 repeats (Fig.
+1H). To prove that the FRET efficiency changes we detected
+were not due to simply moving the acceptor probe farther away
+from the donor, we synthesized and tested an exon1 FRET
+sensor with only two glutamines. This construct resulted in
+a lower FRET efficiency relative to all other polyglutamine
+lengths tested, despite the shorter alpha-carbon backbone (Fig.
+1H). To demonstrate that the intramolecular FRET between
+
+
+N17 and the polyproline region was not an artifact of the
+STHdhQ7/Q7 cell type used, we repeated experiments using the
+exon1 FRET sensor with wild-type (Q17) and mutant (Q138)
+polyglutamine tracts in both NIH 3T3 fibroblasts and primary
+human fibroblasts (Fig. S1 A and B). Consistent with the data
+generated in the STHdhQ7/Q7 cells, we measured a higher percentage of FRET efficiencies with the wild-type versus the mutant sensor in both fibroblast cell lines.
+
+Because we consistently measured the highest FRET efficiencies for huntingtin fragments with wild-type polyglutamine
+lengths, this suggested that the polyglutamine tract may exist as
+a flexible “hinge” to allow the N17 domain to loop back and
+
+come into close spatial proximity with the polyproline region
+(Fig. 1 H, K, and L). To test this hypothesis, we designed a synthetic exon1 fragment where we substituted the polyglutamine
+tract with a four glycine linker (25). We detected a similar
+change in FRET efficiency with the exon1 ΔQ + 4 glycine construct relative to the exon1 Q17 FRET sensor, suggesting that
+wild-type polyglutamine tracts can behave similarly to a flexible
+glycine linker (Fig. 1I). Conversely, we hypothesized that the
+mutant polyglutamine expansion results in a diminished flexibility, which induces a conformational change in the amino terminus of huntingtin. To test the importance of the flanking
+sequences on the flexibility of the polyglutamine tract, we inserted pure polyglutamine tracts with either 17 or 46 repeats into
+the FRET sensor. For both constructs, we measured lower
+FRET efficiencies relative to the exon1 constructs. There was
+only a modest difference between the wild-type and mutant pure
+polyglutamine constructs, indicating that just polyglutamine was
+not sufficient to properly place the amino and carboxyl termini in
+close proximity in the absence of flanking sequences of huntingtin (Fig. 1J). Our next step was to analyze if we could detect
+polyglutamine-dependent
+conformational
+changes
+in
+larger
+huntingtin fragments.
+
+
+We then constructed FRET sensors with increasing fragment
+lengths of huntingtin in both the wild-type and mutant context
+(Fig. S2). FRET efficiency of the huntingtin 1–117 (exon1+2)
+sensor was higher than that of the exon1 sensor. This indicated
+that N17 was likely in closer proximity to a distal region of huntingtin beyond the polyproline region or that additional amino
+acids beyond this domain were important to stabilize this conformation. As with the huntingtin exon1 sensor, polyglutamine
+expansion of huntingtin 1–117 resulted in a similar drop of FRET
+efficiency. Placement of the FRET acceptor at amino acids 171,
+220, or 465 in huntingtin resulted in a drop in FRET efficiency,
+with no significant difference between polyglutamine lengths.
+
+N17 Serine Phosphomimetics Affect Huntingtin Conformation. To test
+the importance of serines 13 and 16 on the conformation of
+huntingtin exon1 in live cells, we generated constructs with N17
+phosphomimetic mutants in the context of the FRET sensor
+(Fig. S3). S13AS16A mutations in either the Q17 (Fig. S3A) or
+Q142 (Fig. S3°C) context of exon1 had little effect on the FRET
+efficiency of the sensor relative to wild-type N17 constructs (Fig.
+2A). However, S13ES16E substitutions in both the wild-type
+(Fig. S3B) and mutant (Fig. S3D) context significantly reduced
+FRET efficiency (Fig. 2A). Previously, we demonstrated that
+phosphorylation and phosphomimicry at serine residues 13 and
+16 disrupted the structure of N17 (12), whereas a proline substitution at methionine 8 (M8P) completely abolished N17
+structure (10). In the context of the FRET sensor, the M8P
+mutations with either Q17 (Fig. S3E) or Q150 (Fig. S3F) both
+resulted in a significant decrease in FRET efficiency (Fig. 2A).
+The result with the M8P mutant was consistent with the control
+experiment of just 17 or 46 glutamines in the FRET sensor (Fig.
+1J). Thus, we conclude that the structure of N17 contributes to
+the overall conformation of the amino terminus of huntingtin as
+well as the proximity of N17 to the polyproline region. The caveat of this data is that phosphomimicry is not true phosphorylation. To address this, we used a chemical biology approach with
+kinase inhibitors that we previously described as modulating the
+phosphorylation of huntingtin in N17 (12).
+
+Kinase Inhibitors Directly Affect the Conformation of Amino Terminus
+of Huntingtin. To study the effects of phosphomodulation on the
+conformation of the amino terminus of huntingtin, we used kinase
+inhibitors known to either inhibit or promote phosphorylation at
+serine residues 13 and 16 of N17 (12). N17 phosphorylation can be
+inhibited by CK2 inhibitors 2-Dimethylamino-4,5,6,7-tetrabromo-
+1H-benzimidazole (DMAT) and 1,2,5,8-tetrahydroxyanthraquinone
+(quinalizarin).Alternatively,N17 phosphorylationcanbepromoted
+by treatments with IKK inhibitors, the ATP analog Bay 11-7082
+[(E)-3-(4-methylphenylsulfonyl)-2- propenenitrile], and the allosteric
+
+
+Photon-Weighted
+
+Photon-Weighted
+Lifetime (τ) 
+Histogram (ns)
+mCerulean
+eYFP
+
+
+A
+
+Image
+
+Lifetime Image
+
+mCerulean alone 
+
+Pixels
+2.0
+2.5
+3.0
+B
+
+mCerulean + eYFP
+
+
+Pixels
+
+mCerulean-MCS-eYFP
+
+C
+
+Pixels
+
+35
+
+H
+
+30
+% FRET Efficiency
+
+*
+
+25
+
+20
+
+15
+
+10
+
+
+5
+
+Q2
+Q17
+Q32
+Q37
+Q46
+Q138
+
+J
+
+I
+
+25
+
+30
+% FRET Efficiency
+
+% FRET Efficiency
+
+25
+
+20
+
+*
+
+20
+
+*
+
+15
+
+15
+
+10
+
+10
+
+5
+
+5
+
+0
+
+
+0
+
+Poly Q17
+Poly Q46
+ΔQ + 4G
+
+
+Q17
+
+Q2
+inhibitor Bristol Myers Squibb (BMS)-345541 [N-(1,8-Dimethylimidazo[1,2-a]quinoxalin-4-yl)-1,2-ethanediamine
+hydrochloride].
+These compounds were tested on STHdhQ7/Q7 cells expressing the
+polyglutamine expanded (Q138) huntingtin FRET sensor (Fig.
+2B). Unlike alanine substitutions, CK2 inhibition by DMAT and
+quinalizarin caused an increase in FRET efficiency by affecting the
+conformation of mutant huntingtin exon1. This indicates that the
+hydroxyl-side group of the serine is important for the contribution
+of N17 to huntingtin conformation. IKK inhibition by Bay 11-7082
+and BMS-345541, leading to hyperphosphorylation of N17 (12),
+resulted in reduced FRET efficiency to a greater extent than
+phosphomimicry (Fig. 2 B versus A). From these data, we concluded
+
+
+Photon-Weighted
+
+Photon-Weighted
+Lifetime (τ) 
+Histogram (ns)
+
+
+Image
+
+Lifetime Image
+
+D
+
+mCer-Htt Ex1Q17-eYFP
+
+Pixels
+2.0
+2.5
+3.0
+
+E
+
+mCer-Htt Ex1Q17 +
+
+
+Htt Ex1Q17-eYFP
+
+Pixels
+2.0
+2.5
+3.0
+
+2.0
+2.5
+3.0
+
+mCer-Htt Ex1Q138-eYFP
+
+
+F
+
+Pixels
+2.0
+2.5
+3.0
+
+2.0
+2.5
+3.0
+
+G
+
+mCer-Htt Ex1Q138 +
+
+
+Htt Ex1Q138-eYFP
+
+Pixels
+2.0
+2.5
+
+
+3.0
+
+K
+L
+
+mCerulean
+
+mCerulean
+
+eYFP
+
+N17
+PolyQ
+
+eYFP
+N17
+
+PolyP
+
+
+
+PolyQ
+
+PolyP
+
+4-36Q repeats
+>37Q repeats
+
+that the promotion of huntingtin N17 phosphorylation by IKK
+inhibitors showed similar effects to phosphomimicry on the conformation of soluble mutant huntingtin.
+
+PACSIN1 Interacts with both the N17 and Polyproline Domains of
+Huntingtin. PACSIN1 has previously been reported to interact
+with the proline-rich intervening region of the polyproline domain of huntingtin in a polyglutamine length-dependent manner (18). Using coimmunoprecipitation, we were able to purify
+PACSIN1 using the N17 domain alone (Fig. S4A). Importantly,
+although both N17 and PACSIN1 are substrates of CK2, treatment of cells with the DMAT before coimmunoprecipitation had
+little effect on the amount of PACSIN1 recovered using N17.
+
+
+A
+
+30
+B
+
+24
+*
+
+*
+*
+
+22
+
+25
+
+% FRET Efficiency
+
+% FRET Efficiency
+
+20
+
+*
+
+18
+
+20
+
+16
+
+15
+
+14
+
+10
+
+12
+
+10
+
+5
+
+8
+
+
+0
+Q17
+Q17
+M8P
+
+6
+
+Q138
++5μM
+
+
+DMAT
++5μM
+Quin.
+
++10μM
+
++10μM
+
+
+Q150
+
+M8P
+Q17
+S13A
+S16A
+
+Q142
+S13A
+S16A
+
+Q17
+S13E
+S16E
+
+Q142
+
+
+
+S13E
+S16E
+
+Q138
+
+BAY
+
+BMS
+This indicated that the phosphorylation state of N17 or PACSIN1
+does not affect the interaction between the two proteins.
+
+
+Coimmunofluorescence with antibodies recognizing PACSIN1
+and N17 demonstrated that these two proteins show a high degree of signal overlap in the cytoplasm (Fig. 3A). When coimmunofluorescence was done using antibodies raised toward
+
+
+PACSIN1 and N17 S13pS16p, we observed no signal overlap in
+the cytoplasm; instead, both proteins were strongly colocalized to
+nuclear puncta (Fig. 3B). When we treated cells with compounds
+that are known to decrease (DMAT; Fig. 3°C) or increase (BMS-
+345541; Fig. 3D) the phosphorylation of huntingtin at residues S13
+and S16 (12), we noted a profound effect on the larger morphology and reduced number of the puncta present in the nucleus.
+
+
+PACSIN1 interacts with both the N17 and polyproline domains
+that flank the polyglutamine tract of huntingtin, which we hypothesized may stabilize the positioning of these two domains in
+close 3D proximity. To determine the involvement of PACSIN1
+between these domains, we tested our huntingtin exon1 FRET
+sensor following treatment of the cells with a mixture of three
+small interfering RNAs (siRNA) directed to mouse PACSIN1.
+
+
+Both a Western blot and immunofluorescence were performed
+to confirm the efficacy of the knock-down (Fig. S4 B–D). In cells
+expressing the wild-type huntingtin FRET sensor (Q17), treatment with PACSIN1 siRNAs significantly reduced FRET efficiency, whereas this was not seen with the mutant polyglutamine
+expanded FRET sensor (Q138) (Fig. S4E). Our data indicate
+that PACSIN1 may facilitate the proximity of N17 and polyproline by acting as a scaffold to bridge these two domains.
+
+
+Measuring the Conformation of the Amino Terminus Within the
+Context of Full-Length, Endogenous Huntingtin. Making protein
+fusions with fluorophores at both termini can alter the folding
+dynamics and conformations of huntingtin fragments. We were
+also limited by the need to overexpress the FRET sensor to
+superphysiological concentrations to collect enough photons to
+generate accurate fluorophore lifetime decay curves. Thus, we
+wanted to determine if we could measure the conformation of
+the amino terminus of huntingtin within the context of the fulllength protein at endogenous expression levels, based on evidence of a N17-polyproline proximity learned from the exon1
+FRET sensor. We conjugated several primary antibodies raised
+to epitopes known to fall between residues 1 and 117 of huntingtin. We chose to use both the 2B7 and the 4C9 monoclonal
+antibodies that target residues 8–13 of the N17 domain and residues 61–71 of the polyproline region of huntingtin, respectively
+(26). As an optimal pair for FLIM-FRET, we chose to conjugate
+the antibodies with either alexa488 or alexa546 dyes.
+
+WhenwecomparedFRETefficiencyvaluesbetweenSTHdhQ7/Q7
+
+and STHdhQ111/Q111 lines both stained with 2B7-alexa488 and
+
+
+4C9-alexa546 conjugates, we measured a significantly lower
+percent FRET efficiency in the mutant compared with the wildtype cells (Fig. 4A). As a negative control, we used an acceptor
+conjugated to an antibody that recognized an epitope at the carboxyl terminus of huntingtin (C-20) and saw no significant change
+in the donor lifetime. This was due to the acceptor conjugate now
+being too far away from the donor for FRET. Thus, using this
+antibody-based assay on full-length, endogenous huntingtin, we
+were able to recapitulate our earlier findings with the huntingtin
+exon1 FRET sensor (Fig. S5).
+
+
+To assess the effects of phosphorylation on the conformation
+of the amino terminus within the context of the full-length
+huntingtin protein, we used two compounds known to promote
+phosphorylation at serine residues 13 and 16 of N17: BMS-
+345541 and ganglioside GM1 (12, 14). Treatment of STHdhQ7/Q7
+
+cells with either BMS-345541 or GM1 for 16 h caused a significant reduction of the percent FRET efficiency relative to the
+nontreated control (Fig. 4B). These data were consistent with
+our earlier findings using the exon1 FRET sensor that phosphorylation of N17 affects the conformation of the amino terminus of huntingtin.
+
+
+Next, we wanted to test our antibody-based FLIM-FRET assay
+on human HD patient cells, rather than models of HD. We chose
+to use untransformed human fibroblasts from a 54 y old unaffected female and a 51 y old male with HD. Using 2B7 and 4C9
+conjugates in these cells, we were able to detect a robust conformational difference of huntingtin in these HD patient fibroblast samples relative to those from the unaffected individual
+(Fig. 4 D and E). This conformational difference was measured
+as a significant decrease in the overall FRET efficiency in the
+HD versus the wild-type fibroblasts (Fig. 4°C). Thus, using this
+assay, we measured a difference in huntingtin conformation in
+fibroblasts between normal and HD individuals.
+
+
+A
+
+Zoom
+α-N17
+
+
+Merge
+α-PACSIN1 (A-3)
+
+100x
+
+B
+
+α-PACSIN1 (A-3)
+α-N17 S13pS16p
+
+
+Merge
+
+Zoom
+
+100x
+
+C
+
+Merge
+
+Zoom
+α-PACSIN1 (A-3)
+α-N17 S13pS16p 
+
++ 10μM DMAT
+
+100x
+
+D
+
+α-PACSIN1 (A-3)
+α-N17 S13pS16p
+
+
+Merge
+
+Zoom
++ 10μM BMS 
+
+100x
+
+
+B
+
+A
+
+C
+
+30
+*
+*
+*
+*
+
+35
+
+30
+
+30
+
+% FRET Efficiency
+
+% FRET Efficiency
+
+% FRET Efficiency
+
+25
+
+20
+
+25
+
+20
+
+20
+
+10
+
+15
+
+15
+
+10
+
+10
+
+0
+
+5
+
+5
+
+-10
+
+0
+Q7/Q7 +10μM
+
+Q7/Q7
+Q111/Q111
+
+
+0
+
+WT
+2B7
++C20
+
+
+WT
+2B7
++4C9
+
+
+HD
+2B7
++4C9
+
++50μM
+
+
+BMS
+
+GM1
+
+D
+
+Photon-Weighted 
+
+Photon-Weighted
+Lifetime (τ) 
+Histogram (ns)
+
+
+Image
+
+Lifetime Image
+
+2B7-alexa488
+
+Human WT
+
+Fibroblast
+
+
+
+Human HD
++ 4C9-alexa546
+
+
+Pixels
+2.0
+3.0
+
+
+2.5
+
+E
+
+2B7-alexa488
+
+Fibroblast
++ 4C9-alexa546
+
+
+Pixels
+2.0
+3.0
+2.5
+
+cells following immunofluorescence with conjugated primary antibodies 2B7
+and 4C9. *P < 0.001. n = 150, five replicates. (B) Percent FRET efficiency for
+the amino terminus of huntingtin in STHdhQ7/Q7 following treatment with
+10 μM BMS-345541 or 50 μM ganglioside GM1. *P < 0.001. n = 100, 3 replicate trials. (C) FRET efficiency for the amino terminus of huntingtin in wildtype versus HD fibroblasts with conjugated primary antibodies 2B7/C20 or
+2B7/4C9. FLIM images of 2B7-alexa488 and 4C9-alexa546 conjugates in fixed
+(D) wild-type or (E) HD patient fibroblasts. *P < 0.001. n = 100, three replicates. (Scale bars: 10 μm.)
+
+--- Discussion ---
+
+
+
+A long-standing question in HD research has been why clinical
+
+
+
+CAG repeat lengths beyond 37 repeats result in pathogenesis,
+whereas even a few repeats below this number do not (27).
+
+
+Animal models of HD require very long polyglutamine tracts to
+elicit any obvious phenotypic changes; however, using our huntingtin exon1 FRET sensor, we have been able to detect a conformational switch between 32 and 37 glutamine repeats in
+live cells.
+
+
+Huntingtin is one of nine polyglutamine expansion disease
+proteins, where the biological role of normal polyglutamine
+tracts in these proteins is not understood (28). In transcription
+factors such as the Sp-family, CREB, and TLE, glutamine-rich
+domains are thought to mediate protein–protein interactions
+and/or dimerization (6–8). Our data demonstrate that polyglutamine or glutamine-rich regions may also represent a domain of
+required flexibility to mediate interactions between flanking
+protein–protein interaction domains.
+
+
+All mammalian species have a huntingtin protein that contains
+at least four glutamines in their polyglutamine tract. In vertebrate species that contain only two glutamines, the proline-rich
+region is absent (29). The reduced FRET efficiency observed
+with the synthetic huntingtin exon1 Q2 FRET construct suggests
+that the polyglutamine tract may be a critical conformational
+hinge in the amino terminus, allowing N17 to interact with
+regions downstream. This hinge hypothesis is consistent with the
+
+
+X-ray crystal structures that have been solved with wild-type
+exon 1 (30) and molecular dynamics simulations (31).
+
+
+We hypothesize that the decrease of FRET efficiency with
+mutant fragments is due to a gain of structure in the polyglutamine tract, leading to a reduced flexibility of the hinge region.
+In vitro, expanded polyglutamine tracts can adopt a rigid β-sheet
+structure (32). Therefore, our FLIM-FRET data are consistent
+with the rusty hinge hypothesis (33), where the expansion of
+polyglutamine leads to reduced flexibility of the tract, resulting in
+multiple inflexible conformations of the amino terminus. We
+hypothesize, as have others, that the normal polyglutamine tract
+in huntingtin is disordered (34). We suggest that polyglutamine
+tract in proteins may contribute to a phenomenon of stochastic
+protein conformations and interactions termed “fuzzy complexes” (35). A caveat of using FLIM-FRET to measure conformations of huntingtin is that the data do not tell us exactly
+what the conformations of the tested proteins are, only the differences between the tested constructs.
+
+The effects of CK2 and IKK inhibitors on skewing the conformation of soluble huntingtin indicate that a protective conformation of mutant huntingtin may be pharmacologically induced by
+correcting the hypophosphorylation seen in mutant huntingtin
+(12). Treatment of cells with IKK inhibitors caused an increase in
+phosphorylation at serines 13 and 16 of N17, which we measured
+as a decrease in the percent FRET efficiency and interpreted as
+a change in conformation of the huntingtin. We hypothesized that
+this decrease in FRET efficiency was either due to a loss of the
+alpha-helical structure of N17 or due to a change in the interaction
+network with N17 as a result of phosphorylation. However, because the readout for FLIM is either an increase or a decrease in
+
+
+FRET efficiency values relative to a control, the decrease in
+
+
+
+FRET efficiency seen following promoting phosphorylation of
+
+
+
+N17 cannot be compared with the decrease measured when the
+sensor has an expanded polyglutamine tract.
+
+
+IKK is a critical regulator of neuroinflammation which has
+been implicated in the pathogenesis of HD (36). IKK inhibitors
+form a class of compounds in development for disease therapy
+(37). In terms of potential therapy for HD, the inhibition of IKK
+may have two complementary effects; promoting the phosphorylation of N17 and reducing mutant huntingtin induced neuroinflammation. The challenges for the future will be to develop
+compounds that increase or stabilize the phosphorylation of N17
+and can effectively cross the blood–brain barrier.
+
+The biology of PACSIN1 overlaps heavily with known pathways affected in Huntington disease, namely the recycling of
+NMDA receptors (19) and the formation of neuronal spines
+(21). PACSIN1 is known to directly interact with human huntingtin within the polyproline region (18), and we have additionally shown that PACSIN1 interacts with the N17 domain.
+
+
+This suggests that PACSIN1 may stabilize or modulate the
+conformation of the amino terminus of huntingtin. Both N17 and
+PACSIN1 are substrates for CK2 (12, 17). Therefore, the effect
+of the CK2 inhibitors on the conformation of the exon1 sensor
+may not only be due to posttranslational modification of N17 but
+also to that of PACSIN1. As a corollary, both the N17 and polyproline regions of huntingtin exon1 are also known to interact
+with actin, either directly with N17 (38) or indirectly through the
+actin-binding protein, profilin, with the polyproline domain (39).
+This may indicate the consequence of proper huntingtin conformation and conformational switching on the regulation of actin
+dynamics during stress (40). The role of PACSIN1 in the nucleus
+is not known, but the properties of Fes/CIP4 bin-amphiphysin-rvs
+domains (41) suggest that its role at nuclear puncta may be to
+either induce or recognize the structure of chromatin.

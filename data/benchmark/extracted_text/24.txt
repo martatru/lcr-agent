@@ -1,0 +1,469 @@
+--- RESULTS ---
+Human MRE11 interacts with PRMT1. We previously reported that MRE11 is methylated on nine arginines in human
+cells (5). Since our goal was to investigate the effect of arginine
+methylation on the biochemical properties of human MRE11,
+it was important to verify whether the GAR motif was methylated when human MRE11 was expressed in insect cells
+known to generate an active MRE11 nuclease (26). Indeed,
+MRE11 or MRN was methylated in insect cells (Fig. 1A).
+
+
+Methylation was abolished when insect cells expressing MRN
+or MRE11 were treated with methylation inhibitors MTA and
+ADOX (Fig. 1A, lanes 5 and 6, respectively). Since MRE11 is
+methylated in normal Sf9 insect cells, this result suggests that
+previous biochemical experiments with this protein were performed with methylated MRE11 (26).
+
+We next examined the ability of MRE11 or the MRN complex to associate with the major arginine methyltransferase,
+PRMT1. Insect cells were coinfected with c-Myc-tagged
+
+VOL. 28, 2008
+
+
+CONTROL OF MRE11 BY THE GAR DOMAIN
+3061
+PRMT1 and MRE11 or MRN baculoviruses. A complex between MRE11 and PRMT1 was observed (Fig. 1B, lanes 3 and
+9). Conversely, the immunoprecipitation of PRMT1 allowed
+the detection of an MRE11-PRMT1 complex (Fig. 1B, lanes 4
+and 10). The interaction was relatively strong, as washes containing up to 750 mM NaCl did not disrupt the interaction
+(data not shown). The addition of protein methyltransferase
+inhibitors MTA/ADOX to the culture medium abrogated
+the interaction between MRE11 and PRMT1 (Fig. 1°C).
+
+
+Control experiments revealed that the same amount of
+
+
+
+MRE11 protein was immunoprecipitated, but methylation
+was not detected with a specific MRE11-GAR-methylated
+antibody (anti-MeMRE11) (Fig. 1D, lanes 6 and 7). We also
+verified whether PRMT1 interacted with MRE11-RAD50-
+NBS1. When MRE11, RAD50, NBS1, and PRMT1 were overexpressed together, the interaction between MRE11 and
+PRMT1 was greatly reduced (Fig. 1B, lanes 6 and 13). Under
+these conditions, the MRN complex is formed, but no PRMT1
+is pulled down in NBS1 immunoprecipitates (Fig. 1E, lane 3).
+Taken together, these results suggest that arginine methylation
+of MRE11 occurs before its incorporation into the MRN
+complex.
+
+The enzymatic properties of MRE11 are regulated by arginine methylation. Since human MRE11 is methylated in insect
+cells, which suggests an evolutionary conservation, we checked
+whether the GAR motif was conserved in various organisms.
+
+
+Pileup analysis revealed that the GAR motif is conserved in
+
+
+
+Xenopus, chicken, mouse, rat, and monkey and possesses at
+least nine arginines within 60 amino acids (Fig. 2A). The first
+region of the GAR motif was better conserved than the second. Within the C terminus, the GAR motif is the most conserved MRE11 region for these organisms. Specific arginineglycine stretches were not found in budding and fission yeast
+protein sequences. We envisioned two roles for the GAR domain in the regulation of MRE11: (i) methyl-dependent protein-protein interactions on this domain could modulate
+MRE11 activity, and (ii) the GAR domain could directly control MRE11 biochemical activities.
+
+If MRE11 was regulated by methyl-dependent protein-protein interactions, the GAR domain must be accessible. We
+verified the accessibility of the GAR domain by immunoprecipitation of MRN with the methyl-specific anti-MeMRE11
+antibody (Fig. 2B). Anti-MeMRE11 could immunoprecipitate
+
+
+MRN at the same level as that of a polyclonal antibody raised
+3062
+DE ́RY ET AL.
+MOL. CELL. BIOL.
+
+against MRE11, suggesting that this region is accessible (Fig.
+2B, lanes 5 and 6). Control experiments revealed that anti-
+MeMRE11 did not immunoprecipitate MRN(R/A), suggesting
+that the antibody was specific for the GAR-methylated region
+(lane 3). Second, we expressed GAR-GFP-NLS in cells and
+verified whether it could bind RAD50 and NBS1 (Fig. 2°C).
+
+
+GAR-GFP-NLS was not associated with NBS1 or RAD50,
+whereas full-length MRE11 or MRE11(R/A) bound to NBS1
+or RAD50. These results suggested that the GAR domain is
+not implicated in the formation of the MRN complex and is
+available for interactions with other proteins. As stated above,
+these proteins might modulate MRE11 activities in vivo by
+protein-protein contact. This effect can be reproduced using
+antibody contact. Different antibodies targeting the MRE11
+protein were incubated with purified MRE11, and the exonuclease activity was assayed (Fig. 2D). As predicted, anti-
+
+
+MRE11 polyclonal antibodies had an inhibitory effect on
+MRE11 exonuclease activity. A 10-fold excess of antibody
+could effectively inhibit MRE11 exonuclease activity, probably
+due to a general coating of the MRE11 protein. On the other
+hand, polyclonal antibodies raised against the methylated region of the MRE11 GAR domain had an activating effect on
+exonuclease activity. As controls, two other monoclonal antibodies against MRE11 had no effect on MRE11 exonuclease
+activity (data not shown). Thus, our results show that proteinprotein interactions involving the GAR domain may modulate
+MRE11 activity during DNA repair.
+
+One of the key functions of MRE11 is its nuclease activity.
+Hence, we investigated whether arginine methylation can directly regulate MRE11 exonuclease and endonuclease activities. Thus, we separated the GAR motif into two regions and
+different mutants were generated (Fig. 3A) based on a sequence comparison (Fig. 2A). Mutations in all nine arginines
+were named “full” mutants, whereas mutants in region I (RI)
+comprised mutations in the first six arginines, and mutants in
+region II (RII) were mutated in the last three arginines. The
+
+first mutant group, designated R/A, represents mutants in
+which the arginines were changed to alanines, therefore allowing us to study the effects of absence of positive charges and
+methyl group on each residue. Members of the R/K group of
+mutants have arginines changed to lysines in order to conserve
+a long side chain with positive charges. Altogether, six different
+mutant proteins, along with WT MRE11, were purified to
+homogeneity (Fig. 3B). The methylation status of the different
+mutants was verified using antibodies that recognize methylated arginines in RI (anti-MeMRE11) or RII (anti-R587).
+
+
+Mutants in RI were not recognized by anti-MeMRE11,
+whereas mutants in RII were not detected by anti-R587.
+
+
+Therefore, all purified MRE11 mutants are region specific and
+mutations in one region do not affect the methylation of the
+other.
+
+
+We next investigated whether the exonuclease activity of
+MRE11 was affected in the mutants (Fig. 4A, B, and C).
+MRE11-WT displayed strong Mn2-dependent exonuclease
+activity at a concentration of 0.1 to 0.4 nM protein (which
+corresponds to an MRE11-to-DNA ratio of 1/1,000 to 1/250),
+whereas R/A-RI, R/K-RI, R/A-full, and R/K-full were impaired in DNA resection at these concentrations. At a 1-nM
+concentration of MRE11, the R/A-RI and R/A-full mutants
+displayed no activity, whereas the R/K-RI and R/K-full mutants showed weak activity. At an 8-nM protein concentration,
+
+
+DNA resection was reduced for WT MRE11, whereas strong
+exonuclease activity was observed for R/A-RI, R/K-RI, and
+R/A-full. The possibility of the presence of a contaminating
+protein was excluded, since MRE11 H217Y mutated in the
+phosphodiesterase motif shows no activity (data not shown).
+
+--- Our results could be explained by an increase of the local ---
+concentration of the MRE11 mutants at the extremity of DNA.
+To further confirm this hypothesis, we performed endonuclease assays (Fig. 4D). We expected to see a difference in endonuclease activity, since this reaction should not involve extensive movement of the protein on DNA. The endonuclease
+
+VOL. 28, 2008
+
+
+CONTROL OF MRE11 BY THE GAR DOMAIN
+3063
+activity of MRE11 was monitored on 3-tailed DNA substrates
+in which DNA can be cleaved at a dsDNA/ssDNA junction. As
+expected, WT MRE11 showed weak endonuclease activity.
+Surprisingly, the MRE11 mutants with the weakest exonuclease activity showed better endonuclease activity (Fig. 4D).
+Taken together, these results show that the GAR motif influences the balance between the exonuclease and the endonuclease activities of MRE11.
+
+How could this difference between exonuclease and endonuclease activities of the mutants be explained? We used DNA
+binding analysis of MRE11 mutants in order to get clues to
+solve this question. The WT and mutant proteins were all
+proficient in DNA binding, albeit at different levels (Fig. 5A).
+
+
+For instance, the most affected mutants in exonuclease assays
+(R/A-full and R/A-RI) were also the most compromised for
+DNA binding. The R/K-full mutant showed intermediate exonuclease activity and DNA binding. However, the R/A-full,
+R/A-RI, and R/K-full mutants were the most effective in endonuclease assays. It is conceivable that the DNA binding of
+these mutants might be similar in gel assays but different when
+observed by electron microscopy. We did not observe aggregation of the WT, R/K-full, or R/A-full mutants in the absence
+of DNA (data not shown). However, we observed increased
+aggregation of the R/A-full mutant on ssDNA (Fig. 5D) compared to the level for the WT or the R/K-full mutant (Fig. 5°C).
+
+
+Consistent with DNA binding assays, the number of bound
+DNA molecules by R/A-full and R/K-full was decreased compared to that for the WT protein. Collectively, these results
+suggest that the aggregation observed might be beneficial for
+endonuclease activity but deleterious for exonuclease activity.
+
+The MRE11 GAR motif is implicated in DNA binding. In
+light of these results, it was important to ask whether the GAR
+motif could be directly implicated in DNA binding in a methylation-dependent manner. To answer this question, we prepared MRE11 without the GAR region (MRE11-GAR) or
+with only the GAR region (amino acids 498 to 615) comprised
+between the two putative DNA binding domains identified in
+budding yeast MRE11 (38). The GAR region was expressed in
+Sf9 insect cells and in E. coli, to produce methylated (GAR-
+Sf9) or unmethylated (GAR-Bacto) GAR motifs, respectively
+(Fig. 6A and B). Western blotting with anti-MeMRE11 confirmed the absence of methylation in MRE11-GAR and a
+decrease of methylation in GAR-Bacto compared to GAR-Sf9
+(Fig. 6B). MRE11-GAR multimerized (see Fig. S1A in the
+supplemental material) and interacted with NBS1 (see Fig.
+S1B in the supplemental material), suggesting that it was
+folded properly. MRE11-GAR displayed a weak exonuclease
+activity compared to that of MRE11-WT, even if known nuclease and DNA binding domains are present (Fig. 6°C). Furthermore, the DNA binding activity of MRE11-GAR was
+reduced compared to that of WT MRE11. Also, GAR-Bacto
+was less efficient in binding DNA than was GAR-Sf9. Taken
+together, these results suggest that the regions encompassing
+the GAR motif and arginine methylation both contribute to
+MRE11 DNA binding (Fig. 6D).
+
+Role of the GAR domain in MRE11 recruitment to DSBs.
+
+
+Once DNA damage occurs, the MRN complex localizes to
+DSBs, forms nuclear foci, and remains at these sites until DNA
+damage is repaired (23). If methylation of MRE11 occurs prior
+to DNA repair, there may be a general DNA repair defect
+when methylation is inhibited. To test this possibility, we used
+a cell line where a unique DSB can be produced in vivo following transfection with I-SceI (29). Localization to a unique
+DSB was monitored in mock-treated (Fig. 7A) or methylationinhibitor-treated cells (Fig. 7B). At a 100-M concentration of
+
+
+ADOX, MRE11 and RAD51 DNA damage foci were reduced
+
+3064
+DE ́RY ET AL.
+MOL. CELL. BIOL.
+
+to 31% and 19% of the level of the control in the absence of
+arginine methylation (Fig. 7D). The reduction in MRE11 and
+
+
+RAD51 focus formation was not due to a general decrease in
+protein concentration but rather to a decrease in argininemethylated proteins, such as MRE11 (Fig. 7°C). These results
+suggest that arginine methylation is necessary to target MRE11
+to DSBs and activate homologous recombination.
+
+
+Based on these observations, we reasoned that perhaps the
+methylated GAR motif is necessary to target MRE11 to chromatin and nuclear foci following DNA damage. The GAR
+domain was fused to GFP or an NLS-containing version of
+GFP. Fluorescence microscopy revealed that GFP-GAR was
+localized throughout the cytoplasm and nucleus, whereas GFPGAR-NLS was found to be nuclear (Fig. 8A). Both forms were
+methylated on arginines (Fig. 8B). In order to gain insights into
+the binding of the GAR domain to nuclear structures, FRAP
+was performed. FRAP is a technique widely used in cell biology to observe the dynamics of biological systems, including
+the diffusion of nuclear components. In order to gather information on the dynamics of the movement of the GAR domain
+in vivo, FRAP analysis was performed on GAR-WT and
+GAR-RA fused to GFP-NLS in the absence of DNA damage.
+
+
+The average half time recovery distribution of the GAR-WT
+was 485.7 ms, while that for the GAR-RA mutant was 379.1 ms
+(P value of 0.0245). Since methylation of the GAR domain
+influences DNA binding and the localization to nuclear structures (6), this result suggests that the decreased mobility of
+GAR-WT compared to that of GAR-RA is due to the influence of arginine methylation on GAR binding to chromosomal
+DNA. Next, cells were transfected with GAR-WT and
+
+
+GAR-RA fused to GFP-NLS and laser-induced DSBs were
+created in a unique region of the nucleus. GAR-WT focus
+formation colocalized with -H2AX (Fig. 8D). Similarly,
+
+
+GAR-RA also formed a unique focus, albeit at a lower level
+(Fig. 8E). Live-cell microscopy established that after treatment
+with etoposide, nuclear foci formed by GAR-WT peaked 1 h
+30 min after treatment (Fig. 8E). GFP alone (data not shown)
+or an MRE11-GAR mutant did not form any specific foci
+after etoposide treatment (Fig. 8G). These results show that
+the GAR domain of MRE11 is essential for determining the
+localization of MRE11 following DNA damage.
+
+--- DISCUSSION ---
+
+
+
+In the present study, we characterized the effect of arginine
+methylation on MRE11 biochemical functions. To date,
+
+
+MRE11 and 53BP1 are the only two proteins involved in DNA
+damage signaling and repair that are methylated on arginines
+by PRMT1 (1, 4). Although PRMT1 methylates nine arginines
+in the GAR motif of MRE11, in vitro analyses revealed that
+only the first six of nine arginines are important for the regulation of exonuclease and endonuclease activities. The replacement of the arginines of RI by alanines had a drastic effect on
+MRE11 activities. These effects were partially restored when
+positively charged lysines were introduced. We infer that both
+arginines and the positive charges on arginines contribute to
+optimal MRE11 biochemical activities. These mutants also
+helped us to assess the effect of this region on DNA binding.
+Although DNA binding was reduced in R/A-RI and R/A-full
+mutants, an enhanced endonuclease activity was observed.
+Electron microscopy gave us some clues to explain this result;
+the MRE11-WT protein distribution along DNA was normal,
+
+VOL. 28, 2008
+
+
+CONTROL OF MRE11 BY THE GAR DOMAIN
+3065
+but R/A-RI and R/A-full mutants formed large aggregates on
+ssDNA molecules. These aggregates may facilitate catalytic
+activity and were observed also on blunt and 3-tailed DNA
+(data not shown). In order to get insights into the multimeric
+state of the MRE11 arginine mutants, the native molecular
+weight of the R/A full mutant was also compared to that of the
+WT protein by gel filtration analysis (see Fig. S1A in the
+supplemental material). As previously published, WT MRE11
+was dimeric in solution (18), but the R/A full mutant formed
+dimers and complexes containing a variable number of molecules. Hence, we conclude from these observations that protein-protein interactions between MRE11 molecules and the
+local concentration of MRE11 on DNA DSBs might affect the
+endonuclease or exonuclease activities used to process broken
+DNA.
+
+
+Although human MRE11 has been studied for many years,
+a complete structure-function analysis has not been performed. An analysis of budding yeast Mre11 protein revealed
+that residues 1 to 292 contained a phosphoesterase homology
+
+domain, residues 407 to 421 are required for DNA binding,
+and residues 643 to 692 at the C terminus of the protein
+contained a second DNA binding site (38). According to
+pfam04152, the presumed DNA binding domain of human
+MRE11 is between amino acids 250 and 461. Efforts to purify
+unmethylated MRE11, either from E. coli or Sf9 cells treated
+with methylation inhibitors, were unsuccessful due to the degradation of the protein in both systems. To overcome this
+problem and study the direct implication of the GAR motif in
+
+
+MRE11 DNA binding activity, we expressed and purified only
+the GAR region (amino acids 498 to 615), which lies outside
+the putative DNA binding domain of MRE11. Protein expression in insect cells produced a protein dimethylated asymmetrically, while expression in bacteria produced a soluble unmethylated protein. Interestingly, we observed that methylation of
+this region changed the elution profile on gel filtration analysis,
+suggesting a conformational change (see Fig. S1A in the supplemental material). Moreover, we showed that arginine methylation of the MRE11 GAR motif influences DNA binding
+
+3066
+DE ́RY ET AL.
+MOL. CELL. BIOL.
+
+directly. This result was consistent with the DNA binding patterns of our R/A and R/K MRE11 mutants, but without any
+amino acid substitutions. Similar analyses performed with the
+MRE11-GAR protein, lacking amino acids 498 to 615, corroborated these results. MRE11-GAR includes both putative
+
+
+DNA binding domains of MRE11 but displays a weak DNA
+binding
+activity
+in
+gel
+retardation
+assays.
+
+
+Furthermore,
+MRE11-GAR exonuclease activity is impaired compared to
+that of full-length MRE11. Our results demonstrate a direct
+implication of the MRE11 GAR motif in DNA binding that
+
+impacts indirectly on nuclease activity. We infer that the GAR
+region contains a new DNA binding domain for human
+MRE11.
+
+
+The function of the GAR region was also monitored using
+live-cell microscopy and FRAP analysis. First we observed that
+constructs expressing GFP-GAR with or without an NLS were
+methylated in vivo. This result is consistent with the observation that PRMT1 is ubiquitously expressed and localized
+within the cytoplasm and the nucleus (36). However, our data
+suggest that although colocalization of PRMT1 and MRE11
+occurs in promyelytic nuclear bodies (6), MRE11 methylation
+could also occur outside nuclear bodies. Since MRE11 (but not
+MRN) interacts with PRMT1, we propose that methylation by
+
+
+PRMT1 occurs before the incorporation of MRE11 into the
+MRN complex. When DSBs were introduced by laser or etoposide, the GFP-GAR-NLS, but not GFP-MRE11-GAR,
+formed distinct nuclear foci that colocalized with -H2AX.
+
+
+The remaining capability of GFP-GAR-RA to form foci is
+consistent with the fact that we still observed DNA binding for
+the unmethylated GAR-Bacto protein compared to methylated GAR-Sf9. Taken together, these results suggest that the
+
+
+GAR domain is essential to control the accumulation of
+
+
+
+MRE11 on DNA or chromatin, while arginine methylation on
+the domain may not be essential in the targeting. The increased
+diffusion rate of the GAR-RA construct suggests that arginine
+methylation may be required to retain the protein on chromatin in a more efficient manner. Chromatin binding could occur
+through direct binding to DNA or protein-protein interactions.
+
+
+For instance, proteins with a Tudor domain are well known to
+bind methylated arginine or lysine residues. We have shown
+that the GAR domain could be accessible for such interactions.
+
+
+Proteins binding the MRE11 GAR motif have been identified
+in our laboratory (J.-Y. Masson, unpublished observations).
+
+It was previously shown that point mutations in the forkhead-associated domain and deletion of amino acids 682 to 693
+on human NBS1, corresponding to the MRE11 binding domain, resulted in a failure to observe MRE11 focus formation
+following gamma irradiation (31). However, the deletion of
+amino acids 682 to 693 of human NBS1 resulted in an about
+threefold decrease in homologous recombination, although
+NBS1 foci were still formed. This result suggests that MRE11
+localization to DNA damage sites, rather than NBS1 localization, could be a key event for homologous recombination (31).
+
+
+Based on these observations and the data presented in this
+paper, we infer that there are at least two important ways to
+target MRE11 to DNA damage sites, one depending on the N
+and C termini of human NBS1 and the second depending on
+the GAR domain. The inactivation of one of these regions in
+NBS1 or MRE11 results in a decrease in MRE11 focus formation.
+
+
+We have found no evidence for DNA-damage-induced
+MRE11 methylation in the GAR region. However, our data
+suggest that this modification is necessary for a proper cellular
+response to DNA damage. Recently, histone H3 methylation
+on lysine 79 has been shown to be required for the recruitment
+of 53BP1 to sites of DNA damage (14). In this case also, the
+methylation of lysine 79 was not increased in response to DNA
+damage. Although these observations suggest constitutive arginine methylation on MRE11 and 53BP1, this process might
+be more dynamic and transient than anticipated. A new alterVOL. 28, 2008
+
+
+CONTROL OF MRE11 BY THE GAR DOMAIN
+3067
+native pathway for the removal of a methyl group from arginines has been reported. Deimination by peptidylarginine deiminase 4 converts unmodified and monomethylated arginine
+to citrulline at the tails of histones H3 and H4. Citrulline
+deposition on histones appears to be short lived (10). Although
+a specific enzyme responsible for dimethylarginine demethylation has yet to be discovered, a similar level of control could be
+foreseeable in the future.
+
+We previously reported that cells containing hypomethylated MRE11 displayed intra-S-phase DNA damage checkpoint
+defects (6). When WT and PRMT1 / embryonic stem cells
+were exposed to etoposide, PRMT1 / cells progressed more
+slowly through the S phase. We wanted to extend this study
+
+and verify whether DNA repair was impaired under these
+conditions. If MRE11 functions are dependent on methylation,
+the formation of RAD51 foci should be reduced in these cells.
+
+
+In order to study DNA repair at the resolution of a single
+lesion, we used the DR95 cell line (29). We observed that
+pretreatment of the cells with ADOX decreased the singlefocus formation of MRE11 and RAD51. Our interpretation is
+that MRE11 arginine methylation is an initial step in preparing
+MRE11 and the MRN complex for DSB repair. Hence, the
+inhibition of arginine methylation decreases RAD51 focus formation, because homologous recombination is dependent on
+the resection of the DSB by MRN and its recruitment to the
+break is impaired under these conditions. These results con-
+
+3068
+DE ́RY ET AL.
+MOL. CELL. BIOL.
+
+firm that arginine methylation on MRE11 is important for
+DNA repair.
+
+
+Genetic instability associated with defective DNA repair and
+checkpoint signaling is a key feature of cancer cells. Ataxiatelangiectasia-like disease, cause by mutations in MRE11, was
+identified in four patients presenting the clinical features of
+ataxia telangiectasia, including progressive cerebellar degeneration, increased levels of chromosome aberrations, and increased sensitivity to ionizing radiation at the cellular and
+chromosomal levels (34). Very interestingly, one in-frame stop
+codon found in two patients with ataxia-telangiectasia-like disorder resulted in the truncation of MRE11 to 571 amino acids
+(28). This mutation occurs directly in the GAR motif, changing
+arginine 572 to a stop codon having for consequence nonsensemediated mRNA decay. In addition, in a screening of 159
+primary tumors, a G-to-A transition, changing arginine 572 to
+glutamine in lymphoma, was found (12). These results may
+highlight the importance of the MRE11 GAR motif in disease
+progression and cancer formation.

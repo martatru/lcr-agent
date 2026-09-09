@@ -1,0 +1,376 @@
+--- Results ---
+Conditions promoting liquid–liquid phase separation of the
+
+
+TDP-43 LCD
+To systematically investigate the role of LLPS in pathological
+aggregation of the TDP-43 LCD, we began by characterizing its
+phase separation behavior under experimental conditions to be
+tested in this study. We utilized turbidity measurements (optical density at 600 nm) as a primary tool to delineate the liquid–
+liquid phase boundary of the TDP-43 LCD. Because both
+TDP-43 aggregation (12) and LLPS (35, 36) can result in observable turbidity, sole formation of liquid droplets was confirmed
+by optical microscopy. Similar to other reports (35, 36) that
+used buffer with pH around 6, we found that under these conditions the presence of salt induced LLPS for our protein.
+
+
+Significant droplet formation was observed by using Alexa
+Fluor 488–labeled protein at 150 mM NaCl, with a considerable increase in turbidity at higher salt concentrations (Fig. 1, A
+and B).
+
+
+Peculiarly, previous studies on the LLPS of the TDP-43 LCD
+focused almost exclusively on experimentation around pH
+6–6.5 (35, 36). To explore in greater detail the effect of environmental conditions on the phase behavior of the protein, we
+performed additional experiments under different buffer conditions. We found that the propensity of the TDP-43 LCD to
+undergo LLPS is strongly pH-dependent, requiring higher salt
+concentrations as pH is decreased (Fig. 1B). Importantly, at
+neutral pH, a small degree of LLPS was observed even in the
+absence of salt (Fig. 1A). Under all conditions, we consistently
+observed the promotion of LLPS by the presence of salt, with
+the threshold NaCl concentration for droplet formation
+increasing with a decreasing pH (Fig. 1B). Similarly, lower protein concentrations required higher salt concentrations to
+observe an increased turbidity (Fig. 1°C).
+
+Consistent with previous observations (35), we also found
+that temperature elevation to 37°C at pH 6 resulted in no
+detectable turbidity of protein solution in the presence of up to
+200 mM NaCl (Fig. 1D). This raised questions whether physiologically relevant conditions are indeed conducive to LLPS of
+TDP-43. To address this conundrum, we sought to emulate the
+crowded intracellular environment through the addition of the
+volume-excluding polymer PEG (42). We found that the addition of PEG at typical concentrations used to mimic cellular
+crowding (43) resulted in LLPS at lower salt concentrations
+(25–50 mM) or even in the absence of salt at pH 6, conditions
+that are not conducive to LLPS when PEG is not present (Fig.
+1E). Thus, crowding effects and charge screening appear to
+work in concert to facilitate LLPS.
+
+
+With the observations that neutral pH, salt, and crowding
+agent all facilitate LLPS, we tested whether LLPS readily occurs
+under physiologically relevant conditions (pH 7.3, 150 mM
+NaCl, 37°C, 10% PEG). Under these conditions, we observed a
+small but significant change in turbidity between 2 and 5 M
+
+protein concentrations (and becoming much larger at higher
+concentrations) (Fig. 1F). Furthermore, spherical droplets were
+identifiable by microscopy, even though at the lowest protein
+concentrations these species were relatively small, with a diameter below 1 m (Fig. 1G). Further confirming the physiological
+relevance of LLPS, we also found that droplets could be
+detected using low protein concentrations at pH 7.3, in the
+presence of 150 mM KCl, with or without 1 mM DTT (to mimic
+the environment of the nucleoplasm or cytoplasm, respectively) (Fig. 1, H and I). Overall, these results demonstrate that
+physiologically relevant conditions are potentially conducive to
+
+
+TDP-43 LCD LLPS, providing a rationale for exploring the role
+of LLPS in pathological aggregation of the protein.
+
+
+Salt promotes rapid self-association of TDP-43 LCD into
+oligomers
+
+--- The above results demonstrated that LLPS of the TDP-43 ---
+
+
+
+LCD can be readily manipulated by experimental conditions
+and provided a foundation to explore biophysical and structural
+properties of the protein in relation to LLPS. Previous solution
+NMR studies (35, 36) of the LCD have revealed a partially -helical region between residues 320 and 340, which is proposed
+to mediate self-association of the protein into dimers, or possibly even larger multimers, as well as contribute to LLPS. However, the use of solution NMR to study protein liquid–liquid
+phase separation is not without limitations, as larger species
+may be undetectable (36). Here, we used a complementary tool
+for structural study, site-directed spin labeling (SDSL) coupled
+with electron paramagnetic resonance (EPR) spectroscopy. The
+advantage of this approach is that EPR spectra are highly sensitive to local motions of a paramagnetic spin label attached to
+individual side chains, providing site-specific information
+about dynamics of all protein states within a sample (i.e. monomers, small multimers, and large aggregates), both in bulk solution and the phase-separated state. To facilitate these studies,
+we developed a library of spin-labeled variants of the TDP-43
+LCD. Our library emphasized residues within the previously
+identified -helical region (13, 30, 35) as these residues were the
+most likely candidates to be involved in potential conformational changes and intermolecular interfaces. All spin-labeled
+variants described in our study were confirmed to not significantly alter the LLPS propensity of the LCD (Fig. S1). Because
+
+
+LLPS is strongly modulated by intermolecular interactions
+between the helices of LCD molecules (35), this suggests that
+the Cys variants used largely retained helical assembly capability; however, this was not directly ascertained.
+
+In the absence of salt, EPR spectra of all variants tested (both
+at pH 6 and 4) depicted three relatively sharp lines, as illustrated
+in Fig. 2A for protein labeled at either position 280 or 333.
+
+
+Spectra of this type are characteristic of a highly dynamic
+(mobile) nitroxide label with a rotational correlation time on
+the order of 109 s (44). However, the amplitudes of spin-normalized spectra for labels at different positions show some variability, suggesting site-specific differences in mobility. Therefore, for more quantitative insight into residue mobility
+throughout the protein, we calculated for each spectrum the
+inverse of the width of the central line (H0
+
+1), a frequently
+used EPR mobility parameter (45). Even though H0
+
+1 values
+
+for all residues tested are in a range that is characteristic of high
+mobility (46), the motion appears somewhat more restricted
+(smaller H0
+
+1) for residues within the 323–337 region as
+compared with residues outside this region (Fig. 2B). This is
+consistent with NMR data detecting partial -helical structure at pH 6 within this region (13, 30, 35, 36). Furthermore, the present EPR data, together with the similarity of
+CD spectra at pH 6 and 4 (Fig. S2A), suggest that the propensity for these residues to form an -helix is preserved
+under acidic conditions.
+
+Upon the addition of salt at pH 6 to induce LLPS, we immediately observed major changes in EPR spectra for some spin-
+
+1) for residues probed by
+SDSL at pH 4 and 6, both in the absence of NaCl. C, spin-normalized EPR spectra for TDP-43 LCD labeled at residue 327 at 0 (black) and 150 mM NaCl (blue).
+Protein concentration, 20 M. D, scaling of spectra shown in C to the same intensity of the central line clearly reveals the appearance in the presence of 150 mM
+NaClofasecond,broadcomponentwithintensity, I2,thatisdistinctfromthefirst,sharpcomponentwithintensity,I1.Inset,thesecondcomponentcanbeeven
+bettervisualizedviaspectralsubtractionofthefirstcomponent.E,intensityratios(I2/I1)ofthebroad-to-sharpcomponents(asdefinedinD)forresiduesprobed
+by SDSL in the absence (gray) and presence of 150 mM NaCl (blue) at pH 6 (left; LLPS was observed in the presence of salt) and pH 4 (right; no LLPS under either
+condition). F, size distribution of TDP-43 LCD at pH 4 with and without 150 mM NaCl. Protein concentrations, 100 M at 25°C.
+
+labeled variants of TDP-43 LCD (all measurements were performed within 10 min of sample preparation). As exemplified in
+Fig. 2, C and D, for the protein labeled at residue 327, these
+changes were characterized by diminished intensity of the spectral amplitude in spin-normalized spectra (Fig. 2°C) and the
+appearance of a second, broad spectral component that was
+most readily identifiable upon spectral scaling to the same
+amplitude of the central line (Fig. 2D) or after subtraction of the
+sharp component (Fig. 2D, inset). The appearance of the latter
+component clearly indicates the presence of a second population of protein molecules, in which the specific amino acid residue is more greatly immobilized, with rotational motions in
+the 108–107-s timescale (44). The relative prevalence of this
+immobilized population can be assessed by calculating the ratio
+of peak intensities, I2/I1, for the broad and sharp spectral components as shown in Fig. 2D. Using this parameter, a residuespecific profile was developed for pH 6, 150 mM NaCl LLPS
+conditions and compared with that for the conditions with no
+LLPS (pH 6, 0 mM NaCl) (Fig. 2E). This profile indicates that the
+appearance of an immobilized component observed under
+LLPS conditions is largely limited to residues within the previously identified -helical region, with some residues having a
+greater second component contribution than others (the nonzero intensity ratios in the absence of salt (Fig. 2E, gray bars) are
+due to a small contribution in this part of the spectrum from the
+mobile component).
+
+
+In principle, the broad component observed in EPR spectra
+at pH 6 in the presence of salt (i.e. LLPS conditions) could
+potentially reflect folding of TDP-43 LCD monomers in such a
+way that specific residues become immobilized due to strong
+tertiary interactions. However, given previous NMR data (36),
+this scenario is unlikely. Other possibilities are that this immobilization results from rapid oligomerization of the protein,
+with the immobilized residues being involved in intermolecular
+interfaces, or that transient intermolecular interactions under
+
+
+LLPS conditions differentially alter the mobility of specific
+residues.
+
+
+To further explore the latter two possibilities and test
+whether the presence of a residue-specific immobilized component at pH 6 in the presence of 150 mM NaCl is exclusively
+related to LLPS, we took advantage of the observation that the
+addition of moderate concentrations of salt (150 mM NaCl) at
+pH 4 results in oligomerization of the protein without inducing
+LLPS. As shown in Fig. 2F, this oligomerization reaction was
+clearly demonstrated by dynamic light scattering measurements (which could not be performed upon droplet formation
+at pH 6 due to severe light scattering). At pH 4 in the absence of
+NaCl, the TDP-43 LCD exists as a single species with a hydrodynamic radius (rH) of 2.1 nm and a predicted molecular mass
+of 16.8–18.6 kDa, strongly indicative of a monomeric nature.
+However, the addition of salt resulted in a clear bimodal distribution, with the smaller species likely corresponding to relatively small multimers, (rH  2.7  0.7 nm; predicted average
+molecular mass of 38.5  22.8 kDa) and the larger species corresponding to much larger oligomers (rH  13.8  3.5 nm).
+This larger species was estimated to represent 64% of the total
+protein mass but was unlikely to be related to liquid droplet
+formation as no turbidity was observed and no droplet-like species were detected by microscopy at these conditions (Fig. 1, A
+and B).
+
+
+Importantly, the addition of 150 mM NaCl at pH 4 resulted in
+the appearance in EPR spectra of the second, immobilized component exclusively for residues within the 325–335 region,
+with the peak intensity ratio profile qualitatively similar to that
+described above for LLPS conditions at pH 6 (Fig. 2E). In light of
+similar spectral changes being observed under both LLPS and
+non-LLPS (oligomer-forming) conditions, we reasoned that
+these findings would more likely reflect oligomer-specific interactions rather than more transient intermolecular interactions
+solely inherent to LLPS. However, due to large light scattering
+on liquid droplets, direct detection of oligomers under LLPS
+conditions was not possible. To ascertain whether oligomerization might also involve changes in secondary structure, CD
+spectra at pH 4 were recorded and found to be very similar in
+the presence and absence of salt (Fig. S2B). This further indicated that salt-induced changes in EPR spectra are largely (if
+not solely) due to protein self-association. Collectively, these
+data indicate that (i) salt induces rapid oligomerization of
+TDP-43 LCD in the absence of LLPS, with similar oligomerization possibly also occurring under the conditions of LLPS, and
+(ii) oligomerization interfaces appear to be limited to residues
+within the -helical region.
+
+TDP-43 fibrillation in the absence of liquid–liquid phase
+separation
+
+Previous studies report that the TDP-43 LCD or its fragments can form amyloid fibrils (13, 25, 26, 28, 29). However, the
+mechanistic aspects of this reaction remain poorly understood.
+Limited studies addressing this issue using a longer C-terminal
+fragment construct were performed in a buffer containing 2.5 M
+urea, making interpretation of these data difficult (47). Even
+more important, no information is available regarding the relationship between fibril formation and LLPS of the TDP-43
+LCD.
+
+
+To build a foundation for understanding the role of LLPS in
+
+
+
+TDP-43 LCD amyloid formation, we first studied fibrillation
+kinetics in the absence of LLPS. We found that incubation of
+the LCD at pH 6 in the absence of salt resulted in formation of
+fibrillar aggregates. Atomic force microscopy (AFM) imaging
+depicted these as nonclumped, well-dispersed fibers of 5–10
+nm in height (Fig. 3A). These aggregates exhibited a strong
+Thioflavin-T (ThT) fluorescence, suggesting a cross- structure consistent with fiber diffraction reports (48) and allowing
+the monitoring of the kinetics of fibril formation via ThT fluorescence assay (Fig. 3B). These traces indicated classical fibrillation kinetics, with identifiable initial lag phase (corresponding
+to nucleus formation) followed by the fibril growth (elongation)
+phase (49). Consistent with observations for other amyloidogenic proteins (50, 51), the lag time duration was related to the
+concentration of protein, with higher concentrations promoting more rapid fibrillation (Fig. 3°C).
+
+
+Because salt appears to be critical to inducing initial rapid
+oligomerization of the TDP-43 LCD in the absence of LLPS (see
+Fig. 2), next we investigated the impact of increasing ionic
+strength (higher salt concentration) on fibrillation of the protein. We performed these studies at pH 4 because a broader
+range of salt concentrations could be tested without inducing
+LLPS. In the absence of salt, no ThT fluorescence could be
+
+Figure4.FormationofTDP-43amyloidfibrilswithinliquiddroplets.A,representativefluorescencemicroscopyimagesforFRAPexperimentsonindividual
+droplets (left) and beaded droplets (right) prepared from 50 M LCD and 100 nM Alexa Fluor 488–labeled LCD in pH 7 buffer with 300 mM NaCl. Scale bar, 5 m.
+B, fluorescence recovery traces after photobleaching for experiments illustrated in A. Each trace represents an average of at least three droplets, and error bars
+represent standard deviation. C, atomic force microscopy images of TDP-43 LCD droplets deposited and dried on mica at various time points during incubation
+at 25°C under LLPS conditions in a buffer containing 300 mM NaCl at pH 4 (upper images) or pH 6 (lower images). Protein concentration, 20 M. White scale bars
+correspond to 400 nm. D, representative atomic force microscopy images of fibrils after prolonged (6-day) incubation of TDP-43 LCD under LLPS conditions at
+pH 4, 6, or 7 in the presence of 300 mM NaCl. Scale bars, 400 nm.
+
+detected during the timescale of the experiment (up to 30 h). In
+contrast, we observed enhanced ThT fluorescence over time
+with diminishing lag times at increasing salt concentrations
+(Fig. 3D). Thus, the addition of salt under non-LLPS conditions
+appears to promote not only rapid formation of initial small
+oligomers but also the assembly of the TDP-43 LCD into amyloid fibrils.
+
+
+TDP-43 fibrillation under phase separation conditions
+Next, we turned our investigation to characterizing in greater
+detail the aggregation/fibrillation behavior of the protein under
+LLPS conditions. In addition to individual droplets, we
+observed relatively rapid formation (within 15–30 min) of
+beaded structures that appeared to result from partial fusion
+events and were deposited on the bottom of the microscope
+slide. This is exemplified in Fig. 4A for droplets formed at pH 7
+and was also observed for LLPS at pH 4 and 6. Material properties of both droplet types were characterized by fluorescence
+recovery after photobleaching (FRAP), revealing a time-dependent decrease in maximal fluorescence recovery and rate of
+recovery (Fig. 4B). These results suggest a progression toward a
+gel-like, potentially aggregated state for both individual and
+beaded droplets.
+
+
+To more closely examine the nature of aggregates formed
+within droplets, we employed AFM imaging. Freshly prepared
+droplets deposited and dried on a mica surface appeared as
+
+large spherical enclosures containing smaller particles, most
+likely representing patches of dried protein. AFM images of
+droplets deposited after different periods of aging show timedependent morphological changes. Importantly, after several
+hours of incubation, these images clearly demonstrate fibrils
+emanating directly from the droplets (Fig. 4°C). After longer
+incubation, there is a gradual progression to mostly (if not
+exclusively) fibrillar structures with varying degrees of clumping, which appears to be particularly severe at neutral pH (Fig.
+4D). Thus, these data demonstrate that the formation of amyloid fibrils can occur within liquid droplets.
+
+
+Next, we sought to explore the kinetics of TDP-43 LCD
+aggregation under LLPS conditions and to relate this to aggregation under non-LLPS conditions. ThT fluorescence traces at
+pH 6 revealed rapid polymerization under robust LLPS (200–
+300 mM NaCl) conditions, with lag phases markedly shorter
+compared with those observed in the absence of LLPS (Fig. 5A).
+The growth phases under LLPS conditions were rather complex, involving an initial rapid increase in fluorescence followed
+by a secondary, slower rate of increase toward steady state.
+These rapid phases, which were completed within 3–3.5 h,
+corresponded to 35–50% of maximal fluorescence intensity
+increase. By contrast, the reaction in the absence of LLPS (no
+NaCl) required 10 h to reach the same ThT fluorescence
+response, further indicating a strong accelerating effect of LLPS
+
+on amyloid formation. It should be noted that Thioflavin-T is a
+rotor dye, and its fluorescence properties can change as a function of solvent viscosity (52). Because LLPS occurs almost
+instantaneously with detectable turbidity, whereas fluorescence response indicative of aggregation occurs after a substantial lag phase (at least 1–2 h), the present ThT data largely
+reflect the formation of amyloids as opposed to changes in viscosity related to LLPS. This is further confirmed by coincident
+AFM imaging depicting robust fibril growth.
+
+Because salt accelerates fibrillation in the absence of LLPS at
+pH 4, we anticipated that salt would further accelerate aggregation under LLPS conditions. Although the fastest aggregation
+occurred under LLPS conditions (300 mM NaCl), to our surprise, the most significant changes in lag phase still occurred at
+relatively low salt concentrations. The magnitude of these
+changes strongly diminished at higher salt concentrations (that
+still do not result in LLPS), and this apparent “saturation” persisted into the two-phase regime (300 mM NaCl) (Fig. 5B). A
+similar trend was observed for lag phases at pH 6 (Fig. 5°C). In
+this case, however, even lower salt concentrations were sufficient to promote rapid fibrillation. We reasoned that this effect
+of salt on fibrillation kinetics may be related to pH-dependent
+changes in charge repulsion among TDP-43 LCD molecules
+(53). At pH 4, 6, and 7, the predicted net charge of our protein
+is 13.2, 9.6, and 6.4, respectively (calculated from
+
+protcalc.sourceforge.net).4 At higher pH, protein–protein
+interactions would be enhanced by a decreased net charge
+repulsion, thereby enabling faster aggregation and a diminished
+responsivity to salt (54). Indeed, at pH 7, salt appeared to have
+minimal effect on lag phase (Fig. 5D). We subsequently
+explored the relationship between lag phase and LLPS (as
+assessed by initial sample turbidity) and found that, regardless
+of salt concentration or pH, all reactions under LLPS conditions
+were characterized by a very short lag phase of 1–2 h (Fig. 5E).
+
+--- Overall, these results demonstrate that electrostatic effects ---
+regulate both LLPS and fibrillation kinetics and that conditions
+fostering robust LLPS coincide with those facilitating faster
+amyloidogenesis. To parse out the exact role of LLPS on
+TDP-43 LCD fibrillation while controlling for the effect of salt,
+we utilized additional LLPS regulators. First, we employed 5%
+1,6-hexanediol, a hydrophobic reagent known to inhibit formation of liquid droplets (36). Turbidity measurements performed
+at pH 6 in the presence of 200 mM NaCl clearly indicate that this
+reagent indeed almost completely abrogates LLPS under these
+conditions (Fig. 6A). Importantly, the lag phase of the fibrillation reaction in the presence of 5% 1,6-hexanediol was markedly increased (Fig. 6B), indicating that the conditions of LLPS
+per se promote faster fibrillation of the TDP-43 LCD. As
+expected, no change in lag time was observed under control
+non-LLPS conditions (pH 4, 200 mM NaCl).
+
+
+As opposed to using 1,6-hexanediol to disrupt LLPS, in a
+second experiment, we took advantage of the temperature sensitivity of TDP-43 LCD LLPS at pH 6. Consistent with data in
+Fig. 1, elevation of temperature to 37°C at pH 6 in the presence
+of 200 mM NaCl resulted in essentially complete inhibition of
+the LLPS that is observed under identical buffer conditions at
+25°C (Fig. 6°C). Again, this abrogation of LLPS coincided with a
+substantial increase in the duration of the lag phase of fibrillation reaction at pH 6 (Fig. 6D). In contrast, the lag phase under
+control non-LLPS conditions (pH 4, 200 mM NaCl) was actually
+slightly shorter at 37°C as compared with that at 25°C, an
+expected outcome for nonphase-separating amyloidogenic
+proteins (55). Altogether, these data consistently point to a
+
+4 Please note that the JBC is not responsible for the long-term archiving and
+maintenance of this site or any other third party hosted site.
+
+direct role of LLPS as a mechanism for promoting TDP-43 LCD
+polymerization into amyloid fibrils.
+
+--- Discussion ---
+
+
+
+A recent series of exciting studies has demonstrated that a
+number of aggregation-prone proteins involved in neurodegenerative diseases can undergo LLPS (56–58). For some (e.g.
+FUS and hnRNPA1), the droplet environment is quite conducive to amyloid formation (39–41). Among these LLPS-prone
+proteins, TDP-43 is of particular interest because its aggregation is associated with a host of neurodegenerative disorders,
+including ALS, frontotemporal dementia, chronic traumatic
+encephalopathy, and Alzheimer’s disease (1, 3–5, 7). In the
+absence of LLPS, the TDP-43 LCD has recently been demonstrated to form amyloid fibrils (13); however, the mechanism of
+this process is poorly understood. An even more critical knowledge gap involves the connection between LLPS and the aggregation pathway of TDP-43. Insight into this relationship is of
+potentially crucial importance, as LLPS may play a regulatory
+role in the pathogenesis of neurodegenerative disorders. In the
+present study, we have expanded the current understanding of
+the conditions and interactions that regulate LLPS of the

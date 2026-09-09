@@ -1,0 +1,939 @@
+--- Results
+Hydrogel
+and
+fibril
+formation
+of ---
+mC-hnRNPA2-LCD.
+
+
+Purified recombinant mC-hnRNPA2-LCD was concentrated to
+~60 mg ml−1 and incubated at 4°C to test its ability to form a
+hydrogel. Determination of whether the sample exists in a liquid
+or gel phase is assayed by the mobility of a bubble through the
+sample. We inverted a 1.5 ml silicon tube containing freshly
+purified mCherry-tagged (purple color) hnRNPA2-LCD (termed
+mC-hnRNPA2-LCD), and then introduced a bubble at the lower
+surface. The bubble rose to the top of the tube, indicating a
+homogenous solution rather than a gel (Fig. 1a, left). Within a
+week, the protein solution converted into a gel, indicated by the
+retention of bubbles at the lower surface (Fig. 1a, right). Negativestain transmission electron microscopy (TEM) of the diluted
+hydrogel showed a network of uniform amyloid-like fibrils with
+an average width of 20 nm (Fig. 1b). The X-ray diffraction pattern
+is consistent with cross-β architecture: two reflections at 4.7 and
+10 Å corresponding to the inter-strand and inter-sheet spacing,
+respectively17, of amyloid fibrils (Fig. 1c).
+
+Reversibility of mC-hnRNPA2-LCD hydrogel. To test whether
+the hnRNPA2-LCD hydrogel is reversible, we performed a
+reversibility assay on purified mC-hnRNPA2-LCD incubated at
+4°C for either 2 days or 2 weeks. After heating the 2-day hydrogel
+to 45°C, the bubbles introduced stayed at the bottom of the
+sample, indicating maintenance of a hydrogel state (Supplementary Fig. 1a, left). TEM images showed networks of uniform,
+twisted, and unbranched amyloid-like fibrils similar to those
+observed before heating (Supplementary Fig. 1b, left). However,
+after heating to 55°C, introduced bubbles slowly rose and stalled
+in the middle of the hydrogel (Supplementary Fig. 1a, middle).
+
+
+TEM of these samples showed fragmented fibrils and partial
+disruption of fibril networks (Supplementary Fig. 1b, middle).
+After heating to 65°C and above, the hydrogel transitioned to a
+homogenous protein solution where bubbles introduced quickly
+rose to the top of the silicon tube (Supplementary Fig. 1a, right),
+indicating the 2-day hydrogel is reversible. TEM revealed that
+over 80% of the fibrils are dissolved, leaving behind amorphous
+aggregates (Supplementary Fig. 1b, right). For the 2-week
+hydrogel, bubbles introduced remained immobile up to 75°C
+heating (Supplementary Fig. 1c) and TEM images (Supplementary Fig. 1d) revealed a fibril morphology similar to the 2-day
+hydrogel. Hence, the 2-week hydrogel appears less reversible than
+the 2-day hydrogel. Moreover, the 2-week fibrils at 65°C were
+more bundled than the remnant of 2-day hydrogel fibrils at 65°C.
+We infer that the young hnRNPA2 fibrils are mostly reversible,
+but aging makes the fibrils irreversible, possibly by the evolution
+of fibril bundling. We also purified and concentrated the mCherry
+tag alone as a negative control, and we found that fibril networks
+and the amorphous aggregates were not the result of mCherry
+itself (Supplementary Fig. 2).
+
+CryoEM structure of the mC-hnRNPA2-LCD fibrils. To answer
+the question of why the mC-hnRNPA2-LCD hydrogel exhibits
+reversibility, we determined the cryoEM structure of mC-
+hnRNPA2-LCD fibrils to a resolution of 3.1 Å (Fig. 2c). During
+cryoEM data collection and processing, we found that the mC-
+hnRNPA2-LCD fibrils have only a single morphology, which
+consists of one asymmetric protofilament with a pitch of 600 Å, a
+left-handed helical twist of −2.88° and a helical rise of 4.81 Å
+(Fig. 2b and Supplementary Fig. 3). Contrary to the globular
+proteins which form 3D structures, the mC-hnRNPA2-LCD
+structure is confined to 2D layers which stack on top of each
+other, forming a twisted in-register β-sheet that runs along the
+fibril axis. Out of 161 residues in the LCD, 57 residues from
+Gly263 to Tyr319 form a fibril core (Fig. 2a). The mC-hnRNPA2-
+LCD fibril encompasses a PY-nuclear localization signal (PYNLS) and the core hexamer segment containing the site for a
+disease-causing mutation that was identified by Kim et al. in
+20132 (Fig. 2d). Previous studies have shown that mutations in
+the PY-NLS can lead to ALS18. An aromatic triad composed of
+two Tyr (Y275 and Y283) residues and one Phe (F309) residue is
+buried in the center of the fibril, stabilizing the structure through
+π–π interactions (Supplementary Fig. 4). Data collection and
+refinement statistics are summarized in Table 1.
+
+Energy analysis explains hnRNPA2-LCD fibrils’ reversibility.
+To quantify the structural features that led to the reversibility of
+hnRNPA2-LCD fibrils, we calculated the solvation energy for our
+mC-hnRNPA2-LCD fibril structure (details in “Methods” section). We obtained the solvation energy per layer of the fibril and
+an averaged solvation energy per residue. We illustrated these
+energies in a solvation energy map where each residue is colored
+according to its energy. The solvation energy for mC-hnRNPA2-
+LCD fibril core (−19.5 kcal mol−1 per chain and −0.34 kcal mol−1
+
+a
+b
+
+500 nm
+4.7 Å
+10.0 Å
+
+a
+
+1
+9
+92 100
+179 181
+263
+286
+291
+319
+341
+
+
+RRM1
+RRM2
+Disordered region
+Ordered region
+Disordered
+
+b
+c
+N-term: G263°C-term: Y319
+
+Pitch = 600 Å
+
+d
+
+
+G274
+N-term: G263
+
+90°
+
+S312°C-term: Y319
+
+
+N314
+
+c
+Low-complexity domain(LCD)
+
+
+N277
+
+D290
+
+Y288
+
+P303
+S306
+per residue) is comparable to another well-known reversible
+protein fibril, FUS (−12.2 kcal mol−1 per chain and −0.20 kcal
+mol−1 per residue) (Fig. 3a, b). In contrast the solvation energy of
+pathogenic irreversible amyloid structures such as human serum
+
+HnRNPA2-LCD (EMD-21871)
+(PDB: 6WQK)
+
+
+Data collection and processing
+Magnification
+×130,000
+Voltage (kV)
+300
+Electron exposure (e– Å−2)
+34.5
+Defocus range (μm)
+0.8–5.1
+Pixel size (Å)
+1.064
+
+
+Symmetry imposed
+C1; Helical
+Initial particle images (no.)
+529,821
+Final particle images (no.)
+132,571
+Map resolution (Å)
+
+
+3.1
+FSC threshold
+0.143
+Map resolution range (Å)
+200–3.1
+
+
+Refinement
+Initial model used
+De Novo
+Model resolution (Å)
+
+
+3.2
+FSC threshold
+0.5
+Model resolution range (Å)
+200–3.2
+Map sharpening B factor (Å2)
+−120
+
+
+Model composition
+Non-hydrogen atoms
+2070
+Protein residues
+285
+B factors (Å2)
+
+
+Protein
+55.3
+R.m.s. deviations
+Bond lengths (Å)
+0.006
+Bond angles (°)
+
+
+0.89
+Validation
+MolProbity score
+
+
+
+1.70
+Clashscore
+5.59
+Poor rotamers (%)
+
+
+0.00
+Ramachandran plot
+Favored (%)
+94
+Allowed (%)
+6
+Disallowed (%)
+0.00
+
+FUS-LC fibril core (5w3n)
+Serum amyloid A, human (6mst)
+b
+a
+
+hnRNPA2_LCD (6WQK)
+
+
+To N-term
+
+To N-term
+To C-term
+
+To C-term
+10 Å
+
+10 Å
+
+Stabilization energy /residue
+
+Stabilization energy /residue
+
+–2.5
++2.5
+
+kcal/mol
+
+amyloid A19 (−34.4 kcal mol−1 per chain and −0.64 kcal mol−1
+per residue) has a more negative value per chain and residue
+(Fig. 3c), indicating that compared to the pathogenic amyloid
+fibrils, mC-hnRNPA2-LCD fibrils form less stable structures.
+Solvation energies of other proteins are compared in Table 2.
+
+The disease-causing mutant core segment. Muscle biopsies have
+found atrophic hnRNPA2 fibrils in patients diagnosed with
+inclusion body myositis (IBM)2. A missense point mutation that
+converts a conserved aspartic acid to a valine (D290V) in
+hnRNPA2-LCD was identified in 2013 as being associated with
+ALS and MSP2. To investigate the structural differences between
+the wildtype and the mutant, we crystallized the hexamer segment
+286GNYNVF291 (Supplementary Fig. 5) containing the diseasecausing mutation and determined its structure by X-ray crystallography (Fig. 4a and Statistics in Table 3). As expected, the
+crystal structure of the mutant segment forms a steric zipper
+motif and the sidechains of the two β-sheets mate tightly with
+each other in a dry interface. The area buried (Ab) and shape
+complementarity (Sc) for the mutant segment are 104 Å2 per
+chain and 0.86, respectively. The mutant segment structure forms
+in-register, parallel β-sheets. To compare this mutant segment
+crystal structure with our cryoEM wildtype mC-hnRNPA2-LCD
+structure, we overlaid the two structures (Fig. 4b). The backbones
+of the wildtype structure and the mutant segment fit well with
+each other, whereas the sidechain of Asp290 in the wildtype
+structure clashes with Asn289 of the mating sheet of mutant steric
+zipper, disrupting the steric zipper formation. On the other hand,
+forming the steric zipper in the mutant structure causes Asn287
+and Tyr288 sidechains to adopt different conformations, which
+create steric clashes with nearby Asn282 and Met304 residues in
+the wildtype fibril structure. Moreover, Phe291 from the mating
+sheet of the steric zipper clashes with the backbone of Gly281 in
+the wildtype fibril structure. Based on this structural analysis, we
+speculate that the D290V mutation converts the reversible
+hnRNPA2 fibrils to irreversible fibrils. When the conserved
+Asp290 residue is mutated to a Val, the mutation enables a more
+stable steric zipper interaction that was previously prevented by
+the Asp290 sidechain. Meanwhile, the formation of a steric zipper
+causes multiple steric clashes and disrupts the wildtype fibril
+structure, shifting the aggregation of hnRNPA2 from reversible to
+irreversible.
+
+c
+
+
+To C-term
+
+To C-term
+10 Å
+
+Stabilization energy /residue
+
+–2.5
++2.5
+
+–2.5
++2.5
+
+kcal/mol
+
+kcal/mol
+
+
+Ordered residues
+Method
+Resolution (Å)
+Energy/chain (kcal mol−1)
+Energy/residue (kcal mol−1)
+
+
+57
+CryoEM
+3.1
+−19.5
+−0.34
+
+hnRNPA2-LCD
+(functional)
+
+FUS-LCD (functional)
+61
+ssNMR
+2.7
+−12.2
+−0.20
+
+
+Serum amyloid A
+Human (pathogenic)
+
+
+54
+CryoEM
+2.7
+−34.4
+−0.64
+
+
+73
+CryoEM
+3.4
+−28.9
+−0.40
+
+
+Tau PHFs AD
+patient (pathogenic)
+
+Aβ42 (pathogenic)
+
+
+42
+CryoEM
+4.0
+−24.8
+−0.59
+
+a
+b
+
+c
+d
+
+
+G6F
+
+G6F
+
+WT
+
+D290V
+
+
+
+To compare the effects on aggregate formation of the wildtype
+core segment GNYNDF and the mutant segment GNYNVF, both
+were shaken for 4 days and the samples were checked using
+negative stain TEM (details in “Methods” section). The mutant
+segment, as we expected, precipitated after shaking (Fig. 4c, left),
+and TEM images showed that the precipitates were composed of
+micro-crystals (Fig. 4d, left). The wildtype segment forms a
+hydrogel (Fig. 4c, right), which to our knowledge is the shortest
+segment that forms a hydrogel, and TEM images indicated that the
+gel was composed of thin fibrils (Fig. 4d, right). The results suggest
+that the mutant segment with the pathogenic mutation forms a
+
+N289(mating)
+
+F291(mating)
+
+N282(WT)
+
+D290(WT)
+
+Y288(WT)
+
+N287(WT)
+
+M304(WT)
+
+200 nm
+200 nm
+
+more stable structure than the WT segment, and converts a gelpromoting segment into an aggregation-promoting segment.
+
+--- Discussion ---
+mC-hnRNPA2 LCD fibrils reveal distinctly different structural
+and energetic properties from pathogenic amyloid (Table 4). Our
+
+
+TEM and X-ray diffraction data show that mC-hnRNPA2-LCD
+forms fibril networks with cross-β structures (Fig. 1). Unlike
+pathogenic amyloid fibrils, which are usually not crosslinked and
+are stable at high temperatures15,16,20, mC-hnRNPA2-LCD fibrils
+form 3-dimensional networks and are sensitive to even mild heat
+
+(Supplementary Fig. 1). Heated mC-hnRNPA2-LCD, instead of
+remaining as a fibril network, is broken into oligomer-like
+material, and does not reform a hydrogel upon cooling. We
+hypothesize that in this in vitro experiment, the environment
+lacks biological factors such as chaperones to achieve reversibility.
+Nevertheless, the smaller stabilization solvation energy compared
+to pathogenic amyloid indicates the reversibility of hnRNPA2
+LCD fibrils (Fig. 3). Amyloid-like fibrils have also been reported
+for other granule-associated, LCD-containing proteins, such as
+FUS1,21 and hnRNPA113, those being heat-sensitive and SDSsensitive, and being capable of forming a reversible hydrogel.
+
+
+Our cryoEM structure of mC-hnRNPA2-LCD fibrils reveals
+local structural motifs that distinguish reversible from pathogenic
+amyloid: mC-hnRNPA2-LCD fibrils contain multiple weakly
+binding LARKS motifs22 and only a single short steric zipper
+motif23. LARKS are low-complexity amyloid-like, reversible
+kinked segments which enable amyloid-like assembly with
+reduced stability compared to steric zippers22. Steric zippers are
+pairs of β-sheets in which the sidechains of one β-sheet interdigitate with those of the opposing sheet to form a tight, dry
+interface23,24. Unlike steric zippers, the β-sheets formed by
+LARKS are often kinked either at a Gly or aromatic residues22,
+limiting the size of interacting surfaces. Consequently, LARKS are
+
+GNYNVF PDB: 6WPQ
+
+
+Data collection
+Space group
+P21
+Cell dimensions
+a, b, c (Å)
+4.78, 19.00, 20.74
+α, β, γ (°)
+90.00, 95.71, 90.00
+Resolution (Å)
+1.1
+Rmerge (%)
+11.6 (21.8)
+I /σI
+10.4 (5.7)
+Completeness (%)
+86.5 (41.7)
+
+
+Redundancy
+5.6 (3.5)
+
+
+Refinement
+Resolution (Å)
+20.64–1.10
+No. of reflections
+1196
+Rwork/Rfree (%)
+7.5/10.7
+No. of atoms
+
+
+Protein
+51
+Water
+3
+B-factors (Å2)
+
+
+Protein
+
+
+
+4.8
+Water
+7.4
+R.m.s. deviations
+Bond lengths (Å)
+0.014
+Bond angles (°)
+1.804
+
+
+Functional amyloid-like fibrils
+Pathogenic amyloid fibrils
+
+
+
+Variety
+Monomorphic
+Tend to be polymorphic
+Stability
+
+
+
+Tend to be labile and reversible
+
+
+
+Tend to be stable and irreversible
+ΔG° of stabilization
+~ −0.2 kcal mol-of-residue−1
+~ −0.4 kcal mol-of-residue−1
+
+Protein chains stack into β-sheets by
+backbone H-bonds
+
+
+Yes
+Yes
+
+Sheets pair
+Yes, by LARKS
+Yes, by steric zippers
+
+
+
+Residues that drive sheet pairing
+Often Asn, Gln, Tyr, Phe, Ser, Gly, Pro in lowcomplexity domains
+
+
+Varied, but frequently alternating polar and apolar
+especially Val, Ile, Val
+
+
+Fiber diffraction pattern
+Cross-β
+Cross-β
+
+
+Morphology
+Crosslinked networks of fibrils
+
+
+
+Non-crosslinked deposits of fibrils
+less stabilizing than steric zippers. Within the mC-hnRNPA2-
+LCD fibril core there are eight predicted LARKS (Hughes et al., in
+preparation), seven grouped together (Supplementary Fig. 6a and
+Fig. 2d), each corresponding to a kink in the protein backbone.
+The structure contains only four short β-sheets, reducing the
+possibility of steric zippers (Fig. 2d). The multiple LARKS motifs
+introduce kinks into the backbone of the structure, disrupting
+stabilizing β-sheets into segments shorter than the six residues of
+most steric zippers, thus contributing to the reversibility of the
+hnRNPA2-LCD fibrils. Pathogenic amyloid typically houses a high
+content of β-sheets capable of forming steric zippers, for example
+Tau PHFs25 (78%) and Aβ4226 (74%) in contrast to reversible
+amyloid-like fibrils hnRNPA2 (23%) and FUS14 (26%). We note
+the location of the short β-sheets in hnRNPA2-LCD are consistent
+with the secondary structure prediction of Murray et al.27
+(Fig. 2d). We regard LARKS and steric zippers as the structural
+basis of “stickers“28,29 in reversible, amyloid-like fibrils and
+pathogenic amyloid fibrils, enabling inter-protein and intraprotein interactions.
+
+
+A further feature that distinguishes reversible amyloid-like
+fibrils from irreversible, pathogenic fibrils is the enrichment of
+polar residues in the fibril core. As shown in the mC-hnRNPA2-
+LCD residue polarity map, almost 50% of the residues are
+hydrophilic and only 12% are hydrophobic (Supplementary
+Fig. 6b), and the core contains a high content of Gly (35%), Asn
+(18%), and Tyr (16%) compared to tau PHFs25 (Gly:12%,
+Asn:4%, Tyr:1.4%) and Aβ4226 (Gly:14%, Asn:2%, Tyr:2%).
+Furthermore, hnRNPA2-LCD lacks any instance of the hydrophobic residues Val, Ala, Ile, and Leu. In contrast, tau PHFs25 and
+Aβ4226 contain 24% and 36%, respectively, of these residue types
+(Table 5). The high content of Gly contributes to hnRNPA2-LCD
+flexibility. 3D environment profiling30 also suggests a higher
+percentage of residues exposed to solvent (35%) and a lower
+content of nonpolar residues (4%) compared to tau PHFs25 (12%
+and 13%) and Aβ4226 (14% and 18%) (Table 6). These differences
+are also manifested in solvation energy maps (Fig. 3). Our results
+indicate that hnRNPA2-LCD adopts a cross-β fibril assembly that
+morphologically resembles pathogenic amyloid. However, quantitative examination shows that reversible amyloid-like fibrils
+differ from pathogenic amyloid by having a smaller solvation
+stabilization energy and a greater enrichment of LARKS and
+polar residues. These features facilitate hydrogen-bonding with
+water molecules and contribute to LCD flexibility and capacity for
+assembly and disassembly in stress granules.
+
+
+HnRNPA2 and FUS14, both proteins that function in stress
+granules, form fibrils which share four structural features. First,
+both are mainly stabilized by hydrogen-bonding and polar
+interactions rather than hydrophobic effects. Both hnRNPA2-
+LCD and FUS-LCD fibril cores are enriched in Tyr residues that
+stabilize structures by π-stacking interactions14,24,31. Similar to
+hnRNPA2-LCD, the FUS-LCD fibril core has ample polar
+
+residues (Table 5, columns 2 and 3), and FUS-LCD has a high
+content of glutamine residues that are either exposed to solvent or
+form stabilizing hydrogen-bonded ladders along the fibril axis.
+
+
+The abundance of residues with hydroxyl groups in both
+hnRNPA2 and FUS (Table 5, column 3) allows post-translational
+modifications, such as phosphorylation32, to modulate the stability of the fibrils, affecting stress granule assembly. Compared to
+hnRNPA2-LCD, the FUS-LCD has a relatively high content of Ser
+and Thr residues, allowing additional stabilization of the core
+structure through sidechain hydrogen bonding.
+
+Second, solvation energy calculations suggest that the stability
+of the mC-hnRNPA2-LCD fibril structure is nearly as poor as
+FUS-LCD. Because the LCDs in hnRNPA2 and FUS are reversible
+fibrils associated with stress granules, we expect both to have
+lower stability than pathogenic amyloid fibrils. And this is confirmed by our solvation energy calculation (Fig. 3b and Table 2).
+The relatively small solvation stabilization energy explains why
+hnRNPA2 and FUS are sensitive to mild heat and denaturing
+condition such as 2% SDS16.
+
+Third, hnRNPA2 and FUS fibrils exhibit only a single morphology. In contrast, a majority of the studied structures of
+pathogenic irreversible amyloid have shown polymorphism,
+whether the fibrils were produced ex vivo or in vitro. For
+example, so far, cryoEM and ssNMR studies have identified nine
+morphologies for different isoforms of pathogenic protein
+tau25,33, three morphologies for TDP-4315, and six morphologies
+for Aβ4226,34–38. Moreover, multiple fibril polymorphs have been
+structurally determined under a single set of conditions from the
+same EM grid15,39. Unlike the polymorphism seen in the
+pathogenic irreversible fibril structures, our cryoEM structure of
+mC-hnRNPA2-LCD fibril shows only a single morphology under
+the condition tested. This lack of polymorphism is also seen in the
+FUS-LCD structure that was determined by ssNMR14. As suggested previously, monomorphic structure is essential for proper
+biological functions of proteins14. Similar to globular proteins,
+reversible amyloid-like fibrils have apparently been honed by
+evolution to adopt a single structure to support a given function.
+
+
+Reversible fibrils such as hnRNPA2 can undergo folding and
+unfolding to find a kinetically accessible global free energy
+minimum, leading to an optimal structure of lowest accessible
+free energy. The hnRNPA2-LCD is conserved among distantly
+related organisms (Supplementary Fig. 7), further evidence of its
+
+Gly (%)
+Asn+
+Gln (%)
+
+Tyr+Ser+
+Thr (%)
+
+Val+Ala+
+Ile+Leu (%)
+
+
+HnRNPA2-LCD
+(functional)
+
+35.1
+22.8
+22.8
+
+
+0.0
+
+FUS-LCD
+(functional)
+
+19.7
+18.0
+59.1
+
+
+0.0
+
+Tau PHFs
+(pathogenic)
+
+12.3
+8.2
+15.1
+24.4
+
+Aβ42
+(pathogenic)
+
+14.3
+4.8
+7.2
+
+
+35.7
+
+Protein
+Exposed to solvent (%)
+Partially buried with high fractional environmental polarity (%)
+Nonpolar buried (%)
+
+hnRNPA2-LCD
+35
+32
+
+
+4
+Tau PHFs
+12
+30
+13
+Aβ42
+14
+24
+18
+
+functional role. Fourth, both FUS-LCD and mC-hnRNPA2-LCD
+fibrils are composed of a single protofilament rather than two or
+more, as is the case with more than 70% of pathological fibrils
+structurally determined.
+
+
+Enrichment in LARKS motifs also diminishes the tendency for
+polymorphism. Interactions between two LARKS motifs are more
+specific than steric zippers since complementarity between kinked
+surfaces requires a particular sequence, whereas complementarity
+between two canonical flat β-sheets can be achieved by more
+sequences. Furthermore, a kinked sheet of a given sequence has
+few plausible ways to fit with a partner kinked sheet, whereas two
+flat β-sheets have a range of plausible registrations with respect to
+each other to achieve different low-energy structures. The polymorphism seen in pathogenic irreversible fibrils represents different structures that are trapped in multiple local free energy
+minimum. The hnRNPA2 being reversible and functional in vivo
+implies that it should also follow the Anfinsen’s dogma40 that the
+native full-length hnRNPA2 fibrils in vivo should have the same
+structure as the recombinant protein structure we report here.
+
+Our cryoEM hnRNPA2-LCD structure is consistent with previous biochemical and NMR studies. Xiang et al. in 20156
+reported that the hnRNPA2-LCD adopts a similar structure in
+hydrogels and in liquid droplets as evidenced by conservation of
+
+
+NAI footprints which probed 23 residues of hnRNPA2-LCD from
+Ser219 to Ser335. They found the N-terminal portion was
+unprotected from NAI labeling, but the C-terminal portion
+encompassing N282–Y324 was protected. This protected region
+overlaps
+well
+with
+our
+ordered
+core
+spanning
+residues
+G263–Y319. The identity of the only unprotected probe residue
+in this range, Lys305, agrees with our cryoEM structure showing
+that the sidechain of Lys305 points toward the solvent. There is
+also agreement between the partial protection of residues Asn282,
+Tyr288, and Ser312 and our observation that all three are partially
+buried in the fibril core. Similar consistency is found between the
+strong protection of Ser285, Ser306, and Ty319 and our observation that these residues are completely buried (Fig. 2c). The
+structural consistency among different structural studies of
+hnRNPA2-LCD, specifically our cryoEM, Murray et al.’s NMR27,
+and Xiang et al.’s NAI footprinting6, suggests two important
+points: (1) the fibril core structure of hnRNPA2-LCD is identical
+or closely similar among three studies, (2) the interactions of
+residue sidechains we report are closely similar as Xiang et al.’s
+observations in both hydrogel and liquid droplets.
+
+We offer a speculative hypothesis of how a single-point missense mutation can alter the fibril structure. This hypothesis is
+consistent with the data we have. As indicated by its greater
+stabilization energy, the mutant segment GNYNVF is more prone
+to form crystals than the wild type segment GNYNDF (Fig. 4). In
+addition, we calculated the stabilization energy of the mutant
+segment and all hexamer segments that constitute the wild type
+hnRNPA2 LCD fibril, FUS LCD fibril, and pathogenic amyloids.
+
+
+Unsurprisingly, the mutant segment is an outlier in terms of
+having greater energetic stability than any hexameric segment in
+either hnRNPA2 or FUS (Supplementary Fig. 8a). This energetic
+analysis supports our hypothesis that when this mutation forms,
+the mutant segment can drive the assembly of a more stable fibril.
+
+
+If the wild type segment GNYNDF of full-length hnRNPA2
+assembles as it does in the peptide crystal structure, the remaining
+
+residues would necessarily adopt a different conformation than
+the wild type fibril in order to avoid steric clash with the hexapeptide assembly. Our cryoEM images offer evidence that the
+mC-hnRNPA2-D290V-LCD fibrils are more heterogeneous and
+thicker than the wild type mC-hnRNPA2-LCD fibrils (Supplementary Fig. 8b, c). This supports our hypothesis that the D290V
+mutation drives the mutant segment GNYNVF to adopt a homozipper conformation and drives the fibril assembly into a different
+structure with two protofilaments.
+
+Previous studies by Guo et al.41 showed that over half of the
+
+
+LCD-containing RNPs such as FUS, TAF15, hnRNPA1, and
+hnRNPA2 possess a PY-NLS. They found that the import
+receptor karyopherin-β2 (Kapβ2) binds the PYNLS signal of these
+RNPs and then, once bound, acts as chaperones that dissolve preformed fibrils. The PYNLS of hnRNPA2 (residues 296–319),
+containing two epitopes: a hydrophobic/basic residue stretch
+(reside 196–312) and a consensus sequence R/K/H-X(2–5)-PY
+(residue 313–316), is located right after a central steric zipper
+motif (segment 286GNYNDF291) that drives hnRNPA2 fibriliza-
+tion2. Our structure of hnRNPA2 provides insight into how this
+interaction of Kapβ2 with hnRNPA2 functions to prevent fibrilization from occurring.
+
+The hnRNPA2 fibril core is essentially a highly kinked, branched β-arch. The potential fibril-driving steric zipper motif
+(286–291) forms the only extended (unkinked) β-strand in the
+fibril structure and contributes to the upper half of the β-arch
+(Fig. 2d). The lower half of the β-arch is part of the PYNLS signal
+(residues 296–319). The PYNLS signal forms a hydrophobic
+pocket between P298 and N300 that buries the terminal aromatic
+residue of the steric zipper F291 in the fibril core, yielding a
+significant amount of the stabilization energy (Fig. 3a). We infer
+that if Kapβ2 binds to the PYNLS signal, the bottom half of the β-
+arch is unavailable to make the hydrophobic environment
+necessary to sequester F291 to stabilize the central steric zipper
+and form fibrils. In addition, we propose that owing to the labile
+nature of the hnRNPA2 fibrils, monomers may more easily dissociate from the fibril and be sequestered by Kapβ2. This is
+supported by the relatively weak stabilization energy of hnRNPA2
+fibrils compared to irreversible amyloid as the energy barrier
+between monomers associated with the fibril end or freely floating
+is much lower. The mechanism of action that our structure
+suggests is that hnRNPA2 fibrils cannot form when associated
+with the Kapβ2 via the PYNLS41 because the PYNLS is required
+to support the steric zipper motif that drives fibril formation2.
+
+
+Our cryoEM mC-hnRNPA2-LCD structure is consistent with
+and presents more evidence to support Guo et al.’s41 discovery
+that the PYNLS is included in the structure yet not completely
+buried in the middle of the fibril core (Fig. 2c, d), which could
+allow chaperones such as Kapβ242 to engage and melt the
+hnRNPA2-LCD hydrogel.
+
+
+Does the mCherry-tag affect the structure of mC-hnRNPA2-
+LCD fibrils? We actively sought to characterize the hnRNPA2
+LCD fibril structure without the mCherry tag; however, we found
+that hnRNPA2 LCD alone is highly insoluble and tends to
+aggregate. We thus included the mCherry tag in our experiments.
+mCherry is visible during cryoEM processing. As shown by EM
+images, the width of the mC-hnRNPA2-LCD fibril (~20 nm)
+(Supplementary Fig. 9a) is significantly larger than that of our
+hnRNPA2-LCD fibril core model (2.6–6.7 nm) (Supplementary
+Fig. 9d, e). During cryoEM data processing, we found globular
+densities surrounding the fibrils in low-resolution 2D classifications (Supplementary Fig. 9b), and these globular densities were
+averaged into a fuzzy coat in high-resolution 2D classifications
+and 3D reconstruction (Supplementary Figs. 3c and 9d). The
+width of the fibril including the globular densities or fuzzy coat in
+2D classification is about 22 nm which matches the width of the
+
+fibrils measured in EM micrographs. The average diameter of
+each globular density is about 2.9 nm and is compatible with the
+diameter of the crystal structure of mCherry protein43 (2.8 nm,
+PDB 2H5Q), which suggests these globular densities correspond
+to mCherry (Supplementary Fig. 9c), as shown by the in-scale
+fitting of our model of mC-hnRNPA2-LCD fibril and the crystal
+structure of mCherry to the averaged 2D class image (Supplementary Fig. 9c). There are three reasons that we consider
+innocuous the effect of such a large tag on the core structure.
+First, there are 86 amino acids between the mCherry-tag and the
+start of the fibril core (N-terminal G263), including a four-residue
+linker and the beginning segment of the LCD. We think that an
+86-residue-long flexible peptide allows enough freedom to
+accommodate the mCherry tags without distorting the fibril core
+structure. When the fluorescent tag is sufficiently separated from
+the fibril core, the tag can freely fold around the fibril core as a
+“fuzzy coat”, so that fibrillization and core packing are not dis-
+turbed44. Second, the biological, full-length hnRNPA2 contains
+two globular N-terminal RRMs totaling 193 residues. Although
+the mCherry-tag is a little larger than the RRMs, it is possible that
+the mCherry tag provides a mimic of the natural RRM domains
+in the full-length fibril. Protein–RNA interactions are important
+for assembling RNP granules in that RNA molecules act as
+scaffolds
+for
+multivalent
+
+
+RNA-binding
+proteins45
+such
+as
+hnRNPA2. These globular densities of mCherry suggest a
+potential arrangement of the RRMs as they wrap around the
+hnRNPA2-LCD fibril in vivo. With enough sequence length
+between the RRMs and the fibril core-forming region, the RRMs
+could interact with RNA molecules to facilitate the RNP granule
+assemblies46. Third, the mCherry tag “fuzzy coat” is not visible in
+the cryoEM 3D classification (Supplementary Fig. 9d), suggesting
+there are no disruptive interactions between the large mCherry
+tag and the hnRNPA2 LCD fibril core. Thus, the mCherry tag
+may suggest a model for fibril function.
+
+
+Our studies indicate that hnRNPA2 fibrils together with other
+
+
+
+RNPs such as FUS share intrinsic structural and energetic
+properties that distinguish them from pathogenic amyloid in two
+major ways: (1) more LARKS motifs and fewer steric zippers, (2)
+enrichment of polar residues and scarcity in hydrophobic residues. These functional amyloid-like fibrils are likely the constituents of liquid condensates that contain proteins with LCDs.
+Experiments to detect the cross-β diffraction signal from fibrils of
+hnRNPA2 in solution are ongoing and made challenging due to
+background scattering arising from solvent and the β-sheet-rich
+mCherry tag (Supplementary Fig. 9). High protein concentration
+or mutations can drive such functional fibrils into more stable
+pathogenic amyloid fibrils. Cells need to maintain a delicate
+thermodynamic balance: biomolecules need to be concentrated
+enough to overcome the entropic loss associated with assembly
+into cellular condensates. Yet condensates can be easily converted
+by mutations, crossing a high kinetic barrier47 to form irreversible
+fibrils in MLOs that feed forward into disease states.

@@ -1,0 +1,1021 @@
+--- RESULTS
+
+Phase separation of hnRNPA1 is highly salt-sensitive ---
+
+
+
+To explore the physicochemical nature of the interactions
+that mediate LLPS of hnRNPA1, we generated a set of
+deletion constructs, including the full-length protein (hn-
+RNPA1) and the intrinsically disordered LCD (Figure 1A).
+Both constructs were missing a hexapeptide (residues 259–
+264) that was previously shown to act as a steric zipper and
+to result in fibrillization from within the dense phase (27).
+The resulting constructs (denoted with an asterisks) did
+not undergo fibrillization and were amenable to equilibrium
+biophysical characterization; this is particularly important
+when quantifying phase behavior. Full-length hnRNPA1*
+and the LCD* readily underwent phase separation (Figure
+1B). We have previously reported that the RRMs alone do
+not phase separate (26).
+
+
+To explore the interactions that mediate phase separation
+of hnRNPA1 further, we next determined the salt and temperature dependence of the equilibrium dilute phase concentration, csat, of full-length hnRNPA1*. From a condition in a high salt storage buffer, in which the protein is
+highly soluble, phase separation was induced by lowering
+the NaCl concentration via dilution, and the resulting dense
+phase was sedimented by centrifugation, resulting in a clear
+dense phase at the bottom of the tube. The concentration
+of the dilute phase was determined by UV absorbance measurements (Figure 1°C and Methods) as a function of temperature and NaCl concentration (Figure 1D) (30). The resulting coexistence curves at different NaCl concentrations
+are clearly distinct; csat increases with the solution NaCl
+concentration, demonstrating that phase separation of fulllength hnRNPA1* is highly salt-sensitive. The driving force
+for phase separation increases as salt concentration and
+temperature decrease. This was also the case for samples
+of hnRNPA1* tagged with the solubility tag His-SUMO
+(hSUMO). The temperature dependence implies enthalpically favorable interactions that mediate phase separation,
+and the salt sensitivity is often interpreted as implicating
+favorable electrostatic interactions as mediating phase separation.
+
+
+Folded domains modulate the solubility of the LCD of hn-
+
+
+
+RNPA1
+Given that the LCD of hnRNPA1 is sufficient for phase separation, and phase separation is strongly salt-sensitive as
+described above, we asked whether the salt-sensitivity is encoded in the LCD of hnRNPA1. The LCD* only contains
+10 positively charged and three negatively charged residues
+in 135 residues, i.e. a fraction of charged residues (FCR) of
+only 10% and with a predicted net positive charge (Figure
+2A, gray background). This composition is difficult to reconcile with the observation of enthalpically favorable electrostatic interactions mediating phase separation.
+
+This raised the question whether there may be saltsensitive interactions in or between other domains of hn-
+RNPA1*. The folded RRMs (Figure 2A, white background) have a higher fraction of charged residues than
+the LCD*. Displaying the charge distribution on the surface of the structure of the hnRNPA1 RRMs (Figure
+2B) revealed two distinct faces; one face is predominantly negatively charged (Figure 2B, red) and the other
+face is predominantly positively charged (blue); the latter
+binds the negatively charged RNA. (hnRNPA1* was expressed with a proteolytically cleavable hSUMO solubility
+tag, which also has a higher fraction of charged residues
+and a negatively charged surface (Figure 2B and below).)
+These observations lead us to hypothesize that the saltsensitivity of hnRNPA1* phase behavior may be the result of its folded domains or interactions between them and
+the LCD*.
+
+
+We thus determined the salt dependence of csat of the
+LCD*, which we found to be opposite to that of full-length
+hnRNPA1* (Figure 2°C, D). csat decreased with increasing
+
+
+NaCl concentration, indicating a stronger driving force for
+phase separation at higher salt concentrations. These observations are in agreement with the expectation from our previous work that phase separation of the LCD is driven by
+interactions among aromatic residues uniformly distributed
+along the sequence (17). The LCD of hnRNPA2 has also
+been reported to phase separate more strongly with increasing salt concentration (53). Hence, the addition of the folded
+RRMs reversed the salt dependence of LCD phase separation.
+
+
+To
+test
+whether
+this
+effect
+was
+specific
+to
+the
+folded
+RRMs,
+we
+took
+advantage
+of
+the
+hSUMO
+affinity/solubility tag that we used to express and purify hnRNPA1* constructs (Figure 2A). SUMO is a
+small ubiquitin-like modifier with positive and negative
+surfaces similar to the RRMs and net negative charge
+(Figure 2B). The salt-dependence of hSUMO–LCD*
+phase behavior was nearly identical to that of full-length
+hnRNPA1*, suggesting that the effect of either folded
+domain module, the RRMs or hSUMO, on the LCD* may
+stem from similar interactions or from the modulation of
+the LCD* solubility by the folded domains. Adding both
+folded domain modules to generate hSUMO–hnRNPA1*
+(i.e. including hSUMO and the RRMs) increased the
+solubility even more at the higher salt concentrations.
+In fact, hSUMO–hnRNPA1* lost the ability to undergo
+phase separation past 250 mM NaCl (Figure 2°C, D; tested
+at protein concentrations of up to ∼1200 M), suggesting
+an additive effect of the folded domains on solubility.
+
+
+Interestingly, at NaCl concentrations up to 175 mM
+NaCl, hSUMO–hnRNPA1* had a slightly stronger driving
+force for phase separation than hnRNPA1* or hSUMO–
+LCD* as indicated by the lower values of csat. These results
+suggest that electrostatic interactions between the folded
+domains and the LCD* contribute to phase separation at
+NaCl concentrations that do not screen these.
+
+
+Taken together, these data support the hypothesis that
+electrostatic interactions between folded domains and the
+
+
+LCD of hnRNPA1 contribute to phase separation at
+low ionic strengths, that they are disrupted at high ionic
+strength, and that folded domains solubilize the LCD at
+these higher ionic strengths. Folded domains with charged
+surfaces are indeed expected to have increased solubility
+with increasing NaCl concentrations until salting-out is favored at high ionic strength (54).
+
+
+A
+
+1
+320
+14
+97 105
+185
+259 264
+
+RRM 1
+RRM 2
+hnRNPA1*
+
+LCD*
+
+hSUMO-LCD*
+
+
+His-SUMO
+hSUMO-hnRNPA1*
+
+
+RRM 1
+
+His-SUMO
+RRM 2
+
+B
+LCD*
+300 mM NaCl
+hnRNPA1*
+50 mM NaCl
+
+
+C
+
+Induce LLPS
+by modifying [NaCl]
+
+
+D
+E
+hnRNPA1*
+hSUMO-hnRNPA1*
+
+30
+
+Temperature (oC)
+
+Temperature (oC)
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+100
+200
+300
+400
+
+[hnRNPA1*] (μM)
+
+The global dimensions of hnRNPA1* report on salt-sensitive
+intramolecular interactions
+
+We reasoned that the transition of hnRNPA1* from
+salt concentrations that enable enhanced phase separation to those that solubilize hnRNPA1* should be readily observable by measurements of single-chain dimensions. We expected that the increased solubility at increasing NaCl concentrations would be accompanied by expanding protein conformations. We carried out size exclusion chromatography-coupled SAXS (SEC-SAXS) measurements at a variety of NaCl concentrations (Supplementary Figures S1–S3). The SAXS data of full-length hn-
+RNPA1* showed little change between 50 and 400 mM
+NaCl (Figure 3), but hSUMO–hnRNPA1* showed a clear
+increase in its global dimensions (Figure 4).
+
+
+We turned to coarse-grained MD simulations with the
+
+
+
+MARTINI force field to obtain a molecular picture of
+
+LCD
+50 μM
+
+
+Filter, incubate at T,
+Sediment dense phase
+
+30
+
+25
+
+20
+
+15
+[NaCl]
+
+50 mM
+100 mM
+150 mM
+
+10
+
+5
+
+0
+100
+200
+300
+400
+[hSUMO-hnRNPA1*] (μM)
+
+the potential interdomain interactions that affect the compaction of hnRNPA1* and hSUMO–hnRNPA1*. Focusing first on hnRNPA1*, we initially performed simulations at 150 mM NaCl. Comparing the resulting conformational ensemble with the SAXS data, however, revealed
+it was somewhat too compact (Supplementary Figure S4).
+We have previously demonstrated that rescaling of proteinwater interactions may be used to alleviate this issue and
+results in conformational ensembles of RNA-binding proteins that agree well with experiment (49). We thus changed
+the protein-water interaction by tuning a parameter, , that
+increases the interaction between protein and water, and
+chose the value that resulted in the best fit between experimental and calculated SAXS data for both hnRNPA1*
+and hSUMO–hnRNPA1* (Supplementary Figure S4 and
+Methods). We find that an increase of 7% ( = 1.07) is sufficient to obtain a good fit to the data, and note that we
+
+A
+hnRNPA1* sequence
+
+-119 MGSSHHHHH HGSGLVPRGS ASMSDSEVNQ EAKPEVKPEV KPETHINLKV SDGSSEIFFK
+-60 IKKTTPLRRL MEAFAKRQGK EMDSLRFLYD GIRIQADQTP EDLDMEDNDI IEAHREQIGG
+ 1 
+MSKSESPKEP EQLRKLFIGG LSFETTDESL RSHFEQWGTL TDCVVMRDPN TKRSRGFGFV
+ 61 TYATVEEVDA AMNARPHKVD GRVVEPKRAV SREDSQRPGA HLTVKKIFVG GIKEDTEEHH
+ 121 LRDYFEQYGK IEVIEIMTDR GSGKKRGFAF VTFDDHDSVD KIVIQKYHTV NGHNCEVRKA
+ 181 LSKQEMASAS SSQRGRSGSG NFGGGRGGGF GGNDNFGRGG NFSGRGGFGG SRGGGGYGGS
+ 241 GDGYNGFGND GSNFGGGG NYNNQS SNFGPMKGGN FGGRSSGPYG GGGQYFAKPR
+ 301 NQGGYGGSSS SSSYGSGRRF
+
+ Δ hexa
+
+
+B
+
+C
+
+LCD
+
+His-SUMO
+
+RRM2
+RRM1
+
+N
+
+Number of R, K
+
+
+
+Number of D, E
+Fraction of charged residues
+
+C
+[NaCl] (mM)
+50
+300
+100
+200
+
+hnRNPA1*
+
+LCD*
+
+LCD*
+ 
+
+hSUMOhSUMO-
+hnRNPA1*
+
+
+D
+hSUMO-
+hnRNPA1*
+
+1500
+
+1000
+
+c sat ( M)
+
+500
+
+0
+
+0
+50
+100
+150
+200
+250
+300
+[NaCl] (mM)
+
+
+C
+
+LCD
+
+His-SUMO
+180 °
+
+
+RRM1
+RRM2
+
+N
+
+RRMs
+LCD*
+30
+10
+31
+3
+0.33
+0.096
+
+
+His-SUMO
+
+21
+16
+0.31
+
+25μm
+
+25μm
+
+hnRNPA1*
+
+hSUMOLCD*
+
+LCD*
+
+
+Stock
+Concentration
+(dilute)
+
+
+A
+B
+
+C
+previously obtained a very similar value ( = 1.06) on a different protein (49), suggesting that the magnitude might be
+general and transferable. We thus proceeded to use  = 1.07
+for coarse-grained simulations at the NaCl concentrations
+used for SAXS measurements.
+
+The simulations revealed a small salt-dependent expansion of hnRNPA1* and were generally in good agreement
+with the SAXS data between 50 and 400 mM NaCl and resulted in low values of  2 (Supplementary Figure S4°C), but
+the calculated SAXS curves showed small, non-random deviations from experiment (Figure 3A). The simulations at
+1000 mM NaCl agreed less well with the experiments, suggesting that the MARTINI model used does not capture
+
+the effect of such high salt concentrations well. We have
+previously demonstrated that reweighting against experiments is robust as long as the initial simulation is relatively
+good (49). We thus used a Bayesian/maximum entropy approach (52,55) to reweight the conformational ensembles
+of hnRNPA1* against the experimental SAXS data (Figure
+3A, B, Supplementary Figures S4 and S5), and to obtain an
+improved fit to the experimental SAXS data at all NaCl concentrations, thus generating ensembles that are in full accordance with the experiments. Because reweighting is most robust when the simulations are in reasonably good agreement
+before reweighting, we focused our analysis on the range between 50 and 400 mM NaCl. The ensemble Rg is ∼29 ̊A at
+
+simulations
+reweighted simulations
+
+experimental data
+error boundaries
+
+
+A
+B
+
+10
+0
+
+10
+0
+
+10
+-1
+I(q)/I0
+I(q)/I0
+
+I(q)/I0
+I(q)/I0
+I(q)/I0
+
+10
+-1
+
+10
+-2
+
+10
+-2
+
+50 mM
+
+300 mM
+
+10
+
+10
+
+ I / 
+
+ I / 
+
+0
+
+0
+
+-10
+
+-10
+
+10
+0
+
+10
+0
+
+10
+-1
+
+10
+-1
+
+10
+-2
+
+10
+-2
+
+100 mM
+
+400 mM
+
+10
+
+10
+
+ I / 
+
+ I / 
+
+0
+
+0
+
+-10
+
+-10
+
+10
+0
+
+10
+0
+
+10
+-1
+
+I(q)/I0
+
+10
+-1
+
+10
+-2
+
+10
+-2
+
+200 mM
+
+500 mM
+
+10
+-3
+
+10
+
+10
+
+ I / 
+
+ I / 
+
+0
+
+0
+
+10
+-2
+10
+-1
+-10
+
+-10
+
+10
+-2
+10
+-1
+q (Å-1)
+
+q (Å-1)
+
+
+C
+
+50 mM
+100 mM
+200 mM
+300 mM
+400 mM
+500 mM
+
+Probability
+
+0
+60
+40
+20
+0
+60
+40
+20
+0
+60
+40
+20
+0
+60
+40
+20
+0
+60
+40
+20
+0
+60
+40
+20
+
+LCD*-Folded Domain contacts
+
+50 mM NaCl, increases slightly with increasing NaCl concentration and reaches 31 ̊A at 400 mM NaCl. These observations are in agreement with a scenario in which weak,
+transient intramolecular electrostatic interactions compact
+hnRNPA1*; these interactions are screened at increasing
+ionic strength, which results in an expansion of hnRNPA1*
+and a maximal average expansion at NaCl concentrations
+above the physiological range. Notably, the salt sensitivity
+of the Rg occurs in the same concentration window as the
+strongest change of the saturation concentration.
+
+42
+
+simulations
+reweighted
+simulations
+
+40
+
+38
+
+Rg (Å)
+
+36
+
+34
+
+32
+
+30
+
+0
+200
+400
+600
+[NaCl] (mM)
+
+
+Inspecting
+the
+resulting
+conformational
+ensembles
+showed extensive RRM–LCD* interactions at low NaCl
+concentrations which were progressively disrupted at
+increasing concentrations (Figure 3°C). The simulations
+thus suggest that increasing salt concentrations shift the
+equilibrium between conformations in which the LCD*
+associates with the RRMs and conformations in which
+the LCD* is liberated from the RRMs. We note that a
+similar picture was obtained analyzing the ensembles prior
+to reweighting, demonstrating that the MARTINI force
+
+
+A
+B
+field itself captured the observed salt dependency of the
+interactions.
+
+We used the same simulation approach for hSUMO–
+hnRNPA1* and found a bigger increase of its dimensions with increasing NaCl concentration in agreement
+with the experimental SAXS data (Figure 4A). Again, we
+used reweighting against the SAXS data to improve agreement further (Figure 4A,B, Supplementary Figure S4) and
+analyzed the resulting ensembles for interactions between
+the LCD* and both the RRMs and hSUMO. As for hn-
+RNPA1*, we find extensive and salt-dependent interactions
+between LCD* and the RRMs, as well as interactions between LCD* and hSUMO (Figure 4°C).
+
+
+As an independent means of validating the expansion
+of hSUMO–hnRNPA1* we performed 2D analytical ultracentrifugation sedimentation velocity (AUC-SV) analysis.
+The results show that the shape factor, f/f0, also becomes
+larger with increasing NaCl concentration, which signifies
+an increase in extended shape and supports the idea that
+the LCD* is released from its interactions with the folded
+domains and increases the hydrodynamic drag of hSUMO–
+hnRNPA1* (Supplementary Figure S6).
+
+
+The SAXS data, AUC-SV analysis and simulation data
+all support the existence of electrostatic interactions of
+the LCD*s with the folded domains of hnRNPA1* and
+hSUMO–hnRNPA1*. To examine whether these changes
+are somehow driven by a salt-dependent expansion of the
+LCD*, we also determined SAXS profiles for LCD* samples (Figure 5). Normalized Kratky plots reveal a slight
+compaction of the LCD* with increasing NaCl (Figure 5A),
+in agreement with stronger aromatic-aromatic interactions,
+and with the fact that the solubility of the LCD* alone decreased with increasing NaCl concentration. We analyzed
+these SAXS profiles using an empirical molecular form factor, indeed showing a decrease of Rg and the scaling exponent νapp (Figure 5B). Thus, it appears that the saltdependent change in dimensions of hnRNPA1* and in particular hSUMO–hnRNPA1* are not driven by an intrinsic expansion of the LCD*, but rather happens over a concentration range where the LCD* compacts. These results
+point to a partial cancelation of the expected expansion of
+hnRNPA1* and hSUMO–hnRNPA1* due to the release of
+RRM–LCD* and hSUMO–LCD* interactions, and suggest that the observed change in overall compaction of these
+two constructs might underestimate the effect of the release
+of interactions with the LCD*.
+
+
+Having established transient, salt-dependent interactions
+between the LCD* and the different folded domains, we
+used the reweighted simulations to analyze which residues
+form these interactions. We thus calculated the number
+of contacts formed between the LCD* and the RRMs
+in both hnRNPA1* and hSUMO–hnRNPA1*, as well as
+the LCD*–hSUMO interactions in hSUMO–hnRNPA1*
+(Figure 6). Comparing the ensembles of hnRNPA1* and
+hSUMO–hnRNPA1* we find that the same residues in both
+the LCD* and RRMs make interactions in both constructs
+(Figure 6A,B). It also appears that at 50 mM NaCl the interactions between the LCD* and the RRMs are strengthened by the presence of and interactions with hSUMO. We
+find many of the contacts from the LCD* to the RRMs
+on the residues opposite of the RNA-binding face of hn-
+RNPA1* but also extending to its edge (Figure 6D). This
+finding suggests that the net positively charged LCD* interacts transiently with the negatively charged face of the
+folded RRMs at low NaCl concentrations. However, some
+interactions are also made with the positively charged face
+of the RRMs, highlighting that the LCD–RRM interactions are not purely electrostatic in nature even if these dominate.
+
+--- DISCUSSION ---
+
+
+
+Disordered LCDs of RNA-binding proteins are often alone
+sufficient for mediating phase separation, but how they
+function in the context of the full protein and how the folded
+domains modulate LCD phase behavior has remained incompletely understood. Here, we show that phase separation of hnRNPA1 is salt-sensitive while phase separation of
+
+A
+
+RRMs with LCD* in hnRNPA1*
+
+0.3
+
+
+0.2
+
+Average contacts
+0.1
+
+0.0
+
+0.5
+
+RRMs with LCD* in hSUMO-hnRNPA1*
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0.0
+
+20
+40
+60
+80
+100
+120
+140
+160
+180
+
+
+RRM residue
+
+B
+0.4
+
+LCD* with RRMs in hnRNPA1*
+
+0.3
+
+0.2
+
+0.1
+
+0.0
+
+0.5
+
+LCD* with RRMs in hSUMO-hnRNPA1*
+
+
+Average contacts
+Average contacts
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0.0
+
+0.2
+
+LCD* with hSUMO in hSUMO-hnRNPA1*
+
+0.1
+
+0.0
+
+180
+320
+300
+280
+260
+240
+220
+
+LCD* residue
+
+C
+
+hSUMO with LCD* in hSUMO-hnRNPA1*
+
+0.2
+
+0.1
+
+0.0
+
+-20
+-40
+-60
+-80
+-100
+
+hSUMO residue
+
+the LCD alone is promoted with increasing ionic strength.
+We find that folded domains play dual roles in modulating LCD phase behavior: (i) Electrostatic interactions between folded domains and the disordered LCD can contribute to phase separation at low ionic strength; increasing
+ionic strengths screen these interactions; (ii) at higher ionic
+strengths, the folded domains solubilize the fusion protein
+(Figure 7).
+
+Typical LCDs of the type found in hnRNPA1 and related proteins are polar tracts interspersed with aromatic
+
+D
+
+contacts:
+
+electrostatic potential:
+
+180O
+
+5 e/kBT
+-5 e/kBT
+electrostatic potential
+
+0
+
+0.19
+0.00
+0.38
+
+contacts
+
+and few charged residues (15). The main driving force for
+their phase separation seems to stem from a combination of aromatic-aromatic and aromatic-arginine interactions (13,15,17,20,56), which are compatible with high ionic
+strength. This is in agreement with our observation that
+phase separation of the hnRNPA1 LCD is promoted at
+high salt concentration. In contrast, we did not observe
+phase separation of full-length hnRNPA1 at NaCl concentrations above 200 mM, even at millimolar protein concentrations. This observation suggested the presence of saltNaCl concentration
+
+hnRNPA1
+
+electrostatic RRM-LCD
+interactions
+
+solubilizing folded domains
+
+
+LCD
+
+-
+-
++
+-
+
++
++ +
+
+-
+-
+
++
++
+
+
+-
+-
+
+RRM-RRM
++
+
+
+LCD
+
+LCD-LCD interactions
+
+soluble LCD
+sensitive electrostatic interactions between the LCD and
+the RRMs that modulate phase behavior. Indeed, we observed intramolecular interactions between the LCD and
+the RRMs by coarse-grained MD simulations, and between
+the LCD and hSUMO in a fusion protein construct. We
+further showed that the global dimensions of full-length
+hSUMO–hnRNPA1 expand concomitantly with increasing
+salt concentration, caused by screening electrostatic interactions that stabilize compact conformations involving LCD–
+RRM and LCD–hSUMO contacts.
+
+The enhanced driving force for phase separation of fulllength hnRNPA1 as compared to the LCD at low salt concentration is in agreement with a model in which the RRM–
+
+
+LCD interactions can occur in trans and contribute to phase
+separation (Figure 6). As the salt concentration increases
+and the RRM–LCD interactions are screened, the saturation concentration increases massively, to the point that we
+were unable to detect phase separation. Our and other previously published data point to the solubilizing influence
+of the folded domains. Under conditions where the LCD
+does not associate with the RRMs, the excluded volume
+of the RRMs decreases the potential for LCD–LCD mediated phase separation and the higher charge content of the
+RRMs has a solubilizing effect. hSUMO has a similar effect
+and adding both folded domain modules compounds the
+
+effect. In fact, this solubilizing property of folded domains
+has been used to prevent phase separation of strongly selfassociating LCDs until the solubilizing domain is proteolytically cleaved (21,22,57,58). The solubilizing effect of karyopherins on FUS and other RNA-binding proteins (23,59–
+61) may work through similar mechanisms. We suggest that
+solubilization is the result of salting in, which derives from a
+combination of several molecular effects, including ion accumulation around the folded domains (54,62).
+
+
+A key result is that solubilization through folded domains
+and their potential interactions with LCDs may obscure
+the physicochemical nature of the interactions that mediate
+LCD phase separation. We concluded from domain deletion experiments that the LCD was necessary and sufficient for phase separation. The salt sensitivity of hnRNPA1
+phase behavior could have further led us to conclude that
+electrostatic interactions were key drivers of phase separation (and in fact did in (26)). However, a careful analysis
+of the phase behavior of the LCD alone and of different
+domain constructs confirmed that the interactions underlying LCD phase separation are hydrophobic in nature, that
+electrostatic RRM–LCD interactions contribute to phase
+behavior at low salt, and that the RRMs are solubilizing at
+high salt. These insights demand a careful assessment of the
+physicochemical interactions underlying phase behavior of
+multi-domain proteins. They should also be taken into account when phase-separating proteins are fused to reporter
+proteins.
+
+
+Our experiments were carried out in the absence of RNA
+and therefore lead us to a conceptual understanding of
+the influence of folded domains on LCD phase behavior in vitro, not necessarily of hnRNPA1 biology in cells.
+However, it is highly relevant for considerations of the effect of fusion proteins in cells. Also, the interplay between
+the folded RNA-binding domains and the disordered LCD
+suggests an interesting mechanism for tuning hnRNPA1
+phase separation in cells. RNA binding and posttranslational modifications are likely to modulate the attractive
+RRM–LCD interactions, and several independent inputs
+may thus be able to modulate the saturation concentration.
+RNA may screen the positive face of the RRMs and create more negative surfaces for interactions with the LCD.
+It has recently been demonstrated that G3BP1 encodes interactions between several domains and that their modulation by posttranslational modifications tunes the sensitivity of G3BP1 to the levels of exposed mRNA in cells and
+therefore adjusts its driving force for stress granule assembly
+(63,64). In Npm1, the main protein that mediates the formation of the Granular Component of the nucleolus via phase
+separation, intramolecular interactions that modulate compaction and driving force for phase separation have also
+been observed (65). TIA1, another RNA-binding protein
+with roles in the regulation of transcription, splicing and the
+stress response, also shows interactions between tandem repeats of RRMs and its LCD (66) although the functional
+consequences of this are unknown. These results and our
+current report suggest that the threshold concentration for
+phase separation of RNA-binding proteins may not be a
+fixed value in cells but can be tuned depending on inputs
+from signaling pathways.
+
+
+Modulating interactions between folded domains and
+
+
+
+LCDs may constitute a general principle for tuning the
+phase behavior of proteins in response to input signals. Further work is needed to disentangle the multitude of proteinprotein and protein-RNA interactions and their balance in
+mediating phase separation under physiological conditions.
+
+
+NOTE ADDED IN PROOF
+
+
+
+In recent work we have characterized the contribution from
+residue types other than aromatic residues to LCD phase
+behavior. We have found that the net charge per residue
+strongly modulates the saturation concentration, reminiscent of the dependence of the solubility of globular proteins
+on net charge. The solubility of the LCD and the folded domains could thus be modulated in tandem. We also found
+that arginines act as auxiliary stickers, depending on the net
+charge of the protein. We thus note that different types of
+interactions between LCDs and folded domains likely modulate hnRNPA1* phase behavior (67).
+
+
+SUPPLEMENTARY DATA
+Supplementary Data are available at NAR Online.
+
+
+ACKNOWLEDGEMENTS
+
+
+
+We are grateful to Max Frenkel for technical help and to
+Jill Bouchard, Melissa Marzahn, Ivan Peran, Richard Kriwacki, Irina Ritsch, Elisabeth Lehmann, Gunnar Jeschke
+and Fr ́ed ́eric Allain for fruitful discussions. We thank Yong
+
+
+Wang, Francesco Pesce and Giulio Tesei for help with and
+input to running and analyzing the MD simulations. We
+thank Victoria Frohlich, Aaron Pitre, Jennifer Peters and
+Sharon King for help with microscopy. We acknowledge the
+use of the Molecular Interaction Analysis facility in Protein Technologies Center in the Department of Structural
+Biology at SJCRH for analytical ultracentrifugation experiments. We thank Srinivas Chakravarthy and the BioCAT
+beamline staff at the Advanced Photon Source for assistance with SAXS measurements.
+
+
+FUNDING
+American Lebanese Syrian Associated Charities (ALSAC)
+and St. Jude Children’s Research Hospital Collaborative
+on Membraneless Organelles in Health and Disease (to
+T.M.); Lundbeck Foundation BRAINSTRUC initiative (to
+K.L.-L.); use of the Advanced Photon Source was supported by the U.S. Department of Energy [DE-AC02-
+06CH11357]; NIGMS of the National Institutes of Health
+[9 P41 GM103622]; use of the Pilatus 3 1M detector was
+provided by NIGMS [1S10OD018090-01]; microscopy images were acquired at the Cell & Tissue Imaging Center
+which is supported by SJCRH and NCI [P30 CA021765];
+computational resources from the ROBUST Resource for
+Biomolecular Simulations (supported by the Novo Nordisk
+Foundation grant no. NF18OC0032608). Funding for open
+access charge: St. Jude Children’s Research Hospital Collaborative on Membraneless Organelles in Health and Disease.
+
+Conflict of interest statement. T.M. is a consultant for Faze
+Therapeutics, Inc.

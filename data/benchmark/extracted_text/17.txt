@@ -1,0 +1,1184 @@
+--- RESULTS
+
+LexA-CCR4 transcriptional
+activation
+is carbon ---
+source
+regulated. The ability of CCR4 to activate transcription was
+monitored independently of the ADH2 promoter context by
+the LexA in vivo transcription assay (4). The complete coding
+sequence for the yeast CCR4 protein was fused in frame with
+the coding sequence for the bacterial DNA-binding protein
+LexA (Fig. 1A). We expressed two versions of a LexA-CCR4
+fusion protein, one containing only the DNA-binding domain
+of LexA (residues 1 to 87) and one containing the complete
+LexA protein (residues 1 to 202). Amino acid residues 88 to
+202 of LexA contain a dimerization domain which is required
+
+MOL. CELL. BiOL.
+
+for efficient DNA binding (17). The LexA-CCR4 fusion proteins expressed from these plasmids provided CCR4 function
+as assayed by complementation of the ccr4-10 allele which
+causes a temperature-sensitive defect under nonfermentative
+growth conditions (Fig. 2). Also, both the 1 to 87 and 1 to 202
+
+
+LexA-CCR4 fusion constructs complemented the inability of
+the strain carrying the ccr4-10 allele to grow at 16°C on
+medium containing glucose (data not shown).
+
+The LexA-CCR4 constructs were transformed into S. cerevisiae along with a GALJ-lacZ reporter gene under the control
+
+of the LexA operator (Fig. 1B). Both versions of the LexA-
+
+
+CCR4 fusion proteins activated expression of a GALl-lacZ
+reporter gene containing either single or multiple LexA operators upstream of the GAL1 promoter (Table 2). However,
+
+
+LexA-CCR4 activated transcription to a much greater extent
+under nonfermentative growth conditions than under glucoserepressed conditions (Table 2). No activation by CCR4 was
+detected from the GALJ-lacZ target gene LR1A1 (Fig. 1) that
+lacked a LexA operator (data not shown), nor could the LexA
+DNA-binding domain alone activate expression from the reporters (Table 2). LexA-CCR4 protein concentration was
+found to be two- to three-fold lower under nonfermentative
+conditions than under glucose-repressed conditions (Fig. 3,
+compare lane b with lane a), suggesting that the ability of
+
+
+CCR4 to activate transcription in a carbon source-regulated
+manner was even greater than that reported in Table 2. While
+it is possible that the increased abundance of LexA-CCR4
+under glucose growth conditions was titrating a factor required
+for its transcriptional activity, this seems unlikely. LexA-CCR4
+activity would have been expected to increase dramatically in a
+strain lacking the genomic CCR4 gene. However, this was not
+observed. LexA-CCR4 activity in a CCR4 background was
+equal to or greater than that observed when LexA-CCR4 was
+placed in a ccr4 strain background (data not shown). Western
+analysis also indicated that the LexA-CCR4 fusion proteins
+were present at only slightly elevated levels under glucose
+growth conditions compared with wild-type CCR4 levels and at
+lower levels than wild-type CCR4 under nonfermentative
+growth conditions
+(Fig.
+3), suggesting that the
+ability of
+
+
+LexA-CCR4
+to activate transcription was not due
+to an
+artificial overproduction of CCR4 protein. These results suggest that CCR4 when bound to DNA can function to activate
+transcription in a carbon source-regulated manner.
+
+
+In contrast to CCR4, other known transcriptional activators
+fused to LexA did not display carbon source regulation.
+
+
+Several LexA-ADR1 derivatives, LexA-GAL4, and LexA-B42
+(an E. coli-derived activator) all showed a reduction in transcriptional activity under nonfermentative growth conditions
+(Table 2) (7, 23, 36). It has also been previously reported that
+the activation potential of the general transcriptional factors
+SNF2 and SNF5, which like CCR4 are required for nonferVOL. 14, 1994
+
+
+PROTEINS BINDING LEUCINE-RICH REPEAT OF CCR4
+4525
+
+LexA 1-87
+
+
+
+LexA 1-202
+
+1
+LexA 1-87
+
+LexA 1-202
+
+210
+1
+13
+LexA 1-87
+M
+
+
+
+LexA 1-202 -
+
+330
+474
+
+LexA 1-87
+
+LexA 1-202
+
+404
+837
+
+
+
+LexA 1-202
+
+1
+345
+LexA 1-202
+
+1
+160
+LexA 1-202
+
+210 345
+
+1 13
+
+
+
+LexA 1-202 e
+
+1
+13
+LexA 1-202 e
+
+350
+467
+
+15 103
+
+QN
+rich region
+
+
+LRR
+mentative gene expression, were not glucose regulated when
+fused to LexA (23). The decrease in the ability of these other
+
+
+LexA fusion proteins reported in Table 2 to activate under
+nonfermentative growth conditions is likely due to their being
+under the control of the ADH1 promoter (Fig. 1), which is
+derepressed on glucose and repressed under nonfermentative
+conditions (13). Western analysis confirmed a three- to fivefold
+reduction in the LexA-ADR1 proteins, a fivefold reduction in
+the LexA-B42 activator, and
+a threefold reduction in the
+amount of LexA-GAL4 present under nonfermentative growth
+conditions compared with glucose growth conditions (7; data
+not shown).
+
+
+Many
+transcriptional
+factors
+contain
+sequence-specific
+
+
+
+DNA-binding
+domains. We
+therefore
+examined whether
+
+
+CCR4 could bind DNA by using a gel retardation assay used to
+
+
+
+Beta-Gal
+
+YEP-Etoh
+
+Activity
+Glucose
+Ethanol
+
+Growth
+37°
+
+<1.5
+<1.5
+
+2.9
+
+<1.5
+
+837
+
+9.5
+89
++
+
+2.9
+39
++
+
+837
+
+12
+
+13
++
+
+1.6
++
+
+0.87
+
+<1.5
+_
+
+<1.5
+
+<1.5
+
+<1.5
+
+N.D.
+
+<1.5
+
+<1.5
+
+310a
+N\D
+
+540a
+N\D
+
+25a
+1800
+
+73a
+
+1800
+
+29a
+
+25a
+1300
+
+610
+
+<1.5
+
+<1.5
+
+837
+
+identify ADR1 binding to ADH2 sequences (8). We did not
+detect binding of CCR4 to ADH2 regulatory sequences (bp
+
+-329 to +57) when using extracts from strains overexpressing
+CCR4 or extracts containing partially purified CCR4 (data not
+shown). Further, we saw no differences in the association of
+factors with ADH2 regulatory sequences when extracts from
+CCR4+- or ccr4-containing strains were compared (data not
+shown). Although the proper conditions for CCR4 binding to
+
+--- DNA may not have been uncovered, these results suggest that ---
+
+
+
+CCR4 neither binds DNA nor affects the binding of other
+factors to the ADH2 promoter.
+
+CCR4 contains two activation regions. The importance of
+the amino-terminal region of CCR4, which is rich in glutamines and prolines, to CCR4 function was examined by
+deleting amino acids 14 to 209. LexA(1-87)-CCR4-1-13/210-
+
+4526
+DRAPER ET AL.
+
+glucose repressible
+
+
+I-Galactosidase
+Fusion protein
+No. of LexA
+activity (U/mg)
+operators'
+
+
+Glucose
+Ethanol
+LexA(1-87)-CCR4(1-837)
+8
+9
+76
+1
+4.8
+33
+LexA(1-202)-CCR4(1-837)
+8
+3.2
+45
+1
+2.9
+15
+LexA(1-87)
+8
+<1.5
+<1.5
+1
+<1.5
+<1.5
+LexA(1-202)
+8
+<1.5
+2.9
+1
+<1.5
+<1.5
+LexA(1-202)-ADR1(1-642)b
+1
+1,800
+460
+LexA(1-87)-ADR1(148-359)b
+1
+33
+5.4
+LexA(1-87)-B42
+8
+1,100
+300
+LexA(1-87)-GAL4
+1
+1,000
+540
+
+a LexA and all LexA fusions were expressed from a 2pum plasmid ir. strain
+237-lb which contained either the 1840 reporter which has a single LexA
+operator controlling lacZ expression or the 34 reporter which contains eight Lex
+operator sites (Fig. 1B). Yeast cells were grown in minimal medium lacking
+uracil and histidine and which was supplemented with either 8% glucose
+(Glucose) or 2% glycerol and 2% ethanol (Ethanol). P-Galactosidase assays
+were conducted as described in Materials and Methods. All values represent the
+averages of at least three separate determination, and all standard errors of the
+means were less than 20%. Western analysis indicated that all LexA-CCR4
+fusions were of the expected size and of comparable abundance (data not
+shown).
+
+b Values were taken from reference 7.
+
+837 was able to activate transcription of the GALI-lacZ
+reporter gene under both fermentative and nonfermentative
+growth conditions, although its ability to activate under nonfermentative growth conditions was greatly diminished relative
+to that of full-length LexA-CCR4 (Fig. 2). This result implicates the
+14 to 209 region as being responsible for the
+increased activity of LexA-CCR4 under nonfermentative conditions. It also suggests, however, that this is not the sole
+activation region present in CCR4. When the glutamine-rich
+region alone (residues
+1
+to
+160) was fused
+to LexA,
+it
+functioned as an activator in a glucose-responsive manner,
+indicating that it did indeed contain an activation domain that
+was carbon source dependent. The glucose responsiveness of
+LexA-CCR4-1-160 was not apparent when a reporter containing eight LexA operator sites was used (Fig. 2). Deletion of
+residues 14 to 209 had no apparent effect, however, on the
+ability of LexA-CCR4 to complement a ccr4-10 allele, again
+
+
+G Et
+
+LexA-CCR4-
+W
+
+CCR4-
+"
+
+a b
+FIG. 3. Carbon
+source-dependent
+expression
+of LexA-CCR4.
+Strain 237-lb containing LexA(1-87)-CCR4-1-837 was grown in glucose- or ethanol-glycerol-containing medium
+as described
+in the
+legend to Fig. 2. Western analysis was conducted with crude antiserum
+raised against an N-terminal CCR4 peptide (25). G, glucose-grown
+cells; Et, ethanol-glycerol-grown cells. CCR4 and LexA-CCR4 proteins are indicated.
+
+MOL. CELL. BIOL.
+
+
+Beta-Gal Activity
+(U/mg)
+
+
+No Fusion
+
+1400
+
+Plasmid
+
+LexA 1-87
+
+1300
+410
+
+LexA 1-202
+330
+474
+1500
+
+LexA 1.87
+
+
+LexA 1-202
+
+270
+
+1
+13
+LexA 1-87
+U
+
+560
+300
+LexA
+1-202
+~~~404
+
+
+LexA 1-202
+U
+
+837
+LexA 1-202
+_
+460
+
+suggesting the presence of a second activation region in CCR4
+(Fig. 2). A second transcriptional activation domain that was
+not glucose repressed was identified between residues 210 and
+345, as demonstrated with LexA(1-202)-CCR4-1-13/210-345
+(Fig. 2). Putting the two domains together [LexA(1-202)-
+CCR4-1-345] resulted in a synergistic increase in transcriptional activation.
+
+
+In contrast, the leucine-rich repeat and the C terminus of
+
+
+
+CCR4 were incapable of activating transcription when fused to
+LexA (Fig. 2). In order to determine if the two LexA derivatives which lacked activation potential were still capable of
+binding the LexA operator, a transcription interference assay
+was used to monitor DNA binding of the fusion proteins. The
+interference assay utilizes the pJK101 plasmid which carries
+two LexA operators placed between the GAL4 upstream
+activation sequence (UAS) binding site and the lacZ reporter
+(Fig. 1B) (18). Under galactose growth conditions, GAL4
+binds to its UAS site and activates transcription of the reporter. Binding of LexA fusion proteins to the LexA operator
+reduces
+this GAL4-induced
+transactivation. LexA fusions
+which were incapable of activation were examined with this
+assay. Both the LexA(1-202)-CCR4 derivatives containing
+only the leucine-rich repeats or the C terminus of CCR4 were
+capable of interfering with the GAL4-induced expression by at
+least threefold (Fig. 4). These data indicate that their inability
+to activate
+is not due to defects in binding to the LexA
+operator.
+
+
+Each of the two activation domains was found to be much
+more active than the full-length LexA-CCR4 fusion (see
+Discussion). LexA-CCR4-1-345, LexA-CCR4-1-160, or LexA-
+CCR4-1-13/210-345 encompassing both or each activation
+domain failed, however, to complement the ccr4-10 allele (Fig.
+2). These results suggest that while residues 1 to 345 of the
+CCR4 protein are sufficient for transcriptional activation, it is
+likely that the leucine-rich repeats and the C terminus are
+required for placing these activation regions in the proper
+promoter context for CCR4 function.
+
+CCR4 is required for ADR1 activation of transcription. The
+observation that CCR4 displays a carbon source-regulated
+
+VOL. 14, 1994
+
+
+PROTEINS BINDING LEUCINE-RICH REPEAT OF CCR4
+4527
+
+P-Galacto-
+
+
+
+CCR4
+sidase
+Fold decrease
+genotype
+activity'
+in activation
+(U/mg)
+
+LexA(1-202)-ADR1(1-1323)
+
+
+CCR4
+1,300
+2.4
+ccr4-10
+540
+
+LexA(1-202)-ADR1(1-642)
+
+
+CCR4
+1,900
+2.7
+ccr4-10
+700
+
+LexA(1-202)-ADR1(359-740)
+
+
+CCR4
+780
+11
+ccr4-10
+74
+LexA(1-202)-ADR1(148-359)
+
+
+CCR4
+1,200
+4.8
+ccr4-10
+250
+
+LexA(1-202)-ADR1(1-220)
+
+
+CCR4
+2.8
+5.6
+ccr4-10
+<0.5
+
+LexA(1-87)-GAL4
+
+
+CCR4
+1,000
+1.6
+ccr4-10
+640
+
+LexA(1-87)-B42
+
+
+CCR4
+1,200
+0.75
+ccr4-10
+1,600
+
+a
+-Galactosidase activities were conducted as described in footnote a to Table
+2. The 1840 reporter was used in all cases except for LexA(1-202)-ADR1(148-
+359) and LexA(1-87)-B42, in which the 34 reporter containing eight LexA
+operator sites was used. All standard errors of the mean were less than 20%.
+Strains MD9-7c+ (CCR4) and MD9-7c (ccr4-10) are isogenic except for the
+CCR4 allele.
+
+transcriptional activation ability when bound to DNA suggests
+that it functions as a coactivator with ADR1. We therefore
+examined the effect of a ccr4 mutation on LexA-ADR1 activation of transcription. The ccr4-10 allele had a 2.4-fold effect
+on the ability of the LexA-ADR1-1-1323 (full-length) protein
+fusion to activate. Since ADR1 contains three and possibly
+four functionally redundant activation regions, designated
+TADI through TADIV (7), we assessed whether LexA-ADR1
+fusions containing fewer domains were also sensitive to the
+ccr4-10 allele. As shown in Table 3, the ccr4-10 allele also
+reduced by twofold the ability of LexA-ADR1-1-642 (contains
+three regions important to ADR1 activation function)
+to
+activate. LexA-ADR1 fusions which contained only one activation domain were more sensitive to a ccr4-10 mutation. The
+activation ability of LexA-ADR1-359-740 (contains only TADIII), LexA-ADR1-148-359
+(contains
+only TADII),
+and
+LexA-ADR1-1-220 (contains only TADI) were reduced 5- to
+11-fold in the ccr4-10 background. In comparison, the ccr4-10
+allele affected LexA-GAL4-74-881 (22)-mediated activation
+by 1.5-fold and had no effect on the E. coli-derived activator
+LexA-B42 (36). These results support the hypothesis that
+CCR4 plays a role in assisting ADR1 activation but also clearly
+indicate that CCR4 does not play an essential role.
+
+ADR1 is not coimmunoprecipitated with CCR4. To determine if the requirement of CCR4 for ADR1 activation reflected a physical interaction between CCR4 and ADR1, we
+examined by immunoprecipitation the direct association of
+these two factors. ADR1 was immunoprecipitated from a
+native extract with antibody raised against an ADR1°C-
+terminal peptide. The precipitated proteins were subjected to
+
+
+Western analysis with an antibody raised against a CCR4
+N-terminal synthetic peptide. ADRi was specifically immunoprecipitated, as detected with anti-ADR1 antibody (Fig. 5, lane
+a) and failed to be precipitated when either preimmune sera or
+
+-
+x
+
+-
+X
+
+_-
+
+
+0
+W
+-U
+ct n
+<
+D)
+
+
+M
+-o
+V
+U
+ADRI- '--
+
+:ae~
+
+
+CCR4-
+4-U
+O
+-MAW
+
+a
+b
+c
+d
+immune sera pretreated with excess antigen were used (42).
+CCR4 antibody, however, failed to detect CCR4 in the immunoprecipitates (Fig. 5, lane a), although CCR4 was present in
+the crude extract (Fig. 5, lane b). We repeated these experiments using CCR4 antibody to conduct the initial immunoprecipitation and anti-ADR1 antibody for detecting the presence
+of ADR1 following Western analysis. In this case, a strain
+carrying multiple copies of the ADR1 gene was used to
+maximize the likelihood of detecting ADR1 in the immunoprecipitates. CCR4 was specifically precipitated by the anti-
+CCR4 peptide antibody (Fig. 5, lane c) but failed to be
+precipitated when preimmune sera or immune sera preincubated with excess peptide were used (25). ADR1, however, was
+not detected among the CCR4 immunoprecipitated proteins
+(Fig. 5, lane c), although it was present in the crude extract.
+
+--- These results indicate that CCR4 and ADRI are not tightly ---
+associated in vivo.
+
+Immunoprecipitation with CCR4 antibody reveals a multiprotein complex. Since the leucine-rich repeat is a putative
+protein binding domain and is required for CCR4 transcriptional function, we examined the possibility of a direct physical
+interaction between CCR4 and proteins other than ADR1 by
+determining
+which
+proteins
+coimmunoprecipitated
+with
+CCR4. Native extracts were treated with anti-CCR4 antibody,
+and the resultant immunoprecipitated proteins were subjected
+to SDS-PAGE and silver staining. Two abundant species were
+coimnmunoprecipitated with CCR4 (Fig. 6A, lane b). These
+proteins had molecular masses of 195 and 185 kDa. Each was
+absent when preimmune sera or immune sera blocked with
+excess peptide was used (Fig. 6A, lane a and c, respectively).
+The presence of CCR4 in the immunoprecipitate was confirmed by Western analysis with the same samples (data not
+shown) and could also be visualized by silver staining (Fig. 6A,
+lane b). The 195- and 185-kDa species were not immunoprecipitated when native extracts of a strain lacking CCR4
+(ccr4-10 allele) were treated with anti-CCR4 antibody (Fig.
+6A, lane e). The protein band in lane e in the 180- to 190-kDa
+region did not comigrate with the 185-kDa protein (Fig. 6B).
+
+--- These results indicated that CCR4 is associated with at least ---
+two other proteins to form a protein complex in vivo. Two
+additional proteins of molecular masses of 116 and 140 kDa
+
+4528
+DRAPER ET AL.
+
+
+A
+CCR4
+ccr4-10
+P
+E
+B
+P
+E
+B
+
+95-
+185'
+
+-200
+
+-116
+
+
+CCR4-
+
+-97
+
+-66
+Itm."
+
+
+IgG-
+
+a
+b
+c
+d
+e
+f
+B
+CC.R4
+(ccr4
+
+
+11
+E
+3
+.
+
+kDa
+H....
+-
+
+205-
+-
+-_
+s
+
+-140
+
+
+I16
+Nl.
+
+
+IUU
+-11
+
+97-
+C-R4
+
+6
+-
+
+i,
+b
+L
+FIG. 6. CCR4 coimmunoprecipitates with several proteins. (A)
+Native immunoprecipitations were conducted, as described in Materials and Methods, under glucose growth conditions with strain MD9-
+7c+ (CCR4) or MD9-7c (ccr4-10). Molecular mass markers
+(in
+kilodaltons) are indicated on the right. Lanes a and d, incubation with
+preimmune (P) serum; lanes b and e, incubation with purified CCR4
+antibody (E); lanes c and f, incubation with an excess of N-terminal
+CCR4 peptide prior to addition of CCR4 antibody (B). IgG, immunoglobulin G. (B) Immunoprecipitations were conducted as for panel
+A. The 195-, 185-, 140-, and 116-kDa and CCR4 proteins are indicated
+in lane b with black squares. Lane a, excess N-terminal CCR4 peptide
+was added prior to incubation of native extracts from strain MD9-7c+
+
+(CCR4) with purified CCR4 antibody; lane b, same as lane a, except no
+peptide was added; lane c, same as lane b, except with strain MD9-7c
+(ccr4-10).
+
+were also observed to coimmunoprecipitate with CCR4 (Fig.
+6B, lane b). The association of the 116- and 140-kDa polypeptides with CCR4 varied depending on the experiment, suggesting that they were less tightly associated with CCR4 than the
+
+185- and 195-kDa proteins.
+
+
+The leucine-rich repeats are necessary and sufficient for
+formation of the CCR4 protein complex. To identify which
+regions of CCR4 were required for binding the 195- and
+185-kDa proteins, native extracts from strains containing alleles deleted for different regions of CCR4 were treated with
+anti-CCR4 antibody. The immunoprecipitated proteins were
+treated as described above, and the 195- and 185-kDa species
+were detected by silver staining. As shown in Fig. 7, lanes b and
+d, the 195- and 185-kDa proteins were coimmunoprecipitated
+with CCR4 when residues 14 to 209 or 670 to 837 were
+removed from CCR4, respectively. The ccr4-1-669 allele results in phenotypes indistinguishable from that of a ccr4
+deletion, and a LexA-CCR4-1-669 fusion was transcriptionally
+inactive (data not shown). When portions of the leucine-rich
+repeat region were deleted, however, the 195- and 185-kDa
+proteins were not coimmunoprecipitated (Fig. 7, lane f and g).
+
+
+The CCR4-A219-394
+and CCR4-A393-456
+proteins were
+present in the immunoprecipitates in an abundance comparable to that observed for the undeleted CCR4 proteins (25).
+
+MOL. CELL. BIOL.
+
+CO
+o)
+c
+
+
+CN
+CD:j
+
+
+CO
+C
+O
+
+I
+1°C)
+
+
+Ch
+CD
+CC
+C)
+-e
+--
+Ygr 1.
+cc
+x:
+
+
+U
+U-
+U-
+U.
+U.
+
+
+U
+
+CD
+'1
+r
+Mr
+c:
+
+
+U
+U
+o
+u
+
+B
+E
+B
+E
+E
+E
+E
+195 -l |a.
+18$-5gg|:;_
+
+as
+b
+c
+d
+e
+f
+9
+
+These results indicate that the leucine-rich repeats are essential for the association of CCR4 with the 195- and 185-kDa
+proteins in vivo.
+
+
+We subsequently examined the ability of the leucine-rich
+repeats by themselves to form a complex with the 195- and
+
+185-kDa proteins. A portion of the CCR4 gene containing the
+coding sequence for the leucine-rich repeats (residues 350 to
+465) as well as a small amount of flanking sequences (total
+residues 330 to 474) were fused to the LexA(1-87) protein
+(designated LexA-LRR). The plasmid expressing the fusion
+protein was transformed into a yeast strain carrying a ccr4-10
+allele and into a strain carrying a wild-type CCR4 gene.
+Immunoprecipitation of the fusion protein from native extracts
+of transformants expressing the LexA-LRR protein was carried out with an antibody raised against the LexA protein. The
+resultant proteins were subjected to SDS-PAGE and were
+visualized by silver staining. The 195- and 185-kDa proteins
+were coimmunoprecipitated in the presence of the LexA-LRR
+fusion protein (Fig. 8, lane a) but not from extracts that lacked
+the LexA-LRR (data not shown). This result demonstrates
+that the leucine-rich repeats are responsible for the interaction
+between CCR4 and the 195- and 185-kDa proteins. When
+wild-type CCR4 and LexA-LRR protein coexisted in the cell,
+the amount of 195- and 185-kDa proteins that coimmunoprecipitated with the LexA-LRR fusion protein was much less
+than that immunoprecipitated with LexA-LRR in a strain
+lacking CCR4 (Fig. 8, compare lane b with lane a). This
+indicates that LexA-LRR binds the 185- and 195-kDa proteins
+less well than full-length protein (also compare lane c with lane
+a).
+
+Because CCR4 transcriptional activity is regulated by glucose (Table 2) and CCR4 is specifically required for nonfermentative gene expression, we wished to determine if the
+proteins associated with CCR4 did so in a carbon sourcedependent manner. Native extracts from a wild-type strain of
+CCR4 following growth on glucose and ethanol were immunoprecipitated with anti-CCR4 antibody. Both the 195- and
+185-kDa proteins were found to be coimmunoprecipitated with
+
+
+CCR4 when extracts taken under both growth conditions were
+used (Fig. 9, lanes a and b, respectively). The 140- and 116-kDa
+species that were shown to be coimmunoprecipitated with
+
+VOL. 14, 1994
+
+
+PROTEINS BINDING LEUCINE-RICH REPEAT OF CCR4
+4529
+
+LexA Ab
+
+
+
+CCR4
+rwAb
+
+195-
+185-
+
+a
+b
+c
+CCR4 (Fig. 6B) were also complexed with CCR4 irrespective
+of the carbon source (data not shown). The decreased and
+varied abundance of the 140- and 116-kDa proteins in the
+immunoprecipitates precluded the determination of the specific region of CCR4 with which they interacted.
+
+--- DISCUSSION ---
+CCR4 displays a glucose-regulated transcriptional activation ability. Our results indicate that the yeast CCR4 protein is
+capable of activating transcription in a glucose-repressible
+manner when brought to the DNA through a heterologous
+DNA-binding protein. CCR4 itself, however, was not found to
+bind DNA. The ability of the LexA-CCR4 fusion proteins to
+function as activators correlated with their abilities to allow
+nonfermentative growth at elevated temperatures and to allow
+growth on glucose-containing medium at 16'C (Fig. 2) (25).
+
+
+For example, both leucine-rich repeat deletions and the C-
+terminal deletion of residues 670 to 837 inhibited CCR4
+transcriptional activity as well as its ability to complement a
+
+
+Et
+G
+B
+B
+
+1 95-
+w
+_
+185
+
+
+-
+
+CCR4-
+
+a
+b
+c
+d
+ccr4-10 mutation. These results indicate that LexA-CCR4
+function in the LexA transcription assay mimics CCR4 function in vivo. The implication, therefore, is that there exists a
+mechanism by which CCR4 is brought to the vicinity of the
+DNA. This function is perhaps served by the factors which are
+complexed with CCR4. Whether CCR4 is a component of a
+transcriptional activator complex as observed for Hap 2, Hap
+3, and Hap 4 in which there is a division of DNA-binding and
+activation functions is unclear (18, 31). It is equally possible
+that CCR4 plays a role modulating chromatin structure or the
+general transcriptional machinery.
+
+
+The domain responsible for the glucose regulation of LexA-
+CCR4 was localized to the N-terminal region of CCR4.
+
+
+Deletion of residues 14 to 209 eliminated the derepression of
+CCR4 transcriptional activity upon glucose removal (Fig. 2),
+and residues
+1
+to 160 (designated TADI) by themselves
+displayed glucose-repressed activation (Fig. 2). This N-terminal region like many other eukaryotic transcription factors is
+rich in glutamines and prolines (Fig. 10). While it has been
+shown that the glutamine-rich activation domain of mammalian protein Spl does not function in S. cerevisiae, it is possible
+that the CCR4 glutamine-rich region is of a different type than
+that of Spl (35). Our data cannot distinguish between the
+
+
+CCR4 region being itself glucose regulatable or binding a
+protein whose activity is carbon source controlled.
+
+
+A second transactivation domain was localized to residues
+210 to 345 (designated TADII) that acted synergistically with
+TADI (Fig. 2). The transactivation displayed by TADI and
+
+
+TADII is in some ways different from that displayed by the
+full-length CCR4. First, the TADI and TADII domains are
+much more potent activators than full-length CCR4. It is
+possible that the TADI and TADII domains are more active by
+themselves because they have been released from an inhibition
+present in the full-length protein. Alternatively, the TADI and
+
+
+TADII domains may be displaying such potent activation
+because of their being released from the CCR4 protein
+complex. Full-length CCR4 transcriptional activation ability
+may be decreased because of its association with a number of
+factors that reduce its ability to activate. Second, the TADI and
+
+
+TADII domains show a multiplicative increase in activation
+potential as the number of LexA operators upstream of the
+LacZ reporter is increased. This is in contrast to what is
+observed with full-length CCR4, whose ability to activate
+increased only slightly with an increase in LexA operator sites.
+
+
+The C-terminal half of CCR4 may interact with a limiting
+factor, causing full-length CCR4 activity to increase only
+slightly with an increase in LexA operator sites. We believe
+that the transactivation ability of full-length CCR4 more
+accurately represents its true function rather than the high
+values observed for TADI and TADII alone.
+
+It should also be noted that LexA(1-202)-CCR4 was less
+active than LexA(1-87)-CCR4 in activating transcription (Table 2; Fig. 2). One explanation for this difference is that the
+dimerization of LexA(1-202) interferes with CCR4 activity,
+perhaps by forcing an unusual conformation upon CCR4 or an
+unnatural arrangement of proteins associated with CCR4. This
+effect appears to be specific to CCR4, since a number of other
+proteins fused to LexA(1-202) do not display this diminution in
+activity (7, 36; unpublished data). This decreased activity of
+LexA(1-202)-CCR4 may account for the relatively lower activity observed for full-length CCR4 fused to LexA compared
+with that obtained with the LexA-CCR4 fusions containing just
+the N-terminal sequence of CCR4.
+
+
+The leucine-rich repeat binds two proteins that may be
+required for presenting CCR4 to its proper promoter context.
+
+
+The leucine-rich repeats and the C terminus of CCR4 are
+
+4530
+DRAPER ET AL.
+
+
+Glucose Repressed
+Activation
+Protein Binding
+
+
+
+Activation Domain
+Domain
+Domain
+
+13
+160
+210
+345 350
+467
+1NH2-
+u TT T
+
+
+I
+k
+
+t
+Y
+
+350-467
+Leucine-rich repeat
+PxxaxxLxxLxxLxLxxNxaxxa
+15-24
+1 0 consecutive
+glutamines
+
+89-1 03
+15 asparagines
+
+required for CCR4 function, but neither region alone could
+promote transcription. The N-terminal domains described
+above function in that role, although these regions alone could
+not complement a ccr4 allele in vivo. While it is possible that
+deletion of the leucine-rich repeats or C terminus inactivated
+
+
+CCR4 by placing the protein into an improperly folded form,
+we prefer the alternative explanation that the role of the
+leucine-rich repeats and the C terminus of CCR4 is to present
+
+
+CCR4 to its proper place at the promoter and to possibly
+regulate the N-terminal activation domains. The identification
+of two proteins, 195 and 185 kDa in size, that form a stable
+complex with the leucine-rich repeats of CCR4 reinforces this
+notion. The binding of the 195- and 185-kDa proteins to the
+leucine-rich repeat may make the leucine-rich repeat essential
+for CCR4 function. Two other proteins, 140 and 116 kDa in
+size, were also found to associate with CCR4. The site of
+binding for these latter two was not determined because of
+their weaker association with CCR4.
+
+
+The contact that these 195- and 185-kDa proteins and CCR4
+make at the ADH2 promoter remains unclear. CCR4 was
+shown not to complex with ADR1, although CCR4 was
+required for maximal expression of LexA-ADR1 fusion proteins. We interpret these data to indicate that CCR4 is not a
+direct intermediate in ADR1 function but rather modulates
+some feature ofADH2 transcription which impinges on ADR1
+activation. Since CCR4 is the only known suppressor of the
+spt6 mutation, a gene presumed to be involved in regulating or
+
+maintaining chromatin structure, CCR4 may be required to
+antagonize the negative effects of SPT6 (and possibly SPT10)
+on chromatin. The 195- and 185-kDa proteins appear to be
+neither SPT6 nor SPT10 (12; unpublished data). It is also
+possible that CCR4 acts independently of chromatin to promote transcription, perhaps by aiding the action of factors in
+the initiation complex.
+
+
+Although a number of leucine-rich repeat proteins have
+been identified (see discussion in reference 25), in only two
+cases have the proteins that bind to these regions been
+identified. The leucine-rich repeat of RNase inhibitor binds
+RNase (24), and the leucine-rich region of thyrotropin receptor (and its related family members) binds thyrotropin hormone (and the corresponding hormones)
+(3). Preliminary
+analysis of contacts between these leucine-rich repeats and
+their cognate binding proteins have yet to yield a general
+consensus or structure characteristic of these interactions. The
+crystal structure of RNase inhibitor indicates that leucine-rich
+repeats consist of a parallel P-sheet with Pot loops, but the
+precise site of RNase binding is not known (21). Because
+
+MOL. CELL. BIOL.
+
+
+-COOH
+
+Putative
+Mn++ binding
+
+domain
+
+
+CCR4 contains the fewest number of leucine-rich repeats
+among this family of proteins (25), identifying its interaction
+regions with the 185- and 195-kDa proteins and cloning the
+genes for these proteins should aid in analyzing the proteinprotein interactions of this important structural motif.

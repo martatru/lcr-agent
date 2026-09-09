@@ -1,0 +1,1546 @@
+--- RESULTS ---
+XRN1 directly interacts with CCR4–NOT via multiple binding sites
+
+
+XRN1 interacts directly with decapping factors in human
+and Drosophila melanogaster (Dm) cells. To test if XRN1
+can bind other decay factors, we probed interactions with
+CCR4–NOT and PAN2/PAN3 deadenylase complexes in
+co-IP assays. Exogenously expressed GFP-XRN1 immunoprecipitated all tested endogenous subunits of the CCR4–
+
+
+NOT including NOT1, NOT2, NOT3 and CAF1 in the
+presence of RNase A suggesting that these interactions were
+not bridged by RNA (Figure 1A). In contrast, GFP-XRN1
+did not immunoprecipitate endogenous PAN2 or PAN3
+(Figure 1A).
+
+To delineate the region of XRN1 responsible for the interaction with CCR4–NOT, we performed co-IP assays with
+the N-terminal catalytic domain (residues 1–1173), the C-
+terminal low-complexity region (residues 1174–1649) and
+the EDC4-binding motif (residues 1650–1706; EDC4-BM)
+(Figure 1B). The XRN1°C-terminal low-complexity region,
+but not the other fragments, precipitated the endogenous
+NOT1, NOT2 and NOT3 (Figure 1°C) and we termed this
+region the ‘C-terminal interacting region’ or ‘CIR’.
+
+We then asked if the interaction with CCR4–NOT is
+direct. The MBP- and streptavidin (Strep)-tagged recombinant CIR directly binds the reconstituted recombinant,
+complete CCR4–NOT complex in a pulldown assay (Figure 1D, lane 5). To identify which components of the
+CCR4–NOT mediate binding to the CIR, we then examined the MBP/Strep-CIR interaction with individually reconstituted CCR4–NOT subcomplexes in a pulldown. Tested CCR4–NOT components consisted of different segments of NOT1 in complex with its respective interaction partners: the N-terminal NOT1/10/11 module,
+the catalytic module (NOT1/CAF1/CCR4a), the CAF40
+module (NOT1/CAF40) and the C-terminal NOT module
+(NOT1/2/3) (Figure 1E). The CIR interacted weakly with
+the NOT1/10/11 subcomplex as well as the catalytic module (Figure 1F, lanes 11 and 12) and no binding was detected
+with the CAF40 module under the pulldown conditions
+(Figure 1F, lane 13). A stable interaction was observed between the CIR and the NOT module (Figure 1F, lane 14). To
+verify the stringency of the pulldown assay, we tested MBPStrep tag alone as well as an MBP/Strep-tagged PNRC2
+protein, which is a low-complexity protein with some similarity in its sequence properties to the XRN1 CIR. Neither detectably interacted with CCR4–NOT components
+
+but PNRC2 pulled down the EVH1 domain of Dcp1 from
+fission yeast as a positive control (Figure 1F, lanes 6–9 and
+Supplementary Figure S1A).
+
+
+XRN1 overexpression inhibits deadenylation in human cells
+To probe the functional link between XRN1 and CCR4–
+
+
+NOT, we examined the degradation of a reporter mRNA in
+human HEK293T cells overexpressing GFP-tagged XRN1
+(Figure 2A–C). Overexpression of XRN1 levels in Dm cells
+was demonstrated to block decapping in a dominant negative manner indicating that this approach can provide insights into the processes regulated by XRN1 (33). We tethered the NMD factor SMG7 to a -globin mRNA reporter containing six MS2 binding sites in the 3′ UTR (-
+globin-6xMS2bs mRNA) (41). SMG7 promotes deadenylation, decapping and subsequent 5′–3′ exonucleolytic degradation of the reporter mRNA (35,46). As expected, the
+expression of MS2-HA-SMG7 elicited degradation of the
+-globin-6xMS2bs mRNA but did not affect the expression of the control mRNA lacking the MS2 binding sites
+(Figure 2A, lanes 1, 2 and B). Overexpression of a catalytically inactive mutant of the decapping enzyme DCP2*
+(E148Q) (60) inhibited decapping and a stabilized deadenylated (A0) mRNA reporter was readily detected as a
+band with increased mobility compared to a polyadenylated (An) mRNA (Figure 2A, lane 4 and B). Unexpectedly, we observed an accumulation of the slow-migrating
+and polyadenylated (An) form of the reporter in cells overexpressing XRN1 (Figure 2A, lane 6 and B). This suggested
+that the observed defect in SMG7-induced reporter mRNA
+decay was a consequence of the repression of deadenylation.
+
+
+We then overexpressed GFP-tagged XRN1 fragments in
+HEK293T cells and performed tethering assays. Although
+all fragments were expressed at comparable levels (Figure
+2°C), the overexpression of the XRN1 CIR region, but not
+the catalytic domain of XRN1 or the EDC4-BM, elicited
+an almost complete block of SMG7-mediated mRNA decay as evident by the accumulation of polyadenylated (An)
+reporter (Figure 2A, lane 10 and B). We then asked if the
+observed inhibitory effect of CIR on deadenylation was specific to SMG7. To test this, we tethered either NOT1 or the
+CCR4–NOT recruitment factor Nanos1 to induce deadenylation and 5′–3′ mRNA decay (15,16). In both cases, we
+observed that overexpression of exogenous CIR resulted in
+strong repression of mRNA decay (Supplementary Figure
+S1B).
+
+To assess the extent of polyadenylation of the reporter accumulating in cells expressing the GFP-CIR, we performed
+an oligo(dT)-directed ribonuclease H (RNase H) cleavage
+assay. The RNase H treatment of mRNA isolated from cells
+expressing the GFP-CIR led to a shift in the migration of
+the -globin-6xMS2bs reporter to match that of the deadenylated (A0) reporter (Supplementary Figure S1°C, lanes
+6, 8 versus lanes 2, 4), consistent with the notion that the
+-globin-6xMS2bs mRNA was polyadenylated. We then
+asked if the reporter was decapped. To test this, we treated
+the mRNA with the Terminator 5′-phosphate exonuclease.
+
+
+The transcripts were resistant to this treatment, which is
+consistent with the presence of an intact 5′ cap (Supplementary Figure S1D). Collectively, this evidence suggests that
+
+
+B
+
+A
++ RNase A
+
+
+XRN1
+
+XRN1
+
+MBP
+
+MBP
+
+XRN1
+
+CIR
+Catalytic domain
+GFP:
+
+1
+
+170
+
+130
+100
+
+anti-GFP
+
+
+C
+D
+
+EDC4-BM
+
+70
+
+XRN1
+
+XRN1
+
+MBP
+
+MBP
+
+55
+
+CIR
+
+Cat
+
+Cat
+GFP:
+
+anti-NOT1
+
+170
+
+70
+
+55
+anti-NOT2
+
+anti-GFP
+
+130
+
+anti-NOT3
+
+100
+
+40
+
+anti-CAF1
+
+35
+
+130
+100
+
+anti-PAN2
+
+170
+anti-NOT1
+
+130
+100
+anti-PAN3
+
+anti-NOT2
+
+1
+2
+3
+
+
+4
+
+Input
+IP
+
+anti-NOT3
+
+1
+2
+3
+4
+
+5
+6
+7
+8
+9 10
+
+Input
+
+IP 
+
+E
+
+1
+1351 1588 1833
+1317
+1093
+682
+
+2361
+
+
+NOT1
+
+2376
+
+DUF
+MIF4G
+HEAT
+HEAT
+HEAT
+HEAT
+
+NOT11
+
+NOT3
+NOT2
+
+
+
+CAF1
+CAF40
+
+NOT10
+
+CCR4
+
+NOT Module
+
+CAF40
+ Module
+NOT10/11
+
+
+Catalytic
+
+Module
+
+ Module
+the CIR-mediated block of reporter mRNA decay is most
+likely the consequence of the repression of deadenylation
+rather than decapping and/or subsequent 5′–3′ exonucleolytic activity.
+
+The mRNA decay rates are coupled to polymerase IImediated transcription in both yeast and mammalian cells
+(28,29,61–63). Interestingly, in yeast, XRN1 has a key role
+in the buffering system linking mRNA synthesis with decay (28,29). We asked whether the observed increase in re-
+
+
+EDC4-BM
+
+1706
+
+1174
+1650
+
+EDC4-BM
+
+MBPCIR
+
+CIRStrep
+MBP
+
+
+
+-Strep
+
+170
+
+CCR4-NOT
+M
+
+IN
+
+130
+100
+
+NOT1
+
+250
+
+150
+
+70
+
+NOT3
+
+
+
+MBP-CIR
+
+100
+
+55
+
+NOT10
+CCR4
+NOT2
+
+70
+
+35
+
+50
+
+MBP
+
+40
+
+CAF1
+
+
+
+CAF40
+NOT11
+
+30
+
+70
+
+20
+
+1
+3
+4
+5
+2
+Strep pulldown
+
+130
+100
+
+
+
+CCR4-NOT
+
+F
+
+Module
+
+MBP-CIR-Strep
+MBP-Strep
+Input
+NOT10/11
+
+
+Catalytic
+CAF40
+NOT
+M
+
+100
+150
+
+MBP-CIR
+NOT1(1-682)
+
+
+NOT10
+
+70
+NOT1(1833-2361)
+
+
+CCR4
+
+50
+
+MBP
+
+40
+
+30
+
+CAF1
+NOT11
+NOT1(1093-1317)
+
+
+NOT2
+NOT3
+
+20
+
+15
+
+1
+2 3
+4
+5
+6
+7
+8
+9 10
+14
+13
+12
+11
+
+
+
+Strep pulldown
+porter mRNA levels correlated with the XRN1 CIR overexpression is indeed the consequence of a defect in mRNA
+decay rather than increased transcription. To test this, we
+analyzed the -globin-6xMS2bs reporter mRNA levels in
+a time course following transcriptional shut-off via an actinomycin D treatment. In control cells, tethering of MS2-
+HA-SMG7 resulted in a half-life of the -globin-6xMS2bs
+mRNA of ∼5 h (Figure 2D and E). In contrast, CIR overex-
+
+
+EDC4-BM
+
+A
+DCP2*
+
+
+XRN1
+
+MBP
+
+CIR
+
+Cat
+
+MS2-HA-SMG7
+
+Control
+
+A n
+A 0
+
+6xMS2bs
+1
+2 3
+4
+6
+5
+8
+9 10
+7
+
+11 12°C
+
+
+D
+
+EDC4-BM
+
+XRN1
+DCP2*
+
+
+MBP
+
+CIR
+
+Cat
+GFP:
+
+
+MBP
+GFP:
+6
+8
+2 4
+0
+6 8
+
+130
+170
+
+2
+4
+0
+
+70
+100
+
+6xMS2bs
+
+anti-GFP
+
+55
+55
+
+
+18S rRNA 
+
+35
+t1/2=5.2 0.2 hr
+t1/2>10 hr
+
+
+55
+
+HA-MBP
+
+1
+2
+3
+4
+6
+5
+pression extended the half-life to over 10 h (Figure 2D and
+E).
+
+
+The XRN1 CIR inhibits CAF1 deadenylation activity in vitro
+
+
+
+To test whether the XRN1 CIR can directly inhibit the
+CCR4–NOT catalytic activity, we performed in vitro deadenylation assays using purified recombinant CCR4–NOT.
+As a substrate, we used a 27 nucleotide (nt) RNA substrate
+labeled with fluorescein at the 5′ end for detection and containing a 20 nt poly(A) at the 3′ end (Figure 3A and B).
+The CCR4–NOT completely degraded the polyadenosine
+sequence within 60 min and was even active toward the nonpoly(A) sequence (Figure 3A, lane 4). We then titrated recombinant MBP/Strep-tagged CIR in this assay and observed partial inhibition of the CCR4–NOT deadenylase
+activity in a dose-dependent manner (Figure 3A, lanes 5,
+6 versus lane 4).
+
+
+The
+two
+enzymatic
+components
+of
+the
+CCR4–
+NOT––CAF1, a DEDD type ribonuclease, and CCR4,
+
+
+EDC4-BM
+
+B
+DCP2*
+
+
+XRN1
+
+MBP
+
+CIR
+
+Cat
+
+100
+
+Relative mRNA levels
+
+80
+
+60
+
+40
+20
+
+
+0
+MS2-HA-SMG7
+
+E
+
+CIR
+
+MBP
+
+CIR
+(hr)
+10
+10
+
+70
+100
+130
+
+anti-GFP
+
+
+HA-MBP
+
+1
+2
+an EEP domain-containing nuclease (64–68)––are both
+required for deadenylation in human cells (69). We asked
+whether CIR interacts directly with either CAF1 or CCR4a
+deadenylase. We observed that MBP/Strep-tagged CIR
+binds to the recombinant CAF1 but not the recombinant
+catalytic domain of CCR4a (CCR4acat) in a pulldown
+assay (Figure 3°C, lane 8 versus lane 7). We then assayed the
+deadenylation activity of full-length CAF1 and observed
+that this enzyme was highly active but not specific for
+polyadenosine (Figure 3D, E). Interestingly, when we
+titrated the MBP/Strep-tagged CIR in the deadenylation
+assays, we observed that the CIR strongly inhibited CAF1
+but not CCR4acat-mediated deadenylation (Figure 3D,
+lanes 8, 9 versus 5, 6).
+
+
+We then asked if the recombinant XRN1 CIR can also
+inhibit CAF1 isolated from human cells, rather than the recombinant enzyme. We immunoprecipitated overexpressed
+GFP-tagged CAF1 from HEK293T cells, added the recombinant CIR or the MBP control and then extensively
+washed the precipitate. Expression of an inactive CAF1*
+
+
+CIR
+CCR4-NOT
+
+A
+B
+C
+
+MBP
+
+M
+
+MBP
+CCR4-NOT
+
+M
+
+CIR
+
+150
+170
+
+
+
+A20
+
+27 nt
+
+100
+70
+
+55
+
+8 nt
+
+A0
+
+7 nt
+
+40
+
+3 nt
+
+35
+
+25
+
+1
+2
+3
+4
+6
+5
+
+1
+2
+
+
+3
+
+D
+E
+
+CCR4cat
+
+MBP
+CAF1
+
+M
+CIR
+
+150
+M
+
+A20
+
+27 nt
+
+100
+
+70
+
+50
+40
+
+7 nt
+
+
+A0
+
+30
+
+20
+
+1
+2
+3
+4
+6
+5
+8
+9
+7
+catalytic mutant (DExAA) served as a control. Exogenously
+expressed GFP-CAF1 and -CAF1* were incorporated into
+the endogenous CCR4–NOT as they efficiently precipitated
+endogenous NOT1, NOT2, NOT3 and CCR4a as evident
+from the western blot (Supplementary Figure S2A). Importantly, in the presence of the CIR, CAF1 did not dissociate from the CCR4–NOT (Supplementary Figure S2A, lane
+4). The GFP-CAF1 immunoprecipitate, but not the GFP-
+CAF1* and GFP-MBP controls, readily deadenylated the
+27 nt RNA substrate (Supplementary Figure S2B, lanes 5–
+8). Addition of the purified recombinant CIR, however, significantly reduced the deadenylation activity of GFP-CAF1
+immunoprecipitate in a time course assay (Supplementary
+Figure S2B, lanes 13–16).
+
+PatL1 competes with the CCR4–NOT for direct binding to
+the XRN1 CIR
+
+
+The human decapping activator PatL1 immunoprecipitates
+with XRN1 and the interaction between them was mapped
+to a region comprising both the catalytic domain and the
+CIR (Figure 1B) (33). Using co-IP, we observed that the catalytic domain is redundant for this interaction and that the
+
+
+MBP
+-Strep
+
+MBP-CIR
+
+IN
+
+-Strep
+
+ cat
+
+CCR4a
+CAF1
+
+M
+
+150
+
+
+
+MBP-CIR
+
+100
+
+70
+
+50
+
+ cat
+
+CCR4a
+
+MBP
+
+40
+
+30
+
+CAF1
+
+20
+
+1
+2
+3 4
+6
+5
+8
+
+
+7
+
+Strep pulldown
+
+CCR4cat
+
+CIR
+CAF1
+
+MBP
+
+1
+2
+3
+4
+
+
+
+CIR is necessary and sufficient for XRN1 to interact with
+PatL1 (Figure 4A).
+
+
+To delineate more precisely the XRN1-binding region on
+
+
+
+PatL1, we performed co-IP of XRN1 with either full-length
+PatL1, N+P (residues 1–398) or M+C (residues 399–770)
+fragments (Figure 4B). This revealed that XRN1 interacts
+with the PatL1 M+C region, but not with the N+P region
+(Supplementary Figure S3A). The PatL1 C truncated
+construct, which lacks the C-terminal portion (residues
+517–770) (Figure 4B), does not precipitate XRN1 suggesting that this region of PatL1 is required to bind XRN1.
+However, the PatL1 C fragment retains binding to NOT1
+(Figure 4°C, lane 6). The important implication here is that
+PatL1 interactions with XRN1 and CCR4–NOT employ
+different regions and are therefore unlikely to be mutually
+exclusive. In pulldown assays with recombinant proteins,
+we observed that the PatL1°C-terminal region, which we
+termed PatL1-C, is necessary and sufficient for the direct
+interaction with the XRN1 CIR (Figure 4D, lane 8).
+
+We then asked if PatL1-C and the CCR4–NOT compete
+for binding to XRN1. To test this, we titrated recombinant
+PatL1-C into the reconstituted recombinant CIR/CCR4–
+
+
+EDC4-BM
+
+EDC4-BM
+
+A
+
+XRN1
+
+XRN1
+
+MBP
+
+MBP
+
+CIR
+
+CIR
+
+Cat
+
+Cat
+GFP:
+
+250
+
+130
+100
+
+anti-GFP
+
+70
+
+55
+
+
+35
+
+HA-PatL1
+
+130
+
+5
+6
+7
+8
+9 10
+
+1
+2
+3
+4
+
+Input
+
+IP 
+
+B
+
+PatL1
+N
+
+
+
+P
+C
+M
+
+69
+398
+517
+
+1
+
+MBP-CIR
+
+MBPStrep
+
+D
+
+-Strep
+Input
+
+
+
+CCR4-NOT
+
+PatL1-C
+M
+
+NOT1
+
+150
+170
+
+MBP-CIR
+
+100
+70
+
+55
+
+MBP
+40
+
+
+35
+
+PatL1-C
+
+25
+
+1 2
+3
+4
+6
+5
+8
+7
+
+Strep pulldown
+
+F
+G
+
+CCR4-NOT
+
+
+
+MBP
+
+CIR
+
+M
+
+PatL1-C
+
+27 nt
+
+A20
+
+8 nt
+
+A0
+
+7 nt
+
+3 nt
+
+1
+2
+3
+4
+5
+6
+7
+8°C
+
+
+PatL1
+
+PatL1
+
+MBP
+
+MBP
+∆C
+
+∆C
+
+GFP:
+
+170
+
+130
+100
+
+anti-GFP
+
+70
+
+
+55
+
+HA-XRN1
+
+130
+170
+
+NOT1
+
+170
+
+1
+2
+3
+4
+
+5 6
+
+Input
+
+IP 
+
+770
+
+
+
+MBP-CIR
+
+MBPStrep
+Input
+
+E
+
+-Strep
+
+CCR4-NOT
+M
+PatL1-C
+
+NOT1
+150
+170
+
+
+MBP-CIR
+
+100
+
+70
+
+55
+
+MBP
+
+40
+
+PatL1-C
+
+35
+
+25
+
+1 2
+3
+4
+6
+5
+8
+7
+
+
+9
+
+Strep pulldown
+
+CIR
+CCR4-NOT
+
+PatL1-C
+
+MBP
+
+M
+
+150
+170
+
+100
+70
+
+55
+
+40
+
+35
+
+1
+2
+3
+4
+25
+
+NOT complex. Strikingly, PatL1-C efficiently displaced the
+CCR4–NOT complex from the CIR in a dose-dependent
+manner (Figure 4E, lane 7–9), suggesting that CCR4–NOT
+and PatL1 interactions with XRN1 are mutually exclusive.
+
+Next, we asked if PatL1 can interfere with the CIRmediated inhibition of CAF1 deadenylase activity. We
+then titrated increasing concentrations of the recombinant PatL1-C in deadenylation assays with recombinant
+MBP/Strep-tagged CIR and the CCR4–NOT (Figure 4F
+and G). Strikingly, the titration of recombinant PatL1-C
+relieved the CIR-mediated inhibition of the CCR4–NOT
+deadenylase activity (Figure 4F, lanes 6 versus 7, 8).
+
+
+Interestingly, we also observed that CIR binds a synthetic
+
+
+
+RNA in an electrophoretic mobility shift assay much more
+efficiently than the isolated CAF1 and CCR4a nucleases
+(Supplementary Figure S3B). This indicated that the CIR
+may exert its inhibitory effect by effectively competing for
+and sequestering the RNA substrate in addition to direct
+interactions with the deadenylase. However, the addition of
+
+
+PatL1-C did not affect the interaction of the CIR with RNA
+while relieving the CIR-mediated inhibition of deadenylation (Supplementary Figure S3°C). This suggests that CIRmediated deadenylation inhibition is unlikely to be the sole
+consequence of direct interactions with the RNA.
+
+Loss of XRN1 leads to accumulation of mRNA decay intermediates
+
+To investigate the function of the XRN1 CIR in 5′–3′
+mRNA decay, we generated an XRN1-null HEK293T cell
+line by CRISPR/Cas9-mediated gene editing. We first verified the targeting of the genomic locus by sequencing (‘Materials and Methods’ section) and then confirmed the absence of XRN1 by western blot (Supplementary Figure
+S5A). The XRN1-null cells were viable and proliferated at
+normal rates consistent with previous reports (70).
+
+We then wondered how the absence of XRN1 would affect the transcriptome and the translatome in cells. To this
+end, we sequenced the mRNA pool (RNA-Seq) and performed ribosome profiling (Ribo-Seq) (49) of the XRN1-
+null HEK293T cells and compared with that of the WT
+cells (Figure 5A and B). Differential gene expression analysis revealed that 2906 mRNAs were significantly upregulated in the XRN1-null cell line (Figure 5A). We then analyzed changes in the TE by comparing the Ribo-Seq and
+RNA-Seq datasets (Figure 5B) (55,71). The TE was significantly reduced for 598 transcripts in the XRN1-null cells
+but just 102 transcripts were evidently enhanced in their TE.
+
+
+Importantly, significant upregulation in mRNA levels was
+negatively correlated with ribosomal occupancy in the absence of XRN1 for a range of cellular transcripts resulting
+in their decreased TE (Figure 5B).
+
+
+A closer inspection of read data coverage in XRN1-
+regulated target mRNAs with decreased TE, such as
+DDX11 and WASH3p, yields some clues for the loss of ribosomal footprints despite upregulation of transcript levels.
+In these transcripts we observed a strong bias in the distribution of the RNA-Seq reads mapped across all exons.
+Specifically, in XRN1-null cells there is a localized and sudden increase in the number of mapped reads toward the 3′
+end (Supplementary Figure S4 A–C). This observation may
+
+be explained by an accumulation of fragmented or cleaved
+mRNAs in XRN1-null cells – possibly as a result of NMD.
+Endonucleolytic cleavage generates both, 5′ and 3′ mRNA
+fragments, but the 5′ fragments are not observed by RNASeq because they lack poly(A) tails. Thus, we have preferentially selected and sequenced uncapped 3′ mRNA fragments that accumulate but are not translated in XRN1-null
+cells. Whether such endonucleolytic cleavage indeed occurs
+in HEK293T cells––and can be observed in the XRN1-null
+background––remains to be verified but this data is consistent with a pervasive accumulation of mRNA decay intermediates, which are not competent for cap-mediated translation.
+
+EDC4 binding to XRN1 relieves CIR-mediated deadenylation repression
+
+
+In XRN1-null cells, SMG7-induced mRNA degradation of
+the -globin-6xMS2bs reporter was impaired but not completely repressed. However, tethering of MS2-HA-SMG7 in
+
+
+XRN1-null, but not in WT cells, led to the accumulation of
+the fast migrating deadenylated (A0) and decapped reporter
+(Figure 5°C, lanes 2, 8 and Supplementary Figure S5B) consistent with impairment of the 5′–3′ exonucleolytic degradation in the absence of XRN1. The overexpression of DCP2*
+(E148Q) stabilized the deadenylated mRNA decay intermediate, which was capped in WT and XRN1-null cells (Figure 5°C, lanes 4, 10 and Supplementary Figure S5B). The
+overexpression of the catalytic inactive mutant paralog of
+CAF1, the deadenylase POP2* (DExAA) (15), stabilized
+the polyadenylated reporter in both cell lines (Figure 5°C,
+lanes 6, 12). Taken together, this data indicates that deadenylation and decapping are not blocked in the absence of
+XRN1 in 5′–3′ decay in human cells consistent with previous observations in HeLa and Dm Schneider 2 (S2) cells
+(33,72).
+
+
+We then performed tethering assays using MS2-tagged
+SMG7 and the -globin-6xMS2bs reporter as above and
+complemented the cells with either GFP-tagged full-length
+XRN1 or fragments (Figure 5D-F and Supplementary Figure S5°C). Exogenous expression of full-length XRN1 restored the exonucleolytic decay of the reporter in XRN1-
+null cells as the deadenylated decay intermediate (A0) no
+longer accumulated (Figure 5E, lane 2 versus 6). The XRN1
+catalytic domain alone was not sufficient to restore exonucleolytic activity (Figure 5E, lane 6 versus 8), and we verified
+the catalytic activity of this domain in an in vitro 5′–3′ exoribonuclease assay (Supplementary Figure S5D) (58). However, the catalytic domain is required as the XRN1 fragment
+in which this domain was deleted was inactive (Figure 5E,
+lane 14). The C-terminal EDC4-BM alone also failed to restore XRN1 activity (Figure 5E, lane 12), but the CIR overexpression correlated with the appearance of partially deadenylated mRNA decay intermediates in XRN1-null cells
+(Figure 5E, lane 10). This suggests that the CIR exerts a
+dominant negative effect on deadenylation and/or decapping prior to 5′–3′ exonucleolytic decay (Figure 5E, lane 10).
+
+
+Intriguingly, overexpression of the fragment comprising
+the CIR and the EDC4-BM (Cat) did not reproduce
+the repression of decay observed with the CIR alone in
+the XRN1-null background, which suggests that interac-
+
+
+B
+A
+
+RNA-Seq
+Ribo-Seq
+
+433 560
+
+2906
+
+4299
+
+2900
+9112
+log2FC (XRN1-null/WT) >0 (FDR<0.005)
+
+log2FC (XRN1-null/WT) <0 (FDR<0.005)
+not significant (FDR≥0.005)
+
+
+WT
+XRN1-null 
+
+C
+POP2*
+
+DCP2*
+
+POP2*
+
+DCP2*
+
+
+MBP
+
+MBP
+
+MS2-HA-SMG7
+
+Control
+
+A n
+A 0
+
+6xMS2bs
+
+1 2 3 4 5 6
+7
+8
+9 10 11 12
+
+
+E
+
+XRN1-null 
+F
+∆EDC4-BM
+
+
+EDC4-BM
+DCP2*
+
+
+XRN1
+∆CIR
+
+∆Cat
+
+
+MBP
+
+CIR
+
+Cat
+
+MS2-HA-SMG7
+
+Control
+
+A n
+A 0
+
+6xMS2bs
+
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 11 12 13 14 15 16 17 18
+
+5.0
+
+log2FC (XRN1-null/WT) RPF
+
+2.5
+
+0.0
+
+-2.5
+
+598
+102
+9405
+
+
+TE decreased
+TE increased
+not significant
+-5.0
+
+-7.5
+
+-7.5
+-5.0
+-2.5
+0.0
+2.5
+5.0
+
+log2FC (XRN1-null/WT) mRNA
+
+
+D
+
+EDC4-BM
+
+CIR
+Catalytic domain
+XRN1
+
+CIR
+∆Cat
+
+
+Catalytic domain
+∆CIR
+
+
+CIR
+Catalytic domain
+∆EDC4-BM
+
+∆EDC4-BM
+
+
+EDC4-BM
+DCP2*
+
+
+XRN1
+∆CIR
+
+∆Cat
+
+
+MBP
+
+CIR
+
+Cat
+
+100
+
+80
+
+Relative mRNA levels
+
+60
+
+40
+
+20
+
+0
+
+
+
+MS2-HA-SMG7
+
+Decapping-dependent mRNA decay
+
+DCP1
+DCP2
+
+m G
+7
+
+
+
+EDC4
+
+PatL1
+EDC4
+
+XRN1
+
+CIR
+
+CAF1
+
+NOT1
+NOT2
+
+AAAAA
+
+NOT3
+
+
+
+Deadenylation
+tions with EDC4 counteract the dominant negative effect
+of the CIR on mRNA decay (Figure 5E, lanes 10, 14).
+The importance of interactions with EDC4 is further underscored by the observation that removing just the EDC4-
+BM from XRN1 also failed to complement and restore decay in XRN1-null cells (Figure 5E, lane 18 and F), which
+is consistent with previous observations in Dm S2 cells (33).
+Another interesting observation is that abrogating the interaction of EDC4 with XRN1 also stabilized the polyadenylated reporter similar to what was observed when the CIR
+was overexpressed (Figure 5E, lane 18). At last, the XRN1
+fragment lacking the CIR did not fully complement SMG7-
+induced 5′–3′ decay consistent with the CIR maintaining interactions important for the XRN1 function in decay (Figure 5E, lane 16 and F).
+
+
+Taken together, although the complementation studies
+point to an overall stimulatory role of the XRN1 CIR in
+decapping-dependent mRNA decay, it is presently not clear,
+however, whether the observed dominant negative effect of
+the XRN1 CIR on deadenylation can be attributed solely
+to the CIR or is a consequence of failure to bind EDC4, or
+it is indeed a combined effect. The complementation analysis revealed, however, that all regions of XRN1 are required
+for its function in 5′–3′ decay: the catalytic domain contains
+the 5′–3′ exonuclease activity; the EDC4-BM bridges interactions with the decapping machinery; and the CIR contributes either by interaction with the CCR4–NOT and/or
+PatL1 (Figure 6).
+
+--- DISCUSSION ---
+XRN1 is a highly processive 5′–3′ exoribonuclease with a
+principal function in the degradation of the products of
+deadenylation-dependent decapping. In addition, XRN1
+also interacts with distinct decapping factors in various
+species suggesting a conserved upstream regulatory role
+
+in decapping-dependent mRNA decay (33,34,36,38). In
+this study, we show that human XRN1 interacts with the
+CCR4–NOT deadenylation complex as well as a decapping
+factor PatL1, thus extending the repertoire of XRN1 interactors beyond the previously reported association with the
+decapping factor EDC4. XRN1 appears to repress deadenylation when overexpressed in human cells and we have
+mapped this repressive function to the low-complexity C-
+terminal region of XRN1, which we termed the CIR.
+
+
+The CIR mediates direct and stable interaction with the
+CCR4–NOT. The fact that we could not delineate a single high-affinity linear motif in the CIR necessary and sufficient to mediate the interaction (data not shown) suggests that XRN1 binds to the CCR4–NOT via multiple motifs embedded within the CIR. Multiple purified, recombinant modules and subcomplexes of CCR4–NOT bind
+the CIR in pulldown assays, which is also consistent with
+an extended binding interface. The C-terminal NOT module appears to be the most prominent of the CCR4–NOT
+modules to interact with the CIR. This module acts as a
+‘hub’ for protein-protein interactions with several mRNA
+specificity factors such as the Dm and vertebrate Nanos,
+the Dm Bicaudal C and the human transcription factor
+ERG (73–75). We also show that the CIR directly interacts with the CAF1 exonuclease but not with the nuclease
+domain of CCR4, and this is consistent with our observations that the CIR blocked CAF1- but not CCR4-mediated
+deadenylase activity in vitro. Direct binding to the CAF1
+exonuclease––supported by additional stabilizing interactions with other parts of the CCR4–NOT––is likely crucial for the repressive effect of XRN1 on the CCR4–NOTmediated mRNA deadenylation in vivo and in vitro.
+
+
+The C-terminal structured region of PatL1 can directly
+compete with the CCR4–NOT complex for binding to the
+CIR and the interactions are mutually exclusive, which suggests that the XRN1-mediated inhibition of deadenylation
+may be regulated by PatL1 (Figure 6). Titrating recombinant PatL1-C protein in vitro appears to relieve the CIRmediated inhibition of the CCR4–NOT deadenylase activity on synthetic RNA substrates. Interestingly, the CIR can
+interact with RNA directly in vitro but this interaction is not
+affected by the addition of PatL1-C. This is consistent with
+a model in which the XRN1 CIR represses CCR4–NOTmediated deadenylation via a direct protein–protein interaction rather than by competing for the substrate and that
+PatL1-C relieves this repression by displacing the CCR4–
+NOT from XRN1 by direct competition for a mutually exclusive binding region within the CIR.
+
+
+Deadenylation and decapping are tightly coupled events
+in the 5′–3′ decay pathway and PatL1 was proposed to be a
+key mediator of this coupling (40). We speculate that XRN1
+may play a previously unappreciated role in regulating or
+coordinating molecular events at the opposite ends of a
+transcript. One possible scenario where this may be relevant is through early recruitment of XRN1 to the CCR4–
+NOT to impose a constraint to prevent premature deadenylation thus eliciting temporal control to dictate a certain sequence of events. Once PatL1 and the necessary decapping
+factors are recruited and correctly assembled to activate the
+
+
+DCP2 decapping enzyme, the deadenylation repression is
+relieved and degradation can proceed––very rapidly––with
+
+all required components of the decay machinery already in
+place and poised on the target mRNA.
+
+The deadenylated and decapped tethered mRNA reporter is stabilized in XRN1-null cells and a transcriptomewide analysis provided evidence for an accumulation of
+bulk mRNA decay intermediates that are not translated.
+In complementation assays in the XRN1-null cells, the catalytic domain of XRN1 alone was insufficient to rescue
+the mRNA decay defect but the C-terminal EDC4-binding
+motif and the CIR were both required although the extent differed. Finer dissection of the contribution of the
+low-complexity C-terminal region of XRN1 toward coordination of decay using complementation analysis revealed two intriguing observations. First, interfering with
+the EDC4 binding to the XRN1 stabilized incompletely
+deadenylated decay intermediates rather than a fully deadenylated mRNA reporter. Second, an XRN1 fragment that
+includes the CIR and the EDC4 binding motif does not repress deadenylation, unlike the CIR on its own. This suggests that the decapping factor EDC4––via direct binding
+to the XRN1––relieves the CIR-mediated repression of the
+CCR4–NOT deadenylase.
+
+
+Taken together, our studies are consistent with a model
+in which XRN1 binding to upstream factors during mRNA
+decay is necessary for efficient recruitment of the exonuclease to its target mRNA and possibly to enable efficient and
+timely decapping. The regulatory role of XRN1 in mRNA
+decay might indeed alternate depending on the availability
+of binding partners––repressing deadenylation when bound
+to CCR4–NOT or stimulating decapping by interaction
+with PatL1 and EDC4 (Figure 6). Further biochemical and
+structural studies with purified recombinant factors supported by functional validation in cells will be necessary
+to elucidate the intricate network of interactions coordinated by XRN1 in the regulation of bulk and targeted 5′–3′
+mRNA decay.

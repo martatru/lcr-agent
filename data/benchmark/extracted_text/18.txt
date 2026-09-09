@@ -1,0 +1,607 @@
+--- SUMMARY ---
+Eukaryotic cells contain large RNA-protein assemblies referred to as RNP granules, whose assembly
+is promoted by both traditional protein interactions
+and intrinsically disordered protein domains. Using
+
+
+RNP granules as an example, we provide evidence
+for an assembly mechanism of large cellular structures wherein specific protein-protein or proteinRNA interactions act together with promiscuous interactions of intrinsically disordered regions (IDRs).
+
+
+This synergistic assembly mechanism illuminates
+RNP granule assembly and explains why many components of RNP granules, and other large dynamic
+assemblies, contain IDRs linked to specific proteinprotein or protein-RNA interaction modules. We suggest assemblies based on combinations of specific
+interactions and promiscuous IDRs are common features of eukaryotic cells.
+
+--- RESULTS ---
+
+
+
+Several Proteins Inhibit LLPS Driven by IDRs In Vitro
+
+
+
+We hypothesized that IDRs of RNA-binding proteins might not
+be sufficient to drive LLPS in the presence of other proteins
+similar to the intracellular environment, despite the observation
+that such IDRs are capable of undergoing LLPS as purified proteins (Elbaum-Garfinkle et al., 2015; Lin et al., 2015; Molliex et al.,
+2015; Nott et al., 2015; Patel et al., 2015; Smith et al., 2016;
+Zhang et al., 2015). Our hypothesis was based on the observations that LLPS driven by IDRs in vitro are thought to occur
+by weak electrostatic, dipolar interactions as well as interactions
+involving aromatic groups (Brangwynne et al., 2015). Because
+these interactions are nonspecific, they are likely relatively promiscuous and could, in principle, occur between an IDR and
+other IDRs or with many other proteins. Moreover, even IDRs
+that have homotypic interactions based on local structural elements might be sensitive to other proteins and be most efficient
+at forming such specific assemblies only in conjunction with specific interactions (Conicella et al., 2016; Xiang et al., 2015). Thus,
+we asked whether IDR-driven LLPS in vitro would be inhibited in
+the presence of other polypeptides, which would be analogous
+to the interior of the cell.
+
+
+To test whether an IDR can promote LLPS in the presence
+of other proteins, we induced LLPS of either full-length
+hnRNPA1Dhexa or only the hnRNPA1IDR region (amino acids
+186–320, Figure 1A) by dilution into lower salt (37 mM NaCl)
+(Lin et al., 2015) in the presence of increasing amounts of BSA.
+
+
+We used the Dhexa-peptide variant of the full-length hnRNPA1
+protein as it is less prone to forming amyloid fibers during
+purification and analysis and behaves similarly to the wild-type
+protein with regards to LLPS (Kim et al., 2013; Lin et al., 2015;
+Molliex et al., 2015). Unless otherwise noted, the fluorescently
+conjugatable SNAP tag was fused with all purified proteins in
+order to visualize droplets.
+
+As the concentration of BSA increased, LLPS for both fulllength SNAP-hnRNPA1Dhexa and the SNAP-hnRNPA1IDR was
+inhibited (Figure 1B). At higher BSA concentrations, we observed
+the formation of some aggregated SNAP-hnRNPA1Dhexa and
+
+
+SNAP-hnRNPA1IDR that contrast with the liquid droplets seen
+in the absence of BSA (Figure 1B). As BSA concentrations increase, droplet sizes decrease and no large droplets form (Figure 1°C). Interestingly, by looking at a subset of droplets of similar
+size across all BSA concentrations, we noticed that as BSA
+concentrations increased the intensities of SNAP-hnRNPA1Dhexa
+droplets decreased (Figure 1D). The distribution of droplet areas
+was approximately equal between samples (Figure 1D, inset). As
+mentioned above, an amorphous precipitate forms at higher
+BSA concentrations, as assemblies get dimmer. While this
+precipitate may represent a third phase, contributing to some
+of the loss of fluorescence intensity, the overall area is much
+smaller than the droplets (Figures 1°C and 1D). Because both
+the area and intensity of aggregates are less than the droplets,
+this suggests that much of the protein within droplets moves
+to the soluble phase at higher BSA concentrations. The partition
+coefficient of LLPS (the ratio of protein within the concentrated
+phase versus within the dilute phase) is a measure of the
+equilibrium between the two states. Therefore, we interpret this
+decrease in intensity to mean that BSA shifts the phase separation equilibrium to one less favorable for SNAP-hnRNP A1Dhexa
+to exist within the concentrated phase. At higher BSA concentrations the equilibrium shifts such that SNAP-hnRNPA1Dhexa
+is below the critical concentration for LLPS. Thus, BSA is an
+inhibitor of LLPS driven by SNAP-hnRNPA1 or its IDR alone
+under these conditions.
+
+To determine if this inhibitory effect is unique to hnRNPA1 and
+
+
+BSA, we examined how untagged BSA, lysozyme, and RNase A
+affected LLPS driven by IDRs found in hnRNPA1, FUS, or eIF4GII,
+
+which have been reported to undergo LLPS at low salt or low
+temperature (Lin et al., 2015; Molliex et al., 2015). We observed
+that LLPS of SNAP-FUSIDR (FUS amino acids 1–237), SNAP-
+eIF4GIIIDR (eIF4GII amino acids 13–97), or SNAP-hnRNPA1IDR
+
+(Figure 1A) were also inhibited by the presence of BSA, lysozyme,
+or RNase A (Figure 2A).
+
+
+To more closely mimic the cellular environment, we examined
+whether IDRs or IDR containing proteins could undergo LLPS
+
+in the presence of yeast lysate, which had been previously
+depleted of small metabolites and exchanged into dropletforming buffer via desalting columns. We observed that LLPS
+of SNAP fusions of hnRNPA1Dhexa, hnRNPA1IDR, and FUSIDR
+are all strongly impaired in yeast lysates, which contained
+10 mg/mL protein (Figure 2B). Yeast lysates are our closest
+approximation of the cellular environment, and we find that
+even lysates 1/10th as concentrated as the cell (Milo, 2013)
+strongly impair LLPS of IDRs. Thus, phase separation of multiple
+
+
+IDRs is sensitive to competition from other molecules within
+the cell.
+
+
+Competitor Proteins Inhibit LLPS In Vitro by Interacting
+with IDRs
+What is the mechanism by which competitor proteins inhibit IDRdriven LLPS in vitro? One possibility is that BSA, lysozyme, and
+RNase A share some specific property or structural feature that
+
+inhibits LLPS of these IDRs. This is unlikely as BSA, lysozyme, and RNase A
+are structurally unrelated, and vary in
+size (66.4, 14.3, and 13.7 kDa, respectively) and pI (5.3, 11.35, and 9.6, respectively). A second possibility is that any
+crowding agent will inhibit LLPS under
+these conditions. However, we observe
+that LLPS driven by hnRNPA1IDR is stimulated by the crowding agents Ficoll and
+
+
+PEG, with phase separation occurring at
+higher ionic strengths and lower protein
+concentrations than without crowding
+agents (Figure S1A) (Lin et al., 2015; Molliex et al., 2015).
+
+A third possibility is that these competitor proteins compete for promiscuous
+interactions between IDRs and thereby
+disrupt LLPS. A prediction of this model
+is that at low concentrations, insufficient
+to block LLPS, the competitor proteins
+would be recruited into the phase separated droplets (due to interactions with
+the IDR). To test this possibility, we
+examined
+the
+recruitment
+of
+directly
+labeled fluorescent BSA or lysozyme
+into droplets formed by IDRs. At low concentrations both proteins were recruited to IDR-driven droplets
+without disrupting the assemblies. For example, at 500 nM concentration fluorescein isothiocyanate (FITC)-BSA was strongly
+enriched in droplets of SNAP-hnRNPA1Dhexa (Figure 3A).
+FITC-lysozyme was also recruited (Figure 3A). Similarly, droplets of SNAP-eIF4GIIIDR, SNAP-hnRNPA1IDR, and SNAP-FUSIDR
+all recruited both FITC-BSA and FITC-lysozyme (Figure 3B).
+
+
+Importantly, neither FITC-PEG nor FITC-Ficoll were enriched
+in droplets of SNAP-hnRNP A1Dhexa (Figures S1B and S1°C).
+
+
+This suggests that these IDRs can interact with both BSA and
+lysozyme, consistent with the idea that competitor proteins
+could compete with the weak interactions that mediate LLPS.
+
+
+The recruitment of other macromolecules to these assemblies
+suggests that these in vitro protein droplets may be complex coacervates. Complex coacervates are phase-separated systems
+containing multiple kinds of macromolecules, typically expected
+to interact through opposing charges (Pak et al., 2016). This also
+
+suggests that other protein components in our mixtures, such as
+TEV or MBP, may in fact be found in and contribute to the droplet
+phase. While we have not investigated this possibility here, it is
+important to consider the possibility of complex coacervation
+in these in vitro systems. In theory, in some systems complex
+coacervation could lead to an increased propensity for phase
+separation. Indeed, we see that some concentrations of lysozyme (8.33 mg/mL and 16.66 mg/mL) have the ability to stimulate
+SNAP-FUSIDR droplet formation (Figure S1D). As the concentration of lysozyme increases, it then begins to inhibit assembly.
+
+
+This stimulatory behavior was not observed for either BSA or
+RNase A (Figure S1D). While complex coacervation can stimulate
+assembly, at higher concentrations of competitor proteins, inhibition of assembly was always observed (Figures 1, 2, and S1D).
+
+
+The above evidence suggests that competitor proteins can
+interact with IDRs, both because these proteins are recruited
+into phase-separated droplets and because they inhibit LLPS
+at higher concentrations. Because these proteins were chosen
+at random and have diverse physical properties, and LLPS
+is also inhibited by metabolite-depleted cell lysates, we suggest that IDRs by themselves are likely to be susceptible
+to such nonspecific interactions in the more complex cellular
+environment. Therefore, in many cases, promiscuous interactions of IDRs are unlikely to be sufficient for RNP granule assembly in cells.
+
+
+IDRs Can Enhance LLPS Driven by
+Specific Interactions in the
+
+
+
+Presence of Competitor Proteins
+Thein vitro results above suggest that IDRIDRinteractionsaresusceptibletocompe-
+tition by the complex protein mixture in the
+cell. However, IDRs are enriched in RNP
+granule proteins (Decker et al., 2007; Jain
+et al., 2016; Kato et al., 2012; Reijns
+et al., 2008), and IDRs can play a role in
+RNP granule assembly (Decker et al.,
+2007; Gilks et al., 2004). In some cases,
+
+
+IDRs contain SLiMs that are important for
+assembly of RNP granules (Jonas and
+Izaurralde, 2013). However, because there
+arecaseswhereinone IDRcanfunctionally
+substitute for another in RNP granule assembly (Decker et al., 2007; Gilks et al.,
+2004), a more generic role for IDRs in
+RNP granule assembly is also likely.
+
+
+We hypothesized that IDRs in proteins that also make specific
+interactions could provide promiscuous, nonspecific interactions that stabilize an RNP granule by acting together with the
+specific interactions. By concentrating the IDRs through specific
+interactions, promiscuous IDR-based interactions are biased to
+other components of the assembly. In this model, specific interactions and nonspecific interactions both donate binding energy
+that promotes LLPS. This model makes two predictions that we
+first tested in vitro.
+
+First, the model predicts that LLPSs driven by specific interactions should be less susceptible to the interference from other
+competitor proteins, and may even be enhanced, given that
+high concentrations of such proteins can serve as crowding
+agents. Consistent with this view, we have shown that the
+LLPS driven by the specific interaction of an RNA-binding protein, poly-pyrimidine tract binding protein (PTB), with RNA is promoted by BSA (Li et al., 2012; Lin et al., 2015), reproduced here.
+
+
+For example, while SNAP-tagged PTB and RNA showed limited
+assembly when mixed together at concentrations of 20 mM and
+1.6 mM, respectively, the addition of 100 mg/mL BSA induced
+robust phase separation at these concentrations (Figure 4A).
+
+
+Consistent with this effect being due to molecular crowding,
+
+
+
+PTB-RNA LLPS is also stimulated by PEG or Ficoll, additional
+crowding agents (Figure 4A). However, it is also possible that
+BSA is contributing via formation of a complex coacervate. In
+
+either case, the specific PTB-RNA interactions are not outcompeted by BSA, allowing for phase separation to occur even in
+the presence of competitor protein.
+
+
+A second prediction of the model is that although IDRs alone
+are not sufficient to drive phase separation in the presence of
+competitor proteins, IDRs would contribute binding energy to
+phase separation driven by specific interactions, decreasing
+the threshold concentration of assembly. To test this prediction,
+we examined how IDRs affect PTB-RNA phase separation in the
+presence of competitor proteins. For example, 4 mM PTB and
+0.32 mM RNA do not phase separate in 100 mg/mL BSA. However, we observed LLPS with identical concentrations of RNA
+and SNAP-PTB, when SNAP-PTB was fused to either the FUS
+or Pub1 IDRs (Figure 4B). SNAP-PTB fused to either IDR showed
+an increase in both the number and size of the assemblies
+visualized (Figure 4°C). We have previously observed that
+under similar conditions neither of these IDRs phase separates
+with RNA (Lin et al., 2015), suggesting this is not the driving
+factor for enhancement of LLPS. Therefore, weak interactions
+of IDRs can enhance phase separation in the presence of
+competitor proteins, when present in molecules that also contain
+
+specific
+interactions
+which
+are
+less
+susceptible to competition from cellular
+macromolecules.
+
+
+IDRs Are Often Neither Sufficient
+nor Necessary In Vivo to Target
+
+
+Components to RNP Granules
+An assembly mechanism for RNP granules driven by specific interactions aided
+by promiscuous interactions of IDRs has
+predictions for how components would
+be recruited to RNP granules. Specifically, one would predict that generally
+
+
+IDRs would not be sufficient to target a
+protein to an RNP granule, unless they
+contained a specific SLiM. Moreover,
+IDRs would not be required for recruitment to a granule, although they could
+affect the partition coefficient (the concentration of a component within versus
+outside of a granule).
+
+To examine how IDRs of yeast proteins affect their targeting to P-bodies,
+we examined if IDRs within Lsm4, Dhh1,
+Pop2, and Ccr4 (Figure 5A) were necessary and/or sufficient
+for their recruitment into P-bodies. The IDRs of Lsm4, Dhh1,
+
+
+Pop2, and Ccr4 were fused separately to either GFP or mCherry
+(Table S1). IDR-fusion proteins were expressed in yeast coexpressing a chromosomally GFP-tagged P-body component
+or containing a secondary plasmid containing a mCherry tagged
+P-body component. These strains still expressed the endogenous versions of these fusion proteins. P-bodies were induced
+by glucose deprivation for 15 min, and the percentage of
+P-bodies containing the IDR fusion protein was counted. For
+example, clear enrichment in P-bodies was detectable for fulllength Dhh1 (Figure 5B). However, the Dhh1 IDR was not sufficient for P-body localization (Figure 5B). Similarly, the IDRs of
+Lsm4, Pop2, and Ccr4, were insufficient for recruitment of GFP
+to P-bodies (Figure 5°C). We then removed these IDRs from their
+full-length proteins and found that deletion of the IDRs in Dhh1,
+Lsm4, Ccr4 had little to no effect on their recruitment to P-bodies
+(Figures 5B and 5°C). However, for the already poorly localized
+Pop2, deletion of the IDR did have a noticeable impact on localization (Figure 5°C). Thus, the IDRs of Dhh1, Lsm4, Ccr4, and
+
+
+Pop2 are not sufficient for GFP recruitment into P-bodies but
+may contribute to protein localization in cases where recruitment
+is already poor such as Pop2.
+
+
+IDRs Can Enhance LLPS Driven by Specific Interactions
+in Cells
+
+
+The observations above suggest cellular assemblies such as
+
+
+
+RNP granules may form with assembly primarily driven by a
+set of specific interactions, with the prevalence of IDR regions
+in such assemblies contributing either a second set of promiscuous nonspecific interactions that would enhance assembly, or
+having specific interactions with themselves that require high
+local concentrations to form. Some IDRs do contribute to RNP
+granule assembly in genetic backgrounds that limit assembly.
+
+
+For example, the C-terminal IDR of Lsm4 is not required for
+P-body assembly normally, but plays a role in a strain lacking
+the P-body scaffold protein Edc3 (Decker et al., 2007).
+
+
+To determine if this may be a more general phenomenon, we
+examined how the C-terminal IDR of the yeast Dhh1 protein promotes P-body formation. In edc3D lsm4DC yeast strains, which
+lack visible P bodies, P-body formation can be partially rescued
+by the addition of a single copy plasmid providing an extra copy
+of the Dhh1 gene, which through specific interactions with RNA
+and Pat1 enhances P-body assembly (Rao and Parker, 2017).
+Overexpression of Dhh1 in an edc3D lsm4DC background creates a cellular context where P-bodies
+are just above the threshold for assembly.
+Dhh1 also has a C-terminal P/Q rich IDR
+(Figure 5). To determine whether this
+C-terminal IDR contributes to P-body assembly, we compared the ability of fulllength Dhh1 and a Dhh1DIDR truncation
+(1–427), which lacks the C-terminal IDR
+(residues 428–506), to rescue P-body formation in an edc3D lsm4DC strain.
+
+
+We found that wild-type Dhh1 rescues
+
+
+
+P-body formation in the edc3D lsm4DC
+strain, yet the Dhh1DIDR variant fails to
+do so (Rao and Parker, 2017) (Figures
+6A and 6B), despite being expressed at
+levels similar to the full-length protein
+(Figure S2A). This demonstrates that the C-terminal IDR of
+
+
+Dhh1, while not required for P-body formation normally, can
+contribute additional interactions that enhance the formation of
+P-bodies when granule assembly is partially impaired.
+
+
+Inprinciple,theIDRofDhh1couldprovideaspecificinteraction,
+perhaps containing a SLiM, or a promiscuous interaction as we
+observed for several IDRs in vitro. If the Dhh1-IDR makes a specific interaction, then it should not be functionally replaceable by
+other IDRs capable of promiscuous interactions. Alternatively, if
+this IDR simply provides additional promiscuous interactions
+then any IDR capable of such interactions should functionally
+replace the Dhh1-IDR in promoting P-body assembly. To distinguish between these possibilities, we determined whether the
+
+
+IDRs of human Lsm4, a P-body component, as well as the IDRs
+of two human stress granule components, hnRNPA1, and the
+
+
+N-terminal domain of FUS, could replace the function of the
+Dhh1 IDR. We also tested the disordered regions of a lateembryogenesis abundant (LEA)-like protein, here referred to as
+LEA-SC (LEA-Group2-like, from the nematode Steinernema carpocapsae, amino acids 1–95). LEA proteins are proposed to provide desiccation protection by interacting promiscuously with
+proteins in the cell, replacing water during desiccation (Hand
+etal.,2011).WeutilizedtheIDRsofhumanproteinsbecausethese
+are very unlikely to contain specific binding partners in yeast.
+
+
+All three granule-component IDRs complemented the P-body
+assembly defect seen in the Dhh1-DIDR construct (Figure 6B).
+Similarly, the LEA-SC protein, also rescued the assembly defect
+(Figure 6°C). Addition of these IDRs does not cause appreciable
+assembly of large structures without glucose deprivation (Figure S2B), demonstrating these assemblies are indeed P-bodies
+and not a different constitutive aggregate.
+
+
+Interestingly, the IDRs tested here are all predicted to have
+somewhat similar predicted structural characteristics. Not all
+IDRs have the same behavior in solution, and these different behaviors can be predicted using the CIDER algorithm (Das et al.,
+
+2015). Depending on the charge density, overall charge distribution, and overall positive or negative charge, IDRs can behave
+in a variety of different ways, such as globules, coils/hairpins,
+or extended swollen coils. Interestingly, all of our IDRs are suggested to be polyampholytes (not enriched for positive or negative charge) that are expected to behave as either globules or
+coils in solution (Figure S3A). Given this, we suggest at least
+the generic class of polyampholytes can contribute to RNP
+granule assembly in a promiscuous manner, and this property
+might be shared by other classes of IDRs, which we have not
+tested to date.
+
+These results argue that the Dhh1 IDR does not provide a specific interaction necessary for P-body assembly, as it can be
+replaced with IDRs from a variety of organisms. This result also
+demonstrates that multiple different IDRs can complement
+the Dhh1DIDR, consistent with promiscuous, nonspecific interactions of the IDRs contributing to RNP granule assembly in
+conjunction with specific interactions.
+
+--- DISCUSSION ---
+
+
+
+RNP granules are cytoplasmic assemblies composed of specific
+groups of cellular proteins and RNA molecules (Jain et al., 2016).
+
+
+In principle, a specific assembly could be assembled in three
+manners: (1) solely a set of specific interactions with a set of
+limited and well-defined binding partners, (2) through a summation of promiscuous interactions, where additive effects of subtle
+differences in interaction propensity lead to specific assemblies,
+or (3) through a combination of specific and promiscuous interactions. This third potential mechanism is supported by genetic
+analyses of the interactions that drive RNP granule assembly
+as well as our own findings. Specific interactions can clearly
+be important for assembly. For example, Edc3 dimerization via
+its YjeF-N domain is important for P-body assembly in yeast
+(Decker et al., 2007). G3BP dimerization, as well as interactions
+with caprin, are important for mammalian stress granule assembly (Kedersha et al., 2016). Some specific interactions can
+involve SLiMs found in IDRs that specifically interact with wellfolded domains of other RNA-binding proteins (reviewed in
+(Jonas and Izaurralde, 2013). One example of this phenomena
+is the disruption of Dcp20s localization to P-bodies in yeast
+caused by deletion of or interference with specific SLiMs in
+
+
+Dcp20s C-terminal IDR, which interact with a surface of Edc3
+(Fromm et al., 2014; Harigaya et al., 2010). Thus, specific interactions between RNA-binding proteins play important roles in
+formation of P-bodies and recruitment of molecules into them.
+
+
+However, we have also shown that promiscuous interactions
+can play a role in assembly.
+
+
+A key contribution of this work is to provide evidence that
+at least some IDRs function to promote RNP granule assembly
+both in cells, and in model biochemical systems, through weak
+interactions that require being coupled to protein domains with
+specific interactions. First, examination of the FUS, hnRNPA1,
+and eIF4GII IDRs reveal that they all interact nonspecifically with
+generic proteins, and those proteins and yeast lysates disrupt
+their ability to undergo LLPS in isolation (Figures 1 and 2). However, when tethered to the PTB RNA-binding protein, whichphase
+separates in the presence of RNA, promiscuous IDRs can promote LLPS, evenin the presence ofcompetitorproteins(Figure4).
+Third, the C-terminal P/Q rich IDR of Dhh1 promotes P-body
+assembly in yeast, and this domain can be replaced by the IDRs
+of human Lsm4, hnRNPA1, or FUS, or by specific LEA proteins
+from brine shrimp or nematodes (Figure 6). The contribution of
+such IDRs to assembly is likely due to the ability of IDRs to promote LLPS through a variety of weak promiscuous interactions
+including electrostatic, cation-p, dipole-dipole, and p-p stacking
+interactions (Brangwynne et al., 2015; Nott et al., 2015), which
+would be enhanced through effects analogous to avidity by
+coupled specific interactions of adjacent domains (Jencks, 1981).
+
+Additional evidence exists that LLPS can be driven by combined specific and non-specific interactions. For example,
+even very high expression levels of hnRNPA1-Cry2 or DDX4-
+Cry2 fusion proteins do not phase separate in cells, unless the
+
+
+Cry2 protein is first triggered to assemble through specific
+light-activated interactions (see Figures 2B and 2°C of Shin
+et al. [2016]). This observation highlights how specific oligomerization domains can act cooperatively with IDRs to promote
+
+
+LLPS in cells, and how some IDRs may be insufficient to
+undergo LLPS without additional oligomerization elements. As
+an example of the importance of non-specific interactions in
+promoting cellular LLPS, the C-terminal IDR of yeast Lsm4
+can enhance yeast P-body formation, but it can be functionally
+replaced in this role by other IDRs (Decker et al., 2007). Moreover, polyQ rich tracts, which are disordered IDRs capable of
+diverse interactions, are prevalent in P-body components and
+RNA-binding proteins (Decker et al., 2007; Reijns et al., 2008),
+and can function in RNP granule assembly in A. gossypii (Lee
+et al., 2015). Similarly, the IDR of MEG-3 is not sufficient
+to from RNP granules in C. elegans embryos, unless the concentration of RNA in embryos was increased by preventing
+RNA turnover (Smith et al., 2016). Taken together, we suggest
+that many IDRs on RNA-binding proteins provide an additional
+layer of nonspecific interactions, and those interactions can
+contribute to granule formation when they synergize with
+more
+specific
+interactions
+to
+stabilize
+the
+macroscopic
+structure.
+
+An important point is that, even when insufficient in themselves to promote LLPS, promiscuous IDRs can decrease the
+critical concentration for phase separation driven by more specific interactions. We demonstrate this phenomenon for phase
+separation of PTB and RNA in vitro (Figure 4) and for P-body assembly in vivo (Figure 6). This highlights that in a phase diagram
+describing an assembly based on specific and promiscuous
+interactions, the addition of promiscuous interactions can shift
+the system from an unassembled state to an assembled state
+(Figures 7A and 7B).
+
+
+Not all IDRs will influence RNP granule formation in the same
+molecular manner. Some IDRs will provide specific interactions through SLiMs (Jonas and Izaurralde, 2013). Some
+IDRs may also afford interaction specificity through formation
+of local structure, such as LARKS (Hughes et al., 2017) or
+amyloid-like cross-beta interactions, that could be important
+in biological contexts where RNP granules need to be longlived or mechanically stable (Boke and Mitchison, 2017; Kato
+et al., 2012) and that should show some sequence specificity.
+
+
+Charge
+patterning
+can
+also
+afford
+sequence
+specificity,
+although likely to a lower degree (Nott et al., 2015; Pak
+et al., 2016). Finally, as suggested here, some IDRs will provide promiscuous interactions that can enhance RNP granule
+assembly. Therefore, interactions undergone by any individual
+
+
+IDR that can contribute to intracellular LLPS likely lay on a
+scale from low affinity and highly promiscuous, to moderate
+affinity and selective.
+
+A priori, there are three general classes of promiscuous interactions that IDRs could contribute to granule assembly. First,
+IDRs could interact with themselves or with other IDRs through
+weak interactions, which is suggested by observations that
+
+both IDR-based hydrogels and phase-separated liquid droplets
+can recruit proteins with different IDRs (Kato et al., 2012; Lin
+et al., 2015). Second, IDRs could have promiscuous interactions
+with RNAs, which is suggested by observations that some IDRs
+cross-link to RNA in vivo (Castello et al., 2016) and some IDRs
+bind RNA in vitro (Lin et al., 2015; Molliex et al., 2015). Finally,
+IDRs could make promiscuous interactions with other wellfolded domains of granule components. Note that promiscuous
+interactions of IDRs with well-folded domains of proteins could
+provide an evolutionary starting point for the formation of SLiMs,
+which are often found in IDRs. An important future goal will be in
+determining how IDRs utilize each of these interaction types to
+contribution to granule formation.
+
+
+Utilizing promiscuous nonspecific interactions of IDRs to
+modulate the assembly of macro-scale complexes has unique
+
+advantages. First, because such nonspecific interactions are not limited to defined
+components or stereospecific arrangements, they can interact promiscuously
+with any number of individual components to enhance assembly. For example,
+in RNP granules, a diversity of mRNPs
+with different RNA-binding proteins can
+be components of the granule. Promiscuous IDRs on RNA-binding proteins could
+interact with any of these mRNPs to
+enhance granule assembly. Moreover,
+
+
+IDRs can be subject to rapid evolution
+and control by post-translational modifications, thus making them ideal components to change granule assembly parameters under selective pressure and in
+response to signaling pathways. Finally,
+we note that because higher-order assemblies are large with respect to a single
+
+
+IDR, promiscuous interactions of IDRs
+will mostly occur within the quinary space
+of the assembly, rather than with proteins
+outside of the assembly. This makes
+large assemblies particularly well suited
+to enhancement by IDRs.
+
+Macromolecularassemblyandconcomitant LLPS mediated by combinations
+of specific and promiscuous interactions
+is a general mechanism for forming dynamic, meso-scale structures in eukaryotic cells. Eukaryotic cells contain many
+such assemblies including RNP granules,
+signaling complexes, DNA damage repair foci, and transcription
+complexes. It is notable that components of all of these assemblies are enriched in IDRs (Banani et al., 2016; Hegde et al.,
+2010; Iakoucheva et al., 2002; Kai, 2016; Minezaki et al., 2006).
+
+
+Thus, we suggest that higher order complexes will often be
+assembled by a combination of specific interactions that drive
+assembly, reinforced by a network of promiscuous nonspecific
+IDR-based interactions, which stabilize the complex because of
+their physical coupling to specific assembly components. Such
+assemblies will be easily modified over time via evolution, or in
+a dynamic sense by signaling pathways and post-translational
+modification. This would occur without having to change
+the underlying specific assembly interactions, thus allowing
+both rapid evolution of and immediate control over intracellular
+assemblies.

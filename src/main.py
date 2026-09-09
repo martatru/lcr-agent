@@ -10,8 +10,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from llm_client import LightLLMClient
-from pdf_parser import parse_pdf
-from text_processor import prepare_full_text, chunk_text
+from text_extractor import parse_pdf, extract_core_results_only, chunk_text
 from validator import validate_lcr_annotations
 from generate_report import generate_html_report
 from post_processor import process_results
@@ -47,7 +46,7 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
         logger.error("Failed to extract text from PDF: %s", pdf_path)
         return []
 
-    clean_text = prepare_full_text(raw_text)
+    clean_text = extract_core_results_only(raw_text)
 
     debug_dir = Path("data/debug")
     debug_dir.mkdir(parents=True, exist_ok=True)

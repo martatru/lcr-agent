@@ -1,0 +1,1264 @@
+--- Results ---
+Prion-like LCRs flanking the FG peptides enable avid binding of
+CPSF6, NUP153, and SEC24°C to HIV-1 cores
+To date, only the low affinity binding of 15-mer anchoring FG peptides
+from CPSF6 and NUP153 to crosslinked CA hexamers have been
+reported6. Here, surface plasmon resonance (SPR) based-experiments
+demonstrated that 15-mer FG peptides CPSF6313-327 and NUP1531409-
+
+1423 bound to CA hexamers with Kd values of ~71 and 131 μM, respectively (Supplementary Table 1), which is consistent with the previous
+results6. The 15-mer SEC24C228-242 FG peptide, which had not been
+examined previously, exhibited an even lower binding affinity (Kd of
+~1070 μM) to crosslinked CA hexamers (Supplementary Table 1).
+
+Could such low affinity binding be sufficient for functional virushost interactions or do other regions in CPSF6, NUP153 and SEC24°C
+enable avid binding of these proteins to HIV-1 cores? We first addressed
+this question by examining the binding efficiency of endogenous, fulllength CPSF6, NUP153 and SEC24°C to pre-formed WT CA nanotubes,
+which closely mimic curved hexameric lattices in native HIV-1 cores9,10.
+All three cellular proteins, which were present at very low (nM) concentrations in lysates of MT4 cells, nearly completely co-pelleted with
+WT CA nanotubes, which was indicative of high affinity binding
+(Fig. 1a–c). As a control, we monitored GAPDH, which, although readily
+detected in cell lysates and unbound fractions, was absent from CA copelleted fractions. When asking what additional regions beyond the FG
+peptide enabled the avid binding of these proteins to CA, we noticed
+that the 15-mer FG peptides in CPSF6, NUP153 and SEC24°C are
+embedded in substantially larger prion-like LCRs (Supplementary
+Fig. 1). The LCRs are distinct, disordered, compositionally biased
+regions commonly found in prion-like proteins and RNA binding
+proteins11,12. The prion-like LCRs show a strong bias for uncharged
+
+amino acids and can self-assemble when provided a relevant template,
+which can involve self-templating as in the case of prions, or templating
+on another macromolecular surface11,13,14. Indeed, LCRs in NUPs,
+including NUP153, are known to contribute to template mediated selfassembly of NUPs into larger structures, such as hydrogels13,15. Furthermore, LCRs in RNA binding proteins mediate liquid-phase transitions that drive ribonucleoprotein granule assembly16. However, it is
+not known if and how LCRs from CPSF6, NUP153 and SEC24°C affect
+interactions of these cellular proteins with HIV-1 cores.
+
+Accordingly, we next examined binding affinities of larger CPSF6,
+NUP153 and SEC24°C fragments, in which the FG peptides were
+embedded within their respective LCRs, to native cores isolated from
+HIV-1 virions. For this, we prepared purified recombinant GST-
+CPSF6261-358(LCR-FG-LCR),
+GST-NUP1531306-1450(LCR-FG-LCR)
+and
+GST-SEC24C196-314(LCR-FG-LCR) (Supplementary Fig. 2a, c). Strikingly,
+the larger fragments from all three proteins bound to HIV-1 cores with
+sub-μM Kd values (Fig. 1d–f). We also examined interactions of isolated
+HIV-1 cores with control proteins GST-CPSF6(FG)/nonLCR, GST-
+NUP153(FG)/nonLCR and GST-SEC24°C(FG)/nonLCR, where the 15-mer
+FG peptides were fully preserved but flanking LCR sequences were
+replaced by non-specific flexible sequences of typical amino acid
+composition (Supplementary Fig. 2b, d). Consistent with low affinity
+binding of the 15-mer peptides to cross-linked hexamers (Supplementary Table 1)6, GST-CPSF6(FG)/nonLCR, GST-NUP153(FG)/nonLCR
+and GST-SEC24°C(FG)/nonLCR failed to effectively bind to HIV-1 cores
+(Fig. 1d–f). These results demonstrate the importance of LCRs for high
+affinity binding of CPSF6, NUP153 and SEC24°C to HIV-1 cores.
+
+We then compared binding to native cores vs isolated crosslinked
+CA hexamers. The results in Fig. 1g show that GST-CPSF6(LCR-FG-LCR),
+GST-NUP153(LCR-FG-LCR) and GST-SEC24°C(LCR-FG-LCR) effectively
+bound to native cores but not to isolated crosslinked hexamers. Since
+native cores contain hexameric CA lattices and CA pentamers, we also
+examined binding of GST-CPSF6(LCR-FG-LCR), GST-NUP153(LCR-FGLCR) and GST-SEC24°C(LCR-FG-LCR) to tubular CA assemblies which
+contain only hexameric CA lattices. The results in Fig. 1h show that like
+the full-length endogenous proteins (Fig. 1a–c), the LCR-FG-LCR constructs from CPSF6, NUP153 and SEC24°C effectively bound to preformed hexameric CA lattices. Collectively, our biochemical results
+indicate that avid binding of CPSF6, NUP153 and SEC24°C to HIV-1 cores
+requires interactions of their LCR-FG-LCR segments with hexameric CA
+lattices.
+
+The LCR is essential for CPSF6 interaction with HIV-1 cores in
+infected cells
+Over a decade of research into the roles of CPSF6 in HIV-1 infection has
+established a battery of powerful virology assays. We exploited these
+methodologies to examine contributions of the CPSF6 LCR to HIV-1
+ingress. To specifically interrogate possible roles of the LCR, we
+designed chimeric constructs in the context of full-length CPSF6, where
+native LCRs, which flank the FG peptide (CPSF6313-327), were replaced
+with either nonLCR or alternative prion-like LCRs from other proteins
+that do not interact with HIV-1 CA1 (Supplementary Fig. 3). The two
+examples of nonLCR regions were chosen from Beta-adducin (ADD2)
+and Neuromodulin (NEURM)17,18, as these protein segments are known to
+be highly flexible like the CPSF6 LCR. However, unlike CPSF6 LCR, the
+selected nonLCRs contain typical levels of charged residues17,18 (Supplementary Fig. 4a). The two examples of alternative, prion-like LCRs
+were chosen from RNA-binding protein FUS (FUS) and Cyclin-dependent
+kinase 19 (CDK19)19–21, which in common with the CPSF6 LCR, are both
+flexible and exhibit a strong bias for uncharged amino acids (Supplementary Fig. 4a)22. AlphaFold structural predictions for WT CPSF6261-358
+and corresponding chimeric constructs revealed thatin each case the CA
+binding CPSF6 FG peptide adopted a “U” shaped conformation, whereas
+flanking LCR and nonLCR sequences were, as designed, disordered
+(Supplementary Fig. 4b). In the experimental setting with the full-length
+
+unbound bound
+unbound bound
+unbound bound
+a
+b
+c
+
+kDa
+
+kDa
+
+220-
+
+120-
+100-
+
+
+NUP153
+SEC24°C
+120-
+100-
+80-
+60-
+50-
+40-
+30-
+
+80-
+
+
+CPSF6
+
+60-
+50-
+
+40-
+30-
+GAPDH
+
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+
+1
+2
+3
+4
+5
+d
+e
+f
+
+NUP153(LCR-FG-LCR)
+Kd = 0.31 ± 0.05 μM
+
+CPSF6(LCR-FG-LCR)
+Kd = 0.89 ± 0.04 μM
+
+80
+
+100
+
+80
+
+)l
+m
+/
+g
+n
+( 
+4
+2
+p
+
+)l
+m
+/
+g
+n
+( 
+4
+2
+p
+
+60
+
+60
+
+40
+
+40
+
+CPSF6(FG)/
+nonLCR
+NUP153(FG)/
+nonLCR
+
+20
+
+20
+
+100
+101
+102
+103
+104
+0
+
+100
+101
+102
+103
+104
+0
+
+GST-CPSF6 (nM)
+GST-SEC24°C (nM)
+GST-NUP153 (nM)
+
+g
+h
+
+
+CPSF6261-358
+NUP1531306-1450
+SEC24C196-314
+chimeric proteins, all other CPSF6 sequences were preserved (Supplementary Fig. 3a). These constructs were expressed in CPSF6 KO
+HEK293T (CKO) cells by gammaretroviral transduction (Supplementary
+Fig. 3b, c), and various roles of CPSF6 in HIV-1 infection were monitored
+in the resulting cell lines.
+
+We tested the association of chimeric proteins with HIV-1 cores in
+infected cells with proximity ligation assays (PLAs). The results in Fig. 2
+show that, unlike CPSF6/WT that efficiently interacts with HIV-1 cores,
+the chimeric proteins CPSF6/AD and CPSF6/NE containing non-LCRs
+fail to associate with cores in infected cells. Strikingly, substitution of
+native LCRs with alternative, prion-like LCRs in CPSF6/FU and CPSF6/
+CD provided effective gain-of-binding (Fig. 2). Control immunostaining experiments revealed that all chimeric proteins, including
+
+kDa
+
+220-
+
+120-
+100-
+
+80-
+60-
+50-
+
+40-
+30-
+
+
+GAPDH
+GAPDH
+SEC24°C(LCR-FG-LCR)
+Kd = 0.81 ± 0.09 μM
+
+120
+
+100
+
+)l
+m
+/
+g
+n
+( 
+4
+2
+p
+
+80
+
+60
+
+40
+
+SEC24°C(FG)/
+nonLCR
+
+20
+
+100
+101
+102
+103
+104
+0
+
+unbound bound
+
+kDa
+
+
+GST-CPSF6261-358
+49-
+
+38-
+
+49-
+
+38-
+GST-NUP1531306-1450
+
+
+
+GST-SEC24C196-314
+49-
+
+38-
+1
+2
+3
+4
+5
+GST-SEC24C196-314(LCR-FG-LCR) vs GST-SEC24°C(FG)/nonLCR (f). The results
+were analyzed by Origin 2019 (v.9.6) software to determine binding Kd values.
+Each data point represents mean values + /−SD from three independent
+experiments. Source data are provided as a Source Data file. g Quantitation of
+GST-mediated affinity pull-down of isolated native HIV-1 cores vs crosslinked
+CA hexamers with 2 μM GST-CPSF6261-358(LCR-FG-LCR) (left), GST-
+NUP1531306-1450(LCR-FG-LCR) (middle) and GST-SEC24C196-314(LCR-FG-LCR)
+(right). Mean values + /−SD from three independent experiments are shown.
+Source data are provided as a Source Data file. h Representative immunoblots
+of three independent experiments showing co-pelleting of GST-CPSF6261-
+
+358(LCR-FG-LCR) (top), GST-NUP1531306-1450(LCR-FG-LCR) (middle) and GST-
+SEC24C196-314(LCR-FG-LCR) (bottom) with pre-formed CA nanotubes. The
+experiments were repeated 3 times independently with similar results.
+
+nonLCR and LCR constructs, exhibited nuclear distribution that closely mimicked WT CPSF6 (Supplementary Fig. 3c). The unaltered
+nuclear localization is likely due to preservation of the C-terminal RS
+domain, which is important for nuclear import of CPSF623, in the chimeric proteins (Supplementary Fig. 3a).
+
+Complementary biochemical assays tested binding of the purified
+recombinant GST-CPSF6261-358 and corresponding chimeric proteins
+to isolated HIV-1 cores (Supplementary Fig. 5). Results in Supplementary Fig. 5c show that chimeric GST-CPSF6(FG)/AD and GST-
+CPSF6(FG)/NE proteins, which contained the 15-mer FG peptide but
+lacked the flanking LCR content, failed to bind HIV-1 cores. In contrast,
+the chimeric proteins GST-CPSF6(FG)/FU and GST-CPSF6(FG)/CD,
+where the 15-mer peptide was flanked by alternative, prion-like LCRs,
+
+avidly bound to HIV-1 cores with Kd values comparable to GST-
+CPSF6261-358/WT. Collectively, our PLA and biochemical assays indicate
+that the LCRs flanking the FG peptide enable avid CPSF6 interaction
+with HIV-1 cores in infected cells and in vitro.
+
+The LCR is required for CPSF6’s function in HIV-1 infection
+CPSF6 mediates HIV-1 nuclear import and the subsequent transport of
+viral replication complexes (VRC) to NSs, which in turn results in highly
+selective HIV-1 integration into SPADs and gene rich regions4,5,24. While
+CPSF6 depletion does not detectably influence HIV-1 infection in
+HEK293T cells, in the absence of CPSF6 VRCs are uncharacteristically
+localized at the nuclear periphery resulting in integration within
+adjacent lamina-associated domains (LADs)4,5,25.
+
+Here, we examined how chimeric proteins affected HIV-1 infectivity, nuclear import, colocalization with NSs, and SPAD-proximal
+integration targeting. Akin to WT CPSF6, overexpression of nonLCR or
+LCR containing chimeric proteins did not detectably alter HIV-1
+infectivity in CKO cells (Supplementary Fig. 6a). In CKO cells expressing the chimeric nonLCR containing CPSF6/AD and CPSF6/NE proteins VRCs failed to effectively penetrate deeper inside the nucleus and
+instead, they accumulated at the nuclear periphery over the course of
+8 h (Fig. 3 and Supplementary Fig. 6b–d). In contrast, cells expressing
+CPSF6/FU and CPSF6/CD, which contained alternative, prion-like LCRs
+flanking the FG peptide, supported HIV-1 transport inside the nucleus
+to the sites of NSs with similar efficiency and kinetics as WT CPSF6-
+expressing cells (Fig. 3 and Supplementary Fig. 6b–d). These results
+indicate that nonLCR containing chimeric CPSF6/AD and CPSF6/NE
+proteins fail to engage with HIV-1 during infection, whereas LCR containing CPSF6/FU and CPSF6/CD can effectively substitute for WT
+CPSF6 during HIV-1 nuclear import and transport to NSs.
+
+HIV-1 trafficking to NS is accompanied by marked accumulation of
+CPSF6 around HIV-1 cores (Supplementary Fig. 7a)4,26,27. Unlike CPSF6/
+WT, the nonLCR based chimeric CPSF6/AD and CPSF6/NE proteins
+lacked this property (Supplementary Fig. 7b, c). By contrast, LCR
+containing chimeric CPSF6/FU and CPSF6/CD proteins strongly accumulated around HIV-1 cores in the nucleus of infected cells (Supplementary Fig. 7b, c).
+
+In complementary assays, we determined sites of HIV-1 integration selectivity (Fig. 4 and Supplementary Table 2). Expression of the
+chimeric proteins CPSF6/AD and CPSF6/NE, which lacked the LCR
+context for the FG peptide, exhibited HIV-1 integration patterns similar
+to those observed in CKO cells (Fig. 4 and Supplementary Table 2). In
+contrast, chimeric proteins CPSF6/FU and CPSF6/CD containing
+alternative LCRs directed HIV-1 integration into SPADs (Fig. 4a and
+Supplementary Table 2) and gene-dense regions (Fig. 4b and Supplementary Table 2) similarly to WT CPSF6. Conversely, the CPSF6/FU and
+CPSF6/CD chimeric proteins redirected HIV-1 integration away from
+LADs (Fig. 4c and Supplementary Table 2). Collectively, these loss- and
+gain-of-function assays indicate an essential role of the LCR for functional CPSF6 interactions in HIV-1-infected cells.
+
+Cryo-EM analysis of GST-CPSF6261-358(LCR-FG-LCR) bound to
+
+
+IP6-stabilized CA nanotubes
+To obtain structural insight into how CPSF6 LCRs contribute to binding avidity we used cryo-EM to image GST-CPSF6261-358(LCR-FG-LCR)
+bound to IP6-stabilized CA nanotubes (Fig. 5 and Supplementary
+Figs 9–11, Supplementary Table 3). Images of nanotubes incubated
+with GST-CPSF6(LCR-FG-LCR), and corresponding class averages,
+consistently showed lines of non-CA density extending alongside the
+nanotubes (Fig. 5a). In contrast, no additional density was observed
+when pre-formed, IP6-stabilized CA nanotubes were incubated with
+GST-CPSF6(ΔFG) (Fig. 5b) or with GST-CPSF6(FG)/nonLCR in which the
+15-mer FG peptide was preserved but flanking LCRs were replaced by
+nonLCR sequences (Fig. 5c). Biochemical results in Supplementary
+Fig. 8 explain why GST-CPSF6 density was not observed in cryo-EM
+
+CPSF6/WT
+CPSF6/FU
+CPSF6/CD
+
+a
+
+
+CKO
+CPSF6/AD
+CPSF6/NE
+
+b
+
+60
+
+Number of puncta/cell 
+
+40
+
+20
+
+0
+
+nonLCR
+
+
+LCR
+class averages upon addition of GST-CPSF6(ΔFG) or GST-CPSF6(FG)/
+non-LCR construct to CA nanotubes.
+
+In agreement with what was observed in class averages, a cryo-EM
+map of GST-CPSF6(LCR-FG-LCR) bound to IP6-stabilized CA nanotubes (overall resolution 7.9 Å) (Fig. 5 and Supplementary Table 3),
+filtered according to local resolution, showed a well-ordered CA
+nanotube with more flexible CPSF6 density (Supplementary Fig. 9).
+The CPSF6 density is connected to the CA hexamers at discrete positions (Fig. 5d–h and Supplementary Fig. 10), while GST tag density is
+distal from the helical nanotube. CPSF6 contacts to adjoining CA
+hexamers most likely correspond to FG peptide binding to the cognate
+CA hydrophobic pockets seen in published6,28 and our crystal structures of the CA hexamer + IP6 + CPSF6313–327 peptide complex (Supplementary Fig. 12 and Supplementary Table 4). Importantly, we note
+that short FG peptide binding to isolated CA hexamers seen in our
+X-ray structure (Supplementary Fig. 12), and CPSF6(LCR-FG-LCR)
+binding to the mature CA lattice in our cryo-EM map (Fig. 5g) exhibit
+different stoichiometries. This is discussed below in the context of
+LEN’s mode of action.
+
+
+CKO
+a
+CPSF6/NE
+
+CPSF6/FU
+
+CPSF6/AD
+
+
+INsfGFP
+SON
+Merge
+>70%
+
+>70%
+
+
+NA
+
+NA
+
+b
+c
+
+
+
+CPSF6 contact points on CA were connected by continuous
+CPSF6 density running along the flattest helical direction of the CA
+nanotube between adjoining rows of CA hexamers (Fig. 5f, h). Both
+GST and CPSF6 densities were absent from a cryo-EM map when GST-
+CPSF6(ΔFG) was added to CA nanotubes (Supplementary Fig. 10b, c).
+
+
+The pattern of CPSF6 density observed in cryo-EM maps of GST-
+CPSF6(LCR-FG-LCR) bound to IP6-stabilized CA tubes calculated from
+images of tubes with different helical symmetries is conserved, with
+the only significant difference being a change in the orientation of
+connected CPSF6 density corresponding to the change in the orientation of rows of CA hexamers in the helical tubes (Supplementary
+Fig. 11a).
+
+Overall, the cryo-EM map of GST-CPSF6(LCR-FG-LCR) bound to
+IP6-stabilized CA tubes defined the distribution of CPSF6 density
+including its contact points to CA hexamers as well as the position of
+the N-terminal GST tag. Based on these constraints, we were able to
+derive an initial model for interaction of CPSF6 with the CA hexamer
+lattice (Supplementary Fig. 11b), which suggests that the LCR sequence
+N-terminal of the FG peptide primarily accounts for the bulk of CPSF6
+density apparent in the cryo-EM map. This interpretation is supported
+by additional independent results (see the next section). While the
+limited resolution of the cryo-EM map did not allow us to delineate
+different LCR conformations or specific details of LCR-LCR interactions, our principal cryo-EM findings (Fig. 5g, h) strongly point to a
+bimodal assembly of CPSF6 onto CA nanotubes: i) anchoring CPSF6 FG
+
+CPSF6/WT
+
+CPSF6/CD
+
+>70%
+
+significances of comparison of CPSF6/WT versus CPSF6/AD, CPSF6/NE, CPSF6/FU,
+CPSF6/CD and CKO (in b, c) were determined by Student’s two-sample, two-tailed t-
+test. P-values of CPSF6/AD, CPSF6/NE, CPSF6/FU, CPSF6/CD and CKO are 1.1E-05,
+1.7E-05, 0.6, 0.09, 1.7E-05 (in b) and 8.8E-05, 9.2E-05, 0.69, 0.22, 8.5E-05 (in c),
+respectively. P > 0.05 was considered not significant (ns) and p < 0.001 was considered highly significant (***). Source data are provided as a Source Data file.
+CPSF6/AD CPSF6/ADD2, CPSF6/NE CPSF6/NEURM, CPSF6/FU CPSF6/FUS, CPSF6/
+CD CPSF6/CDK19, CPSF6/WT CPSF6/wild-type CPSF6, CKO CPSF6 knock-out, LCR
+low complexity region.
+
+peptides (Supplementary Fig. 11b, green ellipses) bind to adjoining CA
+hexamers by directly engaging a cognate hydrophobic pocket from
+each hexamer; ii) LCR-LCR interactions (LCRs from adjacent CPSF6
+molecules are represented by yellow and red lines in Supplementary
+Fig. 11b) enable polyvalent CPSF6 assembly on the CA hexamer lattice
+and drive enhanced CPSF6 binding affinity.
+
+In the cryo-EM map of GST-CPSF6(LCR-FG-LCR) bound to IP6-
+stabilized CA nanotubes, density corresponding to GST tags (necessary for preparation of sufficient quantities of recombinant CPSF6
+proteins for structural studies) extends outwards and away from the
+CA tubes + CPSF6(LCR-FG-LCR) complex (Fig. 5e and Supplementary
+Fig. 10c). These GST-tags do not contribute to either CPSF6-CA or
+CPSF6-CPSF6 interactions. This is consistent with biochemical data
+comparing GST-CPSF6(LCR-FG-LCR) vs GST-CPSF6(FG)/nonLCR constructs (Supplementary Fig. 8), which clearly pointed to a critical role
+of the LCRs for high affinity binding and argue against GST contributions to these interactions. Furthermore, our extensive virology
+experiments (Figs. 2–4), which did not employ GST-tag constructs,
+also highlighted the importance of the LCRs for functional virus-host
+interactions. It is worth noting that GST positioning in the cryo-EM
+map suggests that the similarly-sized CPSF61-261 fragment, which is
+absent in our construct due to solubility issues, could similarly extend
+outwards from CA capsids in the context of full length CPSF6, allowing
+polyvalent LCR-FG-LCR interactions like the ones observed with the
+CPSF6 construct used in our cryo-EM studies.
+
+Conformational analysis of GST-CPSF6261-358(LCR-FG-LCR)
+bound to CA-hexamer lattice from all-atom (AA) molecular
+dynamics (MD) simulations
+In cryo-EM maps, CPSF6 density was observed along the interface
+formed by rows of adjoining CA hexamers, illustrating polyvalent
+assembly of CPSF6 templated by the CA lattice. To characterize the
+CPSF6 conformations and the LCR-LCR interactions driving the polyvalent assembly of CPSF6 we performed AA MD of GST-CPSF6261-358
+bound to the CA hexamer lattice. Because performing all-atom simulations of CPSF6 assembly templated by a CA nanotube for a large
+array of CA hexamers would be prohibitively expensive, we simulated a
+minimal system of three GST-CPSF6261-358 copies bound to a CA lattice
+consisting of 4 hexamers. The following integrative modeling
+approach was employed. First, we positioned the GST dimers based on
+the location of the respective cryo-EM density. FG peptides bound to
+CA hexamer complexes were generated based on the X-ray crystal
+structure of the CA hexamer+ IP6 + CPSF6313–327 complex (Supplementary Fig. 12) and placed onto adjoining CA hexamers in accordance
+with the cryo-EM maps (Fig. 5). Finally, the N-terminal LCR for each
+CPSF6 chain was modeled based on the density observed in the cryoEM maps. The C-terminal LCR segment for each CPSF6 chain was
+appended to the FG peptide to avoid overlapping contacts with
+N-terminal LCR segments of the adjoining CPSF6 chains and the CA
+hexamers. This initial arrangement of three GST-CPSF6261-358 chains
+bound to the 4 CA hexamer lattice fragment was used as the starting
+point for performing three independent 1 μs-long simulations (Supplementary Fig. 13).
+
+
+To characterize the conformational ensembles of the tri-CPSF6
+complex we clustered the conformations sampled in the AA MD trajectories based on a root-mean-square deviation-based criteria (see
+details in Materials and Methods). In all major clusters (Supplementary
+Fig. 13d), the CPSF6 chains remained inter-associated and formed a
+highly interactive network spanning multiple CA hexamers. In the
+mutually associated state, the tri-CPSF6 complex did not adopt a
+specific dominant conformation, but dynamically sampled multiple
+conformations that cumulatively contribute to the overall spatial
+density of CPSF6. To facilitate direct comparison with the cryo-EM
+maps we calculated the time-averaged 3D density of Ca atoms in
+CPSF6261-358 (Supplementary Fig. 13d). The resulting density map of
+the tri-CPSF6 complex revealed its spatial distribution relative to the
+CA hexamers. During the simulations, CPSF6 FG peptides remain
+localized at the initially modeled hydrophobic CA pockets. In contrast,
+the density of the N-terminal and C-terminal LCR regions was distributed along the interface formed by the CA hexamer rows and
+extended outwards from the CA lattice surface.
+
+Taken together, the results from our AA MD simulations demonstrate the following. The 15-mer FG peptide directly binds in the
+hydrophobic CA pocket in agreement with prior and current biochemical and X-ray crystallography data. The flanking N-terminal and
+C-terminal LCRs populate the region between the rows of CA hexamers
+above the CA lattice. The N-terminal LCRs primarily contribute to the
+CPSF6-CPSF6 assembly forming a network of interacting CPSF6 chains
+templated by the CA lattice. Finally, unlike what one would expect for
+interactions in an array of proteins with well-defined secondary
+structures, an ensemble of N-terminal LCR conformations mediate the
+formation of a highly interactive network of primarily unstructured
+CPSF6 chains. The conformational ensembles of the tri-CPSF6 complex observed in our AA MD simulations can be interpreted as the
+minimal LCR-mediated motifs for large-scale assembly of CPSF6 templated by a mature CA lattice (Fig. 5h).
+
+HDX-MS analysis of GST-CPSF6(LCR-FG-LCR) interactions with
+
+
+IP6-stabilized CA tubes
+To further test the scenario suggested by our cryo-EM and AA MD
+simulation
+findings,
+we
+analyzed
+GST-CPSF6261-358(LCR-FG-LCR)
+
+a
+
+nonLCR
+
+
+LCR
+
+b
+
+nonLCR
+LCR
+
+c
+
+nonLCR
+LCR
+interactions with IP6-stabilized CA tubes by HDX-MS (Fig. 6, Supplementary Fig. 14 and Supplementary Table 5), which is a powerful tool
+for probing protein-protein interactions29. Protections in CA are summarized in Supplementary Fig. 14a. The CA peptide fragments that
+
+a
+b
+c
+
+
+CPSF6
+
+d
+e
+f
+
+CPSF6
+GST
+
+g
+h
+
+2
+1
+
+CPSF6
+CPSF6
+
+100nM
+
+1
+
+1
+
+
+
+2
+
+CPSF6
+
+GST
+
+CPSF6
+experiments were repeated 3 times independently with similar results. Front (d)
+and end (e) views of a cryo-EM map (~7.9 Å overall resolution) of a CA(A92E)
+nanotube in the presence of GST-CPSF6261-358(LCR-FG-LCR), filtered by local resolution and colored by radial distance from the center of the nanotube (CA in gray,
+CPSF6 in orange, GST dimers in semi-transparent magenta to help visualize CA and
+CPSF6 density). Front views of the same cryo-EM map, sliced at the two planes
+indicated in e, show continuous CPSF6 density arising from LCR interactions (f), as
+well as CPSF6 discrete contact points with the CA hexamer lattice (g) and their
+correspondence to continuous LCR density (h) (the doted circles mark the positions of CPSF6-CA contact points shown in g).
+
+
+CA
+CA
+CA(203-213)+2
+a
+
+CA(203-213)+2
+b
+
+-
++
+CPSF6(WT) -
++
+CPSF6(ΔFG)
+
+GST-CPSF6(WT)
+GST-CPSF6(ΔFG)
+
+CPSF6(266-315)+4
+CPSF6(316-358)+4
+
+CPSF6(316-358)+4
+c
+
+-
++
+
+
+CA
+-
++
+
+
+CA
+exhibited statistically significant protection mapped to the FG peptide
+binding hydrophobic CA pocket and its immediate vicinity (Fig. 6a, b
+and Supplementary Fig. 14a). These protections are shown in the
+context of our X-ray structure of CAhex + IP6 + CPSF6313-327 (Fig. 6b). No
+additional protections were observed at other CA regions. In control
+experiments with GST-CPSF6(ΔFG), no protection was observed in CA
+(Fig. 6a, Supplementary Fig. 14a). These findings support our cryo-EM
+and AA MD simulation studies indicating that GST-CPSF6261-358(LCRFG-LCR) contacts to tubular CA lattices are limited to the FG peptide
+binding to the cognate hydrophobic CA pocket.
+
+
+Protections in GST-CPSF6 are summarized in Supplementary
+Fig. 14b. Because of the unusual amino acid sequence of the CPSF6
+LCR, pepsin hydrolysis yielded a limited number of CPSF6 peptides,
+albeit two large peptides, CPSF6(266-315) and CPSF6(316-358), provided near complete coverage of the CPSF6 LCR. Both CPSF6(266-315)
+and CPSF6(316-358) peptides exhibited statistically significant protection in the context of GST-CPSF6261-358(LCR-FG-LCR) + CA nanotubes but not with GST-CPSF6261-358(ΔFG) + CA nanotubes (Fig. 6c, d).
+Protection of the CPSF6(316-358) peptide (Fig. 6c), which includes the
+FG anchoring peptide and the C-terminal LCR, displayed the complementarity to protection seen in CA (Fig. 6a) consistent with the 15-
+mer FG peptide binding to the hydrophobic CA pocket (Supplementary Fig. 12)6. However, our HDX results did not allow us to discern
+whether the C-terminal LCR also contributed to the observed protection of the CPSF6(316-358) peptide.
+
+Importantly, protection of the CPSF6(266-315) peptide in the
+context of GST-CPSF6261-358(LCR-FG-LCR) + CA nanotubes but not with
+
+GST-CPSF6(WT)
+GST-CPSF6(ΔFG)
+
+CPSF6(266-315)+4
+d
+
+-
++
+
+
+CA
+-
++
+
+
+CA
+shown. CPSF6 FG peptide is in magenta. The 10 s HDX results for CPSF6 peptides aa
+316-358 containing the FG peptide + C-terminal LCR (c) and aa 266-315 containing
+N-terminal LCR (d) that are specifically protected in WT GST-CPSF6261-358 but not in
+GST-CPSF6261-358(ΔFG) upon incubation with IP6-stabilized CA(A92E) tubes. Gray
+and cyan bars show HDX values for the indicated CPSF6 peptides in the presence vs
+absence of IP6-stabilized CA(A92E) tubes, respectively. Consolidated results from
+differential HDX-MS comparing WT GST-CPSF6261-358 vs GST-CPSF6261-358(ΔFG) in
+the presence of IP6-stabilized CA(A92E) tubes are shown in Supplementary Fig. 14b.
+The averaged data (+/−SD) from six independent experiments are shown. Statistical analysis of samples was carried out with Student’s two-sample, two-tailed t-test
+Source data are provided as a Source Data file.
+
+GST-CPSF6261-358(ΔFG) + CA nanotubes (Fig. 6d) suggest a role of the
+N-terminal LCR in CPSF6-CPSF6 interactions. Specifically, these HDXMS results are in excellent agreement with our cryo-EM and AA MD
+simulation findings showing that the N-terminal LCRs primarily mediate CPSF6-CPSF6 interactions (Supplementary Figs. 11b and 13d). The
+lack of HDX-MS protections in the GST fragment is also consistent with
+our cryo-EM and biochemistry experiments, which indicated that GST
+does not contribute to CPSF6-CA or CPSF6-CPSF6 interactions (Supplementary Fig. 14b).
+
+--- Taken together, HDX-MS results reinforce our interpretation ---
+of the cryo-EM and AA MD simulation data indicating bimodal
+binding of CPSF6 to CA hexameric lattices: i) the CPSF6 FG peptide directly engages the hydrophobic CA pocket; and ii) the
+hexameric CA lattice promotes LCR-mediated CPSF6-CPSF6
+interactions.
+
+--- Validation of the structural results ---
+While the above biochemistry and virology results (Figs. 1–4) are in
+complete agreement with the structural findings (Figs. 5–6), we
+extended our virology experiments to further examine the significance
+of LCR-LCR interactions (Figs. 7 and 8, Supplementary Fig. 15). For this,
+we utilized C-terminal truncated CPSF61-358 constructs. Due to the lack
+of the RS domain, considerable amounts of CPSF61-358 are present in
+the cytoplasm and potently restrict HIV-1 nuclear import and
+infection27,30,31. This approach coupled with mutagenesis experiments
+enabled identification of CPSF6 FG residues essential for binding to
+HIV-1 CA31. However, roles of the CPSF6 regions implicated in LCR-LCR
+
+
+FG
+a
+
+1
+261
+CPSF6358 /WT
+
+CPSF6358/WT 
+EIPIFGLKAGQTPPRPPLGPPGPPGPPGPPPPGQVLPPPLAGPPNRGDRPPPPVLFPGQPFGQPPLGPLPPGPPPPVPGYGPPPGPPPPQQGPPPPPG
+
+CPSF6358(ΔFG)
+EIPIFGLKAGQTPPRPPLGPPGPPGPPGPPPPGQVLPPPLAGPPNRGDRPPPPVLFPGQP--QPPLGPLPPGPPPPVPGYGPPPGPPPPQQGPPPPPG
+
+CPSF6358/mP-FGp
+EIPIFGLKAGQTPPRPPLGPPGPPGPPGPPPPGQVLPPPLAGPPNRGDRPPPGVLFGGQSFGQGSLGPLPPGPPPPVPGYGPPPGPPPPQQGPPPPPG 
+
+CPSF6358/mP-LCR 
+EISIFGLKAGQTTSRYGLGSYGSYGQSGNTGYGQVLTYQLAGSTNRGDRSQSPVLFPGQPFGQPPLGSLSSGGQQSVYGYGGQQGAYSSQQGSYGSSG 
+
+CPSF6358/mP-ED 
+EIEIFGLKAGQTDERDELGDEGDEGDEGDEDEGQVLDEDLAGEDNRGDREDEPVLFPGQPFGQPPLGDLEDGEDEDVEGYGDEDGEDEDQQGEDEDEG
+
+CPSF6358/NE 
+AAEAEANKKDEAPVADGVEKKGEGTTTAEAAPATGSKPDEPGKAGETPSEEKPVLFPGQPFGQPPLGKGEGDAATEQAAPQAPASSEEKAGSAETESA
+
+CPSF6358/FU 
+QQSYSGYSQSTDTSGYGQSSYSSYGQSQNTGYGTQSTPQGYGSTGGYGSSQSPVLFPGQPFGQPPLGSQSSYGQQSSYPGYGQQPAPSSTSGSYGSSS
+
+CPSF6358(ΔFG)/FU
+QQSYSGYSQSTDTSGYGQSSYSSYGQSQNTGYGTQSTPQGYGSTGGYGSSQSPVLFPGQP--QPPLGSQSSYGQQSSYPGYGQQPAPSSTSGSYGSSS
+
+b
+
+interactions by our cryo-EM and HDX-MS have not been analyzed
+previously.
+
+We specifically asked whether LCR flexibility per se was sufficient
+or whether its ability to self-assemble was also required for functional
+CPSF6 interactions with HIV-1 cores. CPSF6(LCR-FG-LCR) contains
+~49% Pro residues (Supplementary Fig. 1b). The structural results
+(Supplementary Fig. 12)6 suggest a key role of Pro residues for the 15-
+mer anchoring FG peptide to adopt a U-shape needed to effectively
+dock into the hydrophobic CA pocket. Indeed, the substitution of Pro
+residues within the 15-mer anchoring peptide was detrimental for
+CPSF61-358’s ability to restrict HIV-1 infection (Fig. 7). However, contributions of Pro residues in the context of flanking LCRs are unknown.
+Accordingly, we substituted Pro residues in flanking LCRs with either
+charged (Glu and Asp, termed CPSF6358/mED) or uncharged, LCRdefining (Ala, Gly, Asn, Ser, Thr, Gln and Tyr, termed CPSF6358/mLCR)
+amino acids (Fig. 7a). While both constructs are expected to be
+unstructured or highly flexible, only CPSF6358/mED would preclude
+CPSF6-CPSF6 self-assembly seen in cryo-EM due to the charge repulsions. Strikingly, CPSF6358/mED completely failed to restrict HIV-1,
+whereas CPSF6358/mLCR retained WT CPSF61-358 levels of HIV-1
+restriction (Fig. 7b).
+
+Consistent with these results, the following additional experiments with the chimeric proteins also indicated that LCR-LCR interactions rather than a high Pro content per se is important for
+
+
+LCR
+LCR
+
+358
+
+327
+313
+were substituted with charged residues Glu or Asp. CPSF6358/NE: the LCR segments
+of CPSF6358 were replaced with non-LCR counterparts from NEURM97-179. CPSF6358/
+FU: the LCR segments of CPSF6358 were replaced with alternative LCR from FUS35-
+
+117. CPSF6358(ΔFG)/FU: FG residues were deleted from CPSF6358/FU. b Relative
+infectivity of VSV-G pseudotyped HIV-1 in the Hela cells stably overexpressing
+proteins shown in a. Infectivity was normalized to CPSF6358(ΔFG). The averaged
+data (+/−SD) from three independent experiments are shown. Source data are
+provided as a Source Data file.
+
+functionally essential avid binding of CPSF6 to mature CA lattices
+(Fig. 7a, b). We substituted the LCRs with non-LCRs from NEURM
+(CPSF6358/NE) or alternative prion-like LCRs from FUS (CPSF6358/FU),
+which is known to self-assemble when an appropriate template is
+provided32. Both NEURM and FUS segments are highly flexible and
+contain usual levels of Pro (Supplementary Fig. 4a). Yet, the CPSF6358/
+NE chimeric protein was inactive, whereas CPSF6358/FU effectively
+restricted HIV-1 (Fig. 7b). Consistent with the requirement of hexameric CA lattices as a template for LCR-LCR assembly, deletion of the
+FG dipeptide from the 15-mer anchoring peptide CPSF6358(ΔFG)/FU
+failed to restrict HIV-1 infection. Collectively, these results further
+validate our structural findings of bimodal binding of CPSF6 to curved
+hexameric CA lattices with the U-shaped 15-mer FG peptide directly
+engaging with the hydrophobic CA pocket and flanking LCRs promoting CPSF6-CPSF6 interactions.
+
+The next set of experiments focused on delineating the roles of
+the N- and C-terminal LCR sequences by substituting these regions
+with usual (nonLCR) amino acid sequences (Fig. 8). Consistent with the
+virology experiments with full-length CPSF6 constructs (Figs. 2–4),
+substitutions of both N- and C-terminal LCRs impaired the ability of
+CPSF61-358 to restrict HIV-1 infection (Fig. 8). The substitution of the
+N-terminal LCR was detrimental, whereas the C-terminal LCR was dispensable for CPSF61-358 interactions with HIV-1 in infected cells. These
+virology results are fully consistent with the cryo-EM and AA MD
+
+a
+
+1
+261
+CPSF6358/WT
+
+EIPIFGLKAGQTPPRPPLGPPGPPGPPGPPPPGQVLPPPLAGPPNRGDRPPPPVLFPGQPFGQPPLGPLPPGPPPPVPGYGPPPGPPPPQQGPPPPPG
+
+1
+CPSF6358/m(N+C)
+
+AAEAEANKKDEAPVADGVEKKGEGTTTAEAAPATGSKPDEPGKAGETPSEEKPVLFPGQPFGQPPLGKGEGDAATEQAAPQAPASSEEKAGSAETESA
+
+1
+CPSF6358/mN
+
+AAEAEANKKDEAPVADGVEKKGEGTTTAEAAPATGSKPDEPGKAGETPSEEKPVLFPGQPFGQPPLGPLPPGPPPPVPGYGPPPGPPPPQQGPPPPPG
+
+
+LCR
+CPSF6358/mC
+
+1
+
+EIPIFGLKAGQTPPRPPLGPPGPPGPPGPPPPGQVLPPPLAGPPNRGDRPPPPVLFPGQPFGQPPLGKGEGDAATEQAAPQAPASSEEKAGSAETESA
+
+b
+
+simulation findings, which revealed crucial roles of both the N-terminal
+LCR and 15-mer FG peptide for bimodal binding of CPSF6 to hexameric
+CA lattices.
+
+
+LEN interacts with HIV-1 cores at unoccupied hydrophobic CA
+pockets without displacing pre-bound CPSF6
+While published studies7,8 indicated a multi-step, dose dependent
+inhibition of early steps of HIV-1 infection by LEN, the primary antiviral
+mode of action of the inhibitor is not clear. Two distinct mechanisms
+have been proposed for the ability of LEN and its very close analog GS-
+CA1 to potently inhibit HIV-1 ingress: i) outcompete the FG containing
+cellular cofactors from HIV-1 cores, and ii) compromise functional
+flexibility of the HIV-1 CA lattice7,8,33,34. Link et al. suggested that high
+potency of the inhibitor is due to the block of the nuclear import of
+viral cDNA via direct competition with host-cell nuclear import
+cofactors NUP153 and CPSF67. However, we noticed that effective
+block of nuclear import required 5 nM LEN, whereas 0.5 nM inhibitor
+only partly impaired nuclear import of viral cDNA, yet fully inhibited
+integration8 suggesting that LEN could be most active post-nuclear
+entry. These discrepancies between published reports7,8 prompted us
+to delineate the primary mode of LEN antiviral action.
+
+To test the ability of LEN to block HIV-1 within the nucleus, we
+compared antiviral activities upon addition of the inhibitor prior to
+infection (0 h post-infection; hpi) vs after HIV-1 nuclear import (4 and
+
+
+LCR
+LCR
+
+FG
+
+327
+313
+
+358
+
+Non-LCR
+Non-LCR
+
+FG
+
+261
+327
+313
+358
+
+
+FG
+
+Non-LCR
+LCR
+
+261
+327
+313
+358
+
+Non-LCR
+
+FG
+
+261
+327
+313
+358°C-terminal LCR was replaced with non-LCR sequences from NEURM97-179. b Relative
+infectivity of VSV-G pseudotyped HIV-1 in the Hela cells stably overexpressing
+proteins shown in a. Infectivity was normalized to CPSF6358/m(N + C). The averaged
+data (+/−SD) from three independent experiments are shown. Source data are
+provided as a Source Data file. LCR low complexity region.
+
+8 hpi). Similar, pM levels of EC50 values observed for these different
+time points (Fig. 9a) indicated that LEN is highly potent post-nuclear
+entry where it encounters CPSF6-HIV-1 core complexes. Therefore,
+follow up experiments investigated the interplay between LEN, CPSF6
+and HIV-1 in the nucleus.
+
+
+We checked how varying cellular levels of CPSF6 affected LEN
+EC50 values by comparing inhibitor activities in WT, CPSF6 KO, and
+CPSF6-overexpressing HEK293T cells (Fig. 9b, c). The results in Fig. 9c
+indicated that LEN exhibited comparable EC50 values across these cell
+lines, which suggested the following possibilities: i) LEN readily displaces CPSF6 from HIV-1 cores; or ii) LEN can interact with HIV-1 cores
+at unoccupied hydrophobic CA pockets without displacing pre-bound
+CPSF6 and thereby inhibit infection. To test these possibilities, we
+allowed CPSF6 to engage with HIV-1 in the nucleus during 8 h of
+infection, and then added varying concentrations of LEN (Fig. 9d, e).
+
+
+Strikingly,
+LEN
+concentrations
+that
+markedly
+(>1,000-fold)
+exceeded its antiviral EC50 values (~165 pM) were needed to disrupt
+CPSF6-HIV-1 complexes in the nucleus of infected cells (compare
+Fig. 9a, e). Complementary biochemical assays yielded similar results
+(Fig. 9f). While LEN bound to CA hexamers with Kd of ~ 240 pM7, much
+(>1,000-fold) higher inhibitor concentrations were required to displace GST-CPSF6261-358 from isolated HIV-1 cores (Fig. 9f). Additional
+biochemical experiments examined interactions of LEN and GST-
+CPSF6261-358 with preformed CA nanotubes (Supplementary Fig. 16c,
+
+0 hpi EC50 = 109 ± 14.4 pM
+4 hpi EC50 = 135 ± 3 pM
+8 hpi EC50 = 165.6 ± 8.7 pM
+WT EC50 = 97.9 ± 5.5 pM
+CKO EC50 = 150.6 ± 3.5 pM
+WT + CPSF6 EC50 = 124.7 ± 3.4 pM
+
+c
+b
+a
+
+120
+
+100
+
+kDa
+
+n
+o
+it
+c
+e
+f
+n
+I 
+%
+
+80
+
+100-
+80-
+
+60
+
+40
+
+60-
+50-
+
+20
+
+40-
+
+100
+101
+102
+103
+104
+0
+
+30-
+
+LEN (pM)
+
+d
+
+HIV+CPSF6+DAPI
+CPSF6+DAPI
+
+e
+f
+
+LEN (nM)
+
+d). In the presence of 1.5 M NaCl, where CA nanotubes were formed
+and remained stable, addition of LEN did not displace pre-bound GST-
+CPSF6261-358 (compare lanes 4 with 2 in Supplementary Fig. 16c). Upon
+subsequent exposure of these complexes, which were pre-formed in
+the high ionic strength buffer (Supplementary Fig. 16c), to 0.15 mM
+NaCl-containing buffer lacking IP6 resulted in marked dissociation of
+
+120
+
+100
+
+% Infection
+
+80
+
+
+60
+
+CPSF6
+
+40
+
+20
+
+GAPDH
+
+100
+101
+102
+103
+104
+0
+LEN (pM)
+
+LEN (μM)
+
+not-colocalized with CPSF6, respectively. Insignificant nuclearimport occurswithin
+30 min of LEN treatment. Scale bar is 5 μm. e Analysis of background subtracted
+CPSF6 fluorescence associated with nuclear IN puncta in d. All data points (n = 553
+for DMSO; n = 740 for 0.5 nM LEN; n = 389 for 5 nM LEN; n = 746 for 50 nM LEN;
+n = 309 for 500 nM LEN; n = 412 for 5000 nM LEN) obtained from a total of three
+independent experiments are overlayed. Statistical significance of comparison of
+indicated concentration of LEN versus DMSO control was determined by nonparametric Mann-Whitney two-tailed rank sum test. P-values for 0.5, 5, 50, 500 and
+5000 nM LEN were 0.21, 0.66, 1.3E-24, 1.7E-22, 2.5E-28, respectively. ***p < 0.0001.
+ns: not significant. Source data are provided as a Source Data file. f Isolated HIV-1
+cores were incubated with 2 μM GST-CPSF6261-358 for 20 min. DMSO control or
+indicated concentrations of LEN were added to the mixture and incubated for
+20 min. The HIV-1 cores pulled-down by GST-CPSF6261-358 through glutathione
+sepharose beads were detected by ELISA. The averaged data (+/−SD) from three
+independent experiments are shown. Source data are provided as a Source Data
+file. LEN lenacapavir, a.u. arbitrary units.
+
+CA nanotubes in the absence and presence of GST-CPSF6261-358 (lanes 1
+and 2, Supplementary Fig. 16d). In sharp contrast, LEN strikingly stabilized CA nanotubes as well as the CA + GST-CPSF6261-358 complex
+without displacing the cellular cofactor (lanes 3 and 4, Supplementary
+Fig. 16d). Taken together, these findings indicate that the primary
+antiviral activity of LEN is not through displacing CPSF6 from HIV-1
+
+cores. Instead, the inhibitor hyper-stabilizes the CA lattice despite the
+presence of bound CPSF6. The requirement for very high LEN concentrations to outcompete CPSF6 from HIV-1 cores supports our
+principal findings that CPSF6 is tightly bound to the mature CA lattice
+in the nucleus.
+
+
+How can pharmacologically relevant concentrations of LEN gain
+access to cognate hydrophobic CA pockets in the context of CPSF6
+bound to HIV-1 cores? The answer to this question is provided by our
+cryo-EM and biochemical studies (Fig. 5 and Supplementary Fig. 16). In
+contrast to our X-ray crystal structure (Supplementary Fig. 12a), which
+shows six CPSF6 FG peptides bound to six hydrophobic pockets in an
+isolated CA hexamer, our cryo-EM studies reveal the differential, substoichiometric binding of CPSF6(LCR-FG-LCR) molecules to extended
+CA lattices (Fig. 5). Furthermore, our biochemical assays determined a
+stoichiometry of ~2.4 GST-CPSF6(LCR-FG-LCR) molecules bound to
+each CA hexamer in the context of tubular CA assemblies (Supplementary Fig. 16a, b). Taken together, our results indicate that LCR-LCR
+interactions (Fig. 5h, Supplementary Figs. 11 and 13), which are lacking
+from the substantially shorter CPSF6 FG peptide used in the X-ray
+crystallography experiments (Supplementary Fig. 12), dictate the
+observed pattern and stoichiometry of CPSF6(LCR-FG-LCR) binding to
+extended hexameric CA lattices. In turn, our cryo-EM findings reveal
+that even upon avid, multivalent assembly of CPSF6 on hexameric CA
+lattices, four hydrophobic pockets per each CA hexamer remain
+readily accessible for LEN binding. Thus, LEN does not have to outcompete tightly bound CPSF6 from HIV-1 cores. Instead, the inhibitor
+effectively engages with unoccupied hydrophobic CA sites and allosterically modulates the mature CA lattice. These structural observations are fully consistent with the virology results (Fig. 9a–e), which
+clearly delineate that LEN can potently and effectively inhibit HIV-1
+inside the nucleus of infected cells without outcompeting CPSF6 from
+HIV-1 cores.
+
+--- Discussion ---
+Our virology, biochemistry and structural biology studies have collectively elucidated the previously unknown mechanism for prion-like
+LCR mediated avid virus-host interactions during HIV-1 infection. We
+show that, unlike low affinity interactions of the respective FG peptides
+to isolated CA hexamers6, CPSF6, NUP153 and SEC24°C avidly bind to
+the biologically relevant mature CA lattice (Fig. 1). These interactions
+require not only the FG peptide but prion-like LCRs that are present in
+each of these proteins. Our cryo-EM and HDX-MS studies reveal that
+prion-like LCR-LCR interactions enable polyvalent assembly of CPSF6
+onto hexameric CA lattices. In turn, CPSF6-CPSF6 interactions are
+templated by binding of the embedded FG peptides to a subset of
+cognate hydrophobic CA pockets positioned along adjoining hexamers (Fig. 5 and Supplementary Fig. 11). This notion is supported by the
+observations that CPSF6(ΔFG) failed to induce CPSF6-CPSF6 interactions in vitro in the presence of the mature CA lattice (Fig. 6 and
+Supplementary Fig. 14) or in infected cells4.
+
+The bimodal mechanism of CPSF6 binding to HIV-1 cores is conceptually reminiscent of TRIM-5α binding to hexameric CA lattices,
+which is mediated by i) a very low binding affinity of the SPRY domain
+to CA, and ii) TRIM5α-TRIM5α interactions35 that markedly enhance
+avidity for these virus-host interactions. Clearly, the structural details
+of CPSF6 and TRIM5-α interactions with HIV-1 cores diverge substantially because i) CPSF6 FG peptide and as yet to be identified
+TRIM5a SPRY binding sites on CA are likely to be different; ii) TRIM5α-
+TRIM5α assemblies are mediated by B-box 2 and coiled-coil interactions resulting in a TRIM5α hexagonal cage surrounding the hexameric
+CA lattices35, whereas LCR-LCR interactions enable multivalent CPSF6
+assembly in zig-zagging lines extending between adjoining CA hexamers (Fig. 5f, h and Supplementary Fig. 11b). While our cryo-EM
+experiments have been performed with tubular CA assemblies and
+GST-CPSF6261-358, our virology studies have validated an essential role
+
+of the LCR in the context of full-length CPSF6 interactions with HIV-1
+cores in infected cells (Figs. 2–4 and Supplementary Fig. 7). We also
+note close structural similarities between curved hexameric CA lattices
+in the context of tubular assemblies versus native conical capsid9,10.
+Therefore, it is logical to propose that the LCR-LCR interactions, which
+exhibit high conformational flexibility (Supplementary Fig. 13), mediate avid, polyvalent assembly of CPSF6 molecules onto the conical
+capsid during early steps of HIV-1 replication.
+
+
+While previous reports referred to CPSF6261-358 as a Pro rich
+region, Pro content varies substantially in CPSF6261-358 (~49 %),
+NUP1531306-1450 (~14 %) and SEC24C196-314 (~25 %). Instead, we noticed
+that the common feature of these three CA binding cellular proteins is
+that the FG peptides are embedded in prion-like LCRs, which are characterized by strong bias for uncharged residues and respective scarcity
+of charged residues (Supplementary Fig. 1). All three CPSF6261-358,
+
+
+NUP1531306-1450
+and
+SEC24C196-314
+protein
+segments
+required
+respective LCRs for high affinity binding to HIV-1 cores (Fig. 1). Furthermore, our detailed structural and mechanistic studies with CPSF6
+clarified the importance of LCR-LCR interactions rather than the Pro
+content per se for the functional virus-host interactions. Since SEC24°C,
+NUP153 and CPSF6 are predominantly present in the cytoplasm, the
+NPC and the nucleus, respectively, we suggest that the avid prion-like
+LCR mediated virus-host interactions are utilized throughout early
+steps of infection to enable HIV-1 to effectively traffic across the cytoplasm, transit the NPC, and complete the journey inside the nucleus to
+integrate into chromatin.
+
+Although roles of prion-like LCRs have been extensively studied in the context of neurodegenerative diseases14, it is increasingly clear that such interactions are needed for normal functions
+of LCR containing proteins. For example, prion-like properties
+enable NUPs, including NUP153, to self-assemble within the nuclear
+pore-complex (NPC)13,15. Unlike NUPs, CPSF6 is broadly distributed
+within the nucleus of uninfected cells (Supplementary Fig. 7).
+
+
+Instead, CPSF6 strongly accumulates around HIV-1 cores in the
+nuclei of infected cells (Supplementary Fig. 7)4,26,27. In excellent
+agreement with these observations, our cryo-EM and HDX-MS
+studies revealed that the curved hexameric CA lattice templated
+multivalent assembly of GST-CPSF6261-358(LCR-FG-LCR), whereas
+no self-assembly was observed with purified GST-CPSF6261-358
+(LCR-FG-LCR) alone. Furthermore, our structural and virology
+findings are in agreement with recent reports36,37 indicating that
+viral cores are imported inside the nucleus. The experiments with
+chimeric proteins demonstrate a crucial role of CPSF6 LCR for
+binding to and co-trafficking with HIV-1 cores within the nuclear
+interior to preferred sites of integration into SPADs (Figs. 2–4). To
+accomplish these functions, the CPSF6 LCR would require a template consisting of large hexameric CA lattices rather than isolated
+CA hexamers (Figs. 1 and 5).
+
+Our characterization of CPSF6 interactions with HIV-1 CA lattices
+provided unexpected, important insight into the highly potent antiviral activity of LEN. While the crystal structures have suggested
+mutually exclusive binding of short FG peptides vs LENs to each of six
+hydrophobic pockets in an isolated CA hexamer7,8 (Supplementary
+Fig. 12), our cryo-EM and biochemistry experiments reveal that
+CPSF6(LCR-FG-LCR) molecules engage only a subset of hydrophobic
+sites in the context of biologically relevant, extended HIV-1 CA lattices
+(Fig. 5g). Accordingly, LEN could readily access the unoccupied
+hydrophobic CA pockets in the presence of bound CPSF6 and hyperstabilize the CA lattice (Supplementary Fig. 16). Consistent with these
+structural and biochemical observations, the virology experiments in
+Fig. 9 show that the inhibitor can potently and effectively impair HIV-1
+inside the nucleus without outcompeting tightly bound CPSF6 from
+virus cores. Conversely, LEN is markedly (>1,000-fold) less effective at
+displacing CPSF6 from HIV-1 cores (Fig. 9). Taken together, our virology, biochemistry and structural biology experiments delineate that
+
+the primary antiviral activity of LEN does not rely on displacing CPSF6
+from HIV-1 cores and instead, the inhibitor functionally compromises
+necessary pliability of the CA lattice (Supplementary Fig. 16)8,34. Follow
+up studies are warranted to characterize the interplay between LEN
+and other FG motif containing proteins such as NUP153 and SEC24°C
+with HIV-1 cores to elucidate additional, albeit less potent antiviral
+activities of this multimodal inhibitor during nuclear import and
+cytoplasmic trafficking. In addition, our findings reported here about
+the primary mode of action of LEN will inform future efforts of
+rationally developing improved LEN analogs.

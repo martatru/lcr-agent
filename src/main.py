@@ -17,6 +17,16 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
+# PROMPT_LCR = """You are an expert biocuration AI. Your task is to exhaustively extract ALL Low Complexity Regions (LCRs/LCDs/IDRs/PLDs) mentioned in the text—both those with explicit residue numbers and those described qualitatively.
+
+# Guidelines:
+# 1. Extract every protein mentioned to contain or form an LCR/LCD (e.g., FUS, TIA1, hnRNPA1, hnRNPA2, CIRBP, RBM3, Sup35, TDP43, FMRP).
+# 2. If numerical residue coordinates are given (e.g., 'residues 2-214'), extract them as strings in start_of_annotation and end_of_annotation. If no numbers are provided in the text, set them to 'Unspecified'.
+# 3. 'evidence' MUST be an exact verbatim sentence from the text proving the LCR and its position/function.
+# 4. In 'curator_note', state whether exact numbers were found OR add a suggestion like: "Qualitative mention of [Protein] LC domain - suggest looking up canonical sequence boundaries in UniProt".
+# 5. If no LCRs are found at all, return an empty list.
+# """
+
 PROMPT_LCR = """Your task is to go through the text provided, read it thoroughly, and identify the exact presence or close-remote relationship of the following keywords: low-complexity, low-complexity region(s), 
 LCR, repeat(s), tandem repeat(s), repetitive, instrinsically disordered region(s), IDP, IDR, and any other related terms that indicate the presence of a low-complexity region (LCR) or low-complexity domain (LCD) 
 in a protein. 
@@ -61,7 +71,8 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
     for idx, chunk in enumerate(chunks):
         logger.info("Processing chunk %d/%d...", idx + 1, len(chunks))
         annotations = await client.generate_lcr_annotations(PROMPT_LCR, chunk)
-
+        
+        all_annotations.extend(annotations)
 
         debug_logs.append({
             "chunk_index": idx,
@@ -69,7 +80,6 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
             "raw_extracted_count": len(annotations),
             "raw_annotations": annotations,
         })
-
 
         if idx < len(chunks) - 1:
             await asyncio.sleep(20)

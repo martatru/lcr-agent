@@ -1,0 +1,482 @@
+[
+  {
+    "title": "14-3-3/Tau molecular glues modulate",
+    "abstract": "The intrinsically disordered protein Tau is highly phosphorylated under pathological conditions, which, among others, results in Tau liquid-liquid phase separation (LLPS), followed by aggregation. The hub protein 14-3-3 regulates Tau protein solubility and prevents LLPS by binding with phosphorylated Tau residues pS214 and pS324. Here, we report the stabilization of this Tau/14-3-3 protein-protein interaction (PPI) using reversible-covalent small-molecule molecular glues. By strengthening the 14-3-3/Tau interaction the molecular glues enhance the effect of 14-3-3 on Tau solubility in LLPS. This demonstrates the potential of modulating the 14-3-3/Tau PPI for novel drug discovery efforts in neurodegenerative diseases.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42712752",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 4,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": true,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "The",
+    "abstract": "The tumor suppressor protein breast cancer type 1 susceptibility protein (BRCA1) plays a central role in maintaining genome stability through its involvement in DNA damage repair, transcriptional regulation, and cell-cycle control. BRCA1 functions as an obligate heterodimer with its binding partner, the BRCA1-associated RING domain protein 1 (BARD1), to coordinate accurate DNA repair. While the structured N- and C-terminal domains of BRCA1 have been well-characterized, the large central region encoded largely by exon 11 that comprises ~ 80% of the protein, is intrinsically disordered, and remains poorly structurally characterized. This intrinsically disordered region (IDR) harbors critical interaction interfaces for key proteins involved in genome maintenance, including RAD50, RAD51, MYC, and RB. Here, we report the backbone resonance assignments of a BRCA1 IDR construct spanning residues 467-696, providing a foundation for future studies aimed at understanding how the disordered central region of BRCA1 contributes to homologous recombination, interactions with BARD1, and overall BRCA1 tumor suppressor function.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42693354",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 4,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": true,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "The",
+    "abstract": "The BRCA1-associated RING domain protein 1 (BARD1) is the obligate binding partner of the tumor suppressor breast cancer type 1 susceptibility protein (BRCA1) and plays a critical role in maintaining genome integrity. BARD1 contains structured N- and C-terminal domains that mediate heterodimerization with BRCA1, recognition of chromatin marks, and DNA repair functions. Approximately 40% of BARD1 is intrinsically disordered, particularly in the central region of the protein. This intrinsically disordered region (IDR) engages DNA and key repair proteins such as RAD51, BLM, and WRN. DNA binding through the BARD1 IDR facilitates H2A ubiquitination by the BRCA1-BARD1 complex and is essential for stimulating long-range DNA end resection during homologous recombination, underscoring its role in accurate DNA repair. Despite these insights, structural characterization of the IDR remains limited, leaving questions regarding its functional interplay with BRCA1 and other repair factors unresolved. Here, we report the backbone resonance assignments of a BARD1 IDR construct spanning residues 124-270, providing a foundation for future studies aimed at understanding how the disordered regions of BARD1 interact with various binding partners, and cooperates with itself and BRCA1 to regulate genome stability.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42678585",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 4,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": true,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "A Regulatory Element in the Intrinsically Disordered C-Terminal Region of LMTK3 Modulates Its Kinase Domain Interactions and Breast Cancer Phenotypes.",
+    "abstract": "Lemur tail kinase 3 (LMTK3) is an oncogenic Ser/Thr kinase implicated in breast cancer (BC) progression, therapy resistance, and poor clinical outcomes, yet the molecular mechanisms governing its regulation remain poorly understood, particularly the role of its C-terminal intrinsically disordered region (IDR). Given that IDRs frequently harbour hidden structural motifs that control protein dynamics, we combined computational, biophysical, and biochemical approaches to systematically map regulatory elements within the LMTK3 C-terminus, identifying two regions (residues 688-1095 and 1181-1486) that interact with the LMTK3 kinase domain (LMTK3-KD). Characterisation of these interactions revealed that LMTK3",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42645201",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 4,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": true,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Comparative K",
+    "abstract": "Accurate quantification of binding affinities for intrinsically disordered regions (IDRs) is challenged by their flexibility and propensity for aggregation, often requiring cross-validation across distinct biophysical methods. Here, we investigated the interaction between interacting domains of karyopherin β1 (KapN) and Nup153 (Nup153 3-2), a highly aggregation-prone IDR fragment of nucleoporin 153. To circumvent experimental time constraints imposed by rapid sample aggregation, we employed a suite of short-timescale methodologies: NMR chemical shift perturbations (CSPs), lineshape analysis,",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42691522",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 4,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": true,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "A Phosphorylation-Induced Micellization Switch in the Low-Complexity Domain of TDP-43.",
+    "abstract": "Phase separation (PS) of the low-complexity domain (LCD) of TAR DNA-binding protein 43 kDa (TDP-43) is linked to pathogenic aggregates in amyotrophic lateral sclerosis (ALS) and frontotemporal lobar degeneration (FTLD-TDP). Here, we show that extensive phosphorylation of the LCD C-terminus redirects its self-assembly. Coarse-grained Monte Carlo simulations predicted that 12 Ser phosphorylations partition the 148-residue LCD into a hydrophobic N-terminal and highly charged C-terminal block, favouring finite-sized micellization over macroscopic PS. In vitro, LCD phosphorylated by casein kinase 1 delta (CK1δ; mean of 12 phosphorylations by native mass spectrometry) and phosphomimetic 12D/12DD mutants formed spherical nanoparticles (≈ 20-50 nm) above a low-micromolar critical micelle concentration, whereas the unphosphorylated LCD underwent reversible PS that matured into fibrils. Increasing ionic strength shifted the mutants toward anisotropic morphologies (wormlike 12D micelles and rigid 12DD nanocylinders). Turbidity assays and confocal imaging directly visualized the absence of PS in the phosphorylated form. Negative-stain and cryo-electron microscopy (cryo-EM) confirmed the spherical micellar architecture for the phosphorylated LCD and 12D/12DD mimics. Our data identify phosphorylation as a molecular switch tuning macrophase separation and fibril formation of TDP-43 LCD, providing a framework for an aggregation-protective role through microphase separation into size-limited micelles. Whether these assemblies are stable or kinetically trapped on pathological timescales remains unclear.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42517609",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 4,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": true,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Acidic low-complexity domain truncation modulates coacervation and cationic protein-induced morphological reorganization.",
+    "abstract": "Protein coacervates are aqueous colloidal compartments, and their formation and interfacial organization depend on electrostatic and non-electrostatic interactions. In this study, we investigated how truncation of the acidic domain affects the apparent coacervation behavior and cationic protein-induced morphological reorganization of GG1234-derived synthetic anionic proteins. Three related constructs, GG1234, GG12-2, and GG12-1, were compared under controlled pH, ionic strength, and protein-mixing conditions. Turbidity measurements showed apparent simple-coacervation regimes for all three constructs under acidic conditions. Truncation shifted the apparent high-turbidity regime to higher pH and changed its non-monotonic dependence on ionic strength. In mixtures with lysozyme, a model cationic protein, the ratio-dependent turbidity profiles varied with both pH and construct length, which is consistent with an influence of truncation-associated changes in acidic residue content and chain length on the apparent ratio window of heterotypic coacervation. When bhBMP-2 was added to preformed simple coacervates, the interfacial reorganization was construct-dependent. GG1234 formed pronounced vesicle-like/core-shell structures (97.5%), GG12-2 showed partial reorganization (77.7%), and GG12-1 remained largely spherical (0%) under the tested formulation. Because truncation also removes Tyr- and Ile-containing motifs, these differences are interpreted as sequence-truncation effects rather than as effects of reduced acidic valency alone. These results show that acidic domain truncation affects both the pH- and salt-dependent simple- and complex-coacervation windows and the capacity for interfacial morphological reorganization. This coupling may also be applicable to other anionic intrinsically disordered proteins whose phase behavior is charge-dominated.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42715784",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Modifications of Lysine Residues 294 and 311 Within the Microtubule-Binding Region Alter Tau Aggregation and Tubulin Binding Equilibria.",
+    "abstract": "Dysfunction of the microtubule-associated protein Tau is a central feature of Alzheimer's disease and related tauopathies, yet how site-specific lysine modifications modulate the functional and pathological states of Tau remains poorly understood. Here, we combine protein semi-synthesis with segmental isotope labelling and NMR spectroscopy of full-length Tau, to dissect how lysine acetylation and carboxymethylation within the microtubule-binding region of Tau regulate its interactions with tubulin, microtubules, and amyloid assembly. Site-specific modification at lysine 294 delays Tau-mediated tubulin polymerization and fibril formation, whereas acetylation at lysine 311 exerts more moderate effects, but alters fibril morphology. NMR spectroscopy of segmentally isotope-labelled Tau variants indicates that single lysine acetylation does not measurably weaken Tau binding to pre-formed microtubules; however, bivalent acetylation reduces microtubule binding, possibly by cumulative charge neutralization. Together, these results indicate that lysine acetylation redistributes Tau between functional states in a site- and valency-dependent manner. Our study helps to establish a mechanistic framework linking combinatorial lysine modifications to Tau dysfunction and highlights the utility of region-resolved structural approaches to decipher posttranslational modification-dependent equilibria in intrinsically disordered proteins.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42690079",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "CELF2 promotes 4R Tau splicing via nuclear clustering and drives cognitive dysfunction in tauopathy models.",
+    "abstract": "Alternative splicing is a fundamental mechanism underlying protein diversity. The microtubule-associated protein tau (MAPT) undergoes age-associated alternative splicing of exon 10 to generate 3 R and 4 R isoforms, and disruption of the 4 R:3 R ratio is a central feature of tauopathies. However, the molecular mechanisms regulating tau exon 10 splicing remain incompletely understood. Here we identify a clustering-based mechanism underlying tau splicing regulation by the RNA-binding protein CELF2. An intrinsically disordered region (IDR) within the CELF2 hinge domain mediates multivalent assembly and is required for splicing activity. NOVA2 and SFPQ co-cluster with CELF2 and cooperatively regulate tau exon 10 splicing. A conserved negatively charged residue, D388, is essential for CELF2 assembly, protein interactions, and splicing function. In vivo, the assembly capacity of CELF2 correlates with 4 R tau expression and influences locomotor and cognitive performance. Together, these findings support that IDR-mediated higher-order assembly of CELF2 coordinates tau splicing regulation and impacts tau-related neurodegeneration.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42660921",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Simulating Thermoresponsive Behavior of Disordered Proteins with Temperature-Dependent Coarse-Grained Potentials Derived from Hydration Free Energies.",
+    "abstract": "Thermoresponsive phase transitions of intrinsically disordered proteins (IDPs), including both upper critical solution temperature (UCST) and lower critical solution temperature (LCST) transitions, are widely observed in natural and synthetic sequences. However, most existing coarse-grained (CG) models employ temperature-independent interactions and fail to capture solvation-driven LCST behavior. Here, we bridge the gap between atomistic hydration and macroscopic phase separation. Leveraging 500 μs long extensive all-atom molecular dynamics simulations, we reveal a fundamental linear correlation between the temperature-dependent inter-residue interaction strengths and hydration free energies. Furthermore, we demonstrate that the heterotypic interactions at the molecular level can be well approximated by a simple combination of the homotypic interactions. We incorporate these thermodynamic insights into a physics-based framework,",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42657059",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Multisite Threonine Phosphorylation in the SPT5 C-Terminal Region 1 Enables Sequence-Dependent Regulation without Global Structural Remodeling.",
+    "abstract": "Phosphorylation of intrinsically disordered regions (IDRs) is widely viewed as a mechanism for encoding regulatory information through structural transitions, as exemplified by the RNA polymerase II C-terminal domain (CTD), where phosphorylation induces local conformational changes such as proline isomerization. However, whether this paradigm extends to other disordered regulatory domains remains unclear. The C-terminal repeat region (CTR) of SPT5, a key cofactor in transcription elongation, contains multiple Thr-Pro motifs that are phosphorylated by P-TEFb, but the structural and mechanistic consequences of this modification have not been defined. Here, we combine NMR spectroscopy, small-angle X-ray scattering (SAXS), mass spectrometry, and molecular simulations to characterize the effects of multisite threonine phosphorylation on the SPT5 CTR1 domain. NMR analysis reveals that, in contrast to the RNA polymerase II CTD, phosphorylation does not induce detectable proline isomerization. Molecular simulations suggest this resistance arises because phosphothreonine forms an intramolecular hydrogen bond that restricts the backbone flexibility required for isomerization. SAXS measurements further show that hyperphosphorylation does not alter the global dimensions of the CTR1 ensemble, in agreement with predictions from polyampholyte polymer models. Notably, mass spectrometry and mutational analysis demonstrate that phosphorylation is strongly influenced by local sequence context, with specific residues modulating kinase selectivity. Together, these findings establish that multisite phosphorylation of the SPT5 CTR1 domain modulates a heterogeneous interaction landscape shaped by sequence context. More broadly, this work emphasizes the nontrivial difference between serine and threonine phosphorylation as a mechanism to regulate disordered protein structure-function relationships.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42622275",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "The Effects of Phosphorylation on the Structure and Function of Motif A, an Intrinsically Disordered Region within SIRT1.",
+    "abstract": "The NAD+-dependent deacetylase sirtuin-1 (SIRT1) is known to elicit cellular defenses against aging, cancer, and other aberrant pathologies. Previous studies have identified an intrinsically disordered region of SIRT1 comprised of N-terminal residues 1-52, herein referred to as motif A, which activates SIRT1 activity, likely through intramolecular interactions. Additionally, phosphorylation of N-terminal residues Ser27 and Ser47 has been shown to be important for regulating SIRT1 activity and stability. The lack of in vitro characterization of these effects hampers our further understanding of the role of motif A in SIRT1 regulation. In this study, we elucidate the role phosphorylation plays in motif A's structure as well as its regulatory effects on SIRT1 activity against Ac-p65. We find that a phosphomimetic mutation at Ser27 significantly increases the activation effect of motif A toward SIRT1. This result is supported by molecular dynamics simulations of the phosphomimetics, which reveal stabilization of different transient structures for motif A depending on whether Ser27 and Ser47 have been modified. A key finding suggested by this study is that phosphorylation of S27 appears to activate SIRT1 by causing motif A, which is intrinsically disordered in the WT, to become more rigid. This conclusion is based on both the experimental findings and simulation results. While more experiments are necessary to confirm the MD simulation results, these findings still bring us a step closer to understanding SIRT1 regulation, specifically the role played by phosphorylation within the N-terminal disordered region.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42610734",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": false,
+      "has_coordinates": true,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "DNAreader: accurate prediction of DNA-binding residues in structured and disordered proteins using transformers and contrastive learning.",
+    "abstract": "Accurate predictions of DNA-binding residues (DBRs) in protein sequences facilitate decoding molecular-level mechanisms underlying cellular functions that involve protein-DNA interactions. While dozens of these predictors have been released, they target either structured or intrinsically disordered regions (IDRs), and the latter were trained to predict less detailed DNA-binding IDRs rather than DBRs. Given this dichotomy, the structure-trained methods underperform on disordered proteins, and vice versa. Moreover, they suffer from high cross-prediction rates, incorrectly labeling many residues that interact with non-DNA ligands as DBRs. We address these issues by introducing DNAreader, the first predictor specifically designed to predict DBRs in the structured and disordered sequence regions. DNAreader relies on an innovative stacked transformer encoder network that combines batch training and contrastive learning, which substantially boosts predictive performance. Using two low-similarity test datasets, we demonstrate that DNAreader statistically outperforms existing tools, performs well for structured and disordered regions, and produces very few cross-predictions. We also developed the DNAreaderDBIDR module, which accurately predicts DNA-binding IDRs, providing flexibility to identify DBRs within IDRs or to predict entire disordered DNA-binding regions. We release DNAreader as a user-friendly web server at http://biomine.cs.vcu.edu/servers/DNAreader/, with the corresponding source code at https://github.com/jianzhang-xynu/DNAreader.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42598852",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "A TFPI-1 homolog from Sebastes schlegelii: Characterization of C-terminal endogenous cleavage and antimicrobial role of derived peptide.",
+    "abstract": "Tissue factor pathway inhibitor (TFPI) is a serine protease inhibitor existing in two isoforms, TFPI-1 and TFPI-2. Peptides derived from the TFPI C-terminus exhibit potent antimicrobial activity. In this study, a TFPI-1 homolog from Sebastes schlegelii (SsTFPI-1) was identified, and its sequence characteristics, immune response profile, and the antimicrobial activity of its C-terminal peptide TS20 were systematically characterized. The open reading frame of SsTFPI-1 is 867 bp in length, encoding 288 amino acids that comprise a signal peptide, three Kunitz domains, and a low-complexity region. SsTFPI-1 was ubiquitously expressed across all examined tissues, with the highest expression in blood, and its transcript levels were significantly upregulated in the spleen or head kidney following stimulation with Listonella anguillarum, Edwardsiella piscicida, or poly(I:C). Subcellular localization revealed that SsTFPI-1 predominantly localizes in the cytoplasm of EPC cells, and its C-terminus undergoes endogenous cleavage. Antimicrobial assays demonstrated that TS20 exerts pronounced antibacterial activity against Micrococcus luteus with favorable thermal stability. Mechanistically, TS20 disrupts the bacterial cell membrane, enters the cells, binds to DNA, and progressively degrades it. Furthermore, TS20 significantly inhibits SVCV infection in EPC cells by targeting both viral particles and host cells, thereby reducing viral adhesion and entry, while simultaneously downregulating the expression of type I interferon (IFN-I) related genes. In vivo experiments confirmed that TS20 significantly reduced viral loads of SVCV and RBIV-C1 in common carp and turbot, respectively. Collectively, these findings elucidate the immunological role of SsTFPI-1 in S. schlegelii and underscore the potential of TS20 as a promising antimicrobial agent.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42586455",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Conditionally folded disordered regions contribute to adaptation and regulation in Schistosomamansoni.",
+    "abstract": "Schistosoma mansoni, a causative agent of schistosomiasis, has a complex life cycle that requires extensive molecular adaptation to diverse host environments. Intrinsically disordered proteins (IDPs) and regions (IDRs) are highly flexible protein segments that play key roles in cellular regulation, signaling, and host-pathogen interactions. In this study, we conducted a proteome-wide analysis of IDRs and conditionally folded intrinsically disordered regions (CF-IDRs) in the S. mansoni proteome. 10,749 protein sequences were retrieved from UniProt and reduced to 9638 non-redundant proteins. Intrinsic disorder prediction identified 7662 IDRs, with 36.95% of proteins containing at least one long disordered region. AlphaFold structural confidence scores were integrated with disorder predictions to identify CF-IDRs, defined as disordered regions containing local high-confidence structural segments. Approximately 12.7% of IDR-containing proteins possessed at least one CF-IDR. CF-IDRs were enriched for both disorder-promoting and selected order-promoting residues, suggesting a balance between flexibility and transient structure formation. Prediction of liquid-liquid phase separation (LLPS) propensity revealed that many CF-IDRs may participate in biomolecular condensation. AIUPred-binding prediction indicated that most CF-IDRs contained a strong binding segment, supporting interaction-driven disorder-to-order transitions. Functional enrichment analysis showed that CF-IDR-containing proteins are primarily associated with transcription, RNA processing, chromatin organization, and cytoskeletal regulation. This study is the first to systematically identify and characterize CF-IDRs across the entire proteome of any helminth. Overall, it underscores the importance of structural plasticity in S. mansoni biology and suggests that CF-IDRs may contribute to parasite adaptation, regulation, and host interactions.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42585785",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Application of mass spectrometry techniques for analysis of higher order structure of proteins.",
+    "abstract": "Determining the higher order structure (HOS) of proteins and protein complexes is central to understanding their functions, dynamics, and interactions. Traditional structural biology approaches, such as X-ray crystallography and nuclear magnetic resonance, provide high-resolution snapshots but often require large amounts of homogeneous samples and may miss dynamic or heterogeneous states. Mass spectrometry (MS) has become an indispensable tool for sensitive and rapid analysis of intact proteins and assemblies under native or near-native conditions. This review discusses the major MS-based strategies for probing HOS. Native mass spectrometry (nMS) preserves non-covalent interactions and exhibits characteristic charge-state distributions that report on folding, while native top-down fragmentation and ion mobility spectrometry provide sequence-specific and conformation-specific information. Hydrogen-deuterium exchange MS measures backbone amide exchange rates to map regions of solvent accessibility, ligand binding, and allosteric regulation in solution. Covalent labeling MS irreversibly modifies solvent-accessible side chains, allowing epitope mapping and detection of subtle conformational changes, while fast photochemical oxidation of proteins offers microsecond snapshots of transient structures. Chemical cross-linking MS applies bifunctional reagents to capture proximity between residues or subunits, providing distance restraints for integrative modeling and proteome-wide interaction mapping. We outline recent advances in instrumentation, software, labeling chemistry and in-cell techniques across these modalities, and we illustrate their applications to characterizing membrane proteins, large assemblies, therapeutic antibodies, intrinsically disordered proteins, and protein-ligand complexes. Together, these tools offer complementary insights into HOS that are reshaping structural biology, biopharmaceutical development and mechanistic studies.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42576805",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "RIBEX: predicting and explaining RNA binding across structured and intrinsically disordered regions (IDR)-rich proteins.",
+    "abstract": "RNA-binding proteins (RBPs) regulate post-transcriptional processes, yet many remain undiscovered because RNA-binding activity often occurs outside canonical RNA-binding domains (RBDs), including within intrinsically disordered regions (IDRs) or through protein complexes. Computational methods can help identify novel RBPs, but approaches relying solely on sequence-derived features or ignoring the cellular interaction context are limited in capturing the complexity of RNA-binding behavior. To date, no framework rigorously integrates both sequence information and protein interaction context for RBP prediction.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42635213",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Competing Molecular Interactions Govern the Dynamical Arrest of G3BP1 Condensates.",
+    "abstract": "G3BP1 is a central scaffold of stress granules (SGs). Upon cellular stress, G3BP1 forms complex coacervates with translationally repressed mRNAs and recruits multiple RNA-binding proteins to form reversible biomolecular condensates. Persistent SGs are linked to age-dependent dynamical arrest and impaired disassembly. Here, we employ active and passive nanoscale rheology with optical tweezers to show that G3BP1 condensates evolve from being dominantly viscous fluids to dynamically arrested network glasses characterized by nanoscale caging and elastic memory. Integrating atomistic and coarse-grained simulations with experiments, we find that electrostatic interactions between the oppositely charged intrinsically disordered regions drive condensate ageing. RNA modulates these interactions in a length-and structure-dependent manner, delaying dynamic arrest, whereas Caprin-1 binding to the NTF2L domain has little effect. Together, these findings reveal how competing inter-IDR and IDR-RNA interactions govern condensate ageing and material-state transitions. The findings have broader implications for the regulation of SG dynamics in cells.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42620098",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Quantum-Enhanced Transfer Learning for IDR Binding Partner Prediction.",
+    "abstract": "Intrinsically Disordered Regions (IDRs) play essential roles in cellular processes through interactions with proteins, nucleic acids, lipids, and metal ions, yet predicting their binding partners remains challenging for understanding protein function and drug discovery. However, current computational methods including protein language models face performance plateaus where traditional approaches to improve accuracy have become ineffective. Here, we present a hybrid quantum-classical machine learning approach that combines variational quantum circuits with the ESM2 protein language model for multi-class IDR binding partner prediction using a prototypical network. Through systematic evaluation of quantum circuit architectures across factorial experiments, we demonstrate that the hybrid model achieves statistically significant performance improvements over classical baselines, with entanglement topology governing model stability and encoding methods determining performance gains. These findings establish that quantum advantage in computational biology emerges from architectural design principles rather than computational scale, providing a framework for overcoming performance limitations in bioinformatics applications where dataset expansion is constrained.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42606981",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "ORC binding to Heterochromatin Protein 1 through intrinsically disordered regions is required for heterochromatin structure and function.",
+    "abstract": "The Origin Recognition Complex (ORC) is known for initiating DNA replication in eukaryotic cells, but increasing evidence suggests that ORC has multiple functions. Here we show that the organization and function of two major nuclear components, heterochromatin and the nucleolus, depend on multivalent interactions between Orc1 and Heterochromatin Protein 1a (HP1a) in",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42539014",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "O-GlcNAc clusters in intrinsically disordered regions regulate transcriptional condensates and gene control.",
+    "abstract": "Post-translational modifications (PTMs) dynamically regulate the liquid-liquid phase separation (LLPS) that organizes biomolecular condensates, yet for the monosaccharide O-linked β-N-acetylglucosamine (O-GlcNAc) modification, the general rules and their links to protein function remain undefined. Here we identify O-GlcNAc as a widespread LLPS modulator by revealing clustered O-GlcNAc sites enriched in intrinsically disordered regions (IDRs) of transcription-related proteins, with Bromodomain-containing protein 4 (BRD4) exhibiting this pattern most prominently. Twelve clustered O-GlcNAc sites are identified in BRD4 C-terminal IDR, where modifications decrease condensate size while increasing fluidity in vitro and in cells. Removing O-GlcNAc strengthened BRD4 binding at active enhancers and promoted LLPS-mediated recruitment of transcriptional cofactors, including YTHDC1, leading to elevated expression linked to the cell cycle and DNA repair. Our findings define O-GlcNAc clusters as regulators of condensate material properties and transcriptional outcomes, supporting a general paradigm in which PTMs fine-tune the molecular grammar of biomolecular condensates.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42530374",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "The Intrinsic Disordered N-Terminus of Nucleocapsid Protein of SARS-CoV-2 Is Critical in DNA Aptamer Binding.",
+    "abstract": "SARS-CoV-2 nucleocapsid protein (N protein) binds nucleic acids and packages viral RNA. DNA aptamers that specifically bind the N protein have been used in antigen-based COVID-19 detection and have potential clinical applications for preventing SARS-CoV-2 infection. However, the complex structures of the N protein with DNA aptamers and the mechanisms by which aptamers recognize the N protein remain unclear. Here, we report the NMR-derived complex structure of the N-terminal domain of the N protein (N-NTD) with a 58 nt DNA aptamer, A48. The complex structure reveals a distinct topology with a large contact area between A48 and N-NTD. The N-terminal intrinsically disordered region (IDR) of N-NTD forms close contact with A48, primarily stabilized by hydrophilic interactions. Deletion of the N-terminal IDR or substitution of positively charged arginine residues with negatively charged glutamate residues in the IDR region substantially reduced the binding affinity for A48. Because most previously determined N protein structures were obtained using constructs lacking the N-terminal IDR, this study reveals a topology of the N protein-nucleic acid complex and highlights the importance of the N-terminal IDR in nucleic acid binding.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42511729",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Methionine oxidation alters both helical assembly and disordered contacts in human TDP-43 C-terminal domain phase separation.",
+    "abstract": "TAR DNA binding protein 43 (TDP-43), a key protein linked to ALS pathology, undergoes phase separation and forms functional assemblies via condensation within cells. The conserved region (CR) within its C-terminal domain (CTD) mediates self-assembly through helix-helix interactions, while the flanking intrinsically disordered regions (IDRs) contribute to phase separation through transient interactions involving aromatic and hydrophobic residues. The CTD contains ten methionine residues distributed equally between these regions, making it particularly susceptible to oxidative modifications. While methionine oxidation is known to impair TDP-43 phase separation, neither the precise mechanism nor the specific contribution of methionines in the CR compared to the IDRs has been determined. Here, we combine NMR spectroscopy and molecular dynamics (MD) simulations to reveal if and how methionine oxidation in each region differentially affects CTD structure and phase separation. To assess the change of secondary structure caused by oxidation, we measured NMR random coil chemical shift values for methionine sulfoxide. Oxidation of CR methionines disrupts helical structure and directly impairs intermolecular helical association, while oxidation of IDR methionines disrupts long-range contacts. Hence, oxidation of methionines in both regions contributes to impaired phase separation, albeit through different mechanisms. These findings establish methionines as critical redox-sensitive modulators in TDP-43 phase behavior and provide molecular insights into how oxidative stress may contribute to TDP-43 dysregulation in neurodegenerative diseases.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42507931",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "BRD4: From molecular understanding to therapeutics development.",
+    "abstract": "Bromodomain-containing protein 4 (BRD4) is an important therapeutic target for anticancer, antiviral, and anti-inflammatory responses. Although its role in transcription, chromatin dynamics, and epigenetic programs is well recognized, recent studies have expanded the functions of BRD4 and its related bromodomain and extra-terminal (BET) family members (BRD2, BRD3, and BRDT) to other molecular and biological processes. How a universal epigenetic regulator is tailored for context-specific gene/pathway regulation is mechanistically intriguing. In this review, we highlight the importance of protein isoforms and posttranslational modifications, particularly phosphorylation, in generating the protein diversity necessary for selective factor recruitment and context-dependent regulation. Three BRD4 protein isoforms have been identified, including the universally expressed BRD4-L and BRD4-S(a) (simplified as BRD4-S), representing the long and short isoform a, and cell-/stress-specific short isoform b, BRD4-S(b). A phospho-switch mechanism controlling the open/closed state of the bromodomain and BRD4 interaction with partner proteins will also be discussed. Mechanistic understanding of BET protein action has led not only to the development of diverse bromodomain-binding compounds currently used in clinical trials but also to the discovery of a new class of small-molecule inhibitors targeting an intrinsically disordered region (IDR) of phospho-BRD4 to alter specific protein-protein interaction (PPI) networks without globally perturbing transcription programs and chromatin landscapes, thus significantly reducing off-target effects and providing new directions for therapeutic drug development.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42492506",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 3,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": true,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "A membrane insertion code for intrinsically disordered proteins.",
+    "abstract": "Membrane association of intrinsically disordered proteins (IDPs) mediates various cellular functions including membrane remodeling and signal transduction. Whereas membrane association through amphipathic helices and polybasic motifs is well understood, sequence determinants for the insertion of aromatic residues into the membrane hydrophobic core are still poorly characterized. Here, we decipher the sequence code for membrane insertion of aromatic-centered motifs. For an initial set of ten 9-residue aromatic-centered sequences, all-atom molecular dynamics simulations and the positioning of proteins in membranes (PPM) method produced very similar membrane insertion propensities. Applying PPM to a full library of 1.2×10",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42644463",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 2,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": false,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Expanding the Landscape of Disordered Flexible Linkers: A Structural and Computational Framework for DLD Dataset Assembly.",
+    "abstract": "Disordered flexible linkers (DFLs) are functional elements found within intrinsically disordered regions that carry out key functions by connecting domains and/or short linear motifs. Understanding the features of DFLs is limited by the lack of comprehensive datasets and accurate predictive models. In this study, we propose a classification for DFLs that includes linkers joining two domains (DLD), a domain and a motif or two short linear motifs. We developed a workflow that allows the systematic identification of DLD-type linkers from protein structures and created a comprehensive dataset known as the DLD dataset. The DLD dataset includes 1640 independent domain linkers (IDLs) which expands currently available linker datasets and annotates related regions such as dependent-domain linkers, intra-domain loops, and termini. Our data collection process integrates missing residue completion and smoothing of short secondary structure stretches enabling to capture a higher number of longer IDLs. We assessed the features of IDLs using t-SNE analysis and protein language model embedding with a CNN-based classifier as well as PCA analysis. IDLs can be distinguished from other disordered and folded protein regions, and their features highly overlap with DisProt Linkers, considered the gold standard for linker annotation. The DLD dataset offers a valuable resource for researchers seeking to investigate the features of disordered flexible linkers and to improve the accuracy and generalizability of DFL predictive models. The DLD dataset is available via an interactive web server at https://dld.chemeslab.org/ where linkers are annotated with sequence and structural features and can be visualized using a structure viewer.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42628684",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 2,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": false,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Dynamic structural profiling of PINK1 mutations (T313M and L347P) reveals a vital molecular perturbation namely phospho-Serine 65 ubiquitin recognition point in mitophagy mediated autosomal recessive Parkinson's disease (ARPD).",
+    "abstract": "Autosomal recessive Parkinson's disease (ARPD) arises from impaired mitophagy due to dysfunction of the PINK1/Parkin pathway, where PINK1-mediated phosphorylation of ubiquitin at Ser65 is essential for pathway activation. However, experimental limitations obscure the effects of disease-associated mutations on intrinsically disordered regions (IDRs) and post-translational modification (PTM) dynamics.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42602159",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 2,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": false,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Effects of Sequence Reversal on the Conformational Dynamics, Phase Transitions, and Function of Tau Protein.",
+    "abstract": "Sequence reversal has been shown to significantly alter the folding and function of ordered proteins. Compared to ordered proteins, the conformations of intrinsically disordered proteins (IDPs) are more dynamic and expanded. Whether the equilibrium properties and functions of IDPs are more tolerant of sequence reversal remains unclear. In this work, we used the microtubule-associated protein Tau as a prototype IDP and investigated the effects of sequence reversal on its equilibrium conformation, phase transitions, and function. We found that the sequence-reversed protein behaved like an IDP, with the similar level of conformational expansion, dynamics, and secondary structure content as its parent protein. Our analysis revealed that the dynamic non-specific electrostatic interactions were not markedly perturbed upon sequence reversal, enabling the sequence-reversed protein to undergo liquid-liquid phase separation as its parent does. On the contrary, our results showed that sequence reversal disrupted residue-specific interactions. Thus, the sequence-reversed protein could not aggregate into amyloid fibrils or assist in microtubule assembly. Taken together, our findings indicate that sequence reversal could have distinct effects on the conformational dynamics, phase transitions, and function of IDPs.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42580399",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 2,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": false,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "SIRT1 Exon 2-Encoded IDR Gates CREB-Dependent Transcriptional Timing During Fasting.",
+    "abstract": "Metabolic adaptation to fasting requires precise temporal control of gene expression. Although transcription factors and upstream co-regulators that mediate the fasting response are well studied, the role of intrinsically disordered regions in coordinating transcriptional timing remains unclear. Here, we identify the exon 2-encoded intrinsically disordered region of SIRT1 as a regulator of fasting-responsive transcription in the liver. Using a physiological SIRT1",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42543922",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 2,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": false,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  },
+  {
+    "title": "Advances in the nanostructure characterization of biological hydrogels formed by the prion-like domain of EARLY FLOWERING 3.",
+    "abstract": "Hydrogels exhibit traits of both liquids and solids, forming a 3D structural network with generally high water content, high porosity and increasing stability over time. However, probing the structure of hydrogels is challenging due to the semi-disordered nature of their internal molecular organization and the presence of multiple species with varying dynamics. Small-angle X-ray scattering (SAXS) is well suited to study materials of this nature due to its ability to probe different length scales and to provide information as to the structure and conformation of different molecular species within the hydrogel. Here, we used the prion-like domain from the plant thermosensory protein EARLY FLOWERING 3 (ELF3) as a model hydrogel for structural characterization by SAXS. To overcome sample-handling challenges, we developed an X-ray- and vacuum-compatible sample cell for hydrogel manipulation that allows direct measurement in the X-ray beam. Furthermore, by using a three-component model, which gathers the scattering contributions from the different species in the hydrogel, which arise from individual and aggregated oligomers as well as from their stacking into a loose lamellar phase, we were able to satisfactorily fit the experimental data and provide a full description of the nanostructure of the ELF3 hydrogel.",
+    "url": "https://www.ncbi.nlm.nih.gov/pubmed/42522927",
+    "engine": "pubmed",
+    "score_flags": {
+      "is_candidate": true,
+      "score": 2,
+      "has_lcr": true,
+      "has_hard_exclusion": false,
+      "has_nucleic_exclusion": false,
+      "has_binding": false,
+      "has_coordinates": false,
+      "resolved_ambiguous_as_protein": false
+    }
+  }
+]

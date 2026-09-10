@@ -12,7 +12,7 @@ import time
 import urllib.parse
 import uuid
 from typing import Any, Dict, List, Optional
-
+import re
 import requests
 
 PLATOLOCO_API_URL = "http://127.0.0.1:5002/restapi"
@@ -80,52 +80,64 @@ def parse_coord(value: Any) -> Optional[int]:
     except (ValueError, TypeError):
         return None
 
-
 def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
-    """Fetch protein metadata, length, sequence, and GO terms from UniProt API."""
-    query = f"({protein_name}) AND (organism_name:{organism})"
-    url = (
-        "https://rest.uniprot.org/uniprotkb/search?"
-        f"query={urllib.parse.quote(query)}&format=json&size=1"
-    )
+    """Fetch protein metadata, length, sequence, and GO terms from UniProt API with regex cleaning and fallback search."""
+    
+    clean_protein = re.sub(r'[^\w\s-]', '', protein_name).strip()
+    clean_organism = re.sub(r'[^\w\s-]', '', organism).strip()
 
-    try:
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200 and response.json().get("results"):
-            res = response.json()["results"][0]
+    search_queries = [
+        f'(gene:{clean_protein} OR gene_exact:{clean_protein} OR protein_name:{clean_protein}) AND (organism_name:"{clean_organism}")',
+        f'("{clean_protein}") AND (organism_name:"{clean_organism}")',
+        f'{clean_protein} AND (organism_name:"{clean_organism}")',
+        f'(gene:{clean_protein} OR protein_name:{clean_protein})'
+    ]
 
-            go_terms = [
-                f"{ref.get('id')} ({ref.get('properties', [{}])[0].get('value', 'GO')})"
-                if ref.get("properties")
-                else ref.get("id", "")
-                for ref in res.get("uniProtKBCrossReferences", [])
-                if ref.get("database") == "GO"
-            ]
+    for query in search_queries:
+        url = (
+            "https://rest.uniprot.org/uniprotkb/search?"
+            f"query={urllib.parse.quote(query)}&format=json&size=1"
+        )
 
-            genes = res.get("genes", [{}])
-            gene_name = (
-                genes[0].get("geneName", {}).get("value", protein_name)
-                if genes
-                else protein_name
-            )
-            full_name = (
-                res.get("proteinDescription", {})
-                .get("recommendedName", {})
-                .get("fullName", {})
-                .get("value", protein_name)
-            )
+        try:
+            response = requests.get(url, timeout=10)
+            if response.status_code == 200 and response.json().get("results"):
+                res = response.json()["results"][0]
 
-            return {
-                "uniprot_id": res.get("primaryAccession", "N/A"),
-                "gene_name": gene_name,
-                "full_name": full_name,
-                "length": res.get("sequence", {}).get("length", 0),
-                "sequence": res.get("sequence", {}).get("value", ""),
-                "go_terms": go_terms[:3],
-            }
-    except Exception as error:
-        print(f"UniProt query error for {protein_name}: {error}")
+                go_terms = [
+                    f"{ref.get('id')} ({ref.get('properties', [{}])[0].get('value', 'GO')})"
+                    if ref.get("properties")
+                    else ref.get("id", "")
+                    for ref in res.get("uniProtKBCrossReferences", [])
+                    if ref.get("database") == "GO"
+                ]
 
+                genes = res.get("genes", [{}])
+                gene_name = (
+                    genes[0].get("geneName", {}).get("value", protein_name)
+                    if genes
+                    else protein_name
+                )
+                full_name = (
+                    res.get("proteinDescription", {})
+                    .get("recommendedName", {})
+                    .get("fullName", {})
+                    .get("value", protein_name)
+                )
+
+                return {
+                    "uniprot_id": res.get("primaryAccession", "N/A"),
+                    "gene_name": gene_name,
+                    "full_name": full_name,
+                    "length": res.get("sequence", {}).get("length", 0),
+                    "sequence": res.get("sequence", {}).get("value", ""),
+                    "go_terms": go_terms[:3],
+                }
+        except Exception as error:
+            print(f"UniProt query error for '{protein_name}' with query '{query}': {error}")
+            continue
+
+    # Jeśli żadne z zapytań nie zwróci wyników
     return {
         "uniprot_id": "N/A",
         "gene_name": protein_name,
@@ -524,11 +536,25 @@ def render_record_rows(item: Dict[str, Any]) -> str:
 """
 
 
+def sort_records_by_file(records: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Sort records by their source PDF filename (case-insensitive, stable)."""
+    return sorted(records, key=lambda item: (item.get("file") or "").lower())
+
+
 def generate_html_report(
     input_file: str = "data/processed/final_results.jsonl",
     output_html: str = "data/processed/lcr_biocuration_report.html",
+    sort_by_file: bool = False,
 ) -> None:
-    """Generate structured HTML report dividing records into Verified and Manual Check sections."""
+    """Generate structured HTML report dividing records into Verified and Manual Check sections.
+
+    Args:
+        input_file: Path to the JSON/JSONL results file.
+        output_html: Path where the HTML report will be written.
+        sort_by_file: If True, sort records within each section alphabetically
+            by their source PDF filename instead of keeping the original
+            (input file) order.
+    """
     input_path = Path(input_file)
     if not input_path.exists():
         alt_path = Path("data/processed/verified_lcrs.json")
@@ -555,6 +581,10 @@ def generate_html_report(
             verified_records.append(item)
         else:
             manual_check_records.append(item)
+
+    if sort_by_file:
+        verified_records = sort_records_by_file(verified_records)
+        manual_check_records = sort_records_by_file(manual_check_records)
 
     html_content = """<!DOCTYPE html>
 <html lang="en">
@@ -764,4 +794,25 @@ def generate_html_report(
 
 
 if __name__ == "__main__":
-    generate_html_report()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate the LCR biocuration HTML report.")
+    parser.add_argument(
+        "--input", default="data/processed/final_results.jsonl",
+        help="Path to the input JSON/JSONL results file.",
+    )
+    parser.add_argument(
+        "--output", default="data/processed/lcr_biocuration_report.html",
+        help="Path where the HTML report will be written.",
+    )
+    parser.add_argument(
+        "--sort-by-file", action="store_true",
+        help="Sort records within each section by source PDF filename.",
+    )
+    args = parser.parse_args()
+
+    generate_html_report(
+        input_file=args.input,
+        output_html=args.output,
+        sort_by_file=args.sort_by_file,
+    )

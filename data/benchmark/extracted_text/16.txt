@@ -1,6 +1,5 @@
---- Summary
-
-P-bodies are cytoplasmic foci that are sites of mRNA ---
+--- Summary ---
+P-bodies are cytoplasmic foci that are sites of mRNA
 degradation and translational repression. It is not known what
 causes the accumulation of RNA-degradation factors in P-
 bodies, although RNA is required. The yeast Lsm1-7p complex
@@ -14,9 +13,6 @@ Lsm1-7p in P-bodies. The presence of glutamine- and/or
 asparagine-rich (Q/N-rich) regions in other P-body components
 
 --- Results and Discussion ---
-
-
-
 Overproduced Lsm4p or its C-terminus accumulate in foci
 While investigating the localization of various GFP-Lsm4p fusions,
 we observed that GFP fused to full-length Lsm4p (GFP-Lsm4) or
@@ -42,12 +38,8 @@ visible P-bodies is not due to reduced levels of this
 truncated protein, as shown by western analysis (see
 below).
 
-
 Other Lsm proteins aggregate upon Lsm4p
 overproduction
-
-
-
 To investigate a potential link between these Lsm4p
 aggregates and P-bodies, the presence of other proteins
 was examined. We observed accumulation of all tested
@@ -83,7 +75,6 @@ these conditions and did not form aggregates, although many cells
 showed abnormal nuclear morphology, which is a phenotype
 associated with Lsm4p overproduction (supplementary material Fig.
 S3).
-
 
 A role for Lsm4p in Lsm1-7p P-body localization
 The accumulation of GFP-Lsm4 and GFP-Lsm4°C in foci when
@@ -145,8 +136,6 @@ compared with the lsm4ΔC strain
 from its native promoter), which
 shows slower growth only at 37°C
 (supplementary material Fig. S5).
-
-
 We cannot formally rule out the
 possibility that the difference
 between the non-tagged lsm4ΔC
@@ -160,60 +149,47 @@ manuscript was in preparation
 Mazzoni et al. reported that the
 asparagine-rich N-terminal region
 of the K. lactis Lsm4 protein,
-
-
-KlLsm4p, 
-which 
-is 
-able 
+KlLsm4p,
+which
+is
+able
 to
 functionally replace its S. cerevisiae
 homologue, is essential for its own
 localization to P-bodies in budding
 yeast (Mazzoni et al., 2007).
-
-
-However, 
-these 
-authors 
+However,
+these
+authors
 only
 investigated the localization of a
-
-
 GFP-tagged version of this protein,
 and not the localization of other
-
-
 Lsm proteins in a strain expressing
 non-tagged klLsm4ΔCp. Thus the
 effect of the deletion may not have
-been 
-distinguished 
-from 
+been
+distinguished
+from
 the
 additional, detrimental effect of the
 tag.
 
 
-Absence of the Lsm4p 
+Absence of the Lsm4p
 C-terminus affects mRNA decay
-
-
-
 To determine whether the Lsm4p C-
 terminal deletion affects mRNA
-decay, 
-degradation 
-of 
+decay,
+degradation
+of
 a
-
-
 PGK1pGmini reporter transcript
 (Mitchell and Tollervey, 2003) was investigated. This reporter is
 expressed from the GAL1 promoter, allowing its transcription to be
 switched off by growth on glucose. The rate of subsequent
 disappearance of the reporter transcript is used as a measure of its
-5 to 3 degradation through the major mRNA decay pathway. A
+5 to 3 degradation through the major mRNA decay pathway. A
 small effect was observed, as the mRNA half life increased from
 3.4±0.9 minutes in wild type to 4.7±1.1 minutes in the lsm4ΔC
 strain, on the basis of the quantitative reverse-transcriptase PCR
@@ -280,13 +256,15 @@ via these proline-rich domains is generally not very specific, but
 can be both very rapid and strong (Williamson, 1994; Kay et al.,
 2000). Furthermore, proteins with Q/N-rich domains have
 
+2468
+
 
 Protein
 Q/N*
-
-
 Q
 N
+
+
 P in Q/N-rich
 P (in best 80-mer)*
 Percentage of P (in best 80-mer)
@@ -299,10 +277,9 @@ Lsm4
 33
 1
 2
-
-
-
 2.5
+
+
 Pop2
 37
 29
@@ -339,10 +316,9 @@ Edc3
 10
 1
 5
-
-
-
 6.3
+
+
 Dhh1
 25
 25
@@ -389,10 +365,9 @@ Dcp1
 18
 2
 4
-
-
-
 5.0
+
+
 Edc1
 22
 5
@@ -439,10 +414,9 @@ Not5
 7
 3
 12
-
-
-
 15.0
+
+
 Xrn1
 15
 5
@@ -459,30 +433,27 @@ Pan2
 8
 2
 10
-
-
-
 12.5
+
+
 Lsm1
 14
 8
 6
 1
 2
-
-
-
 2.5
+
+
 Not2
 11
 8
 3
 7
 8
-
-
-
 10.0
+
+
 Edc2
 8
 5
@@ -491,7 +462,7 @@ Edc2
 9
 11.3
 
-*Values indicate the number of residues in the highest scoring 80-mer for that protein. 
+*Values indicate the number of residues in the highest scoring 80-mer for that protein.
 †P-rich region near Q/N-rich region scoring <20.
 
 previously been shown to promote aggregation of heterologous
@@ -556,7 +527,7 @@ GFP-Ccr4ΔN still failed to concentrate in microscopically visible
 foci in the absence of native Ccr4p (Fig. 7D), some weak foci were
 observed in the absence of Xrn1p (supplementary material Fig. S7),
 which generally leads to larger and more abundant P-bodies by
-preventing 5-to-3 degradation of transcripts. For Ccr4ΔNp and
+preventing 5 -to-3 degradation of transcripts. For Ccr4ΔNp and
 Pop2ΔNp the reduced P-body localization is not due to reduced levels
 of these truncated proteins as western analysis showed no difference
 between levels of full-length and mutant proteins (Fig. 7E). As the
@@ -577,7 +548,6 @@ Ccr4p are necessary for proper P-body localization, most probably
 through additional protein-protein interactions. It would therefore be
 interesting to further investigate the requirements of the Q/N-rich
 regions as well as other parts of these proteins for these interactions.
-
 
 Is a mechanism for protein accumulation in P-bodies
 conserved?
@@ -602,14 +572,10 @@ shown), it might be unable to form a functional complex with yeast
 Lsm proteins. It is possible that residues in other human LSM1-7
 complex (comprising LSM1 to LSM7) members normally
 contribute to its accumulation in P-bodies. Notably, the short N or
-
-
 C-terminal extensions of LSM1, LSM2, LSM3 and LSM7 proteins
 contain relatively high levels of glutamine residues. However, if,
 as we propose, Q/N-rich sequences contribute to a rapid response
 to stimuli in yeast, this may not be needed in human cells, as the
-
-
 LSM1-7 complex accumulates in P-bodies even under normal
 growth conditions.
 
@@ -618,8 +584,9 @@ homologues of budding yeast Ccr4p, Pop2p and Dhh1p (CNOT6,
 
 
 Protein
-Foci per cell 
+Foci per cell
 Cells examined
+
 
 Ccr4
 2.7±0.5
@@ -634,9 +601,9 @@ Pop2
 80
 Pop2ΔN (aa147-433)
 1.9±0.6
-
-
 93
+
+
 Dhh1
 10.7±5.3
 35
@@ -685,8 +652,6 @@ complexes that was observed by Spiller et al. (Spiller et al., 2007b).
 Similarly, post-translational modifications, e.g. of the N-terminal
 region of Ccr4p, could allow P-body localization of other proteins
 involved in RNA degradation. Q-rich regions in mouse TIA-1 and
-
-
 PUM2 have previously been shown to contribute to protein
 accumulation in stress granules (Gilks et al., 2004; Vessey et al.,
 2006). We now show that at least some of the Q/N-rich domains

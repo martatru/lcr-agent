@@ -1,6 +1,4 @@
---- Liquid-like Droplets, and Nuclei
-
-SUMMARY ---
+--- SUMMARY ---
 Many DNA and RNA regulatory proteins contain polypeptide domainsthatareunstructured whenanalyzed
 in cell lysates. These domains are typified by an overrepresentation of a limited number of amino acids and
 have been termed prion-like, intrinsically disordered
@@ -10,15 +8,15 @@ methods allowing the generation of a molecular footprint of the polymeric state 
 hnRNPA2. By deploying this footprinting technique
 to probe the structure of the native hnRNPA2 protein
 present in isolated nuclei, we offer evidence that its
-
-
 LC domain exists in a similar conformation as that
 described for recombinant polymers of the protein.
 These observations favor biologic utility to the polymerization of LC domains in the pathway of information transfer from gene to message to protein.
 
---- RESULTS
+--- RESULTS ---
 
-Development of a Chemical Footprinting Method ---
+
+
+Development of a Chemical Footprinting Method
 N-acetylimidazole (NAI) is a reactive chemical that is capable of
 acetylating certain amino acid side chains in proteins (Riordan
 et al., 1965; Timasheff and Gorbunoff, 1967). Under conditions
@@ -42,7 +40,6 @@ and light samples were mixed at a 1:1 ratio, digested with
 chymotrypsin and then evaluated by SILAC mass spectrometry
 (Figure 1A and Experimental Procedures).
 
-
 The patterns of NAI reactivity with the denatured and folded
 states of GST were different. Certain amino acid side chains reacted similarly in the two protein samples (Y23, K27, K40, K64,
 Y111, and R182), whereas others were acetylated to a lesser
@@ -56,7 +53,6 @@ whereas residues buried within the core of the enzyme tended to
 be NAI inaccessible. We conclude that the correlative match between NAI-accessibility and protein structure gives evidence
 that the NAI footprint is properly reflective of protein structure.
 
-
 Proceeding from a recombinant protein sample to a native
 protein within mammalian nuclei, we evaluated the difference
 in NAI modification of the poly-ADP-ribose polymerase (PARP)
@@ -69,7 +65,6 @@ amino acid (heavy). The light sample of nuclei was exposed to a
 heavy sample was denatured in 5 M guanidine thiocyanate prior
 to exposure to the same level of NAI and then also quenched
 with Tris. The samples were combined, digested with chymotrypsin overnight, and processed by mass spectrometry (Experimental Procedures).
-
 
 NAI modification was monitored on 14 amino acid side chains
 in the native and denatured forms of PARP (Figure S1A). Six residues were modified by NAI far more extensively in the denatured
@@ -87,7 +82,6 @@ of the six residues observed to be highly protected from NAI
 modification are predicted to be solvent inaccessible by the
 crystal structure of the enzyme.
 
-
 Analysis of three consecutive residues in the polypeptide
 chain of PARP is particularly revealing. Serine residue 902 is
 protected from NAI modification in nuclear PARP and buried
@@ -104,8 +98,6 @@ nuclei of mammalian cells.
 
 Determination of the NAI Footprint of Recombinant
 hnRNPA2 Fibers
-
-
 Hydrogel droplets were formed using a fusion protein linking
 mCherry to the LC domain of hnRNPA2 (Kato et al., 2012). This
 protein sample was exposed to NAI under conditions resulting
@@ -134,7 +126,6 @@ abundant in the light sample relative to the heavy sample, which
 is consistent with partial protection from NAI modification when
 the LC domain of hnRNPA2 existed in the polymeric state.
 
-
 The pattern of protection from NAI modification in polymeric
 fibers of the hnRNPA2 LC domain, or lack thereof, can be
 described in the following way. An extensive, N-terminal region
@@ -147,9 +138,7 @@ the polymeric and denatured states of the protein. Finally, the
 three most C-terminal residues scored in the assay were all
 equally accessible under both fibrous and denatured states.
 
-
 Relationship of hnRNPA2 Footprints between
-
 
 
 Recombinant and Nuclear Forms of the Protein
@@ -159,7 +148,6 @@ prepared from 293T cells (Experimental Procedures). Isotopically labeled heavy p
 conditions of 5 M guanidine thiocyanate. Light protein was
 probed via the exposure of nuclei to the NAI chemical reagent.
 Following quenching with Tris, the samples were mixed, digested with chymotrypsin, and evaluated by mass spectrometry.
-
 
 The NAI footprint observed for native, nuclear hnRNPA2 could
 bescored for18ofthe23acetylatedresiduesobservedinthefoot-
@@ -179,8 +167,8 @@ Despite displaying qualitative similarities, the NAI-generated
 footprints for recombinant and native hnRNPA2 differed quantitatively in a consistent manner. The NAI protected residues
 observed in recombinant hnRNPA2 yielded an average of roughly
 
-3-fold (log2 1.8) difference when comparing peptide abundance in the light (fibrous) and heavy (denatured) samples.
-Turning to the native hnRNPA2 assayed in either intact or denatured nuclei, theaverage difference in peptides revealing NAI protected residues was roughly 1.5-fold (log2 0.5). Interpreted
+3-fold (log2 1.8) difference when comparing peptide abundance in the light (fibrous) and heavy (denatured) samples.
+Turning to the native hnRNPA2 assayed in either intact or denatured nuclei, theaverage difference in peptides revealing NAI protected residues was roughly 1.5-fold (log2 0.5). Interpreted
 most simply, this difference gives indication that a smaller fraction of the native hnRNPA2 present in nuclei may exist in the
 structurally ordered state than the fraction deduced by studies
 of recombinant hnRNPA2 polymeric fibers.
@@ -194,7 +182,6 @@ in intact nuclei. Among 18 residues defining the footprint, tyrosine
 324 was the single amino acid that was clearly different in the two
 samples. This residue was protected from NAI-mediated acetylation in fibrous preparations of recombinant hnRNPA2, but not in
 the native hnRNPA2 present in intact nuclei.
-
 
 Proline residues are found six positions
 on the amino terminal side of tyrosine
@@ -239,9 +226,7 @@ either the absence or presence of PPIA. The r-value of correlation
 
 of the native and recombinant footprints was 0.76, which increased to 0.89 when the recombinant hnRNPA2 had been co-expressed with PPIA.
 
-
 Mutations in the NAI-Protected Region of the hnRNPA2
-
 
 
 LC Domain Impede Hydrogel Binding
@@ -270,23 +255,17 @@ indistinguishable from wild-type hnRNPA2. Two of these mutants, Y335S and Y341S,
 fully accessible to NAI modification irrespective of whether the
 protein was in a polymeric or denatured state. Seven of these
 phenotype-void mutants, F95S, F197S, F207S, F215S, Y222S,
-
-
 F228S, and Y250S, were located in the amino terminal region
 of the LC domain that was widely accessible to NAI modification
 irrespective of structural state. The remaining three mutations
 that had no discernible effect on hydrogel binding, F244S,
-
-
 Y257S, Y275S, were all localized in the dead zone of the NAI
 footprint. Finally, seven mutants, including Y235S, Y250S,
 Y271S, Y288S, Y274S, Y301S, and Y324S, mildly affected binding to mCherry:hnRNPA2 hydrogels. These seven mutants mapped randomly across the LC domain of hnRNPA2. We conclude
 that tyrosine- and phenylalanine-to-serine mutations in NAI protected regions impede hydrogel binding, whereas those in NAI
 accessible regions do not impede hydrogel binding. This conclusion favors functional significance of the NAI footprint.
 
-
 Mutations in the LC Domain of hnRNPA2 Act
-
 
 
 Correlatively on Hydrogel Binding and Partitioning into
@@ -301,8 +280,6 @@ of FUS by light microscopy revealed the cloudy solution to be
 composed of liquid-like droplets (Figure S4). A number of investigators have recently reported that LC domains from a variety of
 proteins, including FUS, hnRNPA1, and DDX4, can prompt formation of liquid-like droplets (Altmeyer et al., 2015; Lin et al.,
 2015; Molliex et al., 2015; Nott et al., 2015; Patel et al., 2015).
-
-
 It is of potential importance to know whether the physical
 forces leading to hydrogel formation (polymerization of LC domains) are the same or different from those leading to liquidlike droplets. To this end, we have followed the procedures of
 Lin et al., (2015) to create liquid-like droplets driven by the LC
@@ -348,9 +325,6 @@ Liquid-like Droplets Display the NAI
 
 Footprint Found in Hydrogel
 Polymers and Nuclear hnRNPA2
-
-
-
 If the mutational effects driving hydrogel
 binding and liquid-like droplets correlate,
 it is possible that the LC domain of
@@ -368,7 +342,6 @@ of
 liquid-like droplets, 2 hr after droplet formation, and 18 hr after
 droplet formation.
 
-
 As shown in Figure 5, evidence of the canonical NAI footprint
 on the hnRNPA2 LC domain could be detected even before TEV
 protease cleavage. The quantitative intensity of the footprint
@@ -379,7 +352,6 @@ so in the 2 hr sample, further reduced in the 10 min sample,
 and least pronounced in the sample assayed prior to TEV protease cleavage. For the 18 hr time point, the degree of protection
 from NAI-mediated acetylation of buried side chains was indistinguishable between liquid-like droplets and hydrogels.
 
-
 Concordant with the observations of others who have studied
 LC domain partitioning to liquid-like droplets (Lin et al., 2015;
 Molliex et al., 2015; Patel et al., 2015), we conclude that, as a
@@ -388,8 +360,7 @@ within liquid-like droplets. Petri et al. (2012) have reported similar
 
 observations as a function of maturation of liquid-like droplets
 formed from FG repeats associated with nucleoporin proteins.
-
---- In summary, mutational studies of the LC domain of hnRNPA2 ---
+In summary, mutational studies of the LC domain of hnRNPA2
 give evidence that similar forces drive both hydrogel retention
 and partitioning into liquid-like droplets, and NAI footprinting
 studies reveal evidence that the LC domain of hnRNPA2 adopts
@@ -422,7 +393,6 @@ that hydrogel formation equates to polymerization of the LC
 sequences. Studies of hydrogels have revealed X-ray diffraction patterns consistent with cross-b structure, and electron
 microscopic evaluation of hydrogels has revealed homogeneous polymeric fibrils.
 
-
 Of significant concern to us has been the question as to
 whether the polymeric structures being studied in test tube reactions are of biological relevance. Heretofore, any linkage to biological utility has been limited to correlative mutagenesis. One
 example of this indirect approach to biological significance has
@@ -439,7 +409,6 @@ their capacity to activate transcription in living cells, a strong
 correlative relationship was observed with polymerization capacity (Kwon et al., 2013). Mutants fully capable of polymerization activate gene expression potently, mutants mildly impeded
 in polymerization activate transcription to an intermediate degree, and mutants that are incapable of polymerization fail to
 activate transcription.
-
 
 Here, we add a more direct approach to inquire whether LC
 domains might function in cells via the same chemistries and
@@ -474,8 +443,6 @@ for partitioning into liquid-like droplets, a strong correlative relationship wa
 into liquid-like droplets, mutants partially impeded in hydrogel
 retention were mildly impeded from entering liquid-like droplets,
 and mutants that bound hydrogels as well as the wild-type
-
-
 LC domain of hnRNPA2 partitioned effectively into liquid-like
 droplets.
 
@@ -512,10 +479,8 @@ samples of the triple fusion protein before TEV cleavage and
 exposure to the synthetic RNA substrate, and before the formation of liquid-like droplets, to reflect the same phenomenon of fiber nucleation observed during the lag phase of polymerization of
 pathogenic amyloid fibers. This interpretation is displayed graphically in Figure 6.
 
-
 We have never thought or contended that LC polymers
 thousands of subunits in length are operative in living cells.
-
 
 Indeed, LC domains are a cellular sink for
 post-translational modification, including
@@ -544,15 +509,12 @@ domain function (Kwon et al., 2013, 2014). Finally, in this report,
 we have employed hydrogels to develop the NAI footprinting
 strategy.
 
-
 Since the submission of this manuscript, four new papers have
 been published concerning the partitioning of LC domains into
 liquid-like droplets. Two of the four papers conclude that there
 is no biologic or physiologic role for cross-b polymerization of
 these LC domains and that polymerization is solely reflective of
 a pathologic state (Altmeyer et al., 2015; Patel et al., 2015).
-
-
 The two other papers conclude that cross-b polymerization of
 LC domains is not the driving force leading to the formation of
 liquid-like droplets but that it may be of biologic utility during

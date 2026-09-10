@@ -2,7 +2,6 @@
 Core pipeline orchestration module for PDF text extraction and LLM biocuration.
 """
 
-import os
 import json
 import logging
 import asyncio
@@ -10,10 +9,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from llm_client import LightLLMClient
-from text_extractor import parse_pdf, extract_core_results_only, chunk_text
 from validator import validate_lcr_annotations
 from generate_report import generate_html_report
-from post_processor import process_results
+from text_extractor import parse_pdf, extract_core_results_only, chunk_text
 
 load_dotenv()
 
@@ -119,13 +117,6 @@ async def main():
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     logger.info("Saved raw results to: %s", jsonl_output_file)
-
-    process_results(
-        input_file=str(jsonl_output_file),
-        verified_output_file=str(output_dir / "verified_lcrs.json"),
-        qualitative_output_file=str(output_dir / "qualitative_mentions.json"),
-        qualitative_csv_file=str(output_dir / "qualitative_mentions.csv")
-    )
 
     logger.info("Generating HTML biocuration report...")
     generate_html_report(

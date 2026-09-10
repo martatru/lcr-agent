@@ -7,10 +7,9 @@ that RBP condensation can occur in a binding-region-specific manner to selective
 disease, and evolution.
 
 --- RESULTS ---
-
-
-
 The CR is essential for efficient LLPS of full-length
+
+
 TDP-43
 Several regions of TDP-43 are capable of higher-order interactions. The CTD is sufficient for LLPS, but the specific roles of
 each region within the CTD are unclear (Tziortzouda et al.,
@@ -18,8 +17,6 @@ each region within the CTD are unclear (Tziortzouda et al.,
 constructs omitting sections of the CTD (Figures 1A and 1B):
 274del319 removes IDR1, which is rich in glycines; 316del346
 removes the helix-forming CR, which is rich in alanine, methionine, and leucine (Figure 1B); 320del366 removes most of the
-
-
 CR along with a glutamine- and asparagine-rich region that
 resembles yeast prion domains (Alberti et al., 2009); 367del414
 removes the glycine- and serine-rich IDR2; and 320del414 removes most of the CR and all of IDR2. Under in vitro conditions,
@@ -38,8 +35,6 @@ agent because TDP-43 spontaneously formed droplets in the
 absence of dextran when the MBP tag was cleaved from TDP-
 43 with tobacco etch virus (TEV) protease (Figures S1A–S1°C;
 Wang et al., 2018). Moreover, the varying propensities for
-
-
 LLPS were unaffected by addition of total HeLa cell RNA at
 5 ng/mL or 10 ng/mL (Figures S1D and S1E), whereas higher concentrations of total HeLa cell RNA (40 ng/mL) inhibited TDP-43
 LLPS (data not shown), as anticipated from similar findings
@@ -48,11 +43,7 @@ that the CR plays a central role in LLPS of full-length TDP-43, in
 agreement with its requirement for LLPS of the truncated protein
 (Conicella et al., 2016).
 
-
 CR promotes condensation of TDP-43 in cell nuclei
-
-
-
 RBP condensation can lead to formation of microscopically
 visible granules (Lyon et al., 2021). To address the role of IDRs
 in RBP condensation under physiological conditions, we generated stable Flp-In HEK293 cell lines with doxycycline-inducible
@@ -74,7 +65,6 @@ its concentration dependence is likely partially modified by the
 weak CR helix-mediated homomeric interactions that mirror
 LLPS behavior under in vitro conditions.
 
-
 To further investigate the effect of CTD deletions on TDP-43
 mobility in cells, we employed fluorescence recovery after photobleaching (FRAP) of GFP-TDP-43. We photobleached regions
 of the nucleoplasm with similar GFP intensities and monitored
@@ -90,15 +80,12 @@ change between the two treatments for the WT or any mutant
 (Figure S2F). Thus, the presence of endogenous TDP-43 has
 no effect on the mobility of any GFP-TDP-43 construct. Again,
 the extent of increased mobility in cell nuclei, as measured by
-
-
 FRAP, correlated with the degree of perturbation of in vitro
 LLPS for the different deletions (R2 = 0.9485; Figure S2G). We
 find that CR-disrupting deletions had strong correlated effects
 on LLPS, the number of nuclear foci, and the mobility of GFPTDP-43. This indicates that these distinct measurements likely
 detect shared aspects of condensation propensity and demonstrate that the CR is essential for optimal TDP-43 condensation
 in vitro and in cell nuclei.
-
 
 CR point mutants of TDP-43 have a gradient of
 condensation properties
@@ -111,7 +98,6 @@ proline, disrupting the secondary structure (Conicella et al.,
 
 
 Article
-
 WT
 A
 
@@ -122,7 +108,6 @@ WT
 367del414
 320del414
 
-
 B
 C
 D
@@ -130,6 +115,7 @@ D
 40
 
 3
+
 fraction condensed %
 
 foci count/nucleus
@@ -159,7 +145,6 @@ mean nuclear fluorescence (a.u.)
 10000
 15000
 mean nuclear fluorescence (a.u.)
-
 
 E
 F
@@ -211,16 +196,14 @@ foci counts/nucleus
 
 320del414
 
-
 WT
+
 time after photobleaching [s]
 
 2016; Li et al., 2018). A slightly less disruptive mutation is M337P,
 which mimics the effects of an ALS-causing mutation (M337V);
 both mutations disrupt the CR helix-helix interactions and helical
 region extension to perturb LLPS (Conicella et al., 2016). The
-
-
 ALS-causing mutation Q331K is positioned within the CR helix
 and perturbs LLPS by disrupting helix-helix interactions without
 breaking the helical region (Conicella et al., 2016; McGurk et al.,
@@ -235,19 +218,18 @@ the WT and 316del346 (Figures 3°C–3F and S3A). These experill
 
 
 OPEN ACCESS
-
 274del319
 
 320del366
 316del346
 
 367del414
+
 320del414
 
 10 micron
 
 mean foci fraction fluorescence (a.u.)
-
 
 WT
 induction
@@ -288,7 +270,7 @@ G
 *
 ****
 
-rate constant [s-1]
+[s-1] rate constant
 
 1.0
 
@@ -306,12 +288,11 @@ rate constant [s-1]
 
 316del346
 
-
 WT
+
 ments resulted in the expected trend of the strongest disruption
 by A326P, followed by M337P and then Q331K. In contrast,
 G294A weakly and G335A strongly promoted condensation.
-
 
 The mutants with slower mobility displayed a larger number of
 nuclear foci, and so we assessed whether mobility was affected
@@ -329,58 +310,71 @@ ll
 
 
 OPEN ACCESS
-
 274
 316 346
 
 B
 A
 
+
 RRM1
+
+
+
 RRM2
+
+
+
 GFP
 CR
+
 *
 ****
 
-
 C
 
-A326P
 
+A326P
 316del346
+
 
 Q331K
 
-G294A
 
+
+G294A
 316del346
+
 
 A326P
 
+
+
 G335A
-
-
-
 WT
+
 
 M337P
 
+
+
 Q331K
+
+
 
 G294A
 
+
+
 G335A
-
 WT
-
-
 
 1.0
 
 E
 
 Normalized fluorescence intensity
+
 0.8
 
 0.6
@@ -399,10 +393,10 @@ Normalized fluorescence intensity
 
 time after photobleaching [s]
 
-
 G
 
 Normalized fluorescence intensity
+
 1.0
 
 0.8
@@ -427,20 +421,16 @@ time after photobleaching [s]
 Article
 deletion of α-helix
 
-
 Helix breaker
 
 breaker of extended
 helix region
 
+
 M337P
-
-
-
 ALS mutation disrupts
 LLPS in vitro without
 changes to α-helix
-
 
 ALS mutation outside
 of α-helix, mild effect
@@ -450,7 +440,6 @@ in vitro
 
 helix extender /LLPS
 enhancer
-
 
 D
 
@@ -468,24 +457,30 @@ foci counts/nucleus
 
 50
 
-
 0
 
 WT
 
+
 Q331K
+
+
 
 A326P
 
-G294A
 
+
+G294A
 316del346
+
 
 M337P
 
-G335A
 
+
+G335A
 F
+
 1.5
 ****
 ns
@@ -494,32 +489,37 @@ ns
 ***
 ****
 
-rate constant [s-1]
+[s-1] rate constant
 
 1.0
 
 0.5
 
-
 0.0
+
 
 M337P
 
-G335A
 
+
+G335A
 WT
+
 
 A326P
 
+
+
 G294A
 
-Q331K
 
+
+Q331K
 316del346
+
 316del346 nucleoplasmic
 
 316del346 foci
-
 
 A326P nucleoplasmic
 
@@ -527,20 +527,18 @@ A326P foci
 
 G335A nucleoplasmic
 
-
-
 G335A foci
 
 WT nucleoplasmic
 
 WT foci
 
+
 Article
 foci formation and mobility of TDP-43 in a graded fashion,
 ranging from disruptive (e.g., 316del346) to enhancing (e.g.,
 G335A) effects, in line with observations from in vitro LLPS
 studies.
-
 
 CR-mediated condensation fine-tunes the RNA
 sequence preferences of TDP-43
@@ -559,7 +557,6 @@ that CR-mediated condensation of TDP-43 does not affect the
 general capacity of TDP-43 to bind RNA nor its ability to bind
 different types of RNAs.
 
-
 To assess whether the point mutations affect TDP-43 binding
 at a more detailed, sequence-specific level, we quantified the
 prevalence of hexanucleotide (6-mer) motifs around intronic
@@ -570,8 +567,6 @@ condensation-promoting G335A variant and the condensationdeficient A326P and 316
 that many crosslinks occur around high-affinity UG repeats
 that are known to be bound by TDP-43 (Buratti et al., 2005; Tollervey et al., 2011). The WT and condensation-promoting G335A
 variant displayed binding preferences similar to all 20 6-mers.
-
-
 However,
 most
 condensation-deficient
@@ -623,11 +618,7 @@ of TDP-43 for CR-mediated condensation is required for its
 optimal binding to the broadly distributed YG- and YA-containing [UG]n but less important for binding to AA-containing [UG]n
 motifs.
 
-
 Homomultimeric interactions drive the CR-dependent
-
-
-
 RNA assembly
 The in vitro LLPS effects indicate that the CR mutations change
 the capacity of TDP-43 for homomeric assembly. Additionally
@@ -647,6 +638,8 @@ swapped
 for
 that
 of
+
+
 TDP-43
 (hnRNPA2_TDP_CTD; Figure 4F). The hnRNPA2 CTD has a
 C-terminal nuclear localization sequence (NLS) (Siomi and
@@ -663,36 +656,33 @@ ll
 
 
 OPEN ACCESS
-
 A
-
-
 
 3. Proteinase digestion
 of the RBP, RNA isolation
 and reverse transcription
 
-
 2. RBP immunoprecipitation
 and adapter ligation
-
-
-
 1. RNA fragmentation
 
-RBP
+
 RBP
 
+
+
+RBP
 barcode
- adapter
+adapter
 
 B
 
 C
+
 relative motif enrichment (log2)
 
-
 0.4
+
 
 GUGUGU
 YG-containing [UG]n
@@ -709,31 +699,28 @@ AA-containing [UG]n
 
 
 UGUGUG
-
-
-
 0.0
+
 
 UGUGCG
 -0.2
 
-
 2
 
+
 UGCGUG
-
-
-
 -0.4
+
 
 CGUGUG
 
-GUGUGC
 
+
+GUGUGC
 1
 
-AUGUGU
 
+AUGUGU
 400
 200
 0
@@ -742,26 +729,32 @@ AUGUGU
 
 D
 
+
 GUAUGU
-
 3
-
 
 
 GUGUAU
 
+
+
 UGUGUA
 
-UGUAUG
 
+
+UGUAUG
 2
+
 
 UGCAUG
 
+
+
 GUGUGA
 
-AAUGAA
 
+
+AAUGAA
 1
 
 400
@@ -772,42 +765,50 @@ AAUGAA
 
 
 GAAUGA
-
 E
-
-
 
 3.5
 
+
 UGAAUG
 
-AUGAAU
 
+
+AUGAAU
 3
 
+
 GUGAAU
-
-
-
 2.5
 
-GAAUGU
 
+GAAUGU
 2
+
 
 UUGAAU
 
+
+
 G335A
+
+
 
 M337P
 
+
+
 G294A
+
+
 
 A326P
 
-Q331K
 
+
+Q331K
 WT
+
 316del346
 
 1.5
@@ -822,8 +823,6 @@ WT
 Condensation
 propensity
 
-
-
 Position of motifs relative to xlinks
 
 F
@@ -831,9 +830,8 @@ F
 G
 H
 YG-containing [UG]n
-
-
 GGAA motif group
+
 1.2
 
 5.5
@@ -850,21 +848,25 @@ endogenous hnRNPA2
 
 4.5
 
-
 0.9
+
 
 NLS
 182
 
 4
 
-
-
 0.8
+
 
 CTD
 
+
+
 RRM
+
+
+
 RRM
 3.5
 
@@ -898,14 +900,17 @@ with siTDP43
 
 
 SV40 NLS
-
 I
 J
+
 AA-containing [UG]n
 YA-containing [UG]n
 
 
 RRM
+
+
+
 RRM
 1.4
 
@@ -932,14 +937,21 @@ with siTDP43
 SV40 NLS
 182
 
-
-
 1.1
 
+
 IDR1 CR
+
+
+
 IDR2
 
+
+
 RRM
+
+
+
 RRM
 1.0
 
@@ -977,9 +989,9 @@ Article
 PCR amplification
 
 
-
-5. High-throughput 
+5. High-throughput
 sequencing
+
 YG-containing [UG]n
 
 WT_1
@@ -1004,9 +1016,8 @@ strongly
 to
 its
 expected
-
-
 GGAA-type motifs at introns and 30
+
 UTRs (Huelga et al., 2012). This pattern
 was also seen for both variants (Figures
 4G and S4F). Strikingly, we also found
@@ -1025,26 +1036,32 @@ hnRNPA2 variants showed less binding to the AA-containing
 
 
 Article
-
 316del346
 
 A
 
 1,6 HD
 
+
 M337P
+
+
 
 Q331K
 
+
+
 G294A
+
+
 
 G335A
 
 
 
 A326P
-
 WT
+
 0.6
 
 0.4
@@ -1082,14 +1099,14 @@ modest
 
 dense
 
-CR-dependent pattern: decreased relative binding upon 
+CR-dependent pattern: decreased relative binding upon
 perturbed CR-mediated condensation
 
 decreased relative binding after 5 min 1,6 -HD treatment
 
 increased relative binding after 5 min 1,6-HD treatment
 
-decreased relative binding in response to both CR perturbation 
+decreased relative binding in response to both CR perturbation
 and 1,6-HD treatment
 
 ll
@@ -1098,7 +1115,6 @@ ll
 OPEN ACCESS
 manner, with only slight enrichment seen around this motif (Figures 4E, 4J, and S4F). ChimeraRBP-CLIP shows that the CTDmediated homomultimeric contacts recruit the chimeric protein
 close to the RNA-binding regions of endogenous TDP-43.
-
 
 Three RNA features define the characteristics of
 binding-region condensates
@@ -1125,11 +1141,8 @@ We highlighted the CR-dependent classes; i.e., those with relatively decreased c
 perturbed CR-mediated condensation. These classes generally
 contain long binding sites (>100 nt; yellow outline in Figure 5A)
 with predominant YG- and YA-containing [UG]n motifs, suggesting that CR-dependent condensation contributes to efficient
-
-
 TDP-43 binding to regions containing extremely long clusters
 of specific motif types.
-
 
 Next we analyzed the classes that do not show decreased
 binding among condensation-deficient CR-variants. Crosslinking of the CR-variants appears to increase at some of these classes, but this needs to be interpreted with caution because each
@@ -1137,8 +1150,6 @@ class on the heatmap is internally normalized by the average
 binding across all variants for the sake of visualization; the
 apparent increase at CR-independent regions thus likely results
 from the decreased binding to CR-dependent regions. These
-
-
 CR-independent classes are shorter and more densely covered
 by motifs (Figure S5B, panel 4). The patterns of CR sensitivity
 were reproduced in three independent experiments (Figures
@@ -1154,8 +1165,6 @@ changes in iCLIP binding correlated with the extent of perturbed
 condensation, as observed by imaging (Figure 3). The decrease
 in the relative binding to more than 100 nt versus less than 60 nt
 regions was strongest for 316del346 and A326P and milder with
-
-
 M337P and Q331K, and G294A had a similar iCLIP pattern as the
 WT protein. Conversely, G335A had increased binding to the
 more than 100 nt regions compared with the WT, which agrees
@@ -1189,11 +1198,7 @@ containing a relatively low density of predominantly YA-containing [UG]n motifs 
 generally perturbed TDP-43 binding to different classes of binding regions than CR mutations, depending on the length of the
 regions and the density and type of binding motifs they contain.
 
-
 TDP-43 condensates form on individual binding regions
-
-
-
 To date, studies of RNA-condensation relationships have been
 done with full-length RNAs (Langdon et al., 2018; Lee et al.,
 2020; Maharana et al., 2018). Therefore, it remains unclear
@@ -1207,8 +1212,6 @@ MALAT1. These lncRNAs participate in cross-regulation with
 TDP-43 and are differentially bound in brain tissue from individuals with FTD (Modic et al., 2019; Nguyen et al., 2020; Tollervey
 et al., 2011), and NEAT1 has been found to influence the phase
 separation propensity of bound RBPs (Maharana et al., 2018).
-
-
 Both RNAs contain multiple TDP-43 binding regions, with
 some
 regions
@@ -1219,11 +1222,9 @@ CR-dependent
 binding
 patterns,
 whereas others were CR independent. In MALAT1, two primary
-binding regions were 9 kb apart on the RNA. The CR-dependent region showed greatly reduced binding of 316del346
+binding regions were 9 kb apart on the RNA. The CR-dependent region showed greatly reduced binding of 316del346
 compared with the WT, with the expected gradient of binding
 loss across the point mutants (Figure 6B). The CR helix-disrupting mutations and 1,6-HD led to dramatic binding decreases.
-
-
 Conversely, the CR-independent region did not show decreased
 binding when the CR helix was mutated or upon 1,6-HD treatment (Figure 6A). The CR-dependent region was more than
 300 nt long and had broad binding consistently across the whole
@@ -1244,7 +1245,6 @@ conclude that TDP-43 does not assemble via a uniform mechanism on RNAs with mult
 condensation of TDP-43 takes place on individual RNA-binding
 regions.
 
-
 The TDP-43 30 UTR binding region condensate mediates
 autoregulation
 As described above, one of the regions in MALAT1 was perturbed by CR mutations as well as by 1,6-HD (Figure 6B). Fascinatingly, another doubly sensitive binding region was found
@@ -1260,16 +1260,16 @@ construct. The expression level of 316del346 is lower in
 
 
 Article
-
 A
 
 B
 
-CR-dependent 
+
+CR-dependent
+
+
+
 CR-independent
-
-
-
 Crosslink signal
 
 Crosslink signal
@@ -1287,10 +1287,10 @@ Crosslink signal
 40
 
 20
+
 0
 
-motif Crosslink signal
-
+Crosslink signal motif
 
 Crosslink signal
 
@@ -1310,6 +1310,7 @@ motif
 
 65501100
 65501200
+
 65504300
 65504400
 65504500
@@ -1319,34 +1320,38 @@ motif
 hg38 Chr11
 
 MALAT1°C
-
-
 D
 
-CR-dependent TDP-43 autoregulation 
+CR-dependent TDP-43 autoregulation
 
 Crosslink signal
+
 316del346
 
 
 A326P
-
 2
+
 
 M337P
 
+
+
 Q331K
 
-G294A
 
+
+G294A
 1
 
+
 G335A
-
 WT
-WT 1,6-HD
 
+
+WT 1,6-HD
 0
+
 YG-[UG]n
 YA-[UG]n
 AA-[UG]n
@@ -1367,14 +1372,11 @@ defined by iCLIP. These findings show that CR helix-mediated
 condensation is essential for efficient assembly of TDP-43 on
 the 30 UTR of its own mRNA and, therefore, its autoregulation.
 
-
 Condensation is required for TDP-43 function at a
 subset of its regulated mRNAs
 The autoregulation effect revealed that CR-mediated condensation contributes to the regulatory
 function of TDP-43.
 Conversely, condensation-deficient TDP-43 variants in IDR1/
-
-
 IDR2 can retain their function, regulating splicing of a few
 RNAs (Schmidt et al., 2019). TDP-43 regulates a broad range
 of 30 end processing events (Modic et al., 2019; Rot et al.,
@@ -1382,25 +1384,30 @@ of 30 end processing events (Modic et al., 2019; Rot et al.,
 
 
 OPEN ACCESS
-
 316del346
+
 
 A326P
 
+
+
 M337P
+
+
 
 Q331K
 
+
+
 G294A
 
-G335A
 
+
+G335A
 WT
 
 
-
 WT 1,6-HD
-
 hnRNPA2
 hnRNPA2_TDP_CTD
 
@@ -1442,23 +1449,30 @@ no DOX
 
 A326P
 
+
+
 G335A
+
+
 
 G294A
 
+
+
 M337P
 
-Q331K
 
+
+Q331K
 WT
 
 316del346
+
 
 DOX
 deficient CR variants are deficient in regulating any of these
 events. 24 h after transfecting siRNAs to deplete the endogenous TDP-43, we induced the siRNA-resistant GFP-TDP-43 variants and collected cells 24 h afterward. Total RNA was isolated
 from cells and used for 30 mRNA sequencing.
-
 
 To analyze the capacity of CR variants to rescue appropriate
 30 end processing, we first derived a common atlas of poly(A)
@@ -1480,7 +1494,6 @@ ll
 
 
 OPEN ACCESS
-
 A
 
 B
@@ -1491,6 +1504,7 @@ C
 F
 G
 H
+
 
 Article
 (legend on next page)
@@ -1504,13 +1518,9 @@ silhouette method showed that the data optimally clustered
 into two groups (Figure S7B). The patterns of change in PAS
 usage for each distinct group reflected the capacity of each
 TDP-43 variant to regulate PAS usage relative to WT TDP-43.
-
-
 For the 82 CR-independent mRNAs, condensation-deficient
 TDP-43 variants (316del346, A326P, and M337P) were able to
 regulate PAS usage in the same way as the WT, but for the 54
-
-
 CR-dependent mRNAs, this capacity was significantly impaired
 (Figures 7A and S7°C). As supported by qPCR analysis, CRdependent mRNAs displayed a gradual decrease in functionality
 from WT and G335A to the condensation-deficient variants,
@@ -1524,11 +1534,9 @@ Binding of the condensation-deficient variants (316del346 and
 A326P) relative to condensation-preserving variants (WT and
 G335A) was significantly decreased in CR-dependent mRNAs
 (p = 0.0043) but not CR-independent mRNAs (Figure S7D).
-
-
 Moreover, the mutant variants of TDP-43 exhibited graded
 changes in binding to CR-dependent mRNAs that correlated
-with their condensation capacity (p = 1.8 3 107), with the strongest loss of binding seen for the A326P mutant, similar to
+with their condensation capacity (p = 1.8 3 10 7), with the strongest loss of binding seen for the A326P mutant, similar to
 316del346 (Figure 7F). In contrast, TDP-43 variants did not
 significantly differ in their binding to CR-independent mRNAs
 (p = 0.23; Figure 7F). 30 UTRs of CR-dependent mRNAs had a
@@ -1539,9 +1547,6 @@ ll
 
 
 OPEN ACCESS
-
-
-
 TDP-43 condensation is required for regulation of a subset of
 its mRNA partners. We observed a clear relationship between
 the condensation capacity of TDP-43 variants in vitro and in vivo
@@ -1550,18 +1555,11 @@ and 5) and regulation (Figures 6 and 7) of a subset of RNA
 partners.
 
 --- DISCUSSION ---
-
-
-
 Our study introduces an integrative approach across a broad
 range of methods to study RNP condensation, including the
-
-
 RBPchimera-CLIP approach and bioinformatics tools to assign
 and classify bound RNA regions, to find that, by promoting homomeric assembly of TDP-43 on specific RNA regions, the CR
 helix selectively modulates the RNA binding specificity of TDP-
-
-
 43. Notably, CR helix mutants perturb TDP-43 condensation at
 multiple scales to a similar extent, including LLPS, nuclear
 mobility and foci formation, formation of binding-region condensates, and regulation of RNA processing, indicating that they are
@@ -1576,7 +1574,6 @@ to the long-multivalent regions (Figure 7H). We have resolved the
 salient RNA features of binding-region condensates that help
 explain their role in selective RNP assembly and regulation of
 RNA networks.
-
 
 Transcriptome-wide changes in RNA processing have been
 observed in post-mortem human tissue and in animal models
@@ -1594,19 +1591,13 @@ propose generic cytoplasmic gain and nuclear loss of function
 as candidates for ALS-causing mechanisms (Tziortzouda et al.,
 2021). Instead, we now find that the changes in function can
 be selective because various CR mutations lower the ability of
-
-
 TDP-43 to bind subclasses of binding regions while retaining
 binding and regulation of other RNAs. Thus, when perturbed
 condensation of TDP-43 decreases its capacity for autoregulation, gradually increasing its abundance, it could affect different
-
-
 RNAs in variable ways depending on whether the mutant TDP-43
 can efficiently bind and regulate the RNA. At a later stage of ALS
 progression, the general activity of TDP-43 drops because of its
 mislocalization or aggregation, affecting all of its RNA partners.
-
-
 For example, qPCR analysis of the cryptic exons in ATG4B,
 which is derepressed upon TDP-43 depletion, showed that CR
 mutants and CR deletion were just as efficient in repressing
@@ -1615,8 +1606,6 @@ this exon as the WT protein (Ling et al., 2015; Figure S7E). The
 binding because it is very dense and less than 100 nt. Thus,
 the characteristics of the TDP-43-binding regions and the results
 of our qPCR analyses indicate that cryptic exons such as in
-
-
 ATG4B may not be directly affected by CR mutations but could
 become deregulated at the stage when nuclear clearance of
 TDP-43 starts to contribute to the disease process.
@@ -1626,8 +1615,6 @@ As further insight into the regulated RNA network, we identified
 ALS or TDP-43 regulation, including the core stress granule protein G3BP1, which is essential for granule formation in response
 to specific stressors (Guille ́ n-Boixet et al., 2020; Yang et al.,
 2020). Depletion of TDP-43 promotes expression of the longer
-
-
 G3BP1 30 UTR isoform, which is believed to be translated less
 efficiently and, thus, could decrease G3BP1 abundance (Sidibe ́
 et al., 2021). TDP-43 also regulates processing of Gemin6, a
@@ -1635,8 +1622,6 @@ component of the Gem protein complex dysregulated in spinal
 muscular atrophy (Cauchi, 2014), and of CSNK1D, encoding
 one of the Ser/Thr Kinase CK-1 isoforms, which can phosphorylate up to 29 sites in TDP-43, some of these in response to stress
 (Kametani et al., 2009). Finally, TDP-43 regulates processing of
-
-
 KPNB1, encoding karyopherin b1, a nuclear-import receptor
 that counteracts the cytoplasmic accumulation of TDP-43 and
 antagonizes TDP-43 fibrillization (Guo et al., 2018; Nishimura
@@ -1645,7 +1630,6 @@ feedback loops that could drive TDP-43 pathogenesis through
 aberrant phosphorylation, cytoplasmic mislocalization, and
 aggregation of TDP-43, the hallmarks of ALS (Tziortzouda
 et al., 2021).
-
 
 It has been shown that RNAs can have specific effects on
 condensation properties of RBPs (Loughlin et al., 2021; Maharana et al., 2018; Mann et al., 2019; Sanders et al., 2020), but
@@ -1673,27 +1657,19 @@ case of the MALAT1 and the 30 UTR of TARDBP mRNA.
 
 By showing that the effects of TDP-43 condensation are specific to subsets of binding regions, our model helps explain the
 findings of past studies that examined a few RNA partners of
-
-
 TDP-43 to conclude that condensation mediated by various
 CTD regions is or is not required for the function of TDP-43 in
 RNA processing (Budini et al., 2014; Conicella et al., 2020; Roczniak-Ferguson and Ferguson, 2019; Schmidt et al., 2019). Given
 that distinct RNA features were enriched at regions affected by
-
-
 CR mutation versus 1,6-HD treatment, one could speculate
 that distinct types of condensation-promoting interactions might
 be required at distinct classes of long-multivalent RNA regions.
-
-
 Many types of homomeric contacts have been reported to
 contribute to TDP-43 condensation. For instance, the 1,6-HD effect has been linked to the role of p-p interactions of aromatic
 residues in IDR1 and IDR2 that promote the LLPS of TDP-43
 (Schmidt et al., 2019). In addition to the CR helix, various portions
 of the CTD can form highly polymorphic steric zippers, daggershaped folds, and R-shaped fibrils that could also mediate
 reversible or irreversible aggregation (Tziortzouda et al., 2021).
-
-
 The importance of homomeric CTD-mediated interactions in
 RNA recruitment is directly demonstrated by our iCLIP study of
 a chimeric hnRNPA2-TDP-CTD protein, which requires the
@@ -1702,8 +1678,6 @@ enrichment of the chimeric protein in the foci. Moreover, it has
 been shown that RNA binding makes TDP-43 less prone to
 macroscopic phase separation (Mann et al., 2019; Yu et al.,
 2021), and we find that, in addition to its effects on the foci,
-
-
 CR-mediated condensation also slows the nucleoplasmic
 mobility of TDP-43. These findings imply that region-specific
 RNA recruitment might be mediated by molecular-scale condensates of TDP-43 into nanometer-sized assemblies.
@@ -1714,9 +1688,6 @@ those containing IDRs (Gueroussov et al., 2017; Loughlin et al.,
 
 
 Article
-
-
-
 DNA-binding proteins have also been shown to require IDRs for
 binding to broad DNA regions (Brodsky et al., 2020). We now find
 that condensation selectively modulates TDP-43 assembly on
@@ -1733,18 +1704,12 @@ affected complexes at the molecular scale. Our findings thus
 open the possibility that changes in RNP condensation could
 remodel RNA networks with high selectivity in development, disease, and evolution.
 
-
 Limitations of study
-
-
-
 We find that CR-mediated condensation of TDP-43 is not needed
 for binding to all multivalent RNA regions, and its role additionally
 depends on the length of multivalent regions and the type and
 density of motifs in these regions. Although these features represent general trends of the whole class of CR-sensitive binding regions, there are variations between individual CR-sensitive RNA
 regions, and additional features may play a role. For example,
-
-
 RNP condensates can also be modulated by RNA structure,
 RNA-RNA contacts (Tauber et al., 2020), and proximal binding
 sites of multiple different RBPs (Attig et al., 2018). The CR-dependent and -independent RNA regions might differ in the structural
@@ -1758,82 +1723,3 @@ motifs; thus, much of their sequence is available for binding to
 other RBPs. As a result, TDP-43 might face increased competition
 with other RBPs at the CR-dependent regions and require its CRmediated condensation to outcompete (or coassemble with)
 these RBPs. Further in vitro, bioinformatics, and functional experiments will be needed to resolve these hypotheses.
-
-STAR+METHODS
-
-Detailed methods are provided in the online version of this paper
-and include the following:
-
-d KEY RESOURCES TABLE
-
-d RESOURCE AVAILABILITY
-
-
-B Lead contact
-
-B Materials availability
-
-
-
-B Data and code availability
-d EXPERIMENTAL MODEL AND SUBJECT DETAILS
-
-
-B In vitro phase separation assays
-
-ll
-OPEN ACCESS
-d METHOD DETAILS
-
-
-B Mammalian cell culture
-
-
-
-B Generation of GFP TDP-43 inducible cell lines
-
-
-
-B Microscopy and imaging analysis
-B Fluorescence recovery after photobleaching (FRAP)
-
-
-B FRAP analysis
-
-
-
-B Comparison of in vitro Csat with FRAP and foci
-measurements
-
-
-B Statistics for image quantification
-
-
-
-B Individual-nucleotide resolution UV-crosslinking and
-immunoprecipitation
-of
-protein-RNA
-complexes (iCLIP)
-
-
-B Western blot analysis
-
-B siRNA transfection
-
-
-
-B Preparation of total RNA
-
-B RT-PCR
-
-
-
-B Generation of pAseq libraries
-
-B Computational analyses
-
-
-
-B Analysis of pAseq data
-d QUANTIFICATION AND STATISTICAL ANALYSIS

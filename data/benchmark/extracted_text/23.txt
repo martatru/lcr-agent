@@ -1,523 +1,500 @@
---- Results
-
-Edc3p functions in P-body formation ---
-
-
-
+--- Results ---
+Edc3p functions in P-body formation
 To test the role of Edc3p in P-body assembly, we examined the
 ability of edc3∆ strains to form P-bodies. In edc3∆ strains,
-
-
 Dcp1pGFP and Dcp2pGFP were no longer seen in the small
-
-
-
 P-bodies normally observed in mid-log cultures in wild-type
-strains (Fig. 1 A, left). Moreover, during glucose deprivation, 
-where P-bodies are large (Teixeira et al., 2005), we observed 
-that edc3∆ strains showed a strong reduction in the accumulation of multiple proteins into microscopically visible P-bodies 
-(Fig. 1 A, left), although some P-bodies could still form (see the 
-following paragraph). The edc3∆ strain also showed reduced 
-P-body assembly in response to osmotic stress and in the stationary phase (not depicted). It should be noted that we were unable 
-to determine if P-bodies too small to be detected in the light 
-microscope were forming (see Discussion). Nevertheless, the 
-strong reduction of P-bodies, as judged by six different proteins 
+strains (Fig. 1 A, left). Moreover, during glucose deprivation,
+where P-bodies are large (Teixeira et al., 2005), we observed
+that edc3∆ strains showed a strong reduction in the accumulation of multiple proteins into microscopically visible P-bodies
+(Fig. 1 A, left), although some P-bodies could still form (see the
+following paragraph). The edc3∆ strain also showed reduced
+P-body assembly in response to osmotic stress and in the stationary phase (not depicted). It should be noted that we were unable
+to determine if P-bodies too small to be detected in the light
+microscope were forming (see Discussion). Nevertheless, the
+strong reduction of P-bodies, as judged by six different proteins
 
 and under different growth conditions, indicates that Edc3p affects the formation of P-bodies.
 
-
 We observed that the magnitude of the reduction of
-P-bodies in the edc3∆ strain was dependent on the experimental 
-conditions used. Most strikingly, if aeration was limited during 
-glucose deprivation, Edc3p was required for P-body accumulation (Fig. 2 A). In contrast, if cells were deprived of glucose 
-while being strongly aerated, edc3∆ strains still formed P-bodies, 
-although at reduced levels compared with wild-type cells (Fig. 2 A). 
-These results suggested that there is also an Edc3-independent 
-mode for forming P-bodies that is dependent on mitochondrial 
-respiration. To test this possibility, we isolated and examined 
-petite versions of wild-type and edc3∆ strains that are respiratory 
-defi cient (Fox et al., 1991). P-bodies increased in response to 
-glucose deprivation in respiratory-defi cient, but otherwise wildtype, cells, as judged by the increase in Dcp2GFP and Dhh1GFP 
-foci (Fig. 2 A). In contrast, no Dcp2GFP or Dhh1GFP foci were 
-observed after glucose removal in the edc3∆ strain that was respiratory defi cient (Fig. 2 A). These results indicate that Edc3p 
-plays a role in P-body assembly, although there is a second respiration-dependent mechanism during glucose deprivation that 
+P-bodies in the edc3∆ strain was dependent on the experimental
+conditions used. Most strikingly, if aeration was limited during
+glucose deprivation, Edc3p was required for P-body accumulation (Fig. 2 A). In contrast, if cells were deprived of glucose
+while being strongly aerated, edc3∆ strains still formed P-bodies,
+although at reduced levels compared with wild-type cells (Fig. 2 A).
+These results suggested that there is also an Edc3-independent
+mode for forming P-bodies that is dependent on mitochondrial
+respiration. To test this possibility, we isolated and examined
+petite versions of wild-type and edc3∆ strains that are respiratory
+defi cient (Fox et al., 1991). P-bodies increased in response to
+glucose deprivation in respiratory-defi cient, but otherwise wildtype, cells, as judged by the increase in Dcp2GFP and Dhh1GFP
+foci (Fig. 2 A). In contrast, no Dcp2GFP or Dhh1GFP foci were
+observed after glucose removal in the edc3∆ strain that was respiratory defi cient (Fig. 2 A). These results indicate that Edc3p
+plays a role in P-body assembly, although there is a second respiration-dependent mechanism during glucose deprivation that
 can contribute to P-body assembly.
 
-
 Additional evidence that Edc3p affects, but is not required
-for, P-body assembly is that the large P-bodies that form in 
-dcp1∆ or xrn1∆ strains because of the resulting defects in decapping and 5′-to-3′ degradation (Sheth and Parker, 2003; Teixeira 
-and Parker, 2007) are reduced but not eliminated in dcp1∆ edc3∆ 
+for, P-body assembly is that the large P-bodies that form in
+dcp1∆ or xrn1∆ strains because of the resulting defects in decapping and 5′-to-3′ degradation (Sheth and Parker, 2003; Teixeira
+and Parker, 2007) are reduced but not eliminated in dcp1∆ edc3∆
 and xrn1∆ edc3∆ strains (Fig. 1 B).
-
 
 Edc3p is required for P-body assembly
 but not for translation repression
-The strong reduction of P-bodies in the respiratory-defi cient 
-edc3∆ strain during glucose deprivation suggests that Edc3p 
-could either be required for the aggregation of mRNPs into 
-P-bodies or for translational repression during glucose deprivation. 
-To distinguish these two possibilities, we examined whether the 
-respiratory-defi cient edc3∆ strain could repress translation during 
+The strong reduction of P-bodies in the respiratory-defi cient
+edc3∆ strain during glucose deprivation suggests that Edc3p
+could either be required for the aggregation of mRNPs into
+P-bodies or for translational repression during glucose deprivation.
+To distinguish these two possibilities, we examined whether the
+respiratory-defi cient edc3∆ strain could repress translation during
 glucose deprivation, as judged by polysome analysis.
 
-
 We observed that both respiratory-defi cient wild-type or
-edc3∆ cells showed a similar reduction in polysomes during 
-glucose deprivation (Fig. 2 B). Because Edc3p is required for 
-P-body formation under these conditions, this observation indicates that Edc3p primarily functions in the aggregation of nontranslating mRNPs into P-bodies. This result also implies that 
-aggregation of mRNPs into microscopically visible P-bodies is 
-not required for translation repression, at least in response to 
+edc3∆ cells showed a similar reduction in polysomes during
+glucose deprivation (Fig. 2 B). Because Edc3p is required for
+P-body formation under these conditions, this observation indicates that Edc3p primarily functions in the aggregation of nontranslating mRNPs into P-bodies. This result also implies that
+aggregation of mRNPs into microscopically visible P-bodies is
+not required for translation repression, at least in response to
 glucose deprivation.
-
 
 Different domains of Edc3p interact with
 
 
-
 Edc3p, Dcp2p, and Dhh1p
-These results identify Edc3p as a factor that contributes to the 
-assembly of microscopically visible P-bodies. Edc3p is a member of the Lsm16 family of proteins and contains at its N terminus a divergent Lsm, or like-Sm, domain, a central FDF domain 
+These results identify Edc3p as a factor that contributes to the
+assembly of microscopically visible P-bodies. Edc3p is a member of the Lsm16 family of proteins and contains at its N terminus a divergent Lsm, or like-Sm, domain, a central FDF domain
 of unknown function containing the amino acid motif FDF, and a
-
-
 C-terminal YjeF-N domain that resembles the N-terminal domain
-of the Escherichia coli Yjef protein (Albrecht and Lengauer, 2004; 
+of the Escherichia coli Yjef protein (Albrecht and Lengauer, 2004;
 
-Anantharaman and Aravind, 2004). To determine how these different Edc3 domains contribute to P-body assembly, we examined the interactions of each of these domains in two-hybrid 
-tests with other P-body components and verifi ed interactions by 
+Anantharaman and Aravind, 2004). To determine how these different Edc3 domains contribute to P-body assembly, we examined the interactions of each of these domains in two-hybrid
+tests with other P-body components and verifi ed interactions by
 direct binding experiments with recombinant proteins.
 
-In two-hybrid assays (Fig. 3 A), full-length Edc3p interacted with Edc3p, Dcp1p, the C-terminal structural domain of 
-Dhh1p (Cheng et al., 2005), and the conserved region of Dcp2p 
-(amino acids 1–300). The conserved region of Dcp2p is composed of two distinct structural domains: an N-terminal domain 
-that interacts with Dcp1p and a C-terminal domain that contains 
+In two-hybrid assays (Fig. 3 A), full-length Edc3p interacted with Edc3p, Dcp1p, the C-terminal structural domain of
+Dhh1p (Cheng et al., 2005), and the conserved region of Dcp2p
+(amino acids 1–300). The conserved region of Dcp2p is composed of two distinct structural domains: an N-terminal domain
+that interacts with Dcp1p and a C-terminal domain that contains
 the catalytic site (She et al., 2006). The C-terminal catalytic domain of Dcp2p encompassing amino acids 102–300 was suffi -
-cient to interact with full-length Edc3p. Subsequent experiments 
+cient to interact with full-length Edc3p. Subsequent experiments
 revealed that each of these interactions involved a specifi c domain of Edc3p.
 
-
 Two observations indicate that the catalytic domain of
-Dcp2p (residues 102–300) primarily interacts with the Lsm 
+Dcp2p (residues 102–300) primarily interacts with the Lsm
 
-domain of Edc3p. First, the Lsm domain is suffi cient in the twohybrid assay to interact with residues 102–300 of Dcp2p (Fig. 
-3 A). Second, a His-tagged Lsm domain binds to recombinant 
-Flag-tagged Dcp2p (either 1–300 or 102–300) in an in vitro 
-pull-down assay from bacterial lysates (Fig. 3 B). Lysates were 
-used because the Lsm domain became insoluble when concentrated during purifi cation. The Lsm domain was not pelleted by 
-the anti-Flag resin alone (Fig. 3 B) or by GST-tagged Dhh1p 
-(Fig. 3 D), indicating that the Lsm domain–Dcp2p interaction is 
-specifi c. These results identify the Lsm domain as a region of 
+domain of Edc3p. First, the Lsm domain is suffi cient in the twohybrid assay to interact with residues 102–300 of Dcp2p (Fig.
+3 A). Second, a His-tagged Lsm domain binds to recombinant
+Flag-tagged Dcp2p (either 1–300 or 102–300) in an in vitro
+pull-down assay from bacterial lysates (Fig. 3 B). Lysates were
+used because the Lsm domain became insoluble when concentrated during purifi cation. The Lsm domain was not pelleted by
+the anti-Flag resin alone (Fig. 3 B) or by GST-tagged Dhh1p
+(Fig. 3 D), indicating that the Lsm domain–Dcp2p interaction is
+specifi c. These results identify the Lsm domain as a region of
 Edc3p that directly binds the catalytic domain of Dcp2p.
 
-
 Two observations indicate that Dcp2p also interacts with
-the FDF domain of Edc3p. First, although the FDF domain is 
-not suffi cient for a two-hybrid interaction with Dcp2p, a combined Lsm–FDF construct shows a stronger interaction with the 
-catalytic domain of Dcp2p than just the Lsm domain (Fig. 3 A). 
+the FDF domain of Edc3p. First, although the FDF domain is
+not suffi cient for a two-hybrid interaction with Dcp2p, a combined Lsm–FDF construct shows a stronger interaction with the
+catalytic domain of Dcp2p than just the Lsm domain (Fig. 3 A).
 
-Second, the purifi ed FDF domain could be affi nity purifi ed with 
+Second, the purifi ed FDF domain could be affi nity purifi ed with
 both the Flag-tagged 1–300–amino acid fragment and the 102–300–
-amino acid fragment of Dcp2p, although this interaction is sensitive to moderate salt (Fig. 3°C). These results identify the FDF 
+amino acid fragment of Dcp2p, although this interaction is sensitive to moderate salt (Fig. 3°C). These results identify the FDF
 domain as a region that can directly bind Dcp2p, albeit weakly.
 
-Two observations indicate that the FDF domain can directly interact with the C-terminal domain of Dhh1p as well. 
-First, the FDF domain was suffi cient in two-hybrid experiments 
-to interact with this portion of Dhh1p (Fig. 3 A). Second, recombinant Dhh1p interacted with recombinant FDF domain in 
-an in vitro pull-down assay (Fig. 3 E). Moreover, the in vitro interaction between the FDF domain and Dhh1p only required the 
-C-terminal domain of Dhh1p (Fig. 3 E). In contrast, purifi ed 
-Dhh1p failed to interact with the Lsm domain of Edc3p in pulldown experiments (Fig. 3 D). These results identify the FDF 
+Two observations indicate that the FDF domain can directly interact with the C-terminal domain of Dhh1p as well.
+First, the FDF domain was suffi cient in two-hybrid experiments
+to interact with this portion of Dhh1p (Fig. 3 A). Second, recombinant Dhh1p interacted with recombinant FDF domain in
+an in vitro pull-down assay (Fig. 3 E). Moreover, the in vitro interaction between the FDF domain and Dhh1p only required the
+C-terminal domain of Dhh1p (Fig. 3 E). In contrast, purifi ed
+Dhh1p failed to interact with the Lsm domain of Edc3p in pulldown experiments (Fig. 3 D). These results identify the FDF
 domain as a site that directly binds Dhh1p.
 
-
 The YjeF-N domain of Edc3p can interact with itself and
-was suffi cient to interact with Edc3p (Fig. 3 A). This is consistent 
-with genome-wide analyses that have identifi ed the C terminus 
-of Edc3p as being suffi cient to interact with itself by two-hybrid 
-or phage display experiments (Fromont-Racine et al., 2000; 
+was suffi cient to interact with Edc3p (Fig. 3 A). This is consistent
+with genome-wide analyses that have identifi ed the C terminus
+of Edc3p as being suffi cient to interact with itself by two-hybrid
+or phage display experiments (Fromont-Racine et al., 2000;
 Marino-Ramirez and Hu, 2002).
-
 
 We also obtained evidence that the C-terminal domain of
 Dhh1p binds directly to the catalytic domain of Dcp2p. Specifi -
-cally, we observed a two-hybrid interaction between these domains of Dhh1p and Dcp2p (unpublished data). In addition, in 
-binding experiments with purifi ed recombinant proteins, GSTtagged Dhh1p pulled down Dcp2p (Fig. 3 F), and reciprocally 
-GST-tagged Dhh1p was pulled down by Flag-tagged Dcp2p (not 
-depicted). In these experiments, the catalytic domain of Dcp2p 
+cally, we observed a two-hybrid interaction between these domains of Dhh1p and Dcp2p (unpublished data). In addition, in
+binding experiments with purifi ed recombinant proteins, GSTtagged Dhh1p pulled down Dcp2p (Fig. 3 F), and reciprocally
+GST-tagged Dhh1p was pulled down by Flag-tagged Dcp2p (not
+depicted). In these experiments, the catalytic domain of Dcp2p
 (residues 102–300) was suffi cient to bind to Dhh1p (Fig. 3 F).
-
-
 In addition, the C-terminal domain, but not the N-terminal
-domain, of Dhh1p was suffi cient to bind to Dcp2p (unpublished 
-data). These data indicate that the C-terminal domain of Dhh1p 
+domain, of Dhh1p was suffi cient to bind to Dcp2p (unpublished
+data). These data indicate that the C-terminal domain of Dhh1p
 directly interacts with the catalytic domain of Dcp2p.
 
-Total lanes represent 1/8 of the material loaded in the pellet lanes. (D) An 
-in vitro binding assay between purifi ed GST, GST-tagged Dhh1(46–461) 
-or Dhh1(250–461), and an E. coli lysate containing a His-tagged Lsm domain of Edc3p. Glutathione-Sepharose was used to pull down the GSTtagged Dhh1 proteins and anti-His antibody was used in Western blots to 
-detect the His-tagged Lsm domain. Total lanes represent 1/8 of the material 
-loaded in the pellet lanes. (E) An in vitro binding assay between purifi ed 
-GST, GST-tagged Dhh1(46–461) or Dhh1(250–461), and a purifi ed Histagged FDF domain of Edc3p. Total lanes represent 1/8 of the material 
-loaded in the pellet lanes. (F) An in vitro binding assay between purifi ed 
+The Lsm and Yjef-N domains of Edc3p are
+required for its function in the formation of
+microscopically visible P-bodies
+These results identify three different domains of Edc3p that
+interact with specifi c P-body components. To determine how
+these domains contribute to P-body formation, we deleted each
+domain of Edc3p and asked if the mutant protein could rescue
+the P-body aggregation defect of the respiratory-defi cient edc3∆
+strain, where P-body formation is strongly dependent on Edc3p.
+We examined the formation of Dcp2GFP foci in both exponentially growing cells and during glucose deprivation. As expected, expression of full-length Edc3p complemented the
+P-body aggregation defect of the edc3∆ strain under both conditions (Fig. 4). Edc3p lacking the FDF domain functioned in
+P-body assembly (Fig. 4). In contrast, deletion of either the Lsm
+or Yjef-N domains caused defects in the formation of Dcp2GFP
+.jcb.org/cgi/content/full/jcb.200704147/DC1) both in exponentially growing cells and under glucose deprivation. The defect
+in P-body aggregation in cells expressing the ∆Lsm and ∆Yjef-N
+proteins was not simply caused by decreased expression because the amount of these mutant proteins was not substantially
+decreased relative to full-length Edc3p (Fig. S2, A and B).
+
+Total lanes represent 1/8 of the material loaded in the pellet lanes. (D) An
+in vitro binding assay between purifi ed GST, GST-tagged Dhh1(46–461)
+or Dhh1(250–461), and an E. coli lysate containing a His-tagged Lsm domain of Edc3p. Glutathione-Sepharose was used to pull down the GSTtagged Dhh1 proteins and anti-His antibody was used in Western blots to
+detect the His-tagged Lsm domain. Total lanes represent 1/8 of the material
+loaded in the pellet lanes. (E) An in vitro binding assay between purifi ed
+GST, GST-tagged Dhh1(46–461) or Dhh1(250–461), and a purifi ed Histagged FDF domain of Edc3p. Total lanes represent 1/8 of the material
+loaded in the pellet lanes. (F) An in vitro binding assay between purifi ed
 GST or GST-tagged Dhh1(46–461) and His-Dcp2(1–300)-Flag or His-
-Dcp2(102–300)-Flag. Glutathione-Sepharose was used to pull down the 
-GST-tagged Dhh1 protein and anti-His antibody used in Western blots to 
+Dcp2(102–300)-Flag. Glutathione-Sepharose was used to pull down the
+GST-tagged Dhh1 protein and anti-His antibody used in Western blots to
 detect the His-tagged Dcp2 proteins. Total lanes represent 1/8 of the material loaded in the pellet lanes.
 
-
 Moreover, the decrease in Dcp2GFP foci was not caused by the
-deletion of the Lsm or Yjef-N domains of Edc3p reducing the 
-levels of Dcp2 protein (Fig. S2°C). These results identify the Lsm 
-and Yjef-N domains of Edc3p as being required for P-body 
-aggregation and suggest that Edc3p acts as a scaffold protein 
+deletion of the Lsm or Yjef-N domains of Edc3p reducing the
+levels of Dcp2 protein (Fig. S2°C). These results identify the Lsm
+and Yjef-N domains of Edc3p as being required for P-body
+aggregation and suggest that Edc3p acts as a scaffold protein
 that links multiple mRNPs together.
 
-The Q/N-rich prionlike domain of Lsm4p 
-is required for P-body assembly in the 
+The Q/N-rich prionlike domain of Lsm4p
+is required for P-body assembly in the
 absence of Edc3p
 As described earlier, our analysis indicated that there is also an
-
-
 Edc3-independent mechanism by which microscopically visible
-P-bodies can form. Interestingly, a component of the Lsm1-7p 
-complex, Lsm4p, has a C-terminal Q/N-rich domain, which has 
-been categorized as a prionlike domain (Michelitsch and Weissman, 
-2000). Moreover, Lsm4p can function in a similar manner to 
-known yeast prion proteins in that it can induce the [PSI+] 
-prion when overexpressed (Derkatch et al., 2001). Thus, we hypothesized that the Edc3p-independent mode of P-body aggregation might involve the Lsm4p Q/N-rich domain. To test this 
-model, we deleted the C-terminal 97 amino acids encompassing 
-the Q/N-rich sequence within Lsm4p and assayed the effect of this 
-deletion on P-body formation in the absence of Edc3p. The lsm4∆C 
+P-bodies can form. Interestingly, a component of the Lsm1-7p
+complex, Lsm4p, has a C-terminal Q/N-rich domain, which has
+been categorized as a prionlike domain (Michelitsch and Weissman,
+2000). Moreover, Lsm4p can function in a similar manner to
+known yeast prion proteins in that it can induce the [PSI+]
+prion when overexpressed (Derkatch et al., 2001). Thus, we hypothesized that the Edc3p-independent mode of P-body aggregation might involve the Lsm4p Q/N-rich domain. To test this
+model, we deleted the C-terminal 97 amino acids encompassing
+the Q/N-rich sequence within Lsm4p and assayed the effect of this
+deletion on P-body formation in the absence of Edc3p. The lsm4∆C
 
 and lsm4∆C edc3∆ strains were viable, indicating that the truncated protein is being expressed because Lsm4p is essential.
 
-An important result was that the lsm4∆C edc3∆ strain was 
-defective in P-body formation during glucose deprivation (Fig. 
-5 A, right). In contrast, deletion of the C terminus of Lsm4 protein by itself did not reduce P-bodies during mid-log growth or 
-have a strong effect on P-body formation in response to glucose 
-deprivation (Fig. 5 A). This result indicates that either Edc3p or 
-the prionlike domain of Lsm4p is suffi cient for P-body aggregation during glucose deprivation. It should be noted that small 
-Dcp2GFP foci were occasionally observed in the lsm4∆C 
-edc3∆ strain, indicating that microscopically visible P-bodies 
-can assemble, though ineffi ciently, in the absence of both Edc3p 
-and the C terminus of Lsm4p. Nevertheless, the severe defect in 
-P-body formation in the lsm4∆C edc3∆ mutant identifi es the 
-Q/N-rich domain of Lsm4p as a second protein domain that can 
+An important result was that the lsm4∆C edc3∆ strain was
+defective in P-body formation during glucose deprivation (Fig.
+5 A, right). In contrast, deletion of the C terminus of Lsm4 protein by itself did not reduce P-bodies during mid-log growth or
+have a strong effect on P-body formation in response to glucose
+deprivation (Fig. 5 A). This result indicates that either Edc3p or
+the prionlike domain of Lsm4p is suffi cient for P-body aggregation during glucose deprivation. It should be noted that small
+Dcp2GFP foci were occasionally observed in the lsm4∆C
+edc3∆ strain, indicating that microscopically visible P-bodies
+can assemble, though ineffi ciently, in the absence of both Edc3p
+and the C terminus of Lsm4p. Nevertheless, the severe defect in
+P-body formation in the lsm4∆C edc3∆ mutant identifi es the
+Q/N-rich domain of Lsm4p as a second protein domain that can
 affect the formation of microscopically visible P-bodies.
 
-
 Because Dcp2GFP was used as a marker for P-bodies, it
-was formally possible that the Q/N-rich domain of Lsm4p was 
-solely required for the localization of Dcp2p to P-bodies in the 
-absence of Edc3p. To verify that the lsm4∆C edc3∆ deletion 
-mutant was defective for P-body formation, we examined the 
-localization of the reporter mRNA MFA2P-U1A, which contains binding sites for the U1A protein by coexpressing U1A 
-protein fused to GFP. This reporter mRNA accumulates in 
-P-bodies after glucose deprivation (Brengues et al., 2005). 
-As shown in Fig. 5 B, the lsm4∆C edc3∆ mutant has a severe 
-defect in the accumulation of the MFA2P-U1A reporter mRNA in 
-response to glucose deprivation. This observation supports the 
-interpretation that both the Q/N-rich domains of Lsm4p and 
+was formally possible that the Q/N-rich domain of Lsm4p was
+solely required for the localization of Dcp2p to P-bodies in the
+absence of Edc3p. To verify that the lsm4∆C edc3∆ deletion
+mutant was defective for P-body formation, we examined the
+localization of the reporter mRNA MFA2P-U1A, which contains binding sites for the U1A protein by coexpressing U1A
+protein fused to GFP. This reporter mRNA accumulates in
+P-bodies after glucose deprivation (Brengues et al., 2005).
+As shown in Fig. 5 B, the lsm4∆C edc3∆ mutant has a severe
+defect in the accumulation of the MFA2P-U1A reporter mRNA in
+response to glucose deprivation. This observation supports the
+interpretation that both the Q/N-rich domains of Lsm4p and
 Edc3p contribute to P-body formation.
 
-The Q/N domain of Lsm4p could affect P-body formation 
-by being required for translation repression during glucose deprivation in the edc3∆ strain or the aggregation of translationally repressed mRNPs in the absence of Edc3p. To distinguish 
-these two possibilities, we examined the extent of translation 
-repression in the lsm4∆C edc3∆ strain during glucose deprivation. We observed that deletion of the Lsm4 prionlike domain in 
-combination with deletion of Edc3p did not interfere with translation repression under these conditions (Fig. 5°C). This indicates that the defect in P-body formation in the lsm4∆C edc3∆ 
-strain during glucose deprivation is not caused by a failure to 
-repress translation. Thus, these results demonstrate that a second mechanism for P-body aggregation is based on the Lsm4 
+The Q/N domain of Lsm4p could affect P-body formation
+by being required for translation repression during glucose deprivation in the edc3∆ strain or the aggregation of translationally repressed mRNPs in the absence of Edc3p. To distinguish
+these two possibilities, we examined the extent of translation
+repression in the lsm4∆C edc3∆ strain during glucose deprivation. We observed that deletion of the Lsm4 prionlike domain in
+combination with deletion of Edc3p did not interfere with translation repression under these conditions (Fig. 5°C). This indicates that the defect in P-body formation in the lsm4∆C edc3∆
+strain during glucose deprivation is not caused by a failure to
+repress translation. Thus, these results demonstrate that a second mechanism for P-body aggregation is based on the Lsm4
 Q/N-rich domain.
 
-The simplest model for how the Lsm4 Q/N-rich domain 
-contributes to P-body formation is that it aggregates with itself, 
+The simplest model for how the Lsm4 Q/N-rich domain
+contributes to P-body formation is that it aggregates with itself,
 or other Q/N-rich domains, in a manner analogous to the assembly mechanism for Q/N-rich domains in known prions.
-
-
 However, given the dynamic and reversible nature of P-body
-assembly, such interactions mediated by the Lsm4 Q/N-rich 
-domain would not be heritable like a classical prion. To test 
-whether the Q/N-rich domain of Lsm4 functions analogously 
-to a prion, we asked whether it could be substituted by the 
-Q/N-rich prion domain of a known yeast prion protein, Rnq1p 
-(Sondheimer and Lindquist, 2000). The C terminus of Lsm4p was 
-replaced by the prion domain of Rnq1p, and the fusion protein 
+assembly, such interactions mediated by the Lsm4 Q/N-rich
+domain would not be heritable like a classical prion. To test
+whether the Q/N-rich domain of Lsm4 functions analogously
+to a prion, we asked whether it could be substituted by the
+Q/N-rich prion domain of a known yeast prion protein, Rnq1p
+(Sondheimer and Lindquist, 2000). The C terminus of Lsm4p was
+replaced by the prion domain of Rnq1p, and the fusion protein
 
-was tested for its ability to form Dcp2GFP foci in cells lacking 
-both Lsm4p and Edc3p. In the lsm4∆ edc3∆ strain expressing 
-the Lsm4Rnq1 fusion protein, Dcp2GFP foci were observed in 
-exponentially growing cells and were increased after glucose 
-deprivation (Fig. 5 A, bottom). Thus, the prion domain of Rnq1p 
-was able to functionally replace the Q/N-rich domain of Lsm4p 
-for the assembly of P-bodies, which is consistent with Lsm4p 
-promoting P-body assembly via a prionlike aggregation mechanism. Interestingly, the Dcp2GFP foci seen in exponentially 
-growing cells expressing the Lsm4Rnq1 fusion protein were 
-more intense than those seen in cells expressing wild-type Lsm4 
-protein. The ability of the Rnq1 Q/N-rich domain to enhance 
-P-body formation during exponential growth argues that specifi c 
-features of the Lsm4 Q/N-rich domain are required for the highly 
+was tested for its ability to form Dcp2GFP foci in cells lacking
+both Lsm4p and Edc3p. In the lsm4∆ edc3∆ strain expressing
+the Lsm4Rnq1 fusion protein, Dcp2GFP foci were observed in
+exponentially growing cells and were increased after glucose
+deprivation (Fig. 5 A, bottom). Thus, the prion domain of Rnq1p
+was able to functionally replace the Q/N-rich domain of Lsm4p
+for the assembly of P-bodies, which is consistent with Lsm4p
+promoting P-body assembly via a prionlike aggregation mechanism. Interestingly, the Dcp2GFP foci seen in exponentially
+growing cells expressing the Lsm4Rnq1 fusion protein were
+more intense than those seen in cells expressing wild-type Lsm4
+protein. The ability of the Rnq1 Q/N-rich domain to enhance
+P-body formation during exponential growth argues that specifi c
+features of the Lsm4 Q/N-rich domain are required for the highly
 reversible nature of P-body formation.
-
 
 Edc3p- and Lsm4p-driven aggregation does
 not substantially affect mRNA decay
-Our results defi ne two major mechanisms that allow the formation of microscopically visible P-bodies. This provides an opportunity to examine the functional signifi cance of aggregation 
+Our results defi ne two major mechanisms that allow the formation of microscopically visible P-bodies. This provides an opportunity to examine the functional signifi cance of aggregation
 
-of mRNPs into larger P-body structures. Because the lsm4∆C 
-edc3∆ strain represses translation during glucose deprivation, 
-but is severely defective in forming visible P-bodies, we conclude that the effi cient assembly of large visible P-bodies is not 
+of mRNPs into larger P-body structures. Because the lsm4∆C
+edc3∆ strain represses translation during glucose deprivation,
+but is severely defective in forming visible P-bodies, we conclude that the effi cient assembly of large visible P-bodies is not
 required for translation repression during glucose deprivation.
-
-
 To examine how the formation of large P-bodies contributes
-to mRNA decapping, we examined the decay of two reporter 
-mRNAs, MFA2pG and PGK1pG (Decker and Parker, 1993), in 
-edc3∆, lsm4∆C, and lsm4∆C edc3∆ strains as compared with 
-the wild-type strain. Deletion of the Q/N-rich domain of Lsm4 
-protein and the Edc3 protein did not substantially alter the decay 
-rate of the unstable MFA2pG mRNA (Fig. 6 A) or the stable 
-PGK1pG mRNA (not depicted), indicating that mRNA turnover 
-is not strongly affected in cells lacking both P-body aggregation 
-mechanisms. This result indicates that the aggregation of mRNPs 
-together into microscopically visible P-bodies is not necessary 
-for the basal control of mRNA decay rates. This observation 
-indicates that assembly of a transcript into an individual mRNP 
-containing the mRNA decapping proteins or into small complexes not detected by light microscopy is suffi cient for mRNA 
+to mRNA decapping, we examined the decay of two reporter
+mRNAs, MFA2pG and PGK1pG (Decker and Parker, 1993), in
+edc3∆, lsm4∆C, and lsm4∆C edc3∆ strains as compared with
+the wild-type strain. Deletion of the Q/N-rich domain of Lsm4
+protein and the Edc3 protein did not substantially alter the decay
+rate of the unstable MFA2pG mRNA (Fig. 6 A) or the stable
+PGK1pG mRNA (not depicted), indicating that mRNA turnover
+is not strongly affected in cells lacking both P-body aggregation
+mechanisms. This result indicates that the aggregation of mRNPs
+together into microscopically visible P-bodies is not necessary
+for the basal control of mRNA decay rates. This observation
+indicates that assembly of a transcript into an individual mRNP
+containing the mRNA decapping proteins or into small complexes not detected by light microscopy is suffi cient for mRNA
 decapping under normal conditions (see Discussion).
 
-
 The Edc3 protein is known to enhance decapping under
-conditions where decapping rates are compromised by the conditional allele of dcp2-7 (Kshirsagar and Parker, 2004). Given 
-this, it was possible that the ability of Edc3p to enhance decapping by the dcp2-7 protein could result from its function in aggregating P-body components together, and thus concentrating 
-decapping factors and substrate mRNA molecules together. Alternatively, because Dcp2p can interact directly with the Lsm 
-and FDF domains of Edc3p, Edc3p might stimulate Dcp2p 
+conditions where decapping rates are compromised by the conditional allele of dcp2-7 (Kshirsagar and Parker, 2004). Given
+this, it was possible that the ability of Edc3p to enhance decapping by the dcp2-7 protein could result from its function in aggregating P-body components together, and thus concentrating
+decapping factors and substrate mRNA molecules together. Alternatively, because Dcp2p can interact directly with the Lsm
+and FDF domains of Edc3p, Edc3p might stimulate Dcp2p
 function by direct physical interactions.
 
-
 To test whether P-body aggregation by Edc3p enhances
-decapping, we examined the ability of the different domain deletion mutants of Edc3p to complement the edc3∆ decapping 
-defect seen in dcp2-7 strains. As observed previously, edc3∆ 
+decapping, we examined the ability of the different domain deletion mutants of Edc3p to complement the edc3∆ decapping
+defect seen in dcp2-7 strains. As observed previously, edc3∆
 
-exacerbates a partial defect in the decay of the MFA2pG mRNA 
-at a low temperature caused by the temperature-sensitive allele 
-dcp2-7 (Fig. 6 B). Deletion of EDC3 also slows growth in dcp2-7 
-ski3∆ cells (Kshirsagar and Parker, 2004), in which 3′-to-5′ 
-mRNA decay is inactive and decapping is partially defective because of the growth temperature (Fig. 6°C). An important result 
-is that the Yjef-N deletion mutant complemented both the decay 
-and growth defects caused by the absence of Edc3p (Fig. 6, 
-B and C). Because the Yjef-N domain is necessary for P-body 
-aggregation in exponentially growing cells, these results indicate that Edc3p’s role in enhancing decay under these conditions 
+exacerbates a partial defect in the decay of the MFA2pG mRNA
+at a low temperature caused by the temperature-sensitive allele
+dcp2-7 (Fig. 6 B). Deletion of EDC3 also slows growth in dcp2-7
+ski3∆ cells (Kshirsagar and Parker, 2004), in which 3′-to-5′
+mRNA decay is inactive and decapping is partially defective because of the growth temperature (Fig. 6°C). An important result
+is that the Yjef-N deletion mutant complemented both the decay
+and growth defects caused by the absence of Edc3p (Fig. 6,
+B and C). Because the Yjef-N domain is necessary for P-body
+aggregation in exponentially growing cells, these results indicate that Edc3p’s role in enhancing decay under these conditions
 is not dependent on its ability to form large P-body aggregates.
-
-
 In contrast, decay and growth were defective when either the
-∆Lsm or ∆FDF Edc3p variants were expressed (Fig. 6, B and C), 
-which indicates that both the Lsm and FDF domains are necessary for Edc3p to enhance decapping. Because these are the domains that interact with Dcp2p and Dhh1p, this result suggests 
-that Edc3p may enhance decapping by binding to and directly 
+∆Lsm or ∆FDF Edc3p variants were expressed (Fig. 6, B and C),
+which indicates that both the Lsm and FDF domains are necessary for Edc3p to enhance decapping. Because these are the domains that interact with Dcp2p and Dhh1p, this result suggests
+that Edc3p may enhance decapping by binding to and directly
 affecting the function of the decapping machinery.
 
 --- Discussion ---
-
-
-
 The formation of cytoplasmic P-bodies can be associated with
-translation repression and/or mRNA decapping and degradation. An unresolved issue is how P-bodies form and the functional significance of assembly into larger scale aggregates. 
-In the simplest model, the formation of P-bodies can be considered to occur in at least two distinct steps: an initial step wherein 
-an individual mRNA is associated with various proteins to form 
-an mRNP capable of aggregation into a larger P-body, and a 
-second step whereby individual mRNPs are then aggregated together to form P-bodies of suffi cient size to be visible in the 
-light microscope. However, it also remains possible that there 
-are intermediate steps in the aggregation of mRNPs that can assemble collections of mRNPs too small to be seen in the light 
-microscope. By examination of P-body formation in yeast, we 
-were able to identify important interactions that promote 
+translation repression and/or mRNA decapping and degradation. An unresolved issue is how P-bodies form and the functional significance of assembly into larger scale aggregates.
+In the simplest model, the formation of P-bodies can be considered to occur in at least two distinct steps: an initial step wherein
+an individual mRNA is associated with various proteins to form
+an mRNP capable of aggregation into a larger P-body, and a
+second step whereby individual mRNPs are then aggregated together to form P-bodies of suffi cient size to be visible in the
+light microscope. However, it also remains possible that there
+are intermediate steps in the aggregation of mRNPs that can assemble collections of mRNPs too small to be seen in the light
+microscope. By examination of P-body formation in yeast, we
+were able to identify important interactions that promote
 P-body formation. These interactions suggest an initial model for
-
-
 P-body assembly involving interactions of subcomplexes of
-core P-body components with the mRNA and each other, followed by aggregation of individual mRNPs, or small complexes 
-of mRNPs, into larger P-bodies by a self-interaction domain of 
+core P-body components with the mRNA and each other, followed by aggregation of individual mRNPs, or small complexes
+of mRNPs, into larger P-bodies by a self-interaction domain of
 Edc3p and the Q/N-rich C-terminal tail of Lsm4p.
 
-
 Assembly of a core P-body mRNP
-A fi rst step in the formation of P-bodies is the assembly of individual mRNPs that contain P-body components. Our results, 
-combined with previous observations described in this and the 
-following paragraph, suggest a working model for the assembly 
-of the core P-body components into a complex associated with 
-mRNAs (Fig. 7). First, an initial step in P-body interaction 
-could be the recruitment of the Dcp1, Dcp2, Edc3, and Dhh1 
-proteins to the mRNA, most likely as a protein complex. The 
-existence of this complex is based on the direct protein interactions we observed between Dcp2p, Dhh1p, and Edc3p (Fig. 3). 
-It should be noted that the interactions between Dcp2p, Dhh1p, 
-and Edc3p may not occur simultaneously, given that they involve 
+A fi rst step in the formation of P-bodies is the assembly of individual mRNPs that contain P-body components. Our results,
+combined with previous observations described in this and the
+following paragraph, suggest a working model for the assembly
+of the core P-body components into a complex associated with
+mRNAs (Fig. 7). First, an initial step in P-body interaction
+could be the recruitment of the Dcp1, Dcp2, Edc3, and Dhh1
+proteins to the mRNA, most likely as a protein complex. The
+existence of this complex is based on the direct protein interactions we observed between Dcp2p, Dhh1p, and Edc3p (Fig. 3).
+It should be noted that the interactions between Dcp2p, Dhh1p,
+and Edc3p may not occur simultaneously, given that they involve
 
-the same domains of Dcp2p and Dhh1p. Dcp1p is likely to be a 
-component of this complex based on the direct physical interaction between yeast Dcp1p and Dcp2p (Steiger et al., 2003; She 
-et al., 2006), which is required for Dcp1p to be recruited into 
-P-bodies (Teixeira and Parker, 2007). Moreover, a complex of 
-Dcp1p–Dcp2p–Edc3p purifi es together from yeast (Gavin et al., 
-2006), and a similar complex copurifi es from mammalian cells 
-that includes the homologue of Dhh1p, Rck/p54, and an additional subunit, Ge-1 or Hedls (Fenger-Gron et al., 2005). Finally, 
-Dcp1p, Dcp2p, Edc3p, and Dhh1p are recruited to P-bodies independently of other known P-body components (Teixeira and 
-Parker, 2007). This suggests that one step in the formation of an 
-mRNP that can accumulate in P-bodies is the recruitment of 
+the same domains of Dcp2p and Dhh1p. Dcp1p is likely to be a
+component of this complex based on the direct physical interaction between yeast Dcp1p and Dcp2p (Steiger et al., 2003; She
+et al., 2006), which is required for Dcp1p to be recruited into
+P-bodies (Teixeira and Parker, 2007). Moreover, a complex of
+Dcp1p–Dcp2p–Edc3p purifi es together from yeast (Gavin et al.,
+2006), and a similar complex copurifi es from mammalian cells
+that includes the homologue of Dhh1p, Rck/p54, and an additional subunit, Ge-1 or Hedls (Fenger-Gron et al., 2005). Finally,
+Dcp1p, Dcp2p, Edc3p, and Dhh1p are recruited to P-bodies independently of other known P-body components (Teixeira and
+Parker, 2007). This suggests that one step in the formation of an
+mRNP that can accumulate in P-bodies is the recruitment of
 Dcp1p–Dcp2p–Edc3p–Dhh1p complexes to the mRNA.
 
-
 Several observations suggest that a complex minimally
-consisting of Pat1p and the Lsm1-7p complex also associates 
-with the mRNA during P-body assembly. First, Pat1p and the 
-Lsm1-7p complex copurify from yeast (Bouveret et al., 2000; 
-Tharun et al., 2000). Second, Pat1p is required for recruitment 
-of the Lsm1-7p complex into P-bodies, and the deletion of 
-Lsm1p affects the effi ciency of Pat1p recruitment into P-bodies 
-in part by shifting Pat1p into the nucleus (Teixeira and Parker, 
-2007). Xrn1p is also likely to be part of the Pat1p–Lsm1-7p 
-complex because it can copurify with these proteins (Bouveret 
+consisting of Pat1p and the Lsm1-7p complex also associates
+with the mRNA during P-body assembly. First, Pat1p and the
+Lsm1-7p complex copurify from yeast (Bouveret et al., 2000;
+Tharun et al., 2000). Second, Pat1p is required for recruitment
+of the Lsm1-7p complex into P-bodies, and the deletion of
+Lsm1p affects the effi ciency of Pat1p recruitment into P-bodies
+in part by shifting Pat1p into the nucleus (Teixeira and Parker,
+2007). Xrn1p is also likely to be part of the Pat1p–Lsm1-7p
+complex because it can copurify with these proteins (Bouveret
 
-et al., 2000). Finally, the Pat1p–Lsm1-7p complex appears to 
+et al., 2000). Finally, the Pat1p–Lsm1-7p complex appears to
 function somewhat independently of the Dcp1p–Dcp2p–Edc3p–
-Dhh1p complex because Pat1p and Dhh1p can each independently target mRNAs to P-bodies when overexpressed (Coller 
+Dhh1p complex because Pat1p and Dhh1p can each independently target mRNAs to P-bodies when overexpressed (Coller
 and Parker, 2005).
-
 
 We suggest that an individual P-body mRNP forms, at
 least in part, as a result of recruitment of the Dcp1p–Dcp2p–
-Edc3p–Dhh1p and Pat1p–Lsm1-7p–Xrn1p complexes to the 
-mRNA, although their specifi c location on the mRNA remains 
-to be determined. In addition, the two subcomplexes may directly 
-interact with each other while bound to the mRNA based on the 
-identifi cation of interactions between Pat1p with Dcp1p and 
+Edc3p–Dhh1p and Pat1p–Lsm1-7p–Xrn1p complexes to the
+mRNA, although their specifi c location on the mRNA remains
+to be determined. In addition, the two subcomplexes may directly
+interact with each other while bound to the mRNA based on the
+identifi cation of interactions between Pat1p with Dcp1p and
 Edc3p (Pilkington, G., and R. Parker, personal communication).
-
-
 An unresolved issue is whether there are other RNA binding
-proteins bound to the mRNA in this complex, if the body of the 
-mRNA is largely naked of proteins, or if there are multiple copies of these components per mRNA, thereby coating the entire 
-length of the transcript. One possibility is that Sbp1p, an abundant RNA binding protein found in yeast P-bodies (Segal et al., 
+proteins bound to the mRNA in this complex, if the body of the
+mRNA is largely naked of proteins, or if there are multiple copies of these components per mRNA, thereby coating the entire
+length of the transcript. One possibility is that Sbp1p, an abundant RNA binding protein found in yeast P-bodies (Segal et al.,
 2006), might bind to regions not covered by the Dcp1p–Dcp2p–
-Edc3p–Dhh1p and Pat1p–Lsm1-7p–Xrn1p complexes. An important issue for future work will be to determine the stoichiometry 
-and spatial arrangement of these complexes with regard to the 
-mRNA, the precise timing of specifi c interactions, and how the 
+Edc3p–Dhh1p and Pat1p–Lsm1-7p–Xrn1p complexes. An important issue for future work will be to determine the stoichiometry
+and spatial arrangement of these complexes with regard to the
+mRNA, the precise timing of specifi c interactions, and how the
 
-mRNA is bound by this complex. Moreover, how an mRNA 
-transitions from translation and how that relates to the formation 
-of these complexes with the mRNA remains to be determined. 
-As discussed in the next section, the association of either of the 
-proposed core subcomplexes with an mRNP would provide a 
-potential mechanism for the mRNP to be incorporated into larger 
+mRNA is bound by this complex. Moreover, how an mRNA
+transitions from translation and how that relates to the formation
+of these complexes with the mRNA remains to be determined.
+As discussed in the next section, the association of either of the
+proposed core subcomplexes with an mRNP would provide a
+potential mechanism for the mRNP to be incorporated into larger
 scale P-body aggregates via either Edc3p or Lsm4p.
 
 P-body aggregation is mediated by a selfinteraction domain of Edc3p and the Q/N-
 rich C-terminal tail of Lsm4p
-
-
 Several observations argue that Edc3p functions to aggregate
-either individual mRNPs or small mRNP complexes into larger 
-microscopically visible P-bodies. First, strains lacking Edc3p 
-show a loss of the small P-bodies seen in mid-log cultures of 
-yeast (Figs. 1 A and 2). Second, the number and size of P-bodies 
-seen in either dcp1∆ or xrn1∆ strains are reduced in dcp1∆ 
-edc3∆ or xrn1∆ edc3∆ double mutants (Fig. 1 B). Third, edc3∆ 
-cells show defects in P-body aggregation during glucose deprivation and other stresses (Figs. 1 A and 2 and not depicted). 
-Fourth, there is a loss of P-bodies in lsm4∆C edc3∆ strains during glucose deprivation (Fig. 5). Finally, we argue that Edc3p 
-plays a role in the actual assembly of nontranslating mRNPs 
-into larger visible structures because translation repression and 
+either individual mRNPs or small mRNP complexes into larger
+microscopically visible P-bodies. First, strains lacking Edc3p
+show a loss of the small P-bodies seen in mid-log cultures of
+yeast (Figs. 1 A and 2). Second, the number and size of P-bodies
+seen in either dcp1∆ or xrn1∆ strains are reduced in dcp1∆
+edc3∆ or xrn1∆ edc3∆ double mutants (Fig. 1 B). Third, edc3∆
+cells show defects in P-body aggregation during glucose deprivation and other stresses (Figs. 1 A and 2 and not depicted).
+Fourth, there is a loss of P-bodies in lsm4∆C edc3∆ strains during glucose deprivation (Fig. 5). Finally, we argue that Edc3p
+plays a role in the actual assembly of nontranslating mRNPs
+into larger visible structures because translation repression and
 mRNA decay are normal in edc3∆ strains (Figs. 2 and 6).
 
-
 The Edc3 protein is a scaffolding protein that provides
-sites for protein interactions and interconnecting mRNPs. Our 
-results indicate that both the YjeF-N and Lsm domain of Edc3p 
-are required for it being able to contribute to P-body aggregation (Fig. 4). Because the YjeF-N domain interacts with itself 
-(Fig. 3; Fromont-Racine et al., 2000; Marino-Ramirez and Hu, 
-2002), its function in P-body aggregation is most probably to 
-provide direct interaction between different Edc3p molecules. 
+sites for protein interactions and interconnecting mRNPs. Our
+results indicate that both the YjeF-N and Lsm domain of Edc3p
+are required for it being able to contribute to P-body aggregation (Fig. 4). Because the YjeF-N domain interacts with itself
+(Fig. 3; Fromont-Racine et al., 2000; Marino-Ramirez and Hu,
+2002), its function in P-body aggregation is most probably to
+provide direct interaction between different Edc3p molecules.
 The role of the Lsm domain is presumably to bind to the Dcp1p–
-Dcp2p–Dhh1p complex, which would be consistent with the 
-role of Dcp2p in P-body assembly (Teixeira and Parker, 2007). 
-Alternatively, although unlikely given its high degree of divergence, the Lsm domain could oligomerize and/or bind RNA 
-(He and Parker, 2000). The self-interaction of the Yjef-N domain 
-and the interaction of the Lsm domain with mRNA or P-body 
-components provide a cross-bridging mechanism for aggregating 
-mRNPs together. Because Edc3p, its domain organization, and 
-its localization to P-bodies are conserved in eukaryotic cells 
-(Albrecht and Lengauer, 2004; Anantharaman and Aravind, 2004; 
-Kshirsagar and Parker, 2004; Fenger-Gron et al., 2005), one might 
-anticipate that Edc3p will play a role in P-body aggregation in 
+Dcp2p–Dhh1p complex, which would be consistent with the
+role of Dcp2p in P-body assembly (Teixeira and Parker, 2007).
+Alternatively, although unlikely given its high degree of divergence, the Lsm domain could oligomerize and/or bind RNA
+(He and Parker, 2000). The self-interaction of the Yjef-N domain
+and the interaction of the Lsm domain with mRNA or P-body
+components provide a cross-bridging mechanism for aggregating
+mRNPs together. Because Edc3p, its domain organization, and
+its localization to P-bodies are conserved in eukaryotic cells
+(Albrecht and Lengauer, 2004; Anantharaman and Aravind, 2004;
+Kshirsagar and Parker, 2004; Fenger-Gron et al., 2005), one might
+anticipate that Edc3p will play a role in P-body aggregation in
 other eukaryotes.
 
-
 We identifi ed the C-terminal prionlike domain of Lsm4p
-as another mechanism for the aggregation of mRNPs into microscopically visible P-bodies. The key observation is that lsm4∆C 
-edc3∆ strains show a dramatic reduction in P-bodies during glucose deprivation compared with edc3∆ strains alone (Fig. 5). 
-In addition, the C-terminal Q/N-rich domain of Lsm4p could 
-be functionally replaced with the Q/N-rich prionlike domain of 
-Rnq1p, a known yeast prion protein (Fig. 5). The simplest model is 
-that when the Lsm1-7p complex is delivered to the mRNA in conjunction with Pat1p (Teixeira and Parker, 2007), the Q/N-rich 
+as another mechanism for the aggregation of mRNPs into microscopically visible P-bodies. The key observation is that lsm4∆C
+edc3∆ strains show a dramatic reduction in P-bodies during glucose deprivation compared with edc3∆ strains alone (Fig. 5).
+In addition, the C-terminal Q/N-rich domain of Lsm4p could
+be functionally replaced with the Q/N-rich prionlike domain of
+Rnq1p, a known yeast prion protein (Fig. 5). The simplest model is
+that when the Lsm1-7p complex is delivered to the mRNA in conjunction with Pat1p (Teixeira and Parker, 2007), the Q/N-rich
 
-domain interacts either with itself or other Q/N-rich domains to 
-aggregate mRNPs together in a manner similar to oligomerization 
-of other prion domains, although in this case the aggregation 
+domain interacts either with itself or other Q/N-rich domains to
+aggregate mRNPs together in a manner similar to oligomerization
+of other prion domains, although in this case the aggregation
 would be readily reversible and not necessarily heritable.
 
+Implications of a prionlike mechanism
+contributing to P-body aggregation
+The contribution of a prionlike domain to yeast P-body assembly is intriguing because of the other 107 proteins in yeast with
+prionlike domains (Michelitsch and Weissman, 2000); 47 of them
+are involved in mRNA transport, translation, or degradation or
+have other connections to RNA metabolism (Table S1 A, availFor example, the yeast P-body components Ccr4p, Pop2p, Not1p,
+Not4p, Dhh1p, Edc3p, and all fi ve Puf proteins, which regulate
+mRNA deadenylation and decapping (Wickens et al., 2002),
+all contain Q/N-rich regions. This abundance of Q/N domains
+in proteins involved in mRNA metabolism suggests that interactions between these prionlike domains might also contribute
+in some cases to P-body assembly or other subcellular assemblies of mRNPs.
 
 The role of a prionlike domain in P-body assembly in
-yeast has three implications for metazoan cells. First, although 
-the prionlike domain of yeast Lsm4p is not conserved, several 
+yeast has three implications for metazoan cells. First, although
+the prionlike domain of yeast Lsm4p is not conserved, several
 proteins found in metazoan P-bodies contain conserved Q/N-
-rich domains, including Dcp2p, Ge-1/Hedls, and GW182 (Table 
-S1 B), although these domains do not always meet the formal 
-criteria for “prion domains” established earlier (Michelitsch 
-and Weissman, 2000). This suggests that aggregation based on 
-Q/N-rich regions will contribute to assembly of P-bodies in 
-metazoans. Second, because Q/N-rich prionlike domains contribute to stress granule formation in mammalian cells (Gilks et al., 
-2004) and stress granules can merge or dock with P-bodies in 
-human cells (Kedersha et al., 2005; Wilczynska et al., 2005), 
-a reasonable hypothesis is that the juxtaposition of stress granules and P-bodies is mediated by a shared assembly mechanism 
-based on prionlike domains. Finally, because Q/N-rich domains 
-in Pum2 and cytoplasmic polyadenylation element binding protein have been suggested to play roles in the regulation of translation in neurons (Si et al., 2003; Vessey et al., 2006) and at least 
-some neuronal RNA granules are similar to P-bodies (Barbee 
-et al., 2006), one might anticipate that aggregation mechanisms 
-into P-bodies based on Q/N domains will be important in the 
+rich domains, including Dcp2p, Ge-1/Hedls, and GW182 (Table
+S1 B), although these domains do not always meet the formal
+criteria for “prion domains” established earlier (Michelitsch
+and Weissman, 2000). This suggests that aggregation based on
+Q/N-rich regions will contribute to assembly of P-bodies in
+metazoans. Second, because Q/N-rich prionlike domains contribute to stress granule formation in mammalian cells (Gilks et al.,
+2004) and stress granules can merge or dock with P-bodies in
+human cells (Kedersha et al., 2005; Wilczynska et al., 2005),
+a reasonable hypothesis is that the juxtaposition of stress granules and P-bodies is mediated by a shared assembly mechanism
+based on prionlike domains. Finally, because Q/N-rich domains
+in Pum2 and cytoplasmic polyadenylation element binding protein have been suggested to play roles in the regulation of translation in neurons (Si et al., 2003; Vessey et al., 2006) and at least
+some neuronal RNA granules are similar to P-bodies (Barbee
+et al., 2006), one might anticipate that aggregation mechanisms
+into P-bodies based on Q/N domains will be important in the
 regulation of translation in neurons.
 
-
 Effi cient P-body aggregation is not
-required for basic control of mRNA 
+required for basic control of mRNA
 decay and translation repression
+Our results argue that formation of microscopically visible
+P-bodies is not required for the basal control of translation and
+mRNA degradation. The key observation is that lsm4∆C edc3∆
+strains are severely defective in P-body aggregation (Fig. 5) but
+competent for translation repression during glucose deprivation
+and show normal mRNA turnover rates (Figs. 5 and 6). The
+simplest interpretation is that the association of P-body components with an individual mRNA is suffi cient for a basal level of
+translation repression and/or decapping. However, we cannot rule
 
---- Our results argue that formation of microscopically visible ---
-P-bodies is not required for the basal control of translation and 
-mRNA degradation. The key observation is that lsm4∆C edc3∆ 
-strains are severely defective in P-body aggregation (Fig. 5) but 
-competent for translation repression during glucose deprivation 
-and show normal mRNA turnover rates (Figs. 5 and 6). The 
-simplest interpretation is that the association of P-body components with an individual mRNA is suffi cient for a basal level of 
-translation repression and/or decapping. However, we cannot rule 
-
-out the possibility that, in the absence of Edc3p and the prionlike domain of Lsm4p, aggregates too small to detect by the light 
-microscope but nonetheless functional can still form. Consistent 
-with the interpretation that large-scale aggregates do not strongly 
-infl uence translation repression or mRNA turnover, microscopically visible P-bodies can be depleted in metazoan cells by knockdown of Lsm1p or Lsm3p without affecting miRNA-mediated 
-repression (Chu and Rana, 2006; Eulalio et al., 2007b), knockdown of GW182 without affecting mRNA decay stimulated by 
-AU-rich elements (Stoecklin et al., 2006), or knockdown of any 
-one of several P-body components without affecting nonsense 
+out the possibility that, in the absence of Edc3p and the prionlike domain of Lsm4p, aggregates too small to detect by the light
+microscope but nonetheless functional can still form. Consistent
+with the interpretation that large-scale aggregates do not strongly
+infl uence translation repression or mRNA turnover, microscopically visible P-bodies can be depleted in metazoan cells by knockdown of Lsm1p or Lsm3p without affecting miRNA-mediated
+repression (Chu and Rana, 2006; Eulalio et al., 2007b), knockdown of GW182 without affecting mRNA decay stimulated by
+AU-rich elements (Stoecklin et al., 2006), or knockdown of any
+one of several P-body components without affecting nonsense
 mediated decay (Eulalio et al., 2007b).
 
-An unresolved issue is the function of aggregation of individual mRNPs into larger P-body structures. The conservation 
-of P-bodies strongly argues that the aggregation of nontranslating mRNPs together into larger structures does confer some 
-adaptive function. For example, sequestration might increase 
-the effectiveness of translation repression by limiting the access 
-of the translation machinery to mRNA and reducing the likelihood of disassembly of repression complexes on mRNAs. Thus, 
-aggregation could have a subtle effect on the persistence, or degree of, translation repression and/or decay rates either in general or on a specifi c subset of mRNA. Alternatively, aggregation 
-could be important for effi cient transport of mRNA to specifi c 
-subcellular regions. Finally, aggregation may be more critical 
-for limiting interactions of nontranslating mRNA with other 
-cellular components. For example, aggregation of such mRNA 
-into P-bodies would presumably limit base pairing between untranslating mRNA and mRNA in polysomes that might be detrimental for translation. Similarly, aggregation into P-bodies 
-may protect untranslating mRNA from degradation by the exosome or infl uence the specifi city of protein interactions with 
-target mRNA by concentrating RNA binding proteins with their 
-targets and limiting their access to off-target mRNA. An important goal of future work will be a thorough analysis of strains 
-specifi cally defi cient in P-body aggregation to determine how 
+An unresolved issue is the function of aggregation of individual mRNPs into larger P-body structures. The conservation
+of P-bodies strongly argues that the aggregation of nontranslating mRNPs together into larger structures does confer some
+adaptive function. For example, sequestration might increase
+the effectiveness of translation repression by limiting the access
+of the translation machinery to mRNA and reducing the likelihood of disassembly of repression complexes on mRNAs. Thus,
+aggregation could have a subtle effect on the persistence, or degree of, translation repression and/or decay rates either in general or on a specifi c subset of mRNA. Alternatively, aggregation
+could be important for effi cient transport of mRNA to specifi c
+subcellular regions. Finally, aggregation may be more critical
+for limiting interactions of nontranslating mRNA with other
+cellular components. For example, aggregation of such mRNA
+into P-bodies would presumably limit base pairing between untranslating mRNA and mRNA in polysomes that might be detrimental for translation. Similarly, aggregation into P-bodies
+may protect untranslating mRNA from degradation by the exosome or infl uence the specifi city of protein interactions with
+target mRNA by concentrating RNA binding proteins with their
+targets and limiting their access to off-target mRNA. An important goal of future work will be a thorough analysis of strains
+specifi cally defi cient in P-body aggregation to determine how
 mRNA metabolism is now altered.

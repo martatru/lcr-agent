@@ -5,8 +5,6 @@ sensor using FRET efficiency as readout. We chose a fluorophore
 pair for FRET that consisted of a mCerulean donor and an enhanced yellow fluorescent protein (eYFP) acceptor. FRET was
 calculated using fluorescence lifetime imaging microscopy (FLIM)
 by time-correlated single photon counting (TCSPC) (23, 24).
-
-
 Fluorescence lifetime refers to the amount of time a valence
 electron from a fluorophore remains in the excited state before
 returning to ground state and emitting a photon. The lifetime of
@@ -27,7 +25,6 @@ efficiency (Fig. 1 F and H). We controlled for expression of
 huntingtin fragment levels in the assays to avoid the effects of
 protein aggregation on lifetime values.
 
-
 Typical pathogenic polyglutamine lengths for midlife onset of
 HD are between 45–50 repeats (1); however, HD is fully penetrant at any length over 40 repeats. Most HD models use huntingtin genes with very long CAG repeats (>100) to induce a
 robust phenotype (5). To date, no assay in live cells has noted a
@@ -45,8 +42,6 @@ sensor with only two glutamines. This construct resulted in
 a lower FRET efficiency relative to all other polyglutamine
 lengths tested, despite the shorter alpha-carbon backbone (Fig.
 1H). To demonstrate that the intramolecular FRET between
-
-
 N17 and the polyproline region was not an artifact of the
 STHdhQ7/Q7 cell type used, we repeated experiments using the
 exon1 FRET sensor with wild-type (Q17) and mutant (Q138)
@@ -78,7 +73,6 @@ changes
 in
 larger
 huntingtin fragments.
-
 
 We then constructed FRET sensors with increasing fragment
 lengths of huntingtin in both the wild-type and mutant context
@@ -128,20 +122,23 @@ by treatments with IKK inhibitors, the ATP analog Bay 11-7082
 
 Photon-Weighted
 
+
+
 Photon-Weighted
-Lifetime (τ) 
+Lifetime (τ)
 Histogram (ns)
 mCerulean
 eYFP
-
-
 A
+
 
 Image
 
-Lifetime Image
 
-mCerulean alone 
+
+Lifetime Image
+mCerulean alone
+
 
 Pixels
 2.0
@@ -153,18 +150,18 @@ mCerulean + eYFP
 
 
 Pixels
-
 mCerulean-MCS-eYFP
 
 C
 
-Pixels
 
+Pixels
 35
 
 H
 
 30
+
 % FRET Efficiency
 
 *
@@ -177,16 +174,28 @@ H
 
 10
 
-
 5
 
 Q2
-Q17
-Q32
-Q37
-Q46
-Q138
 
+
+Q17
+
+
+
+Q32
+
+
+
+Q37
+
+
+
+Q46
+
+
+
+Q138
 J
 
 I
@@ -194,6 +203,7 @@ I
 25
 
 30
+
 % FRET Efficiency
 
 % FRET Efficiency
@@ -222,17 +232,20 @@ I
 
 0
 
-
 0
 
+
 Poly Q17
+
+
+
 Poly Q46
 ΔQ + 4G
 
 
 Q17
-
 Q2
+
 inhibitor Bristol Myers Squibb (BMS)-345541 [N-(1,8-Dimethylimidazo[1,2-a]quinoxalin-4-yl)-1,2-ethanediamine
 hydrochloride].
 These compounds were tested on STHdhQ7/Q7 cells expressing the
@@ -249,18 +262,22 @@ phosphomimicry (Fig. 2 B versus A). From these data, we concluded
 
 Photon-Weighted
 
+
+
 Photon-Weighted
-Lifetime (τ) 
+Lifetime (τ)
 Histogram (ns)
 
 
 Image
 
-Lifetime Image
 
+
+Lifetime Image
 D
 
 mCer-Htt Ex1Q17-eYFP
+
 
 Pixels
 2.0
@@ -272,7 +289,9 @@ E
 mCer-Htt Ex1Q17 +
 
 
-Htt Ex1Q17-eYFP
+Ex1Q17-eYFP Htt
+
+
 
 Pixels
 2.0
@@ -285,8 +304,8 @@ Pixels
 
 mCer-Htt Ex1Q138-eYFP
 
-
 F
+
 
 Pixels
 2.0
@@ -304,11 +323,11 @@ mCer-Htt Ex1Q138 +
 
 Htt Ex1Q138-eYFP
 
+
+
 Pixels
 2.0
 2.5
-
-
 3.0
 
 K
@@ -320,11 +339,18 @@ mCerulean
 
 eYFP
 
-N17
-PolyQ
 
+N17
+
+
+
+PolyQ
 eYFP
+
+
 N17
+
+
 
 PolyP
 
@@ -332,9 +358,11 @@ PolyP
 
 PolyQ
 
-PolyP
 
+
+PolyP
 4-36Q repeats
+
 >37Q repeats
 
 that the promotion of huntingtin N17 phosphorylation by IKK
@@ -347,13 +375,13 @@ PACSIN1 using the N17 domain alone (Fig. S4A). Importantly,
 although both N17 and PACSIN1 are substrates of CK2, treatment of cells with the DMAT before coimmunoprecipitation had
 little effect on the amount of PACSIN1 recovered using N17.
 
-
 A
 
 30
 B
 
 24
+
 *
 
 *
@@ -391,13 +419,20 @@ B
 
 8
 
-
 0
-Q17
-Q17
-M8P
 
+
+Q17
+
+
+
+Q17
+
+
+
+M8P
 6
+
 
 Q138
 +5μM
@@ -405,8 +440,9 @@ Q138
 
 DMAT
 +5μM
-Quin.
 
+
+Quin.
 +10μM
 
 +10μM
@@ -414,39 +450,74 @@ Quin.
 
 Q150
 
+
+
 M8P
-Q17
-S13A
-S16A
 
-Q142
-S13A
-S16A
+
 
 Q17
+
+
+
+S13A
+
+
+
+S16A
+
+
+
+Q142
+
+
+
+S13A
+
+
+
+S16A
+
+
+
+Q17
+
+
+
 S13E
+
+
+
 S16E
+
+
 
 Q142
 
 
 
 S13E
+
+
+
 S16E
+
+
 
 Q138
 
+
+
 BAY
+
+
 
 BMS
 This indicated that the phosphorylation state of N17 or PACSIN1
 does not affect the interaction between the two proteins.
 
-
 Coimmunofluorescence with antibodies recognizing PACSIN1
 and N17 demonstrated that these two proteins show a high degree of signal overlap in the cytoplasm (Fig. 3A). When coimmunofluorescence was done using antibodies raised toward
-
-
 PACSIN1 and N17 S13pS16p, we observed no signal overlap in
 the cytoplasm; instead, both proteins were strongly colocalized to
 nuclear puncta (Fig. 3B). When we treated cells with compounds
@@ -454,15 +525,12 @@ that are known to decrease (DMAT; Fig. 3°C) or increase (BMS-
 345541; Fig. 3D) the phosphorylation of huntingtin at residues S13
 and S16 (12), we noted a profound effect on the larger morphology and reduced number of the puncta present in the nucleus.
 
-
 PACSIN1 interacts with both the N17 and polyproline domains
 that flank the polyglutamine tract of huntingtin, which we hypothesized may stabilize the positioning of these two domains in
 close 3D proximity. To determine the involvement of PACSIN1
 between these domains, we tested our huntingtin exon1 FRET
 sensor following treatment of the cells with a mixture of three
 small interfering RNAs (siRNA) directed to mouse PACSIN1.
-
-
 Both a Western blot and immunofluorescence were performed
 to confirm the efficacy of the knock-down (Fig. S4 B–D). In cells
 expressing the wild-type huntingtin FRET sensor (Q17), treatment with PACSIN1 siRNAs significantly reduced FRET efficiency, whereas this was not seen with the mutant polyglutamine
@@ -485,12 +553,11 @@ antibodies that target residues 8–13 of the N17 domain and residues 61–71 of
 (26). As an optimal pair for FLIM-FRET, we chose to conjugate
 the antibodies with either alexa488 or alexa546 dyes.
 
+
 WhenwecomparedFRETefficiencyvaluesbetweenSTHdhQ7/Q7
-
 and STHdhQ111/Q111 lines both stained with 2B7-alexa488 and
-
-
 4C9-alexa546 conjugates, we measured a significantly lower
+
 percent FRET efficiency in the mutant compared with the wildtype cells (Fig. 4A). As a negative control, we used an acceptor
 conjugated to an antibody that recognized an epitope at the carboxyl terminus of huntingtin (C-20) and saw no significant change
 in the donor lifetime. This was due to the acceptor conjugate now
@@ -498,7 +565,6 @@ being too far away from the donor for FRET. Thus, using this
 antibody-based assay on full-length, endogenous huntingtin, we
 were able to recapitulate our earlier findings with the huntingtin
 exon1 FRET sensor (Fig. S5).
-
 
 To assess the effects of phosphorylation on the conformation
 of the amino terminus within the context of the full-length
@@ -510,7 +576,6 @@ cells with either BMS-345541 or GM1 for 16 h caused a significant reduction of t
 nontreated control (Fig. 4B). These data were consistent with
 our earlier findings using the exon1 FRET sensor that phosphorylation of N17 affects the conformation of the amino terminus of huntingtin.
 
-
 Next, we wanted to test our antibody-based FLIM-FRET assay
 on human HD patient cells, rather than models of HD. We chose
 to use untransformed human fibroblasts from a 54 y old unaffected female and a 51 y old male with HD. Using 2B7 and 4C9
@@ -521,8 +586,8 @@ HD versus the wild-type fibroblasts (Fig. 4°C). Thus, using this
 assay, we measured a difference in huntingtin conformation in
 fibroblasts between normal and HD individuals.
 
-
 A
+
 
 Zoom
 α-N17
@@ -541,17 +606,21 @@ B
 
 Merge
 
-Zoom
 
+
+Zoom
 100x
 
 C
 
+
 Merge
+
+
 
 Zoom
 α-PACSIN1 (A-3)
-α-N17 S13pS16p 
+α-N17 S13pS16p
 
 + 10μM DMAT
 
@@ -565,11 +634,12 @@ D
 
 Merge
 
+
+
 Zoom
-+ 10μM BMS 
++ 10μM BMS
 
 100x
-
 
 B
 
@@ -626,21 +696,21 @@ C
 0
 Q7/Q7 +10μM
 
+
 Q7/Q7
+
+
+
 Q111/Q111
-
-
 0
 
 WT
 2B7
 +C20
 
-
 WT
 2B7
 +4C9
-
 
 HD
 2B7
@@ -651,24 +721,36 @@ HD
 
 BMS
 
-GM1
 
+
+GM1
 D
 
-Photon-Weighted 
 
 Photon-Weighted
-Lifetime (τ) 
+
+
+
+Photon-Weighted
+Lifetime (τ)
 Histogram (ns)
 
 
 Image
 
+
+
 Lifetime Image
+
+
 
 2B7-alexa488
 
+
+
 Human WT
+
+
 
 Fibroblast
 
@@ -681,13 +763,14 @@ Human HD
 Pixels
 2.0
 3.0
-
-
 2.5
 
 E
 
+
 2B7-alexa488
+
+
 
 Fibroblast
 + 4C9-alexa546
@@ -706,21 +789,12 @@ the amino terminus of huntingtin in STHdhQ7/Q7 following treatment with
 (D) wild-type or (E) HD patient fibroblasts. *P < 0.001. n = 100, three replicates. (Scale bars: 10 μm.)
 
 --- Discussion ---
-
-
-
 A long-standing question in HD research has been why clinical
-
-
-
 CAG repeat lengths beyond 37 repeats result in pathogenesis,
 whereas even a few repeats below this number do not (27).
-
-
 Animal models of HD require very long polyglutamine tracts to
 elicit any obvious phenotypic changes; however, using our huntingtin exon1 FRET sensor, we have been able to detect a conformational switch between 32 and 37 glutamine repeats in
 live cells.
-
 
 Huntingtin is one of nine polyglutamine expansion disease
 proteins, where the biological role of normal polyglutamine
@@ -731,7 +805,6 @@ and/or dimerization (6–8). Our data demonstrate that polyglutamine or glutamin
 required flexibility to mediate interactions between flanking
 protein–protein interaction domains.
 
-
 All mammalian species have a huntingtin protein that contains
 at least four glutamines in their polyglutamine tract. In vertebrate species that contain only two glutamines, the proline-rich
 region is absent (29). The reduced FRET efficiency observed
@@ -739,11 +812,8 @@ with the synthetic huntingtin exon1 Q2 FRET construct suggests
 that the polyglutamine tract may be a critical conformational
 hinge in the amino terminus, allowing N17 to interact with
 regions downstream. This hinge hypothesis is consistent with the
-
-
 X-ray crystal structures that have been solved with wild-type
 exon 1 (30) and molecular dynamics simulations (31).
-
 
 We hypothesize that the decrease of FRET efficiency with
 mutant fragments is due to a gain of structure in the polyglutamine tract, leading to a reduced flexibility of the hinge region.
@@ -767,19 +837,10 @@ a change in conformation of the huntingtin. We hypothesized that
 this decrease in FRET efficiency was either due to a loss of the
 alpha-helical structure of N17 or due to a change in the interaction
 network with N17 as a result of phosphorylation. However, because the readout for FLIM is either an increase or a decrease in
-
-
 FRET efficiency values relative to a control, the decrease in
-
-
-
 FRET efficiency seen following promoting phosphorylation of
-
-
-
 N17 cannot be compared with the decrease measured when the
 sensor has an expanded polyglutamine tract.
-
 
 IKK is a critical regulator of neuroinflammation which has
 been implicated in the pathogenesis of HD (36). IKK inhibitors
@@ -792,8 +853,6 @@ and can effectively cross the blood–brain barrier.
 The biology of PACSIN1 overlaps heavily with known pathways affected in Huntington disease, namely the recycling of
 NMDA receptors (19) and the formation of neuronal spines
 (21). PACSIN1 is known to directly interact with human huntingtin within the polyproline region (18), and we have additionally shown that PACSIN1 interacts with the N17 domain.
-
-
 This suggests that PACSIN1 may stabilize or modulate the
 conformation of the amino terminus of huntingtin. Both N17 and
 PACSIN1 are substrates for CK2 (12, 17). Therefore, the effect

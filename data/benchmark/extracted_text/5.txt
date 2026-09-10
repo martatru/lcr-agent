@@ -1,6 +1,5 @@
---- SUMMARY
-
-Eukaryotic cells contain assemblies of RNAs and ---
+--- SUMMARY ---
+Eukaryotic cells contain assemblies of RNAs and
 proteins termed RNA granules. Many proteins within
 these bodies contain KH or RRM RNA-binding
 domains as well as low complexity (LC) sequences
@@ -30,7 +29,6 @@ cells into morphologically mature neurons (Schneider et al.,
 a biotinylated derivative was prepared (Experimental Procedures). Hereafter we will refer to this biotinylated isoxazole as
 b-isox.
 
-
 Cytoplasmic lysates were prepared from two mouse tissues
 (brain and testis) and two mouse cell lines (NIH 3T3 cells and
 mouse embryonic stem cells) and sequentially incubated with
@@ -44,8 +42,6 @@ same distribution of proteins was effected in the absence of
 the streptavidin beads. Visual inspection of the reactions
 revealed a flocculent, white precipitate occurring within minutes
 subsequent to addition of the chemical to the cytoplasmic lysate.
-
-
 Subsequent centrifugation readily separated the precipitant
 from soluble components of the lysate, and sodium dodecyl
 sulfate (SDS) gel analysis revealed the same pattern of polypeptides as observed with combined exposure to both b-isox and
@@ -76,8 +72,6 @@ and
 mental
 retardation,
 including
-
-
 FMR1,
 FUS,
 TDP43, and ataxin 2. Western blotting assays confirmed the
@@ -85,7 +79,6 @@ identities of these proteins and further established that they
 were quantitatively precipitated in response to 100 mM of the
 b-isox compound (Figure 1°C) and that the precipitation reaction
 was reversible (Figure 1D).
-
 
 Many of these proteins are constituents of neuronal granules,
 stress granules, processing bodies or polar granules (Anderson
@@ -105,7 +98,6 @@ Of the 106 core proteins, 53 were observed to be included within
 the list of 150, canonical RNA granule proteins (Figure S1B). The
 statistical probability of this match reveals a p value of < 0.0001.
 
-
 As such, we conclude that the b-isox compound is capable of
 causing aggregation of a set of proteins that overlap significantly
 with proteins previously reported to be constituents of RNA
@@ -122,8 +114,6 @@ the 30 untranslated regions of mRNA destined for localized
 storage and/or translation. Given the rich history of study of
 mRNA localization in Drosophila, we prepared b-isox-mediated
 precipitates from cytoplasmic extracts of cultured Drosophila
-
-
 S2 cells, and identified the proteins in the precipitation by
 mass spectrometry. In parallel with the enrichment pattern
 observed for mammalian cells and tissues, the b-isox compound
@@ -159,32 +149,29 @@ hnRNPA2, and the yeast Sup35 protein (data not shown). The
 amino acid sequences of the seven LC domains investigated
 as purified proteins in this study are shown in Figure S2A.
 
-
 We then performed computational studies to assess the
 frequency of the LC domains in our collection of b-isox-precipitated proteins and in the collection of known RNA granule
 proteins, as compared with the entire mouse proteome (Figure S2B). Both the b-isox-precipitated group of proteins and
-the literature-cited RNA granule proteins were substantially enriched in the LC domains, with a high degree of statistical significance (p < 2.2 3 1016), as compared with the entire mouse
+the literature-cited RNA granule proteins were substantially enriched in the LC domains, with a high degree of statistical significance (p < 2.2 3 10�16), as compared with the entire mouse
 proteome.
 
 
 Phase-Transition of the LC Sequence Domain of FUS
 into a Hydrogel
-While working with concentrated forms of the recombinant, fulllength FUS protein linked to a GST tag (10 mg/ml), it was noted
+While working with concentrated forms of the recombinant, fulllength FUS protein linked to a GST tag (�10 mg/ml), it was noted
 that the protein adopted a gel-like state when stored at low
 temperature. Hydrogel formation was observed in the absence
 of the b-isox chemical. Unless otherwise specifically stated, all
 additional experiments reported herein were conducted in the
 complete absence of the b-isox chemical. Recombinant derivatives of GST-FUS lacking the C-terminal RNA-binding domains
 retained gel forming capacity. By contrast, N-terminal truncations lacking the LC sequence were incapable of phase transitioning into a hydrogel-like state. When produced as chimeric
-proteins with GST, mCherry or GFP, the FUS LC domain (residues 2–214, 50 mg/ml) yielded clear, red and green colored hydrogels respectively (Figure 3A).
+proteins with GST, mCherry or GFP, the FUS LC domain (residues 2–214, �50 mg/ml) yielded clear, red and green colored hydrogels respectively (Figure 3A).
 
 Hydrogel droplets of the mCherry:FUS LC domain of roughly
 500 mm in diameter were formed on glass-bottomed microscope
 dishes to perform a simple, microscopic binding assay (Figure 3B). When the hydrogel droplet was exposed to GFP solution
 (1 mM), the GFP molecules penetrated the hydrogel but—upon
 washing—were not selectively retained by the gel (Figure 3°C).
-
-
 By contrast, a GFP derivative linked to the FUS LC domain was
 avidly retained by the mCherry:FUS LC hydrogel. We also tested
 the LC domains of other RNA-binding proteins precipitated by
@@ -199,7 +186,6 @@ domains of four additional test samples (FMRP, CIRBP, TDP43,
 and yeast Sup35) was also observed (Figure S3A). In all nine
 cases, retention of these GFP fusion proteins to the hydrogel
 was attributed to the LC domain alone (data not shown).
-
 
 Hydrogel formation was also observed for the LC domain of
 hnRNPA2 linked to either GFP or mCherry. The hydrogel droplets
@@ -222,9 +208,6 @@ Tyrosine Residues Flanked by Either Glycine or Serine
 
 
 Specify Hydrogel Formation
-
-
-
 Inspection of the LC sequences located in the gel-forming,
 N-terminal domain of FUS revealed 27 variants of the tripeptide
 sequence GYG, GYS, SYG or SYS (hereafter designated [G/S]
@@ -234,10 +217,10 @@ of proteins enriched in these repeats (Figure S4B). A list of the 190
 mouse proteins having the highest density of the [G/S]Y[G/S]
 repeats was crossreferenced with the core group of the b-isoxprecipitated proteins. Of the 106 b-isox protein core, 27 were
 found on the computationally defined list of proteins enriched
-in the [G/S]Y[G/S] motif. This degree of overlap was of high statistical significance, yielding a p-value of < 2.2 3 1016. Statistically
+in the [G/S]Y[G/S] motif. This degree of overlap was of high statistical significance, yielding a p-value of < 2.2 3 10�16. Statistically
 significant overlap was also observed between these 190 mouse
 proteins enriched with the [G/S]Y[G/S] motifs and RNA granule
-proteins (p value of < 4.1 3 1010).
+proteins (p value of < 4.1 3 10�10).
 
 Given these unusually high level of statistical significance, we
 prepared mutated derivatives of GFP:FUS LC wherein varying
@@ -264,7 +247,6 @@ mutant lacking five of the relevant tyrosine residues. By contrast,
 the S2 mutant lacking nine tyrosines could barely be detected in
 stress granules, and no stress granule colocalization whatsoever
 was observed for the S3 and allS mutants.
-
 
 The FUS and hnRNPA2 Hydrogels Are Composed
 of Amyloid-Like Fibers
@@ -333,9 +315,6 @@ broadly throughout the literature.
 
 
 A Fiber Polymerization Model for Hydrogel Retention
-
-
-
 Having observed FUS hydrogels to be composed of amyloid-like
 fibers, it became possible to consider various mechanisms by
 which exogenously-supplied proteins could be trapped and
@@ -374,7 +353,6 @@ via some form of copolymerization with mCherry:FUS LC.
 Finally, no evidence of seed extension was observed with either
 of the S3 or allS variants (data not shown).
 
-
 The aforementioned studies give evidence that the high
 density of fiber ends in the hydrogel may homotypically
 trap GFP:FUS LC proteins. Next, we asked whether the
@@ -382,8 +360,6 @@ mCherry:FUS LC fiber seeds might also prompt heterotypic
 copolymerization with the LC domains of distinct RNA-binding
 proteins. As shown in Figure 7D, when the mCherry:FUS seeds
 were incubated with soluble preparations of GFP:hnRNPA1
-
-
 LC, fiber extension was observed to emanate from the red
 seeds. As in the cases of the S1 and S2 mutants of the FUS
 LC domain, fiber extensions with GFP:hnRNPA1 LC were
@@ -413,8 +389,6 @@ To examine possible mechanisms for b-isox-mediated precipitation of the selectiv
 from cellular lysates of human U2OS were visualized by light
 microscopy. Careful inspection of the precipitate revealed
 amorphous materials intermixed with microcrystals (Figure 8A).
-
-
 This amorphous material was positively stained with ethidium
 bromide as visualized by fluorescence microscopy, consistent
 with the presence of nucleic acids in the b-isox precipitate (Figure 8B) (Han et al., 2012). When the b-isox chemical was alone
@@ -426,7 +400,6 @@ shown). Thus, we concluded that the b-isox chemical itself
 forms microcrystals that selectively coprecipitate RNA-binding
 proteins containing LC domains. A central focus of the accompanying manuscript (Han et al., 2012) deals with molecular characterization of the RNA species selectively precipitated by the
 b-isox microcrystals.
-
 
 How might the b-isox microcrystals selectively precipitate LC
 domain-containing proteins? In pursuit of this question, we
@@ -456,22 +429,17 @@ would not be expected to display sufficiently
 extensive segments of random coil to allow
 conversion to extended b strand structure and
 tight interaction with the crystalline surface.
-
-
 Finally, dissolution of the b-isox crystals, which
 takes place upon warming to 37°C, would be
 expected to allow bound proteins to reconvert
 back to random coil and solubility as observed
 experimentally (Figure 1).
 
---- DISCUSSION
-
-The central thesis evolving from the present ---
+--- DISCUSSION ---
+The central thesis evolving from the present
 study is that LC sequences associated with
 regulatory proteins can reversibly transform
 from solubility to a polymeric, amyloid-like state.
-
-
 We hypothesize that the latter state may form the organizing
 principle for subcellular structures that are not membrane
 bound, including various forms of RNA granules that have
@@ -501,7 +469,6 @@ a continuum probably ranges from the submicroscopic use of
 dynamically operative, fibrous organizing centers all the way to
 readily visualized RNA granules.
 
-
 When the b-isox chemical was applied to lysates prepared
 from a variety of cell or tissue types, it triggered the precipitation
 of a select group of proteins associated with RNA biogenesis
@@ -525,7 +492,6 @@ the
 spectrum
 of
 RNA-binding proteins described in this study (data not shown).
-
 
 We hypothesize that the b-isox microcrystals coprecipitate
 the spectrum of RNA-binding proteins described in this study.
@@ -551,16 +517,9 @@ are capable of helping localize RNA-binding proteins to P bodies
 in yeast (Decker et al., 2007; Reijns et al., 2008) and mammalian
 stress granules (Gilks et al., 2004). We have observed correlative
 effects of mutations of the [G/S]Y[G/S] triplet repeats found in the
-
-
 FUS LC domain on retention to a preformed hydrogel and
 attraction to stress granules in cultured U2OS cells (Figure 4).
-
-
 As such, we hypothesize that the dynamic movement of
-
-
-
 RNA-binding proteins in and out of stress granules, P bodies,
 polar granules, and neuronal granules may be driven primarily
 by the reversible transition of the LC sequences from solubility
@@ -576,7 +535,6 @@ with
 this
 interpretation are described in the accompanying manuscript
 (Han et al., 2012).
-
 
 That the FUS LC domain can be polymerized into amyloid-like
 fibers is supported by both TEM and X-ray diffraction (Figure 5).
@@ -598,7 +556,6 @@ be required to understand the structural underpinnings of these
 amyloid-like fibers, as well as the dynamics controlling both
 polymerization and depolymerization.
 
-
 By incubating preformed fibrous seeds with various samples
 of soluble test proteins, it was possible to visualize fiber extension (Figure 7). Mutated variants of the GFP:FUS LC domain
 missing either five (S1) or nine (S2) of the tyrosine residues
@@ -608,8 +565,6 @@ grow unidirectionally. It was likewise observed for these mutants
 that the green polymeric growth was mixed with red fluorescence, particularly in the case of the S2 mutant. We hypothesize
 that the mixture of red and green color reflects the fact that these
 extensions consist of a mixture of native and mutant subunits.
-
-
 We tentatively conclude that the mutated LC domains are
 somehow assisted into the polymeric state by the native LC
 domains of mCherry:FUS subunits that are themselves dynamically polymerizing and depolymerizing from the mCherry:FUS

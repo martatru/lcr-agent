@@ -1,16 +1,20 @@
---- RESULTS
-Overview of TDP-43 RBD bound to UG-rich RNA ---
-We determined the NMR structure of TDP-43 RBD (residues 102–269) 
+--- RESULTS ---
+Overview of TDP-43 RBD bound to UG-rich RNA
+We determined the NMR structure of TDP-43 RBD (residues 102–269)
 bound to the UG-rich RNA oligonucleotide 5′-GUGUGAAUGA
-AU-3′ (termed AUG12), which we derived from recent individualnucleotide-resolution CLIP data (Supplementary Fig. 1b and 
+AU-3′ (termed AUG12), which we derived from recent individualnucleotide-resolution CLIP data (Supplementary Fig. 1b and
 
 a
 
 b
 
-
 Gly rich
+
+
 RRM1
+
+
+
 RRM2
 N
 L
@@ -30,8 +34,6 @@ S
 414
 
 mole of injectant)
-
-
 Differential power
 
 0
@@ -40,7 +42,7 @@ Differential power
 –0.15
 –0.20
 
-(μcal s–1)
+s–1) (μcal
 
 102
 
@@ -50,20 +52,20 @@ Differential power
 
 
 RNP2
-
 142
+
 β3
 β4
 β3′
 β3′′
 α2
 
-
 0
 
-RNP1
 
+RNP1
 182
+
 Heat (kcal per
 
 –10
@@ -76,8 +78,8 @@ Heat (kcal per
 
 
 RNP2
-
 222
+
 –30
 
 β3
@@ -90,8 +92,8 @@ RNP2
 
 
 RNP1
-
 262
+
 –50
 
 269
@@ -102,63 +104,93 @@ c
 
 
 Free TDP-43
-Bound TDP-43
 
+
+
+Bound TDP-43
 105
 
-Gly146
 
+Gly146
 npg
 © 2013 Nature America, Inc. All rights reserved.
 
 
 Gly110
-
 110
+
 
 Lys144
 15N (p.p.m.)
 
 
 Phe231
-
 115
 
+
 Ser254
+
+
+
 Val193
+
+
 
 Ser183
 
+
+
 Leu111
 
+
+
 Ser180
+
+
 
 Ser190
 
 
 
 Phe226
-
 120
 
+
 Cys173
+
+
+
 Lys192
 
+
+
 Lys181
+
+
+
 Gln182
 
+
+
 Thr115
+
+
+
 Asp105
 *
 
 
 Ala260
 
-Arg227
 
+
+Arg227
 125
 
+
 Glu261
+
+
 
 Val195
 *Gln184, Asp185, Glu186,
@@ -166,8 +198,9 @@ Val195
 
 Leu188, Arg189
 
-Ile222
 
+
+Ile222
 130
 
 10
@@ -175,29 +208,28 @@ Ile222
 8
 7
 6
+
 1H (p.p.m.)
 
-Supplementary Table 1 and Supplementary Note)22. Isothermal 
-titration calorimetry (ITC) shows that binding of AUG12 RNA 
-occurs at a 1:1 ratio with a similar Kd value of 26.9 nM as compared to 
+Supplementary Table 1 and Supplementary Note)22. Isothermal
+titration calorimetry (ITC) shows that binding of AUG12 RNA
+occurs at a 1:1 ratio with a similar Kd value of 26.9 nM as compared to
 22.6 nM for (GU)6 RNA (Fig. 1b). The affinity of (GU)6 RNA deter­
-mined here is consistent with the previously reported Kd value of 
+mined here is consistent with the previously reported Kd value of
 14.2 nM determined by filter binding assay24. NMR titration of
-
-
 TDP-43 RBD with AUG12 RNA indicates an intermediate exchange
-regime and saturation of the binding site at a 1:1 ratio consistent with the 
-results from ITC measurements (Supplementary Fig. 2a,b). Numerous 
-large chemical-shift changes throughout the 1H-15N HSQC spectrum 
-indicate major structural rearrangements of the protein upon RNA 
-binding (Fig. 1c,d). Use of 13°C-15N–labeled AUG12 RNA prepared 
-by in vitro transcription (Supplementary Note and Supplementary 
-Fig. 1c–h) greatly aided resonance assignments (Supplementary 
-Fig. 2c,d) and thus yielded a large number of unambiguous intra-RNA 
-(279) and intermolecular (321) NOE-derived distance restraints in 
-addition to 4,748 intraprotein NOEs; this allowed for a high-­resolution 
-structure determination of this 25-kDa RNA–protein complex. The 
-final ensemble displays high precision and contains 20 conformers with 
+regime and saturation of the binding site at a 1:1 ratio consistent with the
+results from ITC measurements (Supplementary Fig. 2a,b). Numerous
+large chemical-shift changes throughout the 1H-15N HSQC spectrum
+indicate major structural rearrangements of the protein upon RNA
+binding (Fig. 1c,d). Use of 13°C-15N–labeled AUG12 RNA prepared
+by in vitro transcription (Supplementary Note and Supplementary
+Fig. 1c–h) greatly aided resonance assignments (Supplementary
+Fig. 2c,d) and thus yielded a large number of unambiguous intra-RNA
+(279) and intermolecular (321) NOE-derived distance restraints in
+addition to 4,748 intraprotein NOEs; this allowed for a high-­resolution
+structure determination of this 25-kDa RNA–protein complex. The
+final ensemble displays high precision and contains 20 conformers with
 an r.m.s.d. of 0.90 Å for all heavy atoms (Fig. 2a and Table 1).
 
 Time (min)
@@ -226,12 +258,11 @@ Time (min)
 0
 
 mole of injectant)
-
-
 Differential power
+
 –0.10
 
-(μcal s–1)
+s–1) (μcal
 
 –0.20
 
@@ -265,9 +296,9 @@ Kd = 22.6 ±
 
 –50
 
-
 Molar ratio
 0
+
 0.5
 1.0
 1.5
@@ -276,8 +307,6 @@ Molar ratio
 0.5
 1.0
 1.5
-
-
 2.0
 
 Molar ratio
@@ -285,23 +314,38 @@ Molar ratio
 
 d
 
+
 RRM1
+
+
+
 RRM2
-
-
-
 1.0
 
-RNP2
 
 RNP2
+
+
+
+RNP2
+
+
+
 RNP1
 Ct
 
+
 Phe226
+
+
+
 Arg227
 
+
+
 Ala260
+
+
 
 Val195
 
@@ -310,8 +354,8 @@ Val195
 Gly110Leu111 Lys114
 Chemical shift difference (p.p.m.)
 
-
 0.8
+
 
 Glu261
 β3′′
@@ -323,23 +367,35 @@ RNP1
 
 Cys173
 
+
+
 Gly146
-
-
-
 0.6
+
 
 Val193
 
+
+
 Ser254
+
+
 
 Asp105
 
+
+
 Thr115
+
+
 
 Lys192
 
+
+
 Phe231
+
+
 
 Ile222
 0.4
@@ -367,37 +423,35 @@ Ile222
 250
 260
 
-
 Amino acid residue number
 
-
-
 Both RRMs of TDP-43 RBD display the canonical RRM fold
-(β1α1β2β3α2β4) with an additional β-hairpin (β3′β3′′), inserted 
-between α2 and β4, that expands the β-sheet surface accessible for 
-RNA binding (Fig. 2b). The AUG12 RNA adopts a single-stranded 
-conformation and binds an extended, positively charged binding groove 
-on the protein surface (Fig. 2c and Supplementary Note). This groove 
-comprises the canonical binding site on the β-sheet surface of the RRMs, 
-including both β-hairpins as well as the linker between the RRMs and 
-C-terminal residues following RRM2 (Figs. 1c,d and 2a,c). The AUG12 
-RNA binds to this groove in a 5′-to-3′ direction from RRM1 to RRM2 
-(Fig. 2a–c). This is rather surprising because tandem RRMs usually 
-bind RNA in a 5′-to-3′ direction from RRM2 to RRM1, as seen in the 
-Sex-lethal25, PABP26, HuD27, Nucleolin28, Hrp1 (ref. 29) and U2AF65 
-(ref. 30) tandem RRM–RNA complexes (Supplementary Fig. 3a). The 
-commonly seen arrangement of tandem RRMs places the β2 strand of 
-the C-terminal RRM2 spatially close to the β4 strand of the N-terminal 
-RRM1 (β4β2 type) so that the partially helical linker of 11–14 aa needs 
-to bridge only two β strands (Fig. 2d). In the TDP-43 tandem RRMs, 
-both the directionality of RNA binding and the RRM orientation are 
-reversed (β2β4 type), and thus the 14-aa linker needs to bridge four 
+(β1α1β2β3α2β4) with an additional β-hairpin (β3′β3′′), inserted
+between α2 and β4, that expands the β-sheet surface accessible for
+RNA binding (Fig. 2b). The AUG12 RNA adopts a single-stranded
+conformation and binds an extended, positively charged binding groove
+on the protein surface (Fig. 2c and Supplementary Note). This groove
+comprises the canonical binding site on the β-sheet surface of the RRMs,
+including both β-hairpins as well as the linker between the RRMs and
+C-terminal residues following RRM2 (Figs. 1c,d and 2a,c). The AUG12
+RNA binds to this groove in a 5′-to-3′ direction from RRM1 to RRM2
+(Fig. 2a–c). This is rather surprising because tandem RRMs usually
+bind RNA in a 5′-to-3′ direction from RRM2 to RRM1, as seen in the
+Sex-lethal25, PABP26, HuD27, Nucleolin28, Hrp1 (ref. 29) and U2AF65
+(ref. 30) tandem RRM–RNA complexes (Supplementary Fig. 3a). The
+commonly seen arrangement of tandem RRMs places the β2 strand of
+the C-terminal RRM2 spatially close to the β4 strand of the N-terminal
+RRM1 (β4β2 type) so that the partially helical linker of 11–14 aa needs
+to bridge only two β strands (Fig. 2d). In the TDP-43 tandem RRMs,
+both the directionality of RNA binding and the RRM orientation are
+reversed (β2β4 type), and thus the 14-aa linker needs to bridge four
 
 a
 
 
 Linker
 N
+
 
 RRM1
 5′
@@ -407,81 +461,75 @@ c
 
 
 RRM1
-
 G5
 G9
 U8
 U4
 
-A10
 
+A10
 G3
 
 A7
 U2
 
 A6
-5′
 
+5′
 
 G1
 
-RRM2
 
+RRM2
 npg
 © 2013 Nature America, Inc. All rights reserved.
 
-β-strands instead of two and adopts an extended conformation. The 
-need for a longer linker path might explain why this new arrangement 
+β-strands instead of two and adopts an extended conformation. The
+need for a longer linker path might explain why this new arrangement
 (β2β4 type) is found more rarely than is the other type.
 
-15N relaxation studies indicate that in the absence of RNA the two 
+15N relaxation studies indicate that in the absence of RNA the two
 RRMs do not tumble completely independently. The linker shows con­
-formational exchange indicating dynamics at the RRM-RRM interface, 
-which is stabilized upon RNA binding (Supplementary Table 2 and 
+formational exchange indicating dynamics at the RRM-RRM interface,
+which is stabilized upon RNA binding (Supplementary Table 2 and
 Supplementary Note).
 
-
 Specific readout of six U or G nucleotides by the TDP-43 RBD
-
-
-
 The RNA interaction surface of TDP-43 RBD accommodates 10 out
-of 12 nt of AUG12 RNA (Fig. 2a,c). Nucleotides G1, U2, G3, U4 and 
-G5 lie on the RRM1 β-sheet surface, A6 and A7 stack and act as a 
+of 12 nt of AUG12 RNA (Fig. 2a,c). Nucleotides G1, U2, G3, U4 and
+G5 lie on the RRM1 β-sheet surface, A6 and A7 stack and act as a
 spacer between the two RRMs, and U8, G9 and A10 interact with
-
-
 RRM2 and C-terminal residues, whereas A11 and U12 do not make
-any contacts with the protein (Fig. 2c). Of the 10 nt in contact with 
-the protein surface, 6 nt are recognized sequence specifically (G1, G3, 
-U4, G5, U8 and G9). All are Us or Gs, and this explains the binding 
+any contacts with the protein (Fig. 2c). Of the 10 nt in contact with
+the protein surface, 6 nt are recognized sequence specifically (G1, G3,
+U4, G5, U8 and G9). All are Us or Gs, and this explains the binding
 preference of TDP-43 for UG-rich sequences.
 
-On RRM1, the 5′ residue G1 stacks with Trp113 from loop 1 of 
-RRM1 and shows an intramolecular interaction with G3 N7 through 
-its amino group (Fig. 3a). Through this intra-RNA hydrogen bond, 
-G1 is indirectly sequence specifically recognized by the RRM, because 
-only a G base can form such a hydrogen bond (Supplementary Fig. 2d 
+On RRM1, the 5′ residue G1 stacks with Trp113 from loop 1 of
+RRM1 and shows an intramolecular interaction with G3 N7 through
+its amino group (Fig. 3a). Through this intra-RNA hydrogen bond,
+G1 is indirectly sequence specifically recognized by the RRM, because
+only a G base can form such a hydrogen bond (Supplementary Fig. 2d
 and Supplementary Note). This structural organization is reminis­
-cent of but not identical to the intramolecular contacts between G2 
-and A4 or G2 and G4 found in the RRM of Fox-1 (ref. 31) or the 
-qRRM1 of hnRNP F32, respectively (Supplementary Figs. 3b and 
-4a). G3 adopts a characteristic syn conformation and is placed on 
-the β-sheet surface for specific recognition through hydrogen bonds 
-to the side chains of Arg171 (β3′β3′′) and Asp174 (β4) (Fig. 3a). 
-The ribose moiety of G3 is held in place through hydrogen bonds of 
-the 2′-OH group with both the Gly110 amide proton and the Lys145 
+cent of but not identical to the intramolecular contacts between G2
+and A4 or G2 and G4 found in the RRM of Fox-1 (ref. 31) or the
+qRRM1 of hnRNP F32, respectively (Supplementary Figs. 3b and
+4a). G3 adopts a characteristic syn conformation and is placed on
+the β-sheet surface for specific recognition through hydrogen bonds
+to the side chains of Arg171 (β3′β3′′) and Asp174 (β4) (Fig. 3a).
+The ribose moiety of G3 is held in place through hydrogen bonds of
+the 2′-OH group with both the Gly110 amide proton and the Lys145
 backbone carbonyl oxygen as well as through hydrophobic interac­
-tions with Leu109 from RNP2 (β1). The following residue, U4, is also 
-specifically recognized. Hydrophobic interactions with Ile107 from 
-RNP2 (β1) and Phe147 from RNP1 (β3) position the base and ribose 
+tions with Leu109 from RNP2 (β1). The following residue, U4, is also
+specifically recognized. Hydrophobic interactions with Ile107 from
+RNP2 (β1) and Phe147 from RNP1 (β3) position the base and ribose
 
 b
 
 
 Linker
 N
+
 α2
 α2
 
@@ -517,14 +565,16 @@ RRM1°C
 
 RRM2
 
-RRM2
 
+
+RRM2
 d
 
-Linker
 
+Linker
 C
 N
+
 5′
 3′
 
@@ -540,11 +590,11 @@ RRM1
 β3
 β2
 
-
 G5
 G9
 U8
 U4
+
 RRM1 (β2)
 RRM2 (β4)
 
@@ -556,26 +606,30 @@ A10
 
 TDP-43 tandem RRMs (β2β4)
 
-
 G3
 
 A7
 U2
 
+
 Linker
 
-A11 U12
+
 
 A11 U12
 
+
+
+A11 U12
 A6
-5′
 
+5′
 
 N
 C
 
 G1
+
 
 RRM2
 5′
@@ -596,46 +650,43 @@ RRM1 (β4)
 
 Common tandem RRMs (β4β2)
 
-moieties on the β-sheet surface (Fig. 3a). The entire Watson–Crick 
-face of U4 is read out by hydrogen-bonding with Lys176 (β4), the 
-backbone carbonyl oxygen of Leu177 and the main chain and side 
+moieties on the β-sheet surface (Fig. 3a). The entire Watson–Crick
+face of U4 is read out by hydrogen-bonding with Lys176 (β4), the
+backbone carbonyl oxygen of Leu177 and the main chain and side
 chain of Asn179, both from the inter-RRM linker (Fig. 3a).
 
 To test the importance of the interactions of G1, G3 and U4 with
-
-
 RRM1, we replaced the key interacting residues of TDP-43 RBD
-individually with alanine and tested the effect of these substitutions 
+individually with alanine and tested the effect of these substitutions
 on binding affinity by ITC. The Trp113 mutation results in a mod­
-est three-fold loss in binding affinity compared to that of wild-type 
-TDP-43 RBD, whereas double amino acid substitutions disrupting 
-the specific readout of the bases of G3 (R171A D174A) or U4 (K176A 
-N179A) lead to a substantial 20-fold and 6-fold reduction in affinity, 
+est three-fold loss in binding affinity compared to that of wild-type
+TDP-43 RBD, whereas double amino acid substitutions disrupting
+the specific readout of the bases of G3 (R171A D174A) or U4 (K176A
+N179A) lead to a substantial 20-fold and 6-fold reduction in affinity,
 respectively (Table 2).
 
-
 RRM2 shows only two nucleotide-specific interactions, namely
-with U8 and G9. Stacking interactions of Phe194 from RNP2 (β1) 
-with U8 and of Phe231 from RNP1 (β3) with G9, together with 
-hydrophobic interactions of Phe229 from RNP1 (β3) and of Phe221 
+with U8 and G9. Stacking interactions of Phe194 from RNP2 (β1)
+with U8 and of Phe231 from RNP1 (β3) with G9, together with
+hydrophobic interactions of Phe229 from RNP1 (β3) and of Phe221
 (β2) with the U8 and G9 ribose moieties, position these two nucle­
-otides on the β-sheet surface (Fig. 3b). Similarly to U4 in RRM1, the 
-entire Watson–Crick face of U8 is involved in specific interactions to 
+otides on the β-sheet surface (Fig. 3b). Similarly to U4 in RRM1, the
+entire Watson–Crick face of U8 is involved in specific interactions to
 residues from RNP1 and RNP2 in RRM2. U8 is recognized by hydro­
-gen bonds with Ser258 (β4), the backbone carbonyl oxygen of Asn259 
-and the backbone amide of Glu261 from the C terminus (Fig. 3b). The 
-G base of G9 also forms multiple hydrogen bonds with the protein. 
-Base-specific hydrogen bonds are present with Lys192 (β3) and with 
-the backbone carbonyl oxygen of Glu261 of the C terminus (Fig. 3b). 
-Moreover, a sequential RNA hydrogen bond is formed between the 
-amino group of G9 and the U8 phosphate oxygen, and G9 contacts 
-the Lys263 side chain from the C terminus: the aliphatic chain stacks 
-on top of the base, and the ammonium group forms a hydrogen bond 
-with the 2′-OH (Fig. 3b). The side chains interacting with G9 form 
-a pronounced cavity into which G9 is deeply buried, and this 
-requires G9 to adopt a syn conformation similar to that of G3 in 
-RRM1 ((Fig. 3b), Supplementary Fig. 4b and Supplementary Note). 
-Finally, the A10 base and ribose protons display several NOEs to 
+gen bonds with Ser258 (β4), the backbone carbonyl oxygen of Asn259
+and the backbone amide of Glu261 from the C terminus (Fig. 3b). The
+G base of G9 also forms multiple hydrogen bonds with the protein.
+Base-specific hydrogen bonds are present with Lys192 (β3) and with
+the backbone carbonyl oxygen of Glu261 of the C terminus (Fig. 3b).
+Moreover, a sequential RNA hydrogen bond is formed between the
+amino group of G9 and the U8 phosphate oxygen, and G9 contacts
+the Lys263 side chain from the C terminus: the aliphatic chain stacks
+on top of the base, and the ammonium group forms a hydrogen bond
+with the 2′-OH (Fig. 3b). The side chains interacting with G9 form
+a pronounced cavity into which G9 is deeply buried, and this
+requires G9 to adopt a syn conformation similar to that of G3 in
+RRM1 ((Fig. 3b), Supplementary Fig. 4b and Supplementary Note).
+Finally, the A10 base and ribose protons display several NOEs to
 side chain protons of Phe221 and Lys263, thus indicating inter­
 action of A10 with the C terminus of TDP-43 RBD, but we could
 
@@ -645,16 +696,15 @@ RNA–protein
 
 
 RNA
-
 NMR distance and dihedral constraints
 
-
-
 Distance constraints
+
 
 Total NOE
 4,748
 279
+
 
 Intra-residue
 956
@@ -666,17 +716,16 @@ Sequential (|i – j| = 1)
 1,232
 74
 
- Medium-range (|i – j| < 5)a
+Medium-range (|i – j| < 5)a
 962
 7
 
- Long-range (|i – j| > 5)a
+Long-range (|i – j| > 5)a
 1,598
-
-
 0
 
- Intermolecular
+
+Intermolecular
 321
 
 Hydrogen bondsb
@@ -684,44 +733,43 @@ Hydrogen bondsb
 8
 0
 
-
-
 Total dihedral angle restraintsc
 0
 3
+
 φ
 0
 –
 
- ψ
+ψ
 0
 –
 
-
 Structure statisticsd
+
 Violations (mean ± s.d.)
 
- Distance constraints (Å) > 0.3
+Distance constraints (Å) > 0.3
 0.3 ± 0.5
 
 npg
 © 2013 Nature America, Inc. All rights reserved.
 
- Dihedral angle constraints (°) > 5
+Dihedral angle constraints (°) > 5
 0.0
 
- Max. dihedral angle violation (°)
+Max. dihedral angle violation (°)
 0.29 ± 0.04
 
- Max. distance constraint violation (Å)
+Max. distance constraint violation (Å)
 0.21 ± 0.70
 
-
 Deviations from idealized geometry
+
 Bond lengths (Å)
 0.0037 ± 0.0001
 
- Bond angles (°)
+Bond angles (°)
 1.619 ± 0.012
 
 Average pairwise r.m.s. deviation (Å)d
@@ -738,168 +786,159 @@ Backbone
 –
 –
 
-aMedium- and long-range NOEs include 46 NOEs between the N terminus and RRM1 (33 NOEs) and the linker (13); 
-36 NOEs between RRM1 and RRM2; and 175 NOEs between the linker and RRM1 (58), RRM2 (81) and the C terminus (36). 
-bHydrogen-bond constraints were identified in the course of structure refinement for slowly exchanging amide protons in D2O 
-and imino resonances protected from exchange with H2O. cDihedral-angle constraints for three χ angles (G1, G3 and G9) 
-were derived from H1′-H8 cross-peak intensities in a 2D NOESY spectrum acquired with 50-ms mixing time. dProtein and 
-RNA r.m.s.d. values were calculated with residues Lys 102–267 for the protein and 1–10 for the RNA for the ensemble of 
+aMedium- and long-range NOEs include 46 NOEs between the N terminus and RRM1 (33 NOEs) and the linker (13);
+36 NOEs between RRM1 and RRM2; and 175 NOEs between the linker and RRM1 (58), RRM2 (81) and the C terminus (36).
+bHydrogen-bond constraints were identified in the course of structure refinement for slowly exchanging amide protons in D2O
+and imino resonances protected from exchange with H2O. cDihedral-angle constraints for three χ angles (G1, G3 and G9)
+were derived from H1′-H8 cross-peak intensities in a 2D NOESY spectrum acquired with 50-ms mixing time. dProtein and
+RNA r.m.s.d. values were calculated with residues Lys 102–267 for the protein and 1–10 for the RNA for the ensemble of
 20 refined structures from a total of 50 calculated structures.
 
-not deduce any sequence-specific A10-protein interactions from the 
+not deduce any sequence-specific A10-protein interactions from the
 ensemble of structures.
 
-
 Single- and double-alanine point mutants of TDP-43 RRM2 show
-only weak effects on the overall binding affinity (Table 2). Taken 
-together, these data agree with previous results that indicated a 
-weaker contribution to the overall TDP-43 RNA binding affinity from 
-RRM2 compared to that of RRM1 and suggest a different functional 
+only weak effects on the overall binding affinity (Table 2). Taken
+together, these data agree with previous results that indicated a
+weaker contribution to the overall TDP-43 RNA binding affinity from
+RRM2 compared to that of RRM1 and suggest a different functional
 role for the two domains1,24.
 
-
 G5 stabilizes RRM interactions crucial for RNA binding
-Three nucleotides of AUG12 RNA, namely G5, A6 and A7, are located 
-at the interface between the two TDP-43 RRMs (Figs. 2c and 3c). 
+Three nucleotides of AUG12 RNA, namely G5, A6 and A7, are located
+at the interface between the two TDP-43 RRMs (Figs. 2c and 3c).
 Whereas the bases of A6 and A7 point toward the outside, G5 is bur­
-ied in a deep central pocket at the junction between the two β-sheets 
-(Figs. 2c and 3c). All three nucleotides seem to act as a ‘glue’ between 
-the two RRMs, with G5 being contacted by side chains from both 
-domains while A6 and A7 stack and contact basic side chains (A6 to 
-Lys145 of RRM1 and A7 to Arg227 of RRM2), thereby bridging the 
-two β2-β3 loops. Arg197 in RRM2 further contacts the A7 phosphate 
-between the two nucleotides. RNA binding induces many inter-RRM 
-interactions including a small hydrophobic core formed by Leu131, 
-Met132 (in RRM1) and Ile249 (RRM2); a salt bridge involving Arg151 
-(RRM1) and Asp247 (RRM2); and a hydrogen bond between the side 
-chain of Lys136 (RRM1) and the carbonyl oxygen of Arg197 (Fig. 3d 
+ied in a deep central pocket at the junction between the two β-sheets
+(Figs. 2c and 3c). All three nucleotides seem to act as a ‘glue’ between
+the two RRMs, with G5 being contacted by side chains from both
+domains while A6 and A7 stack and contact basic side chains (A6 to
+Lys145 of RRM1 and A7 to Arg227 of RRM2), thereby bridging the
+two β2-β3 loops. Arg197 in RRM2 further contacts the A7 phosphate
+between the two nucleotides. RNA binding induces many inter-RRM
+interactions including a small hydrophobic core formed by Leu131,
+Met132 (in RRM1) and Ile249 (RRM2); a salt bridge involving Arg151
+(RRM1) and Asp247 (RRM2); and a hydrogen bond between the side
+chain of Lys136 (RRM1) and the carbonyl oxygen of Arg197 (Fig. 3d
 and Supplementary Fig. 4c).
 
-G5 adopts an anti conformation and stacks with Phe149 from RNP1 
-(β3) of RRM1 (Fig. 3c). The Watson–Crick face is hydrogen-bonded 
+G5 adopts an anti conformation and stacks with Phe149 from RNP1
+(β3) of RRM1 (Fig. 3c). The Watson–Crick face is hydrogen-bonded
 
-to the amide proton and the carboxyl 
-group of Asp105 (β1 on RRM1) and the 
-side chain hydroxyl of Ser254 (β-hairpin of 
-RRM2) (Fig. 3c). In addition, the G5 sugarphosphate backbone interacts with the side 
-chain of Lys145 from RRM1. A6 and A7 are 
+to the amide proton and the carboxyl
+group of Asp105 (β1 on RRM1) and the
+side chain hydroxyl of Ser254 (β-hairpin of
+RRM2) (Fig. 3c). In addition, the G5 sugarphosphate backbone interacts with the side
+chain of Lys145 from RRM1. A6 and A7 are
 not recognized in a sequence-specific man­
-ner (Fig. 3c and Supplementary Note). In 
-contrast, sequence-specific contacts to G5 are 
-absolutely crucial for binding. Disruption of 
+ner (Fig. 3c and Supplementary Note). In
+contrast, sequence-specific contacts to G5 are
+absolutely crucial for binding. Disruption of
 the G5 base-stacking (F149A) or the recogni­
-tion of the Watson–Crick face of G5 (D105A 
-S254A) leads to strong decreases in affinity, 
+tion of the Watson–Crick face of G5 (D105A
+S254A) leads to strong decreases in affinity,
 by 15- or 18-fold, respectively (Table 2).
 
-
 Likewise, we observed a strong decrease in
-affinity when the inter-RRM interactions were 
-disrupted in the vicinity of G5. Altering the 
-hydrophobic contacts between Met132 and 
-Ile249 (M132A I249A) leads to a seven-fold 
-decrease in affinity, and eliminating a single salt 
-bridge between Arg151 and Asp247 (R151A 
-D247A) is very deleterious to RNA binding 
-(>37-fold decrease in affinity) (Table 2). For a 
-control, we also mutated two interface residues 
-that are not in direct contact, namely Leu139 
-and Glu200 (Supplementary Fig. 4c), and this 
-leads to only a modest, three-fold decrease in 
-affinity (Table 2). We can conclude, on the 
-basis of these data, that recognition of the 
-central G nucleoside G5 is crucial for complex 
-formation, because it requires contacts to both 
-RRMs. Also, G5 binding apparently induces 
-inter-RRM interactions that are not established 
+affinity when the inter-RRM interactions were
+disrupted in the vicinity of G5. Altering the
+hydrophobic contacts between Met132 and
+Ile249 (M132A I249A) leads to a seven-fold
+decrease in affinity, and eliminating a single salt
+bridge between Arg151 and Asp247 (R151A
+D247A) is very deleterious to RNA binding
+(>37-fold decrease in affinity) (Table 2). For a
+control, we also mutated two interface residues
+that are not in direct contact, namely Leu139
+and Glu200 (Supplementary Fig. 4c), and this
+leads to only a modest, three-fold decrease in
+affinity (Table 2). We can conclude, on the
+basis of these data, that recognition of the
+central G nucleoside G5 is crucial for complex
+formation, because it requires contacts to both
+RRMs. Also, G5 binding apparently induces
+inter-RRM interactions that are not established
 in the absence of RNA (described above).
-Taken together, our data show that only nucleotides G1, G3, U4, 
-G5, U8 and G9 are sequence-specifically recognized by the TDP-43 
-RBD surface, whereas U2, A6, A7 and A10 are not. Furthermore, G5, 
-A6 and A7 function in stabilizing the complex by mediating interRRM interactions. Our data define a minimal consensus sequence, 
-5′-GNGUGNNUGN-3′, recognized by TDP-43 for high sequence 
+Taken together, our data show that only nucleotides G1, G3, U4,
+G5, U8 and G9 are sequence-specifically recognized by the TDP-43
+RBD surface, whereas U2, A6, A7 and A10 are not. Furthermore, G5,
+A6 and A7 function in stabilizing the complex by mediating interRRM interactions. Our data define a minimal consensus sequence,
+5′-GNGUGNNUGN-3′, recognized by TDP-43 for high sequence
 specificity and binding affinity (Supplementary Note).
 
-
 Regulation of CFTR exon 9 splicing by TDP-43
-To assess the functional importance of the RNA-protein contacts 
-revealed by our solution NMR structure of the TDP-43 RBD in 
-complex with UG-rich RNA, we performed in vivo splicing assays, 
+To assess the functional importance of the RNA-protein contacts
+revealed by our solution NMR structure of the TDP-43 RBD in
+complex with UG-rich RNA, we performed in vivo splicing assays,
 using a CFTR exon 9–splicing minigene reporter system. The lat­
-ter contains the CFTR exon 9 sequence, the splicing junctions and 
-part of the flanking introns, with the TG11-T5 repeat at the 3′ splice 
-site constituting the functional TDP-43–binding site (Fig. 4a)2. As 
-previously described21, the splicing assay was coupled with RNA 
-interference–mediated knockdown of endogenous TDP-43 and addback of short interfering RNA (siRNA)-resistant wild-type or mutant 
-full-length TDP-43 protein to characterize structural determinants of 
-TDP-43 splicing function. Knockdown of endogenous TDP-43 leads 
-to 54% exon 9 inclusion (Supplementary Fig. 5a and Supplementary 
-Table 3). Overexpression of siRNA-resistant wild-type (WT) or 
+ter contains the CFTR exon 9 sequence, the splicing junctions and
+part of the flanking introns, with the TG11-T5 repeat at the 3′ splice
+site constituting the functional TDP-43–binding site (Fig. 4a)2. As
+previously described21, the splicing assay was coupled with RNA
+interference–mediated knockdown of endogenous TDP-43 and addback of short interfering RNA (siRNA)-resistant wild-type or mutant
+full-length TDP-43 protein to characterize structural determinants of
+TDP-43 splicing function. Knockdown of endogenous TDP-43 leads
+to 54% exon 9 inclusion (Supplementary Fig. 5a and Supplementary
+Table 3). Overexpression of siRNA-resistant wild-type (WT) or
 F4L-mutant TDP-43 (with F147L, F149L, F229L and F231L muta­
-tions), which completely abolish RNA binding affinity1, leads to 
-24% (for functional TDP-43 WT) or 62% (for functionally impaired 
-TDP-43 F4L) exon 9 inclusion, corresponding to a 2.5-fold increase 
+tions), which completely abolish RNA binding affinity1, leads to
+24% (for functional TDP-43 WT) or 62% (for functionally impaired
+TDP-43 F4L) exon 9 inclusion, corresponding to a 2.5-fold increase
 
-as compared to that of WT (Fig. 4b, Supplementary Fig. 5a and 
+as compared to that of WT (Fig. 4b, Supplementary Fig. 5a and
 Supplementary Table 3).
 
 We evaluated the role of specific amino acids involved in RNA rec­
-ognition for splicing activity by testing the ability of alanine mutants 
-of TDP-43 to rescue splicing activity. With the exception of Lys263, all 
-tested residues important for recognition showed a weaker repressing 
-effect with 1.1- to 1.9-fold increase in exon 9 inclusion as compared to 
-that of WT (Fig. 4b). In addition, we combined mutations of amino 
-acids mediating specific recognition of G3, U4 and G9 and tested 
-their effect on exon 9 inclusion (Fig. 4b,c). The double mutant R171A 
-D174A, for example, which impairs G3 recognition and results in a 
-20-fold decrease in RNA affinity, shows a 1.8-fold increase in exon 9 
+ognition for splicing activity by testing the ability of alanine mutants
+of TDP-43 to rescue splicing activity. With the exception of Lys263, all
+tested residues important for recognition showed a weaker repressing
+effect with 1.1- to 1.9-fold increase in exon 9 inclusion as compared to
+that of WT (Fig. 4b). In addition, we combined mutations of amino
+acids mediating specific recognition of G3, U4 and G9 and tested
+their effect on exon 9 inclusion (Fig. 4b,c). The double mutant R171A
+D174A, for example, which impairs G3 recognition and results in a
+20-fold decrease in RNA affinity, shows a 1.8-fold increase in exon 9
 inclusion (Table 2 and Fig. 4b).
 
 npg
 © 2013 Nature America, Inc. All rights reserved.
 
-Comparison of the results from affinity measurement (Table 2) 
-and splicing repression (Supplementary Table 3) suggests that RNA 
-binding affinity is not the only property controlling the strength of 
-splicing repression by TDP-43. Sequence-specific interactions of U8 
-and G9 on RRM2, which contribute much less to the overall RNA 
-binding affinity of TDP-43 compared to those of RRM1 (Table 2), 
+Comparison of the results from affinity measurement (Table 2)
+and splicing repression (Supplementary Table 3) suggests that RNA
+binding affinity is not the only property controlling the strength of
+splicing repression by TDP-43. Sequence-specific interactions of U8
+and G9 on RRM2, which contribute much less to the overall RNA
+binding affinity of TDP-43 compared to those of RRM1 (Table 2),
 are of equal functional importance for splicing as are interactions
 
 
 Proteina
+
+
+
 RNAb
 Kd (nM)c
-
-
 Affinity factord
 
 Wild type
+
+
 GUGUGUGUGUGU
 22.6 ± 6.2
-
-
 0.8
 
 Wild type
 GUGUGAAUGAAU (AUG12)
 26.9 ± 4.3
-
-
 1.0
 
 Wild type
 GUGUGAUGAAU (AUG11)
 33.2 ± 4.4
-
-
 1.2
 
 Wild type
 GUGUGUGUGAAU (AUG12-UG)
 32.4 ± 5.9
-
-
 1.2
 
 Wild type
@@ -1005,11 +1044,11 @@ AUG12
 66.7 ± 7.9
 2.5
 
-aAUG12 RNA residue recognition or RRM interactions affected by TDP-43 mutation based on observed interactions in the 
-structural ensemble of the complex are indicated in parentheses. bMutated residues in comparison to AUG12 RNA are 
-underlined. cAll complexes formed with 1:1 stoichiometry (n = 1), except for K176A, N179A, R197A, M132A and I249A, 
-which showed best fit at n = 0.5. Experiments were performed in technical duplicates, and the Kd values are from one 
-representative experiment and are reported with fitting error. dAffinity factors for variant RNA or protein relative to wild-type 
+aAUG12 RNA residue recognition or RRM interactions affected by TDP-43 mutation based on observed interactions in the
+structural ensemble of the complex are indicated in parentheses. bMutated residues in comparison to AUG12 RNA are
+underlined. cAll complexes formed with 1:1 stoichiometry (n = 1), except for K176A, N179A, R197A, M132A and I249A,
+which showed best fit at n = 0.5. Experiments were performed in technical duplicates, and the Kd values are from one
+representative experiment and are reported with fitting error. dAffinity factors for variant RNA or protein relative to wild-type
 TDP-43–AUG12 RNA binding.
 
 a
@@ -1018,9 +1057,15 @@ b
 
 L177
 
+
+
 Linker
 
+
+
 K176
+
+
 
 N259
 E261°C
@@ -1028,35 +1073,46 @@ E261°C
 
 N179
 
+
+
 D174
+
+
 
 K192
 β4
 β1
 
-
 U4
 
+
 K263
+
+
+
 S258
+
+
 
 L109
 β3′
-
 
 U8
 
 G9
 
+
 I107
 β3′′
 
-
 G3
+
 β4
 
 
 F194
+
+
 
 F231
 β2
@@ -1069,38 +1125,53 @@ G110
 
 
 F147
-
 U2
 
+
 F221
+
+
+
 F229
 β3
 
 
 R171
 
-K145
 
+
+K145
 G1
+
 
 RRM2
 
+
+
 W113
+
+
 
 RRM1
 
-Loop1
 
+
+Loop1
 c
 d
 
+
 Linker
+
+
 
 Linker
 
 
 
 D105
+
+
 
 R151 D247
 β4
@@ -1109,6 +1180,8 @@ R151 D247
 
 
 L131
+
+
 
 S254
 β4
@@ -1127,12 +1200,16 @@ I249
 
 
 M132
-
 G5
+
 
 F149
 
+
+
 R197
+
+
 
 R197
 β1
@@ -1155,62 +1232,67 @@ K136
 
 K145
 
-RRM2
-RRM1
 
-RRM1
+
 RRM2
 
+
+
+RRM1
+
+
+
+RRM1
+
+
+
+RRM2
 A6
 
-R227
 
+R227
 A7
-of G1, G3 and U4 on RRM1, which provide high-affinity binding. 
-In fact, despite the modest loss in binding affinity observed for F194A 
-(U8) or K192A E261A (G9), we observed 1.8- and 1.5-fold increases 
-in exon 9 inclusion, respectively (Table 2 and Fig. 4b,c), showing that 
-specific RNA recognition by both RRMs is crucial for the splicing 
+
+of G1, G3 and U4 on RRM1, which provide high-affinity binding.
+In fact, despite the modest loss in binding affinity observed for F194A
+(U8) or K192A E261A (G9), we observed 1.8- and 1.5-fold increases
+in exon 9 inclusion, respectively (Table 2 and Fig. 4b,c), showing that
+specific RNA recognition by both RRMs is crucial for the splicing
 activity of TDP-43.
 
-Specific recognition of the central G nucleoside G5 is essential both 
+Specific recognition of the central G nucleoside G5 is essential both
 for high RNA binding affinity and splicing activity of TDP-43 (Fig. 4b).
-
-
 The single mutant F149A and the double mutant D105A S254A,
-which display 15- and 18-fold loss in binding affinity, respectively, 
+which display 15- and 18-fold loss in binding affinity, respectively,
 
-also impair splicing activity and lead to 2.7- 
-and 2.4-fold increases, respectively, in exon 9 
-inclusion (Fig. 4b,c). We observed essentially 
-no splicing repression for these mutants. In 
+also impair splicing activity and lead to 2.7-
+and 2.4-fold increases, respectively, in exon 9
+inclusion (Fig. 4b,c). We observed essentially
+no splicing repression for these mutants. In
 addition, mutation of Arg197, which inter­
-acts with the phosphate group between A6 
-and A7, leads to only a four-fold loss of RNA 
-binding affinity but a large 2.1-fold increase 
-in exon 9 inclusion (Table 2 and Fig. 4b), 
-results suggesting that neutralization of the 
-phosphate charge at the RRM-RRM interface 
+acts with the phosphate group between A6
+and A7, leads to only a four-fold loss of RNA
+binding affinity but a large 2.1-fold increase
+in exon 9 inclusion (Table 2 and Fig. 4b),
+results suggesting that neutralization of the
+phosphate charge at the RRM-RRM interface
 is also required for TDP-43 splicing activity.
 
-
 Our structure also revealed RRM-RRM
-interactions that are induced upon inter­action 
-of TDP-43 RBD with UG-rich RNA and are 
-essential for RNA binding (Fig. 3d). Single 
-and double mutants of TDP-43 targeting the 
+interactions that are induced upon inter­action
+of TDP-43 RBD with UG-rich RNA and are
+essential for RNA binding (Fig. 3d). Single
+and double mutants of TDP-43 targeting the
 hydrophobic contact between Met132 and
-
-
 Ile249 and the salt bridge between Arg151
-and Asp247 show large (1.7- to 2.5-fold, 
-respectively) levels of exon 9 inclusion, thus 
-indicating, again, almost no repression (Fig. 4b,c 
-and Supplementary Table 3). These results 
-also reflect the mutants’ greatly reduced RNA 
-binding affinity (Table 2) and underline the 
-importance of these RRM-RRM contacts 
-induced by RNA binding for TDP-43 ­function 
+and Asp247 show large (1.7- to 2.5-fold,
+respectively) levels of exon 9 inclusion, thus
+indicating, again, almost no repression (Fig. 4b,c
+and Supplementary Table 3). These results
+also reflect the mutants’ greatly reduced RNA
+binding affinity (Table 2) and underline the
+importance of these RRM-RRM contacts
+induced by RNA binding for TDP-43 ­function
 
 Ex 9+
 a
@@ -1226,15 +1308,12 @@ CFTR minigene
 
 b
 
-
-
 3.0
 
 CFTR exon 9 inclusion
 
-
-
 2.5
+
 
 Enhancement of
 2.0
@@ -1245,8 +1324,8 @@ Enhancement of
 
 0.5
 
-
 0
+
 
 F4L
 W113A (G1)
@@ -1256,58 +1335,53 @@ R171A (G3)
 D174A (G3)
 D174A R171A (G3)
 
-
 WT
 
 npg
 © 2013 Nature America, Inc. All rights reserved.
 
-in splicing. In contrast, alanine mutation of Leu139 and Glu200, which 
-are also located in the binding cleft between the RRMs but do not 
-mediate any RRM-RRM interactions, show weaker effects on both 
+in splicing. In contrast, alanine mutation of Leu139 and Glu200, which
+are also located in the binding cleft between the RRMs but do not
+mediate any RRM-RRM interactions, show weaker effects on both
 RNA binding and splicing activity (Table 2 and Fig. 4b).
 
---- In summary, this implies that splicing repression by TDP43 ---
-is defined by three features of the interaction with UG-rich 
-RNA: (i) high RNA binding affinity mainly provided by RRM1, 
-(ii) sequence-specific recognition of UG-repeats encoded by both 
-RRMs and (iii) precise positioning of the two RRMs relative to each 
-other, mediated by the intermolecular contacts to G5, A6 and A7 and 
+In summary, this implies that splicing repression by TDP43
+is defined by three features of the interaction with UG-rich
+RNA: (i) high RNA binding affinity mainly provided by RRM1,
+(ii) sequence-specific recognition of UG-repeats encoded by both
+RRMs and (iii) precise positioning of the two RRMs relative to each
+other, mediated by the intermolecular contacts to G5, A6 and A7 and
 by the induced inter-RRM interactions.
 
 --- DISCUSSION ---
-
-
-
 We determined the solution NMR structure of the TDP-43 tandem
-RRMs in complex with UG-rich RNA and show the molecular details 
+RRMs in complex with UG-rich RNA and show the molecular details
 of target RNA recognition by this human alternative-splicing fac­
-tor. Most RRM proteins contain multiple RRM units separated by 
-short linkers to create a continuous surface for recognition of longer 
-RNA sequences of 8–10 nt with high affinity and specificity33. Our 
+tor. Most RRM proteins contain multiple RRM units separated by
+short linkers to create a continuous surface for recognition of longer
+RNA sequences of 8–10 nt with high affinity and specificity33. Our
 structure shows that the way in which this surface is created and sta­
-bilized is very different in TDP-43 compared to other tandem RRMs. 
-Normally, RNA complexes of common tandem RRMs25–27,29 use the 
-shorter path of the linker from the β4 strand of RRM1 to the β1 
+bilized is very different in TDP-43 compared to other tandem RRMs.
+Normally, RNA complexes of common tandem RRMs25–27,29 use the
+shorter path of the linker from the β4 strand of RRM1 to the β1
 strand of RRM2 (β4β2 type), spanning just two β-strands to posi­
-tion the two RRMs so that RRM2 binds the 5′ side of the RNA and 
-RRM1 binds the 3′ side. However, in the complex of TDP-43 tandem 
-RRMs, the linker takes the longer path (β2β4 type) with the opposite 
-positioning of the RRMs relative to the RNA directionality (Fig. 2d 
-and Supplementary Fig. 3a). This longer linker path allows the linker 
-to extensively participate in interactions with the RNA, RRM1 and 
-RRM2 as well as with the N and C termini of the protein (Fig. 3, 
-Supplementary Fig. 4c,d and Table 1). This alternative arrangement 
-could be important to position the protein termini upon target-RNA 
-binding for interaction with protein partners, such as hnRNP A2, 
+tion the two RRMs so that RRM2 binds the 5′ side of the RNA and
+RRM1 binds the 3′ side. However, in the complex of TDP-43 tandem
+RRMs, the linker takes the longer path (β2β4 type) with the opposite
+positioning of the RRMs relative to the RNA directionality (Fig. 2d
+and Supplementary Fig. 3a). This longer linker path allows the linker
+to extensively participate in interactions with the RNA, RRM1 and
+RRM2 as well as with the N and C termini of the protein (Fig. 3,
+Supplementary Fig. 4c,d and Table 1). This alternative arrangement
+could be important to position the protein termini upon target-RNA
+binding for interaction with protein partners, such as hnRNP A2,
 which are required for splicing regulation by TDP-43 (refs. 20,21).
-
 
 In addition, the way in which RNA binding mediates RRM-RRM
 interaction in TDP-43 is unique among the proteins containing
 
-
 Add-back of si-resistant TDP-43 WT and mutants
+
 
 Size
 (bp)
@@ -1337,32 +1411,38 @@ Ex 9–
 
 Ex 9–
 
-
 WT
+
+
 F4L
+
+
+
 Endogenous
+
+
 
 M132A R151A D174A K176A K192A D105A L139A
 
 
 
 I249A D247A R171A N179A E261A S254A E200A
-
 knockdown
+
 K181A (rrm)
 
 E200A (rrm)
 L139A E200A (rrm)
 
- R151A (rrm)
+R151A (rrm)
 
- D247A (rrm)
+D247A (rrm)
 R151A D247A (rrm)
 
 L139A (rrm)
 
 l249A (rrm)
- M132A l249A (rrm)
+M132A l249A (rrm)
 
 N179A (U4)
 K176A N179A (U4)
@@ -1391,64 +1471,60 @@ S258A (U8)
 
 R197A (A7)
 
-
 Added-back si-resistant wild-type or mutant TDP-43
-tandem RRMs. So far, a fixed positioning between RRMs could be 
-mediated by the RNA itself, as in Sex-lethal25, HuD27 or Nucleolin28, 
-for example. In the case of these tandem RRMs, the RRMs move 
-independently in the free state, and upon binding RNA they adopt a 
+
+tandem RRMs. So far, a fixed positioning between RRMs could be
+mediated by the RNA itself, as in Sex-lethal25, HuD27 or Nucleolin28,
+for example. In the case of these tandem RRMs, the RRMs move
+independently in the free state, and upon binding RNA they adopt a
 fixed position relative to one another (Supplementary Fig. 3a). The
-
-
 RNA acts as glue between the two RRMs, but very few inter-RRM
-interactions are found in these complexes. The other extreme case 
-is represented by PABP26, in which the RRMs already interact with 
-each other in the free state through a large interdomain interface, 
+interactions are found in these complexes. The other extreme case
+is represented by PABP26, in which the RRMs already interact with
+each other in the free state through a large interdomain interface,
 and the RNA lies on this extended, preformed RNA-binding plat­
 form (Supplementary Fig. 3a). In the TDP-43–RNA complex, how­
-ever, both extensive, direct inter-RRM interactions and interactions 
-mediated by the RNA (G5, A6 and A7) are present (Supplementary 
-Fig. 3a). Also unique is the requirement for interactions with both 
-RRMs in G5 sequence-specific recognition. Thus, in TDP-43 the 
-arrangement of the RRMs with respect to one another is dictated by 
+ever, both extensive, direct inter-RRM interactions and interactions
+mediated by the RNA (G5, A6 and A7) are present (Supplementary
+Fig. 3a). Also unique is the requirement for interactions with both
+RRMs in G5 sequence-specific recognition. Thus, in TDP-43 the
+arrangement of the RRMs with respect to one another is dictated by
 sequence-specific recognition of G5. This fixing of the relative ori­
-entation of the RRMs is clearly important for splicing activity in vivo, 
-because mutations affecting the inter-RRM interface or the contact to 
-G5 or A7 have a disproportionately strong effect on exon 9 inclusion. 
+entation of the RRMs is clearly important for splicing activity in vivo,
+because mutations affecting the inter-RRM interface or the contact to
+G5 or A7 have a disproportionately strong effect on exon 9 inclusion.
 These observations suggest that splicing activity may be regulated in
-
-
 TDP-43 because the RRM-RRM interactions induced by binding of
-the central residues are necessary for the correct positioning of RRMs 
-and RNA and potentially for binding of additional protein partners 
+the central residues are necessary for the correct positioning of RRMs
+and RNA and potentially for binding of additional protein partners
 in the splicing reaction.
 
-The structure of the complex reveals that a consensus sequence 
-(5′-GNGUGNNUGN-3′) is recognized by TDP-43 for high sequence 
+The structure of the complex reveals that a consensus sequence
+(5′-GNGUGNNUGN-3′) is recognized by TDP-43 for high sequence
 specificity and binding affinity (Supplementary Note). This con­
-sensus motif can now explain the identification of TDP-43 RNAbinding sites that do not match the motif of long continuous UG 
-repeats. This degenerate RNA-recognition consensus sequence of 
-TDP-43 clearly contrasts with other tandem RRMs that create high 
-affinity and specificity through the continuous recognition of 6–9 nt 
+sensus motif can now explain the identification of TDP-43 RNAbinding sites that do not match the motif of long continuous UG
+repeats. This degenerate RNA-recognition consensus sequence of
+TDP-43 clearly contrasts with other tandem RRMs that create high
+affinity and specificity through the continuous recognition of 6–9 nt
 (refs. 25–27,29).
 
-Our combined structural, biophysical and functional investigations 
-of TDP-43 binding to UG-rich RNA also suggest a strong correlation 
-between binding affinity and inhibitory splicing function for interaction 
+Our combined structural, biophysical and functional investigations
+of TDP-43 binding to UG-rich RNA also suggest a strong correlation
+between binding affinity and inhibitory splicing function for interaction
 
-mediated by RRM1 but not RRM2. In isolation, the second RRM, 
-as compared to RRM1, was previously shown to bind UG-rich RNA 
-weakly, and we show that alanine mutation in the recognition sites 
+mediated by RRM1 but not RRM2. In isolation, the second RRM,
+as compared to RRM1, was previously shown to bind UG-rich RNA
+weakly, and we show that alanine mutation in the recognition sites
 on RRM2 has only little impact on the overall RNA binding affin­
-ity of TDP-43. Nevertheless, both RRM1 and RRM2 interactions are 
-nucleotide specific for UG repeats and thus contribute to TDP-43 
-splicing function. The possible role of RRM2 could be to help direct 
+ity of TDP-43. Nevertheless, both RRM1 and RRM2 interactions are
+nucleotide specific for UG repeats and thus contribute to TDP-43
+splicing function. The possible role of RRM2 could be to help direct
 the path of bound UG-rich RNA for productive TDP-43 dimeriza­
-tion on pre-mRNA target sites. This in turn, together with reversed 
+tion on pre-mRNA target sites. This in turn, together with reversed
 directionality of RNA binding, could be essential for properly direct­
-ing the recruitment of other less sequence-specific splicing factors, 
+ing the recruitment of other less sequence-specific splicing factors,
 such as hnRNP A2, to their target sites on the pre-mRNA to coordi­
-nate alternative splicing. Finally, our structural insights also lay the 
-foundation for future investigations of the other multiple biological 
-functions of TDP-43 in RNA metabolism and how their loss can lead 
+nate alternative splicing. Finally, our structural insights also lay the
+foundation for future investigations of the other multiple biological
+functions of TDP-43 in RNA metabolism and how their loss can lead
 to neurodegeneration.

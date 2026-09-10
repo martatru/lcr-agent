@@ -18,9 +18,6 @@ unphosphorylated state and released for elongation
 following phosphorylation of the CTD.
 
 --- RESULTS ---
-
-
-
 The FUS LC domain contains 27 repeats of the triplet sequence
 [G/S]Y[G/S], and derivatives carrying 5, 9, 15, and 27 tyrosine-toserine mutations in randomly chosen triplets showed progressively diminished capabilities of polymerization and stress
 granule recruitment (Kato et al., 2012). In order to initiate studies
@@ -114,7 +111,6 @@ list of precipitated proteins to contain multiple subunits of the
 mediator complex, and a number of gene-specific transcription factors endowed with glutamine- and asparagine-rich,
 low-complexity sequences.
 
-
 With respect to nuclear proteins precipitated by the b-isox
 chemical, our initial focus fell on TAF15 and the largest subunit
 of RNA polymerase II. Among the 580 mammalian proteins
@@ -127,8 +123,6 @@ spectral counts (Table S3).
 
 TAF15 represents the third paralog of the FET family of RNAbinding proteins and is endowed with an N-terminal LC domain
 very similar to the LC domains found in FUS and EWS. Unlike
-
-
 FUS and EWS, TAF15 has been identified as a substoichometric
 component of the TFIID complex, which has been extensively
 characterized as an important assembly in transcriptional initiation by RNA polymerase II (Bertolotti et al., 1999). Attention to
@@ -151,9 +145,6 @@ the LC domain of FUS (Kato et al., 2012).
 
 
 Phosphorylation of the CTD Blocks B-isox Precipitation
-
-
-
 Using antibodies specific to either the unphosphorylated form
 of the CTD of RNA polymerase II (8WG16), or antibodies to S2
 phosphorylation (3E10), S5 phosphorylation (3E8), or S7 phosphorylation (4E12) (Chapman et al., 2007), we observed that
@@ -163,8 +154,6 @@ selective precipitation of only the unphosphorylated form of the
 largest subunit of RNA polymerase II (Figure S1A available
 online). We tentatively hypothesize that the CTD is the determinant of the largest subunit of RNA polymerase II that facilitates
 b-isox precipitation, and that phosphorylation on residues S2,
-
-
 S5 or S7 somehow impedes the ability of the CTD to fit within
 the 4.7 A ̊ surface troughs of b-isox microcrystals.
 
@@ -203,15 +192,11 @@ FUS and EWS hydrogels.
 
 GFP:CTD binding to TAF15 hydrogel droplets was extended
 in two ways. First, we compared the binding properties of two
-
-
 GFP test proteins, one containing 20 heptad repeats from the
 highly conserved, N-terminal half of the CTD (repeats 1-20 =
 GFP:CTDN20) and another containing 20 heptad repeats from
 the degenerate C-terminal half of the CTD (repeats 33-52 =
 GFP:CTDC20). As shown in Figure 3B, the GFP test protein appended to the 20 degenerate CTD repeats, GFP:CTDC20, bound
-
-
 TAF15 considerably more avidly than the counterpart fusion
 containing the 20 conserved CTD repeats (GFP:CTDN20). Second, we compared hydrogel trapping for fusion proteins containing 5, 10, 15, 20, or all 26 of the degenerate CTD repeats
 
@@ -223,7 +208,6 @@ droplets was observed for the fusion protein containing only
 5 heptad repeats, intermediate trapping was observed for the
 fusion containing 10 heptad repeats, and equivalent trapping
 was observed for fusions containing 15, 20, or 26 repeats.
-
 
 When evaluating the kinetics of binding of the various
 GFP:CTD constructs to hydrogel droplets composed of mCherry
@@ -238,8 +222,6 @@ fibrous preparations of mCherry:TAF15. As soon as the mixture
 of the two protein samples could be applied to the microscope
 substrate, clear evidence of GFP signal could be seen to coat
 the entire length of mCherry:TAF15 polymeric fibers (Figure S2).
-
-
 Instead of slow, time-dependent copolymerization extending
 from either end of existing fibers, the GFP:CTDC26 protein rapidly
 bound to the lateral surface of mCherry:TAF15 fibers. These
@@ -313,10 +295,10 @@ worthy of close attention with respect to the ability of the LC domains of FET p
 
 
 DNA-Mediated Enhancement of FET Protein
+
+
+
 Polymerization
-
-
-
 The test tube polymerization of the LC sequences associated
 with FET proteins is only observed at high concentrations
 (Kato et al., 2012). One means by which appropriately high concentrations necessary for polymerization could take place in
@@ -383,20 +365,14 @@ the 1F, 2H, and 3K mutants, all of which were among the most
 debilitated variants within their respective classes. All of the tyrosine residues altered in these particularly deleterious mutants
 localized to the first 80 residues of the TAF15 LC domain that,
 on its own, is capable of fiberization and hydrogel formation.
-
-
 The 1F mutant changes tyrosine 46 to serine, the 2H mutant
 changes tyrosines 38 and 56 to serine, and 3K changes tyrosines
 17, 46, and 63 to serine (Table S4).
-
-
 The TAF15 LC domains of these variants were linked to
 mCherry and compared to the wild-type LC domain with respect
 to hydrogel formation, fiberization, and CTD interaction. None of
 the mutants formed hydrogels when incubated under standard
 conditions (Movie S2). When incubated under conditions favorable for fiberization, the mCherry variant linked to the wild-type
-
-
 LC domain of TAF15, as visualized by fluorescence microscopy,
 formed obvious tangles of aggregated fibers. Almost no polymerization was observed for the 1F, 2H, and 3K mutants. Inspection
 of the rare occurrence of visible mCherry aggregates in the latter
@@ -416,38 +392,23 @@ Schematic Concept of RNA Polymerase Recruitment by
 
 
 LC Domain Polymers
-
-
-
 Cancer cells expressing the translocation product wherein the
-
-
-
 LC domain of EWS is linked to the ETS DNA-binding domain of
-
-
 
 FLI depend upon this fusion protein to drive cell growth or
 survival. The EWS:FLI translocation product is undoubtedly
 employed as an aberrant transcription factor required to reprogram gene expression in a manner beneficial to cancer cells.
-
-
 We hypothesize that upon binding to the relevant sites on
 DNA, including microsatellites bearing iterative repeats of the
 tetranucleotide sequence GGAA, the EWS:FLI fusion protein
 can polymerize via its LC domains. As depicted schematically
 in (D) of Figure 7, we further hypothesize that fibrous polymers
 of the LC domain create binding sites for the CTD of RNA polymerase. Finally, we predict that phosphorylation of the CTD by
-
-
 CDK7, CDK9, or a related protein kinase enzyme facilitates
 release of the polymer-bound RNA polymerase so that it can
 escape gene promoters and enter into the process of transcriptional elongation.
 
 --- DISCUSSION ---
-
-
-
 Here, we report evidence that the LC domains of FET proteins
 may require polymerization as a means of directly capturing the
 CTD of RNA polymerase II. If correct, these data lend credence
@@ -472,7 +433,6 @@ the LC domains of FET proteins must be capable of polymerization (Figure 7). Whe
 mainstay assay are composed of long fiberous polymers containing thousands of subunits, we have no idea as to how many subunits must polymerize as a ‘‘point source’’ to recruit the CTD of
 RNA polymerase. It is entirely possible that fiberous seeds
 composed of only a handful of LC domain subunits might be sufficient to nucleate functionally competent organizational puncta.
-
 
 Evidence that the LC domains of FET proteins are able to
 interact with the CTD of RNA polymerase II is consistent with
@@ -510,17 +470,15 @@ focused on the isolated parts of FET proteins that are translocated in cancer on
 proteins bind DNA, polymerize locally
 via
 their
-
-
 LC
 domains,
 and
 thereby
 achieve the fibrous organizational state
 required to bind the CTD of RNA polymerase
+
+
 II.
-
-
 How,
 instead,
 might
@@ -541,8 +499,6 @@ as
 ‘‘RNA enhancers,’’ (Kim et al., 2010;
 Lam et al., 2013; Li et al., 2013; Wang
 et al., 2011) achieving the goal of bringing
-
-
 FET proteins into the proximity of target
 genes at locally elevated protein concentrations adequate to facilitate LC domain
 polymerization necessary for the recruitment of RNA polymerase II.
@@ -561,20 +517,14 @@ behavior of LC derived polymers.
 
 We close with three perplexing observations. First, why do
 polymeric fibers formed from the LC domain of TAF15 bind the
-
-
 CTD so much more avidly than the analogous LC domains of
 FUS and EWS (Figure 3A)? Second, why is it that mutations of
 
 two tyrosines in the LC domain of FUS yield a protein with
 enhanced transcriptional activation capacity and an enhanced
 ability to bind the CTD of RNA polymerase II (Figures 1 and 5)?
-
-
 Third, why do the degenerate CTD repeats bind the polymeric
 fibers of FET LC domains better than the consensus repeats (Figure 3B)? Since TAF15 was discovered as a component of the
-
-
 TFIID complex, one might imagine that its function has become
 more proximally evolved to the transcription initiation process
 than FUS or EWS, thus consistent with constitutive, avid affinity
@@ -609,8 +559,6 @@ distant evolutionary relative bearing the degenerate repeats,
 
 teleost fish from which humans diverged 450 million years ago, it
 is notable that the pattern of degeneracy is nearly identical.
-
-
 Briefly put, the degenerate changes installed nearly one half
 billion years ago have been perfectly conserved. The most
 notable difference between the degenerate and consensus

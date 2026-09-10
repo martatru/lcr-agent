@@ -4,8 +4,6 @@ however, the mechanism of co-transcriptional m6A-
 dependent alternative splicing regulation is still poorly
 understood. Heterogeneous nuclear ribonucleoprotein G (hnRNPG) is an m6A reader protein that binds
 RNA through RRM and Arg-Gly-Gly (RGG) motifs.
-
-
 Here, we show that hnRNPG directly binds to the
 phosphorylated carboxy-terminal domain (CTD) of
 RNA polymerase II (RNAPII) using RGG motifs in its
@@ -18,12 +16,8 @@ an m6A reader protein uses RGG motifs to co-transcriptionally interact with both
 modified nascent pre-mRNA to modulate RNAPII
 occupancy and alternative splicing.
 
---- RESULTS
-
-hnRNPG Interacts with RNA Polymerase II In Vivo ---
-
-
-
+--- RESULTS ---
+hnRNPG Interacts with RNA Polymerase II In Vivo
 RNAPII co-immunoprecipitated with hnRNPG from whole cell
 or chromatin extracts of human embryonic kidney (HEK) 293T
 cells (Figure 1A). This co-immunoprecipitation decreased with
@@ -38,8 +32,6 @@ camptothecin increases, occupancy of transcribing RNAPII on
 chromatin (Borsos et al., 2017; Ljungman and Hanawalt, 1996;
 Sordet et al., 2008). Thus, hnRNPG likely interacts with transcribing, chromatin-bound RNAPII. Consistent with this result,
 inhibiting RNAPII transcription with a-amanitin or actinomycin
-
-
 D altered the localization of hnRNPG from small nucleoplasmic
 granules to dense nuclear clusters (Figure S1°C). Our chromatin
 preparation was treated with micrococcal nuclease, which
@@ -50,14 +42,12 @@ is mediated through protein-protein interactions rather than
 through RNA. Our result is supported by an RNAPII CTD interactome study, which showed enrichment of hnRNPG with immunoprecipitation of S2P or S5P RNAPII (Nojima et al., 2018).
 
 We examined the roles of different regions of hnRNPG in interacting with RNAPII. The hnRNPG protein consists of an RNA
-recognition motif (RRM) and a 300-amino acid low-complexity
+recognition motif (RRM) and a 300-amino acid low-complexity
 sequence including two regions containing RGG motifs (RGG1
 and RGG2). We introduced point mutations in the RRM, RGG1,
 or RGG2 region of hnRNPG to generate the mutants RRMmut,
 RGG1mut, and RGG2mut (Figure S1D), knocked down endogenous hnRNPG, and overexpressed FLAG-tagged forms of either
 wild type or mutant hnRNPG. Mutations in the RRM, RGG1, or
-
-
 RGG2 region decreased co-immunoprecipitation of RNAPII
 with hnRNPG (Figure 1E). The mutations in RRMmut are known
 to abolish RNA binding by the RRM region of hnRNPG (Moursy
@@ -93,19 +83,15 @@ full-length hnRNPG protein (Figure S2B). Phosphorylated GSTCTD (GST-pCTD) was pr
 CDK9 prior to the pull-down. Only the phosphorylated forms of
 GST-CTD were able to pull down hnRNPG (Figure 2A). Furthermore, pre-binding hnRNPG to a known RNA ligand, an A-
 or m6A-containing 34-nt hairpin from the long noncoding
-
-
 RNA metastasis-associated lung adenocarcinoma transcript 1
 (MALAT1) (Liu et al., 2017), did not influence the pull-down
 of hnRNPG by GST-pCTD (Figure 2B). This result suggests
 that hnRNPG can simultaneously interact with RNA and pCTD.
 hnRNPG self-assembled in vitro, forming large assemblies with
-a radius of 27 nm, with a slight increase in size in the presence
+a radius of 27 nm, with a slight increase in size in the presence
 of the MALAT1 RNA hairpin (Figure S2°C). hnRNPG also formed
 large complexes on surface plasmon resonance (SPR) chips
 with immobilized
-
-
 MALAT1 RNA hairpin,
 evidenced
 by a
@@ -128,35 +114,23 @@ to measure hnRNPG binding to pCTD. Both GST-CTD and
 GST-pCTD were soluble on their own (Figure S2F), but in the
 presence of hnRNPG, GST-pCTD co-precipitated with hnRNPG
 while unphosphorylated GST-CTD remained soluble (Figure 2D).
-
-
 The addition of MALAT1 RNA hairpin increased the fraction of
 hnRNPG found in the pellet but did not affect the co-precipitation
 of GST-pCTD (Figure 2D). These results validate that hnRNPG
 has much higher affinity for phosphorylated than for unphosphorylated CTD, and pCTD binding is unaffected by RNA
 binding.
 
-
 The RRM, RGG1, and RGG2 Regions Mediate hnRNPG
-
-
-
 Binding to RNA and pCTD
 To examine the effect of three functional domains in hnRNPG on
-
-
 RNA and CTD binding, we purified hnRNPG with mutations in the
 RRM, RGG1, or RGG2 region (Figures S1D and S2B). hnRNPG
 assembly size was not affected by mutations in RRM or RGG1
 but slightly increased with mutations in the RGG2 region (Figure S2G). We used limited proteolysis to study hnRNPG binding
 to RNAs with distinct structures and lengths (Figure S2H).
 hnRNPG with or without equimolar RNA was treated with proteinase K, and its degradation was tracked over time (Figure 2E).
-
-
 Consistent with the preferential binding of hnRNPG to m6A-
 containing MALAT1 RNA hairpin (Liu et al., 2017), both MALAT1
-
-
 RNAs protected hnRNPG from proteolysis, but the m6A-
 containing RNA had a more protective effect. This protection
 
@@ -170,7 +144,6 @@ is bound by the RRM of hnRNPG (Moursy et al., 2014), but markedly blunted the pr
 bind the RGG2 region (Kanhoush et al., 2010). These results suggest that hnRNPG can bind both unstructured and structured
 RNA, with different roles for the RRM, RGG1 and RGG2 regions.
 
-
 To examine the effect of domain mutations on RNAPII CTD
 binding, we first applied the GST-CTD pull-down assay at
 0.5 M NaCl where the hnRNPG protein remained soluble (Figure S2I). Mutations in RRM reduced but did not abolish the interaction of hnRNPG with GST-CTD, whereas mutations in RGG1
@@ -180,30 +153,20 @@ mutant hnRNPG proteins (Figures 2F, S2J, and S2K). Mutations
 in RGG1 or RGG2, but not in RRM, reduced pelleting of hnRNPG
 
 compared to wild type. The RRM and RGG2 mutants, but not
-
-
 RGG1 mutant, could bind GST-pCTD in the absence of RNA
 (Figures S2J and S2K). On addition of MALAT1 RNA hairpin,
-
-
 RRM mutant remained capable of pCTD binding, but RGG2
 mutant binding to pCTD was severely diminished (Figure 2F).
-
---- In summary, we have used several independent in vitro assays ---
+In summary, we have used several independent in vitro assays
 to show that hnRNPG can simultaneously bind RNA and
 RNAPII pCTD. The RRM and two RGG regions all function in
 RNA binding, while the RGG regions are required for the direct
 interaction of hnRNPG with pCTD.
 
-
 The RRM, RGG1, and RGG2 Regions of hnRNPG Affect
 
 
-
 Transcript Abundance
-
-
-
 To examine the effect of the RRM, RGG1, and RGG2 regions on
 the cellular function of hnRNPG, we knocked down endogenous
 hnRNPG and overexpressed either negative control vector coding only for a FLAG tag (NCV), wild type FLAG-hnRNPG (WT), or
@@ -214,23 +177,17 @@ and S3A). We conducted mRNA sequencing (mRNA-seq) to
 detect changes in transcript abundance relative to wild type
 (Table S1), and we validated these changes by real-time qPCR
 (Figures S3B and S3°C). Relative to cells expressing wild type
-
-
 FLAG-hnRNPG, 1,258 genes were differentially expressed in
 NCV, and 300–800 genes were differentially expressed for
 each hnRNPG mutant (Figure 3A). Changes in transcript abundance were correlated among the three mutants and NCV (Figures 3B and S3D), indicating that the RRM, RGG1, and RGG2
 regions all contribute to the regulation of transcript abundance,
 and mutations in these regions led to partial loss-of-function.
-
-
 Differentially expressed genes were enriched for functions in
 developmental processes (Figure 3°C), consistent with known
 functions of hnRNPG in development (Dichmann et al., 2008;
 Tsend-Ayush et al., 2005).
 
-
 The RRM, RGG1, and RGG2 Regions of hnRNPG
-
 
 
 Function in Alternative Splicing Regulation
@@ -284,8 +241,6 @@ exons, but this enrichment was more pronounced in hnRNPGregulated exons (Figure 
 We also analyzed our mRNA-seq data (Table S1) for changes
 in exon splicing in cells expressing NCV, RRMmut, RGG1mut, or
 RGG2mut relative to cells expressing wild type hnRNPG (WT).
-
-
 We found thousands of differentially expressed exons for each
 mutant and NCV (Figures 5A–5°C), which were validated by
 RT-PCR (Figure S5A). Mutations in RGG1 affected fewer exons
@@ -296,16 +251,12 @@ expression were correlated among cells expressing NCV and the
 three hnRNPG mutants (Figures 5D and S5B). The correlation
 between RRMmut and RGG2mut was much stronger than the
 correlation of either mutant with RGG1mut, possibly due to overlapping functions of RRM and RGG2 in nascent RNA binding.
-
-
 Genes containing exons regulated by NCV, RRMmut, and
-
-
 
 RGG1mut were enriched for biological processes in metabolism
 and development (Figure S5°C). Unexpectedly, more exons were
 downregulated in cells expressing the RRM and RRG2 mutants
-(4,500) than in cells expressing NCV (1,300) (Figure 5A).
+( 4,500) than in cells expressing NCV ( 1,300) (Figure 5A).
 Because RRM and RGG2 mutations decrease RNA binding (Figure 2E), this result is unlikely from off-target binding and more
 likely from a dominant negative effect in which RRM and RGG2
 mutants lose RNA binding but still associate with pCTD to block
@@ -315,12 +266,7 @@ splicing because the CTD retains its interactions with other
 proteins.
 
 m6A Site Position in the Regulation of Alternative
-
-
 Splicing by hnRNPG
-
-
-
 To further study the roles of RRM, RGG1, and RGG2 in the m6A-
 dependent regulation of alternative splicing by hnRNPG, we
 examined the pattern of hnRNPG-bound m6A sites around the
@@ -341,17 +287,12 @@ and RGG2 mutation was the reduction of the density of the
 hnRNPG-bound m6A sites at downregulated exons, consistent
 with the observed reduction in exon inclusion for these two
 mutants (Figure 5B). These results suggest that RRM and
-
-
 RGG2 regions of hnRNPG have overlapping functions in nascent
 RNA binding and regulation of exon inclusion.
-
 
 A role for RGG2 in m6A-dependent splicing regulation would
 be consistent with the function of this region in the preferential
 binding of m6A-modified RNAs by hnRNPG (Liu et al., 2017).
-
-
 Genes containing RGG2mut-regulated exons were enriched
 in metabolic functions (Figure S6A), similar to exons co-regulated by hnRNPG and m6A methyltransferase (Figure 4°C),
 and in functions in nervous system development, consistent
@@ -363,8 +304,6 @@ decreased proliferation compared to cells expressing wild
 type hnRNPG (Figure S6B).
 
 m6A-Mediated Regulation of RNAPII Occupancy and
-
-
 Alternative Splicing by hnRNPG
 RNAPII dwell time in transcription elongation can influence exon
 usage by enhancing or blocking recognition of a splice site by
@@ -377,8 +316,6 @@ of RNAPII densities (Egan et al., 2016). After normalization to
 the spiked-in Drosophila chromatin, the overall RNAPII ChIPseq density across all gene regions decreased upon hnRNPG
 knockdown (Figure S7°C). To identify the effects of hnRNPG on
 splicing, we focused our next analysis on regions of hnRNPGdependent alternative splicing regulation. The total, S2P, and
-
-
 S5P RNAPII densities were analyzed separately for exons that
 are
 co-downregulated,
@@ -386,7 +323,7 @@ co-upregulated,
 and
 non-regulated
 upon hnRNPG or METTL3/14 knockdown. In the control samples, the densities of total, S2P, and S5P RNAPII were much
-higher for co-downregulated than for co-upregulated or nonregulated exons, with a peak in RNAPII density 80 nt downstream of the 30 splice site (Figures 7A–7°C). Moreover, hnRNPG
+higher for co-downregulated than for co-upregulated or nonregulated exons, with a peak in RNAPII density 80 nt downstream of the 30 splice site (Figures 7A–7°C). Moreover, hnRNPG
 
 by paired t test between curves for down- versus
 upregulated exons.
@@ -398,9 +335,9 @@ curves
 from
 (A)
 for
-
-
 RRMmut,
+
+
 RGG1mut, and RGG2mut.
 (C) Same as (A) but using hnRNPG binding sites
 from chromatin-associated PAR-CLIP data.
@@ -410,15 +347,11 @@ knockdown significantly reduced RNAPII
 density near the splice sites of co-downregulated exons (Figures 7A–7°C). These
 results support an association between
 RNAPII occupancy and hnRNPG-mediated regulation of exon inclusion. The
-
-
 RNAPII density for co-upregulated exons
 was similar to that for non-regulated
 exons in magnitude and shape, suggesting that hnRNPG dependent regulation of
 exon exclusion is at best only weakly
 associated with RNAPII occupancy.
-
-
 We propose a model in which hnRNPG assemblies interact
 co-transcriptionally with both the m6A sites in nascent mRNA
 and the CTD of transcribing RNAPII to regulate exon inclusion
@@ -434,42 +367,31 @@ RNAPII transcribes through the exon-intron junction; m6A is
 installed; hnRNPG binds to the m6A site, which is kinetically
 favored through its association with RNAPII CTD; RNAPII then
 dwells longer near the exon-intron junction; and increased
-
-
 RNAPII dwell time increases splice site utilization, perhaps
 through recruitment of spliceosomal components or splicing
 factors.
 
 --- DISCUSSION ---
-
-
-
 In this study, we showed that the RNA-binding protein hnRNPG
 uses RGG regions to directly interact with the phosphorylated
 CTD of RNAPII. hnRNPG binding to RNA and the RNAPII CTD
 can occur simultaneously, likely by assembly of hnRNPG into
 large complexes. In cells, the RRM, RGG1, and RGG2 regions
 of hnRNPG functioned in the regulation of alternative splicing.
-
-
 We further found that hnRNPG-bound m6A sites near the splice
+
 sites of regulated exons were associated with increased RNAPII
 occupancy and exon inclusion. Our results support a model in
 which hnRNPG assemblies interact co-transcriptionally with
 nascent RNA and the RNAPII CTD, while m6A sites in nascent
-
-
 RNA promote hnRNPG binding to modulate RNAPII occupancy
 and alternative splicing.
-
 
 One possible mechanism for hnRNPG- and m6A-dependent
 alternative splicing regulation is through RNAPII pausing to provide an appropriate time window and spatial resolution to recruit
 splicing factors. RNAPII pausing during transcription elongation
 can be modulated by RNA sequence and structure, chromatin
 state, and RNA-protein interactions (Mayer et al., 2017).
-
-
 Although RNAPII density by ChIP-seq could reflect RNAPII
 pausing, ChIP-seq has limited resolution (100–200 nt) and
 cannot distinguish between RNAPII pausing and other etiologies
@@ -497,20 +419,15 @@ mammalian mRNA-binding proteins (Gerstberger et al., 2014),
 our findings suggest that many other RNA-binding proteins
 might regulate pre-mRNA processing by interacting directly
 with the RNAPII CTD through their RGG regions. Moreover,
-
-
 RGG motifs are commonly found in low-complexity regions, so
 a direct interaction between RGG motifs and the CTD could
 also have implications for low-complexity region assembly.
-
-
 The CTD is known to interact with low-complexity regions of
 several RNA-binding proteins, and these interactions have
 proposed functions in transcriptional regulation (Harlen and
 Churchman, 2017; Hnisz et al., 2017). hnRNPG forms a distinct
 interaction with the RNAPII CTD for co-transcriptional splicing
 regulation.
-
 
 The abundant m6A modification in mRNA has been implicated
 in alternative splicing regulation. Most m6A modifications are
@@ -522,9 +439,8 @@ splicing. Because alternative splicing regulation by RNA-binding
 proteins depends on their binding site positions (Fu and Ares,
 2014), m6A site positions, which determine m6A reader protein
 binding sites, likely also influence alternative splicing regulation.
-
-
 We found that hnRNPG-regulated exons were associated with
+
 specific patterns of hnRNPG-bound m6A sites and RNAPII occupancy, supporting a model in which hnRNPG binds m6A sites
 near target exons and modulates RNAPII occupancy to promote
 exon inclusion. The regulation of alternative splicing involves a
@@ -533,87 +449,5 @@ and Ares, 2014). We have shown that a cis-acting RNA modification, m6A, modulate
 hnRNPG by recruiting hnRNPG to specific sites, while a transacting protein, hnRNPG, interacts with the transcription machinery and co-transcriptionally modulates RNAPII occupancy to
 regulate alternative splicing. The m6A-dependent regulation of
 alternative splicing by hnRNPG demonstrates how the RNAPII
-
-
 CTD, RGG regions, and m6A act together to modulate the
 co-transcriptional regulation of alternative splicing by a lowcomplexity m6A reader protein.
-
-STAR+METHODS
-
-Detailed methods are provided in the online version of this paper
-and include the following:
-
-d KEY RESOURCES TABLE
-
-d LEAD CONTACT AND MATERIALS AVAILABILITY
-
-d EXPERIMENTAL MODEL AND SUBJECT DETAILS
-
-d METHOD DETAILS
-
-
-B Cloning and purification of hnRNPG
-
-B Immunofluorescence
-
-
-
-B Preparation of cell extracts
-
-B Immunoprecipitation
-B GST–CTD pull-down
-
-
-B Western blotting
-
-B Cell proliferation
-
-B Oligonucleotides
-
-
-
-B Surface plasmon resonance
-
-B Limited proteolysis
-
-
-
-B Dynamic light scattering
-
-
-
-B HnRNPG spin-down assay for RNA binding
-
-
-
-B HnRNPG spin-down assay for CTD binding
-
-B mRNA sequencing
-
-
-
-B Chromatin PAR-CLIP
-
-B ChIP-seq
-B RT–qPCR and RT–PCR
-
-d QUANTIFICATION AND STATISTICAL ANALYSIS
-
-
-B Western blot quantification
-
-B Gel quantification
-
-
-
-B mRNA sequencing analysis
-
-
-
-B Analysis of hnRNPG-bound m6A site distribution
-
-
-
-B ChIP-seq data Analysis
-
-d DATA AND CODE AVAILABILITY

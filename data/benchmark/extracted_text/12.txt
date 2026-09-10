@@ -5,8 +5,9 @@ residues 181–341 of full-length hnRNPA2. Only 13 out of the
 20 standard amino acids are present in hnRNPA2-LC, with Asn,
 Gly, Ser, and Tyr residues making up 74% of the sequence. The
 complete amino acid composition is listed in SI Appendix,
-Table S1.
 
+
+Table S1.
 Fig. 1B and SI Appendix, Fig. S2 illustrate the segmental isotopic labeling scheme used in the solid-state NMR experiments
 presented below, which results in 15N and 13°C labeling of residues 280–341, with a single Gly-to-Cys substitution at residue
 280. The hnRNPA2 LC domain is expressed in two parts and
@@ -25,8 +26,6 @@ and mCherry tags and is referred to as mCherry-hnRNPA2-LC
 throughout the remainder of this paper.
 
 SI Appendix, Fig. S3A shows a hydrogel binding assay for
-
-
 N- and C-terminal truncated hnRNPA2-LC tagged with GFP,
 which reports on the ability of the hnRNPA2-LC protein to
 self-associate. Residues 181–260 do not bind to hydrogels of the
@@ -45,15 +44,18 @@ and the His-tagged FUS LC domain (14). SI Appendix, Fig. S3°C and D show thiofl
 Both polymers exhibit increased fluorescence at ∼500 nm, a
 common property of cross-β structures.
 
-
 A
 
 B
 
-BIOCHEMISTRY
-BIOPHYSICS AND
 
+BIOCHEMISTRY
+
+
+
+BIOPHYSICS AND
 C
+
 
 COMPUTATIONAL BIOLOGY
 
@@ -83,24 +85,17 @@ for a 15N-13°C bond length of 0.13 nm. The observed decay of
 S1/S0 to 0.2 instead of 0.0 is attributable to incomplete 1H
 decoupling during the fs-REDOR mixing period (15).
 
-
 Since segmentally labeled mCherry-hnRNPA2-LC contains
 only two 13°C-labeled carboxylate carbons, the signals at 180.9 ppm
 and 184.2 ppm can be assigned to Cγ of D290 and CO of Y341.
 The fact that both signals appear in Fig. 2A indicates that both
-
-
 D290 and Y341 are sufficiently immobilized in the polymers to
 permit efficient 1H-13°C cross-polarization (CP), driven by 1H-13°C
 magnetic dipole–dipole couplings (19, 20). Thus, D290 is contained within an immobilized, structurally ordered segment of the
-
-
 LC domain of hnRNPA2, as also indicated by previous NAI
 footprinting data (11). The decays of both carboxylate signals in
 Fig. 2B suggest 15N-13°C distances greater than 0.3 nm, indicating
 that these sites do not have directly bonded
-
-
 15N atoms, as
 expected.
 
@@ -114,9 +109,9 @@ for
 D290 and Y341 are 0.27–0.38 and 0.24 nm, respectively. The
 absence of quantitative agreement between experimental and
 
-
 A
 B
+
 simulated decays for the carboxylate signals is attributable to
 motions of the D290 side chain and/or motions of the C terminus
 that partially average the 15N-13°C couplings to smaller values,
@@ -152,8 +147,6 @@ The aliphatic-to-aliphatic cross-peak region of the 2D 13°C-13°C
 DARR spectrum in Fig. 3B shows signals from most of the
 amino acid types present in the isotopically labeled segment of
 the mCherry-hnRNPA2-LC polymers (SI Appendix, Table S1).
-
-
 The spectrum does not allow for individual resonances to be
 resolved. However, based on the distributions of experimentally
 observed NMR chemical shifts (17), Cα-Cβ cross-peaks of Ser,
@@ -166,7 +159,6 @@ Note that 13°C NMR signals in Fig. 2A arise from magnetization transfers involv
 weaker 15N-13°C and 13°C-13°C couplings. Thus, signals in Fig. 3°C
 are more sensitive to molecular motions with limited amplitudes, explaining the absence of signals from Y341 in Fig. 3°C.
 
-
 A
 B
 
@@ -175,6 +167,7 @@ D
 
 E
 F
+
 shifts of their directly bonded Cδ carbons. There is no evidence of
 a cross-peak at 184.2 ppm in Fig. 3E, in agreement with this site’s
 being the C terminus of the protein.
@@ -195,6 +188,9 @@ obtain additional site-specific assignments of 13°C and 15N chemical
 
 
 BIOCHEMISTRY
+
+
+
 BIOPHYSICS AND
 shifts, 3D NCACX, NCOCX, and CONCA spectra of the segmentally labeled polymers were recorded (SI Appendix, Fig. S5).
 Signals were observed from 37, 38, and 42 residues in the NCACX,
@@ -208,8 +204,6 @@ or disordered.
 COMPUTATIONAL BIOLOGY
 SI Appendix, Fig. S6 shows the result of computationally
 assisted assignments for signals observed in the 3D NCACX,
-
-
 NCOCX, and CONCA spectra, obtained with the MCASSIGN
 Monte Carlo/simulated annealing algorithm (22). Unambiguous
 site-specific 13°C chemical shift assignments were obtained for
@@ -224,7 +218,6 @@ possible residue-type assignments. The remaining signals (14 in
 the NCACX, 15 in the NCOCX, and 19 in the CONCA experiments) could not be assigned in part due to the multiple GGX
 and GGS motifs in residues 280–341 of the hnRNPA2-LC domain (“X” is Asn or Tyr) Altogether, signals were observed from
 
-
 A
 B
 
@@ -233,6 +226,7 @@ D
 
 E
 F
+
 44 aa between residues 280 and 341, indicating that 72% of this
 region is immobilized.
 
@@ -264,8 +258,6 @@ have backbone conformations that are not fully extended.
 
 Although residues 289–290 are predicted by TALOS-N to
 have fully extended β-strand conformations but have intermediate
-
-
 15N-BARE signal decay values, the predictions and 15N-BARE
 measurements are consistent with D290’s being contained at the
 C-terminal end of a β-strand in the structurally ordered core of
@@ -288,8 +280,6 @@ After subtraction of a nondecaying 10% contribution attributable to natural-abun
 increasing recoupling time is in good agreement with simulated
 13°C-13°C PITHIRDS-CT data for a linear chain of 13°C labels with
 a 0.5-nm interatomic distance (dotted line). Thus, these 13°C-13°C
-
-
 PITHIRDS-CT data are consistent with an in-register parallel
 β-sheet structure that contains all or most of the labeled Tyr
 residues (more specifically, labeled Tyr residues that are strongly
@@ -316,7 +306,6 @@ variations in background intensities (SI Appendix, Fig. S9A) has a
 width of 23 ± 1.2 kDa/nm, indicating that the variations in individual MPL values in Fig. 4E are due to noise in the images,
 rather than real structural variations.
 
-
 Given that the molecular weight of an mCherry-hnRNPA2-LC
 monomer is 45.8 kDa and that the spacing between β-strands
 along the polymer growth direction in an ideal cross-β structure is 0.475 ± 0.005 nm, mCherry-hnRNPA2-LC polymers with
@@ -339,7 +328,6 @@ width of the MPL histogram in Fig. 4F agrees well with variations
 in background intensity (30.8 ± 1.1 kDa/nm; SI Appendix,
 Fig. S9E).
 
-
 The Carboxylate Sites in the mCherry-hnRNPA2-LC Polymers Are
 Negatively Charged at Physiological pH. SI Appendix, Fig. S11
 shows the carbonyl/carboxylate region of 1D solid-state NMR
@@ -361,7 +349,12 @@ alter the mCherry-hnRNPA2-LC polymer conformation.
 
 
 BIOCHEMISTRY
+
+
+
 BIOPHYSICS AND
+
+
 
 COMPUTATIONAL BIOLOGY
 
@@ -369,13 +362,10 @@ COMPUTATIONAL BIOLOGY
 
 Polymers with the D290V Mutation Are More Thermodynamically
 Stable than Wild-Type Polymers. Polymers prepared from the
-
-
 D290V mutant of the hnRNPA2-LC domain display enhanced
 stability as measured by semidenaturing detergent agarose gel
 electrophoresis (10). To quantify the stability difference, we
 measured concentrations of soluble proteins after wild-type and
-
 
 A
 B
@@ -397,7 +387,6 @@ respectively. The ΔΔG0 ≈1.2 ± 0.7 kJ/mol change in polymer
 dissociation free energy is similar to ΔΔG0 values for effects of
 single-amino-acid substitutions on unfolding of globular proteins, which range from 0.3 kJ/mol to 19.8 kJ/mol (29).
 
-
 Although the difference in thermodynamic stability indicated
 by data in Fig. 5B is small (roughly 0.5 RT, where R is the gas
 constant and T is temperature), it may be sufficient to overcome
@@ -407,9 +396,7 @@ hnRNPA2 LC domain, but rather that limited interactions between protein monomers
 could significantly alter the functional activity of hnRNPA2.
 
 --- Discussion ---
-
-
---- The main conclusions from experiments described above include ---
+The main conclusions from experiments described above include
 the following. (i) The immobilized core of cross-β polymers formed
 by the LC domain of hnRNPA2 consists of about 44 aa within
 residues 280–341 (Figs. 2 and 3 and SI Appendix, Figs. S5 and S6).
@@ -425,3 +412,74 @@ D290V mutant polymers have greater thermodynamic stability, by
 
 ∼1.2 ± 0.7 kJ/mol according to urea-driven polymer dissolution
 experiments (Fig. 5B).
+
+By use of similar methods of segmental labeling, solid-state
+NMR spectroscopy and electron microscopy we have recently
+developed a detailed molecular structural model for polymers
+formed by the 214-residue LC domain of the FUS RNA-binding
+protein (30). FUS-LC polymers contain an in-register parallel
+cross-β structure formed by a specific 57-residue segment that
+lacks purely hydrophobic amino acid residues (other than a
+single proline). The FUS core-forming segment contains two
+fully structured regions, composed of 16 and 33 aa, which are
+separated by a disordered loop of eight residues. Within the
+FUS-LC polymer core, ∼50% of the structurally ordered residues participate in β-strands, which range in length from three to
+six residues. The FUS-LC polymer core appears to be stabilized
+largely by nonhydrophobic interactions including hydrogen
+bonds, polar zippers (31), and electrostatic dipole–dipole interactions among polar side chains.
+
+Whereas the data presented herein are not sufficient to determine the full structure of hnRNPA2-LC polymers, certain
+features appear to be in common with FUS-LC polymers. Data
+shown in Figs. 3 and 4 and SI Appendix, Figs. S5 and S6 give
+evidence that the core of hnRNPA2-LC polymers spans a segment of ∼50 residues, interspersed internally by short disordered
+segments. The segmental labeling strategy we have employed
+does not allow us to probe structure preceding residue 280 of the
+hnRNPA2-LC domain. NAI footprinting data have, however,
+given evidence that residues 181–281 are freely accessible to
+chemical acetylation, a strong indicator that this region lacks
+rigid, polymeric structure (11). Chemical shifts with residuespecific and residue-type assignments suggest that about half
+of the rigid core is disposed in a β-strand structure (Fig. 4A).
+Measurements of backbone 15N dipolar coupling interactions support the chemical shift-based secondary structure analysis (Fig. 4B
+and SI Appendix, Fig. S7). Additional solid-state NMR measurements on additional samples may allow unambiguous identification
+of all core-forming segments, eventually enabling development of a
+detailed structural model of hnRNPA2-LC polymers.
+
+The primary focus of the present study has been aimed toward
+an understanding of why residue D290 of the hnRNPA2 LC
+domain, when mutated to valine, might predispose patients to
+neurodegenerative disease. Analysis of muscle tissue from diseasebearing patients has revealed cytoplasmic inclusions containing aggregated hnRNPA2 (3). Kinetic aggregation assays have further
+shown that a synthetic hexapeptide representing residues 287–292 of
+the hnRNPA2 LC domain was more prone to aggregation if bearing
+the D-to-V missense mutation (3). Subsequent studies of a chimeric
+hnRNPA2-Sup35 fusion protein in yeast cells revealed a marked
+enhancement in prion formation in derivatives bearing the D290V
+mutation (32). Finally, biochemical analysis of LC domains from
+hnRNPA2, hnRNPA1, and hnRNPDL revealed enhanced polymer
+stability for all three proteins upon mutation of D290 (hnRNPA2),
+D262 (hnRNPA1), or D378 (hnRNPDL) to valine or asparagine
+(10). All of these observations are readily explained by the simple
+idea that replacement of aspartic acid by valine or asparagine within
+an in-register parallel cross-β structure eliminates electrostatic repulsion among aspartate side chains of neighboring monomers,
+replacing these destabilizing interactions with stabilizing hydrophobic or polar zipper interactions. Data presented herein are supportive of this idea. Since the normal biological function of
+hnRNPA2 is believed to involve reversible cross-β self-assembly
+(11), increased stability of these structures within cells may enhance the probability of nucleation of pathogenic fibrillar assemblies. It may be of use to note that several recent papers have offered
+observations consistent with the biological utility of cross-β interactions formed from various LC-domain-containing proteins (33, 34).
+
+A potential shortcoming of the studies described in this paper
+may be attributed to the use of the hnRNPA2 LC domain in
+
+isolation from its two RNA recognition motif (RRM) domains—
+these RRM domains readily adopt stable, well-folded conformations that facilitate direct interaction with RNA substrates. Given
+that NAI footprinting studies have revealed similar conformations
+for cross-β polymers formed from the isolated hnRNPA2 LC
+domain and its counterpart in nuclei of mammalian cells (11),
+we cautiously endorse the validity of the reductionist approach
+of this and earlier studies.
+
+We close by making note of computational studies investigating
+the frequency of occurrence of amino acids localized to specific
+secondary folds within all protein structures in the protein database. According to these global calculations, the least-favored
+residue in β-strands is aspartic acid, and the most-favored is valine
+(35). This recurrent mutational change within three different
+hnRNP proteins, we offer, may be of significance to our understanding of both neurological disease mechanism and the
+normal biological function of LC domains.

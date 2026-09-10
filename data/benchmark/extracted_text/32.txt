@@ -1,9 +1,8 @@
---- Results
-
-Sequence Characteristics ---
+--- Results ---
 
 
 
+Sequence Characteristics
 We successfully obtained all 24 nuclear DNA sequences and 12
 plastid fragments from all 30 species except for the locus DSH22
 in S. raddeana and DSH11 in P. grandidentata, which failed to
@@ -25,17 +24,14 @@ was
 presented
 in
 (File
-
-
 S3
 in
+
+
 Supporting
 Information S1).
 
-
 Phylogenetic analysis of the plastid fragments
-
-
 
 Phylogenetic relationships among species remained poorly
 resolved based on individual plastid sequences (File S5 in
@@ -53,7 +49,6 @@ few differences in bootstrap support (BS) or posterior probability
 between P. tremula and P. grandidentata, and between P.
 tomentosa and P. tremula/P. grandidentata in the parsimony and
 ML trees were not supported by Bayesian methods (Figure 1).
-
 
 As shown in Figure 1, all Populus species formed a fully
 supported monophyletic group comprising two major clades. In
@@ -73,15 +68,10 @@ which further divided into two subclades with P. szechuanica sister
 to a group of species comprising P. koreana, P. suaveolens, P.
 laurifolia, P. ussuriensis, P. pamirica and P. talassica.
 
-
 Phylogenetic analysis of the nuclear DNA
-
-
 
 Phylogenetic relationships based on individual nuclear DNA
 loci were not fully resolved (File S6 in Supporting Information S1).
-
-
 The Shimodaria-Hasegawa test showed that there was no
 significant incongruence among most of the individual nuclear
 DNA loci (P.0.05), but slight incongruence was detected in some
@@ -92,7 +82,6 @@ differences in BS or PP value. We, therefore, combined the 24
 individual nuclear DNA sequences to a single data set to
 reconstruct the phylogeny of Populus and to make direct
 comparison with the cpDNA phylogeny.
-
 
 The best fitting evolutionary model for the combined nuclear
 DNA data set was GTR+R in ML and Bayesian analyses. The
@@ -123,11 +112,8 @@ clade. The second subclade consisted of two sister groups: the two
 North America species (P. balsamifera/P. trichocarpa) and the
 other 7 species.
 
---- Discussion
-
-Phylogenetic relationships of Populus ---
-
-
+--- Discussion ---
+Phylogenetic relationships of Populus
 
 With a large combined data set of 24 nuclear DNA sequences
 and
@@ -148,7 +134,6 @@ plastid tree. P. simonii, P. cathayana and P. przewalskii of section
 Tacamahaca grouped with P. lasiocarpa separating from other
 balsam poplars in the plastid phylogeny.
 
-
 There has been an argument about the oldest lineage of
 Populus for a long time. Phylogenetic analysis based on AFLP and
 ITS sequence proposed that section Populus was the oldest lineage
@@ -164,7 +149,6 @@ differentiating it from other species of Populus — thought to have
 developed early in the evolutionary history of this genus [5]. This
 suggested that section Turanga is an ancestral lineage as observed
 in phylogenetic trees with high BS or PP support value.
-
 
 Intersectional relationships of Populus have been poorly
 resolved because of inadequate samples and/or insufficient
@@ -188,8 +172,6 @@ sections
 remained
 unresolved [5]. In an ITS sequence-based phylogeny of Populus,
 section Populus was monophyletic and species of sections
-
-
 Tacamahaca and Aigeiros mixed together in one clade with low
 statistical support [40].The relationship between the two sections
 did not resolve in trnT-trnF phylogeny [10]. In the phylogenetic
@@ -202,11 +184,7 @@ classified into section Tacamahaca [9]. ISSR-based phylogeny of
 Populus also revealed close intersectional relationship between
 section Tacamahaca and Aigeiros [37].
 
-
 Based on the nuclear DNA phylogeny, section Populus and
-
-
-
 Leucoides were successive to Turanga, section Tacamahaca and
 Aigeiros occupied the terminal position. This phylogenetic order
 more or less followed previously published patterns [5]. The close
@@ -217,8 +195,8 @@ For the first time, we found that species of Populus divided into
 two major clades in the plastid phylogeny, which reflected an early
 divergence of the maternal progenitors of Populus.
 
-
 Intrasectional phylogenetic relationships
+
 In previous studies, interspecific relationships within sections of
 Populus were rarely addressed or poorly resolved [9,10]. Based on
 our data, intrasectional relationships among species were relatively
@@ -229,16 +207,14 @@ interspecific relationships of these two sections cannot be assessed.
 Furthermore, interspecific relationships of section Aigeiros is
 discussed below with an emphasis on hybrid origin.
 
-Section Populus.
 
---- The results from both nuclear and plastid ---
+Section Populus.
+The results from both nuclear and plastid
 DNA analyses suggest that section Populus is monophyletic. In the
 nuclear DNA tree, P. grandidentata was sister to other species
 which subdivided into two clades. The North American trembling
 aspen P. tremuloides showed close genetic affinity to Eurasian
 aspen P. tremula and P. davidiana with high BS or PP value.
-
-
 These three species are similar to each other with respect to
 morphological characters [6,41]. Eckenwalder [5] even proposed
 that P. tremuloides, P. tremula and P. davidiana should be merged
@@ -256,9 +232,8 @@ southern China and central Eurasia, respectively. It is of great
 interest to pay attention to allopatric speciation resulted from
 geographic isolation between these two species in future.
 
+
 Section Tacamahaca.
-
-
 The relationships of species within
 section Tacamahaca are known to be the most complicated. In
 present study, P. cathayana, P. przewalskii and P. simonii clustered
@@ -278,7 +253,10 @@ and allopatric divergence from a once widely-distributed ancestral
 species
 of
 section
+
+
 Tacamahaca.
+
 
 
 The
@@ -288,10 +266,7 @@ section
 Tacamahaca was clearly verified based on our plastid and nuclear
 DNA phylogeny [10], which was in agreement with morphologybased phylogenetic analysis [5].
 
-
 Reticulate evolution in Populus
-
-
 
 The most ancient undisputed fossil record of Populus dated to
 late Paleocene (about 58 Ma) is considered to be related to section
@@ -304,8 +279,6 @@ the
 morphological
 similarity
 [39,43].
-
-
 Through combined fossil record and phylogenetic analyses we
 ascertain that section Turanga is more primitive in Populus.
 Species of the section Leucoides which inhabit permanent swamps
@@ -313,8 +286,6 @@ first appeared in North America in late Eocene [5]. Combining
 fossil records and the phylogenetic tree based on 76 morphological
 characters, Eckenwalder [5] speculated that the temperate habitats
 of Populus were invaded by an ancestral member of section
-
-
 Leucoides, and following this, there was a rapid radiation
 (effectively simultaneous) driven by ancient hybridization events
 into the distinct habitats along with appearance of other advanced
@@ -323,9 +294,8 @@ environments, for example, section Populus can tolerate aridity
 and coldness. The subsequent evolution within each section were
 partly influenced by hybridization [1].
 
+
 Section Populus.
-
-
 Based on our plastid and nuclear DNA
 phylogeny, the ancestor of section Populus originated from the
 hybridization of two ancestral sections (section Turanga and
@@ -357,6 +327,7 @@ role. Based on morphological similarity to P. hopeiensis and the
 closer genetic affinity, we infer that P. tomentosa may have been
 domesticated from P. hopeiensis, which shows sympatric distribution in China.
 
+
 Section Tacamahaca.
 Twelve species of section Tacamahaca were used in this study. P. cathayana, P. przewalskii and P.
 simonii
@@ -379,9 +350,8 @@ derived from a hybridization event in which section Turanga and
 section Leucoides played the maternal and paternal roles,
 respectively.
 
+
 Section Aigeiros.
-
-
 Three species of section Aigeiros were used
 in this study. They clustered together in the nuclear DNA tree,
 however, in the plastid tree P. nigra clustered with P. alba, P.
@@ -417,7 +387,6 @@ ancestor following a hybridization event giving rise to P. deltoides.
 A similar situation was also seen in P. afghanica, which shares a
 common maternal ancestor with P. lasiocarpa.
 
-
 The taxonomic position of species in section Aigeiros is
 contentious. Rajora & Dancik [47] proposed a new section
 Nigrae, consisting only of P. nigra. Cervera et al. [9] pointed out
@@ -439,9 +408,6 @@ sections. This is consistent with the paleontological results, and
 fossils of the section Aigeiros occur later in the sediments [5].
 
 --- Conclusions ---
-
-
-
 Based on nucleotide sequences of 24 single-copy nuclear genes
 and 12 plastid fragments, two robust phylogenies of Populus
 (Salicaceae) were reconstructed. The genus Populus was monophyletic in both phylogenetic trees and section Turanga was an
@@ -451,16 +417,3 @@ patterns in this genus. Three advanced sections (Populus, Aigeiros
 and Tacamahaca) were of hybrid origin. A detailed study involving
 more species (especially section Abaso) and genes are needed to
 further infer the origin, dispersal and hybridization in Populus.
-
---- Results of the Shimodaira-Hasegawa test that are significant ---
-incongruence (P,0.05). File S5. Phylogenetic trees reconstructed
-based on plastid fragments using parsimony, most likelihood and
-Bayesian inference methods. Numbers next to nodes indicated
-bootstrap support value or posterior probabilities. File S6.
-Phylogenetic trees reconstructed based on nuclear DNA fragments
-using parsimony, most likelihood and Bayesian inference methods.
-
-
-Numbers next to nodes indicated bootstrap support value or
-posterior probabilities.
-(RAR)

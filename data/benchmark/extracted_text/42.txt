@@ -1,15 +1,15 @@
---- Results
-
+--- Results ---
 SFPQ can form a condensed liquid-like phase
-in vitro ---
-
-
+in vitro
 
 The ability to form homotypic liquid-like droplets
 in vitro has been described previously for many
-
-
 RNA-binding proteins with extended LCRs11,39
+
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
+
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
+
 ing dilute phase (red dashed line) with the saturation
 concentration
 (Csat).41
@@ -20,16 +20,13 @@ these
 conditions
 (150 mM KCl, pH 7.4, ambient temperature), we
 determined a Csat of 11.6 μM for full-length SFPQ.
-
-
 This Csat is in the same range as the estimated
 nuclear concentration of similar RNA-binding proteins (FUS, EWSR1, TAF15, TDP43 hnRNPA1).39
-
 
 The total concentration of SFPQ in HeLa cells has
 been estimated using mass spectrometry to be
 1.8 μM.42 However, given that SFPQ is predominantly localised to the nucleus, its concentration
-within the nucleus is likely to be ten-fold greater
+within the nucleus is likely to be ten-fold greater
 than this. Furthermore, the increase in local concentration due to recruitment to DNA and/or RNA sites,
 along with the highly crowded intracellular environment, makes condensation of SFPQ in the nucleus
 very plausible.
@@ -40,13 +37,13 @@ method
 described
 above
 for
+
+
 Csat
 determination relies on measuring the protein
 concentration in the dilute phase. To further verify
 this result, we used an alternative method to
 instead quantify the amount of condensed phase.
-
-
 For this, we used GFP-tagged SFPQ to facilitate
 imaging by fluorescence. By imaging after all
 droplets had settled to the bottom of the sample,
@@ -78,19 +75,11 @@ sity of SFPQ to condense in vitro. Therefore, for further in vitro experiments w
 only and the centrifuge-based assay for Csat
 determination.
 
-
 The C-terminal LCR of SFPQ drives phase
 separation, which is attenuated by the
-
-
 N-terminal prion-like LCR in vitro
 
-
-
 To determine the contribution of each LCR of
-
-
-
 SFPQ independently on the in vitro condensation
 behaviour
 of
@@ -102,7 +91,6 @@ recombinant
 SFPQ
 truncations lacking the N-LCR, C-LCR or both N-
 and
-
 
 
 C-LCR
@@ -126,8 +114,6 @@ droplets
 phase even at a protein concentration almost
 30-fold greater that the Csat of full-length SFPQ
 (Figure 2b). Even after further dilution to lower the
-
-
 KCl concentration to 75 mM, SFPQ DN&DC
 remained
 soluble
@@ -136,7 +122,7 @@ to
 a
 concentration
 of
-50 μM, at which point it precipitated as visible
+50 μM, at which point it precipitated as visible
 solid-looking aggregates (Figure 2c), indicating
 that without its LCRs, SFPQ cannot form a
 condensed liquid phase under physiological-like
@@ -152,13 +138,13 @@ Deletion of the C-LCR only (amino acids 599–
 phase separate under the same conditions as for
 the full-length protein (Figure 2a). Even at a total
 protein concentration eight-fold greater than the
-
-
 Csat of full-length SFPQ, SFPQ DC-LCR remained
 as a single dilute phase, as determined using the
 centrifuge assay (Figure 2b). This clearly implies
 that the C-LCR is crucial for driving SFPQ phase
 separation. To assess whether SFPQ DC-LCR
+
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
 
 could phase separate at all, we decreased the salt
 concentration further by dilution. Liquid droplets
@@ -172,17 +158,12 @@ a
 sample
 containing 75 mM KCl and 50 μM SFPQ DC-LCR
 (Figure 2c and Movie S2). This is in contrast to
-
-
 SFPQ DN&DC, which precipitated as a solid under
 these conditions, demonstrating that the N-LCR of
-
-
 SFPQ can facilitate condensation of the protein as
 a liquid, albeit requiring more extreme conditions
 (i.e. less like physiological ionic strength and
 [protein]) than for full-length SFPQ.
-
 
 Unexpectedly, deletion of the longer prion-like N-
 LCR (amino acids 1–275) resulted in a protein with
@@ -196,7 +177,7 @@ suggesting that the N-LCR attenuates demixing
 (promotes mixing) of SFPQ in the context of the
 full-length protein. The Csat of SFPQ DN-LCR in
 150 mM KCl buffer was determined to be 0.8 μM
-(Figure 2b, bottom-right); a 15-fold decrease as
+(Figure 2b, bottom-right); a 15-fold decrease as
 compared to the full-length protein. Consistent
 with an increased propensity to self-associate, we
 observed turbidity while concentrating SFPQ DNLCR in storage buffer containing 500 mM KCl, and
@@ -226,11 +207,7 @@ still be observed, indicating that this condensed
 phase formed by SFPQ DN-LCR was liquid-like
 (Movie S3).
 
-
 Together, these in vitro data suggest that the
-
-
-
 LCRs of SFPQ have distinct roles in determining
 the phase behaviour of the protein. Independently,
 the N-LCR and the C-LCR can each facilitate
@@ -238,8 +215,6 @@ homotypic condensation of the conserved globular
 DBHS region of SFPQ as a liquid; in the absence
 of both LCRs, the protein precipitates at high
 concentrations as a solid. However, the shorter C-
-
-
 LCR is clearly the main driver of condensation,
 whereas, in the absence of the C-LCR, much
 more extreme conditions are required to observe
@@ -253,10 +228,11 @@ N-LCR
 in
 fact
 attenuates
+
+
 SFPQ
 condensation in the context of the full-length
 protein at physiological salt concentration.
-
 
 These in vitro experiments describe homotypic
 phase
@@ -280,22 +256,15 @@ complex nature of condensate formation in the
 cell.39,43–45 Therefore, to see if our in vitro observations translate to condensate behaviour in cells, we
 next sought to describe the effects of SFPQ truncations on the formation of SFPQ-containing condensates in cells.
 
-
 The C-terminal LCR of SFPQ is critical for
 paraspeckle formation in vivo, whereas the
-
-
 N-LCR increases SFPQ nuclear dispersal
-
-
 
 It has been observed that PLDs are enriched in
 human nuclear DNA- and RNA-binding proteins.16
 
 PLDs have been suggested to be important mediators of functional aggregation to form biomolecular
 condensates, with proteins containing prion-like
-
-
 LCRs shown to be over-represented in paraspeck-
 les15 – membraneless organelles present in the
 nucleus of many cell types. Paraspeckles can be
@@ -309,8 +278,6 @@ locate
 the
 long
 non-coding
-
-
 RNA,
 NEAT1_2, upon which paraspeckles are scaffolded.23,29,33 In addition, SFPQ subnuclear localisation has been observed in live cells previously
 by over-expression of GFP-tagged SFPQ.47 Therefore, to probe for roles of the LCRs of SFPQ in subnuclear
@@ -325,11 +292,18 @@ overexpressing
 
 
 GFP-tagged
+
+
+
 SFPQ
 truncations
 (Figure 3). Due to the nature of transient transfection, expression of each protein was variable when
 
 "
+
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
+
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
 
 comparing individual cells. However, the localisation patterns of each protein within the nucleus (discussed below) were qualitatively the same in cells
 with low, medium, or high exogenous expression
@@ -337,7 +311,6 @@ with low, medium, or high exogenous expression
 showed that transient transfection resulted in comparable average expression levels for all four proteins in each cell culture (Figure S4), allowing us
 to directly compare paraspeckle quantitation data
 for each cell population.
-
 
 SFPQ is a multifunctional nuclear protein, and
 localises along with other essential paraspeckle
@@ -351,12 +324,7 @@ number and size, we quantitated total paraspeckle
 area (i.e. the sum of pixels with NEAT1_2 FISH signal), number of individual paraspeckles, and the
 average area of individual paraspeckles (total paraspeckle area/paraspeckle number) per nucleus in
 cells over-expressing either GFP, or GFP-SFPQ.
-
-
 Compared to GFP alone, cells over-expressing
-
-
-
 GFP-SFPQ had a small but significant decrease
 in
 paraspeckle
@@ -368,10 +336,10 @@ increase in paraspeckle area by approximately
 1.5–2-fold
 (Figure
 S6).
-
-
 Thus,
 over-expressed
+
+
 GFP-SFPQ
 is
 targeted
@@ -381,9 +349,10 @@ and
 increases their average size but does not increase
 singular paraspeckle numbers.
 
-
 To determine the effect of removing the C-LCR
 from
+
+
 SFPQ
 on
 paraspeckle
@@ -415,8 +384,6 @@ of
 paraspeckles (Figure 3b). Given the presence of
 endogenous DBHS proteins (i.e. no knock-down
 was performed), this demonstrates that SFPQ
-
-
 DC-LCR acts as a dominant negative in regards to
 paraspeckle size and abundance, consistent with
 our in vitro results showing that the C-LCR drives
@@ -433,7 +400,7 @@ paraspeckles
 
 
 These
-nonparaspeckle puncta were of various sizes (0.2–2
+nonparaspeckle puncta were of various sizes ( 0.2–2
 mm)
 and
 all
@@ -444,9 +411,6 @@ spherical.
 This
 is
 consistent with our in vitro data showing that
-
-
-
 SFPQ DN-LCR has a greater tendency to phase
 separate to form condensed droplets. Similar
 bright
@@ -460,7 +424,6 @@ did not co-localise with SFPQ DN-LCR as consistently as for full-length and DC-L
 the N-LCR may be important for localisation of
 SFPQ to paraspeckles (Figure 3a and Figure S5).
 
-
 Finally, over-expression of a double-deletion
 missing both LCRs (SFPQ DN&DC; includes NLS)
 resulted in a decrease in total paraspeckle area
@@ -471,8 +434,6 @@ for SFPQ DC-LCR) (Figure 3b). However, the total
 paraspeckle area and number were significantly
 greater than for SFPQ DC-LCR. Our interpretation
 from this comparison between SFPQ DN&DC and
-
-
 SFPQ DC-LCR is that inclusion of the N-LCR has
 an inhibitory effect on paraspeckle formation. In
 contrast to the wild-type like nuclear localisation
@@ -497,14 +458,10 @@ than
 condensing to form discrete puncta. Given that the
 ability to condense is very likely to be important for
 driving paraspeckle formation, this suggests that
-
-
 SFPQ DC-LCR acts as a stronger dominant
 negative than SFPQ DN&DC due to the inclusion
 of the N-LCR. Similar to SFPQ DN-LCR, NEAT1
 signal did not consistently co-localise with SFPQ
-
-
 DN&DC, pointing again to the N-LCR as important
 for
 localisation
@@ -530,30 +487,31 @@ overlap between these regions and GFP, showing
 that the condensates containing SFPQ DN&DC
 are distinct from nucleoli.
 
-
 The C-terminal LCR is critical for condensation
 of SFPQ at DNA damage sites
 
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
+
 nucleus, we assessed the recruitment of SFPQ to
-
-
 DNA damage sites in HeLa cells overexpressing
-GFP-tagged SFPQ.
 
+
+GFP-tagged SFPQ.
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
 
 GFP puncta observed for SFPQ DN-LCR in our
 paraspeckle quantitation assay (Figure 3a). Compared to full-length SFPQ, no significant difference
 in recruitment to damage sites was observed for
 SFPQ DN-LCR (Figure 4c). Together, these results
 suggest that deletion of the C-LCR, but not the N-
-
-
 LCR, impairs SFPQ condensate formation at DNA
 damage sites. Conversely, removing the N-LCR
 increases the condensation propensity of SFPQ in
 the nucleus, consistent with our in vitro data.
 
---- Discussion
+--- Discussion ---
+
+
 
 Demixing
 of
@@ -561,7 +519,7 @@ proteins
 and
 nucleic
 acids
-is ---
+is
 emerging as a key mechanism describing the
 dynamic and reversible organisation of molecules
 in the cell. The central involvement of nucleic acidbinding proteins with disordered, low-complexity
@@ -595,8 +553,6 @@ condensates:
 paraspeckles and DNA damage repair foci.
 
 paraspeckle formation, indicating that alone the N-
-
-
 LCR is insufficient to drive functional condensation
 of the protein in the cell. The C-LCR also allowed
 the protein to condense as a liquid in vitro. However,
@@ -611,7 +567,6 @@ is, to our best knowledge, the first description of
 an extensive prion-like LCR that serves to regulate
 rather than drive a protein’s condensation propensity; most recent studies on LCRs of RNA-binding
 proteins have focused solely on their roles in promoting protein phase separation.
-
 
 It is well established that DBHS proteins are
 obligate
@@ -628,9 +583,9 @@ a
 preference
 for
 heterodimerisation.27–29,61
-
-
 SFPQ,
+
+
 NONO
 and
 PSPC1 co-immunoprecipitate62,63, and SFPQ is
@@ -641,11 +596,12 @@ dimer formation as composed of RRM2, NOPS
 and coiled-coil domains.30,33 It is important to note
 that the entire core conserved DBHS region, including all domains necessary for dimer formation, was
 left intact in the truncations of SFPQ used herein.
-
---- This provides a basis for interpreting the results of ---
+This provides a basis for interpreting the results of
 our in vivo experiments, in which SFPQ truncations
 were over-expressed in the presence of endogenous wild-type DBHS proteins and therefore would
 be very likely to exist as heterodimers with endogenous DBHS proteins in the cell.
+
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
 
 ment of DNA-damage localisation we observe upon
 deletion of the C-LCR is striking, as it shows that
@@ -658,36 +614,27 @@ over-expressed
 
 
 SFPQ
+
+
+
 DC-LCR
 impairs
 paraspeckle formation. Furthermore, the fact that SFPQ
-
-
 DN&DC localised to discrete rounded puncta, rather
 than distributed throughout the nucleus like SFPQ
-
-
 DC-LCR, points again to the N-LCR as a region that
 attenuates condensation of DBHS proteins in the
 cell.
 
-
 Altogether, this points to a regulatory role for the
-
-
-
 N-LCR, rather than a role as a driver of phase
 separation.
-
-
 Interestingly,
 data
 from
 two
 independent studies involving SFPQ truncations
 missing the N-LCR have hinted at this previously.
-
-
 In a study focusing on nuclear speckles, upon
 over-expression
 of
@@ -721,8 +668,6 @@ demixing in vitro. This same region is also critical for
 condensation of SFPQ at both DNA damage sites
 and paraspeckles in vivo, strongly suggesting that
 liquid phase condensation of SFPQ, via its C-
-
-
 LCR, is essential for achieving its normal functions
 in the cell nucleus. It is important to note that, while
 this study focussed on the flanking LCRs of SFPQ,
@@ -731,7 +676,6 @@ the DNA binding and RRM domains,28,45 and also
 polymerisation via the coiled-coil,33 will emerge as
 important contributors to the condensation of DBHS
 proteins with other macromolecules within the complex intracellular environment.
-
 
 Further studies aiming to identify relationships
 between
@@ -743,14 +687,14 @@ features within the LCRs of SFPQ are currently
 underway. However, a brief sequence analysis
 provides preliminary insights. Compared to the
 average composition of the human proteome, the
-
-
 LCRs clearly show strong compositional biases, in
 contrast to the core folded domains, which have a
 more ’typical’ composition (Figure 5a). Prion-like
 compositions are identified based on similarity to
 28 known prion proteins identified in yeast, which
 are highly enriched for polar amino acids.36,64 The
+
+A.C. Marshall, J. Cummins, S. Kobelke, et al.
 
 high glutamine content of the N-LCR is therefore
 consistent
@@ -759,7 +703,7 @@ its
 classification
 as
 prion-like;
-indeed, the prion-like region (amino acids 33–
+indeed, the prion-like region ( amino acids 33–
 107) corresponds closely to the section of the
 LCR that is most enriched for glutamine (Figure 5b).
 However, the N-LCR is also highly enriched for proline – a feature that has been shown to contribute
@@ -804,8 +748,6 @@ heterodimerisation nature, present additional avenues for complex self-regulatio
 in
 the
 cell.
-
-
 This,
 along
 with

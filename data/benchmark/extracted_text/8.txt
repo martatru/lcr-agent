@@ -55,15 +55,29 @@ Int. J. Mol. Sci. 2018, 19, 1384
 
 
 Protein
+
+
+
 Amyloid Core
+
+
+
 Gravy Score
 
+
+
 Hsf1
+
+
+
 INDIIFNTNLANNLSNYN
 −0.283
 
 
 ASYN
+
+
+
 GVLYVG
 1.683
 

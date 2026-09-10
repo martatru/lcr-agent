@@ -5,8 +5,6 @@ encoded by a single exon (ZLD-PA, Fig. 1A) (3, 10, 14). We have
 demonstrated previously that recombinant ZLD-PA binds to
 TAGteam elements (4), and this activity was mapped to a large
 C-terminal region of the protein (amino acids 1239–1596) (3).
-
-
 To specifically define the DNA-binding domain, we tested the
 ability of a ZLD fragment containing amino acids 1117–1487 to
 bind specifically to TAGteam elements. ZLD1117–1487 was
@@ -25,20 +23,12 @@ to Sxlpe occurred on the overlapping CAGGCAG elements and
 specifically required these TAGteam motifs because mutation
 of the CAGGCAG abrogated binding (Fig. 1°C). Furthermore,
 because the protection provided by amino acids 1117–1487 of
-
-
 ZLD spanned the same residues as the full-length protein, our
-
-
-
 DNase I protection assays suggested that this region of ZLD
 comprises the entirety of the DNA-binding domain. In agreement with our DNase I protection assays, a recombinant protein containing only amino acids 1240–1470 has been shown to
 specifically bind DNA using electromobility shift assays (11).
-
-
 Together, these data narrowed the DNA-binding domain to a
 region containing the cluster of four zinc fingers.
-
 
 To test the functional importance of this DNA-binding
 domain on ZLD activity, we established a cell culture-based
@@ -57,7 +47,6 @@ of zld containing a premature stop codon failed to activate transcription, indic
 not mediated by a feature of ZLD mRNA (Fig. 2B). Therefore, we
 established a highly specific and responsive system to monitor
 ZLD- and TAGteam-mediated gene expression.
-
 
 We exploited this transcriptional assay system to determine
 the functional importance of specific domains in ZLD. We first
@@ -94,15 +83,12 @@ individual zinc fingers mutated and used these proteins for
 EMSAs (Fig. 3, B and C). Wild-type MBP-ZLD1117–1487 bound
 to oligonucleotide probes corresponding to a CAGGTAG element from the scute promoter but did not bind when this site
 was mutated (Fig. 3°C). These data demonstrated that our
-
-
 EMSAs detect sequence-specific DNA binding by the cluster of
+
 four zinc fingers in ZLD, similar to what we have shown previously for full-length ZLD (4). This domain alone binds with a Kd
-of 75 nM. This is in remarkable agreement with an estimated
-Kd of 15 nM for the full-length protein based on our previously
+of 75 nM. This is in remarkable agreement with an estimated
+Kd of 15 nM for the full-length protein based on our previously
 published EMSAs (4). This suggests that the majority of the
-
-
 DNA-binding activity for ZLD is localized in the zinc-finger
 domain, but we cannot exclude minor contributions from other
 regions. Mutation of any individual zinc finger ablated DNA
@@ -130,7 +116,6 @@ a TAGteam-dependent manner, suggesting that the single
 remaining zinc finger does not provide sufficient DNA-binding
 activity to activate transcription (Fig. 4A and data not shown).
 
-
 To better understand a potential function for these truncated
 isoforms, we coexpressed ZLD-PD or ZLD-PF along with the
 full 1596-amino acid ZLD-PA in the transcriptional activation
@@ -141,15 +126,11 @@ expression,
 demonstrating
 that
 ZLD-PD and ZLD-PF act dominantly to suppress ZLD-mediated transcriptional activation (Fig. 4B and data not shown).
-
-
 This dominant-negative activity could be explained if ZLD
 dimerizes and if a heterodimer containing ZLD-PD and
 ZLD-PA is inactive. To test this possibility, we assessed the
 ability of ZLD to dimerize by coexpressing differentially tagged
 versions of the protein. We coinfected Hi5 cells with baculovirus encoding either an N-terminally FLAG-tagged ZLD or HAtagged ZLD. Lysates were immunoprecipitated for either the
-
-
 FLAG or HA tag and probed for these tags by immunoblot
 analysis. The FLAG-tagged ZLD was clearly detected when
 immunoprecipitated with anti-FLAG antibodies, but the HAtagged version was not coprecipitated. The reverse was also
@@ -160,15 +141,7 @@ cells, immunoprecipitation of FLAG-tagged ZLD-PA did not
 precipitate the truncated ZLD-PD isoform (Fig. 4D). Given the
 lack of evidence for dimerization, we instead propose that the
 dominant-negative functionality results from the N-terminal
-region of ZLD interacting with a cofactor(s) required to medi-
-
-FIGURE3.ThefourC-terminalzinc-fingersofZLDarerequiredforDNAbindingandtranscriptionalactivity.A,-foldactivationmediatedbywild-typeZLD
-orbyZLDmutantsinwhichindividualzincfingersintheDNA-bindingdomain(zincfingers(ZF)3–6)weremutated.Proteinlevelswereassayedbyimmunoblot
-analysis for ZLD. B, Coomassie-stained gel of purified wild-type MBP:ZLD1117–1487 or the same protein with each of the individual zinc fingers mutated. C,
-electromobility shift assays using increasing concentrations of wild-type MBP:ZLD1117–1487 (0, 25, 50, 100, or 200 nM) or maximal amounts of individual zinc
-finger mutants (200 nM). The sequence of the probes corresponds to either a wild-type or mutant version of a CAGGTAG element from the scute promoter.
-
-ate transcriptional activation and that the truncated splice isoform competes with ZLD-PA for their binding.
+region of ZLD interacting with a cofactor(s) required to mediate transcriptional activation and that the truncated splice isoform competes with ZLD-PA for their binding.
 
 Amino Acids 904–1297 Comprise the Transcriptional Activation Domain of ZLD—Because ZLD-PD and ZLD-PF likely
 bind a cofactor necessary for mediating transcriptional activation, this interaction domain must exist N-terminally to
@@ -189,7 +162,6 @@ C-terminal zinc fingers mediate DNA binding (Figs. 1–3),
 these data demonstrate that the first 1297 amino acids of
 ZLD are sufficient for activating transcription.
 
-
 We next used a series of N-terminal truncations in our assay
 system to determine the residues necessary for activity. All of
 the truncations activated gene expression to varying levels
@@ -207,20 +179,12 @@ Todeterminewhetheraminoacids904–1297weresufficientto
 activate transcription, we generated a series of proteins in which a
 portion of ZLD was fused to the GAL4 DNA-binding domain.
 
-FIGURE4.Atruncatedspliceisoform(ZLD-PD)candominantlyinhibitZLD-PA-mediatedtranscriptionalactivation. A,-foldluciferaseactivationofeither
-a WT or mutant (MUT) scute reporter by ZLD-PA or the splice isoform, ZLD-PD, which lacks three of the four C-terminal zinc fingers. Protein levels were assayed
-by immunoblot analysis for ZLD.B, -fold activation by ZLD-PA and ZLD-PD expressed individually or simultaneously. (Data for ZLD-PA and ZLD-PD are the same
-as in A.) For all activation assays, n  3, mean  S.D. C, HA or FLAG immunoprecipitation (IP) from cells coinfected with baculovirus expressing HA:ZLD-PA and
-FLAG:ZLD-PA. Immunoblots (IB) for FLAG and HA are indicated on the left. D, FLAG immunoprecipitation from cells coexpressing FLAG:ZLD-PA and ZLD-PD.
-Also shown are immunoblots for ZLD. IN, 1% of input; IP, 33% of immunoprecipitation.
-
 These fusions were then assayed for their ability to activate transcription from a reporter containing GAL4 binding sites.
 Although amino acids 1–632, 210–767, and 1055–1297 did not
 activate transcription in this assay, robust activation was detected
 when the amino acids between 904–1297 were fused to the GAL4
 DNA-bindingdomain(Fig.5°C).Together,thesedatademonstrate
 that the 393 amino acids spanning residues 904–1297 are necessary and sufficient for ZLD-mediated transcriptional activation.
-
 
 Our data and data from others have suggested that ZLD may,
 in part, mediate transcriptional activation through changes in
@@ -244,12 +208,8 @@ ZLDOrthologsCanDriveTranscriptionofaZLDTargetGene—
 ZLD orthologs were identified in other insect species, and conservation was most strongly evident in the DNA-binding
 domain (Fig. 7A) and in a region surrounding the second of the
 N-terminal zinc fingers (Fig. 7B). The conservation of the
-
-
 DNA-binding domain suggests that these orthologs may be
 able to bind to sequences similar to the TAGteam elements.
-
-
 However, because the conserved N-terminal region is outside
 of our identified activation domain, it was not clear whether
 these orthologs would be able to activate transcription in our
@@ -263,8 +223,6 @@ domain. We amplified the presumed zld coding sequences and
 cloned them into an expression vector for use in our assay system. ZLD orthologs from all three species activated transcription from the D. melanogaster scute promoter to varying
 
 degrees (Fig. 7D). This activation required the presence of
-
-
 TAGteam elements because gene expression is reduced from
 the mutated reporter (Fig. 7D). These data suggest that ZLD
 orthologs bind to sequences similar to the TAGteam elements
@@ -297,8 +255,6 @@ protection assays, we demonstrated that a region containing
 the C-terminal cluster of four zinc fingers bound the same DNA
 sequence as the full-length protein. Using our cell-based transcription assay, we further showed that these zinc fingers were
 each individually required to activate gene expression, and
-
-
 EMSAs demonstrated that all four zinc fingers were necessary
 for DNA binding. Furthermore, expression of ZLD variants in
 which the C-terminal 299 amino acids, including the zinc fingers, were replaced by the GAL4 DNA-binding domain activated transcription from a GAL4-responsive promoter, suggesting that the primary function of these zinc fingers is DNA
@@ -312,7 +268,6 @@ direct ZLD specificity. Alternatively, a subset of zinc fingers
 
 may play a structural role and may not contribute to sequencespecific DNA binding.
 
-
 Previous work has shown that multiple ZLD splice isoforms
 are expressed in late-stage embryos and in larvae. These isoforms are predicted to produce protein products of either 1596
 (ZLD-PA) or 1373 (ZLD-PD) amino acids. (The 1367 amino
@@ -322,14 +277,10 @@ truncated isoforms, ZLD-PD or ZLD-PF, activated transcription. These data are co
 the DNA-binding domain of ZLD-PA, demonstrating that all
 four zinc fingers are required for DNA binding. This suggests
 that the failure of ZLD-PD and ZLD-PF to activate transcription is due to these truncated proteins failing to bind DNA.
-
-
 Surprisingly, we demonstrated that these truncated splice
 isoforms can dominantly suppress the ability of ZLD-PA to
 activate transcription. This dominant inhibition could be
 explained by either the formation of inactive ZLD-PA/
-
-
 ZLD-PD multimers or by competition of these two isoforms
 for interaction with cofactors required to activate transcription. However, we have seen no evidence for the formation of
 stable ZLD multimers.
@@ -337,8 +288,6 @@ stable ZLD multimers.
 Instead, our data support the hypothesis that, when coexpressed, ZLD-PD is competing with ZLD-PA for a binding partner required for activity. In this scenario, limiting amounts of a
 necessary transcriptional coactivator would be titrated away
 fromtheactivation-competentZLD-PAbythetruncatedisoform.
-
-
 This would provide a mechanism whereby ZLD binding could be
 established in the early embryo, when ZLD-PA is the primary
 splice isoform and the genome may be in a relatively accessible
@@ -357,8 +306,6 @@ orthologs from three additional insect species (D. virilis, A. gambiae, and N. v
 D. virilisarerelativelycloselyrelatedbecausetheyareestimatedto
 have diverged 40 million years ago (25, 26). By contrast, A. gambiae and N. vitripennis diverged from D. melanogaster about 250
 and 300 million years ago, respectively (27–29). The zinc-finger
-
-
 DNA-binding domain we identified is highly conserved in these
 species, suggesting that these orthologs may bind to TAGteamrelated sequences in these insects. However, outside of the six
 zinc-finger domains, there is little conservation at the sequence
@@ -374,7 +321,7 @@ ZLDtobindrelatedsequencemotifsandactivatetranscriptionhas
 been conserved over 300 million years of evolution.
 
 Supporting this conserved role of ZLD in driving genome activation in other insects, sequences similar to TAGteam elements
-(VBRGGTA, V  A/C/G, B  C/G/T, r  A/G) are enriched in
+(VBRGGTA, V A/C/G, B C/G/T, r A/G) are enriched in
 the 400-base pair regions upstream of the set of genes activated at
 the MZT in the mosquito Aedes aegypti (30). Comparison of position weight matrices for the A. aegypti sequence and D. melanogaster TAGteam elements suggests that these two sequence elements may be homologous, and, like the D. melanogaster
 TAGteam sites, a region containing this sequence is capable of
@@ -387,8 +334,6 @@ at the MZT is likely to be a conserved feature.
 Further evidence for a conserved role of ZLD within Drosophilids comes from comparative studies of transcription factor
 binding sites in multiple Drosophila species. Transcription factor binding sites have been defined in multiple Drosophila species using chromatin immunopreciptation coupled with microarrays and with high-throughput sequencing (ChIP-chip and
 ChIP-seq) (8, 25, 31–33). The canonical TAGteam sequence
-
-
 CAGGTAG is highly enriched in the regions bound by multiple
 different transcription factors in D. melanogaster (8, 32, 33),
 and this is similarly true for the other Drosophila species examined (25, 31). Furthermore, analysis suggests that changes in the
@@ -403,17 +348,12 @@ Low-complexity Domains Mediate Transcriptional Activation by ZLD—The activatio
 stretches of single or low numbers of amino acids and are characteristically unstructured (34). It is this feature of being relatively unstructured that may allow such regions to interact with
 a large number of different binding partners (35). Low-complexity regions are often found within transcription factors and
 can function as transcriptional activation domains (35, 36).
-
-
 Recent evidence suggests that at least some low-complexity
 domains polymerize to form amyloid-like fibers, and it is this
 capacity that mediates transcriptional activation (36–38).
-
-
 Therefore, a mechanistic understanding of how ZLD activates
 transcription may help further define the functions of this large
 class of transcription factors.
-
 
 Because ZLD orthologs contain low-complexity regions and
 similarly activate transcription, it is likely that this shared feature provides the capacity to activate transcription. The poor
@@ -422,7 +362,6 @@ absence of any recognizable catalytic domains, and our data
 showing that ZLD-PD can dominantly suppress activation
 mediated by ZLD-PA cumulatively suggest that ZLD is activating transcription by interacting with a protein cofactor(s)
 through these low-complexity domains. Future studies identifying these cofactors and their function will be vital to understanding how ZLD mediates activation of the zygotic genome.
-
 
 It has been shown recently that, in addition to their well
 defined role as canonical pluripotency factors, Pou5f1, Sox2,
@@ -436,6 +375,3 @@ cofactors required possibly represent a common mode of
 zygotic genome activation. Therefore, our dissection of the
 functional domains of ZLD required for transcriptional activation is likely to provide important insights into the connection
 between genome activation and pluripotency.
-
-Acknowledgments—We thank Jack Werren, Brian Lazzaro, Sean Carroll, Francis Castellino, and Robert Tjian for reagents. We also thank
-Andrew Mehle, John Denu, and Richard Harrison for helpful discussions and critical reading of the manuscript.

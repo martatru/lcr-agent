@@ -8,8 +8,6 @@ mouse lung. However, certain PDE enzymatic activities were
 modulated by LPS. Although PDE2 activity was not altered
 (Fig. 1D), the activity of PDE3 was significantly increased
 (Fig. 1E), whereas PDE5 was significantly reduced (Fig. 1F).
-
-
 Furthermore, we identified dramatic changes in the levels of
 the second messenger levels cAMP and cGMP such that
 cAMP levels were significantly attenuated (Fig. 1G), whereas
@@ -37,8 +35,6 @@ dependent:
 MnTMPyP
 pretreatment
 significantly diminished this effect of LPS (Fig. 1, G and H).
-
-
 Moreover, MnTMPyP efficiently reversed the levels of PDE
 activities induced by LPS (Fig. 1, D–F), suggesting that
 peroxynitrite-dependent modifications of cyclic nucleotide
@@ -46,7 +42,6 @@ signaling exist in ALI.
 
 LPS-induced nitrosative stress modulates cyclic nucleotide–
 dependent protein kinase activity in the mouse lung
-
 
 Significant changes in PDE activities and cyclic nucleotide
 levels in the lungs of LPS-challenged mice may affect functions
@@ -61,11 +56,10 @@ Both PKG activity (Fig. 2, B and C) and PKA activity (Fig. 2E)
 were
 significantly
 decreased.
-
-
 Importantly,
 treatment
 of
+
 LPS-challenged mice with MnTMPyP attenuated the LPSinduced decrease in PKG and PKA activity (Fig. 2, B, C, and
 E) without any significant effect on their protein levels (Fig. 2,
 A and D). Together, these results indicate that nitrative stress
@@ -74,7 +68,6 @@ kinases in ALI.
 
 PKG-Iα nitration is increased in lung tissue of LPS-challenged
 mice
-
 
 LPS-induced signaling increased peroxynitrite levels in vivo,
 as determined by the oxidation of dihydrorhodamine 123
@@ -97,17 +90,15 @@ validated by our data showing that DHR123 oxidation and
 PKG-Iα nitration were attenuated by MnTMPyP (Fig. 3).
 
 Identification of a novel PKG-specific phosphorylation site in
-
-
 PDE3A involved in regulating PDE3A activity
+
 To study possible effects of PKG-Iα on PDE3A function, we
 first determined if a physical association exists between the
 two proteins. To accomplish this, we overexpressed PKG-Iα in
 HEK293T cells, and using immunoprecipitation (IP) analysis,
 we were able to demonstrate an association of PKG-Iα and
-
-
 PDE3A in a pulled-down protein complex, which may suggest
+
 an interaction between the enzymes (Fig. 4A). Furthermore,
 this association between PDE3A and PKG-Iα correlated with a
 decrease in PDE3 activity (Fig. 4B) and an increase in cAMP
@@ -141,8 +132,6 @@ in PDE3A. Using this antibody, we were able to demonstrate
 an increase in p-S654-PDE3A when PDE3A was coexpressed with
 PKG-Iα in HEK293T cells (Fig. 5D). Using this antibody, we
 were also able to detect an abundant phosphorylation of
-
-
 PDE3A at S654 in the mouse lung and importantly demonstrate
 that
 
@@ -158,9 +147,8 @@ role
 of PKG-Iα–mediated
 phosphorylation
 of
-
-
 PDE3A at S654, we generated a PDE3A mutant in which S654
+
 was replaced by alanine (S654A-PDE3A) and tested its
 
 functional regulation in vitro. myc-DDK-tagged wtPDE3A or
@@ -180,9 +168,6 @@ unidentified PKG-dependent phosphorylation site in PDE3A
 that negatively regulates PDE3A activity.
 
 --- Discussion ---
-
-
-
 Stimulation of soluble guanylate cyclases by nitric oxide or
 nitric oxide–independent activators leads to intracellular
 cGMP elevation and PKG-Iα activation. Moreover, soluble
@@ -208,35 +193,20 @@ cGMP signaling crosstalk via an inhibitory phosphorylation of
 the cAMP-degrading enzyme, PDE3A. The identified phosphorylation site, S654, is present in the C-terminal region of
 PDE3A. Furthermore, we have confirmed that S654 phosphorylation status is crucial for PDE3A activity and intracellular levels of cAMP. Mutation of S654 to A654 produced a
 PDE3A mutant insensitive to PKG-Iα regulation. Recently,
-
-
 PKA and PKC phosphorylation events have been identified in
 PDE3A that stimulate its activity (38–40). The respective
 phosphorylation sites, serine 312 (S312) and serine 428 (S428),
 are present in the common N-terminal sequences in the
-
-
 PDE3A1 and PDE3A2 splice variants, whereas the shorter
-
-
-
 PDE3A3 variant lacks the N-terminal region containing S312
+
 and S428 and cannot be modulated by PKA and PKC (40).
-
-
 Interestingly, PDE3A1 is mainly phosphorylated by PKA at
-
-
-
 S312, whereas PDE3A2 is mainly phosphorylated by PKC at
 S428. This difference in regulation determines further specificity in protein–protein interactions and PDE3A stability (40).
-
-
 In contrast, S654 is located in the common C-terminal region
 of PDE3A, and, therefore, all three variants of the PDE3A
 enzyme could be inhibited by PKG-Iα phosphorylation.
-
-
 However, further studies will be required to investigate this
 possibility.
 
@@ -265,13 +235,11 @@ modulation of cGMP-dependent cell signaling. PDE2 is
 cGMP-specific PDE, whereas PDE5 is cGMP-activated cAMPspecific PDE (28). Our data show a specific perturbance of
 cyclic nucleotide signaling in LPS-exposed lung tissues. We
 found that LPS exposure activated PDE3A and inhibited PDE5.
-
-
 As a result, cAMP levels are diminished, and cGMP levels are
+
 elevated. However, cGMP elevation did not result in PKG-Iα
 activation because of the inhibitory effect of a peroxynitriteinduced modification resulting in the nitration of the protein
 at Y247 nitration.
-
 
 PDE3 is one of the critical regulators of cAMP-dependent
 signaling cascades. It is rather unique among other cAMPspecific PDEs because of its very low Km toward cAMP as a
@@ -320,18 +288,14 @@ at least in part, through the resulting increase in PDE3A activity and the subse
 
 Basal cAMP levels are important in maintaining the endothelial barrier, and ALI-induced endothelial integrity loss is
 characterized by decreases in intracellular cAMP (14, 15) followed by inhibition of the barrier-protective effectors PKA and
-
-
 Epac-1 as well as small GTPase, Rac-1, all of which have been
 shown to be critical for maintaining endothelial integrity (55).
-
-
 Furthermore, our data suggest that under normal physiological
 conditions, PKG-Iα controls basal levels of cAMP. The protective effects of peroxynitrite scavenging in our experiments
 suggest a link between decreased PKG-Iα tyrosine nitration
 and the recovery of basal levels of cAMP.
 
---- Thus, in conclusion, we have elucidated a novel aspect of ---
+Thus, in conclusion, we have elucidated a novel aspect of
 intracellular
 cAMP
 regulation

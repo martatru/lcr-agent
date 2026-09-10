@@ -1,6 +1,4 @@
---- Modulate Transcription Factor Activity
-
-SUMMARY ---
+--- SUMMARY ---
 Excessive expansions of glutamine (Q)-rich repeats
 in various human proteins are known to result in severe neurodegenerative disorders such as Huntington’s disease and several ataxias. However, the
 physiological role of these repeats and the consequences of more moderate repeat variation remain
@@ -25,9 +23,11 @@ functional domains that modulate a regulator’s
 innate function, with the inherent risk of pathogenic
 repeat expansions.
 
---- RESULTS
+--- RESULTS ---
 
-Glutamine-Rich Transcription Factors Promote Target ---
+
+
+Glutamine-Rich Transcription Factors Promote Target
 
 
 
@@ -61,7 +61,6 @@ variation across multiple time scales, the targets of Q-rich TFs
 still show higher expression divergence and variability and higher
 mutational variance than targets of NR-TFs (Figure S1B).
 
-
 While the targets of NR-TFs are enriched in processes related
 to gene-expression, those of Q-rich TFs were enriched for metabolic processes (Figure S2B). This prompted us to investigate
 
@@ -92,7 +91,6 @@ region, comprised of an array of QA repeats directly followed
 by a polyQ stretch (residues 493–587), referred to as TR2
 (Figure 2A).
 
-
 To check for variability in the SSN6 repeats, we sequenced
 both repeat regions in a number of genetically and ecologically
 diverse S. cerevisiae strains (Liti et al., 2009) (Figures 2B and
@@ -105,8 +103,6 @@ the Ssn6 Q-rich repeat is typical for repeats in regulatory
 proteins.
 
 To investigate the direct consequences of SSN6 repeat variation, we created a series of variants of the SSN6 TR1 and TR2 regions in the reference yeast strain Sigma1278b (Figure 2D).
-
-
 These variants included natural repeat lengths, as well as
 extremely short and long forms. This set of mutants allowed us
 to explore the outcomes of natural variability, as well as complete loss or long expansions of Q-rich repeats in Ssn6 controlled
@@ -141,7 +137,6 @@ in the TR2-105 variant is comparable to the TR2-0 variant for a
 subset of genes (Figure 3A, right). We confirmed these expression patterns by performing real-time qPCR measurements on
 seven target genes (Figure S4A).
 
-
 Functional enrichment analysis revealed that the genes whose
 expression shows a direct correlation with TR2 (Group 1) during
 carbon starvation are mostly involved in alternative carbon transport and metabolism, including key genes of gluconeogenesis
@@ -159,12 +154,9 @@ TR2-0 or TR2-105 variants (Table S4), suggesting a response
 of the protein folding machinery to deletion or expansion of the
 Ssn6 repeat.
 
-
 Using published datasets on protein-protein, protein-DNA,
 and metabolic interactions, we constructed a network between
 SSN6 (CYC8) and its targets identified by RNA-seq (Figure 3B).
-
-
 This network shows that most targets are connected to SSN6
 through direct protein-DNA interactions with TFs (CIN5, PHD1,
 YAP6, NRG1, and SUT1) that act as hub proteins connected to
@@ -176,8 +168,9 @@ that most genes identified by our RNA-seq could be included in
 an interaction network, suggests that these genes are bona fide
 SSN6 targets and that the observed changes in their expression
 are most likely a direct consequence of changes in the number of
-SSN6 TR2.
 
+
+SSN6 TR2.
 To investigate whether this variation in gene expression under
 changing nutrient availability has phenotypic consequences, we
 measured growth of the TR2 variants in alternative carbon or nitrogen sources using the Phenotype MicroArrays (Biolog). While
@@ -193,7 +186,6 @@ right) and growth in the presence of a-Amino-N-Valeric Acid
 (Norvaline) as the sole nitrogen source is anti-correlated with
 TR2 number (Figure 3D).
 
-
 We next analyzed the SSN6 TR2 variants for phenotypes
 associated with FLO11 and IMA1, two target genes (highlighted
 in Figure 3B) that underlie very specific and quantifiable phenotypes: FLO11 mediates complex colony morphology (induced
@@ -205,6 +197,8 @@ disaccharide) (Brown et al., 2010; Voordeckers et al., 2012a).
 
 All
 the
+
+
 Flo11-related
 phenotypes
 presented
@@ -218,12 +212,9 @@ with increasing TR2 number. On the other hand, the Ima1-
 dependent growth rates on palatinose closely follow Ima1 levels
 in these TR2 variants (Figure 4D). Together, this analysis demonstrates that Ssn6 TR2 variation results in changes in the
 expression levels of its target genes and also results in corresponding changes in fitness in different nutrient environments.
-
-
 Moreover, these transcriptomics and phenotypic data are in
 keeping with the results of the genome-scale analysis showing
 that the targets of Q-rich TFs are enriched in metabolic processes (Figure S2B).
-
 
 To confirm that Q-rich repeats can be functional domains in
 transcriptional regulators and that our main observations are
@@ -237,10 +228,10 @@ what we observed with Ssn6.
 
 
 Variable SSN6 Repeats Contribute to Target Expression
+
+
+
 Noise
-
-
-
 We next asked whether SSN6 repeat variability affects the
 expression noise of its targets (i.e., stochastic cell-to-cell differences in gene expression), as suggested by our genome-scale
 observations (Figure 1B). We grew fluorescent reporter strains
@@ -300,9 +291,8 @@ To assess whether Ssa2 is required for proper Ssn6 functioning, we deleted this 
 strains. In general, we observed higher FLO11 levels in the
 Dssa2 background relative to the parental strains, indicative of
 a loss of (repressive) Ssn6 function (Figure 5°C). The most dramatic functional change is observed in the TR2-105 variant,
-where median flo11::YFP levels increase 20-fold in the
+where median flo11::YFP levels increase 20-fold in the
 absence of Ssa2 and become homogeneous within the population (less expression noise) (Figure 5°C).
-
 
 The involvement of Ssa2 points to a TR2-dependent effect on
 the conformational dynamics of Ssn6. Aggregation is an intrinsic
@@ -312,13 +302,10 @@ whether Ssn6 formed inclusions. We did not detect any inclusions in actively div
 reached the stationary phase, the TR2-105 variant formed
 nuclear inclusions visible as bright foci (Figure 5D). Notably,
 deletion of Ssa2 leads to an increase in fluorescent foci in the
-
-
 TR2-105 variant and even the appearance of foci in the WT as
 well as in the TR2-0 variant (Figure 5D). This suggests that
 Ssa2 maintains proper Ssn6 folding and counteracts its intrinsic
 property to aggregate. We did not detect any change in the subcellular localization of Ssn6-YFP in any TR2 variant (not shown).
-
 
 Under specific experimental conditions, Ssn6 can misfold into
 self-templating prion-like amyloid fibers (Patel et al., 2009). To
@@ -334,14 +321,11 @@ regression test. Data points represent mean ± SD, n = 3.
 determine whether the TR2-105 inclusions were prion aggregates, we devised a strategy to detect protein-only (i.e., nonmendelian) inheritance typical of prions. We crossed the TR2-
 105 variant with the TR2-0 variant or with the WT strain and
 scored the progeny for its colony morphology on YP-sucrose.
-
-
 TR2-105 colonies are smooth, TR2-0 very wrinkled, and TR2-
 63 moderately wrinkled on YP-sucrose. In both crosses, the
 morphology of the resulting progeny followed 2:2 segregation
 (Figure S6B), indicating mendelian inheritance of phenotype
 and ruling out Ssn6 prionization under these conditions.
-
 
 To provide direct biochemical evidence that repeat expansion
 results in misfolding and aggregation of Ssn6, we performed an
@@ -370,7 +354,7 @@ modulates the interaction of Ssn6 and its partner Tup1 and maintains a balance b
 Ssn6 and that Ssa2 is critical for maintaining a functional Ssn6.
 
 --- DISCUSSION ---
-TRs are present in 20% of genes in the human genome, yet
+TRs are present in 20% of genes in the human genome, yet
 their functional significance is still not fully understood. In this
 study, we provide a detailed and direct investigation of the
 outcome of Q-rich repeat variation in a physiological context.
@@ -379,7 +363,6 @@ of repeats in the transcriptional regulator SSN6 (CYC8) to mimic
 the natural repeat variation as well variations outside the natural
 range. We provide evidence that even moderate variations in
 Ssn6 repeat number result in detectable functional changes.
-
 
 These are likely caused by changes in Ssn6 solubility and
 interaction with other proteins, including its prime partner Tup1
@@ -403,15 +386,13 @@ in expression changes of its direct targets (Figure 3A).
 
 Interestingly, expression of some Ssn6 targets directly correlates with its TR2 length, whereas the expression of other targets
 follows an inverse trend. This is likely due to the fact that the
-
-
 Ssn6-Tup1 complex acts as a transcriptional repressor for
 some targets (Smith and Johnson, 2000) and a co-activator for
 others (Papamichos-Chronakis et al., 2002; Wong and Struhl,
 2011). In line with these observations, we find that 22 of the 37
-(60%) genes whose expression shows a positive correlation
+( 60%) genes whose expression shows a positive correlation
 with SSN6 TR2 number (Group 1) have Cat8 and/or Adr1 binding
-sites in their promoters (Tachibana et al., 2005). These are carbon-responsive transcriptional activators required for transcription in low glucose. On the other hand, 17 of the 29 (60%)
+sites in their promoters (Tachibana et al., 2005). These are carbon-responsive transcriptional activators required for transcription in low glucose. On the other hand, 17 of the 29 ( 60%)
 genes whose expression follows an opposite trend to increasing
 SSN6 TR2 (Group 2) contain Phd1 (or its homolog Cin5) and/or
 Nrg1 sites in their promoters. The network analysis further demonstrates how Ssn6 can act as a master regulator controlling the
@@ -422,11 +403,8 @@ in similar changes in its target gene expression, suggesting
 that our observations for Ssn6 may represent a general
 phenomenon.
 
-
 The almost identical response of diverse targets to SSN6
 repeat variation points to a common underlying mechanism.
-
-
 We found that Ssn6 solubility and its interaction with Tup1
 depend on its TR2 length and that the helical conformation
 of TR2 is essential for Ssn6 function (Figures 5F and 5G).
@@ -439,7 +417,7 @@ mean fluorescence; i.e., magnitude of variability as a percentage of expression 
 microscopy.
 (D) Adhesion to plastic and flocculation intensity correlate with FLO11 expression levels. Data points represent mean ± SD, n = 2. Colony morphologies of the
 SSN6 TR2 variants show a graded variation in complexity on YP-sucrose. The agar invading capacity is also TR2-length dependent. Cultures were spotted on
-YPD plates and pictures taken after 11 days of growth at 30C (pre-wash). The plates were then washed under water to remove non-agar-invading cells (postwash). Growth rates in palatinose correlate with IMA1 expression. Data points represent mean ± SD, n = 3.
+YPD plates and pictures taken after 11 days of growth at 30°C (pre-wash). The plates were then washed under water to remove non-agar-invading cells (postwash). Growth rates in palatinose correlate with IMA1 expression. Data points represent mean ± SD, n = 3.
 
 that increases the solubility of Ssn6 and also allows its flanking domains to come to spatial proximity, similar to the polyQ
 domain of huntingtin (Caron et al., 2013). Repeat shortening
@@ -472,8 +450,6 @@ Contribution of Unstable Q-Rich Repeats to Phenotypic
 
 Diversity and Evolvability
 Expression divergence is key to the emergence of variable phenotypes. Here we provide evidence that links SSN6 repeatdependent gene expression variation to phenotypic diversity.
-
-
 The Ssn6 TR2 variants show clear differences in fitness when
 grown on alternative carbon or nitrogen sources (Figure 3D).
 Importantly, these changes in fitness mirror the expression patterns of key metabolic genes induced during nutritional shifts
@@ -498,8 +474,6 @@ between variation in TRs and phenotypes (Gemayel et al., 2010).
 A key study by Fondon and Garner (2004) implicated variable repeats in the regulatory gene Runx-2 as mediators of morphological evolution in domestic dogs. In Arabidopsis thaliana, variation
 in polyQ repeats of ELF3, a component of the circadian clock,
 also leads to morphological changes (Undurraga et al., 2012).
-
-
 Interestingly, in the human, mouse, and fly genomes, polyQ
 tracts are preferentially encoded by pure CAG repeats (Schaefer
 
@@ -513,9 +487,6 @@ Understanding the Pathogenesis of Polyglutamine
 
 
 Repeat Expansions
-
-
-
 While our study primarily describes the physiological role of
 polyQ repeats, there are also links to polyQ expansion pathogenesis. First, our study shows how repeat variation in a regulator
 leads to changes in the expression of downstream targets and
@@ -549,7 +520,7 @@ we observe increased aggregation of expanded Ssn6 (TR2-
 105). These findings highlight the importance of molecular chaperones in counteracting the pathogenesis of polyQ expansions
 and consolidate the emerging notion that bolstering the proteostasis system might be a therapeutic target for neurodegenerative diseases (Tsvetkov et al., 2013).
 
---- In summary, our study establishes a direct link between ---
+In summary, our study establishes a direct link between
 Q-rich repeat variation and changes in transcription regulator
 function and demonstrates that repeats may be more than
 just potentially harmful elements in genomes. Instead, by

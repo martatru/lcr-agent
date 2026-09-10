@@ -1,9 +1,4 @@
---- Domain Protein Mmi1
-
-SUMMARY ---
-
-
-
+--- SUMMARY ---
 Ccr4-Not is a conserved protein complex that
 shortens the 30 poly(A) tails of eukaryotic mRNAs
 to regulate transcript stability and translation into
@@ -27,9 +22,11 @@ our results support a model whereby both RNAbinding proteins and the sequence co
 mRNAs influence deadenylation rate to regulate
 gene expression.
 
---- RESULTS
+--- RESULTS ---
 
-Purification of Native Yeast Ccr4-Not Complexes ---
+
+
+Purification of Native Yeast Ccr4-Not Complexes
 To investigate the biochemical activity and specificity of Ccr4-
 Not, we required purified proteins. Thus, we isolated the endogenous complex from Saccharomyces cerevisiae using a tandem
 affinity purification (TAP) approach. Preparations from a yeast
@@ -37,7 +34,6 @@ strain where the Caf40 subunit was TAP tagged yielded a purified Ccr4-Not comple
 SDS-PAGE and mass spectrometry (Figure 1B). Both Caf130
 and Not3 were present in substoichiometric amounts. This heterogeneity would complicate the interpretation of biochemical
 assays.
-
 
 We examined the sequences of the protein subunits and found
 that many of the S. cerevisiae orthologs contain glutamine/
@@ -76,22 +72,30 @@ Not1
 
 
 Not3
-Ccr4
 
+
+
+Ccr4
 75
 
-Mot2
-Mmi1
 
+Mot2
+
+
+
+Mmi1
 50
 
-Caf1
-Not2
 
+Caf1
+
+
+
+Not2
 37
 
-Rcd1-TAP
 
+Rcd1-TAP
 25
 *
 *
@@ -110,12 +114,9 @@ are not fully homogeneous (Goldstrohm et al., 2006, 2007; Jeske
 et al., 2006). Similarly, the yield and purity of our preparations of
 endogenous Ccr4-Not from S. cerevisiae or S. pombe were inadequate for detailed biochemical analyses.
 
-
 Other studies on Ccr4-Not activity used recombinant nuclease
 subcomplexes (e.g., Fabian et al., 2013; Hook et al., 2007;
 Jonstrup et al., 2007; Maryati et al., 2015; Wang et al., 2010).
-
-
 However, pull-down studies and crystal structures containing
 short fragments of the RNA-binding proteins TTP and Nanos
 reveal that they both interact with the Ccr4-Not scaffold protein
@@ -135,18 +136,24 @@ complex per liter of culture (Figures 2B and 2°C). The purified
 complex contains all seven subunits. Examination of the band intensities suggests that all subunits are present in equal stoichiometry. Tandem mass spectrometry analysis of the purified
 sample showed that there are no contaminating insect cell subunits or exonucleases (Figure S2A). Size exclusion chromatography coupled with multi-angle light scattering (SEC-MALS)
 
-
 A
 
 polh
+
+
 SV40
 
-Tn7L
-Tn7R
 
+
+Tn7L
+
+
+
+Tn7R
 ccr4
 caf1 rcd1
 not1
+
 
 LoxP
 Not1/nuclease module
@@ -159,58 +166,63 @@ mot2
 
 
 LoxP
-
 NOT module
+
 kDa:
 
 250
-
 
 B
 
 D
 
 C
-Purification 
+
+
+Purification
+
+
 
 Not1
-
 150
 
 scheme
 
-Streptactin
 
+Streptactin
 100
 
 
-
 Not3
-Ccr4
 
+
+
+Ccr4
 75
 
 Anion exchange
 
-Mot2
 
+Mot2
 50
 
-Not2
-Caf1
 
+Not2
+
+
+
+Caf1
 37
 
-
-
-Size exclusion 
+Size exclusion
 chromatography
 
-Rcd1
 
+Rcd1
 25
+
 demonstrated that the purified complex has a molecular weight
-of 0.5 MDa and is monodisperse in solution (Figure 2D). This is
+of 0.5 MDa and is monodisperse in solution (Figure 2D). This is
 in agreement with the theoretical mass of the seven subunits in
 unit stoichiometry.
 
@@ -224,7 +236,6 @@ A30; Figure 3A). A similar RNA substrate has been used previously to study the i
 be unstructured (Figure S3A) (Jonstrup et al., 2007). We assayed
 changes in the length of the poly(A) tail with denaturing PAGE.
 
-
 Recombinant Ccr4-Not was active and efficiently removed the
 30 poly(A)30 tail in less than 24 min (Figure 3A). It did not substanIn vitro Cre-Lox recombination
 
@@ -234,35 +245,35 @@ adherent Sf9 culture
 
 Transfer vector
 
-
-
 Virus amplification in
 
 suspension culture
+
 
 Bacmid
 
 
 
-Infection of 
+Infection of
 expression culture
+
 1.0
 
-1.0 × 106 
+1.0 × 106
 
 Theoretical = 546 kDa
 
-
 Normalised refractive index
+
 Measured = 543 kDa
 
 Molar mass (Da)
 
-3.2 × 105 
+3.2 × 105
 
 0.5
 
-1.0 × 105 
+1.0 × 105
 
 10
 15
@@ -282,17 +293,22 @@ is specific for the 30 poly(A) tail.
 
 
 Intact Ccr4-Not Is More Active Than the Exonucleases
+
+
+
 Alone
 We next compared the activity of the full recombinant complex to
 that of the nucleases alone. The two exonuclease subunits Ccr4
 and Caf1 have been shown to interact directly through the
 
-
 A
 
 20merA30
 
+
 -CAGCUCCGCAUCCCUUUCCC - A30
+
+
 
 Marker
 Time (min)
@@ -303,8 +319,8 @@ Ccr4–Not
 
 A30–
 
-
 A0
+
 –
 
 B
@@ -312,15 +328,13 @@ B
 Time (min)
 0 2 4 6 8 12 16 24 32 48 64
 
-
 Nuclease module
+
 A30–
 
 A0–
 
 leucine-rich repeat (LRR) domain of Ccr4 (Basquin et al., 2012).
-
-
 We purified the Caf1-Ccr4 heterodimeric complex and found
 that it migrates as a single species using size exclusion chromatography (Figure S4). We tested the recombinant Caf1-Ccr4
 complex for the ability to remove a 30-mer poly(A) tail using
@@ -338,14 +352,11 @@ To determine the contributions of each of the two nucleases to
 deadenylation within the context of the entire complex, we
 cloned, co-expressed, and purified complexes that contained
 single-point mutations in either Caf1 (D53A) or Ccr4 (E387A).
-
-
 These mutations have been shown to disrupt the co-ordination
 of magnesium in the active sites, rendering the nucleases inactive (Jonstrup et al., 2007; Wang et al., 2010). Intriguingly,
 when we tested the deadenylation activity using the same
 20-mer-A30 substrate as described earlier, there was little
 change in the activity of either mutant complex compared to
-
 
 C
 
@@ -367,7 +378,6 @@ Ccr4–Not
 A30–
 
 A0–
-
 
 D
 
@@ -401,15 +411,12 @@ RNA elements in target transcripts known as DSRs (determinants of selective remo
 occurs through multiple mechanisms, including heterochromatin
 formation and RNA decay (Harigaya et al., 2006; Hiriart et al.,
 2012; McPheeters et al., 2009; Sugiyama and Sugioka-Sugiyama, 2011; Zofall et al., 2012). Upon entry into meiosis,
-
-
 Mmi1 is sequestered by binding a series of DSR elements in
 
 A
 
-
-
 B
+
 
 A30
 rec8 UUAAAC
@@ -430,35 +437,44 @@ kDa:
 
 
 Not1
-
 150
 
 100
+
 A0–
 
 
 Not3
-Ccr4
 
+
+
+Ccr4
 75
+
 Time (min)
 0 2 4 6 8 12 16 24 32 48 64
 
 
 Mot2
+
+
+
 Mmi1
 Mmi1-Ccr4–Not
 A30–
 
-
 50
 
-Not2
-Caf1
 
+Not2
+
+
+
+Caf1
 37
 
 25
+
 
 Rcd1
 A0–
@@ -468,12 +484,9 @@ transcripts, restoring their expression and resulting in large
 changes in transcriptional and post-transcriptional programs
 (Cremona et al., 2011; Mata et al., 2002).
 
-
 To determine whether recombinant Ccr4-Not binds Mmi1 like
 the native complex, we generated a new expression strategy to
 combine Mmi1 with the fully assembled Ccr4-Not in a single recombinant baculovirus expressing all eight genes (Figure S5A).
-
-
 Using the same purification procedure described earlier, Mmi1
 co-purified with the complex in approximately stoichiometric
 quantities (Figure 4A). Thus, Mmi1 binds Ccr4-Not stably and
@@ -482,6 +495,9 @@ purification.
 
 
 Mmi1 Accelerates Deadenylation of Target RNAs by
+
+
+
 Ccr4-Not
 Mmi1 contains a YTH domain—an RNA-binding domain found in
 a variety of eukaryotic proteins (Stoilov et al., 2002; Zhang et al.,
@@ -493,13 +509,11 @@ UNAAAC motif within DSRs and is not specific for m6A (Harigaya
 et al., 2006; Kilchert et al., 2015; Wang et al., 2016; Yamashita
 et al., 2012).
 
-
 Mmi1 is the only RNA-binding protein that co-purified with
 native Ccr4-Not in large quantities (Figure 1°C). Since Mmi1
 interacts with specific RNAs and with Ccr4-Not, it could act
 as a model for the numerous specificity factors that target
 certain RNAs.
-
 
 Thus, to investigate the molecular mechanisms by which
 intact Ccr4-Not deadenylates specific RNAs, we tested the activity of Mmi1-bound Ccr4-Not. We used an RNA substrate con-
@@ -510,10 +524,8 @@ aining 26 nt of a rec8 DSR (rec8UUAAAC-
 A30), an in vivo target of Mmi1 (Figures
 4B and S3B) (Harigaya et al., 2006).
 Mmi1 substantially accelerates deadenylation of this target RNA substrate (Figure 4B). The rate of deadenylation is
-increased by 5-fold (Figure S5D). In
+increased by 5-fold (Figure S5D). In
 addition, Mmi1 appears to increase the processivity of Ccr4-
-
-
 Not, since completely deadenylated product appears before
 the disappearance of RNAs with long poly(A) tails (Figure 4B,
 4 min). These experiments suggest that Mmi1 facilitates Ccr4-
@@ -524,14 +536,11 @@ t-
 
 
 Ccr4-Not Has an Intrinsic Preference for Certain RNAs
-Unexpectedly, apo Ccr4-Not has reduced activity on the DSRcontaining rec8UUAAAC-A30 RNA substrate relative to the unstructured 20-mer-A30 (2-fold; Figures S5B and S5°C). The
+Unexpectedly, apo Ccr4-Not has reduced activity on the DSRcontaining rec8UUAAAC-A30 RNA substrate relative to the unstructured 20-mer-A30 ( 2-fold; Figures S5B and S5°C). The
 rec8UUAAAC-A30 RNA is predicted to form a hairpin (Figure S3B).
-
-
 Furthermore Ccr4-Not shows slightly reduced activity on the
 poly(A)30 RNA lacking an upstream region (Figure S2E). This suggests that the sequence or secondary structure upstream of the
 poly(A) tail influences the activity of Ccr4-Not directly, independent of the presence of additional RNA-binding proteins.
-
 
 To test this, we designed DNA oligos that anneal to the
 20-mer-A30 RNA and tested the ability of Ccr4-Not to deadenylate these heteroduplex substrates (Figure 5). Relative to the
@@ -544,18 +553,14 @@ the complex is halted at the start of the heteroduplex (Figures 5B
 and S6B). Deadenylation is abrogated when the entire substrate
 is made a heteroduplex (Figure 5°C).
 
-
 In vivo, such duplex regions could arise if U-rich sequences
 are upstream of the poly(A) tail. To test Ccr4-Not activity on
 such a substrate, we designed a 53-mer RNA comprising a
 23-nt U-rich region upstream of a 30-nt poly(A) tail (Figure S3D). Ccr4-Not activity was reduced on this U-rich-A30
-
-
 RNA, compared to the unstructured 20-mer-A30 substrate,
 
 A
 B
-
 
 
 Time
@@ -564,6 +569,7 @@ Time
 
 -A30
 20mer
+
 
 -A10
 20mer
@@ -574,9 +580,8 @@ Time
 Oligo1 20mer
 Oligo2 30mer
 
-
-
 C
+
 
 Time
 (min)
@@ -586,6 +591,7 @@ Time
 -A30
 20mer
 
+
 -A10
 20mer
 
@@ -593,9 +599,9 @@ Time
 20mer
 
 Oligo3 50mer
+
 and it was unable to remove the entire A30 tail (Figures 5D, S6°C,
 and S6D).
-
 
 Taken together, these data show that Ccr4-Not cannot unwind
 nucleic acid duplexes that would arise due to base pairing of the
@@ -606,13 +612,7 @@ RNA specificity factors.
 
 
 Mmi1 Accelerates Deadenylation in a SequenceSpecific Manner
-
-
-
 In our assays, Mmi1 accelerated Ccr4-Not deadenylation of
-
-
-
 DSR-containing RNA to a greater extent than the unrelated
 non-target 20-mer-A30 RNA. Still, the deadenylation rate of
 Mmi1-Ccr4-Not (compared to apo Ccr4-Not) is slightly increased on the non-target unstructured 20-mer-A30 RNA (Figures S5B and S5D).
@@ -632,6 +632,7 @@ disrupt binding (Figure 6B, black curves).
 -A30
 20mer
 
+
 -A10
 20mer
 
@@ -639,21 +640,21 @@ disrupt binding (Figure 6B, black curves).
 20mer
 
 D
+
 0 2 4 6 8 12 16 24 32 48 64 M
 
 
 -A30
 20mer
 
+
 -A10
 20mer
 
-Upstream U-rich
 
+Upstream U-rich
 -A0
 20mer
-
-
 
 We evaluated the sequence specificity of this interaction by
 measuring the change in fluorescence polarization with DSR
@@ -662,10 +663,10 @@ shown that the As in positions 3, 4, and 5 of the DSRs are almost
 invariant (Kilchert et al., 2015; Yamashita et al., 2012). We found
 that pyrimidine substitution of the central adenosines decreased
 the affinity of Mmi1 YTH for DSR RNA: substituting a single
-central adenosine decreases the affinity 2-fold, whereas
+central adenosine decreases the affinity 2-fold, whereas
 substituting all three As to pyrimidines decreases the affinity
-6-fold (Figure 6°C). In comparison, substitutions in the second
-or sixth position have little effect on the KD, while the 20-mer unstructured RNA binds weakly, with a KD of 14 mM (Figures S7B
+6-fold (Figure 6°C). In comparison, substitutions in the second
+or sixth position have little effect on the KD, while the 20-mer unstructured RNA binds weakly, with a KD of 14 mM (Figures S7B
 and S7°C).
 
 These affinity measurements showed that changes in the central As of the DSR sequence impair the binding of Mmi1. We
@@ -680,16 +681,16 @@ Mutation of the central As disrupts the hairpin loop in the upstream region (Fig
 by Ccr4-Not without Mmi1, compared to the wild-type DSR.
 The small Mmi1 stimulation on this RNA may be similar to the effect of Mmi1 on the deadenylation of the 20-mer-A30 substrate
 
-
 A
 
 B
 
 200
 
-rec8 UUAAAC 
+rec8 UUAAAC
 
 Fluorescence polarization
+
 Kd= 226 ± 15 nM
 
 150
@@ -706,8 +707,6 @@ rec8 UUCUCC CUCUUUCUCCCUACAAAGC–
 
 63nM
 250nM
-
-
 1 M
 4 M
 0
@@ -752,22 +751,16 @@ Interaction with Ccr4-Not and Stimulation of
 
 
 Deadenylation Activity
-The YTH domain of Mmi1 is preceded by an 35-kDa amino-terminal low-complexity (serine-rich) region (Figure S7A). Since the
-
-
+The YTH domain of Mmi1 is preceded by an 35-kDa amino-terminal low-complexity (serine-rich) region (Figure S7A). Since the
 YTH domain of Mmi1 is sufficient for RNA binding, we tested
 whether it is also sufficient to accelerate deadenylation by
 Ccr4-Not. Addition of an equimolar amount of the purified
-
-
 Mmi1 YTH domain to Ccr4-Not did not stimulate the rate of
 deadenylation (Figure 7A; compare with Figure 4B). This suggests that the low-complexity N-terminal region is required for
 Mmi1 activity.
 
-
 To determine whether the YTH domain binds to Ccr4-Not
 directly, we performed analytical size exclusion chromatography. Ccr4-Not and the YTH domain did not co-elute (Fig-
-
 
 C
 
@@ -778,6 +771,7 @@ Fluorescence polarization
 150
 
 rec8 UUACAC
+
 Kd= 460 ± 25 nM
 
 100
@@ -786,7 +780,7 @@ Kd= 460 ± 25 nM
 
 50
 
-rec8 UUCUCC 
+rec8 UUCUCC
 
 10μM competitor
 
@@ -794,13 +788,12 @@ Kd= 1370 ± 140 nM
 
 63nM
 250nM
-
-
 1 M
 4 M
 0
 
 Protein concentration
+
 Time (min)
 0 2 4 6 8 12 16 24 32 48 64
 
@@ -826,7 +819,6 @@ able to stimulate deadenylation activity. Instead, addition of
 excess YTH domain inhibits Mmi1-Ccr4-Not, likely by preventing
 Mmi1-DSR interactions (Figures S5°C and S5D).
 
-
 Finally, we used truncation mutants of Mmi1 to determine
 which part of the protein is essential for interaction with Ccr4-
 Not. We co-expressed these truncations with Ccr4-Not in Sf9
@@ -837,25 +829,22 @@ to eliminate binding (Figure 7°C). Thus, the extreme N terminus
 of Mmi1 is required for interaction with Ccr4-Not.
 
 --- DISCUSSION ---
-
-
-
 Here, we describe a fully recombinant Ccr4-Not complex that
 acts as an active deadenylase in vitro. Moreover, we reconstitute
 targeted deadenylation using the RNA-binding protein Mmi1 as a
-
 
 40
 
 A
 
 B
-Ccr4-Not + Mmi1[YTH]
 
+Ccr4-Not + Mmi1[YTH]
 
 30
 
 Absorbance 280nm
+
 Time (min)
 0
 2
@@ -880,28 +869,43 @@ A0–
 rec8 UUAAAC-A30
 
 0°C
-
-
 Full length
 57-488
 109-488
 142-488
+
+
 Mmi1:
 
 
-Eluate
 
 Eluate
+
+
+
+Eluate
+
+
 
 Beads
 
+
+
 Beads
+
+
 
 Eluate
 
+
+
 Eluate
 
+
+
 Beads
+
+
 
 Beads
 
@@ -909,9 +913,15 @@ Beads
 
 Load
 
-Load
+
 
 Load
+
+
+
+Load
+
+
 
 Load
 kDa:
@@ -945,7 +955,6 @@ by multiple factors. Many associated binding proteins interact
 with Ccr4-Not, often via the Not1 scaffold protein. Our fully recombinant system will facilitate dissection of the effects of these
 various factors on complex activity.
 
-
 Previous work characterized the activities of the individual
 nuclease subunits. This showed that both Caf1 and Ccr4 are ribonucleases highly specific for adenosine (Andersen et al., 2009;
 Wang et al., 2010). Our data with the intact complex also shows
@@ -956,7 +965,6 @@ the isolated enzymes show relatively low activities with a 10- to
 (Jonstrup et al., 2007; Wang et al., 2010). Increased activity in
 the context of the intact complex could be due to allosteric activation or stabilization of the nucleases, or an RNA-binding surface contributed by other complex components. Interestingly,
 
-
 Peak 1
 Peak 2
 
@@ -964,15 +972,16 @@ Peak 1
 Peak 2
 
 M
+
 kDa:
 
 
 YTH
-
 250
 150
 100
 75
+
 Ccr4–Not
 Ccr4–Not + YTH
 
@@ -993,7 +1002,6 @@ Ccr4–Not
 
 Retention volume (ml)
 
-
 D
 
 A
@@ -1003,28 +1011,28 @@ A
 AA
 
 A
+
 Ccr4–Not
 
-
-Single stranded 
+Single stranded
 RNA binding
 
-Specificty 
+
+Specificty
+
+
 
 RBD
-
 factor
 
-
-
-RNA target 
+RNA target
 
 sequence
 
 mRNA
+
 both Caf1 and Ccr4 are active in our intact complex—it remains
 unclear whether they have alternative functions in vivo or in specific situations.
-
 
 Interestingly, even in the absence of an RNA adapter, our
 in vitro system shows that the deadenylation activity of Ccr4-
@@ -1048,13 +1056,10 @@ to Ccr4-Not’s intrinsic RNA preference, but further experiments
 will be required to understand the molecular basis of sequence
 dependence on deadenylation activity.
 
-
 An advantage of utilizing the entire Ccr4-Not complex is the
 ability to assay activity with RNA-binding protein adapters. Previously, it was shown that a partially purified native Ccr4-Not
 complex from S. cerevisiae is recruited to specific RNAs by
 Puf proteins (Goldstrohm et al., 2006; Hook et al., 2007). Similarly to Mmi1, this showed an acceleration of deadenylation.
-
-
 However endogenous complex preparations yield low amounts
 of material, contain substoichiometric components, and are
 contaminated with other host protein factors. Our recombinant
@@ -1068,8 +1073,6 @@ sequencing (RNA-seq) experiments show that Mmi1 regulates
 expression of many mRNAs and non-coding RNAs (Kilchert
 et al., 2015). This indicates that Mmi1 plays a more general
 role in RNA repression and is not limited to meiotic transcripts.
-
-
 Still, the molecular mechanisms governing Mmi1-mediated
 repression are not well understood.
 
@@ -1081,34 +1084,23 @@ the N-terminal low-complexity region, Mmi1 likely tethers DSRcontaining RNAs tha
 RNAs by Ccr4-Not in vitro, and there is a correlation between this
 activity and the affinity of the YTH domain for RNA.
 
-
 Interestingly, many of the RNAs that co-purify with Mmi1 in
-
-
-
 RNA immunoprecipitation experiments also co-purify with the
 Ccr4-Not complex, suggesting a possible functional link (Cotobal et al., 2015). Importantly, recruitment of Ccr4-Not to these
 mRNAs is lost in mmi1D cells (Cotobal et al., 2015), in agreement
 with our results that Mmi1 acts as a specificity factor in vitro.
 Another recent study also showed that Mmi1 associates with purified native Ccr4-Not from S. pombe (Ukleja et al., 2016).
-
-
 Together, this suggests that Mmi1 could act as a specificity
 factor for Ccr4-Not, targeting specific mRNAs for robust
 deadenylation. Future work will dissect the connections between
-
-
 Mmi1-mediated deadenylation, heterochromatin formation, and
 mRNA repression.
-
 
 In addition to Mmi1, recent work suggests that other YTH
 domain proteins may also be involved in RNA decay. For
 example, mammalian YTHDF2 binds m6A-containing mRNAs
 with a C-terminal YTH domain (Wang et al., 2014). A lowcomplexity N-terminal region likely targets the bound RNA for
 deadenylation by Ccr4-Not (Du et al., 2016). The S. cerevisiae
-
-
 YTH-domain protein Pho92 regulates mRNA stability of genes
 involved in phosphate signal transduction, including the Pho4
 transcription factor (Kang et al., 2014). Pho92 co-immunoprecipitates with Caf1 (Kang et al., 2014). Thus, YTH proteins are linked
@@ -1119,6 +1111,9 @@ processes.
 
 
 RNA-Binding Adapters Tether Substrate RNAs to
+
+
+
 Ccr4-Not
 Artificially tethering Ccr4-Not to reporter RNAs in vivo results in
 their deadenylation (Cooke et al., 2010; Finoux and Se ́ raphin,

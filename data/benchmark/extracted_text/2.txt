@@ -30,7 +30,6 @@ polyQ stretches32. Although PQBP-1 inhibits transcriptional activation of a brai
 interaction between PQBP-1 and expanded polyQ stretches in the
 pathogenesis of CAG repeat diseases remains to be investigated.
 
-
 One of the most noteworthy findings of this study is that
 expanded polyQ-induced death of COS-7 and neuro2a cells was
 suppressed by TAFII130. Recent studies have shown that mutant
@@ -49,12 +48,10 @@ domain of CREB consists of a glutamine-rich Q2 constitutive
 domain and a kinase-inducible domain26 (KID). For target gene
 activation, a phospho-(Ser-133)-dependent interaction between
 
-
 In addition to CREB, TAFII130 has also been shown to directly
 bind to Sp1 (refs 21,25). Although Sp1-dependent transcriptional
 activation was not examined in here, it would be intriguing to investigate whether the binding of expanded polyQ stretches to TAFII130
 also interferes with Sp1-dependent transcriptional activation.
-
 
 In the immunohistochemical observation of autopsied brains
 of DRPLA and MJD/SCA3 cases, we found that TBP, CREB and

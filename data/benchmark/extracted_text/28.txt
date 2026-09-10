@@ -1,4 +1,348 @@
---- Our results clearly show that liquid droplets of TDP-43-LC ---
+--- RESULTS ---
+
+
+
+TDP-43-LC Forms Liquid Droplets That Transition
+into Amyloid-Like Fibrils. As denaturant is removed from a
+purified solution of recombinant His-tagged TDP-43-LC
+through dialysis, the sample becomes turbid after approximately 0.5 h and the turbidity persists for 2−3 h depending on
+the diameter of the dialysis tubing. The bright-field microscopy
+images in Figure 1a and Supplemental Video S1 reveal that the
+turbid solution is densely populated with spherical liquid
+droplets. The droplets, up to ∼15 μm in diameter, are dynamic
+and fuse with one another when they come into contact. Figure
+1b shows a fusion event for a droplet resting on the glass
+coverslip used in the imaging experiment. Fusion events are
+consistent with the liquid droplets forming through a liquid−
+liquid phase separation process.8
+
+Supplemental Figure 1 shows the quantification of the
+denaturant concentration under these dialysis conditions. After
+1 h 75% of the urea is removed from the sample, and after 3 h
+97% of the denaturant is removed from the sample. Therefore,
+the droplets first appear when the urea concentration is
+approximately 1.5 M and then begin to disappear 1−2 h after
+the denaturant concentration is reduced to 0.2 M. This
+observation is consistent with other studies that show TDP-43-
+LC liquid droplets do not persist for extended periods of time
+at similar pH and electrolyte concentrations.18,32 Supplemental
+Figures 2 and 3 shows bright field and transmission electron
+microscope (TEM) images taken during aging of the sample.
+These images show the liquid droplets have largely disappeared
+after 5 h and that amorphous aggregates begin to form during
+
+this time frame. The images also show that the amorphous
+aggregates persist at 24 h, but after incubation for 4 d the
+aggregates have mostly converted to fibrils.
+
+Figure 2a shows that TDP-43-LC liquid droplets induce
+marginal increases in ThT fluorescence compared to the
+denatured protein. The increase is consistent with ThT
+entering a viscous, confined, environment.33 Figure 2a also
+shows a marked increase in ThT fluorescence as the droplets
+are aged for a period of 124 h, during which time the turbid
+solution converts to a clear solution containing a white
+precipitate-like material in the dialysis tubing. This larger
+increase in fluorescence is consistent with a ThT interaction
+with cross-β protein fibrils, not amorphous protein aggregation.34
+
+Figure 2b shows that the intrinsic Trp fluorescence spectrum
+of TDP-43-LC in liquid droplets exhibits a relatively small
+hypochromic shift relative to the spectrum of denatured TDP-
+43-LC. The fluorescence intensity peak changes from 357 nm
+in the denatured state to 354 nm in the liquid droplet state.
+The spectrum of the aged liquid droplets reveals a larger
+hypochromic shift with a maximum at 344 nm. These shifts are
+indicative of the Trp residues converting from an unfolded and
+solvent exposed state to a more ordered and partially buried
+configuration.35
+
+Rapid buffer exchange, or flash dilution, from the denatured
+conditions for TDP-43-LC removes 96% of the denaturant and
+results in the immediate formation of a cloudy, white solution.
+The bright field images in Supplemental Figure 2 show that the
+sample contains liquid droplets immediately after removal of
+denaturant. The liquid droplets almost completely disappear
+within 4 h. The TEM images in Supplemental Figure 3 show
+that the disappearance of the liquid droplets coincides with the
+appearance visually amorphous aggregates. In contrast to the
+aged droplets from our dialysis protocol, the appearance of
+fibrils begins within 24 h for the flash diluted sample.
+
+pubs.acs.org/JACS
+
+
+Article
+Figure 2a and Figure 2b show the ThT and Trp fluorescence
+spectra of this sample. The ThT fluorescence spectra of the
+flash diluted sample initially show no increase in fluorescence
+intensity. After rotating the sample for 24 h, the fluorescence
+intensity increases, consistent with the formation of cross-β
+protein fibrils. The Trp fluorescence intensity peak of the flash
+diluted sample shows a minimal shift from 357 to 354 nm
+immediately after dilution of the denaturant with a further shift
+to 345 nm after rotation for 24 h, a net hypochromic shift,
+consistent with the conversion of solvent exposed Trp residues
+to a more ordered and less exposed conformation. These
+spectra show that the flash diluted sample has the same ThT
+and Trp fluorescence properties as the aged liquid droplets.
+
+Figure 3c and Figure 3d show negatively stained TEM
+images of the aged liquid droplet sample and the flash diluted
+samples, respectively. In both cases, cross-β-like fibrils with a
+slightly twisted appearance are observed. Significant bundling
+of the fibrils is observed in addition to a few dispersed single
+fibrils. The level of resolution present in these micrographs and
+the degree of fibril bundling make the fibrils indistinguishable
+between the two preparations.
+
+
+Aged Liquid Droplet and Flash Diluted TDP-43-LC
+Fibrils Are Structurally Similar. Figure 4 shows magic angle
+spinning (MAS) solid state NMR spectra of the aged liquid
+droplet and flash diluted TDP-43-LC samples. These crosspolarization (CP)36 based spectra, recorded at a moderate
+MAS frequency (13.0 kHz) with high power 1H decoupling
+(83.3 kHz), report on rigid segments of the TDP-43-LC
+protein in these two preparations. The aliphatic region of the
+2D 13°C−13°C CP-DARR37,38 (cross-polarization dipolar assisted
+rotational resonance) spectrum of the aged liquid droplets in
+Figure 4a reveals the clear presence of multiple Ser and Ala
+residues with 13°C chemical shift values indicative of β-strand
+structure. In this spectrum, strong signals are also present from
+Ala residues with helical and random coil chemical shift values.
+There is a weak signal from one Ile residue, as well as signal
+intensity corresponding to the highly ambiguous region for
+Arg, Asp, Asn, His, Gln, Glu, Leu, Lys, Met, Phe, Trp, and Tyr
+residues. However, the aromatic region of the spectrum (not
+shown) is essentially devoid of signals.
+
+Figure 4b shows the aliphatic region of the 2D 13°C−13°C CPDARR spectrum of the flash diluted TDP-43-LC protein,
+recorded under the same conditions as the aged liquid droplet
+
+sample. The spectrum contains resonances and resonance
+intensities indicating that the same amino acid types are
+immobilized in the fibrils formed through the flash dilution
+method as are in the fibrils formed through the aged liquid
+droplet method. In addition, the positions of the resolved
+resonances and resonance envelopes are highly similar. The
+data indicate that the underlying structures of the fibrils
+formed by the two sample preparation methods are nearly
+identical. Supplemental Figure 4 shows an overlay of the
+13°C−13°C CP-DARR spectra of these two samples, further
+illustrating the high degree of similarity between them.
+
+Figure 4c and Figure 4d show the aliphatic region of 2D CPbased NCACX spectra of the aged liquid droplet and flash
+diluted TDP-43-LC, respectively. These spectra are also
+recorded using a moderate MAS frequency (13.0 kHz) and
+high power 1H decoupling (83.3 kHz), therefore reporting on
+residues immobilized in the fibril core. The spectra exhibit
+well-resolved signals with 13°C and 15N line widths of ∼1.0 ppm
+and have well dispersed
+15N chemical shift frequencies,
+consistent with a well-ordered fibril core. The presence of
+numerous Gly residues is also evident from these spectra.
+Supplemental Figure 5 shows an overlay of these spectra,
+reinforcing their similarities. Supplemental Figure 6 shows 2D
+CP-based NCOCX spectra of the aged liquid droplet and flash
+diluted TDP-43-LC. These spectra have the same pattern of
+NMR signal intensity, also indicating that the fibrils formed
+through the two sample preparation methods are constructed
+from TDP43-LC proteins in highly similar conformations.
+
+The spectra of the aged liquid droplets appear to have
+similar line widths as the flash diluted fibrils, although a broad
+intensity underlies the sharper signals. Global
+1H T1ρ
+measurements obtained with a 1H−13°C CP pulse sequence
+and 15N T2 measurements obtained with a CP-NCA pulse
+sequence reveal that the relaxation parameters for non-glycyl
+CA sites are not significantly different between the two sample
+preparations. Glycine CA signals were integrated separately in
+the 15N T2 analysis and gave similar values, although there was
+overlap with CB signals of other residues (based on the
+assignments determined in this paper). For the aged liquid
+droplets and the flash diluted fibrils, the 1H T1ρ measurements
+revealed biexponential decays with apparent decay constants of
+(1.0 ± 0.1)/(6.6 ± 0.2) ms and (1.7 ± 0.1)/(8.3 ± 0.2) ms,
+respectively, and the 15N T2 measurements revealed monoexponential decays with decay constants of 9.0 ± 0.1 ms and
+8.3 ± 0.2 ms, respectively. These relaxation measurements are
+consistent with a highly ordered fibril core for both samples
+and are also consistent with the 15N line widths observed for
+resolved resonances.
+
+Supplemental Figures 4 and 5 show the 13°C−13°C CP-DARR
+and NCACX difference spectra for the aged liquid droplet and
+flash diluted TDP-43-LC. Residual signals in the difference
+spectra arise from immobilized sites in the aged liquid droplet
+spectrum that are not present in the flash diluted fibril
+spectrum. Signal intensities from Ala, Gly, and Ser residues are
+present in these spectra. The residual Gly and Ser signals have
+different chemical shifts compared with those from the fibril
+core region, indicating that these residues likely have different
+conformations and chemical environments than those
+composing the fibril core. The Ala regions of the difference
+spectra have some intensity with the same chemical shifts as
+the flash diluted spectra for helical, β-strand, and random coil
+Ala residues. This intensity indicates either that some of the
+Ala residues are even more strongly ordered in the aged liquid
+
+pubs.acs.org/JACS
+
+
+Article
+droplets than in the flash diluted sample or that additional Ala
+sites with nearly identical chemical shifts as those in the flash
+diluted sample have become ordered in the aged liquid droplet
+sample. However, three of the six easily distinguished Ala
+signals are absent from the difference spectra. Except for some
+additional broad signal intensity from Gln residues, the
+difference spectra are devoid of signals from any other amino
+acids, such as the 10 Met residues in TDP-43-LC.
+
+Together the relaxation measurements and the difference
+spectra show that the underlying intensity in the aged liquid
+droplet sample is consistent with reduced molecular motions
+for portions of TDP-43-LC in heterogeneous conformations,
+not increased dynamics of the rigid fibril core in the sample.
+The extra intensity in the spectra of the aged liquid droplets is
+therefore due to either dynamic unstructured regions outside
+the fibril core becoming immobilized as the liquid droplets age
+or incomplete conversion of all TDP-43-LC molecules in the
+sample into the same fibril conformation. The TEM images of
+the aged liquid droplet sample in Supplemental Figure 3 show
+that there are amorphous structures present in the mature
+sample that are consistent with incomplete conversion of TDP-
+43-LC into the fibril conformation but do not rule out the
+possibility of reduced motions in the termini of TDP-43-LC in
+fibril form. The distribution of Gly, Ala, and Ser residues
+throughout the entire TDP-43-LC sequence prevents
+sequence-specific assignment of this extra intensity. Despite
+the subtle differences in the spectra of the aged liquid droplet
+sample and the flash diluted sample, the identical chemical
+shifts for the well-ordered sites show that both sample
+
+preparation methods yield fibrils constructed from TDP-43-
+LC in similar molecular conformations. In further support of
+this interpretation, the TEM images in Figure 3 do not show
+any obvious differences in fibril morphology between the two
+samples.
+
+Structural Characterization of the Fibril Core. 3D CPbased NCACX, NCOCX, and CANCO spectra were recorded
+on the flash diluted sample using similar experimental
+conditions as the 2D spectra already presented. These spectra
+exhibited large signal-to-noise ratios and allowed resolution of
+40, 39, and 43 unique signals, respectively. Supplemental
+Figures 7, 8, and 9 show 2D planes from these spectra,
+illustrating the resolution and signal-to-noise of the 3D spectra.
+A computationally assisted assignment procedure30 resulted in
+statistically significant and unambiguous sequence-specific
+chemical shift assignments for residues Q365−G376 and
+G380−G400. These assignments indicate that the rigid core of
+the TDP-43-LC fibrils is composed of one Gln, five Ala, two
+Phe, eleven Gly, seven Ser, four Asn, one Tyr, one Ile, and one
+Trp. The computational algorithm ensures that the sequence
+specific assignments are unbiased and unambiguously
+unique.39 A robust computational method is essential due to
+the strong bias of the TDP-43-LC sequence toward Gly, Ser,
+Asn, and Ala residues, which are 25%, 16%, 14%, and 9% of the
+total amino acid content, respectively. The observation that
+82% of the NMR signals are one of these four amino acid types
+further reinforces the need for computationally assisted
+assignments. Very strong evidence for the uniqueness of the
+assignments is provided by the convergence of the algorithm
+
+pubs.acs.org/JACS
+
+
+Article
+on an identical result for 50 independent calculations with 50
+independent random number seeds.
+
+Signals for five Ser, one Ala, two Gly, and three ambiguoustype residue were not assigned. Two Ser residues and one
+ambiguous-type residue can be tentatively but not unambiguously assigned to residues S377−S379. The lone unassigned
+Ala signal is quite strong in all 3D spectra, suggesting it may
+derive from more than one Ala residue in the protein. Signals
+in the NCOCX data suggest the residue giving rise to this
+signal is part of an Ala-Ala pair in the protein sequence and
+may derive from more than one site in the protein. The only
+remaining Ala-Ala pairs in the unassigned region of TDP-43-
+LC are the five Ala residues within residues A324−A329. The
+chemical shift values for this signal are 54.7 and 17.9 ppm for
+CA and CB, respectively, indicating the residue (or residues)
+giving rise to this signal intensity is in a helical conformation.
+The other remaining unassigned signals are not present in all
+three of the 3D spectra and are of relatively low signal-to-noise.
+The computational assignment procedure failed to assign any
+residues to the His-tag region of the TDP-43-LC construct,
+indicating this region is not structured in the aged liquid
+droplet or flash diluted fibril samples. Assignment calculations
+run using an input sequence with the residues after Q365
+deleted failed to converge on unique or unambiguous
+assignments for any residue, indicating that the observed
+signals are not consistent with the amino acid sequence prior
+to residue Q365. Disorder in the N-terminal region is further
+supported by the lack of any strong His, Pro, Met, and Thr
+signals in the CP-based NCACX and NCOCX spectra.
+
+Figure 5a shows 1H−13°C refocused INEPT spectra of the
+flash diluted fibrils and the aged liquid droplets. The flash
+diluted sample exhibits relatively weak signals, and amino acid
+type assignments are difficult for this spectrum. However, the
+presence of aromatic signals consistent with His side chain
+sites suggests the N-terminal region containing the His-tag in
+our TDP-43-LC construct is dynamic and disordered. The
+relatively weak signals also suggest that only a small portion of
+the LC domain is highly mobile in the sample, as other LC
+domain fibrils with substantial regions outside the immobilized
+core exhibiting rapid dynamics and significant disorder give
+rise to much stronger signals in these experiments.11 The
+1H−13°C INEPT spectrum of the aged liquid droplet sample
+only contains strong signals that derive from highly dynamic
+methyl groups. Together with the CP based data collected on
+these samples, the INEPT spectra suggest that the regions
+outside the highly immobilized fibril core segment sample
+heterogeneous conformations with limited molecular motion
+but have not adopted a singular conformation.
+
+Figure 5b shows the TALOS-N torsion angle predictions
+based on the observed and assigned 13°C and 15N chemical
+shifts. Residues A366−F367, N371−S375, A381−I383, S389−
+A391, and S393 are predicted to have φ/ψ torsion angles
+indicative of extended conformations consistent with β-strand
+secondary structure. Residues S369−G370, W385, A388,
+G394, and F397−N398 have φ/ψ torsion angles indicative
+of turn-like conformations. Signals were observed for G368,
+G376, G380, G384, G386−S387, G392, S395−G396, and
+G399−F401, but TALOS-N failed to predict φ/ψ torsion
+angles for these sites. Supplemental Figure 10 shows the
+secondary chemical shift plot and TALOS-N secondary
+structure predictions derived from the assigned chemical shifts
+for TDP-43-LC. These predictions all indicate there are at least
+
+three segments in β-strand conformations in the TDP-43-LC
+fibrils.■DISCUSSION
+
+TDP-43-LC Liquid Droplets Mature into β-Strand-Rich
+Protein Fibrils. The primary result from the measurements
+presented in this paper is the identification of the segment of
+TDP-43-LC that condenses into a stable well-defined structure
+upon the aging of liquid droplets. Specifically, we have found
+that (i) TDP-43-LC converts into a ThT positive fibril
+structure upon the removal of denaturant (Figures 2 and 3),
+(ii) the liquid droplet state is a distinct intermediate between
+the denatured and fibril state (Figure 1 and Figure 2), (iii)
+residues 365−400 form the rigid core of the fibrils (Figures 4
+and 5), (iv) the regions of TDP-43-LC flanking the fibril core
+are not highly dynamic (Figure 5), and (v) the fibril core is
+constructed from at least three segments of the TDP-43-LC in
+
+pubs.acs.org/JACS
+
+
+Article
+β-strand conformations with a dynamic loop between residues
+376 and 380 (Figure 5).
+Our results clearly show that liquid droplets of TDP-43-LC
 mature into β-strand rich fibrils stabilized by residues 365−
 400. Support for our conclusion comes from a study by
 Babinchak et al. on a similar TDP-43-LC construct (Histagged residues 274−414).32 First, atomic force microscopy
@@ -16,6 +360,7 @@ preparations and those in this study strongly support our
 interpretation that the fibrils characterized here are the
 structure that condenses out of the liquid droplets.
 
+
 Competing Structural Conformations in TDP-43-LC.
 In the context of existing studies on the C-terminal LC domain
 of TDP-43, our results are quite intriguing. Residues 311−360
@@ -31,12 +376,7 @@ hydrogen bonds.21 The reader should note that we are
 unaware of any existing studies that show in either full-length
 TDP-43 or the complete TDP-43-LC that residues 311−360
 adopt the structures observed for the isolated fragment.
-
-
 However, after aging liquid droplets formed by the complete
-
-
-
 LC domain, we find the most stable segment of the protein
 begins at least 10 residues after this region. This “second core”
 region lacks any structured Met residues, has a single weakly
@@ -77,7 +417,6 @@ immobilized sufficiently to permit CP based magnetization
 transfers for one or two Ala sites in this region and no other
 residues.
 
-
 Our data are therefore consistent with an assembly process
 where the helical region between residues 321 and 341 is
 prevented from converting into its fibril conformation through
@@ -91,8 +430,6 @@ of TDP-43-LC are all consistent with a model where a
 functional propensity for residues 365−400 to form stable β-
 strand structures prevents detrimental aggregation of residues
 311−360.
-
-
 A recent solid state NMR study on TDP-43-LC aggregates
 seeded from protein isolated from E. coli inclusion bodies
 suggests that both core regions can form a stable fibril
@@ -137,13 +474,13 @@ Protein. Solid state NMR measurements from Shenoy et al.19
 
 on fibrils formed by the full-length TDP-43 sequence, residues
 
+pubs.acs.org/JACS
+
+
+Article
 1−414, and a set of truncation mutants provide context for the
-
-
 LC domain assembly process when the N-terminal RRM and
 oligomerization motifs are present. The presence of multiple
-
-
 Ala residues in both fibril-prone regions provides a
 straightforward way to compare these spectra19 with our data
 and the data from the residue 311−360 fragment fibrils.20
@@ -235,13 +572,11 @@ this conformation is not strongly ordered in the fibrils of longer
 TDP-43 constructs. Figure 6d shows the chemical shifts from
 the E. coli inclusion body templated TDP-43-LC fibrils.42
 
-
 Comparison with the Ala signals from other TDP-43 fibrils
 (Figure 6a−c) further illustrates the structural differences for
 these templated fibrils. Table 1 summarizes the TDP-43
 assemblies characterized to date and the structures associated
 with the two competing core regions.
-
 
 What does it mean that the resonances reporting on the
 fibril conformations for residues 311−360 and 365−400 are
@@ -269,13 +604,14 @@ the pathological assembly process of residues 311−360. This
 type of dynamically structured LC domain is not unprecedented, as we have recently observed such a phenomenon in an
 LC domain of intermediate filament protein assemblies.43
 
-
 These data all reinforce our interpretation that delicately
 balanced interactions determine the functional and pathological assembly of TDP-43-LC.
 
+pubs.acs.org/JACS
+
+
+Article
 LC Domains and (a Lack of) Fibril Polymorphism.
-
-
 Given the reduced amino acid complexity of the TDP-43-LC,
 it is perhaps not surprising that several segments are able to
 form stable fibrils. 63% of the LC domain sequence is
@@ -294,8 +630,6 @@ for the TDP-43-LC. On the other hand, the full-length LC
 domains studied to date are notably not polymorphic with
 respect to fibril formation.11,23,45 However, the lack of
 polymorphism observed in the fibrils formed by complete
-
-
 LC domains does not exclude the presence of multiple
 fibrillation-prone regions in these sequences. For example,
 electron diffraction studies on microcrystals of small fragments
@@ -303,38 +637,34 @@ from outside the core fibril forming region of the FUS LC
 show these fragments adopt similar conformations as those
 that stabilize the fibrils of the complete LC domain.7,24
 
-Video S1 of liquid droplets (MP4)
+Experiments on longer segments of LC domains also support
+the presence of multiple fibril cores and suggest that the entire
+LC domain is important for understanding the assembly of the
+full-length proteins that contain them. For example, deletion of
+the N-terminal 111 residues of the FUS protein stabilizes fibrils
+formed by the C-terminal half of the LC domain.25 Our
+identification of a “second core” outside the “aggregation core”
+region in the complete TDP-43-LC bolsters evidence for the
+presence of delicately balanced competing fibril-prone regions
+as a common theme in LC domains.
 
-Quantification of denaturant; additional bright field and
-TEM images; overlay and difference 13°C−13°C CP-DARR
-spectra; overlay and difference spectra of CP-NCACX
-spectra; CP-NCOCX spectra; 2D planes from 3D
-NCACX spectrum; 2D planes from 3D NCOCX
-spectrum; 2D planes from 3D CANCO spectrum;
-secondary chemical shift and secondary structure
-analyses; chemical shift difference analysis (PDF)
-■AUTHOR INFORMATION
-
-
-Corresponding Author
-Dylan T. Murray −Department of Chemistry, University of
-
-California, Davis, California 95616, United States;
-
-orcid.org/0000-0002-2402-810X; Email: dtmurray@
-ucdavis.edu
-
-
-Authors
-Blake D. Fonda −Department of Chemistry, University of
-
-
-California, Davis, California 95616, United States
-Khaled M. Jami −Department of Chemistry, University of
-
-
-California, Davis, California 95616, United States
-Natalie R. Boulos −Department of Chemistry, University of
-
-
-California, Davis, California 95616, United States
+--- CONCLUSION ---
+Pathological and functional assembly of the TDP-43 protein
+continues to be an intriguing process. Our contribution shows
+an interplay between competing molecular associations in
+TDP-43-LC that allows for its phase separation into liquid
+droplets and the eventual condensation into β-strand rich
+protein fibrils. We suggest a model where loose interactions
+between helix-prone regions and β-strand-prone regions
+facilitate liquid droplet assembly with the fibril-prone region
+between residues 365 and 400 ultimately being the most
+favored conformation adopted by the complete LC domain.
+Conversion of the LC domain into the pathological fibril
+conformation, likely involving residues 311−360, must require
+the catalyst of a template structure or other external forces.
+Given that almost all ALS and FTD related disease mutations
+cluster in the core fibril-prone regions,6 it is likely these
+alterations rebalance the stabilizing interactions in the fibrilprone regions of TDP-43-LC. Further investigation is required
+to elucidate the effect of these mutations on the TDP-43-LC
+assembly process and to confirm if this model is representative
+of what occurs in living cells.

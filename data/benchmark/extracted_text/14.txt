@@ -1,384 +1,351 @@
---- Results
+--- Results ---
+hnRNPA2 LCD interacts with RNA
 
-hnRNPA2 LCD interacts with RNA ---
 We have screened the hnRNPA2 sequence with comple­
 mentary sequence-based predictors, G- and U-scales, espe­
-cially developed to score amino acid–RNA interaction 
-preferences. These scales are based on known structures of 
-RNA/protein complexes, and provide a statistical analogue of 
+cially developed to score amino acid–RNA interaction
+preferences. These scales are based on known structures of
+RNA/protein complexes, and provide a statistical analogue of
 relative binding free energy, with negative values correspond­
-ing to higher affinities [30]. For example, it can predict known 
-disordered RNA-binding domains in FUS [45]. By applying 
+ing to higher affinities [30]. For example, it can predict known
+disordered RNA-binding domains in FUS [45]. By applying
 these scales on hnRNPA2 sequence, we observed two poten­
-tial RNA-interacting regions within its LCD (200–353), 
-namely from residue 239–306 and from 307–353 (Fig. 1B). 
+tial RNA-interacting regions within its LCD (200–353),
+namely from residue 239–306 and from 307–353 (Fig. 1B).
 This result was strengthened by two variants of another pre­
-dictor, NucBind-RNA and NucBind-DNA (Figure 1°C) 
-[31,34]. Because of this prediction, and also because LCDs 
-are enriched in RNA- and DNA-binding proteins [14], we did 
-not rule out DNA binding, and therefore termed the two 
-regions 
+dictor, NucBind-RNA and NucBind-DNA (Figure 1°C)
+[31,34]. Because of this prediction, and also because LCDs
+are enriched in RNA- and DNA-binding proteins [14], we did
+not rule out DNA binding, and therefore termed the two
+regions
 (putatively)
 
 
-Nucleic-Acid 
-Interacting 
+Nucleic-Acid
+
+
+
+Interacting
+
+
+
 Domains
-(NAIDs). Interestingly, within these domains, there is an 
+(NAIDs). Interestingly, within these domains, there is an
 enrichment of YGG motifs.
 
-RNA binding. Interestingly, NAID1 contains only 1 RGG motif, 
-whereas 3 out of 4 RGG motifs in the LCD are not located within 
-the NAIDs, suggesting that other motifs might be involved in the 
+RNA binding. Interestingly, NAID1 contains only 1 RGG motif,
+whereas 3 out of 4 RGG motifs in the LCD are not located within
+the NAIDs, suggesting that other motifs might be involved in the
 interaction.
 
-
 Effect of RNA on the LLPS of hnRNPA2 LCD
-hnRNPA2 is implicated in LLPS leading to the formation of 
-liquid-like organelles including mRNA transport granules, the 
-nucleolus and stress granules [46–48]. Within these, it can act 
-both as a scaffold and a client protein [49]. At physiological 
-pH, protein-rich droplets quickly appear in the solution of 
-hnRNPA2 LCD, showing that hnRNPA2 LCD is prone to 
-undergo phase separation (Fig. 2A). Over time, these droplets 
-mature and turn into aggregates (Fig. 2B). One hour after 
-inducing phase separation, the droplets show 50% recovery of 
+
+hnRNPA2 is implicated in LLPS leading to the formation of
+liquid-like organelles including mRNA transport granules, the
+nucleolus and stress granules [46–48]. Within these, it can act
+both as a scaffold and a client protein [49]. At physiological
+pH, protein-rich droplets quickly appear in the solution of
+hnRNPA2 LCD, showing that hnRNPA2 LCD is prone to
+undergo phase separation (Fig. 2A). Over time, these droplets
+mature and turn into aggregates (Fig. 2B). One hour after
+inducing phase separation, the droplets show 50% recovery of
 their fluorescence in fluorescence recovery after photobleach­
-ing (FRAP) experiment, illustrating the liquid-like nature of 
-droplets (Fig. 2°C, D). The liquid-like nature is also confirmed 
-by showing effective fusion of two adjacent droplets by C-trap 
-experiments (Fig. 2E). When adding polyU RNA to hnRNPA2 
-LCD droplets (LCD binds a broad range of RNAs, see later), 
-they co-phase separate, showing that hnRNPA2 LCD not only 
-binds RNA, but also recruits the RNA into phase-separated 
+ing (FRAP) experiment, illustrating the liquid-like nature of
+droplets (Fig. 2°C, D). The liquid-like nature is also confirmed
+by showing effective fusion of two adjacent droplets by C-trap
+experiments (Fig. 2E). When adding polyU RNA to hnRNPA2
+LCD droplets (LCD binds a broad range of RNAs, see later),
+they co-phase separate, showing that hnRNPA2 LCD not only
+binds RNA, but also recruits the RNA into phase-separated
 droplets (Fig. 2F).
 
---- These results show that RNA at high concentrations ---
-directly affects droplet size, whereas it cannot be ascertained 
-if the total protein concentration in droplets remains 
-unchanged, or RNA increases the dilute phase concentration 
-(or concentration of protein dissolved in solution) leading to 
-a decrease in protein concentration in high-density droplets. 
+These results show that RNA at high concentrations
+directly affects droplet size, whereas it cannot be ascertained
+if the total protein concentration in droplets remains
+unchanged, or RNA increases the dilute phase concentration
+(or concentration of protein dissolved in solution) leading to
+a decrease in protein concentration in high-density droplets.
 To investigate this question, we designed directed experi­
 ments to determine which hypothesis holds true.
 
-
 By sedimenting high-density droplets and determining
-their protein concentration, we could show that the total 
+their protein concentration, we could show that the total
 
-amount of hnRNPA2 LCD decreases in the high-density 
-phase, i.e. less hnRNPA2 LCD undergoes LLPS and RNA 
+amount of hnRNPA2 LCD decreases in the high-density
+phase, i.e. less hnRNPA2 LCD undergoes LLPS and RNA
 indeed increases the dilute phase concentration (Fig. 3D).
-
---- We confirmed this conclusion by dynamic light scattering ---
-(DLS), where we saw a decrease in droplet size and total 
+We confirmed this conclusion by dynamic light scattering
+(DLS), where we saw a decrease in droplet size and total
 protein concentration in droplets upon increasing RNA con­
-centration (Fig. 3E). Interestingly, not all droplets dissolved, 
-rather some droplets with a radius around 300 nm persisted, 
+centration (Fig. 3E). Interestingly, not all droplets dissolved,
+rather some droplets with a radius around 300 nm persisted,
 suggesting some droplets (or compartments within the dro­
-plet) are less sensitive to RNA. In keeping with this 
+plet) are less sensitive to RNA. In keeping with this
 
-interpretation, the number of hnRNPA2 LCD oligomers 
-(objects smaller than 50 nm) and monomers (objects of 
-around 2 nm) increased [53]. As expected, RNA had no effect 
-on the size of these oligomers, which provides additional 
-proof that RNA increases the dilute phase concentration of 
+interpretation, the number of hnRNPA2 LCD oligomers
+(objects smaller than 50 nm) and monomers (objects of
+around 2 nm) increased [53]. As expected, RNA had no effect
+on the size of these oligomers, which provides additional
+proof that RNA increases the dilute phase concentration of
 hnRNPA2 LCD (Fig. 3E).
 
 hnRNPA2 LCD interacts with different nucleic acids
 
-(Fig. 4°C), showing that the interaction is not nucleotidespecific. Total purified RNA from a human cell line (U2OS) 
-is also very effective (Fig. 4D). Motivated by observations that 
-suggested the preference of LLPS for disordered RNA [54], we 
-also tested structured (folded) tRNA, which actually seemed 
+(Fig. 4°C), showing that the interaction is not nucleotidespecific. Total purified RNA from a human cell line (U2OS)
+is also very effective (Fig. 4D). Motivated by observations that
+suggested the preference of LLPS for disordered RNA [54], we
+also tested structured (folded) tRNA, which actually seemed
 to be more effective at increasing the dilute phase concentra­
-tion (Fig. 4E). Interestingly, highly structured rRNA has no 
-effect on LLPS, even at high concentrations (Fig. 4F). On the 
-other hand, both single-stranded and double-stranded DNA 
-influence LLPS at least as effectively as RNA (Fig. 4G, H), 
-suggesting that NAIDs constitute a general nucleic acid – 
-rather than strictly RNA – binding motif. In summary, all 
-studied nucleic acids influenced LLPS in a similar manner, 
-except for rRNA, which appears to have no effect, apparently 
+tion (Fig. 4E). Interestingly, highly structured rRNA has no
+effect on LLPS, even at high concentrations (Fig. 4F). On the
+other hand, both single-stranded and double-stranded DNA
+influence LLPS at least as effectively as RNA (Fig. 4G, H),
+suggesting that NAIDs constitute a general nucleic acid –
+rather than strictly RNA – binding motif. In summary, all
+studied nucleic acids influenced LLPS in a similar manner,
+except for rRNA, which appears to have no effect, apparently
 because it does not bind to LCD.
-
 
 Electrostatic and hydrophobic components of the
 interaction between hnRNPA2 LCD and RNA
 
 While the interaction exists at physiological salt concen­
-trations (Fig. 5A), to study the nature of hnRNPA2 LCD: 
-RNA interaction, we change protein:RNA ratio not to 
-saturate the protein with RNA, and investigated if salt 
-and 1,6 hexanediol interfere with the effect of polyU and 
+trations (Fig. 5A), to study the nature of hnRNPA2 LCD:
+RNA interaction, we change protein:RNA ratio not to
+saturate the protein with RNA, and investigated if salt
+and 1,6 hexanediol interfere with the effect of polyU and
 tRNA on the LLPS of hnRNPA2 LCD. We found that
-
-
 NaCl inhibits the effect of both folded and unfolded
-RNA (i.e. it recovers LLPS) (Fig. 5B, C). Under the given 
-conditions, low ionic concentrations already have a major 
-influence on the interaction, which probably means that 
+RNA (i.e. it recovers LLPS) (Fig. 5B, C). Under the given
+conditions, low ionic concentrations already have a major
+influence on the interaction, which probably means that
 only a few key residues need ionic coverage for the inter­
 action to be inhibited. 1,6 hexanediol is an aliphatic alco­
-hol, 
-which 
-can 
-compete 
-with 
-weak 
-hydrophobic 
-interactions, inhibiting the LLPS of various proteins, 
-such as TDP-43 [55], FUS [56] and huntingtin exon1 
-[57]. Here, we show it has a direct effect on the LLPS of 
-hnRNPA2 (decreasing its OD600 from about 1.0 to 0.7), 
-whereas it can also counteract the LLPS-inhibitory effect 
-of RNA, causing a small increase in turbidity (Fig. 5D). 
+hol,
+which
+can
+compete
+with
+weak
+hydrophobic
+interactions, inhibiting the LLPS of various proteins,
+such as TDP-43 [55], FUS [56] and huntingtin exon1
+[57]. Here, we show it has a direct effect on the LLPS of
+hnRNPA2 (decreasing its OD600 from about 1.0 to 0.7),
+whereas it can also counteract the LLPS-inhibitory effect
+of RNA, causing a small increase in turbidity (Fig. 5D).
 Thus, hydrophobic interactions do contribute to the inter­
-action of hnRNPA2 LCD and RNA. To demonstrate that 
+action of hnRNPA2 LCD and RNA. To demonstrate that
 the observed effects are due to an interference with pro­
-tein–RNA interaction, we show that degradation of the 
+tein–RNA interaction, we show that degradation of the
 nucleic acid completely reverses RNA effect, recovering
-
-
 LLPS of LCD with increasing RNase A concentration
 (Fig. 5E, and Supplementary Fig. S3).
-
 
 Effect of RNA on the LLPS of hnRNPA2 LCD carrying the
 disease-linked D290V mutation
 
-Next, we addressed if the observed effect of RNA also applies to 
-the LCD carrying a disease-associated mutation, D290V. This 
-mutation has been suggested to affect LLPS and to promote the 
-aggregation tendency of LCD [58]. It is of special interest with 
-regard to RNA binding, because this mutation falls within 
-NAID1. We observe that without salt, hnRNPA2 LCD D290V 
-does not phase separate at pH 7.0, rather it forms fibrous 
+Next, we addressed if the observed effect of RNA also applies to
+the LCD carrying a disease-associated mutation, D290V. This
+mutation has been suggested to affect LLPS and to promote the
+aggregation tendency of LCD [58]. It is of special interest with
+regard to RNA binding, because this mutation falls within
+NAID1. We observe that without salt, hnRNPA2 LCD D290V
+does not phase separate at pH 7.0, rather it forms fibrous
 aggregates within a few hours, whereas at physiologically rele­
 vant NaCl concentrations (100 mM), it potently phase sepa­
-rates and forms amorphous aggregates (Fig. 6A, B; 
-Supplementary Fig. S4). As expected, RNA has no effect on 
+rates and forms amorphous aggregates (Fig. 6A, B;
+Supplementary Fig. S4). As expected, RNA has no effect on
 D290V in conditions that did not allow LLPS. However, simi­
-larly to wild-type LCD, RNA decreases phase separation under 
-conditions that favour LLPS (Fig. 6°C, Supplementary Fig. S5). 
-In contrast to wild-type LCD, some aggregation is still observed 
-(Fig. 6D), although aggregates are smaller and less abundant. In 
-conclusion, RNA does interact with LCD D290V and limits its 
+larly to wild-type LCD, RNA decreases phase separation under
+conditions that favour LLPS (Fig. 6°C, Supplementary Fig. S5).
+In contrast to wild-type LCD, some aggregation is still observed
+(Fig. 6D), although aggregates are smaller and less abundant. In
+conclusion, RNA does interact with LCD D290V and limits its
 aggregation, but it cannot completely stop it.
 
-F/YGG motif is a low complexity nucleic-acid interaction 
+F/YGG motif is a low complexity nucleic-acid interaction
 domain
 
-Our results show that the middle section (region 239–306 
-termed NAID1) is a distinguished nucleic acid-binding region 
-of the LCD of hnRNPA2 being the main driver of LCD 
-binding a broad range of RNA and DNA molecules 
+Our results show that the middle section (region 239–306
+termed NAID1) is a distinguished nucleic acid-binding region
+of the LCD of hnRNPA2 being the main driver of LCD
+binding a broad range of RNA and DNA molecules
 
 (Fig. 7A). NAID1 contains an increased amount of Tyr resi­
-dues adjacent to Gly residues (Fig. 7B), which is much less 
-present in NAID2, suggesting that these YGG patches may 
-play an important role in nucleic acid binding. Furthermore, 
-we observed that NAID1 is actually constituted of two tandem 
-copies of an imperfect repeat sequence of about 30 residues, 
-rich in YGG motifs (Fig. 7°C). This region is highly conserved 
+dues adjacent to Gly residues (Fig. 7B), which is much less
+present in NAID2, suggesting that these YGG patches may
+play an important role in nucleic acid binding. Furthermore,
+we observed that NAID1 is actually constituted of two tandem
+copies of an imperfect repeat sequence of about 30 residues,
+rich in YGG motifs (Fig. 7°C). This region is highly conserved
 in hnRNPA2 homologues (Supplementary Fig. S6A), suggest­
-ing that it is the elementary nucleic acid binding region within 
-hnRNPA2 LCD. We suggest to term this region, in reflection 
-of its peculiar repetitive amino acid sequence, the F/YGG 
-motif. To provide direct evidence for this tenet, we tested 
+ing that it is the elementary nucleic acid binding region within
+hnRNPA2 LCD. We suggest to term this region, in reflection
+of its peculiar repetitive amino acid sequence, the F/YGG
+motif. To provide direct evidence for this tenet, we tested
 RNA binding by this region.
 
-As a F/YGG model, we chose the second repeat (residues 
-269–299). We call this region F/YGG WT. By MST 
-(Supplementary Fig. S7), the F/YGG motif interacts with 
-RNA with a Kd of 31 μM. As hydrophobic interactions are 
-important in NAID1 – RNA interaction (Fig. 5D), we next 
-tested direct RNA interaction of the F/YGG motif in which all 
-tyrosine residues were mutated to either phenylalanines (F/ 
+As a F/YGG model, we chose the second repeat (residues
+269–299). We call this region F/YGG WT. By MST
+(Supplementary Fig. S7), the F/YGG motif interacts with
+RNA with a Kd of 31 μM. As hydrophobic interactions are
+important in NAID1 – RNA interaction (Fig. 5D), we next
+tested direct RNA interaction of the F/YGG motif in which all
+tyrosine residues were mutated to either phenylalanines (F/
 
-YGG Y to F) or alanines (F/YGG Y to A, cf. Fig. 7E). The 
-motif with Y to F mutations binds RNA even stronger than 
-wild type (Kd = 10 μM), whereas all Ala mutation of Tyr-s 
+YGG Y to F) or alanines (F/YGG Y to A, cf. Fig. 7E). The
+motif with Y to F mutations binds RNA even stronger than
+wild type (Kd = 10 μM), whereas all Ala mutation of Tyr-s
 practically abrogates RNA binding (Fig. 7F).
 
-
 Next, we performed a BLAST search among Swiss-Prot
-human proteins to determine if this imperfect repeat region 
-(F/YGG motif) was also present in other proteins. With 
-hnRNPA2 included, we got 137 hits (100 without keratin-like 
-and keratin-associated proteins, for details see the Methods), 
-among which RNA- and DNA-binding proteins were highly 
-significant (Fisher’s exact test Bonferroni corrected p-values: 
-p = 0.0114 and p = 0.0007) (Fig. 7D) enriched. hnRNPA1, for 
-the LCD of which nucleic acid binding was already suggested 
-[25–27], and FUS score high on this list, and as expected these 
-homologous proteins show very high GY content, and to 
-a lesser extent enrichment in Phe, Ser, Asn and Gln residues 
-(Supplementary Fig. 6B,C). This result creates a strong link 
-between nucleic acid binding and the presence of F/YGG 
-motifs, which suggests targeted studies of this feature in the 
+human proteins to determine if this imperfect repeat region
+(F/YGG motif) was also present in other proteins. With
+hnRNPA2 included, we got 137 hits (100 without keratin-like
+and keratin-associated proteins, for details see the Methods),
+among which RNA- and DNA-binding proteins were highly
+significant (Fisher’s exact test Bonferroni corrected p-values:
+p = 0.0114 and p = 0.0007) (Fig. 7D) enriched. hnRNPA1, for
+the LCD of which nucleic acid binding was already suggested
+[25–27], and FUS score high on this list, and as expected these
+homologous proteins show very high GY content, and to
+a lesser extent enrichment in Phe, Ser, Asn and Gln residues
+(Supplementary Fig. 6B,C). This result creates a strong link
+between nucleic acid binding and the presence of F/YGG
+motifs, which suggests targeted studies of this feature in the
 hnRNP family (Fig. 7D).
 
 --- Discussion ---
-
-
-
 In this study, we report that hRNPA2 LCD interacts with
-a wide range of RNA and DNA molecules, via a conserved 
-region located in the middle of the LCD. Interestingly, this 
-region carries a few Arg residues often observed in disordered 
-RNA-binding proteins [59], but here its defining feature 
-rather appears to be an imperfect repeat of about 30 residues 
-with a high abundance of Tyr-Gly and Gly-Tyr patches. We 
-expect these regions to mediate RNA binding, because Gly, 
-having an exposed backbone, can engage in a significant 
-amount of contact with nucleic acids [60], whereas tyrosines 
-are also involved in DNA interactions [61]. The YGG motif 
-has been proposed as a potential RNA-binding motif that 
-contributes to RNA chaperone activity. Here, we demonstrate 
-and suggest that these YGG patches (F/YGG motifs) are of 
-key significance for LCD-nucleic acid interactions. Other 
-amino acids observed in this region are Ser, Asn and Gln, 
-all of which are prone to engage in hydrogen bonding with 
+a wide range of RNA and DNA molecules, via a conserved
+region located in the middle of the LCD. Interestingly, this
+region carries a few Arg residues often observed in disordered
+RNA-binding proteins [59], but here its defining feature
+rather appears to be an imperfect repeat of about 30 residues
+with a high abundance of Tyr-Gly and Gly-Tyr patches. We
+expect these regions to mediate RNA binding, because Gly,
+having an exposed backbone, can engage in a significant
+amount of contact with nucleic acids [60], whereas tyrosines
+are also involved in DNA interactions [61]. The YGG motif
+has been proposed as a potential RNA-binding motif that
+contributes to RNA chaperone activity. Here, we demonstrate
+and suggest that these YGG patches (F/YGG motifs) are of
+key significance for LCD-nucleic acid interactions. Other
+amino acids observed in this region are Ser, Asn and Gln,
+all of which are prone to engage in hydrogen bonding with
 nucleic acids [60].
 
-motifs may allow to create beneficial, highly tunable LLPS 
+motifs may allow to create beneficial, highly tunable LLPS
 regulatory circuits. Because the effect of nucleic acids on
-
-
 LCD LLPS is very sensitive to salt and 1,6-hexanediol, we
-hypothesize that the interaction is mediated via a few key 
+hypothesize that the interaction is mediated via a few key
 residues only.
 
-Interestingly, the F/YGG motif is related in primary 
-sequence to the [G/S]Y[G/S] domain and, as stated above, to 
-the FG domain. The [G/S]Y[G/S] sequence element has been 
-identified as important for LLPS and aggregation. The Tyr can 
-be changed to Phe, highlighting the importance for aromatic 
-stacking. In the case of the F/YGG motif however, it is one (or 
-more) glycine(s) neighbouring the aromatic residue, never 
-a serine. However, while there can be an easy evolutionary 
-switch from glycine to serine (only one nucleotide change), 
+Interestingly, the F/YGG motif is related in primary
+sequence to the [G/S]Y[G/S] domain and, as stated above, to
+the FG domain. The [G/S]Y[G/S] sequence element has been
+identified as important for LLPS and aggregation. The Tyr can
+be changed to Phe, highlighting the importance for aromatic
+stacking. In the case of the F/YGG motif however, it is one (or
+more) glycine(s) neighbouring the aromatic residue, never
+a serine. However, while there can be an easy evolutionary
+switch from glycine to serine (only one nucleotide change),
 this switch is not observed even in distant hnRNPA2 homo­
-logues. Thus, while the modes of action of these three motifs 
-are probably very related, they are not interchangeable, but 
+logues. Thus, while the modes of action of these three motifs
+are probably very related, they are not interchangeable, but
 three distinct motifs [63,64].
 
-of hnRNPs, by decreasing the RNA-interaction affinity. This 
+of hnRNPs, by decreasing the RNA-interaction affinity. This
 assumption is to be confirmed experimentally, but our bioin­
-formatics predictions (NucBind, U-scale) suggest a significant 
-decrease in the RNA-binding propensity for the construct 
+formatics predictions (NucBind, U-scale) suggest a significant
+decrease in the RNA-binding propensity for the construct
 with phosphomimetic pY~E phosphosites (p = 0.0156 & p ­
-= 
-3*10−33, 
-respectively, 
-one-tailed 
-paired 
-t-test) 
+=
+3*10−33,
+respectively,
+one-tailed
+paired
+t-test)
 (Supplementary Fig. S8B).
 
 organized structure that shields nucleic acid bases from inter­
 action with Tyr and Phe residues of potential partner proteins.
-
-
 The increase of dilute phase concentration was also observed
-in the case of single-stranded and double-stranded DNA. 
-hnRNPA2 has been shown in the past to interact with 
-ssDNA [68], and our results suggest that its LCD may have 
+in the case of single-stranded and double-stranded DNA.
+hnRNPA2 has been shown in the past to interact with
+ssDNA [68], and our results suggest that its LCD may have
 an important role in this interaction.
 
-
 In general, RNA has been observed to play crucial roles in
-both promoting and inhibiting LLPS in a concentrationdependent manner, with higher RNA concentrations generally 
+both promoting and inhibiting LLPS in a concentrationdependent manner, with higher RNA concentrations generally
 inhibiting LLPS [50–52]. Furthermore, RNA-dependent sup­
-pression of LLPS has been observed in several hnRNPs, such 
-as FUS, TIA-1, TDP-43 and hnRNPA1 [69]. These proteins all 
-contain RRMs, and studying the full-length proteins made it 
-difficult to dissect and appreciate the possible contribution of 
-their LCD to RNA (nucleic-acid) binding. Here, for the first 
-time, we could show that the LCD of hnRNPA2 itself can 
+pression of LLPS has been observed in several hnRNPs, such
+as FUS, TIA-1, TDP-43 and hnRNPA1 [69]. These proteins all
+contain RRMs, and studying the full-length proteins made it
+difficult to dissect and appreciate the possible contribution of
+their LCD to RNA (nucleic-acid) binding. Here, for the first
+time, we could show that the LCD of hnRNPA2 itself can
 encode for RNA binding and RNA buffering capacity.
 
-
 As about half of RNA-binding proteins have no identified
-
-
-
 RNA-binding domains, and much of such regions fall into
 disordered regions, the F/YGG repeat motif may be an impor­
 tant addition to the growing list of RNA-binding motifs [2].
-
-
 Further, numerous RBDs, such as those with Zn-finger
-domains [2], bind both RNA and DNA, and the F/YGG 
-repeat motif of hnRNPA2 LCD also has this double capacity, 
-and its potential general importance is underscored by that it 
-is enriched in a broad range of RNA- and DNA-binding 
-proteins, i.e. it can also be an important RNA chaperone 
-[16], DNA-binding element for transcription factors, and 
+domains [2], bind both RNA and DNA, and the F/YGG
+repeat motif of hnRNPA2 LCD also has this double capacity,
+and its potential general importance is underscored by that it
+is enriched in a broad range of RNA- and DNA-binding
+proteins, i.e. it can also be an important RNA chaperone
+[16], DNA-binding element for transcription factors, and
 other DNA-interacting proteins. Noteworthy, LLPS of tran­
-scription factors also often happens in so-called superenhancers [70], and Y- and F-rich repeat regions could help 
+scription factors also often happens in so-called superenhancers [70], and Y- and F-rich repeat regions could help
 transcription factor(s) tether to the DNA, decreasing the dis­
-tance between the specific DNA-interacting domains and 
+tance between the specific DNA-interacting domains and
 the DNA.
 
-
 An interesting aspect of this RNA-binding IDR domain
-may derive from the fact that hnRNPA2 also contains other, 
+may derive from the fact that hnRNPA2 also contains other,
 canonical RNA-binding domains, RRMs. As affinity and spe­
-cificity of a single RBDs is often not sufficient to provide 
+cificity of a single RBDs is often not sufficient to provide
 selective binding in vivo, RBPs typically have modular archi­
-tecture containing multiple RNA-interacting regions [13], 
+tecture containing multiple RNA-interacting regions [13],
 enabling cooperativity and specificity in binding [2].
-
-
 A further interesting aspect of intrinsically disordered RBPs
-is that they also occur multiple times (repeated internally), 
+is that they also occur multiple times (repeated internally),
 further increasing the resulting coordination and cooperativ­
-ity [14]; this is exactly what we observe in the case of F/YGG 
+ity [14]; this is exactly what we observe in the case of F/YGG
 motif in hnRNPA2 LCD.
 
-motif, we suggest its inherent specificity, which may explain 
+motif, we suggest its inherent specificity, which may explain
 its widespread phylogenetic occurrence. The observed sensi­
-tivity of the effect of RNA on the LLPS of hnRNPA2 LCD to 
-ionic strength and 1,6-hexanediol suggests the contribution of 
+tivity of the effect of RNA on the LLPS of hnRNPA2 LCD to
+ionic strength and 1,6-hexanediol suggests the contribution of
 both factors here.
 
-
 It is to be noted that the excessive presence of Gly and
-aromatic residues could also have a dangerous edge. Namely, 
-it has been shown that Gly is intrinsically destabilizing in beta 
-sheets. However, pairing of Gly with Phe or Tyr allows the 
-presence of Gly in beta sheets to be thermodynamically 
+aromatic residues could also have a dangerous edge. Namely,
+it has been shown that Gly is intrinsically destabilizing in beta
+sheets. However, pairing of Gly with Phe or Tyr allows the
+presence of Gly in beta sheets to be thermodynamically
 favourable. Therefore, the excessive presence of Gly + aro­
-matic residues could lead to beta sheet aggregation. Indeed, 
-LARK domains (Low-complexity Aromatic-Rich Kinked 
-Segments) are highly aggregation prone, and enriched in 
-similar residues [71]. Conclusively, while they have an 
-obvious beneficial function in the protein, these domains 
-also contribute to the high aggregation potential of these 
+matic residues could lead to beta sheet aggregation. Indeed,
+LARK domains (Low-complexity Aromatic-Rich Kinked
+Segments) are highly aggregation prone, and enriched in
+similar residues [71]. Conclusively, while they have an
+obvious beneficial function in the protein, these domains
+also contribute to the high aggregation potential of these
 domains. The evolutionary prevalence of F/YGG motifs in
-
-
 RBPs and DNA-binding proteins, however, shows this danger
-is mitigated by nature, and F/YGG motifs expand the list of 
+is mitigated by nature, and F/YGG motifs expand the list of
 RBDs as novel, general nucleic acid binding motif.
 
 Its occurrence in a broad range of proteins raises interest­
-ing structural, molecular and functional question we plan to 
-scrutinize in the near future. To conclude, we show the F/ 
+ing structural, molecular and functional question we plan to
+scrutinize in the near future. To conclude, we show the F/
 YGG motif as a novel, important disordered DNA- and RNAinteraction domain, as exemplified by hnRNPA2 LCD.
 
-
 Disclosure statement
+
 No potential conflict of interest was reported by the authors.
-
-
-Funding
-This work was supported by Fonds Wetenschappelijk Onderzoek FWO 
-PhD fellowship in fundamental research [grant n.: 11D2520N], a VUB 
-Spearhead grant (SRP51, 2019-24), grants K124670 and K131702 from 
-the National Research, Development and Innovation Office (NKFIH, 
-Hungary), EC H2020-WIDESPREAD-2020-5 Twinning grant (PhasAge, 
-no. 952334), EC H2020-MSCA-RISE Action grant (IDPfun, no. 778247). 
-D.P. is supported by the international VIB fellowship.

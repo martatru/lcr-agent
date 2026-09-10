@@ -2,7 +2,6 @@
 ENCs are the most abundant repetitive sequences in the RBPs’
 disordered regions
 
-
 To examine the occurrence of repetitive clusters, we analyzed
 amino acid sequences of 2,783 RBPs that exist at the protein level
 and contain domain boundary annotations (32, 33). Based on the
@@ -32,7 +31,11 @@ Nop15
 
 RRM
 
+
+
 DEEDEKDEDE
+
+
 
 DExH15
 (B9DFG3)
@@ -41,9 +44,12 @@ DExH15
 
 Helicase
 
-EEEDDEEEEEEDEDDDDE
 
+
+EEEDDEEEEEEDEDDDDE
 KH
+
+
 EIF4EBP
 (Q9XW13)
 
@@ -51,6 +57,8 @@ EIF4EBP
 
 
 DEDDDDDDED
+
+
 
 SLBP
 (Q9VAN6)
@@ -60,29 +68,38 @@ SLBP
 
 RBD
 
+
+
 SNSDSDSD
 13.4%
 
-S/T
 
+S/T
 32.2%
 
 12.3%
 
 
 Other
+
+
+
 K/R
 
+
+
 D/E
+
+
 
 N/Q
 P
 
 12.3%
 
-
 A
 G
+
 6.5%
 
 8.9%
@@ -96,16 +113,10 @@ D/E ENCs are invariable in their negative charges, whereas the
 ENCs with phosphorylation sites are tunable. For example,
 phosphorylation of the stem-loop–binding protein ENC enhances its negative charge (Fig. 1B). We continued to analyze the
 types of RNA-binding domains that immediately neighbor
-
-
 ENCs, finding that the top-five RNA-binding domains are the
-
-
-
 RRM, helicase domains, K homology, RNA-dependent RNA
 polymerase, and dsRNA-binding motif (Fig. 1°C). The high cooccurrence of ENCs with the RRM may be partially due to the
 fact that the RRM is the most abundant RNA-binding domain.
-
 
 Our search could be biased if RBPs inherently contain a high
 percentage of acidic residues. To rule out this potential bias,
@@ -117,40 +128,44 @@ residues. We further calculated the averaged p-values of the
 occurrence of the major clusters using Monte Carlo simulations, finding that the average p-values of ENCs longer than
 four amino acids are lower than 5% (Fig. S1B).
 
-
 Intramolecular interactions between ENCs and RNA-binding
 domains increase protein stability
 
 Intramolecular interactions between ENCs and RNAbinding domains are intuitive because of their opposite
 charge properties. The challenge is how to quantify the
 
-
 A
+
 
 Unfolded
 
-ENC
+
 
 ENC
-G
+
+
+
+ENC
+G
 
 no-ENC
 
-G
+G
 
 
 RRM
-
 C
-G
 
+G
 
 EN
 
+
 RRM
 
-Folded
 
+
+Folded
 C
 
 2xENC
@@ -158,9 +173,8 @@ no-linker
 no-ENC
 WT
 
-
-
 0.25
+
 
 FirbY-W
 0.20
@@ -181,8 +195,6 @@ intermolecular interactions, that is, ligand binding, increase
 protein stability and that these energetics (KD) can be precisely
 measured by the increase in protein stability (34). Similarly, we
 propose that intramolecular interactions between ENCs and
-
-
 RNA-binding domains increase protein stability and that these
 energetics can be measured as illustrated by Figure 2A. Here,
 we assumed that in the unfolded state, there is no interaction
@@ -192,7 +204,6 @@ the RNA-binding domain does not possess long consecutive
 basic residues. When this condition is not met, the energy of
 the unfolded state is overestimated and the magnitude of ΔΔG
 is underestimated.
-
 
 To test our hypothesis, we selected Nop15 as a model
 protein. Nop15 has a conserved ENC between residues 40 to
@@ -204,8 +215,6 @@ model. We created four different Nop15 constructs (no-ENC,
 1xENC, i.e., WT, and 2xENC) to investigate the impact of the
 ENC size and the distance of the ENC to the RRM (no-linker)
 on protein stability at the physiological ionic strength (Fig. 2B).
-
-
 Protein stability was measured using fluorescence intensity
 ratio
 between
@@ -223,11 +232,12 @@ the ENC closer to the RRM (no linker) or doubling the ENC
 50
 80
 191
-
-
 B
 
+
 ENC
+
+
 
 RRM
 WT (1xENC)
@@ -237,25 +247,29 @@ no-ENC
 
 RRM
 
-ENC
 
+
+ENC
 no-linker
 
+
 RRM
+
+
 
 ENCENC
-
 2xENC
 
-RRM
 
+RRM
 D
+
 
 TDP-43 RRM2
 ENC Tm = 81.2 ± 0.1 oC
 
-
 Normalized heat capacity
+
 WT Tm = 78.8 ± 0.4 oC
 
 40
@@ -282,6 +296,7 @@ m-Value
 
 Nop15
 construct
+
 
 Denaturation
 midpoint (M)
@@ -315,7 +330,6 @@ intramolecular interactions. These unfolding results suggest
 the direct linkage between protein stability and the energetics
 of these intramolecular interactions.
 
-
 We hypothesize that interaction between the ENC and the
 RRM is electrostatic, and consequently salt sensitive. To test
 this hypothesis, we determined the protein stability at 500 mM
@@ -326,7 +340,6 @@ strength (Table S2). The stabilizing effect of ENCs can be
 partially mimicked by citrate, which also contains multiple
 carboxylic groups (Fig. S2B, Table S3).
 
-
 To test whether the stabilizing effect of ENCs is generally
 applicable, we grafted an artificial ENC (EDEDEDEDED) to
 the second RRM domain of TDP-43 (TDP-43 RRM2) and to
@@ -336,7 +349,10 @@ the
 RRM
 domain
 of
+
+
 SRSF3.
+
 
 
 These
@@ -346,26 +362,20 @@ are
 orthogonal to Nop15 in that they (1) have no native ENC in
 their disordered regions and (2) only have a minimal basic
 site on the RNA-binding site (Fig. S2, C and D). As the two
-
-
 RRM proteins have no native tryptophan for FirbY-W assay,
 we used differential scanning calorimetry (DSC) to measure
 the protein stability. We found that introducing the artificial
-
-
 ENC increased the melting temperature of TDP-43 RRM2
 by 2.4 degrees (Fig. 2D). A similar melting temperature
 increase was also observed for SRSF3 (Fig. S2E). These results suggest that the stabilizing effect of ENCs is generally
 applicable.
 
-
 ENCs suppress nonspecific RNA binding of Nop15
+
 Nop15 binds to ITS2 III.A RNA (nucleotides 26–60), which
 contains a stem-loop region and a 9-nucleotide singlestranded region (Fig. 3, A and B) (36). A previous structural
 and biochemical study has shown that both the stem loop and
 single-stranded regions contribute to binding of Nop15 (37).
-
-
 To test how ENCs affect RNA binding, we used fluorescence
 polarization (FP) assays to measure the RNA affinities of the
 four Nop15 constructs. Although the Nop15 ENC decreases
@@ -386,25 +396,17 @@ mimicked by a stem-loop RNA of the same number of base
 pairs, but different nucleotides (Fig. 3B). The single-stranded
 9-mer region was mimicked by an ssRNA or ssDNA of the
 same length, but different sequences (Fig. 3B). Without the
-
-
 ENC, the Nop15 RRM binds to the nonspecific stem-loop
 RNA (KD = 244 nM), with a similar binding affinity to the
 specific RNA (KD = 173 nM, Table 2). In contrast, the WT
-
-
 Nop15 and no-linker constructs bind to the specific RNA
 more than 4-fold and 57.9-fold tighter than it binds to the
 nonspecific stem-loop RNA, respectively (Fig. 3D, Table 2).
-
-
 Nonspecific RNA binding to the 2xENC constructs was
 beyond FP detection even at 80 μM protein, which reflects the
 lower limit of the KD (Table 2). Nonspecific binding to ssRNA
 or ssDNA was detectable for the WT and no-ENC Nop15
 constructs at 50 mM NaCl (Table 2). The binding affinities of
-
-
 WT Nop15 to nonspecific ssRNA or ssDNA could not be
 precisely determined because the ENC inhibition delays
 reaching of the FP plateaus (Fig. 3, E and F). However, these
@@ -412,10 +414,8 @@ curves still provide lower boundaries for the KD values. These
 results showed that Nop15 ENC also significantly inhibits
 nonspecific binding to single-stranded nucleic acids (Table 2).
 
-
 The Nop15 ENC interacts with the neighboring RRM through
 electropositive sites
-
 
 To track the dynamic behavior of the Nop15 ENC, we
 attached a nitroxide paramagnetic group (MTSL) in the middle of the ENC (Fig. 4A). The paramagnetic center enhances
@@ -433,11 +433,8 @@ chemical
 shift
 perturbations
 (CSPs).
-
-
 Therefore, CSP analysis is complementary to PRE in probing
 local information.
-
 
 We collected heteronuclear single quantum coherence
 spectra for Nop15 in the MTSL-labeled (paramagnetic and
@@ -447,7 +444,6 @@ that ascorbate quenching and/or MTSL labeling does not
 change Nop15 structure (Fig. S3, A and B). The PRE values are
 plotted against the residue number (Fig. 4°C). Some RRM residues undergo resonance disappearance (gray bars in Fig. 4°C),
 
-
 A
 B
 
@@ -456,10 +452,12 @@ specific binder
 
 40
 
+
 U U
+
+
+
 ITS2 III.A
-
-
 C
 U
 C
@@ -470,43 +468,41 @@ G
 A
 G
 U
+
 
 U A
-
 U
 A
 A
 C
 U
-U G A A A U U G C U
 
+
+U G A A A U U G C U
 A
 G
 U
-
-
-
 G
 A
 
 30
 
 50
+
 *
 
 
 U G
-
 60
 26°C
 D
 
-ITS2 III.A
 
+ITS2 III.A
 400
 
-
 WT
+
 FP (mAu)
 
 no-ENC
@@ -524,7 +520,6 @@ no-linker
 10000
 100
 
-
 1
 
 E
@@ -534,6 +529,7 @@ F
 nonspecific ss-RNA
 
 WT
+
 FP (mAu)
 
 no-ENC
@@ -544,7 +540,6 @@ no-ENC
 
 100
 
- 
 1
 10
 100
@@ -561,49 +556,43 @@ the WT and the no-ENC construct (PREWT – PREno-ENC,
 Fig. S3E). The residues with resonance disappearance were
 assumed to have a PRE value of 100 s−1, which is typically one
 
-
 WT
+
+
 No ENC
 No linker
 2xENC
 
 RNA constructs
 
+
 Specific ITS2 RNA
 215 ± 34 (1.2)a
 173 ± 32 (1)
 583 ± 90 (3.4)
 1870 ± 270 (10.8)
-
-
 Nonspecific stem-loop RNA
 945 ± 65 (3.9)
 244 ± 18 (1)
 14,130 ± 1400 (57.9)
 >80,000 (>327.9)
-
-
 Nonspecific ssRNA
 >8000 (>18.7)b
 427 ± 98 (1)b
-
-
 ND
 ND
 Nonspecific ssDNA
 >8000 (>6.9)b
 1162 ± 150 (1)b
-
-
 ND
 ND
+
 ND denotes binding is too weak for detection.
 a The values in the parenthesis are the relative KD compared with the binding of the no-ENC construct. Mean KD ± SEM from three technical replicates.
 b The binding affinities were measured at 50 mM NaCl. Other measurements were carried out at 150 mM NaCl.
 
 
 G C
-
 A
 G
 A
@@ -623,14 +612,13 @@ U
 
 ss-RNA
 
-
 A
 G
 
 A
 G
+
 * A G A G A G A G A
-
 
 G
 
@@ -661,8 +649,6 @@ no-linker
 nonspecific ss-DNA
 
 300
-
-
 WT
 
 no-ENC
@@ -676,6 +662,7 @@ no-ENC
 100
 1000
 10000
+
 [Protein] (nM)
 
 order of magnitude lower than the actual values (38). Positive
@@ -725,8 +712,6 @@ thermal motion at room temperature (RT), as well as solvent
 interactions. However, the three conformations of the ENC
 with the RRM can be observed within at least the tens of
 nanoseconds timescale, indicating their thermal stability.
-
-
 Meanwhile, we identified the residues contacting the ENC for
 the three representative conformations (Table S4). As expected, both charged and noncharged residues were found at
 the binding interfaces. Based on the MD production trajectories, we found that the average electrostatic interaction energies for the three binding conformations were -664, -594,
@@ -740,10 +725,8 @@ driving force. These results are consistent with our finding that
 high ionic strength significantly decreases the stabilizing effect
 of the Nop15 ENC (Fig. S2A).
 
-
 An engineered ENC changes the landscape of RNA-binding
 specificity for SRSF3
-
 
 The RNA recognition of Nop15 is via both the overall shape
 and sequence of the stem-loop RNA (37). It is common that
@@ -752,8 +735,6 @@ potentially bind to different RNA motifs. Although we have
 shown that the Nop15 ENC inhibits nonspecific RNA binding,
 the question remains as to how an ENC affects sequence
 specificity of RNA binding. With regard to this question,
-
-
 Nop15 is not the optimal model, as RNA secondary structure
 also plays a role in binding. To answer this question, we
 grafted an engineered ENC to the C-terminal end of SRSF3
@@ -762,15 +743,336 @@ SRSF3’s electropositive surface is mainly confined to the RNAbinding site, eli
 binding by non–RNA-binding sites (Fig. S2D). Previous
 studies have shown that the SRSF3 RRM binds to 5-mer
 pyrimidine-rich sequences using SELEX and iCLIP (39–41).
+These methods are powerful to identify the strongest RNA
+motifs, while weaker ones cannot be captured. To study the
+effect of the engineered ENC on RNA-binding specificity, the
+relative binding affinities of all RNA motifs that bind to SRSF3
+have to be determined. To this end, we carried out RNA Bind-
+n-Seq on WT and ENC-mutant SRSF3 at different protein
+concentrations (42). The ENC mutant pulls down less RNA
+compared with the WT protein (Fig. S5A). This difference
+reflects the fact that the ENC mutant has a lower RNA-binding
+affinity. As the background RNA binding by the resin accounts
+for about 50% of the pulled-down RNA for the ENC mutant at
+125 nM, the data from this protein concentration were
+excluded
+in
+determination
+of
+relative
+binding
+affinities
+(Fig. S5A).
+
+As detailed in the Experimental procedures section, we
+confirmed that 5-nucleotide-long motifs are necessary and
+sufficient for specific SRSF3 binding. The top 2% of motifs
+identified by our experiments cover the ones revealed by
+previous iCLIP and SELEX studies (Table 3) (39–41). To
+further crosscheck the validity of RNA Bind-n-Seq, we chose
+5-mer motifs of different relative binding affinities and
+measured their binding affinities using FP. The relative binding
+affinities determined by RNA Bind-n-Seq match the ones
+determined by FP assays (Figs. 5B and S5B). All these results
+confirm the validity and robustness of our approach.
+
+We further analyzed the number of motif types that
+SRSF3 binds at different protein concentrations (Fig. 5°C).
+The number of motif types pulled down by SRSF3 increases
+along with protein concentration as predicted, and WT
+SRSF3 pulled down more motifs than the ENC mutant
+(Fig. 5°C). It is noteworthy that the same amount of cDNA
+for each library was used for deep sequencing. Therefore,
+the decrease in the number of motif types pulled down by
+SRSF3 indicates an increased RNA-binding specificity by the
+ENC. Based on the relative KD values, we further determined the affinity rank of the RNA motifs. The affinity rank
+reflects the relative affinities of various RNA motifs. As
+shown in Figure S5°C, the ranking patterns for the WT and
+ENC-mutant SRSF3 show that the motifs containing C, A,
+and U are preferred more than those with G. However, the
+rank patterns show dissimilarities for weaker binding motifs.
+To provide a more straightforward visualization, we plotted
+the affinity ranks for the RNA motifs bound to WT SRSF3
+at 500 and 2000 nM. This plot demonstrates a high correlation value (R = 0.98), which is expected and indicates
+the robustness of the analysis (Fig. 5D). However, the affinity rank correlation between WT and ENC-mutant SRSF3
+is significantly lower (R = 0.57, Fig. 5E). These dissimilarities
+in the motif ranking suggest that the engineered ENC inhibits different motifs to different extents, instead of weakening all motifs to the same extent.
+
+We further analyzed the contribution of each of the five
+nucleotide sites to sequence specificity. To this end, the
+1024 RNA motifs were grouped in such a way that each
+group only differs in one site (Fig. 5F). The groups that
+contain one and only one motif that binds to SRSF3 were
+identified (Table S5). For example, in group UAXCU, only
+motif UACCU binds with SRSF3, indicating site 3 requires
+a cytidine for binding as any mutation in this site abolishes
+binding.
+We
+defined
+identification
+of
+such
+groups
+as
+discriminating events. The occurrence of discriminating
+events reflects how “discerning” the site is for binding.
+More discriminating events were identified for the ENC
+mutant than WT SRSF3 at both concentrations (Fig. 5G,
+top), which is consistent with our finding that the grafted
+ENC increases RNA-binding specificity for SRSF3 (Fig. 5°C).
+Our analysis also shows that site 3 has more discriminating
+events than others, which agrees with the previous study
+that site 3 has the highest conservation (41).
+
+By calculating the ratio of discriminating events for the ENC
+mutant and WT SRSF3, we compared the relative change in
+
+A
+
+
+SRSF3
+WT
+
+
+ENC
+
+
+
+RRM
+
+
+
+RRM
+
+
+
+ENC
+C
+
+400
+
+WT
+
+Number of bound motifs
+
+
+ENC
+300
+
+200
+
+100
+
+0
+
+
+Relative KD FP
+125
+500
+2000
+1
+
+[SRSF3] (nM)
+
+D
+E
+
+1000
+
+
+Affinity Rank for WT SRSF3
+Affinity Rank at 2000 nM
+
+100
+
+500 nM
+
+10
+
+1
+
+R=0.98
+R=0.57
+
+0.1
+10
+100
+1000
+0.1
+
+2000 nM
+0.1
+10
+100
+1000
+0.1
+
+1
+1
+
+F
+G
+H
+
+60
+500 nM
+
+WT
+
+
+ENC
+Motif Bind?
+
+
+Event Count
+40
+
+...
+
+
+ACAAG No
+
+
+
+CCAAG No
+
+
+
+GCAAG No
+
+
+
+UCAAG Yes
+...
+
+
+UAACU No
+
+
+
+UACCU Yes
+
+
+
+UAGCU No
+
+
+
+UAUCU No
+...
+
+20
+
+0
+
+Count ratio ENC/WT
+
+2.0
+
+1.0
+
+0.0
+
+
+Motif Site
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
+
+
+Motif Site
+discriminating events by introduction of the ENC. For both
+protein concentrations, site 1 shows the highest ratio, suggesting that specificity is increased more for this site by the
+engineered ENC (Fig. 5G, bottom). Coincidently, structural
+analysis shows that site 1 is adjacent to two basic residues, R75
+and R77, which constitute the electropositive surface for RNA
+binding (Fig. 5H). This finding indicates that the site involved
+in electrostatic interactions is more susceptible to ENC
+regulation.
+
+B
+
+1000
+
+
+UUUCA
+
+
+
+KD Relative RNA Bind-n-Seq
+
+
+
+CCAAC
+100
+
+
+CCCAA
+
+
+
+ACAUC
+10
+
+
+UCAAC
+
+
+
+CAUCA
+
+
+
+CUUCA
+1
+
+10
+100
+1000
+
+1000
+
+100
+
+
+ENC
+10
+
+1
+
+WT
+
+2000 nM
+WT
+
+
+ENC
+
+
+
+R75
+1
+
+5
+
+2
+3
+4
+
+
+R77
+
 
 --- Discussion ---
-
-
-
 Our study revealed an unexpected finding that ENCs are the
 most abundant repetitive sequences in RBPs’ disordered regions.
-
-
 Considering the fact that numerous phosphorylation sites have
 yet to be identified, and that some structured RNA-binding domains have embedded ENCs (43), the occurrence of ENCs is
 actually higher than reported here. The high occurrence of ENCs
@@ -779,26 +1081,36 @@ p-values. In addition, ENCs are more often found immediately
 
 
 Rel
+
+
+
 Rank
 iCLIPa
+
+
 SELEXb
+
+
 
 Motif
 KD
 
+
 CUCCC
 1
 1
+
+
 CUACA
 1.1
-
-
 2
+
+
 CAACA
 1.8
-
-
 3
+
+
 CUUCA
 1.9
 4
@@ -808,9 +1120,9 @@ x
 
 UCCCC
 2.8
-
-
 5
+
+
 CAUCA
 4.9
 6
@@ -820,14 +1132,14 @@ x
 
 ACUCC
 5.0
-
-
 7
+
+
 CCCCC
 5.0
-
-
 8
+
+
 UCUAC
 5.4
 9
@@ -836,14 +1148,14 @@ x
 
 CACCA
 7.4
-
-
 10
+
+
 CACCC
 7.5
-
-
 11
+
+
 UCAAC
 7.8
 12
@@ -853,9 +1165,9 @@ x
 
 UCCCA
 8.4
-
-
 13
+
+
 ACAAC
 8.7
 14
@@ -870,9 +1182,9 @@ x
 
 CUCCU
 9.6
-
-
 16
+
+
 ACUAC
 10.4
 17
@@ -914,19 +1226,16 @@ structure of ribosomal pre-60S complex (PDB ID: 3JCT (36)),
 suggesting that the ENC is unlikely to function by forming stable
 contacts with other protein or RNA components.
 
-
 We proposed that ENCs regulate neighboring RNA-binding
 domains for their binding affinity and specificity through
 intramolecular interactions. Here, we provided a way to
 measure the dynamic intramolecular interaction between
-
-
 ENCs and RNA-binding domains through its coupling with
 protein stability. We also found that ENCs’ stabilizing effect is
 generally applicable.
 
-
 The role of ENCs in modulating RNA-binding specificity
+
 RBPs need to balance between binding affinity and specificity. This balance is realized by a tradeoff between electrostatic interactions and nonelectrostatic ones, such as H-bonds
 and stacking interactions. Most RBPs use electropositive surfaces to enhance RNA binding. However, overuse of electrostatic interactions also increases nonspecific binding, as seen
 with the Nop15 RRM.
@@ -938,8 +1247,6 @@ nonspecific binding could hinder Nop15 from forming the specific complex. Part o
 electropositive non–RNA-binding surface (1160 Å2), which accounts for roughly half of the total electropositive surface
 
 (2392 Å2) based on solvent-accessible surface area analysis (45).
-
-
 As shown by our MD simulations, the native ENC can roughly
 occupy the RNA-binding site (Fig. S4). Therefore, the ENC may
 mainly interact with the electropositive non–RNA-binding surface and not significantly compete with the RNA ligand in the
@@ -953,19 +1260,15 @@ to nonspecific stem-loop RNA binding was increased by larger
 than 84-fold (Table 2).
 
 It is intuitive to expect that ENCs inhibit RNA binding.
-
---- However, our results on SRSF3 revealed that the inhibitory ---
+However, our results on SRSF3 revealed that the inhibitory
 effect is discriminating instead of weakening all binders to the
 same extent. The site involved in electrostatic interactions
 between RNA phosphate backbone and basic protein residues
 is more susceptible to the inhibition. Our finding that the ENC
 can reshape the landscape of RNA-binding specificity for
-
-
 SRSF3 has implications to the RBPs with the phosphorylatable
 ENCs. For these RBPs, phosphorylation of ENCs could adjust
 not only the RNA binding affinity but also specificity.
-
 
 Because DBPs also need to deal with nonspecific binding, we
 predict that ENCs are also enriched in DBPs. Therefore, we
@@ -974,7 +1277,6 @@ occurrence of ENCs in RBPs and DBPs is higher than that in
 non-NBPs (Figs. 6A and S6A). This finding is consistent with a
 recent study by Krois and Wright that the acidic N-terminal
 disordered region of p53 inhibits nonspecific DNA binding (46).
-
 
 Nonspecific RNA binding is less problematic for halophiles
 because halophilic proteins perform their functions at salt
@@ -997,6 +1299,5 @@ composition of acidic residues is much higher in halophiles
 than it is in other organisms (48, 49). Therefore, the high
 occurrence of ENCs in RBPs or the low occurrence of ENCs in
 halophiles is not attributed to the amino acid composition.
-
---- These results suggest that ENCs do not occur at random and ---
+These results suggest that ENCs do not occur at random and
 may be selected by evolution for their functions.

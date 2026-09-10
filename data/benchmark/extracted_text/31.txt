@@ -12,8 +12,6 @@ electron microscopy (TEM) was applied to characterize the
 
 morphology of the peptide aggregates. After incubation in
 phosphate buffer (pH 7.0, 37uC) for 2 weeks, G294V, G295S,
-
-
 G294P, and GGG294PPP displayed similar fibrillar morphology
 [Figure 2A(b–e)] with our published glycine-rich peptides including D1 [Figure 2A(a)], G294A, and A315T [20]. While the fibrils
 from G294A, G294V, and G295S were all twisted, the replacement of glycine with proline (G294P, GGG294PPP) perturbed the
@@ -30,11 +28,9 @@ mutants formed typical fibrils, while the replacement of glycine
 with proline is able to perturb the fibrillogenesis from subtle
 change in fibril width to dramatic alteration in morphology.
 
-
 The glycine to proline replacement perturbed the
 secondary structure of its monomer/oligomer during the
 amyloidogenesis
-
 
 While TEM provides the morphological information of the
 fibrils, the change in secondary structures, an important indicator
@@ -71,8 +67,8 @@ due to its rigid nature to be compatible in the b-sheet structure
 prolines greatly alters the monomer/oligomer structures from
 TDP-43 and leads to the suppression of b-sheet content.
 
-
 All fibrils were rich in b-sheet
+
 Fourier transform-Raman (FT-Raman) spectrometry is another
 powerful tool to depict the secondary structural in peptide/protein
 samples. While CD may provide the ensemble of secondary
@@ -95,14 +91,11 @@ deposits showed all b-sheet-rich structures in Raman spectra. As
 for GGG308PPP, characterization of its aggregates by Raman
 spectroscopy was not practical due to its high solubility.
 
-
 The glycine to proline replacement influenced the
 amyloid properties and aggregation rate
 
 The benzothiazole dye, thioflavin T (ThT), has commonly been
 applied to probe the amyloidogenic propensity of fibrils [20].
-
-
 Marked increase of ThT signal can be observed in pathological
 mutant peptides (G294V and G295S) on the 7th day of incubation
 in the phosphate buffer (pH 7.0, 37uC), suggesting the increase of
@@ -129,7 +122,6 @@ ThT
 fluorescence intensity, suggesting triple prolines can disrupt the
 amyloidogenic propensity (Figure 4A).
 
-
 To obtain insights in the aggregation kinetics in each TDP-43
 peptide, we applied time-course sedimentation assay to monitor
 the content of remaining monomers during the aggregation
@@ -146,7 +138,6 @@ possessed strong aggregation-prone ability to convert monomer
 into ThT-positive oligomers/aggregates. Meanwhile, the replacement of glycine with proline in TDP-43°C-fragment, especially
 GGG308PPP, is able to suppress amyloidogenesis and stabilize its
 monomer.
-
 
 All amyloidogenic peptides exhibited membrane
 disruption ability
@@ -170,8 +161,6 @@ G295S;
 moderate
 (,4%)
 in
-
-
 D1,
 G294V,
 G294P,
@@ -219,8 +208,10 @@ GGG294PPP
 
 
 GGG308PPP
-N.D.
 
+
+
+N.D.
 N.D. Not determined.
 doi:10.1371/journal.pone.0103644.t001
 
@@ -251,18 +242,13 @@ further delineate the possible neurotoxic effect of TDP-43 mutants
 GGG294PPP, GGG308PPP), we have added these peptides to
 N2a cells and examined the cell viability after 72 hours. Despite
 the distinct structure and amyloidogenicity among D1, G294V,
-
-
 G294P, and GGG294PPP, these peptides significantly hampered
 the survival of N2a cell by 25% (p,0.05, Figure 6A) while G295S
 decreased ,35% cell viability after 72 hours (p,0.01, Figure 6A).
-
-
 Conversely, GGG308PPP displayed no significant reduction of
 cell survival compared with PBS treatment, suggesting the proline
 substituent at residue 308–310 prohibited the neurotoxicity from
 TDP-43°C-terminal peptides.
-
 
 To further obtain insights in how mutant peptides affect cell
 morphology,
@@ -290,9 +276,7 @@ TDP-43 (GGG308PPP) suppressed the amyloidogenic process
 which further reduced neurotoxicity.
 
 --- Discussion ---
-
-
---- Our results provided both the biophysical and biochemical ---
+Our results provided both the biophysical and biochemical
 information of TDP-43°C-terminus mutant peptides. We have
 previously reported that a specific fragment (residue 287–322)
 from TDP-43°C-terminus, D1, is able to form twisted fibers and b-
@@ -305,7 +289,6 @@ propensity in TDP-43 pathological mutants, G294V and G295S,
 which exerted strong ability to disrupt liposome integrity and
 cause neurotoxicity.
 
-
 The amyloid and prion-like properties of TDP-43 peptide
 fragments
 
@@ -315,12 +298,12 @@ proposed as a prion-like domain, exhibiting prionogenic property
 and sharing 24.2% sequence homology with the prion domain in
 Sup35 [24,26]. However, the intrinsic property of TDP-43 has
 always been argued due to its negativity to Congo staining [13].
-
-
 Recently,
 accumulating
 evidences
 showed
+
+
 TDP-43
 positive
 inclusions co-localized with Thioflavin S in the brain tissue of
@@ -359,8 +342,6 @@ pathological mutations conducted in this study were located in the
 glycine-rich domain (residues 274–314), whereas this region has
 been reported structurally similar to heterogeneous nuclear
 ribonuclear proteins (hnRNPs) [36,37]. The interaction between
-
-
 TDP-43 and hnRNPA2 is important in maintaining cellular
 homeostasis while alterations in TDP-43-recruited hnRNP complex formation may perturb downstream RNA splicing regulation
 and protein-protein interactions [38,39]. Future experiments will
@@ -368,7 +349,6 @@ be applied to dissect how structural aberrations and prion-like
 properties in TDP C-terminus mutants (G294V and G295S)
 influence the interaction with their downstream cellular binding
 partners in TDP-43 proteinopathy.
-
 
 The replacement of glycines by prolines altered the
 aggregation propensity
@@ -379,8 +359,6 @@ biochemical property greatly differs. From ThT fluorescence and
 HPLC sedimentation assay, we discovered that proline substituents (G294P, GGG294PPP, and GGG308PPP) showed profound
 decreased aggregation ability which indicated that proline may
 perturb the intermolecular association during amyloid formation.
-
-
 We thus suggested that proline replacement may reduce the
 overall flexibility of the peptide. Due to the cyclic side chain in the
 proline, its Q backbone dihedral angle was restricted from 290u to
@@ -413,8 +391,6 @@ conformation, which may due to the increase of unfolded-tomisfolded energy barri
 speculate that proline replacement in certain sites of TDP-43 may
 have disrupted the disordered folding pathway of mutant TDP-43
 to an alternative folding that is non-toxic to the cellular system.
-
-
 Interestingly, we have recently co-incubated the GGG308PPP
 with G295S and observed the morphological change of both
 peptides under EM. The presence of GGG308PPP suppressed the
@@ -426,19 +402,7 @@ process is perturbed is still under investigation.
 
 Conclusively, we have characterized in detail the structural and
 biological properties of ALS-linked mutations in TDP-43 proteinopathy, which may provide insight in the disease pathogenesis.
-
-
 Our approach using glycine to proline replacement to perturb
 amyloidosis may shed light on establishing the linkage between
 structural aberrations and pathophysiological mechanism for the
 future therapeutic development.
-
-
-Supporting Information
-
-File S1
-Supporting Information File. Table S1. Summary of the biophysical/biological characteristics of the
-TDP-43°C-terminal mutant and proline substituents
-fragments. Figure. S1 Co-incubation of GGG308PPP
-with pathological mutant G295S resulted in massive
-amorphous aggregate formation. Electron micrographs of

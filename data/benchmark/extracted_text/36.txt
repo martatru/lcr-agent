@@ -1,6 +1,5 @@
---- Results
-
-Characterization of the BAC clone AC100808 and the ---
+--- Results ---
+Characterization of the BAC clone AC100808 and the
 identification
 of
 size
@@ -30,6 +29,8 @@ instead
 
 Comparisons
 between
+
+
 KAP4.11
 and
 KAP4.14 showed high sequence homology, with the main
@@ -89,6 +90,7 @@ Table I. Primer pairs for PCR amplification of the KAP4 genes
 
 Gene
 PCR primers
+
 KAP4.1 (KAP4.10)
 KAP4.1&10F: 50-catgggataaggagattcccac-30
 (AC006070: nt 122,179-122,200)
@@ -96,12 +98,14 @@ KAP4.1&10F: 50-catgggataaggagattcccac-30
 KAP4.1&10R: 50-catgggatggtgactggctc-30
 (AC006070: nt 122,721–122,740)
 
+
 KAP4.2
 KAP4.2F: 50-tctgatgacatcaggccttagc-30
 (AC006070: nt 128,831–128,852)
 
 KAP4.2R: 50-actgaggttgtccaattggcct-30
 (AC006070: nt 129,431–129,452)
+
 
 KAP4.3
 KAP4.3F: 50-tcattctcctgggaacccac-30
@@ -116,6 +120,7 @@ KAP4.4&13F: 50-ctccttcctggaaacccacc-30
 
 KAP4.4&13R: 50-agatactgcaggaaggctgg-30
 (AC006070: nt 146,991–147,010)
+
 
 KAP4.5
 KAP4.5F: 50-tagaaatccacccagaacctcc-30
@@ -133,6 +138,7 @@ KAP4.6&15F: 50-gcagcaaggagactcccaaa-30
 KAP4.6&15R: 50-ggtctgcttctgtgaggag-30
 (AC100808: nt 21,749–21767)
 
+
 KAP4.7
 KAP4.7F: 50-aaacccacccagatcctcc-30
 (AC100808: nt 77,388–77,406)
@@ -140,12 +146,14 @@ KAP4.7F: 50-aaacccacccagatcctcc-30
 KAP4.7R: 50-tggtgggctctttggaagca-30
 (AC100808: nt 76,768–76,787)
 
+
 KAP4.8
 KAP4.8F: 50-tttactctcttggaaacccaaatag-30
 (AC100808: nt 63,452–63,476)
 
 KAP4.8R: 50-gtctacatttgtggaccagcg-30
 (AC100808:nt 64,086–64,106)
+
 
 KAP4.9
 KAP4.9F: 50-tcactctcttggaaacccacc-30
@@ -160,6 +168,7 @@ KAP4.11&14F: 50-ttcactctcctagaaacccaac-30
 
 KAP4.11&14R: 50-tggtctacaactgtgggcct-30
 (AC100808: nt 43,888–43,907)
+
 
 KAP4.12
 KAP4.12F: 50-cagaacactcactctcctgg-30
@@ -177,8 +186,8 @@ KAP4 genes.
 Annealing
 temperature (1°C)
 
-
 Product size
+
 (bp)
 
 60
@@ -262,11 +271,14 @@ high sequence homology between KAP4.4 and KAP4.13,
 indicate that KAP4.13 is not an independent gene, but a
 size polymorphism of the KAP4.4 gene.
 
-
 Unexpectedly,
+
+
 PCR
 using
 the
+
+
 KAP4.6&15F
 and
 KAP4.6&15R primers resulted in amplification of only a single fragment, of 748 bp, in all the samples (data not shown).
@@ -286,7 +298,6 @@ and KAP4.12-v1 revealed that their sequences were identical except for a 120-nuc
 KAP4.12-v1, which led to a deletion of 40 amino acid residues representing repeat segments, and two amino acid
 residue substitutions (Fig S1i).
 
-
 Transcripts of the KAP4 gene variants are expressed in
 the hair follicles To demonstrate the follicular expression
 of the polymorphic alleles of the KAP4 genes at the mRNA
@@ -301,19 +312,14 @@ and KAP4.12/KAP4.12-v1 at the genomic DNA level (Fig
 3a). Because all the known KAP genes consist of only one
 exon, care was taken to eliminate traces of genomic DNA
 from the follicular RNA samples by digestion with DNase I.
-
-
 As shown in Fig 4, two well-separated cDNA were amplified
+
 in the PCR for each of the KAP4 transcripts analyzed here.
 The sizes of the products and their sequences were completely consistent with those obtained by the PCR of genomic DNA (See the lane of individual no. 6 in Fig 3a). These
 results clearly showed that the transcripts of the KAP4 gene
 variants are expressed in the hair follicles.
 
-
 Allele frequencies of the size polymorphisms in the
-
-
-
 KAP4 genes In toto, we performed PCR amplification of
 the KAP4 genes in 50 unrelated Japanese individuals (100
 alleles). Based on the results, we summarized the allele
@@ -325,17 +331,12 @@ KAP4.14/KAP4.11, and KAP4.9/KAP4.9-v1 alleles were
 identical (Fig 5).
 
 --- Discussion ---
-
-
-
 Furthermore, we demonstrated that four KAP4 genes,
 KAP4.1, KAP4.13, KAP4.15, and KAP4.14, of which the accurate locations were previously unknown, are actually size
 polymorphisms of other KAP4 genes on chromosome 17q
 (Fig 5). Thus, all 15 of the previously reported KAP4 genes
 turned out to be located on chromosome 17q, which creates
 some confusion in using the present nomenclature for KAP.
-
-
 Similar complications have arisen for the human KAP1 genes
 as well, because the KAP1.1A, KAP1.6, and KAP1.7 genes,
 which were originally thought to be independent genes, are in
@@ -343,13 +344,10 @@ actuality, size polymorphisms of the KAP1.1B gene, and the
 KAP1.2, KAP1.8, and KAP1.9 genes are polymorphic forms
 of the KAP1.3 gene (Shimomura et al, 2002b). These results
 provide the caveat that if a clone encoding a putative novel
-
-
 KAP gene is isolated, there is a chance that it is a size
 polymorphism of another, previously reported KAP gene.
 Therefore, in this paper, we termed the additional size polymorphisms of the KAP4 genes as ‘‘KAP4.m-vn’’ so as not to
 cause further nomenclature problems.1
-
 
 In this study, we identified size polymorphisms in 10 of 11
 KAP4 genes on chromosome 17q (Fig 5). The deduced
@@ -373,15 +371,12 @@ interstitial deletions in the keratin genes (Wanner et al,
 1993). There is a possibility that, in part, the same mechanism may have been involved in generating the deletion
 polymorphisms of the KAP4 genes.
 
-
 The allele frequencies of the KAP4 gene variants showed
 that the Japanese population has both the KAP4.1 and
 KAP4.3 alleles at a low frequency (Fig 5). In addition, neither
 the KAP4.13 nor the KAP4.6 allele was detected in the Japanese population (Fig 5). These polymorphic alleles were
 originally isolated from genomic DNA and/or a cDNA library
 derived from other human populations (Rogers et al, 2001).
-
-
 We previously showed the existence of population-specific
 polymorphisms in the human KAP1 genes (Shimomura et al,
 2002b). It is possible that several size polymorphisms in the
@@ -392,7 +387,7 @@ populations. We plan to analyze the KAP4 genes in other
 human populations in our future work, which may increase
 our understanding of how the human KAP4 genes evolved.
 
---- In addition to the results mentioned above, we obtained ---
+In addition to the results mentioned above, we obtained
 some other interesting observations in this study. As shown
 in Fig 3a, the fragment patterns of KAP4.9/KAP4.9-v1,
 KAP4.14/KAP4.11, and KAP4.12/KAP4.12-v1 were virtually

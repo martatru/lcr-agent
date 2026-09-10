@@ -1,11 +1,9 @@
---- Results
+--- Results ---
+FUS LC is multiply phosphorylated by DNA-PK
 
-FUS LC is multiply phosphorylated by DNA-PK ---
 The N-terminal, 163-amino acid, low-complexity domain (LC) of
 FUS contains 12 conserved S/TQ sequence motifs that make up the
 primary recognition site of DNA-dependent protein kinase (DNAPK; Fig 1A, gray lines, Appendix Fig S1A; Kim et al, 1999).
-
-
 However, DNA-PK treatment in vitro followed by either tandem
 mass spectroscopy or Edman sequencing resulted in identification of
 only five phosphorylation sites in FUS: S26, S42, S61, S84, and S131
@@ -39,8 +37,8 @@ and to alteration in spin relaxation properties. Based on the extent
 of phosphorylation observed, each FUS polypeptide must be multiply phosphorylated. Taken together, these data establish that DNAPK is able to phosphorylate all S/TQ positions in the FUS LC, including all 4 TQ positions, none of which had been identified in previous
 in vitro experiments.
 
-
 Identification of FUS LC phosphorylation sites in cells
+
 Although FUS LC is known to be a target of phosphorylation, sitespecific identification of in-cell phosphorylation sites has not been
 reported
 using
@@ -68,14 +66,22 @@ phosphopeptide
 enrichment
 approaches, we attempted to identify phosphorylation sites in the
 
-
 A
 
-RRM
-Gly-rich
-SYGQ LC
-RGGZnF RGG
 
+RRM
+
+
+
+Gly-rich
+
+
+
+SYGQ LC
+
+
+
+RGGZnF RGG
 1
 163
 526
@@ -84,17 +90,15 @@ RGGZnF RGG
 422 453
 521
 
-
 WT
 12E
-
-
 
 0.5
 
 PLAAC score
 
 0
+
 -0.5
 
 S/TQ sites
@@ -107,19 +111,25 @@ S/TQ sites
 500
 residue number
 
-
 C
 
 1
 T7
-S26
-S84
-I/I0
 
+
+S26
+
+
+
+S84
+
+
+
+I/I0
 0.5
 
-
 0
+
 
 S117
 time
@@ -133,10 +143,11 @@ time
 90
 
 D
+
 0.5
 
-I/I0
 
+I/I0
 0
 
 0
@@ -153,7 +164,7 @@ B
 FUS is phosphorylated at all 12 S/TQ sites in vitro by DNA-PK, as identified by NMR.
 C
 Change in intensity of phosphorylated (orange) and not phosphorylated (blue) peaks in NMR spectra quantified over time for select residues (time course of
-phosphorylation for the remaining residues can be found in Appendix Fig S1). Error bars indicate  SD derived from uncertainty in NMR signal intensity in a single
+phosphorylation for the remaining residues can be found in Appendix Fig S1). Error bars indicate SD derived from uncertainty in NMR signal intensity in a single
 representative biochemical experiment.
 D
 Treatment of HEK cells with calicheamicin, which causes double-strand breaks, results in a change in the apparent mobility of FUS when analyzed by SDS–PAGE,
@@ -187,8 +198,8 @@ conditions (Gardiner et al, 2008; Deng et al, 2014). Combined with
 
 
 NLS
-
 B
+
 
 FUS LC
 FUS LC + DNA-PK
@@ -246,7 +257,6 @@ positions following DNA damage. Given the high specificity of DNAPK for S/TQ sit
 non-S/TQ positions likely arises from other kinases. In total, by
 mass spectrometry and NMR we have identified 17 putative phosphosites in FUS LC, suggesting phosphorylation could have a role in
 FUS function.
-
 
 Phosphorylation and phosphomimetic variants reduce FUS LC
 phase separation and aggregation
@@ -314,8 +324,6 @@ chains and 150 mM NaCl. For wild-type FUS LC, a marked peak in
 the heat capacity as a function of temperature (Fig 2B) is observed
 concomitant with phase separation into a single continuous phase
 (Fig 2B, upper left inset). At the same temperature and conditions,
-
-
 FUS LC 12E does not show a heat capacity peak or collapse
 (Fig 2B). Snapshots of simulated FUS LC polypeptides are shown
 within Fig 2B to illustrate the change from a single uniform phase to
@@ -331,14 +339,11 @@ To test the hypothesis that phosphorylation alters FUS LC assembly in vitro, we 
 (with and without DNA-PK treatment) and FUS LC 12E, carrying the
 12 phosphomimetic substitutions at the consensus DNA-PK sites.
 We performed differential interference contrast (DIC) microscopy of
-
-
 FUS LC incubated for 1 day where wild-type FUS LC undergoes
 LLPS to form round micron-sized droplets (Fig 2A, top left).
 Some of these droplets convert to fibrous aggregates during this
 time (Fig 2A, top right). After the same incubation period, DNAPK-phosphorylated FUS LC and FUS LC 12E (phosphomimetic)
 showed no LLPS or aggregation (Fig 2A, bottom).
-
 
 Given that phosphorylation and phosphomimetics of FUS LC
 alter self-assembly and aggregation of the isolated LC, we hypothesized that LLPS would be disrupted for full-length FUS bearing phosphomimetic substitutions within the LC. We previously established
@@ -349,10 +354,10 @@ FUS 6E (specific residues are described in Appendix Supplementary
 
 ▸
 
-
 C
 
 A
+
 FUS LC (wild-type)
 (
 yp )
@@ -382,7 +387,6 @@ agitation
 
 no
 
-
 B
 
 40
@@ -390,14 +394,15 @@ B
 WT
 12E
 
-Heat Capacity 
 
+Heat Capacity
 30
+
 (kcal/mol/K)
 
 20
 
- (1200 rpm)
+(1200 rpm)
 +agitation
 
 10
@@ -411,7 +416,7 @@ Heat Capacity
 
 Temperature ( ̊C)
 
- +RNA
++RNA
 
 100 μm
 
@@ -422,8 +427,6 @@ F
 1 hour post-TEV
 1 day post-TEV
 3 days post-TEV
-
-
 WT
 12E
 WT
@@ -431,7 +434,8 @@ WT
 WT
 12E
 
- pFUS
+pFUS
+
 +DNA-PK +ATP
 
 50 μm
@@ -443,8 +447,8 @@ WT
 
 
 -DNA-PK -ATP
-
 D
+
 0.4
 
 5 μM MBP-FUS full-length WT
@@ -453,12 +457,12 @@ D
 
 Turbidity (A600)
 
-
 12E
 6E
 
 12E
 6E
+
 0.3
 
 0.2
@@ -468,30 +472,30 @@ Turbidity (A600)
 0
 
 300
-600 
-1000 
+600
+1000
 150
 
 
 -TEV
-0.2:1 0.4:1 1:1 
+0.2:1 0.4:1 1:1
 0:1
 
 
 -TEV
-2:1 
+2:1
 
 [NaCl] (mM)
 
 mass ratio of RNA:full-length FUS
 
-1 day post-TEV 
+1 day post-TEV
 5 μM MBP-FUS full-length + TEV
-
 
 WT
 6E
 12E
+
 200 μm
 200 μm
 200 μm
@@ -532,8 +536,6 @@ and 12E disrupted LLPS as observed by turbidity and DIC microscopy, while LLPS a
 conditions (Fig 2D, Appendix Fig S2B and C). LLPS was dramatically suppressed for FUS 6E with increasing RNA levels, and no
 LLPS was observed for FUS 12E at high RNA:FUS ratios (Fig 2D).
 These data suggest that for phase separation of phosphomimetic
-
-
 FUS, RNA might compete with the negatively charged LC for
 contacts with positively charged regions of FUS. The low dependence on both salt and RNA suggests that wild-type FUS LLPS is not
 primarily mediated by these charged interactions, rather by intermolecular LC-LC interactions.
@@ -549,12 +551,9 @@ solubility tags (Fig 2E). However, agitation (1,200 rpm, 25°C,
 1 day) induces wild-type to form irregular aggregates, while assemblies of 6E and 12E remained spherical, with or without RNA (0.4:1
 RNA:FUS, by mass; Fig 2E).
 
-
 We hypothesized phosphorylation of recombinant protein would
 have similar effects as phosphomimetic substitutions on full-length
 FUS aggregation. Both wild-type FUS and 12E were treated with
-
-
 DNA-PK,
 and
 their
@@ -578,8 +577,6 @@ wild-type FUS
 and
 all
 phosphomimetic
-
-
 12E
 assemblies
 remained spherical (Fig 2F, Appendix Fig S2D). Thus, only phosphorylation by addition of DNA-PK and ATP, and not a chaperone
@@ -610,7 +607,6 @@ occurs regardless of phosphorylation state. Taken together, these
 data on isolated FUS LC and full-length FUS demonstrate that the
 addition of negatively charged phosphate groups or phosphomimetic substitutions impedes LC domain self-association and
 subsequent aggregation.
-
 
 Phosphorylation and phosphomimetics do not alter the
 disordered structure of FUS LC
@@ -651,7 +647,6 @@ conformational exchange (Appendix Fig S4B). This suggests there is
 a higher propensity for wild-type FUS to visit a transiently collapsed
 state.
 
-
 We next used the validated atomistic molecular simulation
 approaches (Zerze et al, 2015) we previously used for interrogating
 the primarily disordered C-terminal domain of the related protein
@@ -672,21 +667,21 @@ and aggregation.
 A
 Residue-specific backbone 15N spin relaxation parameters (R2, R1, heteronuclear NOE) measured at 850 MHz 1H Larmor frequency are consistent with structural
 disorder for both FUS LC WT (black) and 12E (red). FUS LC WT (black) shows elevated transverse relaxation, R2, even at half concentration (gray) consistent with
-slower motions or increased contribution from conformational exchange. See Appendix Fig S4. Errors bars represent  SD calculated from NMR signal uncertainty in
+slower motions or increased contribution from conformational exchange. See Appendix Fig S4. Errors bars represent SD calculated from NMR signal uncertainty in
 a single representative experiment.
 B
 Simulations of FUS LC subpeptide spanning residues 1–44 of both WT (black) and the phosphomimetic variant (red) are consistent with disordered conformations.
-Slightly larger radius of gyration, Rg, for the phosphomimetic variant is observed. Error bars indicate  SEM derived from 10 equal, non-overlapping divisions of the
+Slightly larger radius of gyration, Rg, for the phosphomimetic variant is observed. Error bars indicate SEM derived from 10 equal, non-overlapping divisions of the
 equilibrated ensemble.
 C
 Intramolecular paramagnetic relaxation enhancement (PRE) NMR experiments for MTSL spin label placed at three single engineered cysteine sites (A16°C, S86°C, S142°C
 —green). Higher PRE values, Γ2, consistent with a greater degree of transient intramolecular interactions are observed for WT than 12E, particularly when probing at
 the N-terminus, where most of the S/T to E mutations are. Experiments were conducted with 25 μM NMR visible (15N isotopic labeled), spin-labeled peptide FUS LC.
-Errors bars represent  SD calculated from NMR signal uncertainty in a single representative experiment.
+Errors bars represent SD calculated from NMR signal uncertainty in a single representative experiment.
 D
 Intermolecular PRE NMR experiments sensitive to inter-protein contacts demonstrate WT stabilizes transient intermolecular interactions compared to 12E.
 Experiments were conducted with 25 μM NMR visible (15N isotopic labeled) FUS LC combined with 25 μM paramagnetic spin-labeled NMR silent (natural isotopic
-abundance) FUS LC. Errors bars represent  SD calculated from NMR signal uncertainty in a single representative experiment.
+abundance) FUS LC. Errors bars represent SD calculated from NMR signal uncertainty in a single representative experiment.
 
 Phosphomimetic substitutions in FUS LC decrease intramolecular
 collapse and transient intermolecular interactions
@@ -719,7 +714,6 @@ than 12E LC. The higher PREs for wild-type FUS LC compared to
 12E are consistent with the slightly smaller radius of gyration, Rg,
 observed by simulation (Fig 3B).
 
-
 Furthermore, intermolecular PRE experiments performed by
 mixing unmodified, NMR-active FUS LC with spin-labeled FUS LC
 show that residues throughout wild-type FUS make frequent transient intermolecular contacts. Conversely, residues within 12E FUS
@@ -738,11 +732,11 @@ LC make few detectable intermolecular contacts at these conditions
 
 A
 
-R2 (s-1)
+(s-1) R2
 
 
 NOE
-R1 (s-1)
+(s-1) R1
 
 25 μM 15N WT
 
@@ -776,10 +770,10 @@ R1 (s-1)
 160
 residue number
 
-
 C
 
 30
+
 A16°C-MTSL
 
 Г2 (s-1)
@@ -829,7 +823,6 @@ residue number
 
 A16°C-MTSL (natural abundance)
 
-
 D
 
 0
@@ -838,6 +831,7 @@ D
 3
 4
 5
+
 S86°C-MTSL (natural abundance)
 
 0
@@ -869,14 +863,13 @@ S142°C-MTSL (natural abundance)
 160
 residue number
 
-
 Figure 3
 
 Reorientational motions
 
 Residue of interest
-S/TQ sites
 
+S/TQ sites
 
 B
 
@@ -884,8 +877,10 @@ WT
 
 2
 
-FUS 1-44 
+
+FUS 1-44
 simulation
+
 P(Rg)
 
 1
@@ -898,10 +893,10 @@ P(Rg)
 
 Rg (nm)
 
-
 6E
 
 Intramolecular collapse
+
 S/TQ sites
 
 15N
@@ -914,8 +909,8 @@ S142°C-MTSL
 
 Small Γ 2 (12E)
 
-
 Intermolecular interaction
+
 S/TQ sites
 
 natural abundance (n.a.)
@@ -924,16 +919,16 @@ natural abundance (n.a.)
 
 Big Γ 2 (WT)
 
-natural 
-abundance 
+natural
+abundance
 (n.a.)
 
 15N
 
 Small Γ 2 (12E)
 
-
 MTSL - spin label
+
 
 Reach of MTSL
 wild-type FUS LC vary in magnitude but are similar regardless of
@@ -950,11 +945,8 @@ of
 negatively
 charged
 residues.
-
-
 Together, the PRE data suggest that amino acid substitutions
 mimicking phosphorylation suppress both transient intra- and intermolecular LC contacts.
-
 
 Phosphomimetic substitutions in FUS LC reduce aggregation
 propensity in cells
@@ -983,11 +975,8 @@ Appendix Fig S6B). This decrease in aggregation propensity was
 consistent for both low-copy and high-copy plasmids (i.e., intermediate and high expression levels; Fig 4°C). Phosphomimetic variants
 formed less SDS-resistant species than wild-type FUS (Fig 4D).
 
-
 We next evaluated how phosphomimetic substitutions in LC
 would affect cytoplasmic aggregation of FUS in mammalian cells.
-
-
 We constructed GFP-FUS transfection plasmids with the R495X
 ALS-linked nonsense mutation. The premature stop codon eliminates FUS’s carboxy-terminal nuclear localization signal, confining
 GFP-FUS to the cytoplasm of transfected cells. Phosphomimetic
@@ -997,8 +986,6 @@ GFP-FUS(R495X) formed large cytoplasmic inclusions, while the
 
 12E variant showed predominately diffusely localized protein and
 the
-
-
 6E
 variant
 had
@@ -1037,9 +1024,6 @@ in the FUS LC reduce not only its cytoplasmic aggregation, but also
 disrupt FUS toxicity.
 
 --- Discussion ---
-
-
-
 Low-complexity domains of RNA-binding proteins have garnered
 much recent attention due to their role in RNA-binding protein selfassembly and disease-associated aggregation. Recent work strongly
 points to the ability of these domains to form functional interactions
@@ -1062,7 +1046,6 @@ amyloids to disordered polymer chains (Patel et al, 2015; Xiang et al,
 domains specify and mediate functional protein–protein interactions
 and pathological self-aggregation. Low-complexity domains are wellestablished targets of post-translational modifications (Martin et al,
 2016), and their sequences specify homotypic and heterotypic
-
 
 A
 
@@ -1101,7 +1084,6 @@ proposed as a means cells use to regulate the formation of
 membraneless organelles. For example, methylation of RG/RGG
 repeats suppresses phase separation of the highly charged domains
 of nuage protein DDX4 (Nott et al, 2015). Phosphorylation of the
-
 
 A
 
@@ -1149,7 +1131,6 @@ disrupts FUS LC recruitment to hydrogel models of granules (Han
 
 high-copy plasmid
 
-
 A
 
 B
@@ -1159,6 +1140,7 @@ single-copy plasmid
 C
 
 D
+
 et al, 2012), here we demonstrate that phosphorylation and phosphomimetic substitution of FUS LC disrupts domain self-interaction
 and LLPS. The LC is required for nuclear self-association of FUS into
 chromatin-binding
@@ -1186,7 +1168,7 @@ Increasing the number of phosphomimetic substitutions in FUS expressed
 from single-copy plasmids in yeast strain W303 in liquid culture (96-well
 plates; 200 ll/well) is associated with reduced toxicity as measured by less
 growth inhibition relative to wild-type FUS. Experiments were performed
-on three biological replicates. Errors bars represent  SD.
+on three biological replicates. Errors bars represent SD.
 D
 Western blotting confirms comparable relative levels of FUS expressed from
 single-copy plasmids following overnight expression in yeast grown in
@@ -1231,16 +1213,23 @@ aggregation
 
 
 RNA
+
+
+
 LC RRM ZnF
+
+
 
 RGG
 
+
+
 FUS
 pathological
+
 pS/pT
-
-
 RNP granule
+
 In the cytoplasm, FUS and other prion-like domain containing proteins and mRNA can partition into RNP granules. These granules concentrate FUS and hence may seed
 FUS inclusion formation in ALS and frontotemporal dementia. By discouraging LC-LC intermolecular interactions of FUS, phosphorylation of FUS LC may regulate FUS/
 RNA phase separation into granules and disrupt FUS self-aggregation into disease inclusions.
@@ -1286,15 +1275,13 @@ phosphorylation
 aggregate
 
 disrupts
-
-
 LC interaction
+
 and could be pharmacologically targeted via endogenous cellular
 kinases and signaling pathways. Therefore, it will be of importance
 to determine the detailed FUS phosphorylation state in ALS-FUS cell
 models and FUS-associated ALS patient tissue as well as healthy
 controls.
-
 
 Here we show that phosphomimetic mutations of FUS reduce
 cytotoxicity and cytoplasmic aggregation. The effect of the increased

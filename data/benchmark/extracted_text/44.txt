@@ -1,9 +1,255 @@
+--- RESULTS ---
+While all three FET proteins share similar sequence characteristics and cellular localization tendencies, EWS is the sole
+member shown to be O-GlcNAcylated with high stoichiometry
+(range of 1−4 O-GlcNAc moieties per EWS molecule) in vivo
+(brain tissue) and in cells.56,57 Up to 50 potential O-
+
+GlcNAcylation sites have been identified in EWS by
+proteomics studies.58,59 Note that all but three of the many
+annotated sites are in the LCRN with one each in the first two
+arginine-glycine-glycine repeat regions (RGG1, RGG2) and
+the RNA-recognition motif (RRM) (Figure 1A). All three FET
+proteins contain N- and C-terminal LCRs (Figure 1A) which
+undergo phase separation in different contexts, though we did
+not know if these EWS regions would be O-GlcNAcylated in
+vitro.60
+
+To test the effect of O-GlcNAc on EWS phase separation,
+we purified the LCRN (residues 1−264) and C-terminal RBD
+(residues 265−656) containing the RGG regions and modified
+them with recombinant, Homo sapiens OGT (nucleocytoplasmic isoform, 110 kDa61) using the sugar donor substrate,
+uridine 5′-diphospho-N-acetylglucosamine (UDP-GlcNAc)
+(Figure 1B). All recombinant proteins were purified from
+Escherichia coli, which lacks endogenous OGT activity,62 so as
+to ensure the proteins were not O-GlcNAcylated during
+expression. We used electrospray ionization mass spectrometry
+coupled to liquid chromatography (ESI LC-MS) to assess O-
+GlcNAcylation stoichiometry following the reactions (Figure
+S1). Following an overnight O-GlcNAcylation reaction, LCRN
+spectra displayed a set of peaks with incremental mass
+differences of ∼203 Da consistent with discrete O-GlcNAc
+modification states ranging from 3 to 10 moieties per LCRN
+molecule, with a mean of 6−7 (Figure 1°C, S1A, S1B). The
+distribution of O-GlcNAc stoichiometries on the LCRN is
+somewhat higher than the previously reported range of 1−4 O-
+GlcNAcylation sites observed on EWS from mouse brain
+tissue,56,57 but our finding of a broad range of stoichiometries
+
+pubs.acs.org/JACS
+
+
+Article
+rather than specific highly modified sites is generally consistent
+the in vivo data. The same splitting pattern was not achieved
+with a catalytically inactive OGT mutant (K842M), demonstrating a lack of modification in the absence of OGT catalysis
+(Figure S1°C). Spectra of the RBD showed negligible changes,
+indicating that this region is not O-GlcNAcylated in vitro
+(Figure S1D), consistent with proteomics data showing that O-
+GlcNAcylation occurs almost exclusively on the LCRN in
+vivo.58 We conclude that only the N-terminal portion of the
+EWS preceding the RBD is subject to O-GlcNAcylation in
+vitro.
+
+Like the N-terminal LCR of FUS, the EWS LCRN selfassociates into hydrogels and induces sedimentation of the
+chimeric fusion protein EWS-FLI1 in vitro,43,55 leading us to
+hypothesize that the EWS LCRN could also form liquid-like
+droplets on its own. Addition of the EWS LCRN (30 μM) into
+buffer solutions at pH 7.5 with 500 mM NaCl immediately
+resulted in the formation of round, micron-sized foci (hereafter
+termed “droplets”) which were absent at lower salt
+concentrations (Figure 1D). Droplet formation correlated
+with increasing NaCl and LCRN concentrations in a similar
+manner as the FUS LCRN
+
+63 (Figure 1E). To test the influence
+of O-GlcNAc on droplet formation, we purified milligram
+
+pubs.acs.org/JACS
+
+
+Article
+quantities of the O-GlcNAcylated EWS LCRN from a scaled-up
+OGT reaction (see SI Methods). The O-GlcNAcylated LCRN
+formed droplets with similar morphologies as the unmodified
+protein, albeit at higher NaCl and protein concentrations
+(Figure 1E,F), implying that O-GlcNAc lowers the propensity
+of the EWS LCRN to phase separate under these conditions.
+Like the FUS LCR, we also expected EWS LCRN phase
+separation to occur at decreasing temperatures in accordance
+with upper critical solution temperature-type behavior.63 We
+found that unmodified LCRN samples at pH 7.5 in the
+presence of 100 mM NaCl (i.e., below saturating conditions at
+room temperature) became turbid as the temperature was
+decreased below ∼16°C, indicating droplet formation below
+this temperature (Figure 1G circle). Increasing the fraction of
+O-GlcNAcylated LCRN in the samples led to an incremental
+lowering of the saturation temperature (Figure 1G triangle,
+diamond). At a 1:1 ratio of O-GlcNAcylated:unmodified
+LCRN, turbidity was absent at all points of the temperature
+series under these conditions (Figure 1G ring). Thus, O-
+GlcNAcylation reduces the propensity of EWS LCRN to phase
+separate in response to increasing salt concentrations and
+decreasing temperature.
+
+To determine if phase behavior correlates with the number
+of O-GlcNAc modifications, we prepared small-scale O-
+GlcNAcylation reactions containing the EWS LCRN and
+varying concentrations of OGT. Following a 30 min reaction
+period, the NaCl concentration was adjusted to 200 mM to
+promote droplet formation, which we measured by turbidity.
+EWS LCRN samples displayed an approximately 4-fold
+increase in turbidity following the addition of NaCl (Figure
+2A). Inclusion of both OGT and UDP-GlcNAc resulted in no
+turbidity change at 30 min relative to samples kept at low (50
+mM) NaCl (Figure 2A). The relative turbidity scaled inversely
+with the number of O-GlcNAc modifications (Figure 2B,C).
+Substituting wild-type OGT with a catalytically deficient
+mutant (K842M) did not produce any changes in turbidity
+with respect to enzyme concentration (Figure 2B), meaning
+that the reduction in turbidity seen with wild-type was not
+merely caused by enzyme binding-induced solubilization of the
+LCRN. Even the lowest tested OGT concentrations (0.05, 0.1
+μM) resulted in slight but significant reductions in turbidity,
+despite only a minor fraction of LCRN molecules being O-
+GlcNAcylated under these conditions (Figure 2°C). These data
+suggest that O-GlcNAcylation lessens salt-induced phase
+separation of the EWS LCRN even at substoichiometric
+modification levels. We then asked whether the LCRN can be
+O-GlcNAcylated in the condensed phase after phase
+separation, and if so, whether O-GlcNAcylation causes the
+droplets to disassemble. We performed turbidity assays in
+which LCRN phase separation was induced with 200 mM NaCl
+prior to the onset of O-GlcNAcylation. Following a 30 min
+reaction period, phase-separated LCRN samples containing
+OGT and UDP-GlcNAc yielded modification patterns similar
+to reactions performed in the dilute phase (Figure S1E). All
+samples, including those lacking either OGT or UDP-GlcNAc,
+displayed time-dependent decreases in turbidity due to the
+droplets sinking. However, the samples containing both OGT
+and UDP-GlcNAc underwent a significantly greater decrease
+over the 30 min time course, after which few droplets could be
+observed by microscopy (Figure 2D,E). Samples lacking either
+OGT or UDP-GlcNAc contained droplets before and after the
+reaction period (Figure 2D,E). Interestingly, we never
+witnessed total clearance of the droplets, perhaps because
+
+levels of O-GlcNAcylation were generally lower than when the
+LCRN was modified in the dilute state (Figure S1E). This
+could have resulted from the non-mutually exclusive
+possibilities of OGT having lower catalytic turnover rates in
+the presence of 200 mM NaCl or in the droplets, or from its
+lower partitioning into the condensed phase. These data
+demonstrate that O-GlcNAcylation can effectively reverse EWS
+LCRN droplet formation in vitro.
+
+We then examined how O-GlcNAcylation affects the
+morphologies of EWS LCRN droplets over time. Within
+minutes after formation, the unmodified LCRN droplets cluster
+into bleb-like structures with irregular boundaries, whereas the
+O-GlcNAcylated droplets merge into larger, circular droplets
+with smooth boundaries (Figure 3A). To test if the O-GlcNAcdependent morphological differences were caused by changes
+in the droplets’ material properties, we measured the impact of
+O-GlcNAc on droplet fusion, which is a diagnostic characteristic of liquid-like behavior in protein condensates. We
+prepared samples of the unmodified and O-GlcNAcylated
+LCRN droplets spiked with 100 nM (∼0.3 mol %) sulfocyanine-3 (sulfo-Cy3)-labeled protein for visualization by
+scanning confocal fluorescence microscopy (Figure 3A).
+After colliding, O-GlcNAcylated droplets spontaneously
+merged and relaxed into circular shapes when viewed along
+the xy-plane, tending to a unitary aspect ratio within seconds to
+minutes (Figure 3B,C). The unmodified droplets adhered
+upon collision but did not deform, instead retaining their prefusion morphologies. For the O-GlcNAcylated droplets, the
+exponential decay in aspect ratio was linearly proportional to
+the length scale of the fusion event, consistent with previously
+reported behavior of liquid-like protein condensates in vitro
+(Figure 3D).64 O-GlcNAcylated EWS LCRN droplets fuse
+more slowly than other in vitro protein condensates such as
+those formed by NPM1,48 LAF-165 or PR60-repeat peptides
+with RNA,66 perhaps indicating higher viscosity or surface
+tension, though the comparison may be skewed by differences
+in sample conditions.
+
+To determine whether the diffusion of LCRN molecules
+within droplets is affected by O-GlcNAcylation, we performed
+fluorescence recovery after photobleaching (FRAP) measurements on the same sulfo-Cy3-spiked droplet samples. Within
+the unmodified droplets, fluorescence intensity returned to
+∼90% of pre-bleach levels within a 2.5 μm-diameter photobleached region in under 3 min (Figure 3E,F), indicating that
+the majority of molecules remain mobile despite the droplets’
+inability to fuse. Applying the same photobleaching parameters
+onto the O-GlcNAcylated LCRN droplets resulted in similar
+levels of fluorescence recovery on a significantly reduced time
+scale (Figure 3E,F). Fitting a monophasic exponential model
+to these data gave fluorescence recovery half-times of 41.6 ±
+1.7 s and 1.52 ± 0.07 s for the unmodified and O-
+GlcNAcylated droplets, respectively. In droplets containing
+mixed ratios of O-GlcNAcylated and unmodified LCRN, the
+recovery half-times decreased proportionally with the amount
+of O-GlcNAcylated LCRN present (Figure 3E). We cannot
+confidently estimate diffusion coefficients from these data due
+to the dissimilar sizes of the differentially modified droplets as
+well as the potential flaws in using a single-exponential model
+to describe the underlying diffusion mechanisms.67 However,
+the difference in half-times is striking, clearly demonstrating
+that O-GlcNAcylation enhances diffusion of EWS LCRN
+molecules within condensates. Based on the disparate fusion
+behaviors and accelerated FRAP, we suggest that O-
+
+pubs.acs.org/JACS
+
+
+Article
+GlcNAcylation enhances the liquidity of EWS LCRN droplets,
+which are otherwise highly viscous or perhaps gel-like in the
+absence of this modification.
+
+FET protein phase separation is not solely driven by LCRN
+self-interactions; rather, the tyrosine-rich LCRN and argininerich RBDs synergistically promote phase separation.9,52,68
+
+Thus, we sought to determine if O-GlcNAcylation would
+impact co-phase separation of these two regions of EWS
+(Figure 1A). We titrated the EWS LCRN with or without O-
+GlcNAcylation into samples of the EWS RBD under low-salt
+buffer conditions in which neither would phase-separate on its
+own. Turbidity increased proportionally with the concentration of unmodified LCRN and coincided with the presence
+of droplets (Figure 4A,B). We saw a similar increase as we
+titrated the O-GlcNAcylated LCRN, however, the onset of
+turbidity occurred at a higher LCRN concentration, indicating
+lower phase separation propensity (Figure 4A,B). This effect
+was more pronounced when the level of O-GlcNAcylation was
+increased, supporting a direct link between O-GlcNAc levels
+and RBD-dependent droplet formation. As a point of
+comparison, we also tested the effect of asymmetric
+dimethylation of the RBD arginines (another PTM shown to
+mitigate phase separation of FUS54,68) under the same
+conditions, finding that the increase in saturation concentration was approximately the same as that caused by LCRN O-
+GlcNAcylation (Figure 4A).
+
+We then tested the effect of LCRN O-GlcNAcylation on the
+diffusive characteristics of droplets containing both the LCRN
+and RBD (LCRN+RBD droplets), spiked with sulfo-Cy3-
+LCRN. Interestingly, the unmodified LCRN+RBD droplets
+exhibited more rapid fluorescence recovery than the
+unmodified LCRN droplets without addition of the RBD
+(Figure 4°C). While the FRAP kinetics of the unmodified and
+O-GlcNAcylated LCRN+RBD droplets were similar within 30
+min following phase separation, they began to diverge at later
+time points (Figures 4D,E,S2A). O-GlcNAcylated LCRN+RBD
+droplets exhibited near-complete fluorescence recovery with
+similar rates irrespective of the incubation time (Figures
+4D,S2B,S2°C), whereas the unmodified droplets already
+showed decreasing fluorescence recovery at 2 h post-formation
+(Figures 4E,S2B,S2°C). The mobile fraction in the unmodified
+LCRN+RBD droplets decreased even further at later time
+points, reaching only ∼10% after 18 h (Figure S2°C). These
 results suggest that molecules within the droplets containing
 the unmodified LCRN lose the ability to diffuse in a timedependent fashion indicating a progression to a less fluid-like
 material state. O-GlcNAcylation prevents this loss of mobility,
 instead maintaining the liquid-like droplet dynamics that are
 seen shortly after phase separation.
 
+pubs.acs.org/JACS
+
+
+Article
 On the basis of our observations in vitro, we investigated the
 effect of O-GlcNAcylation on EWS aggregation propensity in
 cells. We used a filter retardation assay (FRA) to monitor EWS
@@ -72,9 +318,14 @@ phase-separating proteins are more likely to be subject to O-
 GlcNAc-mediated regulation than the proteome in general.
 PLAAC, which predicts protein regions with prion-like
 
+pubs.acs.org/JACS
+
+
+Article
 sequence compositional bias,76 showed the greatest statistical
 enrichment of the three metrics, implying that O-GlcNAcylation may be especially relevant for PLD-containing, phaseseparating proteins that are prone to aggregation.
-■DISCUSSION
+
+--- DISCUSSION ---
 We examined the effects of O-GlcNAc, a widespread PTM
 with diverse functional consequences,11,15,16 on the phase
 separation and material properties of in vitro EWS LCRN
@@ -179,7 +430,7 @@ including those underlying cross-beta structures.42 In addition
 to these steric effects, O-GlcNAc-mediated changes in
 intermolecular interactions could also derive from bulk
 changes in the chemical properties of the LCRN. O-GlcNAc
-is uncharged, unlike phosphorylationto which O-GlcNAc is
+is uncharged, unlike phosphorylation�to which O-GlcNAc is
 often compared and which is potentially reciprocally
 regulated.80 Thus, O-GlcNAc weakens LCRN interactions
 without the benefit of charge−charge repulsion or attraction,
@@ -199,7 +450,11 @@ separation propensity has been found to correlate with
 prion-like sequence characteristics.52,82 Prions are associated
 with their propensity to form amyloid fibrillar aggregates that
 have repetitive cross-beta structure and often exhibit a high
-resistance to disassembly via chemical or thermal denaturation.83 Though possessing prion-like sequence characteristics
+resistance to disassembly via chemical or thermal denaturapubs.acs.org/JACS
+
+
+Article
+tion.83 Though possessing prion-like sequence characteristics
 does not necessarily predispose a protein to form such stable
 structures under physiological conditions, there are a growing
 number of cases linking the phase separation of PLDcontaining proteins with the emergence of fibrillar aggregate
@@ -252,7 +507,8 @@ with transcription. Further studies are needed to illuminate the
 rich regulatory potential of O-GlcNAcylation for many
 biomolecular condensates, including those associated with
 transcription, DNA repair and stress.
-■CONCLUSION
+
+--- CONCLUSION ---
 O-GlcNAcylation, the reversible attachment of N-acetylglucosamine moieties onto serine and threonine residues in proteins,
 lowers the phase separation propensity of the prion-like EWS
 LCRN and enhances the fluidity of its condensates in vitro.
@@ -272,832 +528,3 @@ GlcNAc modification, its impact on cellular condensates and
 ultimately its functional consequences, given the increasingly
 appreciated role of biomolecular condensates in controlling
 biological processes.93
-■EXPERIMENTAL SECTION
-Unless stated otherwise, all chemicals were purchased from BioBasic
-Canada, Inc. (Markham, ON, Canada).
-
-The pET24b H. sapiens OGT (nucleocytoplasmic variant, 110 kDa)
-E. coli expression plasmid was a kind gift from Suzanne Walker’s lab.
-The K842 M mutation was introduced via Site-Directed Mutagenesis
-using a QuikChange II Kit (Agilent, Santa Clara, CA, USA).
-
-Recombinant Protein Expression. The pET SUMO EWS
-LCRN and EWS RBD plasmids were transformed into E. coli BL21-
-CodonPlus (DE3) RIPL chemically competent cells (Agilent). EWS
-RBD methylation was achieved by co-transformation along with a
-glutathione S-transferase-linked protein arginine methyltransferase 1
-(PRMT1) E. coli expression vector, as previously described.94
-
-Successful transformants were selected on lysogeny broth (LB)-agar
-plates containing 50 μg mL−1 kanamycin sulfate and 34 μg mL−1
-chloramphenicol (also including 100 μg mL−1 ampicillin in the case of
-PRMT1 coexpression). Single colonies were used to inoculate ∼50
-mL LB overnight cultures containing the same antibiotics. Following
-overnight incubation at 37°C with 250 rpm shaking, these starter
-cultures were used to inoculate liter-scale cultures which were then
-incubated under the same conditions until an optical density at
-(OD600) of ∼1.0 was attained. Recombinant protein expression was
-initiated by the addition of 0.5 mM isopropyl-β-D-thiogalactopyranoside (IPTG). The cultures were then incubated for another ∼18 h at
-20°C prior to being harvested by centrifugation in a JLA9.1000 rotor
-operating in an Avanti J-26 XP centrifuge (Beckman Coulter, Brea,
-CA, USA). Cell pellets were suspended in lysis buffer (25 mM Tris
-pH 8.0, 4 M guanidinium chloride, 500 mM NaCl, 20 mM imidazole
-(Millipore-Sigma Canada, Oakville, ON, Canada), 5 mM 2-
-mercaptoethanol (Millipore-Sigma), pH 8.0) and stored at −20°C
-until further use.
-
-Protein Purification. Cells were lysed by sonication using a
-QSonica Q500 sonicator outfitted with a 6 mm probe operating at
-
-25% amplitude with 2s pulses/50% duty for 8 min total. Lysates were
-clarified by centrifugation in a JA-20 fixed-angle rotor (Beckman
-Coulter) operated at 15000 rpm for 1 h at 4°C. The supernatant was
-loaded onto a gravity column containing a ∼10 mL bed volume of Ni
-Sepharose resin (Cytiva, Marlborough, MA, USA) pre-equilibrated in
-lysis buffer. After repeated washes with lysis buffer, the bound proteins
-were eluted with lysis buffer containing 280 mM imidazole. These
-fractions were pooled and dialyzed against ULP buffer (20 mM
-HEPES, 150 mM NaCl, 2 mM 2-mercaptoethanol) using a 3 kDa
-molecular weight cutoff(MWCO) regenerated cellulose membrane
-(Spectrum Chemical MFG Co., New Brunswick, NJ, USA). His6-
-Ulp1 protease (purified in-house) was then added to cleave the
-SUMO-tag during overnight dialysis at 4°C. The protease-treated
-samples were reloaded over the nickel column to separate the His6-
-SUMO tag and protease from the cleaved protein. The flow-through
-was concentrated using an Amicon 15 mL-volume centrifugal
-concentrator unit equipped with a 3 kDa MWCO membrane
-(EMD-Millipore, Burlington, MA, USA) before being injected onto
-a Superdex 75 16/600 HiLoad column (Cytiva) pre-equilibrated in
-size exclusion chromatography (SEC) buffer (25 mM Tris, 2 M
-guanidinium chloride, 2 mM 2-mercaptoethanol, pH 7.5) on an
-AKTA FPLC chromatography system (Amersham Biosciences Co.,
-Little Chalfont, UK). Proteins were eluted isocratically at a constant
-flow rate of 0.5 mL min−1 with fractions collected every 2 min.
-Fractions were analyzed by SDS-PAGE with Coomassie staining.
-
-At this stage, the EWS LCRN was sufficiently pure for further
-experiments, whereas the RBD required an additional ion exchange
-purification step to remove excess impurities. The pooled RBD
-fractions (with or without PRMT1-methylation) were pooled and
-dialyzed against 25 mM HEPES, 50 mM NaCl, 0.5 mM EDTA, 2 mM
-2-mercaptoethanol, pH 6.5 in a 3 kDa MWCO membrane. The
-dialyzed sample was clarified by centrifugation at 7000 rpm in a fixedangle Thermo F13 rotor in a Sorvall Legend XFR centrifuge (Thermo
-Scientific, Waltham, MA, USA) at 4°C for 25 min before being
-loaded onto a 5 mL HiTrap sulfopropyl (SP) HP column (Cytiva)
-pre-equilibrated in the same dialysis buffer as above. After washing the
-resin with several column volumes of dialysis buffer, the bound
-protein was eluted over a buffer gradient with increasing NaCl
-concentration ranging from 50 mM to 2 M (buffer components were
-otherwise the same as in the dialysis buffer). Fractions were analyzed
-by SDS-PAGE; most of the RBD eluted at salt concentrations
-exceeding 0.5 M. The purest fractions were pooled and flash frozen
-for storage at −80°C.
-
-Wild-type and K842 M OGT were purified as previously
-described95 with slight modifications. Following the nickel purification, OGT samples were dialyzed against 25 mM Tris, 50 mM NaCl,
-0.5 mM EDTA, 2 mM dithiothreitol (DTT), pH 7.5 and then
-concentrated using a centrifugal concentrator equipped with a 50 kDa
-MWCO membrane. Concentrated samples were injected onto a
-Superdex 200 16/600 HiLoad column (Cytiva) pre-equilibrated in
-the same dialysis buffer on an AKTA FPLC chromatography system
-(Amersham Biosciences Co.). The system was run at 4°C with a
-constant flow rate of 0.5 mL min−1 with fractions collected every 2
-min. Fractions were analyzed by SDS-PAGE and Coomassie staining
-to assess purity. The protein was concentrated to working
-concentrations of ∼20−25 μM before being flash frozen and stored
-at −80°C until further use.
-
-In Vitro O-GlcNAcylation. Unless specified otherwise, O-
-GlcNAcylation reactions contained 10 μM of the appropriate protein
-substrate (e.g., EWS LCRN, RBD), 1 μM OGT (wild-type or
-K842M), 1 mM UDP-GlcNAc (Millipore-Sigma), 25 mM Tris, 50
-mM NaCl, 0.5 mM EDTA, 2 mM dithiothreitol, pH 7.5. The sample
-volume was scaled according to the quantity of O-GlcNAcylated
-product desired. Analytical- and preparative-scale reactions were
-incubated for 14 h at laboratory temperature (∼22°C) with gentle
-rocking. Analytical-scale samples were prepared directly for mass
-spectrometry at this stage (see below), while preparative-scale samples
-were quenched by the addition of guanidinium chloride (to 2 M final)
-to facilitate purification by SEC. Concentrated samples were injected
-onto a Superdex 75 16/600 HiLoad column pre-equilibrated in 25
-
-mM Tris, 2 M guanidinium chloride, 2 mM 2-mercaptoethanol, pH
-7.5 on an AKTA FPLC chromatography system. Fractions containing
-O-GlcNAcylated protein were analyzed by SDS-PAGE (a slight
-migration shift due to O-GlcNAcylation was visible as compared to
-the unmodified protein) and mass spectrometry. The protein was
-concentrated to ∼150 μM before being flash frozen and stored at −80°C.
-
-Intact Mass Spectrometry (MS). All MS experiments were
-conducted at the Structural Genomics Consortium (SGC) Toronto
-facility. Samples were either prepared directly from analytical-scale O-
-GlcNAc reactions or from preparative-scale purified samples that were
-first exchanged out of guanidinium chloride-containing buffer into 25
-mM Tris, pH 7.5. In either case, formic acid was added to a final
-concentration of 0.1%v/v. 2 μL of each sample were injected onto an
-Agilent UPLC-quadrupolar time-of-flight (Q-ToF) 6545 MS system
-equipped with a Dual AJS electrospray ionization source operating in
-positive ion mode. Samples were desalted online through a C18
-column into a mobile phase containing 95%v/v acetonitrile, 4.5%v/v
-H2O, 0.5%v/v formic acid. Spectra were recorded over a scan range of
-500−3200 m/z at a time interval of 1 scan per second. Raw spectra
-were processed in Agilent Masshunter software and deconvoluted
-using the maximum entropy algorithm over a mass range of 10−50
-kDa with 1 Da resolution. Raw and deconvoluted spectra were plotted
-in GraphPad Prism 6.
-
-Fluorescent Protein Labeling. Aliquots of unmodified or O-
-GlcNAcylated EWS LCRN were dialyzed in 3.5 kDa MWCO
-GebaFlex midi cassettes (Gene Bio-Applications Ltd., Yavne, Israel)
-against 25 mM sodium phosphate, 2 M guanidinium chloride, pH 6.5,
-to remove the Tris prior to labeling. Sulfo-cyanine-3 dye conjugated
-to N-hydroxysuccinimide (sulfo-Cy3 NHS-ester; Lumiprobe Co.,
-Hunt Valley, MD, USA) was dissolved in dimethylformamide (Sigma)
-to a working concentration of 20 mM. An appropriate volume of the
-dye stock was added into a 20 μM sample of dialyzed protein to yield
-a final dye concentration of 200 μM. This mixture was allowed to
-incubate overnight in the dark at 4°C to promote selective labeling of
-the N-terminus. The reaction was quenched by the addition of 25
-mM Tris, pH 7.5 and filtered through a 0.22 μm poly(ether sulfone)
-membrane (GE Healthcare, Chicago, IL, USA) to remove any
-aggregates. The filtrate was desalted into 25 mM Tris, 2 M
-guanidinium chloride, pH 7.5 using a 5 mL HiTrap desalting column
-(Cytiva) running at a constant flow rate of 1.5 mL min−1 on an AKTA
-FPLC system. Fractions containing the labeled protein were analyzed
-by SDS-PAGE to ensure that fluorescent reaction byproducts had
-been removed. Intact mass spectrometric analysis was also used to
-confirm labeling. Polyacrylamide gels containing the sulfo-Cy3-
-modified protein were visualized on a BioRad Chemidoc MP system
-with Cy3 emission/excitation settings.
-
-Droplet Formation and Microscopy. For all phase separation
-experiments, EWS LCRN (with or without O-GlcNAcylation or sulfo-
-Cy3-labeling) was exchanged into 25 mM Tris, pH 7.5, by
-successively concentrating and diluting the protein out of the original
-guanidinium chloride-containing storage buffer. During this process,
-the temperature of the centrifuge chamber was set to ≥37°C to limit
-precipitation which occurred more readily at lower temperature.
-Droplet formation was induced by combining protein samples 1:1
-with buffers containing twice the appropriate NaCl concentration at
-room temperature. For DIC microscopy, droplet samples were
-pipetted directly into the wells of 96-well polystyrene glass-bottom
-plates (Eppendorf, Hamburg, Germany). Images were acquired on a
-Zeiss Axio Observer 7 microscope with a 40x air objective lens. For
-fluorescence microscopy, 5 μL samples were pipetted into 35 mmdiameter uncoated no. 1.5 glass-bottom dishes (MatTek, Ashland,
-MA, USA) which were subsequently sealed with a glass coverslip to
-limit evaporation. To enable nonwetting conditions for fusion
-experiments, the dishes were pretreated with Sigmacote (MilliporeSigma) according to the manufacturer’s instructions. Fluorescence
-imaging was performed on a Leica TCS SP8 Lightning/DMi8 system
-equipped with a Hamamatsu C9100−13 EM-CCD camera. All images
-were acquired with a 63x oil-immersion objective lens at 1024 × 1024
-pixel resolution. Sulfo-Cy3 fluorescence was detected with a Leica
-
-Fluorescence Recovery After Photobleaching (FRAP). FRAP
-data were collected using the LAS X FRAP module on the same Leica
-system described above. Circular, 2.5 μm-diameter regions of interest
-(ROI) were positioned in the center of droplets for bleaching, which
-was performed with a single pulse at 30% laser power on zoom-in
-mode. After photobleaching, images were acquired at a frequency of
-0.77 s−1. Fluorescence intensity measurements from inside the
-bleached ROI were normalized to measurements from a separate
-ROI in an adjacent unbleached droplet to correct for passive
-photobleaching and focus drift. The values were then normalized to
-the average of 5 pre-bleach scans to yield relative intensity values. The
-recovery time scale was obtained by fitting a single exponential curve
-to the processed data: I(t) = a −be−t/τ, where I (t) is relative intensity
-at each time, t, and a, b and τ are fit parameters. Half-times were
-calculated as t1/2 = τ ln 2.
-
-Turbidity Assays. Samples were prepared in 96-well clear
-polystyrene plates prior to being transferred into a 384-well black
-polystyrene glass-bottom plate (Corning, Corning, NY, USA) for
-measurement on a SpectriMax i3x plate reader (Molecular Devices,
-San Jose, CA, USA). The assay buffers typically contained 25 mM
-Tris, 0.5 mM EDTA, 2 mM DTT, pH 7.5 with a variable NaCl
-concentrations (to promote or prevent droplet formation) depending
-on the experimental setup. All samples had a final volume of 15 μL
-per well. Absorbance measurements were collected at 25°C with 500
-nm-wavelength light at a read-height of 12 mm. Data were processed
-and plotted in GraphPad Prism 6.
-
-Temperature Ramp Experiments. EWS LCRN (with or without
-O-GlcNAcylation) was dialyzed against 20 mM 3-(N-morpholino)-
-propanesulfonic acid (MOPS), pH 7.5 in a 3 kDa MWCO GebaFlex
-midi cassettes (Gene Bio-Applications Ltd.) overnight at room
-temperature. Samples (200 μL) were prepared at 30 μM final protein
-concentration in 20 mM MOPS, 150 mM NaCl, pH 7.5, with
-different ratios of unmodified:modified EWS LCRN present. Samples
-were pipetted into 250 μL 1 mm-thick quartz cuvettes for turbidity
-measurements in a JASCO J-1500 circular dichroism spectrophotometer.
-
-Calculating Percentages of Predicted Phase Separating
-Proteins. The predictions of phase separation propensities for human
-proteins were available from Vernon et al.77 The predictions from
-three different metrics (catGRANULE,75 PScore,9 and PLAAC76)
-were considered, with method-specific cutoffs used to define
-propensity to phase separate in a binary manner. A value larger
-than zero for catGRANULE score was used to define propensity to
-phase separate. The same cutoff(>0) was used to identify proteins
-that contain probable prion-like domains by PLAAC. The cutoffof
-larger or equal than four was used for PScore, as previously
-established by the authors of the original work. The prediction
-scores of the three metrics were in addition expressed as a percentage
-of the human proteome predicted to phase separate in order to unify
-different scoring schemes across the predictors, with 4% of the human
-proteome used as a cutoff.
-
-The list of sequences of all proteins currently in the
-PhosphositePlus database was retrieved from the Web site. The set
-of O-GlcNAc modified protein sequences was retrieved from the same
-database (O-GlcNAc_site_data set). Both data sets were filtered to
-include human proteins only. The fractions of the proteins predicted
-to phase separate in each of the categories, (i) proteome, (ii)
-PhosphositePlus, and (iii) O-GlcNAc, were computed by dividing the
-number of proteins above the cutoffof each of the metrics (PScore,
-PLAAC, catGRANULE) by the total number of proteins in each
-category. A Fisher’s exact test was used to assess the significance of
-the difference between the fraction of proteins above the threshold in
-the human proteome and each of the categories (the p-values of the
-test given in Table S1; significance is indicated with (i) ’*’ p ≤0.01;
-(ii) ’**’ p ≤0.001; (iii) ‘***’ p ≤0.0001).
-
-Defining Proteins with Long IDRs. SPOT-Disorder96 was run
-on the reference human proteome from Uniprot (UP000005640,
-
-downloaded on Aug 8, 2019) to obtain a residue-level prediction of
-intrinsic disorder for all human proteins (canonical sequences only).
-Short sequences of seven or less residues of predicted ’order’ mapped
-in between long predicted disorder regions were concatenated into
-the predicted disordered regions. A cutoffof 100 consecutive residues
-of predicted disorder was used to define ’long IDRs’.
-
-Cell Culture and siRNA Transfection. Please refer to Table S2
-for a detailed list of antibodies used in this study. HeLa cells were
-cultured in Dulbecco’s Modified Eagle Medium (DMEM) with 10%
-fetal bovine serum and 1% penicillin-streptomycin. To downregulate
-expression of OGT, cells were reverse-transfected with 20 nM ONTARGETplus Human OGT siRNA (Horizon, cat. no. J-019111−06)
-for 48 h using INTERFERin siRNA Transfection Reagent (Polyplus,
-Illkirch-Graffenstaden, France). Knockdown efficiency was verified by
-immunoblotting with an anti-OGT antibody (Abcam, Cambridge,
-UK), while global O-GlcNAc levels were assessed by immunoblotting
-with an anti-O-GlcNAc (RL2) antibody (Abcam).
-
-O-GlcNAc stoichiometries on EWS and TAF15 in HeLa cell lysates
-were measured by Western blotting with the appropriate antibodies
-(Abcam) after the lysates were processed with the ClickIT O-GlcNAc
-Enzymatic Labeling and ClickIT detection assay kits (Invitrogen).
-Volumes of lysate containing ∼200 μg of protein dissolved in FRA
-buffer (see below) were used for these assays. The manufacturer’s
-instructions were followed, with the exception that the alkyne-biotin
-detection reagent from the latter kit was replaced with methoxy-PEGalkyne (average MW ∼5 kDa; Biochempeg, Watertown, MA, USA),
-which was present at a final concentration of 5 mM during the Click
-chemistry step. After the final protein precipitation step, the pellets
-were resuspended in 50 μL of 4x Bolt LDS sample buffer (Invitrogen)
-after vigorous vortexing and heating at 70°C. Samples were diluted 4-
-fold with water before being loaded onto a 4−20% tris-glycine
-polyacrylamide gel (BioRad, Hercules, CA, USA), approximately ∼10
-μg of protein (i.e., 4 μL of undiluted dissolved pellet diluted to 16 μL
-with water) per lane. SDS-PAGE and Western blotting were
-performed according to standard protocols.
-
-Mass spectrometry data, including raw spectra of
-unmodified and O-GlcNAcylated EWS LCRN (Figure
-S1). Fluorescence micrographs to accompany FRAP
-data from LCRN+RBD droplets in Figure 4 (Figure S2).
-
-Western blots showing (i) depletion of OGT following
-siOGT treatment of HeLa cells, (ii) lack of O-
-GlcNAcylation on TAF15 in HeLa cells, (iii) negligible
-changes in EWS and TAF15 expression levels following
-siOGT treatment (Figure S3). Supplementary bioinformatics data on differential prediction of phase separation
-propensity for proteins in the human proteome,
-including those filtered for containing long (>100
-residue) IDRs (Figure S4). Tabulated data corresponding to the bioinformatic analyses presented in Figures 6
-and S4 (Table S1). A listed of antibodies used in this
-study (Table S2) (PDF)
-■AUTHOR INFORMATION
-
-Corresponding Author
-
-Julie D. Forman-Kay −Molecular Medicine Program, The
-
-Hospital for Sick Children, Toronto, ON M5G 0A4, Canada;
-Department of Biochemistry, University of Toronto, Toronto,
-ON M5S 1A8, Canada;
-orcid.org/0000-0001-8265-
-972X; Email: forman@sickkids.ca
-
-Authors
-
-Michael L. Nosella −Molecular Medicine Program, The
-
-Hospital for Sick Children, Toronto, ON M5G 0A4, Canada;
-Department of Biochemistry, University of Toronto, Toronto,
-ON M5S 1A8, Canada;
-orcid.org/0000-0003-2408-
-3050
-Maria Tereshchenko −Department of Biochemistry,
-
-University of Toronto, Toronto, ON M5S 1A8, Canada
-Iva Pritišanac −Molecular Medicine Program, The Hospital
-
-for Sick Children, Toronto, ON M5G 0A4, Canada;
-Department of Biochemistry, University of Toronto, Toronto,
-ON M5S 1A8, Canada
-P. Andrew Chong −Molecular Medicine Program, The
-
-Hospital for Sick Children, Toronto, ON M5G 0A4,
-Canada;
-orcid.org/0000-0003-4416-0631
-Jeffrey A. Toretsky −Departments of Oncology and
-
-Pediatrics, Georgetown University, Washington, D.C. 20057,
-United States
-Hyun O. Lee −Department of Biochemistry, University of
-
-Funding
-M.L.N. is funded by an Alexander Graham Bell Canada
-Graduate ScholarshipDoctoral from the Natural Sciences
-and Engineering Research Council (NSERC) and M.T. by a
-Vanier Graduate Scholarship. This work was supported by
-funding to J.D.F.-K. from the Canadian Institutes for Health
-Research (CIHR) FDN-148375 and the Canadian Cancer
-Society, to both J.D.F.-K. and H.O.L. from the Canada
-Research Chair program, and to H.O.L. from NSERC and
-University of Toronto’s Connaught Fund and Medicine by
-Design, which receives funding from the Canada First Research
-Excellence Fund. Additional support was from Children’s
-Cancer Foundation, Inc. as a Force 3 Fellowship (J.A.T.), and
-the NIH R01CA233619−01A1 (J.A.T.), LCCC CCSG Grant
-P30 CA051008−16 (Lou Weiner, PI, J.A.T.).
-
-Notes
-The authors declare no competing financial interest.
-
-■ACKNOWLEDGMENTS
-
-We would like to thank the SickKids Imaging Facility for their
-assistance with the microscopy experiments and Dr. Suzanne
-Ackloo of the Sturctural Genomics Consortium (Toronto) for
-assistance with mass spectrometry experiments. We also thank
-Dr. Suzanne Walker for the gift of OGT expression vectors.
-Lastly, we thank Michelle Di Paola for critical reading of the
-manuscript.
-■REFERENCES
-
-(1) Banani, S. F.; Lee, H. O.; Hyman, A. A.; Rosen, M. K.
-Biomolecular condensates: organizers of cellular biochemistry. Nat.
-Rev. Mol. Cell Biol. 2017, 18 (5), 285−298.
-
-(2) Shin, Y.; Brangwynne, C. P. Liquid phase condensation in cell
-physiology and disease. Science 2017, 357 (6357), No. eaaf4382.
-
-(3) Boeynaems, S.; Alberti, S.; Fawzi, N. L.; Mittag, T.;
-Polymenidou, M.; Rousseau, F.; Schymkowitz, J.; Shorter, J.;
-Wolozin, B.; Van Den Bosch, L.; Tompa, P.; Fuxreiter, M. Protein
-Phase Separation: A New Phase in Cell Biology. Trends Cell Biol.
-2018, 28 (6), 420−435.
-(4) Lin, Y. H.; Forman-Kay, J. D.; Chan, H. S. Theories for
-Sequence-Dependent Phase Behaviors of Biomolecular Condensates.
-Biochemistry 2018, 57 (17), 2499−2508.
-
-(5) Brangwynne, C. P.; Tompa, P.; Pappu, R. V. Polymer physics of
-intracellular phase transitions. Nat. Phys. 2015, 11 (11), 899−904.
-
-(6) Hofweber, M.; Dormann, D. Friend or foe-Post-translational
-modifications as regulators of phase separation and RNP granule
-dynamics. J. Biol. Chem. 2019, 294 (18), 7137−7150.
-
-(7) Leung, A. K. L. Poly(ADP-ribose): A Dynamic Trigger for
-Biomolecular Condensate Formation. Trends Cell Biol. 2020, 30 (5),
-370−383.
-(8) Owen, I.; Shewmaker, F. The Role of Post-Translational
-Modifications in the Phase Transitions of Intrinsically Disordered
-Proteins. Int. J. Mol. Sci. 2019, 20 (21), 5501.
-
-(9) Vernon, R. M.; Chong, P. A.; Tsang, B.; Kim, T. H.; Bah, A.;
-Farber, P.; Lin, H.; Forman-Kay, J. D. Pi-Pi contacts are an
-overlooked protein feature relevant to phase separation. Elife 2018,
-7, No. e31486.
-(10) Kim, T. H.; Tsang, B.; Vernon, R. M.; Sonenberg, N.; Kay, L.
-E.; Forman-Kay, J. D. Phospho-dependent phase separation of FMRP
-and CAPRIN1 recapitulates regulation of translation and deadenylation. Science 2019, 365, 825−829.
-
-(11) Zachara, N.; Akimoto, Y.; Hart, G. W., The O-GlcNAc
-Modification. In Essentials of Glycobiology, rd; Varki, A.; Cummings, R.
-D.; Esko, J. D.; Stanley, P.; Hart, G. W.; Aebi, M.; Darvill, A. G.;
-Kinoshita, T.; Packer, N. H.; Prestegard, J. H.; Schnaar, R. L.;
-Seeberger, P. H., Eds. Cold Spring Harbor (NY), 2015; pp 239−251.
-
-(12) Levine, Z. G.; Potter, S. C.; Joiner, C. M.; Fei, G. Q.; Nabet, B.;
-Sonnett, M.; Zachara, N. E.; Gray, N. S.; Paulo, J. A.; Walker, S.
-Mammalian cell proliferation requires noncatalytic functions of O-
-GlcNAc transferase. Proc. Natl. Acad. Sci. U. S. A. 2021, 118 (4),
-No. e2016778118.
-
-(13) Hart, G. W. Nutrient regulation of signaling and transcription.
-J. Biol. Chem. 2019, 294 (7), 2211−2231.
-
-(14) Liu, C.; Li, J. O-GlcNAc: A Sweetheart of the Cell Cycle and
-DNA Damage Response. Front Endocrinol (Lausanne) 2018, 9, 415.
-
-(15) Yang, X.; Qian, K. Protein O-GlcNAcylation: emerging
-mechanisms and functions. Nat. Rev. Mol. Cell Biol. 2017, 18 (7),
-452−465.
-(16) Ong, Q.; Han, W.; Yang, X. O-GlcNAc as an Integrator of
-Signaling Pathways. Front Endocrinol (Lausanne) 2018, 9, 599.
-
-(17) Akan, I.; Olivier-Van Stichelen, S.; Bond, M. R.; Hanover, J. A.
-Nutrient-driven O-GlcNAc in proteostasis and neurodegeneration. J.
-Neurochem. 2018, 144 (1), 7−34.
-
-(18) Hardiville, S.; Hart, G. W. Nutrient regulation of gene
-expression by O-GlcNAcylation of chromatin. Curr. Opin. Chem. Biol.
-2016, 33, 88−94.
-
-(19) Groves, J. A.; Lee, A.; Yildirir, G.; Zachara, N. E. Dynamic O-
-GlcNAcylation and its roles in the cellular stress response and
-homeostasis. Cell Stress Chaperones 2013, 18 (5), 535−58.
-
-(20) Ohn, T.; Kedersha, N.; Hickman, T.; Tisdale, S.; Anderson, P.
-A functional RNAi screen links O-GlcNAc modification of ribosomal
-proteins to stress granule and processing body assembly. Nat. Cell
-Biol. 2008, 10 (10), 1224−31.
-
-(21) Chen, Q.; Yu, X. OGT restrains the expansion of DNA damage
-signaling. Nucleic Acids Res. 2016, 44 (19), 9266−9278.
-
-(22) Gambetta, M. C.; Muller, J. O-GlcNAcylation prevents
-aggregation of the Polycomb group repressor polyhomeotic. Dev.
-Cell 2014, 31 (5), 629−39.
-
-(23) Labokha, A. A.; Gradmann, S.; Frey, S.; Hulsmann, B. B.;
-Urlaub, H.; Baldus, M.; Gorlich, D. Systematic analysis of barrierforming FG hydrogels from Xenopus nuclear pore complexes. EMBO
-J. 2012, 32 (2), 204−18.
-
-(24) Marotta, N. P.; Lin, Y. H.; Lewis, Y. E.; Ambroso, M. R.; Zaro,
-B. W.; Roth, M. T.; Arnold, D. B.; Langen, R.; Pratt, M. R. O-GlcNAc
-modification blocks the aggregation and toxicity of the protein alphasynuclein associated with Parkinson’s disease. Nat. Chem. 2015, 7
-(11), 913−20.
-
-(25) Lewis, Y. E.; Galesic, A.; Levine, P. M.; De Leon, C. A.; Lamiri,
-N.; Brennan, C. K.; Pratt, M. R. O-GlcNAcylation of alpha-Synuclein
-at Serine 87 Reduces Aggregation without Affecting Membrane
-Binding. ACS Chem. Biol. 2017, 12 (4), 1020−1027.
-
-(26) Yuzwa, S. A.; Shan, X.; Macauley, M. S.; Clark, T.;
-Skorobogatko, Y.; Vosseller, K.; Vocadlo, D. J. Increasing O-GlcNAc
-slows neurodegeneration and stabilizes tau against aggregation. Nat.
-Chem. Biol. 2012, 8 (4), 393−9.
-
-(27) Yuzwa, S. A.; Cheung, A. H.; Okon, M.; McIntosh, L. P.;
-Vocadlo, D. J. O-GlcNAc modification of tau directly inhibits its
-aggregation without perturbing the conformational properties of tau
-monomers. J. Mol. Biol. 2014, 426 (8), 1736−52.
-
-(28) Ray, S.; Singh, N.; Kumar, R.; Patel, K.; Pandey, S.; Datta, D.;
-Mahato, J.; Panigrahi, R.; Navalkar, A.; Mehra, S.; Gadhe, L.;
-Chatterjee, D.; Sawner, A. S.; Maiti, S.; Bhatia, S.; Gerez, J. A.;
-Chowdhury, A.; Kumar, A.; Padinhateeri, R.; Riek, R.;
-Krishnamoorthy, G.; Maji, S. K. alpha-Synuclein aggregation nucleates
-through liquid-liquid phase separation. Nat. Chem. 2020, 12 (8),
-705−716.
-(29) Kanaan, N. M.; Hamel, C.; Grabinski, T.; Combs, B. Liquidliquid phase separation induces pathogenic tau conformations in vitro.
-Nat. Commun. 2020, 11 (1), 2809.
-
-(30) Wegmann, S.; Eftekharzadeh, B.; Tepper, K.; Zoltowska, K. M.;
-Bennett, R. E.; Dujardin, S.; Laskowski, P. R.; MacKenzie, D.;
-Kamath, T.; Commins, C.; Vanderburg, C.; Roe, A. D.; Fan, Z.;
-Molliex, A. M.; Hernandez-Vega, A.; Muller, D.; Hyman, A. A.;
-Mandelkow, E.; Taylor, J. P.; Hyman, B. T. Tau protein liquid-liquid
-phase separation can initiate tau aggregation. EMBO J. 2018, 37 (7),
-No. e98049.
-
-(31) Boyko, S.; Surewicz, K.; Surewicz, W. K. Regulatory
-mechanisms of tau protein fibrillation under the conditions of
-liquid-liquid phase separation. Proc. Natl. Acad. Sci. U. S. A. 2020, 117
-(50), 31882−31890.
-
-(32) Patel, A.; Lee, H. O.; Jawerth, L.; Maharana, S.; Jahnel, M.;
-Hein, M. Y.; Stoynov, S.; Mahamid, J.; Saha, S.; Franzmann, T. M.;
-Pozniakovski, A.; Poser, I.; Maghelli, N.; Royer, L. A.; Weigert, M.;
-Myers, E. W.; Grill, S.; Drechsel, D.; Hyman, A. A.; Alberti, S. A
-Liquid-to-Solid Phase Transition of the ALS Protein FUS Accelerated
-by Disease Mutation. Cell 2015, 162 (5), 1066−77.
-
-(33) Molliex, A.; Temirov, J.; Lee, J.; Coughlin, M.; Kanagaraj, A. P.;
-Kim, H. J.; Mittag, T.; Taylor, J. P. Phase separation by low
-complexity domains promotes stress granule assembly and drives
-pathological fibrillization. Cell 2015, 163 (1), 123−33.
-
-(34) Lin, Y.; Protter, D. S.; Rosen, M. K.; Parker, R. Formation and
-Maturation of Phase-Separated Liquid Droplets by RNA-Binding
-Proteins. Mol. Cell 2015, 60 (2), 208−19.
-
-(35) Kato, M.; Han, T. W.; Xie, S.; Shi, K.; Du, X.; Wu, L. C.;
-Mirzaei, H.; Goldsmith, E. J.; Longgood, J.; Pei, J.; Grishin, N. V.;
-
-Frantz, D. E.; Schneider, J. W.; Chen, S.; Li, L.; Sawaya, M. R.;
-Eisenberg, D.; Tycko, R.; McKnight, S. L. Cell-free formation of RNA
-granules: low complexity sequence domains form dynamic fibers
-within hydrogels. Cell 2012, 149 (4), 753−67.
-
-(36) Hennig, S.; Kong, G.; Mannen, T.; Sadowska, A.; Kobelke, S.;
-Blythe, A.; Knott, G. J.; Iyer, K. S.; Ho, D.; Newcombe, E. A.; Hosoki,
-K.; Goshima, N.; Kawaguchi, T.; Hatters, D.; Trinkle-Mulcahy, L.;
-Hirose, T.; Bond, C. S.; Fox, A. H. Prion-like domains in RNA
-binding proteins are essential for building subnuclear paraspeckles. J.
-Cell Biol. 2015, 210 (4), 529−39.
-
-(37) Khan, T.; Kandola, T. S.; Wu, J.; Venkatesan, S.; Ketter, E.;
-Lange, J. J.; Rodriguez Gama, A.; Box, A.; Unruh, J. R.; Cook, M.;
-Halfmann, R. Quantifying Nucleation In Vivo Reveals the Physical
-Basis of Prion-like Phase Behavior. Mol. Cell 2018, 71 (1), 155−168.
-
-(38) Guo, L.; Kim, H. J.; Wang, H.; Monaghan, J.; Freyermuth, F.;
-Sung, J. C.; O’Donovan, K.; Fare, C. M.; Diaz, Z.; Singh, N.; Zhang,
-Z. C.; Coughlin, M.; Sweeny, E. A.; DeSantis, M. E.; Jackrel, M. E.;
-Rodell, C. B.; Burdick, J. A.; King, O. D.; Gitler, A. D.; LagierTourenne, C.; Pandey, U. B.; Chook, Y. M.; Taylor, J. P.; Shorter, J.
-Nuclear-Import Receptors Reverse Aberrant Phase Transitions of
-RNA-Binding Proteins with Prion-like Domains. Cell 2018, 173 (3),
-677−692.
-(39) Franzmann, T. M.; Alberti, S. Prion-like low-complexity
-sequences: Key regulators of protein solubility and phase behavior.
-J. Biol. Chem. 2019, 294 (18), 7128−7136.
-
-(40) Murray, D. T.; Zhou, X.; Kato, M.; Xiang, S.; Tycko, R.;
-McKnight, S. L. Structural characterization of the D290V mutation
-site in hnRNPA2 low-complexity-domain polymers. Proc. Natl. Acad.
-Sci. U. S. A. 2018, 115 (42), 9782−9791.
-
-(41) Conicella, A. E.; Dignon, G. L.; Zerze, G. H.; Schmidt, H. B.;
-D’Ordine, A. M.; Kim, Y. C.; Rohatgi, R.; Ayala, Y. M.; Mittal, J.;
-Fawzi, N. L. TDP-43 alpha-helical structure tunes liquid-liquid phase
-separation and function. Proc. Natl. Acad. Sci. U. S. A. 2020, 117 (11),
-5883−5894.
-(42) Murray, D. T.; Kato, M.; Lin, Y.; Thurber, K. R.; Hung, I.;
-McKnight, S. L.; Tycko, R. Structure of FUS Protein Fibrils and Its
-Relevance to Self-Assembly and Phase Separation of Low-Complexity
-Domains. Cell 2017, 171 (3), 615−627.
-
-(43) Kwon, I.; Kato, M.; Xiang, S.; Wu, L.; Theodoropoulos, P.;
-Mirzaei, H.; Han, T.; Xie, S.; Corden, J. L.; McKnight, S. L.
-Phosphorylation-regulated binding of RNA polymerase II to fibrous
-polymers of low-complexity domains. Cell 2013, 155 (5), 1049−1060.
-
-(44) Wang, A.; Conicella, A. E.; Schmidt, H. B.; Martin, E. W.;
-Rhoads, S. N.; Reeb, A. N.; Nourse, A.; Ramirez Montero, D.; Ryan,
-V. H.; Rohatgi, R.; Shewmaker, F.; Naik, M. T.; Mittag, T.; Ayala, Y.
-M.; Fawzi, N. L. A single N-terminal phosphomimic disrupts TDP-43
-polymerization, phase separation, and RNA splicing. EMBO J. 2018,
-37 (5), No. e97452.
-(45) Afroz, T.; Hock, E. M.; Ernst, P.; Foglieni, C.; Jambeau, M.;
-Gilhespy, L. A. B.; Laferriere, F.; Maniecka, Z.; Pluckthun, A.; Mittl,
-P.; Paganetti, P.; Allain, F. H. T.; Polymenidou, M. Functional and
-dynamic polymerization of the ALS-linked protein TDP-43
-antagonizes its pathologic aggregation. Nat. Commun. 2017, 8 (1), 45.
-
-(46) Monahan, Z.; Ryan, V. H.; Janke, A. M.; Burke, K. A.; Rhoads,
-S. N.; Zerze, G. H.; O’Meally, R.; Dignon, G. L.; Conicella, A. E.;
-Zheng, W.; Best, R. B.; Cole, R. N.; Mittal, J.; Shewmaker, F.; Fawzi,
-N. L. Phosphorylation of the FUS low-complexity domain disrupts
-phase separation, aggregation, and toxicity. EMBO J. 2017, 36 (20),
-2951−2967.
-(47) Franzmann, T. M.; Jahnel, M.; Pozniakovsky, A.; Mahamid, J.;
-Holehouse, A. S.; Nuske, E.; Richter, D.; Baumeister, W.; Grill, S. W.;
-Pappu, R. V.; Hyman, A. A.; Alberti, S. Phase separation of a yeast
-prion protein promotes cellular fitness. Science 2018, 359 (6371),
-No. eaao5654.
-
-(48) Feric, M.; Vaidya, N.; Harmon, T. S.; Mitrea, D. M.; Zhu, L.;
-Richardson, T. M.; Kriwacki, R. W.; Pappu, R. V.; Brangwynne, C. P.
-Coexisting Liquid Phases Underlie Nucleolar Subcompartments. Cell
-2016, 165 (7), 1686−1697.
-
-(49) Putnam, A.; Cassani, M.; Smith, J.; Seydoux, G. A gel phase
-promotes condensation of liquid P granules in Caenorhabditis elegans
-embryos. Nat. Struct. Mol. Biol. 2019, 26 (3), 220−226.
-
-(50) Kroschwald, S.; Munder, M. C.; Maharana, S.; Franzmann, T.
-M.; Richter, D.; Ruer, M.; Hyman, A. A.; Alberti, S. Different Material
-States of Pub1 Condensates Define Distinct Modes of Stress
-Adaptation and Recovery. Cell Rep. 2018, 23 (11), 3327−3339.
-
-(51) Chong, S.; Dugast-Darzacq, C.; Liu, Z.; Dong, P.; Dailey, G.
-M.; Cattoglio, C.; Heckert, A.; Banala, S.; Lavis, L.; Darzacq, X.; Tjian,
-R. Imaging dynamic and selective low-complexity domain interactions
-that control gene transcription. Science 2018, 361 (6400),
-No. eaar2555.
-
-(52) Wang, J.; Choi, J. M.; Holehouse, A. S.; Lee, H. O.; Zhang, X.;
-Jahnel, M.; Maharana, S.; Lemaitre, R.; Pozniakovsky, A.; Drechsel,
-D.; Poser, I.; Pappu, R. V.; Alberti, S.; Hyman, A. A. A Molecular
-Grammar Governing the Driving Forces for Phase Separation of
-Prion-like RNA Binding Proteins. Cell 2018, 174 (3), 688−699 e16.
-
-(53) Maharana, S. W. J.; Papadopoulos, D. K.; Richterm, D.;
-Pozniakovsky, A.; Poser, I.; Bickle, M.; Rizk, S.; Guillen-Boixet, J.;
-Franzmann, T.; Jahnel, M.; Marrone, L.; Chang, Y.-T.; Sterneckert, J.;
-Tomancak, T.; Hyman, A. A.; Alberti, S. RNA buffers the phase
-separation behavior of prion-like RNA binding proteins. Science 2018,
-360, 918−921.
-(54) Hofweber, M.; Hutten, S.; Bourgeois, B.; Spreitzer, E.; NiednerBoblenz, A.; Schifferer, M.; Ruepp, M. D.; Simons, M.; Niessing, D.;
-Madl, T.; Dormann, D. Phase Separation of FUS Is Suppressed by Its
-Nuclear Import Receptor and Arginine Methylation. Cell 2018, 173
-(3), 706−719 e13.
-
-(55) Boulay, G.; Sandoval, G. J.; Riggi, N.; Iyer, S.; Buisson, R.;
-Naigles, B.; Awad, M. E.; Rengarajan, S.; Volorio, A.; McBride, M. J.;
-Broye, L. C.; Zou, L.; Stamenkovic, I.; Kadoch, C.; Rivera, M. N.
-Cancer-Specific Retargeting of BAF Complexes by a Prion-like
-Domain. Cell 2017, 171 (1), 163−178.
-
-(56) Kamemura, K. O-GlcNAc glycosylation stoichiometry of the
-FET protein family: only EWS is glycosylated with a high
-stoichiometry. Biosci., Biotechnol., Biochem. 2017, 81 (3), 541−546.
-
-(57) Kamemura, K.; Abe, H. The glycosylation stoichiometry of
-EWS species in neuronal cells. Biosci., Biotechnol., Biochem. 2017, 81
-(1), 165−167.
-
-(58) Wulff-Fuentes, E.; Berendt, R. R.; Massman, L.; Danner, L.;
-Malard, F.; Vora, J.; Kahsay, R.; Olivier-Van Stichelen, S. The human
-O-GlcNAcome database and meta-analysis. Sci. Data 2021, 8 (1), 25.
-
-(59) Ma, J.; Li, Y.; Hou, C.; Wu, C. O-GlcNAcAtlas: A Database of
-Experimentally Identified O-GlcNAc Sites and Proteins. Glycobiology
-2021, 1−12.
-(60) Bachmaier, R.; Aryee, D. N.; Jug, G.; Kauer, M.; Kreppel, M.;
-Lee, K. A.; Kovar, H. O-GlcNAcylation is involved in the
-transcriptional activity of EWS-FLI1 in Ewing’s sarcoma. Oncogene
-2009, 28 (9), 1280−4.
-(61) Hanover, J. A.; Yu, S.; Lubas, W. B.; Shin, S.-H.; RaganoCaracciola, M.; Kochran, J.; Love, D. C. Mitochondrial and
-nucleocytoplasmic isoforms of O-linked GlcNAc transferase encoded
-by a single mammalian gene. Arch. Biochem. Biophys. 2003, 409, 287−
-297.
-(62) Lubas, W. A.; Hanover, J. A. Functional expression of O-linked
-GlcNAc transferase. Domain structure and substrate specificity. J. Biol.
-Chem. 2000, 275 (15), 10983−8.
-
-(63) Burke, K. A.; Janke, A. M.; Rhine, C. L.; Fawzi, N. L. Residueby-Residue View of In Vitro FUS Granules that Bind the C-Terminal
-Domain of RNA Polymerase II. Mol. Cell 2015, 60 (2), 231−41.
-
-(64) Brangwynne, C. P.; Mitchison, T. J.; Hyman, A. A. Active
-liquid-like behavior of nucleoli determines their size and shape in
-Xenopus laevis oocytes. Proc. Natl. Acad. Sci. U. S. A. 2011, 108 (11),
-4334−9.
-(65) Elbaum-Garfinkle, S.; Kim, Y.; Szczepaniak, K.; Chen, C. C.;
-Eckmann, C. R.; Myong, S.; Brangwynne, C. P. The disordered P
-granule protein LAF-1 drives phase separation into droplets with
-tunable viscosity and dynamics. Proc. Natl. Acad. Sci. U. S. A. 2015,
-112 (23), 7189−94.
-
-(66) Boeynaems, S.; Holehouse, A. S.; Weinhardt, V.; Kovacs, D.;
-Van Lindt, J.; Larabell, C.; Van Den Bosch, L.; Das, R.; Tompa, P. S.;
-Pappu, R. V.; Gitler, A. D. Spontaneous driving forces give rise to
-protein-RNA condensates with coexisting phases and complex
-material properties. Proc. Natl. Acad. Sci. U. S. A. 2019, 116 (16),
-7889−7898.
-(67) Taylor, N. O.; Wei, M. T.; Stone, H. A.; Brangwynne, C. P.
-Quantifying Dynamics in Phase-Separated Condensates Using
-Fluorescence Recovery after Photobleaching. Biophys. J. 2019, 117
-(7), 1285−1300.
-
-(68) Qamar, S.; Wang, G.; Randle, S. J.; Ruggeri, F. S.; Varela, J. A.;
-Lin, J. Q.; Phillips, E. C.; Miyashita, A.; Williams, D.; Strohl, F.;
-Meadows, W.; Ferry, R.; Dardov, V. J.; Tartaglia, G. G.; Farrer, L. A.;
-Kaminski Schierle, G. S.; Kaminski, C. F.; Holt, C. E.; Fraser, P. E.;
-Schmitt-Ulms, G.; Klenerman, D.; Knowles, T.; Vendruscolo, M.; St
-George-Hyslop, P. FUS Phase Separation Is Modulated by a
-Molecular Chaperone and Methylation of Arginine Cation-pi
-Interactions. Cell 2018, 173 (3), 720−734.
-
-(69) Altmeyer, M.; Neelsen, K. J.; Teloni, F.; Pozdnyakova, I.;
-Pellegrino, S.; Grofte, M.; Rask, M. D.; Streicher, W.; Jungmichel, S.;
-Nielsen, M. L.; Lukas, J. Liquid demixing of intrinsically disordered
-proteins is seeded by poly(ADP-ribose). Nat. Commun. 2015, 6, 8088.
-
-(70) Balana, A. T.; Levine, P. M.; Craven, T. W.; Mukherjee, S.;
-Pedowitz, N. J.; Moon, S. P.; Takahashi, T. T.; Becker, C. F. W.;
-Baker, D.; Pratt, M. R. O-GlcNAc modification of small heat shock
-proteins enhances their anti-amyloid chaperone activity. Nat. Chem.
-2021, 13 (5), 441−450.
-(71) Gloster, T. M.; Zandberg, W. F.; Heinonen, J. E.; Shen, D. L.;
-Deng, L.; Vocadlo, D. J. Hijacking a biosynthetic pathway yields a
-glycosyltransferase inhibitor within cells. Nat. Chem. Biol. 2011, 7 (3),
-174−81.
-(72) Ortiz-Meoz, R. F.; Jiang, J.; Lazarus, M. B.; Orman, M.;
-Janetzko, J.; Fan, C.; Duveau, D. Y.; Tan, Z. W.; Thomas, C. J.;
-Walker, S. A small molecule that inhibits OGT activity in cells. ACS
-Chem. Biol. 2015, 10 (6), 1392−7.
-
-(73) Park, S. K.; Zhou, X.; Pendleton, K. E.; Hunter, O. V.; Kohler, J.
-J.; O’Donnell, K. A.; Conrad, N. K. A Conserved Splicing Silencer
-Dynamically Regulates O-GlcNAc Transferase Intron Retention and
-O-GlcNAc Homeostasis. Cell Rep. 2017, 20 (5), 1088−1099.
-
-(74) Itkonen, H. M.; Minner, S.; Guldvik, I. J.; Sandmann, M. J.;
-Tsourlakis, M. C.; Berge, V.; Svindland, A.; Schlomm, T.; Mills, I. G.
-O-GlcNAc transferase integrates metabolic pathways to regulate the
-stability of c-MYC in human prostate cancer cells. Cancer Res. 2013,
-73 (16), 5277−87.
-(75) Bolognesi, B.; Lorenzo Gotor, N.; Dhar, R.; Cirillo, D.;
-Baldrighi, M.; Tartaglia, G. G.; Lehner, B. A ConcentrationDependent Liquid Phase Separation Can Cause Toxicity upon
-Increased Protein Expression. Cell Rep. 2016, 16 (1), 222−231.
-
-(76) Lancaster, A. K.; Nutter-Upham, A.; Lindquist, S.; King, O. D.
-PLAAC: a web and command-line application to identify proteins
-with prion-like amino acid composition. Bioinformatics 2014, 30 (17),
-2501−2.
-(77) Vernon, R. M.; Forman-Kay, J. D. First-generation predictors of
-biological protein phase separation. Curr. Opin. Struct. Biol. 2019, 58,
-88−96.
-(78) Srikanth, B.; Vaidya, M. M.; Kalraiya, R. D. O-GlcNAcylation
-determines the solubility, filament organization, and stability of
-keratins 8 and 18. J. Biol. Chem. 2010, 285 (44), 34062−71.
-
-(79) Kim, T. H.; Payliss, B. J.; Nosella, M. L.; Lee, I. T. W.; Toyama,
-Y.; Forman-Kay, J. D.; Kay, L. E. Interaction hot spots for phase
-separation revealed by NMR studies of a CAPRIN1 condensed phase.
-Proc. Natl. Acad. Sci. U. S. A. 2021, 118 (23), No. e2104897118.
-
-(80) Hart, G. W.; Slawson, C.; Ramirez-Correa, G.; Lagerlof, O.
-Cross talk between O-GlcNAcylation and phosphorylation: roles in
-signaling, transcription, and chronic disease. Annu. Rev. Biochem.
-2011, 80, 825−58.
-(81) Ribeiro, S. S.; Samanta, N.; Ebbinghaus, S.; Marcos, J. C. The
-synergic effect of water and biomolecules in intracellular phase
-separation. Nat. Rev. Chem. 2019, 3, 552−561.
-
-(82) Gotor, N. L.; Armaos, A.; Calloni, G.; Torrent Burgas, M.;
-Vabulas, R. M.; De Groot, N. S.; Tartaglia, G. G. RNA-binding and
-prion domains: the Yin and Yang of phase separation. Nucleic Acids
-Res. 2020, 48 (17), 9491−9504.
-
-(83) Yamaguchi, K. I.; Kuwata, K. Formation and properties of
-amyloid fibrils of prion protein. Biophys. Rev. 2018, 10 (2), 517−525.
-
-(84) Zhu, Y.; Willems, L. I.; Salas, D.; Cecioni, S.; Wu, W. B.; Foster,
-L. J.; Vocadlo, D. J. Tandem Bioorthogonal Labeling Uncovers
-Endogenous Cotranslationally O-GlcNAc Modified Nascent Proteins.
-J. Am. Chem. Soc. 2020, 142 (37), 15729−15739.
-
-(85) Schwartz, J. C.; Cech, T. R.; Parker, R. R. Biochemical
-Properties and Biological Functions of FET Proteins. Annu. Rev.
-Biochem. 2015, 84, 355−79.
-
-(86) Naganuma, T.; Nakagawa, S.; Tanigawa, A.; Sasaki, Y. F.;
-Goshima, N.; Hirose, T. Alternative 3′-end processing of long
-noncoding RNA initiates construction of nuclear paraspeckles. EMBO
-J. 2012, 31 (20), 4020−4034.
-
-(87) Sabari, B. R.; Dall’Agnese, A.; Boija, A.; Klein, I. A.; Coffey, E.
-L.; Shrinivas, K.; Abraham, B. J.; Hannett, N. M.; Zamudio, A. V.;
-Manteiga, J. C.; Li, C. H.; Guo, Y. E.; Day, D. S.; Schuijers, J.; Vasile,
-E.; Malik, S.; Hnisz, D.; Lee, T. I.; Cisse, I. I.; Roeder, R. G.; Sharp, P.
-A.; Chakraborty, A. K.; Young, R. A. Coactivator condensation at
-super-enhancers links phase separation and gene control. Science
-2018, 361 (6400), No. eaar3958.
-(88) Boija, A.; Klein, I. A.; Sabari, B. R.; Dall’Agnese, A.; Coffey, E.
-L.; Zamudio, A. V.; Li, C. H.; Shrinivas, K.; Manteiga, J. C.; Hannett,
-N. M.; Abraham, B. J.; Afeyan, L. K.; Guo, Y. E.; Rimel, J. K.; Fant, C.
-B.; Schuijers, J.; Lee, T. I.; Taatjes, D. J.; Young, R. A. Transcription
-Factors Activate Genes through the Phase-Separation Capacity of
-Their Activation Domains. Cell 2018, 175 (7), 1842−1855 e16.
-
-(89) Toretsky, J. A.; Wright, P. E. Assemblages: functional units
-formed by cellular phase separation. J. Cell Biol. 2014, 206 (5), 579−
-88.
-(90) Ranuncolo, S. M.; Ghosh, S.; Hanover, J. A.; Hart, G. W.;
-Lewis, B. A. Evidence of the involvement of O-GlcNAc-modified
-human RNA polymerase II CTD in transcription in vitro and in vivo.
-J. Biol. Chem. 2012, 287 (28), 23549−61.
-
-(91) Hardiville, S.; Banerjee, P. S.; Selen Alpergin, E. S.; Smith, D.
-M.; Han, G.; Ma, J.; Talbot, C. C., Jr.; Hu, P.; Wolfgang, M. J.; Hart,
-G. W. TATA-Box Binding Protein O-GlcNAcylation at T114
-Regulates Formation of the B-TFIID Complex and Is Critical for
-Metabolic Gene Regulation. Mol. Cell 2020, 77 (5), 1143−1152.
-
-(92) Guo, Y. E.; Manteiga, J. C.; Henninger, J. E.; Sabari, B. R.;
-Dall’Agnese, A.; Hannett, N. M.; Spille, J. H.; Afeyan, L. K.; Zamudio,
-A. V.; Shrinivas, K.; Abraham, B. J.; Boija, A.; Decker, T. M.; Rimel, J.
-K.; Fant, C. B.; Lee, T. I.; Cisse, I. I.; Sharp, P. A.; Taatjes, D. J.;
-Young, R. A. Pol II phosphorylation regulates a switch between
-transcriptional and splicing condensates. Nature 2019, 572 (7770),
-543−548.
-(93) Tsang, B.; Pritisanac, I.; Scherer, S. W.; Moses, A. M.; FormanKay, J. D. Phase Separation as a Missing Mechanism for Interpretation
-of Disease Mutations. Cell 2020, 183 (7), 1742−1756.
-
-(94) Nott, T. J.; Petsalaki, E.; Farber, P.; Jervis, D.; Fussner, E.;
-Plochowietz, A.; Craggs, T. D.; Bazett-Jones, D. P.; Pawson, T.;
-Forman-Kay, J. D.; Baldwin, A. J. Phase transition of a disordered
-nuage protein generates environmentally responsive membraneless
-organelles. Mol. Cell 2015, 57 (5), 936−947.
-
-(95) Gross BJ, K. B. Walker S, Discovery of O-GlcNAc transferase
-inhibitors. J. Am. Chem. Soc. 2005, 127, 14588−14589.
-
-(96) Hanson, J.; Yang, Y.; Paliwal, K.; Zhou, Y. Improving protein
-disorder prediction by deep bidirectional long short-term memory
-recurrent neural networks. Bioinformatics 2017, 33 (5), 685−692.

@@ -9,7 +9,6 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from llm_client import LightLLMClient
-from validator import validate_lcr_annotations
 from generate_report import generate_html_report
 from text_extractor import parse_pdf, extract_core_results_only, chunk_text
 
@@ -63,19 +62,14 @@ async def process_pdf_file(pdf_path: str, client: LightLLMClient) -> list[dict]:
         logger.info("Processing chunk %d/%d...", idx + 1, len(chunks))
         annotations = await client.generate_lcr_annotations(PROMPT_LCR, chunk)
 
-        valid_annotations = validate_lcr_annotations(annotations, chunk)
 
         debug_logs.append({
             "chunk_index": idx,
             "chunk_length": len(chunk),
             "raw_extracted_count": len(annotations),
-            "valid_count": len(valid_annotations),
             "raw_annotations": annotations,
-            "valid_annotations": valid_annotations
         })
 
-        if valid_annotations:
-            all_annotations.extend(valid_annotations)
 
         if idx < len(chunks) - 1:
             await asyncio.sleep(20)

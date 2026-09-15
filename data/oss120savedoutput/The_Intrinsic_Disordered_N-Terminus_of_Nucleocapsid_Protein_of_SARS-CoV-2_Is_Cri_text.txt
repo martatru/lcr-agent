@@ -1,0 +1,254 @@
+--- 2. Results ---
+2.1. A48 Aptamer Binds to the N-Terminal Domain of Nucleocapsid Protein
+
+We characterized the key region of the nucleocapsid protein (N protein) involved
+in binding to A48, a previously identified single-stranded DNA aptamer. The N protein
+contains 419 amino acid residues and comprises two structural domains: the N-terminal
+domain (N-NTD, residues 1–180) and the C-terminal domain (N-CTD, residues 255–419)
+(Figure 1A). Both domains contain regions predicted to bind nucleic acids. High-resolution
+structures of both folded domains have been solved independently, and the N-NTD has
+been shown to bind RNA via a highly positively charged basic finger motif (Figure 1B),
+corresponding to the β2–β4 region [20]. Additionally, the protein features three intrinsically disordered regions that serve as connectors between the two domains and at their
+flanks [21–23]. In addition, we predicted the three-dimensional structure of A48 using
+molecular dynamics simulations, as shown in Figure 1°C. The aptamer adopts an overall
+L-shaped topology.
+
+Surface plasmon resonance (SPR) experiments were performed to identify the domain responsible for A48 binding. In this study, N-NTD bound A48 with a Kd value
+of 0.36 nM, which is comparable to the binding affinity of the full-length N protein
+(Kd = 0.49 ± 0.05 nM) [16]. In contrast, no binding was detected between N-CTD and A48
+(Supplementary Figure S1). These results demonstrate that N-NTD, not N-CTD, is the
+A48-binding domain.
+
+2.2. NMR Spectroscopy Identifies the N-Terminal Intrinsically Disordered Region and Basic Finger
+
+
+Region as A48 Binding Epitopes
+To identify the regions involved in the interaction between N-NTD and A48, we
+recorded 1H-15N HSQC spectra of free N-NTD and the N-NTD-A48 complex. The complex was formed using 15N-labeled N-NTD and unlabeled A48. In the free state, 98 of
+180 residues were detected and assigned (Supplementary Figure S2). The unassigned
+residues are primarily located in the N-terminal segment (M1–T49) and the basic finger
+region (T91–K102), consistent with these regions being intrinsically disordered or adopting
+multiple conformations in the absence of A48. This observation agrees with the prediction
+that the N-terminal region functions as an IDR. Chemical shift index (CSI) analysis of the
+assigned residues revealed a predominance of β-strand structures, consistent with previous
+crystal structures of the N protein and the solution structure of N-NTD bound to RNA [2].
+
+Upon A48 binding, substantial spectral changes were observed (Figure 2A). Approximately 30 additional residues became detectable in the A48-bound state (Figure 2A and
+Supplementary Figure S3). Residues G30–S51 (N-terminal IDR) and T91–K102 (basic finger region) showed either newly observed signals or substantial chemical shift changes
+(chemical shift variation > 0.3 ppm). In addition, several residues in the loops connecting
+β-strands—including D128, G137, N150–A155, G163, G164, G170, and G175—became
+discernible in the presence of A48. Collectively, these data demonstrate specific recognition
+of A48 by the G30–S51 region of the N-terminal IDR and the T91–K102 region of the basic
+finger domain. Furthermore, A48 binding induces a more compact and rigid conformation
+of N-NTD, indicating that A48 influences the structural dynamics of the protein.
+
+Previous studies have indicated the importance of the basic finger region of N-NTD
+for RNA/DNA binding. However, those studies used a truncated form of N-NTD lacking
+the N-terminal IDR (residues 1–43) [2,24–26]. Therefore, the specific contribution of the
+N-terminal IDR to nucleic acid binding remained unclear.
+
+To further validate the role of the N-terminal IDR in A48 binding, we generated two
+N-terminally truncated N-NTD variants: ∆25N-NTD (residues 26–180) and ∆43N-NTD
+(residues 44–180). Both constructs exhibited significant spectral changes upon A48 addition,
+indicating interaction with A48. Comparative analysis showed that the spectra of the
+∆25N-NTD-A48 complex closely resembled those of the full-length N-NTD-A48 complex,
+confirming that residues 1–25 do not participate in or influence the binding between N-NTD
+and A48 (Supplementary Figure S4A). In contrast, the ∆43N-NTD-A48 complex displayed
+notable differences compared with the full-length complex (Supplementary Figure S4B).
+
+This observation highlights the critical role of residues S26–Q43 within the N-terminal IDR
+in mediating A48 binding, a conclusion supported by backbone chemical shift variation
+(CSV) analysis.
+
+The ∆25N-NTD-A48 and ∆43N-NTD-A48 complexes exhibited Kd of 3.09 nM and
+5.65 nM, respectively. Notably, ∆43N-NTD displayed an approximately 1.8-fold reduction
+in binding affinity compared with the ∆25N-NTD, suggesting that this N-terminal IDR
+segment contributes to optimal aptamer recognition. These data underscore the functional
+importance of the N-terminal IDR in maintaining efficient interaction with A48.
+
+2.3. Hydrophilic Interactions Determine the Binding Between N-NTD and A48 and the Structure
+of the N-NTD-A48 Complex
+
+We further identified critical residues within the N-NTD-A48 complex that serve as
+hotspots and influence the structural arrangement of the complex. In the spectral region
+corresponding to guanidine NH groups (indicated by a 15N chemical shift of 80 ppm in the
+HSQC spectrum), the interaction with A48 triggered the emergence of seven distinct new
+signals. This observation suggested the potential involvement of multiple Arg residues in
+intermolecular salt bridges or hydrogen bonds, contributing to direct interaction with A48.
+
+Three Arg residues (R36, R40, and R41) were located within the N-terminal IDR, and
+five additional Arg residues (R88, R89, R92, R93, and R95) were located within or near the
+basic finger region (Figure 3K). These newly detected Arg residue signals were expected to
+originate from these regions, suggesting their involvement in the interaction network of
+the complex.
+
+To assign these Arg residues precisely, we designed fifteen single mutants in N-
+NTD, replacing arginine with lysine (R-K mutants). Because both residues bear positive
+charges, this conserved substitution generally does not substantially alter the surface charge
+distribution. We compared the spectra of each R-K mutant N-NTD complexed with A48
+with that of the wild-type (WT) N-NTD-A48 complex (Supplementary Figure S5).
+
+This approach yielded two potential outcomes. First, the mutant could cause the
+disappearance of a specific Arg side-chain cross-peak, allowing precise identification of
+Arg residues at the N-NTD-A48 interaction interface. Such residues might be important for
+interaction but not necessarily for determining the overall structure of the complex. Second,
+if a single mutant induced noticeable changes in the overall spectral pattern, this would
+indicate a more complex role for the affected Arg residue(s) and their surrounding region
+in determining the structural arrangement of the complex, underscoring their potential
+structural significance.
+
+The spectra of the R88K, R89K, and R93K-N-NTD complexes with A48 lacked specific
+Arg side-chain signals compared with the WT N-NTD-A48 complex (Figure 3D,E,G). This
+absence allowed the assignment of these three Arg residues and indicated their involvement
+in A48 binding. These Arg residues are located within or near the basic finger region,
+consistent with the HSQC data of backbone amide signals, supporting the role of the basic
+finger in A48 interaction (Figure 3K). The R-K mutants did not induce significant changes
+in the remaining Arg signals, indicating that the overall structure of the complex was
+preserved. These observations confirm that these three Arg residues participate in A48
+binding but are not critical determinants of the complex architecture.
+
+The R36K, R40K, R41K, and R95K mutants induced substantial spectral changes in the
+N-NTD-A48 complex compared with the WT N-NTD-A48 complex (Figure 3A–C,H). In
+the R36K-N-NTD-A48 complex, most Arg side-chain signals, except that of R93, shifted or
+disappeared. In parallel, clear deviations in spectral patterns were evident in the backbone
+amide regions between the R36K-N-NTD-A48 and WT N-NTD-A48 complexes. These
+observations support a role for R36, located within the N-terminal IDR of N-NTD, in
+maintaining the overall structure of the complex. In the R40K, R41K, and R95K-N-NTD-
+
+A48 complexes, specific signals also disappeared. In the R40K complex, both R40 and R41
+signals vanished, whereas the introduction of either the R41K or R95K mutant disrupted
+both R41 and R95 residues. This observation suggested a cooperative binding mode
+involving these residues in the interaction with A48. R36, R40, and R41 are all located
+within the N-terminal IDR of N-NTD. Thus, these findings indicate that Arg residues in
+the N-terminal IDR are hotspots that play important roles in both aptamer binding and
+determining the structural configuration of the complex. The perturbations caused by the
+conserved R-K mutants underscore the sensitivity of the complex structure to changes
+within the N-terminal IDR. This observation was consistent with conclusions drawn from
+the ∆43N-NTD-A48 complex analysis, reinforcing that minor alterations in the N-terminal
+IDR can exert substantial effects on the architecture of the complex.
+
+Both the R92K and R149K mutants induced significant changes in the spectral patterns.
+The R92K mutant resulted in chemical shift changes in five arginine side chains (Figure 3F).
+However, the number of arginine side-chain signals remained unchanged from that of the
+WT N-NTD-A48 complex, suggesting that R92 is not directly involved in A48 binding.
+Instead, the mutant likely altered the local structure of the N-NTD-A48 complex, affecting
+residues near R92.
+
+The R149K-N-NTD complex behaved differently. In the unbound state of WT N-NTD,
+a single signal was detected in the Arg side-chain region, whereas this signal was absent in
+R149K-N-NTD, allowing assignment of the R149 side chain in unbound N-NTD (Figure 3I).
+The corresponding cross-peak of R149 did not shift upon A48 addition to WT N-NTD,
+suggesting that R149 does not directly interact with A48. However, in the R149K-N-NTD-
+A48 complex, no characteristic Arg side-chain signals were observed in the HSQC spectra.
+This finding indicated that R149 plays a role in stabilizing both the N-NTD structure and
+the N-NTD-A48 complex, rather than acting as a residue that directly contributes to binding
+between N-NTD and A48.
+
+In summary, analysis of the mutagenesis data provided insights into the distinct
+roles of individual Arg residues in the N-NTD-A48 complex. Most Arg residues in the
+basic finger region of N-NTD directly interact with A48 but do not strongly influence the
+overall structure of the complex. In contrast, Arg residues in the N-terminal IDR serve dual
+functions: they participate in direct interactions with A48 and also influence the overall
+topological arrangement of the N-NTD-A48 complex. This observation highlights the
+importance of the N-terminal IDR in aptamer recognition.
+
+2.4. Surface Plasmon Resonance Assay Confirms the Putative DNA Binding Sites
+
+Based on the NMR identification of Arg residues involved in A48 binding, we generated seven arginine-to-glutamate (R-E) mutants and measured their binding affinities
+by SPR (Figure 4). Compared with WT N-NTD, all seven R-E mutants showed reduced
+binding to A48. The R36E mutant in the N-terminal IDR reduced binding affinity by 20-fold,
+and the R40E mutant reduced it by 12-fold. These results are consistent with the NMR data
+and indicate that Arg residues in the N-terminal IDR serve as hotspots for binding. Among
+the other R-E mutants, R88E showed a 14-fold decrease in binding affinity. This finding
+demonstrates that altering the charge of Arg residues affects the interaction between N-
+NTD and A48. Together, these SPR results support the NMR conclusion that Arg residues
+in the N-terminal IDR play an important role in mediating binding and influencing the
+affinity of the complex.
+
+
+2.5. Structure of the N-NTD-A48 Complex
+Based on the NMR data, we determined the structural model of the N-NTD-A48
+complex using HADDOCK, followed by molecular dynamics refinement with AMBER
+(Figure 5). The N-terminus and the basic finger region are involved in interacting with A48.
+Within A48, residues 7–52 fold into an L-shaped overall topology. A large surface contact
+area was detected, involving the flexible N-terminal IDR, the basic finger, and part of
+the β-sheet.
+
+Structural analysis of the complex reveals that the N-terminal residues R36 and R40
+interact with A48 residues 48–50 through a combination of hydrophobic and hydrophilic
+contacts. In addition, residue R41 forms a hydrogen bond with residue G4 of A48. In
+addition to the N-terminus, A48 also interacts with other residues of N-NTD. Residue R88
+forms a hydrogen bond with C9 of A48 and engages in multiple hydrogen bonds with
+neighboring residues, stabilizing the contact between the central β-sheet of N-NTD and
+the aptamer. Furthermore, the basic finger region of N-NTD interfaces with A48 through
+its basic residues and aptamer residues 24–34, resulting in multiple hydrophobic and
+hydrophilic interactions that stabilize the association between N-NTD and the aptamer. The
+Arg residues R36, R92, R107, and R149 of SARS-CoV-2 N-NTD are conserved among SARSCoV-2 variants (Supplementary Figure S6B). This observation suggests that the aptamer
+may establish similar interactions with N proteins from other SARS-CoV-2 variants.
+
+We further compared the structure of the ∆25N-NTD-A48 complex with the previously
+reported complex structures of N-NTD bound to A58–20 nt, single-stranded RNA (ssRNA),
+
+and double-stranded RNA (dsRNA) (2, 25, 26). These structural comparisons reveal that
+N-NTD adopts distinct binding modes when interacting with different ligands (Figure 6).
+
+Comparison of the ∆25N-NTD-A48 complex with previously reported N-NTD–ligand
+structures revealed distinct binding patterns. In the ∆25N-NTD-A48 complex, A48 primarily binds to the left side of N-NTD, with the main binding interface involving the
+N-terminal region and the basic finger motif (Figure 6A). In the 8 TFD structure, the A58–20
+nt truncation also binds predominantly to the left side of N-NTD near the basic finger motif;
+however, the top view reveals that a portion of its bases remain unbound and exposed. In
+the 7ACS complex, dsRNA mainly binds to the right side of N-NTD near the basic finger
+motif, occupying the front face of N-NTD with only limited contacts elsewhere, as seen
+from the top view. In the 7ACT complex, ssRNA predominantly encircles the basic finger
+motif, with its nucleobases oriented upward to engage the motif through intermolecular
+interactions. In the 7 XWZ complex, dsRNA also binds primarily to the basic finger motif,
+adopting an orientation relatively parallel to the front face of N-NTD.
+
+Notably, these known N-NTD/aptamer complex structures were determined using
+N-terminally truncated NTD constructs and the role of the flexible N-terminal region in N-
+
+NTD/aptamer binding has not been addressed in earlier studies. The differences between
+the N-NTD/DNA and N-NTD/RNA complex structures indicate distinct interaction modes
+of N-NTD with these two types of nucleic acids. Therefore, understanding the binding
+modes of N-NTD with DNA is important for elucidating the overall nucleic acid binding
+mechanism of N-NTD.
+
+and 5′-GUCAGUG-3′. (D) binding model of ∆43N-NTD with a 10 mer ssRNA (PDB: 7ACT). The
+ssRNA sequence is 5′-UCUCUAAACG-3′. (E) Binding model of ∆43N-NTD with a 7 mer dsRNA
+(PDB: 7 XWZ). The dsRNA sequences are 5′-CACUGAC-3′ and 5′-GUCAGUG-3′.
+
+--- 3. Discussion ---
+In this study, We determined the solution structure of the SARS-CoV-2 nucleocapsid
+protein N-terminal domain (N-NTD) bound to the DNA aptamer A48 by NMR spectroscopy.
+The structure reveals that both the intrinsically disordered region (IDR) and the basic
+
+finger of N-NTD participate in aptamer binding. Positively charged residues within the
+N-terminal IDR form multiple contacts with A48, and the IDR adopts a more ordered
+conformation upon binding, suggesting a coupled binding-and-folding mechanism.
+
+Previous structural studies of coronavirus N proteins have typically used constructs
+lacking the flexible N-terminal IDR, leaving the functional role of this region in nucleic
+acid recognition unclear. Our findings demonstrate that the N-terminal IDR is not merely
+a passive linker but actively contributes to DNA binding. This observation may have
+general implications for understanding how other viral nucleocapsid proteins interact with
+nucleic acids.
+
+Mutagenesis experiments combining SPR and NMR further support the importance
+of hydrophilic interactions in the N-NTD–A48 complex. Substitution of arginine with
+glutamate in the N-terminal IDR substantially reduced binding affinity, indicating that
+aptamer recognition is sensitive to sequence variations in this region. Given the high
+mutant rate of SARS-CoV-2, this sensitivity may influence aptamer binding across different
+viral variants.
+
+Despite the genetic diversity of SARS-CoV-2 variants, the N protein sequence is highly
+conserved (Supplementary Figure S6). This conservation, together with the structural insights presented here, suggests that the N-terminal IDR and basic finger represent potential
+targets for aptamer-based diagnostics or therapeutics.
+
+In summary, using liquid-state NMR spectroscopy, we identified amino acid residues
+at the interface between SARS-CoV-2 N-NTD and the A48 aptamer. Guided by NMR
+data and affinity analyses of single-point Arg mutants, our findings indicate that both the
+N-terminal IDR and the structured basic finger region of N-NTD are important for nucleic
+acid binding and recognition. Unlike many previous structural studies that excluded
+the flexible N-terminal segment, this work demonstrates that this region plays a key role
+in mediating nucleic acid binding. These findings suggest that the N-terminal IDR may
+represent a target for sequence-based drug design against viral infections.

@@ -1,0 +1,78 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 3,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential involvement in fibril core formation (repetitive sequence may influence assembly)",
+        "evidence": "Although the FUS-LC sequence is quasi-repetitive, sequences longer than four amino acids (e.g., SGYSQ, YSSYG, etc.) generally occur only once.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Nup54",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Formation of fibril cores via its low‑complexity (LC) domain",
+        "evidence": "The size of the FUS-LC fibril core ( 60 amino acids), approximates the sizes of fibril cores assembled from the LC domains of Nup54 and hnRNPA2, as deduced from N-acetylimidazole footprinting.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Formation of fibril cores via its low‑complexity (LC) domain",
+        "evidence": "The size of the FUS-LC fibril core ( 60 amino acids), approximates the sizes of fibril cores assembled from the LC domains of Nup54 and hnRNPA2, as deduced from N-acetylimidazole footprinting.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 5558,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "hydrogel-binding",
+        "proposed_function": "mediates hydrogel binding and liquid‑like droplet formation (polymerization and phase separation) via its low‑complexity (LC) domain",
+        "evidence": "DNA‑PK‑mediated phosphorylation of the LC domain has previously been reported to inhibit binding of soluble GFP:FUS‑LC to mCherry:FUS hydrogels (Han et al., 2012).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "hydrogel-binding",
+        "proposed_function": "enables partitioning into hydrogels or liquid‑like droplets (phase separation) through its low‑complexity (LC) domain",
+        "evidence": "Correlative mutagenesis and chemical footprinting studies have given evidence that the same structures and forces account for the ability of the hnRNPA2 LC domain to partition into either hydrogels or liquid‑like droplets (Xiang et al., 2015).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

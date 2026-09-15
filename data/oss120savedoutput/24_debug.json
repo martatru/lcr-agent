@@ -1,0 +1,41 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "MRE11",
+        "organism": "Human",
+        "start_of_annotation": "498",
+        "end_of_annotation": "615",
+        "binding_target": "DNA-binding",
+        "proposed_function": "The GAR region contributes to DNA binding of MRE11.",
+        "evidence": "These results suggest that the regions encompassing the GAR motif and arginine methylation both contribute to MRE11 DNA binding (Fig. 6D).",
+        "curation_status": "Verified"
+      },
+      {
+        "protein_name": "MRE11",
+        "organism": "Human",
+        "start_of_annotation": "498",
+        "end_of_annotation": "615",
+        "binding_target": "protein-binding",
+        "proposed_function": "The GAR region mediates interaction/multimerization of MRE11 with NBS1.",
+        "evidence": "MRE11- GAR multimerized (see Fig. S1A in the supplemental material) and interacted with NBS1 (see Fig. S1B in the supplemental material), suggesting that it was folded properly.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 3981,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  }
+]

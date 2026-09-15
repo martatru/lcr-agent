@@ -1,0 +1,166 @@
+--- SUMMARY ---
+Bromodomain-containing protein 4 (BRD4) is an important therapeutic target for anticancer,
+antiviral, and anti-inflammatory response. Although its role in transcription, chromatin dynamics,
+and epigenetic programs is well recognized, recent studies have expanded the function of
+BRD4 and its related bromodomain and extra-terminal (BET) family members (BRD2, BRD3,
+and BRDT) to other molecular and biological processes. How a universal epigenetic regulator
+is tailored for context-specific gene/pathway regulation is mechanistically intriguing. In this
+review, we highlight the importance of protein isoforms and post-translational modifications,
+particularly phosphorylation, in generating the protein diversity necessary for selective factor
+recruitment and context-dependent regulation. Three BRD4 protein isoforms have been identified,
+including universally expressed BRD4-L and BRD4-S(a) (simplified as BRD4-S), representing
+long and short isoform a, and cell/stress-specific short isoform b, BRD4-S(b). A phospho-switch
+mechanism controlling the open/closed state of the bromodomain and BRD4 interaction with
+partner proteins will also be discussed. Mechanistic understanding of BET protein action has
+led not only to the development of diverse bromodomain-binding compounds currently used in
+clinical trials but also to the discovery of a new class of small-molecule inhibitors targeting an
+intrinsically disordered region (IDR) of phospho-BRD4 to alter specific protein-protein interaction
+(PPI) networks without globally perturbing transcription programs and chromatin landscapes,
+thus significantly reducing off-target effects and providing new directions for therapeutic drug
+development.
+
+
+In Brief
+*Correspondence: cheng-ming.chiang@utsouthwestern.edu.
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our
+customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review
+of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered
+which could affect the content, and all legal disclaimers that apply to the journal pertain.
+
+Conflict of interest: The authors declare that they have no conflicts of interest with the contents of this article.
+
+Bromodomain-containing protein 4 (BRD4) is an important therapeutic target for anticancer,
+antiviral, and anti-inflammatory response. In this review, we discuss how BRD4 as a universal
+epigenetic regulator is tailored for context-specific gene regulation and highlight the importance of
+protein isoforms and post-translational modifications, particularly phosphorylation, in generating
+protein diversity and further developing phospho-BRD4 IDR-targeting compounds as new
+therapeutic agents.
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+
+
+
+Keywords
+BRD4; BET; phosphorylation; PTM; IDR; protein isoform; PPI inhibitor
+
+--- Conclusions ---
+
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+Transcription is a highly coordinated event that requires RNA polymerases working in
+conjunction with an array of general and gene-specific transcription factors and cofactors
+to regulate distinct steps of the transcriptional process. This complexity of gene regulation
+is further complicated by the chromatin environment that adds another layer of regulation
+for TF access to enhancer/promoter regions. BRD4, as an epigenetic and transcriptional
+regulator, is a key factor bridging chromatin and DNA-driven processes by either acting as
+a scaffold/adaptor protein for locus-specific enhancer-promoter communications and long/
+ultralong-range chromatin interactions or as a checkpoint modulator controlling transcription
+progression and factor exchange. Three features underlying the action of a universal
+chromatin regulator for functioning as a gene/locus-specific factor are (1) post-translational
+modification, (2) isoform switch, and (3) partner association.
+
+The advances in multi-omics and computational tools allow network analysis and pathway
+identification through loss- and gain-of-function approaches, along with functional rescue,
+to identify specific factors and/or protein domains/regions crucial for their action and
+regulation. Besides genetic dissections, pharmacological agents with the use of targetselective chemical inhibitors and/or PROTAC (proteolysis targeting chimera) degraders
+further expand the repertoire of toolkits available for biological studies. In the case
+of BRD4, both genetic and chemical analyses have identified the unique and shared
+properties of universally expressed long (BRD4-L) and short (BRD4-S) isoforms, extending
+beyond the seemingly stress- and cell type-specific function of BRD4-S(b). While broad
+perturbation of BRD4 or BET protein functions using non-selective genetic or chemical
+inhibition makes it difficult to unambiguously pinpoint the specific factor involved,
+functional rescue by unique isoforms or other family members helps to identify the
+implicated entities and pathways.
+
+Among BET family proteins, the C-terminal proline-rich (sometimes referred to as HPQrich for histidine/proline/glutamine-rich) region is unique to BRD4-L. Thus, antibodies
+and genetic/chemical perturbations targeting epitopes or structural features residing in this
+IDR most likely reflect the functional properties of BRD4-L. Any reagents disrupting the
+functions of evolutionarily conserved N-terminal regions would require additional biological
+validation with the specific rescue factor(s) to designate the activity to unique BET family
+members (BRD4-L, BRD4-S, BRD3, BRD2). Moreover, target identification from in vitro
+analysis may not be fully validated by in vivo characterization, as the presence or absence
+of other cellular or viral proteins or macromolecules may mask or unmask the epitopes or
+surface features.
+
+While the internal IDR-targeting compounds (e.g., 14 and 90) appear to bind pNPS of
+full-length proteins or an IDR-only segment derived from purified recombinant BRD4-L,
+BRD4-S, BRD3, and BRD2 with comparable affinities in vitro, these compounds do
+show in vivo selectivity of specific BET proteins or isoforms in a context- and/or cell
+type-specific manner, presumably due to the presence of interacting partners that modulate
+the extent of surface exposure through direct complex formation and/or allosteric regulation.
+Comparison between in vitro and in vivo results is thus critical to provide a comprehensive
+
+Mol Cell. Author manuscript; available in PMC 2026 August 04.
+
+and unbiased view of BET protein action and compound selectivity. It should also be
+mentioned that although off-target inhibition and general toxicity are often seen with BBD
+or other folded domain inhibitors and PROTAC degraders, the strong side effects can be
+potentially alleviated through development of domain (e.g., BD1 or BD2 only)-selective
+inhibitors, allosteric inhibitors, dual-target inhibitors, or combination therapy with much
+reduced concentrations. Gain- and loss-of-function mutations uniquely found in the folded
+domains can also be explored for developing mutant-selective inhibitors/modulators or
+antibodies that do not cross-react with other structurally or functionally related wild-type
+proteins.
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+
+
+
+Author Manuscript
+Beyond conventional wisdom in therapeutics design and optimization, targeting IDRs
+that are uniquely adapted to the partner-interacting interface is an innovative approach
+to circumvent the strong side effects encountered with domain-targeting inhibitors. In
+cases where BET members work jointly to control a biological process – e.g., in
+differentiation-dependent HPV genome amplification where BRD4-L, BRD4-S and BRD3
+are all functionally involved,33 in BRD4-amplified HGSOC where both isoforms contribute
+to oncogenic c-Myc and NRG1 pathways (Figure 5°C), and in breast cancer metastasis in
+which BRD4-L/S are both critical for lung metastasis54 – pNPS IDR-targeting and pan-BET
+inhibitors may be particularly effective in treating these diseases. However, in a context
+where BET members or BRD4 isoforms exhibit opposing activities such as in the TNBC
+and RMS tumor development, this non-selective pan inhibition may blunt the therapeutic
+efficacy by simultaneously blocking both oncogenic and protective functions.
+
+The success with phosphoresidue-based IDRi can be likewise applied to other PTM
+residues in therapeutics development. Moreover, enhancement of drug modeling algorithms
+with the aid of artificial intelligence (AI) to include IDR/PTM information based on
+biochemical/biophysical and protein structure studies will be beneficial. With more drug-like
+IDR modulators and in-depth molecular understanding of protein function and compound
+selectivity facilitated by integrated genomic technology and computational AI approaches,
+more effective treatment regimens tailored to individuals based on their unique genetic
+and molecular profiles (i.e., personalized medicine) can be achieved for patients with viral,
+cancer, or inflammation-associated diseases in BRD4-targeted therapy.

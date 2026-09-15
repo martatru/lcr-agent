@@ -1,0 +1,202 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Low‑complexity (LC) domain mediates liquid‑liquid phase separation (LLPS) and self‑assembly, driving droplet formation and influencing aggregation behavior.",
+        "evidence": "We performed differential interference contrast (DIC) microscopy of FUS LC incubated for 1 day where wild-type FUS LC undergoes LLPS to form round micron-sized droplets (Fig 2A, top left).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 12000,
+    "raw_extracted_count": 5,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Mediates transient intra- and intermolecular contacts via its repetitive low‑complexity sequence",
+        "evidence": "wild-type FUS LC vary in magnitude but are similar regardless of the label position, consistent with the repetitive low-complexity sequence.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Reduces aggregation propensity when phosphomimetic substitutions are introduced into the low‑complexity domain",
+        "evidence": "Phosphomimetic substitutions in FUS LC reduce aggregation propensity in cells",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Dynamically controls protein interactions, assembly, and in‑cell aggregation through phosphorylation of the low‑complexity domain",
+        "evidence": "phosphorylation of the aggregation‑prone FUS LC can dynamically control protein interactions, assembly, and in‑cell aggregation.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "MEG-1",
+        "organism": "Caenorhabditis elegans",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Promotes processing granule disassembly via its low‑complexity domain",
+        "evidence": "low-complexity domains of maternal-effect germline defective (MEG) proteins 1 and 3 promotes processing granule disassembly in Caenorhabditis elegans embryos",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "MEG-3",
+        "organism": "Caenorhabditis elegans",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Promotes processing granule disassembly via its low‑complexity domain",
+        "evidence": "low-complexity domains of maternal-effect germline defective (MEG) proteins 1 and 3 promotes processing granule disassembly in Caenorhabditis elegans embryos",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 4,
+    "chunk_length": 11232,
+    "raw_extracted_count": 8,
+    "raw_annotations": [
+      {
+        "protein_name": "MEG-1",
+        "organism": "Caenorhabditis elegans",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "promotes processing granule disassembly",
+        "evidence": "low-complexity domains of maternal-effect germline defective (MEG) proteins 1 and 3 promotes processing granule disassembly in Caenorhabditis elegans embryos (Wang et al, 2014).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "MEG-3",
+        "organism": "Caenorhabditis elegans",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "promotes processing granule disassembly",
+        "evidence": "low-complexity domains of maternal-effect germline defective (MEG) proteins 1 and 3 promotes processing granule disassembly in Caenorhabditis elegans embryos (Wang et al, 2014).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "phosphorylation and phosphomimetic substitution disrupt domain self‑interaction and liquid‑liquid phase separation (LLPS)",
+        "evidence": "phosphorylation and phosphomimetic substitution of FUS LC disrupts domain self-interaction and LLPS.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "required for nuclear self‑association into chromatin‑binding dynamic puncta",
+        "evidence": "The LC is required for nuclear self-association of FUS into chromatin-binding dynamic puncta (Yang et al, 2014) and",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "recruitment to hydrogel granule models is disrupted by DNA‑PK treatment (phosphorylation)",
+        "evidence": "DNA‑PK treatment disrupts FUS LC recruitment to hydrogel models of granules (Han et al, 2012)",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "phosphorylation increases solubility and net negative charge of the low‑complexity domain",
+        "evidence": "phosphorylation can increase solubility and the net charge of the domain.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "phosphomimetic mutations reduce cytotoxicity and cytoplasmic aggregation",
+        "evidence": "phosphomimetic mutations of FUS reduce cytotoxicity and cytoplasmic aggregation.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "phosphomimetic substitutions do not perturb RNA‑binding",
+        "evidence": "The phosphomimetic substitutions explored here do not perturb RNA-binding, only FUS aggregation.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 5,
+    "chunk_length": 1232,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Aggregation of the low‑complexity (LC) region leads to sequestration of RNA into cytoplasmic inclusions, contributing to toxicity",
+        "evidence": "Therefore, our results directly implicate FUS LC aggregation in FUS toxicity and demonstrate that post-translational modifications can alter FUS’s propensity to aggregate (Fig 7).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Phosphorylation of serine residues (S57, S96) within the LC region modulates aggregation propensity",
+        "evidence": "Deletions of serines (S57 and S96) in FUS LC are associated with subtypes of ALS (Belzil et al, 2009; Yan et al, 2010). We identified S96 as a site phosphorylated in FUS.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

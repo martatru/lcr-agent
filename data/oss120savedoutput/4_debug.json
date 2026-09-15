@@ -1,0 +1,58 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "S. pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Required for interaction with Ccr4-Not and stimulation of deadenylation activity; described as an amino-terminal low-complexity (serine-rich) region.",
+        "evidence": "The YTH domain of Mmi1 is preceded by an 35-kDa amino-terminal low-complexity (serine-rich) region (Figure S7A).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 10505,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "Mmi1",
+        "organism": "Unspecified",
+        "start_of_annotation": "1",
+        "end_of_annotation": "56",
+        "binding_target": "protein-binding",
+        "proposed_function": "Binding to Ccr4-Not complex to tether RNA-binding YTH domain",
+        "evidence": "Deletion of 56 N-terminal amino acids was sufficient to eliminate binding (Figure 7°C). Thus, the extreme N terminus of Mmi1 is required for interaction with Ccr4-Not.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "YTHDF2",
+        "organism": "Mammalian",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Targets bound RNA for deadenylation by Ccr4-Not",
+        "evidence": "A low-complexity N-terminal region likely targets the bound RNA for deadenylation by Ccr4-Not (Du et al., 2016).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 505,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  }
+]

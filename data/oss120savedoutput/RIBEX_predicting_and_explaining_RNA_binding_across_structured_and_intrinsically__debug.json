@@ -1,0 +1,116 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 6,
+    "raw_annotations": [
+      {
+        "protein_name": "PUM2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA binding via N-terminal disordered region overlapping the RD2 segment",
+        "evidence": "In PUM2, the strongest sensitivity overlaps the C-terminal PUM-HD domain, the canonical sequence-specific RNA-binding module, with additional signal in the N-terminal disordered region overlapping the RD2 segment (Lu and Tanaka Hall 2011).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "LIN28A",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Enhances RNA binding through cooperative interactions with structured domains (CSD and CCHC zinc-knuckle)",
+        "evidence": "In LIN28A, the alanine scanning highlights three important regions: the two canonical RNA-binding domains—the Cold-shock domain (CSD) and the CCHC zinc-knuckle domain, which are known to act cooperatively to confer high-affinity RNA binding, and the N-terminal intrinsically disordered region, which further enhances binding through cooperative interactions with the structured domains (Nam et al. 2011; Mayr et al. 2012).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "SERBP1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA association via low-complexity, basic, or RG/RGG-rich regions",
+        "evidence": "Additional examples, especially IDR-rich RBPs with low-complexity, basic, or RG/RGG-rich RNA-associated regions such as SERBP1, TIA1, DDX4, and FUS, are discussed in Supplemental Section C.3 and Fig. 12, available as supplementary data at Bioinformatics online, with broader alanine-scan profiles provided in Supplemental Fig. 13, 17 and 18, available as supplementary data at Bioinformatics online.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TIA1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA association via low-complexity, basic, or RG/RGG-rich regions",
+        "evidence": "Additional examples, especially IDR-rich RBPs with low-complexity, basic, or RG/RGG-rich RNA-associated regions such as SERBP1, TIA1, DDX4, and FUS, are discussed in Supplemental Section C.3 and Fig. 12, available as supplementary data at Bioinformatics online, with broader alanine-scan profiles provided in Supplemental Fig. 13, 17 and 18, available as supplementary data at Bioinformatics online.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "DDX4",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA association via low-complexity, basic, or RG/RGG-rich regions",
+        "evidence": "Additional examples, especially IDR-rich RBPs with low-complexity, basic, or RG/RGG-rich RNA-associated regions such as SERBP1, TIA1, DDX4, and FUS, are discussed in Supplemental Section C.3 and Fig. 12, available as supplementary data at Bioinformatics online, with broader alanine-scan profiles provided in Supplemental Fig. 13, 17 and 18, available as supplementary data at Bioinformatics online.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA association via low-complexity, basic, or RG/RGG-rich regions",
+        "evidence": "Additional examples, especially IDR-rich RBPs with low-complexity, basic, or RG/RGG-rich RNA-associated regions such as SERBP1, TIA1, DDX4, and FUS, are discussed in Supplemental Section C.3 and Fig. 12, available as supplementary data at Bioinformatics online, with broader alanine-scan profiles provided in Supplemental Fig. 13, 17 and 18, available as supplementary data at Bioinformatics online.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 4057,
+    "raw_extracted_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "PUM2",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Recovery of known RNA-recognition biology via computational alanine scanning sensitivity in known RNA-binding domains and selected IDR segments.",
+        "evidence": "Thus, examples such as PUM2, TARDBP/TDP-43, and LIN28A support recovery of known RNA-recognition biology, whereas AFF4 is discussed more cautiously as RNA-associated or complex-context evidence (Supplemental Section C.3, available as supplementary data at Bioinformatics online).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TARDBP/TDP-43",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Recovery of known RNA-recognition biology via computational alanine scanning sensitivity in known RNA-binding domains and selected IDR segments.",
+        "evidence": "Thus, examples such as PUM2, TARDBP/TDP-43, and LIN28A support recovery of known RNA-recognition biology, whereas AFF4 is discussed more cautiously as RNA-associated or complex-context evidence (Supplemental Section C.3, available as supplementary data at Bioinformatics online).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "LIN28A",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Recovery of known RNA-recognition biology via computational alanine scanning sensitivity in known RNA-binding domains and selected IDR segments.",
+        "evidence": "Thus, examples such as PUM2, TARDBP/TDP-43, and LIN28A support recovery of known RNA-recognition biology, whereas AFF4 is discussed more cautiously as RNA-associated or complex-context evidence (Supplemental Section C.3, available as supplementary data at Bioinformatics online).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "AFF4",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA-associated or complex-context evidence, potentially involving protein-protein interfaces required for RNA-binding complex assembly.",
+        "evidence": "Thus, examples such as PUM2, TARDBP/TDP-43, and LIN28A support recovery of known RNA-recognition biology, whereas AFF4 is discussed more cautiously as RNA-associated or complex-context evidence (Supplemental Section C.3, available as supplementary data at Bioinformatics online).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

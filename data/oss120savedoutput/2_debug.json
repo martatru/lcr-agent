@@ -1,0 +1,59 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 4368,
+    "raw_extracted_count": 5,
+    "raw_annotations": [
+      {
+        "protein_name": "TAFII130",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "polyQ-binding",
+        "proposed_function": "interacts with expanded polyQ stretches, inhibiting CREB-dependent transcriptional activation",
+        "evidence": "Our results have demonstrated that TAFII130 interacts preferentially with expanded polyQ stretches, and that this interaction inhibits CREB-dependent transcriptional activation.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "PQBP-1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "polyQ-binding",
+        "proposed_function": "interacts preferentially with expanded polyQ stretches",
+        "evidence": "PQBP-1 has recently been shown to interact preferentially with expanded polyQ stretches.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "DRPLA protein (truncated)",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "contains an expanded polyQ low‑complexity region",
+        "evidence": "the regions flanking the polyQ stretches in the truncated DRPLA protein and ataxin-2 are particularly short (the numbers of amino acid residues upstream and downstream were 8 and 8 for truncated DRPLA protein, and 8 and 9 for the truncated ataxin-2, respectively)",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "ataxin-2 (truncated)",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "contains an expanded polyQ low‑complexity region",
+        "evidence": "the regions flanking the polyQ stretches in the truncated DRPLA protein and ataxin-2 are particularly short (the numbers of amino acid residues upstream and downstream were 8 and 8 for truncated DRPLA protein, and 8 and 9 for the truncated ataxin-2, respectively)",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "CREB",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "possesses a glutamine‑rich Q2 low‑complexity domain within its activation domain",
+        "evidence": "The activation domain of CREB consists of a glutamine-rich Q2 constitutive domain and a kinase-inducible domain26 (KID).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

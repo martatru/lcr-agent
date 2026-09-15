@@ -1,0 +1,36 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "ELF3 PrLD",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Formation of liquid condensates (LLPS) and subsequent hydrogels with lamellar stacking; contains polyglutamine stretches (Q0, Q7, Q20 variants).",
+        "evidence": "In a previous investigation to study condensation processes (Hutin et al., 2023), LLPS was induced for three ELF3 PrLDs (containing polyglutamine stretches of zero, seven and 20 residues, referred to as Q0, Q7 and Q20, respectively) via an increase in temperature from 4 to 27°C, which is a range that can be sampled directly during SAXS data collection.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 4649,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "ELF3",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Formation of hydrogels via compaction of oligomeric building blocks into more compact globular structures with a lamellar nanostructure similar to the liquid condensed phase.",
+        "evidence": "Secondly, we developed a simple three-component model (equation 1) that allows the investigation of the nanostructure of hydrogels, and present an experimental test case with variants of the prion-like domain of ELF3.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

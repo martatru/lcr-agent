@@ -1,0 +1,83 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "181",
+        "end_of_annotation": "341",
+        "binding_target": "protein-binding",
+        "proposed_function": "assembly into cross‑β protein polymers (hydrogel binding and self‑association)",
+        "evidence": "Fig. 1A shows the amino acid sequence of the hnRNPA2‑LC domain, comprised of residues 181–341 of full‑length hnRNPA2. Only 13 out of the 20 standard amino acids are present in hnRNPA2‑LC, with Asn, Gly, Ser, and Tyr residues making up 74% of the sequence.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "280",
+        "end_of_annotation": "341",
+        "binding_target": "Unspecified",
+        "proposed_function": "Mediates formation of in‑register parallel cross‑β polymers via its low‑complexity domain",
+        "evidence": "the multiple GGX and GGS motifs in residues 280–341 of the hnRNPA2-LC domain (“X” is Asn or Tyr)",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 7274,
+    "raw_extracted_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "280",
+        "end_of_annotation": "341",
+        "binding_target": "protein-binding",
+        "proposed_function": "formation of an immobilized cross‑β polymer core within the LC domain",
+        "evidence": "The immobilized core of cross-β polymers formed by the LC domain of hnRNPA2 consists of about 44 aa within residues 280–341 (Figs. 2 and 3 and SI Appendix, Figs. S5 and S6).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "assembly of cross‑β polymers mediated by the LC domain",
+        "evidence": "By use of similar methods of segmental labeling, solid-state NMR spectroscopy and electron microscopy we have recently developed a detailed molecular structural model for polymers formed by the 214-residue LC domain of the FUS RNA-binding protein (30).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "enhanced polymer stability of the LC domain upon D262 mutation",
+        "evidence": "Biochemical analysis of LC domains from hnRNPA2, hnRNPA1, and hnRNPDL revealed enhanced polymer stability for all three proteins upon mutation of D290 (hnRNPA2), D262 (hnRNPA1), or D378 (hnRNPDL) to valine or asparagine (10).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPDL",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "enhanced polymer stability of the LC domain upon D378 mutation",
+        "evidence": "Biochemical analysis of LC domains from hnRNPA2, hnRNPA1, and hnRNPDL revealed enhanced polymer stability for all three proteins upon mutation of D290 (hnRNPA2), D262 (hnRNPA1), or D378 (hnRNPDL) to valine or asparagine (10).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

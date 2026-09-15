@@ -1,0 +1,159 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "263",
+        "end_of_annotation": "319",
+        "binding_target": "Unspecified",
+        "proposed_function": "Forms a reversible hydrogel and amyloid‑like fibrils via its low‑complexity domain (LCD).",
+        "evidence": "Out of 161 residues in the LCD, 57 residues from Gly263 to Tyr319 form a fibril core (Fig. 2a).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Hydrogel formation and temperature‑dependent reversibility of the LCD‑derived fibrils.",
+        "evidence": "Purified recombinant mC-hnRNPA2-LCD was concentrated to ~60 mg ml−1 and incubated at 4 °C to test its ability to form a hydrogel.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Forms reversible, heat‑sensitive fibrils similar to hnRNPA2 LCD.",
+        "evidence": "Amyloid‑like fibrils have also been reported for other granule‑associated, LCD‑containing proteins, such as FUS, those being heat‑sensitive and SDS‑sensitive, and being capable of forming a reversible hydrogel.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Possesses a low‑complexity domain that can form reversible hydrogel‑like fibrils.",
+        "evidence": "Amyloid‑like fibrils have also been reported for other granule‑associated, LCD‑containing proteins, such as FUS and hnRNPA1, those being heat‑sensitive and SDS‑sensitive, and being capable of forming a reversible hydrogel.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Forms fibril networks with cross‑β structures, representing reversible amyloid‑like fibrils that can assemble into hydrogels and stress‑granule assemblies.",
+        "evidence": "Our TEM and X-ray diffraction data show that mC-hnRNPA2-LCD forms fibril networks with cross-β structures (Fig. 1).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Contains multiple LARKS motifs that enable reversible, low‑complexity amyloid‑like assembly with reduced stability compared to steric zippers.",
+        "evidence": "Our cryoEM structure of mC-hnRNPA2-LCD fibrils reveals local structural motifs that distinguish reversible from pathogenic amyloid: mC-hnRNPA2-LCD fibrils contain multiple weakly binding LARKS motifs.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Forms reversible hydrogel‑forming, heat‑sensitive fibrils that participate in stress‑granule assembly.",
+        "evidence": "Amyloid-like fibrils have also been reported for other granule‑associated, LCD‑containing proteins, such as FUS1,21 and hnRNPA113, those being heat‑sensitive and SDS‑sensitive, and being capable of forming a reversible hydrogel.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Fibril core is enriched in Tyr residues that stabilize the structure through π‑stacking interactions.",
+        "evidence": "Both hnRNPA2‑LCD and FUS‑LCD fibril cores are enriched in Tyr residues that stabilize structures by π‑stacking interactions14,24,31.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 10493,
+    "raw_extracted_count": 5,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "219",
+        "end_of_annotation": "335",
+        "binding_target": "Unspecified",
+        "proposed_function": "Unspecified",
+        "evidence": "Xiang et al. in 20156 reported that the hnRNPA2-LCD adopts a similar structure in hydrogels and in liquid droplets as evidenced by conservation of NAI footprints which probed 23 residues of hnRNPA2-LCD from Ser219 to Ser335.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Kapβ2 binding to the PYNLS within the LCD dissolves pre‑formed fibrils",
+        "evidence": "Previous studies by Guo et al.41 showed that over half of the LCD‑containing RNPs such as FUS, TAF15, hnRNPA1, and hnRNPA2 possess a PY‑NLS. They found that the import receptor karyopherin‑β2 (Kapβ2) binds the PYNLS signal of these RNPs and then, once bound, acts as chaperones that dissolve preformed fibrils.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Unspecified",
+        "evidence": "We calculated the stabilization energy of the mutant segment and all hexamer segments that constitute the wild type hnRNPA2 LCD fibril, FUS LCD fibril, and pathogenic amyloids.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Unspecified",
+        "evidence": "Previous studies by Guo et al.41 showed that over half of the LCD‑containing RNPs such as FUS, TAF15, hnRNPA1, and hnRNPA2 possess a PY‑NLS.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TAF15",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Unspecified",
+        "evidence": "Previous studies by Guo et al.41 showed that over half of the LCD‑containing RNPs such as FUS, TAF15, hnRNPA1, and hnRNPA2 possess a PY‑NLS.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 493,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  }
+]

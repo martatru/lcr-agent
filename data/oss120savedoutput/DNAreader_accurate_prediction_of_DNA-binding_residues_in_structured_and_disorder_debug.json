@@ -1,0 +1,31 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "ERRβ",
+        "organism": "Human",
+        "start_of_annotation": "187",
+        "end_of_annotation": "194",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Disordered region within the DNA-binding domain that hosts DNA-binding residues (DBRs)",
+        "evidence": "The DBD extends from residue 97–194, where the core region with a structured and well-defined zinc-finger motif ends at position 168, and the C-terminal extension hosts a disordered region from position 187 to 194.",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 7493,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 6,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "200",
+        "end_of_annotation": "353",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA-binding via low-complexity domain (LCD)",
+        "evidence": "By applying these scales on hnRNPA2 sequence, we observed two potential RNA-interacting regions within its LCD (200–353), namely from residue 239–306 and from 307–353 (Fig. 1B).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "239",
+        "end_of_annotation": "306",
+        "binding_target": "RNA-binding",
+        "proposed_function": "nucleic acid-binding region (NAID1) within the LCD",
+        "evidence": "Our results show that the middle section (region 239–306 termed NAID1) is a distinguished nucleic acid-binding region of the LCD of hnRNPA2 being the main driver of LCD binding a broad range of RNA and DNA molecules.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "269",
+        "end_of_annotation": "299",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA-binding via the F/YGG motif repeat",
+        "evidence": "As a F/YGG model, we chose the second repeat (residues 269–299). ... the F/YGG motif interacts with RNA with a Kd of 31 μM.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "307",
+        "end_of_annotation": "353",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA-binding region (NAID2) within the LCD",
+        "evidence": "By applying these scales on hnRNPA2 sequence, we observed two potential RNA-interacting regions within its LCD (200–353), namely from residue 239–306 and from 307–353 (Fig. 1B).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA-binding of disease‑linked D290V mutant LCD",
+        "evidence": "In conclusion, RNA does interact with LCD D290V and limits its aggregation, but it cannot completely stop it.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "contains two tandem imperfect repeats (~30 aa) rich in YGG motifs",
+        "evidence": "NAID1 is actually constituted of two tandem copies of an imperfect repeat sequence of about 30 residues, rich in YGG motifs (Fig. 7°C).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 6606,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Mediates RNA binding through the F/YGG repeat motif within the low‑complexity domain (LCD)",
+        "evidence": "In this study, we report that hRNPA2 LCD interacts with a wide range of RNA and DNA molecules, via a conserved region located in the middle of the LCD.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Mediates DNA binding through the F/YGG repeat motif within the low‑complexity domain (LCD)",
+        "evidence": "the F/YGG repeat motif of hnRNPA2 LCD also has this double capacity, and its potential general importance is underscored by that it is enriched in a broad range of RNA- and DNA-binding proteins, i.e. it can also be an important RNA chaperone, DNA-binding element for transcription factors, and other DNA-interacting proteins.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 5,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Functions as a transcriptional activation domain; polymeric fibers formed by its low‑complexity domain directly bind the C‑terminal domain (CTD) of RNA polymerase II",
+        "evidence": "polymeric fibers formed from these LC domains directly bind the C-terminal domain (CTD) of RNA polymerase II in a manner reversible by phosphorylation of the iterated, heptad repeats of the CTD.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "EWS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Low‑complexity domain acts as a transcriptional activation domain when translocated onto DNA‑binding domains",
+        "evidence": "The low-complexity (LC) domains of the products of the fused in sarcoma (FUS), Ewings sarcoma (EWS), and TAF15 genes are translocated onto a variety of different DNA-binding domains and thereby assist in driving the formation of cancerous cells.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TAF15",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Low‑complexity N‑terminal domain binds the CTD of RNA polymerase II, facilitating recruitment of the polymerase to active genes",
+        "evidence": "GFP:CTD fusion protein was avidly trapped by hydrogel droplets composed of the LC domain of TAF15.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "RNA polymerase II (largest subunit) CTD",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Intrinsically disordered C‑terminal domain (CTD) with 52 heptad repeats binds low‑complexity polymers of FET proteins, mediating recruitment of the polymerase to promoters",
+        "evidence": "polymeric fibers formed from these LC domains directly bind the C-terminal domain (CTD) of RNA polymerase II in a manner reversible by phosphorylation of the iterated, heptad repeats of the CTD.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Low‑complexity domain contains 27 [G/S]Y[G/S] repeats that drive polymerization and stress‑granule recruitment",
+        "evidence": "The FUS LC domain contains 27 repeats of the triplet sequence [G/S]Y[G/S], and derivatives carrying 5, 9, 15, and 27 tyrosine‑toserine mutations in randomly chosen triplets showed progressively diminished capabilities of polymerization and stress granule recruitment.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 8,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "DNA-induced polymerization of LC domain",
+        "evidence": "We tentatively conclude that when multiple copies of the mCherry:FUS-FLI protein are simultaneously bound to DNA, polymerization of the LC domain of FUS is enhanced.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TAF15",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "CTD binding via LC domain hydrogel droplets",
+        "evidence": "Hydrogel droplets formed from a fusion protein linking mCherry to the amino terminal 208 residues of TAF15 bind a variety of GFP:CTD constructs, particularly those housing 15 or more of the degenerate, C-terminal heptad repeats (Figure 3°C).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TAF15",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Polymerization of LC domain required for CTD interaction",
+        "evidence": "When mixed with the GFP:CTDC26 construct and subjected to coimmunoprecipitation, no interactionwhatsoever was observed for anything but the mCherry fusion protein linked to the native LC domain of TAF15 (Figure 7°C).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "EWS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "LC domain polymer creates binding sites for RNA polymerase II CTD",
+        "evidence": "we further hypothesize that fibrous polymers of the LC domain create binding sites for the CTD of RNA polymerase.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FET proteins",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Polymerization of LC domains required for transcriptional activation",
+        "evidence": "These and other data presented herein give evidence that the LC domains of FET proteins obligatorily rely upon polymerization in order to execute their role in transcriptional activation.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Direct interaction between LC domain and RNA polymerase II CTD",
+        "evidence": "The latter study provided compelling evidence for direct interaction between the CTD of RNA polymerase II and the intact FUS protein.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "RNA binding enhances LC domain polymerization",
+        "evidence": "Since the intact FUS protein is endowed with an RNAbinding domain, addition of an RNA polymer offers the opportunity for FUS to bind multiple times to the RNA substrate, thereby bringing LC domains of multiple protomers into proximity, and thereby enhancing local concentration and the propensity of the LC domains to polymerize.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "EWS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "LC domain linked to FLI DNA-binding domain binds GGAA microsatellites",
+        "evidence": "Beautiful ChIP-chip experiments have given evidence that when the LC domain of EWS is linked to the FLI DNA-binding domain, it binds in living cells to microsatellites carrying iterative repeats of the tetranucleotide sequence GGAA (Gangwal et al., 2008).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 5275,
+    "raw_extracted_count": 3,
+    "raw_annotations": [
+      {
+        "protein_name": "TAF15",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "binding to the C-terminal domain (CTD) of RNA polymerase II via its low‑complexity (LC) domain",
+        "evidence": "First, why do polymeric fibers formed from the LC domain of TAF15 bind the CTD so much more avidly than the analogous LC domains of FUS and EWS (Figure 3A)?",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "enhanced transcriptional activation and increased CTD binding due to mutations in its low‑complexity (LC) domain",
+        "evidence": "Second, why is it that mutations of two tyrosines in the LC domain of FUS yield a protein with enhanced transcriptional activation capacity and an enhanced ability to bind the CTD of RNA polymerase II (Figures 1 and 5)?",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "EWS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "binding to the CTD of RNA polymerase II via its low‑complexity (LC) domain (less avidly than TAF15)",
+        "evidence": "First, why do polymeric fibers formed from the LC domain of TAF15 bind the CTD so much more avidly than the analogous LC domains of FUS and EWS (Figure 3A)?",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

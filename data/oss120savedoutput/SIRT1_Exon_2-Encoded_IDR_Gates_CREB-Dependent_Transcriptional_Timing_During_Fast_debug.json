@@ -1,0 +1,148 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "SIRT1",
+        "organism": "Mouse",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Regulates fasting physiology through modulation of molecular interactions with transcription factors (CREB, FOXO1, PGC1α) rather than catalytic activity; acts as a non-catalytic domain for tissue-autonomous modulation of SIRT1-TF interactions.",
+        "evidence": "These findings prompted us to investigate whether the exon 2-encoded intrinsically disordered region regulates fasting physiology at both molecular and physiological levels through modulation of molecular interactions rather than catalytic activity.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "SIRT1",
+        "organism": "Mouse",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Mediates liver-specific transcriptional programs essential for maintaining whole-body metabolic balance; loss of the IDR alters transcription factor engagement and downstream gene expression during fasting.",
+        "evidence": "These results reveal, for the first time, that a non-catalytic IDR within SIRT1 mediates liver-specific transcriptional programs that are essential for maintaining whole-body metabolic balance.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 7142,
+    "raw_extracted_count": 10,
+    "raw_annotations": [
+      {
+        "protein_name": "SIRT1",
+        "organism": "Mouse",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Coordinates interactions with distinct transcriptional regulators (CREB, FOXO1) across different phases of fasting; acts as a conformational timer to buffer aberrant transcriptional cascades.",
+        "evidence": "Our findings suggest that the SIRT1 IDR provides the conformational flexibility necessary to coordinate interactions with distinct transcriptional regulators across different phases of fasting.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "SIRT1",
+        "organism": "Mouse",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Regulates transcriptional programs during nutrient stress by enabling dynamic and context-dependent protein interaction networks.",
+        "evidence": "Our work extends this paradigm to metabolic sensors, demonstrating that SIRT1's N-­terminal IDR contributes to the regulation of transcriptional programs during nutrient stress.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "SIRT1",
+        "organism": "Mouse",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Maintains whole-body homeostasis and hepatic metabolic homeostasis by coordinating transcriptional responses to nutrient stress.",
+        "evidence": "Importantly, liver-­specific deletion of SIRT1's exon-­2 reca­pitulated systemic glucose dysregulation, highlighting the tissue-­autonomous role of this IDR in maintaining whole-­body homeostasis.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "p300/CBP",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Supports multivalent interactions and enhances chromatin engagement.",
+        "evidence": "Recent findings in p300/CBP suggest that IDRs in coactivators support multivalent interactions and enhance chromatin engagement [88–91], underscoring the broader relevance of such mechanisms in transcriptional regulation.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "ULK",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Enables allosteric modulation, PTM-­dependent regulation, and substrate selection.",
+        "evidence": "This aligns with reports showing that IDRs in nutrient-­responsive enzymes such as ULK, RAPTOR, and CAMKII enable allosteric modulation, PTM-­dependent regulation, and substrate selection.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "RAPTOR",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Enables allosteric modulation, PTM-­dependent regulation, and substrate selection.",
+        "evidence": "This aligns with reports showing that IDRs in nutrient-­responsive enzymes such as ULK, RAPTOR, and CAMKII enable allosteric modulation, PTM-­dependent regulation, and substrate selection.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "CAMKII",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Enables allosteric modulation, PTM-­dependent regulation, and substrate selection.",
+        "evidence": "This aligns with reports showing that IDRs in nutrient-­responsive enzymes such as ULK, RAPTOR, and CAMKII enable allosteric modulation, PTM-­dependent regulation, and substrate selection.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "p53",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Prevents promiscuous DNA binding by enforcing transient protein interactions.",
+        "evidence": "The observation that SIRT1ΔE2 hepatocytes exhibit unregulated CREB activity parallels findings in p53 [92–99], where disordered regions prevent promiscuous DNA binding by enforcing transient protein interactions.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "SIRT2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential contribution to functional diversification within the sirtuin family via structural disorder.",
+        "evidence": "However, the presence of predicted disordered segments in other family members, especially SIRT2 & SIRT6, raises the possibility that structural disorder may also contribute to functional diversifi­cation within the sirtuin family, which should be examined in the future [102–104].",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "SIRT6",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential contribution to functional diversification within the sirtuin family via structural disorder.",
+        "evidence": "However, the presence of predicted disordered segments in other family members, especially SIRT2 & SIRT6, raises the possibility that structural disorder may also contribute to functional diversifi­cation within the sirtuin family, which should be examined in the future [102–104].",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

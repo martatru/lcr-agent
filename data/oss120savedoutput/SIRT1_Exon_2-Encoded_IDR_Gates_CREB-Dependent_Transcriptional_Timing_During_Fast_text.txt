@@ -1,0 +1,1090 @@
+described later.
+
+2.3.1 | Glucose Tolerance Test
+
+For glucose tolerance test (GTT), mice were starved for 12 h and
+body weight were measured, baseline blood glucose was mea­
+sured from tail prick using a glucometer (AccuCheck active)
+labeled as zero minutes. 2 g/kg body weight of glucose was in­
+jected intraperitoneally (I.P.). Subsequently, the blood glucose
+was monitored at 15, 30, 60, and 120 min, post the glucose I.P.
+injection. The data was plotted using GraphPad-­Prism 8.0.
+
+For the pyruvate tolerance test (PTT), mice were starved for
+6, 12 or 24 h (depending on the experimental requirement)
+and body weight was measured, baseline blood glucose was
+measured from tail prick using a glucometer (AccuCheck ac­
+tive) labeled as zero minutes. 2 g/kg body weight of pyruvate
+was injected intraperitoneally (I.P.). Subsequently, the blood
+glucose was monitored at 15, 30, 60, and 120 min post the py­
+ruvate I.P. injection. The data was plotted using GraphPad-­
+Prism 8.0.
+
+2.3.3 | Primary Hepatocyte Culture
+
+Male SIRT1ΔE2 and SIRT1E2LOX/LOX mice (12–16 weeks old)
+were anesthetized by intraperitoneal injection of Thiopentone
+(Neon Laboratories Ltd., Mumbai, India). Once sedation was
+confirmed, the mice were disinfected with 70% ethanol. Liver
+perfusion was performed through the inferior vena cava/por­
+tal vein using 30 mL of Hank's Balanced Salt Solution (HBSS)
+(5.33 mM potassium chloride, 0.44 mM KH2PO4, 4.16 mM
+NaHCO3, 137.93 mM NaCl, and 0.338 mM Na2HPO4, pH ad­
+justed to 7.4). The solution was supplemented with 5.5 mM
+glucose (Sigma-­Aldrich G8769), 25 mM HEPES (USB 16926),
+and 100 mM EGTA (Sigma-­Aldrich E3889). Following perfu­
+sion, the liver was digested using a digestion medium con­
+taining DMEM-­Low Glucose (Sigma-­Aldrich D5523), 15 mM
+HEPES, antibiotic-­antimycotic (Anti-­Anti), and collagenase
+type IV (Sigma-­Aldrich C5138). The digested liver tissue was
+carefully minced and filtered through a 70 μm cell strainer to
+obtain a hepatocyte suspension. The cell suspension was then
+centrifuged at rcf value of 50 g for 5 min at 4°C. The resulting
+pellet was washed thrice with high-­glucose DMEM (25 mM
+glucose; Sigma-­Aldrich D7777) supplemented with 10% fetal
+bovine serum (Gibco 16000044). The cells were counted using
+a hemocytometer and plated onto collagen-­coated (Sigma-­
+Aldrich C3867) 100 mm/6 well culture dishes at a density of
+2 × 106 or 3 × 105 cells per plate, respectively. The cells were
+incubated at 37°C in a humidified atmosphere with 5% CO2
+to allow for adherence. Six hours post-­plating, the medium
+was replaced to remove non-­adherent cells and replaced with
+high-­glucose DMEM without any serum addition.
+
+2.3.4 | Glucagon Treatments in Hepatocytes
+
+Primary hepatocytes were isolated as described above, and the
+cell medium was changed to DMEM high glucose without serum
+for 12 h. To expose hepatocytes to starvation-­like conditions,
+the medium was changed to DMEM-­No glucose media (supple­
+mented with glutamine 2 mM and pyruvate 2 mM) with the final
+concentration of glucagon at 30 nM for the time points as men­
+tioned. Post-­treatment, the cells were collected in RIPA buffer
+or TRIzol as per the experiment's requirement. The hepatocytes
+were metabolically synchronized for pulsatile glucagon exper­
+iments by replenishing the medium with HG-­DMEM 3 h be­
+fore media change, followed by media change into DMEM-­NO
+Glucose (±glucagon). Every media change was preceded by two
+phosphate buffer saline washes (PBS) (Thermo, #88512) to re­
+move the residual media.
+
+Primary hepatocytes were isolated as described above, and
+the cell medium was changed to DMEM high glucose without
+serum for 12 h. To assess the effect of CREB and PKA inhibi­
+tor, the hepatocytes were metabolically synchronized by replen­
+ishing the medium with HG-­DMEM 3 h before media change,
+followed by media change into the following: HG, DMEM-­NO
+Glucose + glucagon (30 nM), DMEM-­NO Glucose + glucagon
+(30 nM) + 666-­15 (1 μM), and DMEM-­NO Glucose + glucagon
+(30 nM) + H89 (10 μM). Cells were collected after 3 h of treat­
+ment. Every media change was preceded by two phosphate buf­
+fer saline washes (PBS) (Thermo, #88512) to remove the residual
+media. Post-­treatment, the cells were collected in RIPA buffer or
+TRIzol as per the experiment's requirement.
+
+2.4.1 | Plasmid Transfection and Luciferase Assay in
+Hepatocytes
+
+Primary hepatocytes were isolated from Male SIRT1ΔE2 and
+SIRT1E2LOX/LOX mice and plated as described above. Plasmid
+transfections were done using the JetPrime transfection reagent
+(Polyplus, #101000027) for 24–48 h as per the manufacturer's
+protocol. After 6 h of plating, hepatocytes were transfected with
+a plasmid featuring the CREB promoter upstream of the lucif­
+erase gene, a kind gift from Prof. Mark Montminy, along with a
+β-­galactosidase expressing plasmid. After 36 h of transfection,
+the cells were treated with DMEM-­NG + 30 nM glucagon for 3 h.
+The hepatocytes were washed with chilled PBS and harvested in
+passive lysis buffer (Promega # E194A) for 15 min, followed by
+centrifugation at 12 000 rpm. The supernatant was collected for
+the BCA estimation, β-­Gal assay and the luciferase assay. β-­Gal
+assay was performed using the ONPG (Sigma #N1127) method,
+where 30 μL of supernatant is incubated with 50 μL of ONPG
+(4 mg/mL) at 37°C for 20–30 min. 100 μL of stop solution (1 M
+Na2CO3) was added to wells, and the absorbance was measured
+at 420 nm. For the luciferase assay, 30 μL of supernatant was
+taken in a black plate to this 100 μL of luciferase assay system
+reagent (Promega #E1501) was added. The counts for the lumi­
+nescence were measured in the TriStar LB941 (Berthold tech­
+nologies) and normalized to the β-­Gal activity and represented
+as fold change.
+
+2.4.2 | Mass Spec Sample Preparation
+
+2.4.2.1 | Polar
+Non-­Derivatized
+Metabolite
+Extraction. A known weight of liver tissue was homoge­
+nized in 75% ethanol containing internal standards: C13-­Glucose
+(10 nM; Cambridge Isotopes, #CLM-­1396) and L-­Tryptophan
+(1.5 nM; Cambridge Isotopes, #DLM-­615862). The samples were
+vortexed for 3 min, incubated at 80°C for 3 min, and subsequently
+transferred to ice for 5 min. Following incubation on ice, the sam­
+ples were centrifuged at 17 000 g for 10 min at 4°C.
+
+An equal volume of the resulting supernatant from all samples
+was transferred to fresh Eppendorf tubes and dried using a
+speed vacuum concentrator. The dried samples were stored at
+−20°C until mass spectrometry analysis was performed.
+
+The dried samples were re-­suspended in a 1:2 ratio of H2O and
+1 M N(3-­dimethylaminopropyl)-­N′-­ethylcarbodiimide (prepared
+in 13.5 mM pyridine buffer, pH 5.0). The samples were mixed by
+tapping, followed by the addition of 150 μL of 0.5 M O-­benzyl
+hydroxylamine (prepared in 13.5 mM pyridine buffer, pH 5.0).
+The samples were incubated at 25°C for 1 h.
+
+After incubation, 350 μL of ethyl acetate was added, and the
+mixture was shaken for 10 min. The samples were centrifuged
+at 3000 g for 5 min at 4°C, and the supernatant was transferred
+to a fresh tube. This ethyl acetate extraction process was re­
+peated two more times. The collected supernatant was then
+dried using a speed vacuum concentrator. The final dried sam­
+ples were stored at −20°C until analysis by mass spectrometry.
+
+2.4.3 | Mass Spectrometry Analysis
+
+Dried samples were analyzed using an Agilent 6546 Quadrupole
+Time-­of-­Flight (QTOF) mass spectrometer operating in
+Auto-­MS/MS acquisition mode, coupled with an Agilent 1290
+Infinity II UHPLC system. Liquid chromatography (LC) sepa­
+ration was performed using a Synergi 4 μm Fusion-­RP 80 Å LC
+column (100 × 4.6 mm, Ea; catalogue no: 00D-­4424-­E) with a
+Gemini guard column (Phenomenex, 4 mm × 3 mm; catalogue
+no: KJ0-­4282).
+
+For polar non-­derivatized metabolites, chromatographic sepa­
+ration was conducted at a flow rate of 0.5 mL/min. The mobile
+phase composition for positive ion mode consisted of solvent
+A: 99.9% (v/v) H2O + 0.1% formic acid, and solvent B: 99.9%
+(v/v) methanol (MeOH) + 0.1% (v/v) formic acid. For negative
+ion mode, solvent A was 100% (v/v) H2O with 5 mM ammo­
+nium acetate, while solvent B was 100% (v/v) acetonitrile
+(ACN). The gradient elution program was as follows: 0–3 min,
+5% solvent B; 3–10 min, 5%–60% solvent B; 10–11 min,
+60%–95% solvent B; 11–14 min, 95% solvent B (wash step);
+14–15 min, 95%–5% solvent B; and 15–21 min, 5% solvent B
+(re-­equilibration step).
+
+For polar derivatized metabolites, data acquisition was per­
+formed in positive ion mode with a flow rate of 0.5 mL/min. The
+mobile phase consisted of solvent A: 99.9% (v/v) H2O + 0.1% for­
+mic acid, and solvent B: 99.9% (v/v) MeOH + 0.1% (v/v) formic
+acid. The LC run time was 30 min, with the following gradient
+elution program: 0–3 min, 0% solvent B; 3–10 min, 0%–5% solvent
+B; 10–11 min, 5%–60% solvent B; 11–18 min, 60%–95% solvent B;
+18–19 min, 95% solvent B (wash step); 19–22 min, 95%–60% sol­
+vent B (re-­equilibration step); 22–25 min, 60%–5% solvent B; and
+25–30 min, 5%–0% solvent B.
+
+2.5 | Data Analysis and Quantitation
+
+LC–MS data processing was performed using Agilent
+MassHunter Qualitative Analysis 10.0. Identified peaks were
+manually verified based on retention times and fragment ions
+obtained from MS/MS spectral analysis. A mass accuracy
+threshold of 10 ppm was applied to all analytes across all exper­
+iments described in this study. Metabolite quantitation was con­
+ducted by calculating the area under the curve (AUC) of each
+analyte relative to its corresponding internal standard. The re­
+sulting values were subsequently normalized to the total protein
+content within liver tissue samples to ensure accurate absolute
+concentration measurements.
+
+2.5.1 | RNA Isolation and Quantitative PCR (qPCR)
+
+Total RNA was isolated from tissue or cells using TRIzol follow­
+ing the manufacturer's instructions. Briefly, TRIzol was added
+to cells or tissues and homogenized using a pestle. Following
+5 min of incubation at room temperature, 0.2 mL of chloroform
+was added per 1 mL of TRIzol. After shaking, samples were in­
+cubated for 2 min and centrifuged at 12 000 rpm for 15 min at
+4°C. The aqueous phase was collected and transferred into a
+new microcentrifuge tube, and isopropanol was added in the
+ratio of 1–2 volumes of TRIzol, followed by 3–4 h of incubation at
+−20°C. Samples were centrifuged at 12 000 rpm for 15 min and
+RNA pellets were washed using 70% ethanol. After washing, the
+RNA pellets were dried at 37°C for 3–5 min and resuspended in
+the desired volume of DEPC water. The concentration and pu­
+rity of RNA samples were measured using UV spectroscopy (by
+measuring the absorbance of samples at 260 and 280 nm).
+
+1–5 μg RNA was utilized for cDNA preparation using Random
+Hexamer and SuperScript IV Reverse Transcriptase following
+the manufacturer's protocol. Quantitative PCR was performed
+using the LightCycler 96 (Roche) and the KAPA SYBR FAST
+qPCR Master Mix (2X) Kit following the manufacturer's guide­
+lines. The expression of target genes was normalized with actin
+transcript levels.
+
+2.5.2 | Lysate Preparation
+
+Cells or tissue were homogenized in ice-­cold RIPA buffer
+(50 mM Tris pH 8.0, 150 mM NaCl, 0.1% SDS, 0.5% Sodium
+deoxycholate, 1% Triton X-­100, 0.1% SDS) supplemented with
+1 mM PMSF, 1.5XProtease inhibitor cocktail, 1.5XPhostop and
+
+2.5.3 | Western Blotting
+
+40–60 μg of equal protein were run on sodium dodecyl sulfate
+polyacrylamide gel electrophoresis (SDS-­PAGE) and transferred
+to polyvinylidene fluoride (PVDF) membrane. After blocking
+with 5% milk in Tris-­buffered saline with 0.1% Tween (TBST) for
+90 min, desired proteins were probed by overnight incubation of
+the membrane with primary antibodies (diluted in 5% BSA in
+TBST) at 4°C with continuous rocking. Following three washes
+with TBST at room temperature, the membranes were incubated
+with horseradish peroxidase-­conjugated secondary antibodies
+for one and a half hours at room temperature. Membranes were
+washed thrice with TBST at room temperature, and the bands
+of proteins were visualized in the GE Amersham Imager 600
+instrument (General Electric) using a chemiluminescent-­based
+detection kit. The band intensities of targeted proteins were
+measured using ImageJ and normalized with that of the loading
+control. Expression of actin or tubulin, or histone H3 were uti­
+lized as a loading control, as mentioned in the respective figures.
+
+2.5.4 | Immunoprecipitation (IP)
+
+50 μg of liver tissue from the mice as per the experiment or plated
+hepatocytes as per the treatment were collected in PBS, washed
+twice and lysed in TNN buffer (50 mM Tris–cl pH 7.5, 150 mM
+Nacl, 0.9% NP40), along with 1.5× PIC, 1.5× Phosstop and
+1.5 mM PMSF and incubated for 15 min. The lysate was centri­
+fuged at 12 000 rpm at 4°C. Supernatant was carefully separated
+and protein A beads were used for preclearing at 4°C at slow
+rotor (5 rpm) for 1.5 h. Following preclearing, input was sepa­
+rated and 3–4 mg of protein was used for IP. Control antibody
+(Rabbit IgG) and SIRT1 were used for IP. Immunoprecipitation
+was allowed for 8–10 h at 4°C on at slow rotor followed by pull
+down with Prot A magnetic beads. After 3–4 h, the unbound
+fraction was collected and the beads were proceeded for wash­
+ing. Post the washes, the beads were magnetized, all the residual
+buffer removed, and laemmli buffer was added to the beads, vor­
+texed for 5 s and boiled for 15 min. After boiling, the beads were
+magnetized again, and the supernatant was carefully separated.
+All the fractions were analyzed as per the experiments need and
+mentioned in the relevant results section.
+
+2.5.5 | Chromatin Immunoprecipitation (ChIP) From
+Hepatocytes
+
+2.5.5.1 | Crosslinking. Hepatocytes (2 × 106) were plated
+in 100 mm collagen-­coated cell culture-­treated Petri dishes. On
+
+2.5.5.2 | Lysis and Sonication. Frozen cell pellets were
+thawed and resuspended in 600 μL of ice-­cold Cell Lysis Buffer
+(CLB; see Table S1). After incubation on ice for 10 min, samples
+were centrifuged at 3500 rpm for 5 min at 4°C, and the super­
+natant was discarded. The pellet was resuspended in 500 μL
+of CLB, vortexed briefly, and incubated on ice for another 5 min.
+This step was repeated once more with 300 μL of CLB. The final
+pellet was resuspended in Nuclear Lysis Buffer (NLB), incubated
+on ice for 10 min, and then diluted with 500 μL of ChIP Dilution
+Buffer. Samples were snap-­frozen in liquid nitrogen and thawed
+on ice prior to sonication.
+
+Sonication parameters were optimized to obtain chromatin
+fragments suitable for transcription factor (TF) ChIP. Post-­
+sonication, samples were centrifuged at 13 000 rpm for 15 min at
+4°C, and the supernatant (sheared chromatin) was collected for
+immunoprecipitation and quality assessment.
+
+2.5.5.3 | Reverse Crosslinking (For Chromatin Assess­
+ment). To assess chromatin quality, 20 μL of the sheared
+chromatin was diluted with 180 μL of ChIP Dilution Buffer. To
+this, 8 μL of 5 M NaCl was added, and the mixture was incubated
+at 65°C for 12–20 h. RNase A (20 μL of 10 mg/mL) was added,
+vortexed, and incubated at 37°C for 2 h, followed by the addi­
+tion of 5 μL of Proteinase K and incubation at 45°C for 2–4 h.
+DNA was purified using a phenol:chloroform extraction (1:1),
+followed by a chloroform wash and ethanol precipitation with 2
+volumes of chilled ethanol and 25 μL of 3 M sodium acetate. Pre­
+cipitated DNA was centrifuged at 13 000 rpm at 4°C for 30 min,
+washed with 70% ethanol, and air-­dried. DNA was finally resus­
+pended in 20 μL of nuclease-­free water and assessed for concen­
+tration, purity, and fragment size before proceeding with ChIP.
+
+2.5.5.4 | Bead Preparation. Protein A magnetic beads
+were washed with PBST (PBS + 0.1% Tween-­20), then resus­
+pended in ChIP Dilution Buffer supplemented with 10 μL
+of 10 mg/mL tRNA and 1% BSA. Beads were blocked by incuba­
+tion at 4°C with gentle rotation for 4 h.
+
+2.5.5.5 | Chromatin
+Immuno-­Precipitation
+(ChIP).
+Approximately 35–50 μg of chromatin per immunoprecipitation
+(IP) was used. Blocked beads were added for pre-­clearing at 4°C
+for 2 h with gentle rotation. After pre-­clearing, 5% of the input was
+reserved, diluted to 200 μL with ChIP Dilution Buffer, and stored
+at −20°C. The remaining pre-­cleared chromatin was split into
+two aliquots: one incubated with rabbit IgG (negative control)
+and the other with anti-­pCREB antibody. Antibody binding was
+performed overnight (10–12 h) at 4°C with gentle rotation. Sub­
+sequently, blocked beads were added to each tube and incubated
+for an additional 4 h.
+
+2.5.6 | DNA Purification and qPCR
+
+Reverse crosslinking was followed by RNase A and Proteinase
+K digestion, as described previously. Glycogen blue and 25 μL of
+3 M sodium acetate were added, and DNA was precipitated over­
+night at −20°C. After ethanol precipitation and drying, the DNA
+pellet was resuspended in 50 μL of nuclease-­free water. The im­
+munoprecipitated DNA was analyzed by qPCR using primers for
+target gene loci.
+
+2.5.6.1 | Gluconeogenesis
+Assay. Hepatocytes
+(50 000
+cells/well) isolated from SIRT1E2.Lox/Lox and SIRT1ΔE2 mice
+were seeded in collagen-­coated 24-­well plates. Following adher­
+ence, cells were treated according to the experimental condi­
+tions—either with normal glucose (NG) medium alone or NG
+supplemented with 30 nM glucagon—for 6 or 12 h. Prior to treat­
+ment, cells were thoroughly washed with PBS to remove resid­
+ual serum or media components.
+
+At the end of the treatment period, supernatants were collected
+for glucose measurement, and the corresponding wells were
+used to scrape cells for protein quantification by BCA. The glu­
+cose concentration in the culture supernatant reflects the extent
+of hepatocyte-­mediated gluconeogenesis.
+
+Glucose levels were quantified using the Glucose Colorimetric
+Detection Kit (EIAGLUC, Invitrogen) following the manufac­
+turer's protocol. This assay is based on the enzymatic oxidation
+of glucose by glucose-­oxidase, producing hydrogen peroxide,
+which in the presence of horseradish peroxidase (HRP) reacts
+with a chromogenic substrate to yield a colored product measur­
+able at 560 nm.
+
+For quantification, assay standards provided in the kit were se­
+rially diluted to prepare the following concentrations: 32, 16, 8,
+4, and 2 mg/mL. In each well, 20 μL of either sample or stan­
+dard was added in duplicate. To this, 25 μL of HRP solution was
+added, followed by 25 μL of chromogenic substrate, and finally
+25 μL of 1× glucose oxidase solution. The reaction mixtures
+were incubated at room temperature for 30 min.
+
+Absorbance was measured at 560 nm using a microplate
+reader. A standard curve was generated from the known glu­
+cose standards, and sample concentrations were calculated
+accordingly.
+
+2.5.6.2 | Immunofluorescence in Hepatocytes. Hepato­
+cytes
+(50 000
+cells/well)
+isolated
+from
+SIRT1E2.Lox/Lox
+and SIRT1ΔE2 mice were seeded in collagen-­coated coverslips.
+
+2.6 | Simulation and Analysis Method
+
+The initial configurations for Sirtuin1 were obtained from
+RoseTTAFold [28], as no structure for the domains of interest is
+available in the RCSB PDB database. We used the primary se­
+quence of Sirtuin1 corresponding to UniProt IDs Q923E4 and
+Q3UNI1 to generate the initial configurations for the exon-­1
+(E1), exon-­2 (E2), and exon-­3 (E3) domains. The Molecular
+Dynamics (MD) simulations of the Sirtuin1-­E1E2E3 (hereby
+termed as E1E2E3) and Sirtuin1-­E1E3 (hereby termed as E1E3)
+were performed using the GROMACS package version 20xx
+[29–32] with the a99SB-­disp force field and a99SB-­disp water
+model [33]. The system was neutralized using NaCl and the salt
+concentration was kept at 150 mM for all our simulations. First,
+the energy of the system was minimized by using the steepest
+descent algorithm. The system was then equilibrated in an
+isothermal-­isochoric ensemble for 50 ns. The average tempera­
+ture was maintained at 298 K using the velocity-­rescale ther­
+mostat [34], with a time constant of 0.1 ps. This was followed
+by equilibration in the isothermal-­isobaric ensemble for 50 ns,
+during which the average isotropic pressure was maintained
+at 1.0 bar using the Parrinello-­Rahman [35] barostat, with a
+time constant of 2 ps. The Verlet list cutoff scheme, with a 10 Å
+cutoff, was used to treat Lennard-­Jones interactions and short-­
+range electrostatic interactions. The Particle-­mesh Ewald
+(PME) [36] method with a grid spacing of 10 Å was used for
+long-­range electrostatic interaction. The LINCS algorithm was
+used to constrain the bonds linked with hydrogen. MD simu­
+lation was performed using the Verlet leapfrog [37] integrator
+with a time step of 2 fs. The coordinates were saved every 10 ps.
+The total simulation time amounted to ∼5.5 μs and ∼6 μs for
+E1E2E3 and E1E3, respectively.
+
+The simulation trajectories were preprocessed to remove sol­
+vent molecules and ions, and periodic boundary conditions
+were corrected. Further analyses were conducted using only
+the protein structure. The Root Mean Square Fluctuation
+(RMSF) was calculated with GROMACS, fitting each tra­
+jectory to the NPT-­equilibrated structure. The S2 order pa­
+rameters were computed using the cpptraj [38, 39] module
+(version 6.18.1) from the AMBER software suite, and the
+
+To investigate the conformational space of the E1E2E3 and
+E1E3 protein, we have used a deep learning method known
+as autoencoder [42–45]. A mirror-­symmetric architecture was
+utilized using tensorflow (version 2.9.1), backend with Keras
+python library (version 2.9.0), featuring 2048, 512, 256, 72, 36,
+and 12 neurons in the encoder and decoder's respective hidden
+layers with 2 neurons in the latent layer. This architecture was
+trained on MD simulation data of both proteins. As input fea­
+tures, we selected pairwise distances between Cα atoms, with
+every third residue skipped. The training dataset comprised
+90% of the MD data, while the remaining 10% served as the val­
+idation set. The model was trained using a learning rate of 5e-­4
+with a batch size of 3000 for 300 epochs. The hyperbolic tangent
+(tanh) activation function was applied to all layers, with weights
+initialized using the Glorot uniform [46] method. The out­
+put layer, however, utilized a sigmoid activation function. The
+model was optimized using the Adam optimizer [47], with the
+mean squared error serving as the loss function. The resulting
+latent space was used to construct the free energy surface (FES).
+Gaussian Mixture Models (GMMs) were utilized to partition the
+free energy surface (FES) into distinct clusters. To determine the
+optimal number of clusters, the Bayesian Information Criterion
+(BIC) was applied. The BIC curve's slope was examined, and the
+“elbow” point, where the curve flattens, was identified as the
+optimal cluster count. This point represents a balance between
+achieving a good model fit and minimizing overfitting by avoid­
+ing model complexity.
+
+2.6.1 | Quantification and Statistical Analysis
+
+Data are expressed as means ± standard error of means (SEM).
+Statistical analyses were done using Graph Pad Prism (version
+8.0). Student's t-­test and ANOVA were used to determine sta­
+tistical significance. A value of p ≤ 0.05 was considered statisti­
+cally significant. *p ≤ 0.05; **p ≤ 0.05; ***p ≤ 0.005. In the figure,
+“n” refers to the number of animals per genotype included in
+each experiment (n = 3 means 3 WT and 3 KO animals), whereas
+“N” refers to the number of independent experimental cohorts
+performed.
+
+3.1 | Temporal Regulation of Gluconeogenesis
+and Metabolic Flux During Starvation
+
+­
+
+­
+
+1A,B
+­
+
+48–56
+­
+­
+
+­
+­
+­
+
+1°C
+­
+
+1B,E
+­
+­
+
+­
+­
+­
+­
+
+­ ­
+­ ­
+­ ­
+­
+1D,E
+­
+
+S1A–D
+­
+
+1F,G
+
+­
+
+­
+
+­
+
+­
+
+3.2 | Dynamic Gene Expression Governs
+Progressive Starvation
+
+­
+­
+
+­
+49, 57–61
+­
+­
+
+­
+
+­
+1H–K
+S1E,F
+
+­
+
+1°C
+­
+
+S1G,H
+
+­
+
+­
+­
+
+3.3 | Temporal Control of SIRT1's Interactions by
+N-­Terminal Disordered Region
+
+­
+­
+
+­
+5, 7–9
+­
+
+­
+­
+
+­
+62
+
+2B,C
+S2A,D
+­
+
+­
+­
+2A–E
+S2A–E
+
+­
+63–69
+
+­
+­
+­
+2F
+
+­
+­
+­
+
+2F
+­
+­
+­
+
+­
+­
+
+­
+S2F–H
+70–78
+­
+­
+­ ­
+
+­
+2G,H
+­
+
+­
+­
+
+­
+­
+­
+­
+25
+
+3.4 | Exon-­2 Enhances N-­Terminal Flexibility by
+Disrupting Inter-­Domain Interactions
+
+­
+­
+
+­
+­
+
+­
+25
+2
+3A
+
+patterns became pertinent to reveal its impact on intra-­ and
+inter-­domain interactions within the N-­terminus. Strikingly,
+the presence of exon-­2 influenced the structural properties of
+both exon-­1 and exon-­3, a hallmark of IDRs that are embedded
+within the structured proteins. Secondary structure analysis re­
+vealed that in E1E2E3, exon-­1 (E1) showed decreased α-­helical
+content (−12%) and increased coil (+13%), reflecting enhanced
+disorder, whereas exon-­3 (E3) exhibited increased helicity (+5%)
+and reduced coils (−8%). Exon-­2 (E2) itself remained predom­
+inantly coil-­like (Figure 3A,B). These shifts paralleled contact
+map analyses: intra-­domain contacts decreased within E1 (−9%)
+and increased within E3 (+13%) in E1E2E3, while E1–E3 inter-­
+domain contacts were twofold higher in E1E3. Notably, E2
+formed 3–6 fold more intra-­ than inter-­domain contacts, sug­
+gesting that it acts as a flexible and largely independent module
+(Figure 3B and Figure S3°C,D). Together, these data indicate that
+
+E2 promotes E1 disorder, stabilizes E3, and limits direct cross-­
+talk between E1 and E3.
+
+­
+­
+
+3°C,D
+2
+
+­
+
+­
+2
+­
+3E–G
+
+These results were further substantiated by interaction
+analysis, which was assessed by hydrogen bonding. While
+
+2
+
+intra-­domain hydrogen bonds in E1 and E3 were comparable
+between the two constructs, inter-­domain E1–E3 bonds were
+2.5–4 fold more abundant in E1E3 than in E1E2E3. E2 pri­
+marily formed intra-­domain hydrogen bonds. Salt bridges,
+cation–π, and π–π interactions followed the same trend
+(Figures S3E–H and S4A).
+
+2
+­
+­
+­
+
+­
+
+3H–J
+S4B,C
+­
+
+­
+­
+
+­
+
+3.5 | SIRT1 Exon-­2 Deletion Enhances
+CREB-­Dependent Transcription During Fasting
+
+­
+
+­
+­
+­
+­
+­
+
+­
+­
+­
+
+S5A
+­
+­
+­
+­
+S1
+4A
+ΔE2
+
+­
+
+­
+
+­
+
+S5D
+
+­
+
+­
+58
+­
+E2.lox/lox
+ΔE2
+­
+
+­
+­
+E2.lox/lox
+ΔE2
+
+4B
+
+Our previous study identified SIRT1ΔE2 as a naturally occur­
+ring splice isoform lacking the exon 2-­encoded region and ex­
+tensively characterized its biochemical properties [25]. Using
+quantitative HPLC-­based deacetylation assays with acetylated
+H3K9 peptide substrates, we demonstrated that SIRT1ΔE2 re­
+tained catalytic activity comparable to full-­length SIRT1.
+Detailed kinetic analyses revealed similar substrate-­dependent
+and NAD + -­dependent enzymatic parameters, including Km
+and Vmax values. Importantly, these observations were repro­
+duced using proteins purified from both bacterial and mamma­
+lian expression systems, indicating that the absence of exon 2
+does not substantially alter the intrinsic deacetylase activity of
+SIRT1 [25]. These findings prompted us to investigate whether
+the exon 2-­encoded intrinsically disordered region regulates
+fasting physiology at both molecular and physiological levels
+through modulation of molecular interactions rather than cat­
+alytic activity.
+
+­
+
+ΔE2
+
+­
+
+­
+4°C–H
+
+This further led us to investigate the temporal dynamics of
+CREB activation and found rapid/heightened CREB phosphory­
+lation at Ser133 in SIRT1ΔE2 hepatocytes in response to glucagon
+stimulation (Figure S5E). Moreover, this was consistent with the
+in vivo data from SIRT1E2.lox/lox and SIRT1ΔE2 mice following
+12-­h fasting (Figure S5F). Together, these data indicate that the
+loss of SIRT1 exon-­2 leads to precocious and amplified CREB
+activation.
+
+­
+
+­
+
+­
+
+78, 79
+4I
+­
+­
+ΔE2
+
+E2.lox/lox
+­
+­
+
+ΔE2
+
+4J
+
+Further, this was supported by SIRT1 co-­immunoprecipitation
+from the liver of progressively starved mice (3, 12, and 24 h). It
+was noted that across all time points, SIRT1ΔE2 mice exhibited
+
+consistently reduced CREB binding compared to SIRT1E2.lox/lox
+(Figure S6A–C), strengthening the finding that exon-­2 is crit­
+ical for maintaining SIRT1–CREB interaction during fasting.
+
+ΔE2
+
+ΔE2
+
+­
+­
+ΔE2
+
+­
+­
+E2.LOX/LOX
+
+ΔE2
+­
+­
+
+E2.LOX/LOX
+ΔE2
+­
+­
+­
+
+3.6 | SIRT1 Intrinsically Disordered Region
+Is Important for Gating CREB-­Mediated
+Transcriptional Response
+
+­
+E2.lox/lox
+ΔE2
+­
+­
+ΔE2
+­
+­
+­
+4K,L
+
+To determine whether the effects of exon-­2 deletion extended
+beyond CREB-­dependent transcription, we next examined
+FOXO1-­ and PGC1α/PPARα-­dependent transcriptional pro­
+grams. As SIRT1-­mediated regulation of these factors is known
+to depend on both deacetylation and physical interaction, we
+measured IRE-­ and PPRE-­driven luciferase activity in primary
+hepatocytes. While CRE-­luciferase activity was increased in
+SIRT1ΔE2 cells, both IRE-­ and PPRE-­luciferase activities were
+significantly reduced compared to SIRT1E2.lox/lox controls
+(Figure S5G). These observations are consistent with our pre­
+vious findings demonstrating reduced interaction of SIRT1ΔE2
+with FOXO1 and PGC1α [25].
+
+ΔE2
+4M
+­
+
+­
+
+­ ­
+­
+­
+­
+­
+­
+
+S7A,B
+
+ΔE2
+
+­
+ΔE2
+
+E2.lox/lox
+5A–C
+
+ΔE2
+
+­
+­
+ΔE2
+
+5D,E
+S7°C,D
+­
+
+­
+
+3.7 | SIRT1 IDR Mediated Gating Is Critical
+for Systemic Glycemic Control and Fed/Fast Cycles
+
+­
+
+­
+­
+­
+5F
+ΔE2
+­
+E2.lox/lox
+
+5G
+
+ΔE2
+
+5H
+­
+
+ΔE2
+
+5J
+S7E
+
+ΔE2
+
+5K
+S7F
+
+­
+­
+­
+
+3.8 | Liver Specific IDR Loss Disrupts Glucose
+Homeostasis/SIRT1 Exon-­2 Deletion in Liver Drives
+Metabolic Imbalance
+
+­
+­
+
+­
+
+­
+­
+hep-­ΔE2
+E2.lox/lox
+­
+­
+
+ΔE2
+E2.LOX/LOX
+
+E2.LOX/LOX
+­
+­
+­
+hep-­ΔE2
+
+E2.LOX/LOX
+­
+­
+
+that SIRT1hep-­ΔE2 animals phenocopied the SIRT1ΔE2 mice vis-­
+à-­vis GTT and PTT (Figure 5L,M and Figure S7G,H). These
+exciting results indicated that functions of SIRT1-­IDR in the
+liver contribute to the systemic metabolic dysregulation. More
+importantly, this illustrates tissue-­autonomous modulation of
+SIRT1-­TF interactions, mediated by the non-­catalytic domain
+encoded by the exon-­2, is necessary for starvation response at
+an organismal level. These results reveal, for the first time,
+that a non-­catalytic IDR within SIRT1 mediates liver-­specific
+transcriptional programs that are essential for maintaining
+whole-­body metabolic balance. By demonstrating that loss
+of the SIRT1 IDR alters transcription factor engagement and
+downstream gene expression during fasting, our findings
+highlight an important role for intrinsically disordered re­
+gions within metabolic regulators. Together, these findings
+support the emerging view that disordered protein domains
+contribute to physiological adaptation through dynamic and
+context-­dependent protein interaction networks.
+
+4 | Discussion
+
+Temporal engagement of transcription factors, which is criti­
+cally dependent upon both cis-­binding of upstream regulatory
+elements and trans interactions, is essential for orchestrating
+programmed reversible physiological transitions e.g., during
+fed-­fast-­refed cycles [2, 16, 80, 81]. Although the endocrine
+and metabolic signaling pathways that regulate TF activity are
+well established, the molecular mechanisms that coordinate
+promoter-­selective TF recruitment during dynamic metabolic
+transitions remain incompletely understood [48, 51, 82–86].
+Our findings reveal that loss of SIRT1 IDR disrupts metabolic
+fidelity, leading to premature transcriptional responses, aber­
+rant glucose homeostasis, and impaired adaptation to fasting.
+Together, these results identify the SIRT1 IDR as a critical de­
+terminant of hepatic transcriptional responses to nutrient stress
+and provide insight into how dysregulated protein interactions
+contribute to metabolic dysfunction. More importantly, we pro­
+vide hitherto unknown insights into the molecular origins of
+metabolic diseases mediated by protein disorder, which stem
+from dysregulated interactions.
+
+The biphasic transcriptional response during starvation, char­
+acterized by early gluconeogenic gene induction followed by
+fatty acid oxidation, aligns with the dynamic rewiring of the
+SIRT1 interactome. Our findings suggest that competitive in­
+teractions between SIRT1 and distinct transcription factors
+contribute to the orderly progression of starvation-­associated
+transcriptional programs. In this context, our work builds on
+
+­
+­
+ΔE2
+
+previous studies, including that of Liu et al., which identified
+a temporal transition between CREB-­ and FOXO1-­dependent
+transcriptional programs during fasting [78]. Our findings
+suggest that the SIRT1 IDR provides the conformational flex­
+ibility necessary to coordinate interactions with distinct tran­
+scriptional regulators across different phases of fasting. This is
+consistent with emerging paradigms in which IDRs facilitate
+multivalent, context-­dependent interactions. While consid­
+erable attention has been given to the roles of IDRs in tran­
+scription factors [6, 15, 87], comparatively fewer studies have
+explored their function within transcriptional coactivators or
+metabolic regulators. Recent findings in p300/CBP suggest
+that IDRs in coactivators support multivalent interactions
+and enhance chromatin engagement [88–91], underscoring
+the broader relevance of such mechanisms in transcriptional
+regulation. Our work extends this paradigm to metabolic sen­
+sors, demonstrating that SIRT1's N-­terminal IDR contributes
+to the regulation of transcriptional programs during nutrient
+stress. This aligns with reports showing that IDRs in nutrient-­
+responsive enzymes such as ULK, RAPTOR, and CAMKII
+enable allosteric modulation, PTM-­dependent regulation, and
+substrate selection. The observation that SIRT1ΔE2 hepatocytes
+exhibit unregulated CREB activity parallels findings in p53
+[92–99], where disordered regions prevent promiscuous DNA
+binding by enforcing transient protein interactions. The result­
+ing increase in gluconeogenic gene expression and systemic
+glucose dysregulation establishes a direct link between IDR-­
+dependent interaction specificity and physiological output.
+
+Importantly, liver-­specific deletion of SIRT1's exon-­2 reca­
+pitulated systemic glucose dysregulation, highlighting the
+tissue-­autonomous role of this IDR in maintaining whole-­body
+homeostasis. The failure of SIRT1ΔE2 mice to transition effec­
+tively during fasting states, marked by persistent gluconeogenic
+activation, suggests that the IDR acts as a conformational timer
+to buffer aberrant transcriptional cascades. This corroborates
+the broader evidence that IDRs in nutrient sensors like SIRT1
+co-­evolved with regulatory networks to integrate metabolic cues
+and transcriptional outputs.
+
+The liver's ability to toggle between fed and fasted states hinges
+on remarkable transcriptional and metabolic plasticity, a pro­
+cess tightly regulated by nutrient sensors [60, 61, 100, 101]. Our
+findings reveal that the exon 2-­encoded IDR of SIRT1 is indis­
+pensable for this dynamic adaptation, enabling a coordinated
+transcriptional response required to maintain hepatic meta­
+bolic homeostasis. Interestingly, although the SIRT1ΔE2 isoform
+is naturally expressed in several tissues, it is largely excluded
+from the liver [25]. In light of our findings, this tissue-­specific
+
+These findings extend the study of IDRs beyond transcription
+factors to an upstream metabolic regulator, suggesting that
+structural disorder can tune interaction selectivity during phys­
+iological transitions. The exon 2-­encoded IDR characterized
+here appears to be specific to SIRT1, and cannot be directly
+compared with analogous function in other sirtuins. However,
+the presence of predicted disordered segments in other family
+members, especially SIRT2 & SIRT6, raises the possibility that
+structural disorder may also contribute to functional diversifi­
+cation within the sirtuin family, which should be examined in
+the future [102–104]. In the context of highly conserved catalytic
+domains, such disordered regions may have evolved to expand
+the repertoire of interaction partners and substrates available to
+individual sirtuins, thereby enabling functional specialization
+across distinct physiological contexts.
+
+Although our findings demonstrate that the SIRT1 exon
+2-­encoded IDR influences transcription factor-­dependent re­
+sponses during nutrient stress, the underlying interaction dy­
+namics remain incompletely understood. Direct visualization
+of transcription factor recruitment and exchange in vivo will
+be required to establish the mechanistic basis of these effects.
+Additionally, while SIRT1ΔE2 mice exhibit clear metabolic ab­
+normalities, more comprehensive analyses of body composi­
+tion and energy expenditure will be valuable for defining the
+physiological consequences of exon 2 deletion, beyond hepatic
+metabolism.
+
+Taken together, our study identifies a previously unappreciated
+role for the N-­terminal disordered region in SIRT1 encoded by
+exon 2 in coordinating transcription factor activity during met­
+abolic adaptation. Our findings demonstrate that disruption of
+this regulatory module perturbs temporal transcriptional re­
+sponses despite largely preserved catalytic activity, highlighting
+an additional layer of control embedded within the structural
+organization of metabolic regulators. More broadly, these results
+support the emerging view that intrinsically disordered regions
+contribute to physiological regulation by shaping dynamic in­
+teraction networks and context-­dependent signaling outputs.
+Future studies will be required to determine the extent to which
+similar mechanisms operate in other nutrient-­sensing pathways
+and physiological transitions.

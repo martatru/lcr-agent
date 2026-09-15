@@ -1,0 +1,69 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 9291,
+    "raw_extracted_count": 6,
+    "raw_annotations": [
+      {
+        "protein_name": "BRD4-L",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "C-terminal proline-rich (HPQ-rich) intrinsically disordered region unique to BRD4-L, involved in partner association and targeted by antibodies and perturbations.",
+        "evidence": "Among BET family proteins, the C-terminal proline-rich (sometimes referred to as HPQ-rich for histidine/proline/glutamine-rich) region is unique to BRD4-L.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "BRD4",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Intrinsically disordered region (IDR) of phospho-BRD4 targeted by small-molecule inhibitors to alter specific protein-protein interaction (PPI) networks.",
+        "evidence": "the discovery of a new class of small-molecule inhibitors targeting an intrinsically disordered region (IDR) of phospho-BRD4 to alter specific protein-protein interaction (PPI) networks without globally perturbing transcription programs and chromatin landscapes",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "BRD4-L",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR segment (pNPS) that binds internal IDR-targeting compounds (e.g., 14 and 90) with comparable affinity in vitro.",
+        "evidence": "While the internal IDR-targeting compounds (e.g., 14 and 90) appear to bind pNPS of full-length proteins or an IDR-only segment derived from purified recombinant BRD4-L, BRD4-S, BRD3, and BRD2 with comparable affinities in vitro",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "BRD4-S",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR segment (pNPS) that binds internal IDR-targeting compounds (e.g., 14 and 90) with comparable affinity in vitro.",
+        "evidence": "While the internal IDR-targeting compounds (e.g., 14 and 90) appear to bind pNPS of full-length proteins or an IDR-only segment derived from purified recombinant BRD4-L, BRD4-S, BRD3, and BRD2 with comparable affinities in vitro",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "BRD3",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR segment (pNPS) that binds internal IDR-targeting compounds (e.g., 14 and 90) with comparable affinity in vitro.",
+        "evidence": "While the internal IDR-targeting compounds (e.g., 14 and 90) appear to bind pNPS of full-length proteins or an IDR-only segment derived from purified recombinant BRD4-L, BRD4-S, BRD3, and BRD2 with comparable affinities in vitro",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "BRD2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR segment (pNPS) that binds internal IDR-targeting compounds (e.g., 14 and 90) with comparable affinity in vitro.",
+        "evidence": "While the internal IDR-targeting compounds (e.g., 14 and 90) appear to bind pNPS of full-length proteins or an IDR-only segment derived from purified recombinant BRD4-L, BRD4-S, BRD3, and BRD2 with comparable affinities in vitro",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

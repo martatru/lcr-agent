@@ -1,0 +1,395 @@
+Results and discussions
+Ablation analysis
+DNAreader relies on two innovations: contrastive learning (a
+custom-designed and empirically optimized loss function) and
+custom-crafted batch training, which together aim to boost
+predictive performance and reduce cross-predictions. We empirically assess the impact of these innovations by performing ablation analysis where we compare the DNAreader with
+its variants that include removing batch training and instead
+relying on the commonly used sliding window-based training (Model 1); removing contrastive learning and instead
+performing traditional learning with the focal loss function
+(Model 2); and removing both contrastive learning and batch
+training (Model 3).
+
+Comparative assessment on test dataset 1 using
+region-level annotations for the disorder-annotated
+interactions
+This evaluation relies on the blind (low-similarity) test dataset
+1 that we derived from our recently published benchmark
+set [ 61 ]. This dataset includes DNA-binding annotations consistent with those used in related studies, specifically DBRs
+for structure-annotated proteins and DNA-binding IDRs for
+disorder-annotated proteins. We assessed DNAreader and its
+DNAreaderDBIDR variant against 14 representative predictors,
+including 8 structure-trained predictors, 2 disorder-trained
+predictors, 3 meta-predictors, and the ANCHOR2 baseline.
+Furthermore, we analyzed the complete test set and the subsets
+of disorder-annotated and structure-annotated proteins in this
+dataset. We provided these results in Supplementary Tables S6
+(overall predictive performance) and Supplementary Table S7
+(cross-predictions and over-predictions), with the corresponding ROC curves in Supplementary Figs S5 , S6 , and S7 . We
+visualize a key subset of these results for the best structuretrained predictor, the best disorder-trained predictor, the best
+meta-predictor, and DNAreader, in Fig. 2 B.
+
+Evaluation of the overall predictive performance
+Supplementary Table S6 reveals that the best structure-trained
+methods produce very accurate predictions for the structureannotated proteins, achieving AUROCs > 0.80 and AULCratios > 5, with the highest values of 0.83 and 5.3 for iDRNAITF (Fig. 2 B), respectively, while they perform less well for
+the disorder-annotated proteins, with AUROCs ≤0.70 and
+AULCratios < 3.2. The disorder-trained tools underperform
+for the structure-annotated proteins, with AUROCs ≤0.63
+and AULCratios ≤1.9, whereas they generate relatively more
+accurate results for the disorder-annotated proteins, with an
+AUROC of 0.66 and an AULCratio of 2.6 for DisoRDPbind
+(Fig. 2 B). This dichotomy, where the disorder-trained methods relatively underachieve for the structure-annotated proteins, and the structure-trained methods underperform for the
+disorder-annotated proteins, is in line with observations in recent studies [ 61 , 64 ] and underlines the need to develop methods that cross over between the two annotation types. Our
+analysis shows that the first of these attempts, which produced the HybridDBRpred meta-predictor [ 61 ], resulted in
+noticeable improvements, matching the performance of the
+best structure-trained method on the structure-annotated proteins (AUROC of 0.82 and AULCratio of 4.4), and improving over both structure- and disorder-trained methods for the
+disorder-annotated proteins (AUROC of 0.77 and AULCratio of 4.0). Interestingly, we observed that three recently released structure-trained DNAgenie, CLAPE, and iDRNA-ITF
+secure AUROCs around 0.68 and AULCratios ranging from
+2.4 to 3.2 for the disorder-annotated proteins, matching the
+results of the best disorder-trained method. This stems from
+advancements utilized in their predictive models, such as the
+use of disorder predictions and a well-optimized support vector machine model in DNAgenie [ 45 ], and the use of advanced
+deep neural network architectures and PLM in CLAPE [ 55 ]
+and iDRNA-ITF [ 47 ]. However, we emphasize that these three
+tools still underperform for the disorder-annotated proteins
+compared with their predictions for the structure-annotated
+proteins. However, the use of these newest tools to develop a
+new variant of the HybridDBRpred meta-predictor, Hybrid-
+DBRpred2, did not result in further improvements compared
+
+to the original meta-predictor; AUROC of 0.82 versus 0.83
+and AULCratio of 4.4 versus 4.8 for the structure-annotated
+proteins, and AUROC of 0.77 and AULCratio of 4.0 for both
+variants of HybridDBRpred for the structure-annotated proteins. This limitation in the predictive performance and the
+need to predict DBRs for IDRs motivated the development of
+DNAreader.
+
+The evaluation on the entire test dataset 1 in Supplementary
+Table S6 yielded several informative insights. Among the eight
+structure-trained methods, iDRNA-ITF and CLAPE achieve
+the best performance, with AUROCs of 0.75 and 0.73, respectively, and AULCratios of 4.1 and 3.7. DisoRDPbind outperforms the other disorder-trained methods, attaining an AUROC of 0.64 and an AULCratio of 2.2. The HybridDBRpred and HybridDBRpred2 meta-predictors achieve AUROCs
+of ∼0.79 and an AULCratio of ∼4.3. More importantly,
+DNAreader outperforms the best structure-trained, disordertrained, and meta-predictors by a significant margin ( P -values
+< .01), achieving an AUROC of 0.86 and AULCratio of 5.7
+on the entire dataset, AUROC of 0.90 and AULCratio of 6.3
+on structure-annotated proteins, and AUROC of 0.85 and
+AULCratio of 5.4 on disorder-annotated proteins (Fig. 2 B).
+The improvements offered by DNAreader are similarly large
+and statistically significant ( P -values < .01) for the other metrics. For instance, on the full dataset, DNAreader has a sensitivity of 0.61 at a low FPR of 0.1, a specificity of 0.94
+at a TPR of 0.5, and an F1 score of 0.40. Figure 2 B and
+Supplementary Table S6 reveal that DNAreaderDBIDR secures
+similar results to DNAreader on the structure-annotated proteins while generating significantly more accurate results for
+the disorder-annotated proteins (AUROC of 0.90 versus 0.85
+and AULCratio of 6.4 versus 5.4; P -value < .01), consequently
+producing more accurate predictions on the entire test dataset
+1, with AUROC of 0.89 and AULCratio of 0.63 ( P -value
+< .01). This is expected since the DNAreaderDBIDR module
+augments DNAreader’s predictions of DBRs in the disorderannotated proteins into the disordered region-level, resulting
+in predictions more compatible with the annotations used in
+the test dataset 1. At the same time, it aims not to adjust the
+DBR predictions for the structure-annotated proteins.
+
+Altogether, our
+empirical
+test
+demonstrated
+that
+DNAreader produces highly accurate predictions of DBRs,
+providing substantial, statistically significant improvements
+over current tools. Furthermore, its DNAreaderDBIDR variant
+offers additional improvements in predicting DNA-binding
+IDRs.
+
+Evaluation of cross-predictions and
+over-predictions
+DNAreader and the other predictors should selectively identify binding residues that interact with DNA. However, several
+studies have shown that some of these methods are ligandtype agnostic, i.e., they tend to predict residues that interact with other ligand types as DNA-binding at similar rates
+that they predict the native DBRs [ 47 , 52 , 61 , 64 ]. To this
+end, we comparatively evaluated cross-predictions (incorrect
+predictions of DBRs among residues that interact with nonDNA ligands) with AUCPC (lower is better) and CPRratio
+(higher is better), and over-predictions (incorrect predictions
+of DBRs among residues that do not interact with ligands)
+with AUOPC (lower is better) and OPRratio (higher is better); details are in the “Assessment metrics and statistical
+
+analysis” section. Supplementary Table S7 provides these results, while Fig. 2 B visualizes the AUCPC values for the best
+structure-trained predictor, the best disorder-trained predictor,
+the best meta-predictor, and DNAreader. The complete sets
+of cross-prediction and over-prediction curves are available in
+Supplementary Figs S6 and S7 .
+
+Most structure-trained and disorder-trained methods are
+characterized by high cross-prediction rates, with CPRratio < 2 or AUCPC ≥0.35, which suggests that they are
+ligand-type agnostic ( Supplementary Table S7 ). These include the structure-trained TargetS, TargetDNA, BindN + ,
+and DNAPred, as well as the disorder-trained DeepDISObind and DisoRDPbind. DNAgenie, iDRNA-ITF, CLAPE,
+and NCBRPred produce modest levels of cross-predictions
+on the test set 1 (CPRratio between 2 and 2.5, and AUCPC
+between 0.25 and 0.35). The meta-predictors improve over
+the disorder-trained and structure-trained methods across
+structure-annotated and disorder-annotated proteins, securing the overall CPRratio around 3 and AUCPC around 0.20.
+Importantly, DNAreader generates significantly fewer crosspredictions than the other predictors, including the metapredictors, for structure- and disorder-annotated proteins (p-
+values < 0.01), thereby securing the overall CPRratio > 4.5
+and AUCPC < 0.13 on test set 1 (Fig. 2 B and Supplementary
+Table S7 ). This implies that DNAreader specifically predicts
+DBRs, with very low cross-prediction rates. Similar to what
+we observed in Supplementary Table S6 , Supplementary Table
+S7 showed that DNAreaderDBIDR performs significantly better
+than DNAreader on the disorder-annotated proteins ( P -values
+< .01) and performs similarly well on the structure-annotated
+proteins, with an overall CPRratio of 4.8 and an AUCPC of
+0.10.
+We also analyzed the over-predictions in Supplementary
+Table S7 . Like for the cross-predictions, individual structureand disorder-trained predictors are surpassed by the metapredictors, which in turn are significantly outperformed by
+DNAreader in OPRratio and AUOPC on both structureannotated and disorder-annotated proteins ( P -value < .01).
+DNAreader and DNAreaderDBIDR obtain the overall OPRratios of 3.8 and 4.1, and AUOPC of 0.14 and 0.11 on the entire
+test set 1. These modestly better results from DNAreaderDBIDR
+can be attributed to its much better performance on disorderannotated proteins ( Supplementary Table S7 ). Moreover, the
+results on the entire test set 1 showed that the structureand disorder-trained tools consistently generate much higher
+cross-predictions rates than over-predictions rates (CPRratio
+lower than OPRratio, AUCPC higher than AUOPC). This is
+because residues that bind the other ligand types are more
+similar to the DBRs than the residues that do not interact
+with ligands, and since most of these tools were not designed
+to prevent cross-predictions ( Supplementary Table S1 ). However, this trend does not appear for the meta-predictors and
+DNAreader, which have been specifically designed to minimize the cross-predictions.
+
+Overall, consistent with the analysis in the “Evaluation
+of the overall predictive performance” section, we observed
+that DNAreader is more accurate than the current best tools
+by large and statistically significant margins (Fig. 2 B). Furthermore, DNAreaderDBIDR variant outperforms DNAreader,
+which suggests that DNAreaderDBIDR successfully extends
+the DNAreader’s predictions of DBRs into the DNA-binding
+IDRs, given that such regions constitute the ground truth in
+this test set for the disorder-annotated proteins.
+
+Comparative assessment on the test dataset 2
+using DBR annotations for the disorder-annotated
+and structure-annotated interactions
+We also evaluated DNAreader and the other tools on the new
+blind (low-similarity) test dataset 2, which uses consistent annotations of DBRs for the structured and disordered test proteins; see Supplementary Table S8 . We summarize these results for the best structure-trained predictor, the best disordertrained predictor, the best meta-predictor, and DNAreader in
+Fig. 2°C. These results underpin the key motivation of this
+study: the development of the first tool that was specifically
+designed to predict DBRs for the two protein groups.
+
+We observed consistent trends within the structure-disorder
+dichotomy. The structure-trained methods generated a higher
+average (over the eight structure-trained methods) AUROC
+of 0.77 and an average AULCratio of 3.9 for the structureannotated proteins versus a much lower average AUROC
+of 0.61 and an average AULCratio of 2.3 for the disorderannotated proteins ( Supplementary Table S8 ). Similarly, the
+disorder-trained methods achieved an average AUROC of
+0.57 and an average AULCratio of 0.84 for the structureannotated proteins, versus higher average values of 0.61 and
+2.0 for the disorder-annotated proteins in test set 2. On
+the other hand, the HybridDBRpred meta-predictor obtained
+more consistent and accurate results for the two protein
+groups, with an AUROC of 0.83 versus 0.76 and an AULCratio of 4.4 versus 3.9.
+
+Our empirical assessment on test set 2 revealed that
+DNAreader accurately predicts DBRs in structured and disordered sequence regions, consistently generates low rates of
+cross-predictions and over-predictions, and outperforms the
+currently best methods by large, statistically significant margins.
+
+Case studies
+We use two distinct test proteins to illustrate and explain
+predictions from DNAreader and to contrast them with the
+
+second-best method, the HybridDBRpred2 meta-predictor.
+The first protein, human estrogen-related receptor-2 (ERRβ;
+UniProt ID: O95718), binds DNA and demonstrates how to
+interpret DNAreader’s predictions of DBRs and DNA-binding
+regions. The second protein, L -lactate 2-monooxygenase from
+Mycolicibacterium smegmatis (UniProt ID: P21795), does
+not interact with DNA but binds two other ligands, flavin
+mononucleotide (FMN) and 2-oxocarboxylate, showing how
+DNAreader handles cross-predictions. We run DNAreader,
+DNAreaderDBIDR , and hybridDBRpred2 on these two protein
+sequences and compare the resulting predictions with the native annotations of binding regions and residues. Fig. 3 A and B
+visualize the predicted scores for three methods along the
+protein sequence using the color-coded line plots (dark blue
+for DNAreader; light blue for DNAreaderDBIDR , and green
+for hybridDBRpred2). The scores are normalized to the 0–1
+range, where higher scores indicate a greater propensity for
+the corresponding residues to bind DNA. We also computed
+binary predictions from these scores using thresholds corresponding to a low false-positive rate of 0.1 on test dataset
+2 (residues with scores above the threshold are predicted as
+DBRs), consistent with the experimental setup described in
+the “Assessment metrics and statistical analysis” section. We
+illustrate these thresholds using horizontal dashed lines. The
+corresponding putative binding residues are at the bottom, as
+color-coded diamond markers. Depending on the user’s tolerance for false positives, these thresholds can be adjusted;
+lower thresholds yield more binding residues but higher falsepositive rates. Residues with scores much higher (or lower)
+than the threshold are more likely to be DBRs (non-DBRs)
+when compared with residues with scores closer to the threshold.
+
+The ERRβ protein is a 433-amino-acid nuclear receptor
+that is structurally and functionally similar to estrogen receptors, but it does not bind endogenous estrogen [ 88 ]. Instead,
+ERRβ interacts with several nuclear receptors [ 89 , 90 ] and
+regulates genes involved in multiple metabolic processes [ 91 ].
+An impaired ERRβ gene was shown to lead to increased fetal
+lethality [ 92 ], while its overexpression was reported to inhibit
+cell proliferation in breast cancer [ 93 , 94 ] and prostate cancer [ 95 ]. This protein has a conserved DNA-binding domain
+(DBD) with two zinc-finger motifs that bind specific DNA sequences in the promoter regions of target genes [ 96 ]. The DBD
+extends from residue 97–194, where the core region with a
+structured and well-defined zinc-finger motif ends at position
+168, and the C-terminal extension hosts a disordered region
+from position 187 to 194. We show the corresponding native
+annotations of DNA-binding regions and DBRs, which span
+the structured and disordered sequence segments of the DBD,
+using black and gray markers, respectively, positioned just below the x -axis, which denotes the sequence (Fig. 3 A). Scores
+produced by hybridDBRpred2 (green markers in Fig. 3 A) have
+higher values for the entire DBD, and correspondingly, they
+cannot be used to pinpoint the location of native DBRs. They
+also drop substantially for the DBRs in the disordered segment of the DBD (positions 187–194), thereby missing this
+DNA-interacting region. DNAreaderDBIDR (light blue markers in Fig. 3 A) produces high scores (i.e., scores substantially
+larger than the threshold) for residues in structured and disordered DNA-binding regions. However, when score values
+are close to the threshold, it fails to predict DBRs at positions
+150–160. This can be explained by the fact that this model was
+
+trained to predict binding regions rather than residues; consequently, it may miss shorter binding regions or more isolated
+DBRs. DNAreader produces high scores for the DBRs across
+both structured and disordered DNA-binding regions. The
+four residues that DNAreader incorrectly predicts as DBRs
+at positions 287, 288, 405, and 409 have scores in the moderate (near-threshold) range. Correspondingly, they should be
+considered spurious (false positive) predictions, which would
+be removed using a more stringent (higher) threshold that
+produces a lower false positive rate. Figure 3°C visualizes the
+sequence-based DNAreader’s predictions on the experimental
+3D structure of the DBD of ERRβ complexed with DNA (PDB
+ID: 1LO1). The protein chain is colored to reflect the DNAbinding propensities predicted by DNAreader, which range
+from red (low scores denoting likely non-binding residues),
+through white (moderate scores near the threshold with no
+apparent bias toward either DNA-binding or non-binding), to
+blue (high scores for likely DBRs). Native DBRs are shown as
+spheres, while the rest of the protein is shown in the cartoon
+format. The structured DNA-binding region forms an α-helix,
+while the disordered region (marked with black ovals in Fig.
+3 B) is composed of flexible loops and turns. The figure shows
+that the native DBRs are predominantly colored dark blue,
+indicating high confidence that they are correctly predicted as
+DBRs. Moreover, the 180◦rotated view of the complex (the
+right sub-panel in Fig. 3°C) shows that for the right-most helix,
+the binding residues are colored in blue, while the rest of the
+residues are either white or red, suggesting that DNAreader
+correctly identifies them as less likely to interact with DNA.
+Altogether, this case study reveals that DNAreader accurately
+reproduced the amino-acid-level details of protein–DNA interactions from the protein sequence.
+
+The L -lactate 2-monooxygenase is an enzyme composed
+of 394 amino acids that catalyzes the oxidative decarboxylation of hydrogen peroxide, producing acetate, carbon dioxide, and water [ 97 ]. This is a structured protein that interacts
+with FMN and 2-oxocarboxylate ligands, with no evidence of
+DNA-binding. Ideally, the considered predictors should yield
+propensities near 0 for all amino acids in this protein. Figure
+3 B shows that scores produced by DNAreader are generally
+much lower than the threshold, except for just six residues,
+where scores rise slightly above it. However, these scores fall
+within the moderate (near-threshold) range, suggesting that
+there are likely false positives. Altogether, these predictions
+reveal that DNAreader correctly identifies this protein as not
+interacting with DNA. The results from the DNAreaderDBIDR
+variant are even more accurate, as its predicted scores are
+mostly below 0.1 and consistently much lower than the
+threshold. This can be explained by the fact that this is a structured protein, and correspondingly, DNAreaderDBIDR , which
+is designed to predict disordered DNA-binding regions, does
+not identify either DBRs or disordered regions. In contrast,
+hybridDBRpred2 predicts 30 residues with scores above its
+threshold, including 5 cross-predictions located where this
+protein binds non-DNA ligands, and 25 over-prediction errors. Notably, some of these predicted scores substantially
+exceed the threshold, particularly in positions 43–55 and
+290–303, where cross-predictions occur, suggesting that these
+incorrect DBR predictions are accurate. This example illustrates the underlying hybridDBRpred2’s tendency toward
+cross-predictions, while showing that DNAreader is capable
+of avoiding this pattern.
+
+Availability
+We provide the source code for DNAreader at https:
+//github.com/jianzhang-xynu/DNAreader . To boost impact
+[ 98 ], we also implemented DNAreader as a convenient and
+servers/DNAreader/. This web server requires only a FASTAformatted protein sequence as input. The entire prediction
+process is automated and performed on the server side, with
+no need to install additional software on the user’s side. Upon
+submitting their protein sequence, users are redirected to a
+page that provides updates on the prediction’s progress. They
+then reach the results page. This page provides access to
+a color-coded visualization of results, including propensities
+for DNA binding and binary predictions of DBRs for the
+DNAreader and its DNAreaderDBIDR variant. Additionally, a
+comma-separated text file is available for parsing the raw predictions. We advise users to rely on DNAreader’s predictions
+and to use DNAreaderDBIDR’s results only when predicting
+DNA-binding IDRs. We will retain data from the submissions
+for at least three months, allowing users to access their previous submissions using the job identifier.
+
+Summary and discussion
+
+Prediction of DBRs in protein sequences has a long history
+that has resulted in the release of several dozen predictors
+[ 8–11 ], as we demonstrate in Supplementary Table S1 . The
+two key challenges with the current tools are the disorder
+versus structure dichotomy, where disorder-trained methods
+underperform on structure-annotated proteins and vice versa,
+and the lack of tools to predict DBRs in disordered regions. Instead, the current disorder-trained tools were designed to produce less precise predictions of the DNA-binding IDRs. Additionally, many current tools heavily cross-predict, effectively
+rendering their predictions ligand-type-agnostic.
+
+Our empirical results quantified and confirmed this dichotomy on both test datasets for a representative collection
+of over a dozen predictors. We addressed these challenges
+by conceptualizing, implementing, evaluating, and deploying
+DNAreader, the first and accurate predictor designed to predict DBRs in disordered and structured regions of protein
+sequences. DNAreader’s model uses stacked transformer encoder networks and a modern PLM, leveraging two innovations: custom-crafted batch training and contrastive learning.
+Our ablation study demonstrated that these innovations yield
+substantial gains in predictive performance and significant reductions in cross-prediction. Moreover, we implemented several mechanisms to minimize the likelihood of overfitting, including using a small network input and a correspondingly
+small network size, as well as dropout and low-similarity validation data during network training.
+
+Using two low-similarity test datasets, we demonstrated
+that DNAreader outperforms the published tools by large
+and statistically significant margins. A radar plot in Fig. 2 D
+summarizes these results by comparing DNAreader against
+the HybridDBRpred meta-predictor and the best structuretrained and disorder-trained tools. The blue plots compare
+overall performance measured by AUROC, while the red and
+orange plots visualize errors from cross-predictions and overpredictions, respectively. The size of the gap between the blue
+and red/orange plots indicates that a given method maximizes the accuracy of predicting DBRs and minimizes crossand over-prediction errors. DNAreader’s gap is by far the
+widest, resulting from securing a very high AUROC (0.88
+for DNAreader versus 0.79 for the second-best HybridDBRpred) and low AUCPC and AUOPC values (0.10 and 0.13
+for DNAreader versus 0.22 and 0.21 for the second-best HybridDBRpred, respectively). We particularly emphasize the
+much higher cross-prediction errors for the meta-predictor
+and the disorder/structure-trained tools. We also used the popular ANCHOR2 method, which predicts protein and peptide
+binding residues, as a baseline to demonstrate the performance
+of a method that predicts residues that bind molecules other
+than DNA. As expected, its cross-prediction errors match the
+performance of the “correct” predictions, i.e., AUROC and
+AUCPC are similarly bad, corresponding to random levels of
+predictive performance.
+
+Moreover, we developed and released a DNAreaderDBIDR
+variant of DNAreader, which accurately predicts DNAbinding IDRs. This provides end-users with the flexibility
+to use DNAreader to identify DBRs in IDRs or to predict
+entire DNA-binding regions, as current tools do. Our empirical comparative analysis shows that DNAreader outperforms DNAreaderDBIDR for the predictions of DBRs (test
+dataset 2) while DNAreaderDBIDR is better for predicting
+DNA-binding IDRs (test dataset 1). To enhance their impact, we released DNAreader and DNAreaderDBIDR as a useredu/servers/DNAreader/. The server page provides access to
+the datasets developed in this study, which the community can
+use to further expand this active research area by enabling reliable training and comparative evaluation of future predictive
+models.
+
+To summarize, DNAreader uses an innovative approach
+to generate highly accurate predictions of DBRs across both
+structured and disordered regions, with few cross-predictions.
+We note that annotations of intrinsic disorder rely on diverse experimental methods and manual curation [ 75 ] and are
+context-dependent, which can lead to inconsistencies. These
+issues can introduce false positives and false negatives at
+levels perhaps higher than those in structure-based annotations, which utilize more robust experimental tools and avoid
+manual curation. This means that while DNAreader shows
+promising results on both structure- and disorder-annotated
+proteins, these results should not be directly compared or
+equated since the quality of the ground-truth information is
+likely different.
+
+We are considering several avenues for future research. One
+option is to further improve the DNAreader’s predictive performance, for instance, by developing and using a specialized PLM for DNA-binding proteins, which would complement the embeddings from the ESM-2 PLM we currently use
+as inputs. Similar specialized PLMs were already developed
+for other protein populations, including DR-BERT for disordered proteins [ 99 ], ProstT5 for protein structures [ 100 ],
+and BCRInsight for antibodies [ 101 ]. Another potential future work is to pre-compute and make available a large collection of DNAreader’s predictions, thereby streamlining access
+and boosting the impact of our tool. These predictions could
+be incorporated into the existing, large database of residuelevel protein predictions, such as DescribePROT [ 102 , 103 ]
+and MobiDB [ 104 , 105 ]. We are also planning to investigate
+whether the predictive architecture and specialized training
+developed for DNAreader would provide similarly good results for predicting interactions with other ligands that suffer
+
+a similar disorder-structure dichotomy, such as RNAs, proteins, and peptides.
+
+Acknowledgements

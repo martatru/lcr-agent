@@ -1,0 +1,212 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 9,
+    "raw_annotations": [
+      {
+        "protein_name": "Lsm4p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "The asparagine‑rich C‑terminus is prone to aggregation, promoting efficient accumulation of the Lsm1‑7p complex in P‑bodies.",
+        "evidence": "Here we show that the Lsm4p subunit and its asparagine-rich C-terminus are prone to aggregation, and that this tendency to aggregate promotes efficient accumulation of Lsm1-7p in P-bodies.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "KlLsm4p",
+        "organism": "Kluyveromyces lactis",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "The asparagine‑rich N‑terminal region is essential for its own localization to P‑bodies in budding yeast.",
+        "evidence": "Mazzoni et al. reported that the asparagine-rich N-terminal region of the K. lactis Lsm4 protein, KlLsm4p, which is able to functionally replace its S. cerevisiae homologue, is essential for its own localization to P-bodies in budding yeast.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Ccr4p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Contains Q/N‑rich domains characteristic of low‑complexity regions.",
+        "evidence": "Some (Lsm4p, Ccr4p, Pop2p and Not1p) were previously found in a genome‑wide screen looking for yeast proteins with Q/N‑rich domains (Michelitsch and Weissman, 2000).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Pop2p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Contains Q/N‑rich domains characteristic of low‑complexity regions.",
+        "evidence": "Some (Lsm4p, Ccr4p, Pop2p and Not1p) were previously found in a genome‑wide screen looking for yeast proteins with Q/N‑rich domains (Michelitsch and Weissman, 2000).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Not1p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Contains Q/N‑rich domains characteristic of low‑complexity regions.",
+        "evidence": "Some (Lsm4p, Ccr4p, Pop2p and Not1p) were previously found in a genome‑wide screen looking for yeast proteins with Q/N‑rich domains (Michelitsch and Weissman, 2000).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Edc3p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Displays extended Q‑repeat low‑complexity regions.",
+        "evidence": "Some of the Saccharomyces homologues show further extensions of Q repeats, e.g. Edc3p, Not3p, Not4p and Not5p.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Not3p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Displays extended Q‑repeat low‑complexity regions.",
+        "evidence": "Some of the Saccharomyces homologues show further extensions of Q repeats, e.g. Edc3p, Not3p, Not4p and Not5p.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Not4p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Displays extended Q‑repeat low‑complexity regions.",
+        "evidence": "Some of the Saccharomyces homologues show further extensions of Q repeats, e.g. Edc3p, Not3p, Not4p and Not5p.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Not5p",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Displays extended Q‑repeat low‑complexity regions.",
+        "evidence": "Some of the Saccharomyces homologues show further extensions of Q repeats, e.g. Edc3p, Not3p, Not4p and Not5p.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 3553,
+    "raw_extracted_count": 10,
+    "raw_annotations": [
+      {
+        "protein_name": "Ccr4p",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential role of the N‑terminal Q/N‑rich region in P‑body localization and aggregation",
+        "evidence": "Ccr4ΔN (aa148-837) ... lacking the N‑terminal and C‑terminal Q/N‑rich regions respectively",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Pop2p",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential involvement of Q/N‑rich regions in P‑body assembly",
+        "evidence": "Q/N-rich regions do not seem to be conserved in the human homologues of budding yeast Ccr4p, Pop2p and Dhh1p",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Dhh1p",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential involvement of Q/N‑rich regions in P‑body assembly",
+        "evidence": "Q/N-rich regions do not seem to be conserved in the human homologues of budding yeast Ccr4p, Pop2p and Dhh1p",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "GW182",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Mediates P‑body localization of itself and Ago1 via an internal Q/P‑rich region",
+        "evidence": "GW182 contains an internal Q/P-rich region that is essential, but not sufficient, for its own P-body localization and that of Ago1",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Ge-1/Hedls (EDC4)",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "C‑terminal repetitive, hydrophobic‑rich sequence is essential for P‑body localization",
+        "evidence": "Ge-1/Hedls, contains a C-terminal repetitive sequence rich in hydrophobic residues that is essential for P-body localization",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "EDC4 (Ge-1)",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "High Q/N content may contribute to aggregation‑prone regions involved in P‑body assembly",
+        "evidence": "EDC4 (also known as Ge-1, Hedls), DCP2 and TNRC6B from humans as well as other higher eukaryotes contain high levels of Q and/or N residues",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Edc3p (Lsm16p)",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Q/N‑rich Edc3p cooperates with Lsm4p in P‑body assembly",
+        "evidence": "The importance of the Q/N-rich protein Edc3p (also known as Lsm16p) in combination with Lsm4p in P-body assembly in yeast",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Lsm4p",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Aggregation of Lsm4p (via its Q/N‑rich region) may be regulated to prevent unwanted P‑body formation",
+        "evidence": "An intriguing question is how Lsm4p aggregation, and that of other P-body components, is prevented under normal growth conditions",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TIA-1",
+        "organism": "Mouse",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Q‑rich regions contribute to protein accumulation in stress granules",
+        "evidence": "Q-rich regions in mouse TIA-1 and PUM2 have previously been shown to contribute to protein accumulation in stress granules",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "PUM2",
+        "organism": "Mouse",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "Q‑rich regions contribute to protein accumulation in stress granules",
+        "evidence": "Q-rich regions in mouse TIA-1 and PUM2 have previously been shown to contribute to protein accumulation in stress granules",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 3,
+    "raw_annotations": [
+      {
+        "protein_name": "PINK1",
+        "organism": "Human",
+        "start_of_annotation": "1",
+        "end_of_annotation": "136",
+        "binding_target": "Unspecified",
+        "proposed_function": "Intrinsically disordered region (IDR-1) including N-terminal mitochondrial targeting sequence; ANCHOR scores below 0.5 indicate absence of binding-prone character.",
+        "evidence": "The IDR-1, which spans from 1 to 136, includes the N-terminal mitochondrial targeting sequence.",
+        "curation_status": "Verified"
+      },
+      {
+        "protein_name": "PINK1",
+        "organism": "Human",
+        "start_of_annotation": "136",
+        "end_of_annotation": "146",
+        "binding_target": "protein-binding",
+        "proposed_function": "Linker or transition region exhibiting binding-prone character (ANCHOR scores increasing, peaking at R146); capable of disorder-to-order transitions upon interaction with binding partners.",
+        "evidence": "The boundary regions of IDR-1, S136 (IUPred: 0.6375, ANCHOR: 0.52) and K137 (IUPred: 0.6227, ANCHOR: 0.54), transitioned from disordered region additionally exhibited a transition towards a binding-prone state, initiating the linker or transition region from 136 to 146.",
+        "curation_status": "Verified"
+      },
+      {
+        "protein_name": "PINK1",
+        "organism": "Human",
+        "start_of_annotation": "175",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Most functionally significant disordered region (IDR-2).",
+        "evidence": "The most functionally significant disordered region was found to be IDR-2, which corresponds to residues 175–",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 4,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "PINK1",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Intrinsically disordered region (IDR-2) involved in binding and conformational dynamics, adjacent to the kinase domain mutations T313M and L347P.",
+        "evidence": "Although both mutations reside within the structured kinase domain, their juxtaposition to intrinsically disordered regions particularly the highly binding-prone IDR-2 implies interconnections between localized disruptions and distal conformational dynamics.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 5,
+    "chunk_length": 7439,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "PINK1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Participate in PTM-mediated regulatory mechanisms",
+        "evidence": "Furthermore, although the identified IDRs are spatially distinct from the kinase-domain variants, they may participate in PTM-mediated regulatory mechanisms; however, their functional relationship with T313M and L347P remains to be established, further offering hypothesis-generating insights to a deeper understanding of the molecular determinants underlying mitochondrial dysfunction in early-onset Parkinson’s disease (Iakoucheva et al., 2004; Valente et al., 2004).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

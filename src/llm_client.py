@@ -67,13 +67,11 @@ class LightLLMClient:
             mode=instructor.Mode.MD_JSON
         )
         self.models = [
-            "qwen/qwen3.8-27b",
+            "openai/gpt-oss-120b",
+            "qwen/qwen3.8-27b"
+            # "openai/gpt-oss-20b"
         ]
-
-        #openai/gpt-oss-120b
-        #openai/gpt-oss-20b
-        #qwen/qwen3.8-27b
-
+        
     async def generate_lcr_annotations(self, prompt: str, text: str) -> list[dict]:
         """Generates structured LCR annotations, failing over to backup models on rate limits."""
         async with self.semaphore:

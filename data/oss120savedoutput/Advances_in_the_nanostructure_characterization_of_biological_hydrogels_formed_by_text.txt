@@ -1,0 +1,380 @@
+--- 3. Results ---
+In a previous investigation to study condensation processes
+(Hutin et al., 2023), LLPS was induced for three ELF3 PrLDs
+(containing polyglutamine stretches of zero, seven and 20
+residues, referred to as Q0, Q7 and Q20, respectively) via an
+increase in temperature from 4 to 27°C, which is a range that
+can be sampled directly during SAXS data collection. Interestingly, the scattering curves collected over this temperature
+range showed a peak that appeared in the low-q region upon
+LLPS and increased in magnitude with increasing temperature. The liquid condensate formation was initially reversible
+if the temperature was quickly decreased (Hutin et al., 2023).
+However, after ageing at higher temperatures, the condensates
+coalesced macroscopically into hydrogels. While monodispersed samples and liquid condensed phases are amenable
+to SAXS measurements using an automated sample changer
+attached to a quartz capillary flow cell, this experimental setup
+is limited to liquid samples of low-to-medium viscosity (Tully
+et al., 2023). However, due to the high viscosity of hydrogels,
+this experimental setup is inadequate for sample handling and
+measurement. The traditional approach in this case would be
+to measure the samples in air. This is not optimal due to the
+increased background created by the air scattering and extra
+vacuum windows which may hinder the measurement of
+important features related to the nanostructure under investigation, particularly if these are at high q values.
+
+In this context, we developed a new X-ray-compatible
+vacuum cell, called the Gel-Cell, which allows the measurement of gel-like samples in vacuum. The cell consists of a 3D-
+printed device mounted on an aluminium holder. The (hydro)
+gel sample is sandwiched between two sheets of Kapton (or
+any other X-ray-transparent window material, such as mica or
+silicon nitride) and directly measured in vacuum (Fig. 2a). The
+Gel-Cell is compatible with the BioSAXS BM29 beamline
+at the ESRF and is adaptable to similar synchrotron SAXS
+beamline configurations. The dimensions of the Gel-Cell are
+described in Supplementary Table S1.
+
+The Gel-Cell was used to measure the hydrogels formed by
+the Q0, Q7 and Q20 variants of the ELF3 PrLD investigated in
+
+a previous study (Hutin et al., 2023). The obtained SAXS data
+(filled circles) demonstrated a prominent peak at the same q
+value as in the corresponding LLPS samples (Hutin et al.,
+2023), but interestingly this peak was more intense (Figs. 2b
+and 3). The increase in the magnitude of the structure peak
+in the hydrogel samples indicates an increase in the ordering
+of the condensates during ageing. According to AFM and
+transmission electron microscopy (TEM) data from the ELF3
+hydrogels, such a peak can be related to a lamellar stacking
+within the condensed phases (Hutin et al., 2023). It should
+be noted that this layered arrangement is distinct from the
+characteristic fibril formation observed for amyloids (Shirahama & Cohen, 1965) and is less compact compared with
+the lamellar stacking that is typically observed for lipid
+membranes and polymer lamellae (Meisburger et al., 2013;
+Hope et al., 1985), which explains the existence of a relatively
+broad peak and the lack of higher order Bragg reflections.
+
+A simplistic quantitative analysis of the scattering curves
+presented in Fig. 3 would evaluate the position of the peaks
+assumed to be the first Bragg reflection of a lamellar phase
+(Miller index 100), and from this one can calculate the lattice
+factor a (also known as lamellar periodicity) through a = 2 /
+q100. Aiming to estimate the uncertainty of a, the peaks may be
+fitted with a peak function (e.g. Gaussian, Lorentzian, Voigt
+etc.) and the uncertainty of q100 may then be propagated to a.
+Additionally, a sloping background may also be introduced, in
+combination with the peak function, to locally fit the curve and
+again extract the q100 value. Although these techniques are
+useful and convenient, such an approach is limited and unable
+to retrieve or derive further information about the objects
+forming the lamellar arrangement (i.e. large oligomers) and, as
+
+such, it is impossible to establish a direct structural comparison with the data from the dilute and liquid condensed phases
+reported previously (Hutin et al., 2023).
+
+To address these shortcomings in data analysis, we propose
+a simple three-term model that gathers all of the essential
+physical information on the investigated system and represents the scattering from all of the different species present in
+the sample: individual oligomers, aggregated oligomers and
+stacked layers. In this model, the theoretical scattered intensity is expressed by
+
+IðqÞ 1⁄4 sc1PðqÞSðqÞ þ sc2IchainðqÞ þ scaggPaggðqÞ þ back:
+ð1Þ
+
+The first term reflects the use of the decoupling approximation
+(Kotlarchyk & Chen, 1983) to factorize the form factor P(q),
+describing the size and shape of the multimeric assembly of
+the ELF3 PrLD sequences (the 30-mer oligomer ‘building
+block’), and the structure factor S(q), describing the lamellar
+stacking showed by previous AFM and TEM experiments on
+the hydrogels (Hutin et al., 2023). Aiming to be as generic as
+possible while keeping the number of fitting parameters as low
+as possible, the oligomeric assembly is represented in our
+model by polydisperse spheres, whose form factor is given by
+(Pedersen, 1997)
+
+R
+
+PðqÞ 1⁄4 hF2ðqÞi 1⁄4
+
+F2ðq; RÞfðRÞ dR
+ð2Þ
+
+with
+
+Fðq; RÞ 1⁄4 V 31⁄2sinðqRÞ qR cosðqRÞ
+
+;
+ð3Þ
+
+ðqRÞ3
+
+Uncertainties in the last digit are given in parentheses.
+
+
+Parameter
+
+
+
+Description
+Q0
+Q7
+
+
+Q20
+a (A ̊ )
+Lattice factor or, in this case, lamellar periodicity
+146.3 (3)
+146.1 (6)
+157.6 (3)
+a (A ̊ )
+Quantifies the distortion relative to an ideal lamellar lattice, being zero for an ideal lattice
+0.106 (6)
+0.120 (9)
+0.070 (6)
+Full-width at half-maximum (FWHM) of the peak, the same for all peaks in the SAXS curve
+0.0138 (1)
+0.0140 (2)
+0.0156 (2)
+Varying from 0 to 1, the fraction of Lorentz function in the pseudo-Voigt function
+0.21 (4)
+1.00 (9)
+0.07 (3)
+c
+Constant ensuring that the product of form factor and structure factor fulfils the equation for the Porod
+
+invariant
+
+R (A ̊ )
+Radius of the particles
+47.5 (3)
+44.9 (7)
+56.5 (1)
+R (%)
+Relative polydispersity of R
+23 (4)
+16 (4)
+18 (1)
+Rg (A ̊ )
+Radius of gyration related to the polymer-like scattering due to the disordered domains
+21 (1)
+32 (9)
+122 (8)
+Ragg (A ̊ )
+Radius of the aggregates
+375 (11)
+237 (5)
+334 (9)
+Ragg (%)
+Relative polydispersity of Ragg
+48 (1)
+60 (1)
+50 (1)
+sc1
+Scale factor
+0.056 (3)
+0.009 (7)
+0.037 (1)
+sc2
+Scale factor
+0.0013 (1)
+0.003 (2)
+0.026 (3)
+scagg
+Scale factor
+0.92 (1)
+0.93 (1)
+0.94 (1)
+Back 10 6
+Constant incoherent scattering contribution
+158 (1)
+372 (1)
+86 (1)
+
+where R is the radius of the sphere with volume V and contrast
+scattering length relative to the medium where the object
+is located. The number size distribution, f(R), is arbitrarily
+evaluated in our case by a lognormal function (Losito et al.,
+2021). Other more complex functions can be used to describe
+the globular oligomers, such as the revolution and triaxial
+ellipsoidal form factors (Kotlarchyk & Chen, 1983), which
+require extra fitting parameters. Nevertheless, since the
+overall fitting quality was not improved in our case, we
+continued using the form factor given by equation (2).
+
+The contribution of the lamellar stacking to the total scattering can be analytically represented by Fo ̈rster et al. (2005),
+
+SðqÞ 1⁄4 1 þ ðqÞGðqÞ1⁄2ZðqÞ 1
+ð4Þ
+
+with
+
+ðqÞ 1⁄4 1⁄2hFðqÞi2
+
+hF2qÞi ;
+ð5Þ
+
+GðqÞ 1⁄4 expð 2
+
+aa2q2Þ;
+ð6Þ
+
+P
+
+ZðqÞ 1⁄4 c
+
+LhklðqÞ;
+ð7Þ
+
+a
+
+fhklg
+
+LhklðqÞ 1⁄4 ð1 ÞGðx; Þ þ Lðx; Þ;
+ð8Þ
+
+where a is the lattice factor, defined above. The parameter
+a in the Debye–Waller factor (equation 6) quantifies the
+distortion relative to an ideal lamellar lattice and, in combination with (q) (equation 5), reduces the higher order Bragg
+reflections (Freiberger & Glatter, 2006), whereas c, appearing
+in equation (7), ensures that the product of the form factor
+and structure factor fulfils the equation for the Porod invariant
+(Fo ̈rster et al., 2005). One practical advantage of the chosen
+structure factor, among other possible options (Nallet et al.,
+1993; Zhang et al., 1994), is related to the freedom of defining
+the peak profile Lhkl(q) (equation 8), given in our case by a
+pseudo-Voigt function (Losito et al., 2021), i.e. a linear
+combination of Gaussian and Lorentzian functions that share
+the same full-width at half-maximum (FWHM), , weighted
+by the parameter , that varies between 0 and 1.
+
+10 (1)
+10 (8)
+10 (1)
+
+The second term in equation (1) is the contribution of
+a polymer-like scattering due to disordered polypeptide
+domains, modelled as a Gaussian chain with radius of gyration
+Rg (Sundblom et al., 2009):
+
+IchainðqÞ 1⁄4 21⁄2expð q2R2
+
+gÞ 1 þ q2R2
+
+g
+
+ðq2R2gÞ2
+:
+ð9Þ
+
+The third term describes the power-law slope of the scattering
+curve at low q values associated with the presence of oligomer
+aggregates. For simplicity, we used the same form factor given
+by equation (2) but with different R and R (relative polydispersity). Finally, the parameters sc1, sc2 and scagg are scale
+factors, while back introduces corrections to the incoherent
+constant background (equation 1). A summary of the fitting
+parameters as well as their description is presented in Table 1,
+while a visualization of each term of equation (1) is shown in
+Fig. 3 (left). Note that because the fittings are performed on a
+relative scale, the constant appearing in equation (3) can
+be incorporated into sc1.
+
+We used equation (1) to fit the SAXS curves shown in Fig. 3
+(right). The fittings are represented by red continuous lines
+and, as shown by the SAXS data in black, the model satisfactorily describes the scattering profile over all of the probed
+q range. The obtained values for the fitting parameters are
+summarized in Table 1.
+
+Overall, the nanostructure of the hydrogels is quite similar
+in all investigated samples, with a lamellar periodicity of 146 <
+a < 158 A ̊ and a radius of the particles of 45 < R < 57 A ̊ . As
+expected, due to its longer polypeptide chain, Q20 formed
+particles which showed a slightly larger size and lamellar
+periodicity. Relatively large values of a (between 0.07 and
+0.12 A ̊ )
+are
+compatible
+with
+the
+observed
+short-range
+ordering of the system. Equally, larger aggregate sizes are
+observed (Ragg ’ 620 A ̊ ) and an increase in the radius of
+gyration (Rg ’ 130 A ̊ ) for Q20 relative to the other sequences
+which is, again, likely to be a direct consequence of the longer
+sequence. Moreover, although all the particles have moderate
+polydispersity, between approximately 16% and 23%, the
+aggregates are quite polydisperse (between 48% and 60%),
+
+indicating large heterogeneities in the samples due to aggregation.
+
+Previous work reported that the Q0, Q7 and Q20 ELF3
+particles in the dilute phase have radii of gyration of 72.4, 73.4
+and 75.6 A ̊ , respectively (Hutin et al., 2023). Using the relation
+between these measured values and the corresponding radius
+of a sphere (R2 1⁄4 5=3R2
+
+g), we obtain values of 93.5, 94.8 and
+97.6 A ̊ , almost the double of the R values presented in Table 1,
+This indicates that the particles in the hydrogel phase are
+smaller than those in the diluted phase, suggesting a
+compaction event of the oligomeric building blocks during
+gelation. In contrast, when considering the radii of gyration
+evaluated for the condensed phase (118, 128 and 134 A ̊ ),
+presented in the previous work (Hutin et al., 2023), we obtain a
+corresponding sphere radius (of the aggregates) of 305, 330
+and 346 A ̊ , which is in fair agreement with the values of Ragg
+presented in Table 1. The lamellar periodicity values for
+hydrogels are 146, 146 and 157 A ̊
+for Q0, Q7 and Q20,
+respectively, and are in satisfactory agreement with the values
+obtained for the corresponding condensed phases (155, 163
+and 167 A ̊ for Q0, Q7 and Q20, respectively; Hutin et al.,
+2023), although systematically smaller. The difference could
+suggest the existence of a slightly more compact lamellar
+phase in the hydrogel, similar to the microenvironments
+previously observed with AFM (Hutin et al., 2023). Concurrently, the stacking spacing (i.e. the spacing between two
+adjacent layers) for the hydrogel phase, assessed by TEM, was
+found to be between 40 and 50 A ̊ (Hutin et al., 2023), which is
+in satisfactory agreement with the stacking distances obtained
+here: 51.3, 56.3 and 44.6 A ̊ for Q0, Q7 and Q20, respectively.
+
+--- 4. Conclusion ---
+In conclusion, we designed and tested a new sample holder
+that allows the measurement of gel-like samples in vacuum,
+greatly reducing the background scattering due to air scattering, which is crucial for low-scattering samples, such as
+protein hydrogels, especially when measured on a synchrotron
+beamline. The Gel-Cell is currently available at the BM29
+SAXS beamline at the ESRF and is available for integration
+into other synchrotron beamlines of similar configuration.
+Secondly, we developed a simple three-component model
+(equation 1) that allows the investigation of the nanostructure
+of hydrogels, and present an experimental test case with
+variants of the prion-like domain of ELF3. The obtained
+information is satisfactorily corroborated by previous TEM
+and AFM analyses on the same hydrogels (Hutin et al., 2023),
+which demonstrates the reliability of the proposed model and
+allows direct comparison with the structures present in the
+corresponding dilute and condensed phases previously investigated (Hutin et al., 2023). From this, we concluded that the
+ELF3 PrD hydrogels are formed by more compact oligomeric
+globular structures (relative to the oligomers present in the
+dilute phase) and their nanostructure is very similar to those
+existing in the liquid condensed phase, although the loose
+lamellar phase of hydrogels is slightly more compact. The
+same model can in principle be used for the investigation of
+
+the nanostructure of any proteinaceous or polymer system
+where structure forms in the condensed phase, thus providing
+a general framework for studies of biological hydrogel
+structure. As always, it is important to verify whether the
+assumptions underlying equation (1) are satisfied, as they
+define the limits of the model’s applicability. If any assumptions are not met, equation (1) can be modified accordingly to
+accommodate the new conditions.
+
+
+Acknowledgements
+We would like to thank Peter van der Linden and the PSCM at
+the ESRF for their support in 3D printing devices. Open
+access publication funding provided by COUPERIN CY26.
+
+Conflict of interest
+
+There are no conflicts of interest.

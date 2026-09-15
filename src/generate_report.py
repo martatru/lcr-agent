@@ -3,7 +3,7 @@ LCR Biocuration HTML Report Generator.
 
 Integrates curated Low-Complexity Region (LCR) records with UniProt metadata
 and PlaToLoCo sequence visualizers. Features an expanded fluid dashboard layout,
-responsive table wrappers, and hover-only coordinate tooltips.
+responsive table wrappers, hover-only coordinate tooltips, and optimized API caching.
 """
 
 import json
@@ -16,6 +16,15 @@ import re
 import requests
 
 PLATOLOCO_API_URL = "http://127.0.0.1:5002/restapi"
+
+# Global caches to avoid repeating identical API calls
+UNIPROT_CACHE: Dict[str, Dict[str, Any]] = {}
+PLATOLOCO_CACHE: Dict[str, Dict[str, List[Dict[str, int]]]] = {}
+
+# Single shared session reuses the underlying TCP/TLS connection across
+# requests to the same host, which noticeably speeds up the many
+# sequential calls to UniProt and PlaToLoCo made while building a report.
+HTTP_SESSION = requests.Session()
 
 
 def load_input_data(input_path: Path) -> List[Dict[str, Any]]:
@@ -64,7 +73,6 @@ def load_input_data(input_path: Path) -> List[Dict[str, Any]]:
                 _process_item(parsed_data)
         except json.JSONDecodeError:
             pass
-
     return records
 
 
@@ -80,11 +88,15 @@ def parse_coord(value: Any) -> Optional[int]:
     except (ValueError, TypeError):
         return None
 
+
 def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
-    """Fetch protein metadata, length, sequence, and GO terms from UniProt API with regex cleaning and fallback search."""
-    
+    """Fetch protein metadata, length, sequence, and GO terms from UniProt API with regex cleaning and caching."""
     clean_protein = re.sub(r'[^\w\s-]', '', protein_name).strip()
     clean_organism = re.sub(r'[^\w\s-]', '', organism).strip()
+    
+    cache_key = f"{clean_protein}_{clean_organism}"
+    if cache_key in UNIPROT_CACHE:
+        return UNIPROT_CACHE[cache_key]
 
     search_queries = [
         f'(gene:{clean_protein} OR gene_exact:{clean_protein} OR protein_name:{clean_protein}) AND (organism_name:"{clean_organism}")',
@@ -100,7 +112,7 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
         )
 
         try:
-            response = requests.get(url, timeout=10)
+            response = HTTP_SESSION.get(url, timeout=10)
             if response.status_code == 200 and response.json().get("results"):
                 res = response.json()["results"][0]
 
@@ -125,7 +137,7 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
                     .get("value", protein_name)
                 )
 
-                return {
+                result = {
                     "uniprot_id": res.get("primaryAccession", "N/A"),
                     "gene_name": gene_name,
                     "full_name": full_name,
@@ -133,12 +145,13 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
                     "sequence": res.get("sequence", {}).get("value", ""),
                     "go_terms": go_terms[:3],
                 }
+                UNIPROT_CACHE[cache_key] = result
+                return result
         except Exception as error:
             print(f"UniProt query error for '{protein_name}' with query '{query}': {error}")
             continue
-
-    # Jeśli żadne z zapytań nie zwróci wyników
-    return {
+        
+    fallback_result = {
         "uniprot_id": "N/A",
         "gene_name": protein_name,
         "full_name": protein_name,
@@ -146,6 +159,8 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
         "sequence": "",
         "go_terms": [],
     }
+    UNIPROT_CACHE[cache_key] = fallback_result
+    return fallback_result
 
 
 def query_single_platoloco_method(
@@ -219,7 +234,7 @@ def query_single_platoloco_method(
     regions_list: List[Dict[str, int]] = []
 
     try:
-        res = requests.put(f"{PLATOLOCO_API_URL}/query", json=payload, timeout=8)
+        res = HTTP_SESSION.put(f"{PLATOLOCO_API_URL}/query", json=payload, timeout=8)
         if res.status_code != 200:
             return regions_list
 
@@ -228,7 +243,7 @@ def query_single_platoloco_method(
             return regions_list
 
         for _ in range(15):
-            status_res = requests.get(f"{PLATOLOCO_API_URL}/job/{token}", timeout=5)
+            status_res = HTTP_SESSION.get(f"{PLATOLOCO_API_URL}/job/{token}", timeout=5)
             if status_res.status_code == 200:
                 st = status_res.json().get("status")
                 if st == "FINISHED":
@@ -237,7 +252,7 @@ def query_single_platoloco_method(
                     return regions_list
             time.sleep(0.5)
 
-        list_res = requests.get(f"{PLATOLOCO_API_URL}/proteins/{token}", timeout=8)
+        list_res = HTTP_SESSION.get(f"{PLATOLOCO_API_URL}/proteins/{token}", timeout=8)
         if list_res.status_code != 200:
             return regions_list
 
@@ -249,7 +264,7 @@ def query_single_platoloco_method(
         p_internal_id = prot_summary.get("id")
 
         if p_internal_id is not None:
-            details_res = requests.get(
+            details_res = HTTP_SESSION.get(
                 f"{PLATOLOCO_API_URL}/proteins/{token}/{p_internal_id}",
                 timeout=8,
             )
@@ -276,7 +291,13 @@ def query_single_platoloco_method(
 def query_platoloco(
     sequence: str, header: str = "seq"
 ) -> Dict[str, List[Dict[str, int]]]:
-    """Query all 8 PlaToLoCo predictors using isolated requests."""
+    """Query all 8 PlaToLoCo predictors using isolated requests and caching."""
+    if not sequence:
+        return {}
+
+    if sequence in PLATOLOCO_CACHE:
+        return PLATOLOCO_CACHE[sequence]
+
     method_results: Dict[str, List[Dict[str, int]]] = {
         "SEG": [],
         "SEG_intermediate": [],
@@ -287,8 +308,6 @@ def query_platoloco(
         "SIMPLE": [],
         "GBSC": [],
     }
-    if not sequence:
-        return method_results
 
     method_key_map = {
         "seg_default": "SEG",
@@ -305,6 +324,7 @@ def query_platoloco(
         regs = query_single_platoloco_method(sequence, req_key, header)
         method_results[canonical_key] = regs
 
+    PLATOLOCO_CACHE[sequence] = method_results
     return method_results
 
 
@@ -505,6 +525,7 @@ def render_record_rows(item: Dict[str, Any]) -> str:
 
     evidence_text = item.get("evidence") or "No evidence statement provided."
     source_id = item.get("source_id") or item.get("doi") or item.get("file") or "N/A"
+
     category = (
         item.get("annotation_category")
         or item.get("proposed_function")
@@ -541,20 +562,52 @@ def sort_records_by_file(records: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return sorted(records, key=lambda item: (item.get("file") or "").lower())
 
 
+def render_report_section(
+    banner_text: str,
+    records: List[Dict[str, Any]],
+    headers: List[str],
+    warning: bool = False,
+) -> str:
+    """Render one report section (banner + table) for a list of records.
+
+    Shared by both the "Verified" and "Manual check" sections so the
+    table markup only has to be maintained in a single place.
+    """
+    if not records:
+        return ""
+
+    banner_class = "section-banner warning" if warning else "section-banner"
+    header_cells = "".join(
+        f'<th class="col-source">{label}</th>' if label == "Source"
+        else f"<th>{label}</th>"
+        for label in headers
+    )
+    body_rows = "".join(render_record_rows(item) for item in records)
+
+    return f"""
+        <div class="{banner_class}">
+            <span>{banner_text}</span>
+            <span>{len(records)} entries</span>
+        </div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>{header_cells}</tr>
+            </thead>
+            <tbody>
+{body_rows}
+            </tbody>
+        </table>
+        </div>
+"""
+
+
 def generate_html_report(
     input_file: str = "data/processed/final_results.jsonl",
-    output_html: str = "data/processed/lcr_biocuration_report.html",
+    output_html: str = "/home/marta/Pulpit/lcr-agent/data/reports/lcr_biocuration_report.html",
     sort_by_file: bool = False,
 ) -> None:
-    """Generate structured HTML report dividing records into Verified and Manual Check sections.
-
-    Args:
-        input_file: Path to the JSON/JSONL results file.
-        output_html: Path where the HTML report will be written.
-        sort_by_file: If True, sort records within each section alphabetically
-            by their source PDF filename instead of keeping the original
-            (input file) order.
-    """
+    """Generate structured HTML report dividing records into Verified and Manual Check sections."""
     input_path = Path(input_file)
     if not input_path.exists():
         alt_path = Path("data/processed/verified_lcrs.json")
@@ -674,73 +727,29 @@ def generate_html_report(
         </header>
 """
 
-    if verified_records:
-        html_content += f"""
-        <div class="section-banner">
-            <span>1. Verified LCRs (Experimental Binding & Coordinates)</span>
-            <span>{len(verified_records)} entries</span>
-        </div>
-        <div class="table-wrapper">
-        <table>
-            <thead>
-                <tr>
-                    <th>UniprotID</th>
-                    <th>Gene name</th>
-                    <th>Name</th>
-                    <th>Protein length</th>
-                    <th>LCR-keyword Presence</th>
-                    <th>Organism</th>
-                    <th class="col-source">Source</th>
-                    <th>Source ID</th>
-                    <th>Start of annotation</th>
-                    <th>End of annotation</th>
-                    <th>Function</th>
-                    <th>Gene Ontology of category</th>
-                </tr>
-            </thead>
-            <tbody>
-"""
-        for item in verified_records:
-            html_content += render_record_rows(item)
-        html_content += """
-            </tbody>
-        </table>
-        </div>
-"""
-
-    if manual_check_records:
-        html_content += f"""
-        <div class="section-banner warning">
-            <span>2. Requires Manual Check (Qualitative Mentions or Missing Coordinates)</span>
-            <span>{len(manual_check_records)} entries</span>
-        </div>
-        <div class="table-wrapper">
-        <table>
-            <thead>
-                <tr>
-                    <th>UniprotID</th>
-                    <th>Gene name</th>
-                    <th>Name</th>
-                    <th>Protein length</th>
-                    <th>LCR type</th>
-                    <th>Organism</th>
-                    <th class="col-source">Source</th>
-                    <th>Source ID</th>
-                    <th>Start of annotation</th>
-                    <th>End of annotation</th>
-                    <th>Annotation Category</th>
-                    <th>Gene Ontology of category</th>
-                </tr>
-            </thead>
-            <tbody>
-"""
-        for item in manual_check_records:
-            html_content += render_record_rows(item)
-        html_content += """
-            </tbody>
-        </table>
-        </div>
-"""
+    # Both sections share the same table layout, so a single helper
+    # builds each one instead of duplicating the markup and the loop.
+    html_content += render_report_section(
+        "1. Verified LCRs (Experimental Binding & Coordinates)",
+        verified_records,
+        headers=[
+            "UniprotID", "Gene name", "Name", "Protein length",
+            "LCR-keyword Presence", "Organism", "Source", "Source ID",
+            "Start of annotation", "End of annotation", "Function",
+            "Gene Ontology of category",
+        ],
+    )
+    html_content += render_report_section(
+        "2. Requires Manual Check (Qualitative Mentions or Missing Coordinates)",
+        manual_check_records,
+        headers=[
+            "UniprotID", "Gene name", "Name", "Protein length",
+            "LCR type", "Organism", "Source", "Source ID",
+            "Start of annotation", "End of annotation",
+            "Annotation Category", "Gene Ontology of category",
+        ],
+        warning=True,
+    )
 
     html_content += """
         <div class="export-container">
@@ -802,7 +811,8 @@ if __name__ == "__main__":
         help="Path to the input JSON/JSONL results file.",
     )
     parser.add_argument(
-        "--output", default="data/processed/lcr_biocuration_report.html",
+        "--output", 
+        default="/home/marta/Pulpit/lcr-agent/data/reports/lcr_biocuration_report.html",
         help="Path where the HTML report will be written.",
     )
     parser.add_argument(

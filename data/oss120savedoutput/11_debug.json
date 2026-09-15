@@ -1,0 +1,210 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "polymerization into labile, amyloid-like fibers",
+        "evidence": "Hydrogel droplets were formed using a fusion protein linking mCherry to the LC domain of hnRNPA2 (Kato et al., 2012).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "formation of hydrogel droplets via LC domain‑mediated phase separation",
+        "evidence": "Proteomic studies of cellular proteins that bind to hydrogel droplets formed from the LC domains of both hnRNPA2 and FUS",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 5,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "hydrogel binding via its LC domain",
+        "evidence": "Proteomic studies of cellular proteins that bind to hydrogel droplets formed from the LC domains of both hnRNPA2 and FUS revealed retention of peptidyl-prolyl cistrans isomerase 1 (PPIA), the most abundant isoform of a family of peptidyl-prolyl cis-trans isomerase enzymes.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "hydrogel binding via its LC domain",
+        "evidence": "Proteomic studies of cellular proteins that bind to hydrogel droplets formed from the LC domains of both hnRNPA2 and FUS revealed retention of peptidyl-prolyl cistrans isomerase 1 (PPIA), the most abundant isoform of a family of peptidyl-prolyl cis-trans isomerase enzymes.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "formation of liquid-like droplets via its LC domain",
+        "evidence": "LC domains from a variety of proteins, including FUS, hnRNPA1, and DDX4, can prompt formation of liquid-like droplets (Altmeyer et al., 2015; Lin et al., 2015; Molliex et al., 2015; Nott et al., 2015; Patel et al., 2015).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "DDX4",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "formation of liquid-like droplets via its LC domain",
+        "evidence": "LC domains from a variety of proteins, including FUS, hnRNPA1, and DDX4, can prompt formation of liquid-like droplets (Altmeyer et al., 2015; Lin et al., 2015; Molliex et al., 2015; Nott et al., 2015; Patel et al., 2015).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "modulation of LC domain polymerization by PPIA",
+        "evidence": "We thus reasoned that the PPIA enzyme might affect the structure of hnRNPA2 fibers by facilitating cis-trans interconversion of the peptide bonds of proline residue 319 or 326 of the hnRNPA2 polypeptide.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 9,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA2",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "hydrogel retention and partitioning into liquid-like droplets",
+        "evidence": "mutational studies of the LC domain of hnRNPA2 give evidence that similar forces drive both hydrogel retention and partitioning into liquid-like droplets.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "transcription activation when fused to a DNA binding domain",
+        "evidence": "When fused to the DNA binding domain of GAL4, the LC domains of FET proteins function as transcriptional activation domains (Riggi et al., 2007).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "EWS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "transcription activation when fused to a DNA binding domain",
+        "evidence": "When fused to the DNA binding domain of GAL4, the LC domains of FET proteins function as transcriptional activation domains (Riggi et al., 2007).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TAF15",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "DNA-binding",
+        "proposed_function": "transcription activation when fused to a DNA binding domain",
+        "evidence": "When fused to the DNA binding domain of GAL4, the LC domains of FET proteins function as transcriptional activation domains (Riggi et al., 2007).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "DDX4",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "phase separation into liquid-like droplets via arginine‑phenylalanine p‑stacking",
+        "evidence": "In the case of DDX4, p-stacking between arginine and phenylalanine residues has been highlighted as a key chemical determinant for phase separation into liquid-like droplets.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "nucleoporin proteins (FG repeats)",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "formation of liquid-like droplets",
+        "evidence": "Petri et al. (2012) have reported similar observations as a function of maturation of liquid-like droplets formed from FG repeats associated with nucleoporin proteins.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "RNA polymerase II C-terminal domain (CTD)",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "binding to hydrogels",
+        "evidence": "both of which bind specifically to certain hydrogels in a manner regulated by the protein kinase enzymes known to control CTD and SR domain function.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "SR domains (serine arginine repeat)",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "binding to hydrogels",
+        "evidence": "both of which bind specifically to certain hydrogels in a manner regulated by the protein kinase enzymes known to control CTD and SR domain function.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "MBP:PTB:hnRNPA2 LC domain triple fusion protein",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "cross‑β structure formation prior to droplet formation",
+        "evidence": "Paradoxically, evidence of the existence of a low level of cross-b structure was seen in samples of the MBP:PTB:hnRNPA2 LC domain triple fusion protein before TEV release of MBP, before exposure to the synthetic RNA containing iterative PTB binding sites, and before formation of liquid-like droplets (Figure 5).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 3494,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "RNA polymerase II C-terminal domain (CTD)",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "hydrogel binding",
+        "evidence": "These include the C-terminal domain of RNA polymerase II (CTD) of RNA polymerase II and the serine arginine repeat (SR) domains of pre-mRNA splicing factors, both of which bind specifically to certain hydrogels in a manner regulated by the protein kinase enzymes known to control CTD and SR domain function (Kwon et al., 2013, 2014).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Serine arginine repeat (SR) domains of pre-mRNA splicing factors",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "hydrogel binding",
+        "evidence": "These include the C-terminal domain of RNA polymerase II (CTD) of RNA polymerase II and the serine arginine repeat (SR) domains of pre-mRNA splicing factors, both of which bind specifically to certain hydrogels in a manner regulated by the protein kinase enzymes known to control CTD and SR domain function (Kwon et al., 2013, 2014).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

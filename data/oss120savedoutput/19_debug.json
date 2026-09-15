@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 5617,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential involvement in amyloid fibril core formation via its low‑complexity N‑terminal region",
+        "evidence": "It should also be noted that FUS-LC-N contains 18 Gly and 7 Pro residues, whereas FUS-LC-C contains 36 Gly and 4 Pro residues.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "Potential involvement in amyloid fibril core formation via its low‑complexity C‑terminal region",
+        "evidence": "The larger population of Gly residues in FUS-LC-C may contribute to the identity of the core-forming segment in FUS-LC fibrils.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

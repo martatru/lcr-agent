@@ -1,0 +1,263 @@
+--- 3 Results ---
+3.1 Impact of design choices
+
+To disentangle the contribution of the pLM from that of
+parameter-efficient adaptation, we compared RIBEX with LoRA
+
+on ESM2-650M against RIBEX without LoRA using ESM2-650M,
+ESM2-3B, ESM2-15B, and ProtT5-XL backbones (Fig. 2E for the
+Bressin dataset; Fig. 2F for the RIC dataset). Across both data­
+sets, adding LoRA to ESM2-650M significantly improves perfor­
+mance over the untuned model, with the largest gains in
+Matthews Correlation Coefficient (MCC) (Supplemental Fig. 6E,
+F, available as supplementary data at Bioinformatics online) and
+AUPRC. In contrast, varying the pretrained backbone and scaling
+model size without LoRA yields only modest differences: a slight
+trend appears on the Bressin dataset but is weak and does not
+transfer clearly to the more challenging RIC benchmark. All in
+all, within this controlled comparison, task-specific LoRA adap­
+tation of ESM2-650M contributes more clearly to performance
+than increasing the size of the frozen backbone alone; explor­
+atory LoRA runs on larger ESM2 backbones are discussed in
+Supplemental Section A.3, available as supplementary data at
+Bioinformatics online. This pattern is consistent with recent
+analyses showing that, although pretrained protein language
+models outperform naive sequence representations, perfor­
+mance on many downstream tasks does not reliably scale with
+pretraining/model size and often depends on low-level features
+learned early in pretraining (Li et al. 2024).
+
+To assess the contribution of positional encodings (PEs), we
+compare RIBEX with and without PEs and with a PE-only variant
+in two benchmark settings. In panel A of Fig. 2, corresponding to
+the Bressin dataset, the PE-enabled model consistently outper­
+forms the no-PE variant. The same trend is observed in panel B
+on the human RIC dataset, where adding PEs to the LoRA-finetuned human model yields higher scores across the reported
+evaluation metrics. The PE-only model is below sequence-only
+
+on the Bressin dataset but approaches it on RIC, while the com­
+bined model remains strongest, indicating complementary se­
+quence and topology signals. This indicates that positional
+information provides a measurable benefit.
+
+3.2 Benchmarking against state-of-theart methods
+
+We benchmark RIBEX against two classes of state-of-the-art RBP
+prediction methods. First, RBP-TSTL (Peng et al. 2022), which to
+our knowledge represents the current state of the art in RBP
+prediction using pLM representations, also shown to outperform
+earlier non–deep learning approaches such as TriPepSVM.
+Second, we compare against network-based and hybrid
+approaches, including SONAR 3.0 (Brannan et al. 2016), which
+predicts RBPs by exploiting the observation that proteins inter­
+acting with multiple RBPs are themselves likely to bind RNA,
+and HydRA (Jin et al. 2023), a hybrid deep-learning framework
+that integrates protein sequence features with PPI network
+information.
+
+RIBEX with ProtT5-XL embeddings and PEs already signifi­
+cantly outperforms the baseline RBP-TSTL configuration even
+without LoRA fine-tuning, showing relative AUPRC improve­
+ments of 7.5% and 10.8% on the Bressin and RIC benchmarks,
+respectively (Fig. 2°C, D), and corresponding relative MCC gains
+of 7.1% and 9.3% (Supplemental Fig. 6°C, D, available as supple­
+mentary data at Bioinformatics online). Replacing ProtT5-XL
+with ESM2-650M slightly improves the RBP-TSTL baseline,
+particularly on the Bressin dataset. However, the RIBEX architec­
+ture consistently outperforms both configurations across all
+benchmarks, with significant AUPRC improvements (Fig. 2) and cor­
+responding MCC gains (Supplemental Fig. 6°C, D, available as supple­
+mentary data at Bioinformatics online). Motivated by the RBP-TSTL
+design, we also tested multi-species pretraining in our pipeline using
+E. coli, Salmonella, Mus musculus, and Saccharomyces cerevisiae;
+however, this strategy did not improve performance in our setting
+(see Supplemental Section B.2, available as supplementary data at
+Bioinformatics online).
+
+On the HydRA benchmark (Jin et al. 2023), we run RIBEX on
+the same dataset and compare against the published test set
+predictions distributed with HydRA, including HydRA-seq (the
+sequence-only variant with ablated network information) and
+SONAR 3.0 (Brannan et al. 2016). Details of the evaluation proto­
+col and metrics are provided in Supplemental Section A.2, avail­
+able as supplementary data at Bioinformatics online, with
+additional plots in Supplemental Section B.3, available as sup­
+plementary data at Bioinformatics online. In these supplemen­
+tary comparisons, SONAR 3.0 performs below both HydRA and
+the evaluated RIBEX variants, supporting that PPI context is in­
+formative but benefits from integration with sequence informa­
+tion (Supplemental Fig. 8, available as supplementary data at
+Bioinformatics online). Panels G and H of Fig. 2 report AUPRC to­
+gether with TopK-AUC, defined as the area under the Precisionat-top-K curve for k≤150. In this setting, both RIBEX variants—
+ESM2-650M with LoRA and ProtT5-XL without LoRA—outperform
+the HydRA baseline. For AUPRC, relative improvements over
+HydRA are approximately 5.9% and 6.6% on the subset lacking
+classical RBDs for ESM2-650M and ProtT5-XL, respectively, and
+approximately 2.5% and 2.7% on the classical-RBD subset
+
+(Fig. 2G, H). Notably, for proteins lacking classic RNA-binding
+domains (panel G) the relative drop in performance is smaller
+for RIBEX than for HydRA when compared with the classic-RBD
+subset (panel H), indicating improved robustness on this
+harder subset.
+
+
+3.3 Explainability
+To probe which aspects of the model’s learned representation
+drive
+its
+predictions,
+we
+apply
+two
+complementary
+perturbation-based analyses detailed in Section 2.5: a networklevel positional encoding scan (Fig. 3A) and a sequence-level
+computational alanine scan (Fig. 3B).
+
+3.3.1 Positional encoding scan identifies functional
+interactome communities
+
+Applying the network-level feature ablation strategy (Section
+2.5) to high-confidence true-positive RBPs can in principle iden­
+tify relevant partners for individual proteins, but these singleprotein explanations remain noisy. We therefore aggregated the
+most affected neighbour nodes across top predictions, yielding
+a per-node frequency score that highlights network regions con­
+sistently used by the model. When overlaid on a t-SNE embed­
+ding of the PE matrix (Fig. 3A), these recurrent neighbour nodes
+form spatially coherent clusters. We delineated these regions
+with DBSCAN and performed GO biological-process enrichment,
+revealing processes where RBPs play key roles, including cyto­
+plasmic translation, ribosome biogenesis, cytoskeleton organi­
+zation, ER stress-related localized translation, and centrosome/
+cell-cycle functions. As one example, the ribosome-biogenesisrelated cluster contains known ribonucleoprotein-complex com­
+ponents such as IMP3, SNU13, and NHP2, supporting that the
+model captures functionally coherent interactome regions and,
+in some cases, known RNA-associated protein complexes
+(Watkins et al. 2000; Granneman et al. 2003; Wang and Meier
+2004); see Supplemental Section A.4.1, available as supplemen­
+tary data at Bioinformatics online and Fig. 4.
+
+3.3.2 Alanine scanning resolves domain and IDR
+contributions
+
+To complement the network-level analysis, we applied in silico
+alanine scanning (Section 2.5) to correctly predicted RICpositive test proteins. The resulting per-window probability
+changes (ΔbyAla), where strong negative peaks indicate important
+sequence segments, are visualized together with smoothed
+
+
+AlphaFold
+confidence
+scores
+and
+domain/IDR
+annota­
+tions (Fig. 3B).
+
+We observed that more negative scores—corresponding to
+regions predicted to be more important for RNA binding—
+tended to occur closer to protein–RNA interfaces, where inter­
+face residues were defined as those within 10 Å of any RNA atom
+(Supplemental Fig. 11, available as supplementary data at
+Bioinformatics online). This enrichment supports the ability of
+the alanine scan to identify functionally relevant RNAbinding regions.
+
+The revised case studies recover established RNA-binding bi­
+ology across three complementary examples. In PUM2, the
+strongest sensitivity overlaps the C-terminal PUM-HD domain,
+the canonical sequence-specific RNA-binding module, with
+
+additional signal in the N-terminal disordered region overlap­
+ping the RD2 segment (Lu and Tanaka Hall 2011). In TARDBP/
+TDP-43, coherent negative signal spans RRM1 and RRM2, consis­
+tent with the tandem RRM architecture responsible for UG-rich
+RNA recognition (Lukavsky et al. 2013). In LIN28A, the alanine
+scanning highlights three important regions: the two canonical
+RNA-binding domains—the Cold-shock domain (CSD) and the
+CCHC zinc-knuckle domain, which are known to act coopera­
+tively to confer high-affinity RNA binding, and the N-terminal in­
+trinsically disordered region, which further enhances binding
+through cooperative interactions with the structured domains
+(Nam et al. 2011; Mayr et al. 2012). Additional examples, espe­
+cially IDR-rich RBPs with low-complexity, basic, or RG/RGG-rich
+RNA-associated regions such as SERBP1, TIA1, DDX4, and FUS,
+are discussed in Supplemental Section C.3 and Fig. 12, available
+as supplementary data at Bioinformatics online, with broader
+alanine-scan profiles provided in Supplemental Fig. 13, 17 and
+18, available as supplementary data at Bioinformatics online.
+
+--- 4 Discussion ---
+Here we present RIBEX as a protein-level framework for prioritiz­
+ing canonical and non-canonical RBPs by integrating sequence in­
+formation with network topology; its output is intended to
+represent direct and indirect RNA-binding propensity, not
+residue-level evidence of direct RNA contact. Across benchmarks,
+positional encodings (PE) consistently improve performance, sup­
+porting our central premise that network topology provides infor­
+mation complementary to sequence features. Accordingly, RIBEX
+remains competitive with or outperforms strong baselines such
+as RBP-TSTL and HydRA (Fig. 2°C, D, G, H), despite using a compar­
+atively simple FiLM-based fusion mechanism. A supplementary
+centrality analysis further indicates that predicted RBPs are not
+shifted toward more highly connected nodes than labeled RBPs,
+although true RBPs show the expected higher centrality (Brannan
+et al. 2016) than true non-RBPs (Supplementary Figs. 9 and 10,
+available as supplementary data at Bioinformatics online).
+
+Ablation results show that task-specific LoRA adaptation on ESM2-
+650M improves performance more than simply scaling the frozen
+pLM backbone (Fig. 2E, F). The limited effect of backbone size, espe­
+cially on the challenging RIC benchmark, indicates that human-only
+RBP prediction depends not just on sequence representation but
+also on task adaptation and contextual information, consistent with
+the additional gains from PE after LoRA fine-tuning. Dataset differen­
+ces are informative: the Bressin dataset is annotation-based,
+enriched for canonical RBPs, while the RIC dataset captures experi­
+mentally detected RNA associations, including indirect or contextdependent interactions. Methodologically, RIBEX differs from HydRA
+in how sequence and network evidence are represented and fused:
+HydRA combines separately trained sequence and SONAR 3.0 inter­
+action classifiers by late probabilistic ensembling, whereas RIBEX
+FiLM-conditions a LoRA-adapted pLM on PPR-based STRING posi­
+tional encodings during the forward pass. This coupled fusion of a
+task-adapted sequence model with broader graph-topology fea­
+tures may explain the stronger topology signal and the smaller per­
+formance drop on non-canonical RBPs (Supplemental Section A.2.1,
+available as supplementary data at Bioinformatics online). The inter­
+pretability analyses further support this view.
+
+At the sequence level, computational alanine scanning high­
+lights sensitivity in known RNA-binding domains, as well as se­
+lected IDR segments. These attributions should be interpreted
+as model-sensitivity maps for protein-level RNA-binding or RNAassociated propensity: they cannot by themselves distinguish
+residues that directly contact RNA from regions that support
+RNA-associated behaviour indirectly, for example through pro­
+tein–protein interfaces required for RNA-binding complex as­
+sembly. Thus, examples such as PUM2, TARDBP/TDP-43, and
+LIN28A support recovery of known RNA-recognition biology,
+whereas AFF4 is discussed more cautiously as RNA-associated or
+complex-context evidence (Supplemental Section C.3, available
+as supplementary data at Bioinformatics online). At the network
+level, PE ablation identifies influential interactome neighbour­
+hoods rather than causal binding mechanisms; the highlighted
+IMP3, SNU13/NHP2L1, and NHP2 examples illustrate RNPcomplex context (Supplemental Section A.4.1, available as sup­
+plementary data at Bioinformatics online).
+
+Accordingly, the main limitations are that RIBEX predicts proteinlevel RNA-binding/RNA-association propensity without resolving
+RNA targets or residue-level contacts, uses a single STRING-based
+human interactome, and provides high-level influential neighbour­
+hoods rather than causal subgraph explanations. Alanine-scan
+peaks should therefore be read as candidate domains, IDR/inter­
+face regions, or RNA-complex determinants contributing to the pre­
+diction, not as definitive RNA-contact residues.
+
+Future improvements could include tighter sequence–graph
+integration via pLM-based node features or cross-modal mes­
+sage passing, alternative PEs, and extensions to cross-species or
+protein–RNA interaction prediction, all aimed at boosting pre­
+dictive accuracy and supporting more interpretable, subgraphlevel reasoning.
+
+Taken together, our results position RIBEX as a practical
+framework for prioritizing candidate RBPs and generating mech­
+anistic hypotheses, with complementary interpretability particu­
+larly valuable for non-canonical proteins where sequence alone
+is insufficient.

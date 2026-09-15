@@ -1,0 +1,93 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "TDP-43",
+        "organism": "Unspecified",
+        "start_of_annotation": "342",
+        "end_of_annotation": "366",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates hnRNP-A2 binding and promotes aggregation",
+        "evidence": "It was noted that within this sequence there were three Gln/Asn-rich stretches (342–345, 352–357, and 363–366), raising the possibility that they were mediating this interaction.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TDP-43",
+        "organism": "Unspecified",
+        "start_of_annotation": "331",
+        "end_of_annotation": "369",
+        "binding_target": "protein-binding",
+        "proposed_function": "tandem repeat of Gln/Asn-rich region drives TDP-43 aggregation",
+        "evidence": "only the EGFP protein carrying 12 repeats (EGFP-12 Gln/Asn) was capable of efficiently promoting TDP-43 aggregation.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 3,
+    "raw_annotations": [
+      {
+        "protein_name": "TDP-43",
+        "organism": "Human",
+        "start_of_annotation": "331",
+        "end_of_annotation": "369",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates self‑aggregation of TDP‑43 via its low‑complexity Gln/Asn‑rich region",
+        "evidence": "All these results indicated that the interaction of TDP-43 with multiple repeats composed by the 331–369 TDP-43 sequence can induce in vitro and in vivo TDP-43 aggregation.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "EGFP-12 Gln/Asn",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "sequesters endogenous TDP‑43 into aggregates",
+        "evidence": "These experiments demonstrate that the EGFP-12 Gln/Asn aggregates can sequester TDP-43 only if it carries the 321–366 sequence.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TDP-43",
+        "organism": "Human",
+        "start_of_annotation": "321",
+        "end_of_annotation": "366",
+        "binding_target": "protein-binding",
+        "proposed_function": "disrupts TDP‑43–hnRNP‑A2 interaction via its Gln/Asn‑rich region",
+        "evidence": "Our previous work on TDP-43-hnRNP interactions suggested that the interaction of TDP-43 with its 321–366 Gln/Asn-rich sequence was stronger than the interaction with hnRNP-A2 as the 321–366-residue peptide was able to disrupt the TDP-43-hnRNP-A2 complex.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 4816,
+    "raw_extracted_count": 2,
+    "raw_annotations": [
+      {
+        "protein_name": "TDP-43",
+        "organism": "Unspecified",
+        "start_of_annotation": "331",
+        "end_of_annotation": "369",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates self‑aggregation of TDP-43",
+        "evidence": "We show here that a repeated TDP-43 amino acid sequence 331–369 is capable of inducing TDP-43 aggregate formation both in non-neuronal and neuronal cells that mimic many but not all of the characteristics of the inclusions found in patients.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "TDP-43",
+        "organism": "Unspecified",
+        "start_of_annotation": "339",
+        "end_of_annotation": "369",
+        "binding_target": "protein-binding",
+        "proposed_function": "provides a low‑complexity Gln/Asn repeat that drives aggregate formation",
+        "evidence": "Expression of 339–369-residue Gln/Asn repeats",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "Nucleocapsid Protein (N protein)",
+        "organism": "Unspecified",
+        "start_of_annotation": "1",
+        "end_of_annotation": "43",
+        "binding_target": "DNA-binding",
+        "proposed_function": "N-terminal intrinsically disordered region (IDR) involved in binding to the A48 aptamer and maintaining efficient interaction/structural dynamics.",
+        "evidence": "Previous studies have indicated the importance of the basic finger region of N-NTD for RNA/DNA binding. However, those studies used a truncated form of N-NTD lacking the N-terminal IDR (residues 1–43) [2,24–26].",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Nucleocapsid Protein (N protein)",
+        "organism": "Unspecified",
+        "start_of_annotation": "30",
+        "end_of_annotation": "51",
+        "binding_target": "DNA-binding",
+        "proposed_function": "N-terminal IDR segment showing newly observed signals or substantial chemical shift changes upon A48 binding, indicating specific recognition.",
+        "evidence": "Residues G30–S51 (N-terminal IDR) and T91–K102 (basic finger region) showed either newly observed signals or substantial chemical shift changes (chemical shift variation > 0.3 ppm).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Nucleocapsid Protein (N protein)",
+        "organism": "Unspecified",
+        "start_of_annotation": "26",
+        "end_of_annotation": "43",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Critical segment within the N-terminal IDR mediating A48 binding, as deletion of this region reduces binding affinity.",
+        "evidence": "This observation highlights the critical role of residues S26–Q43 within the N-terminal IDR in mediating A48 binding, a conclusion supported by backbone chemical shift variation (CSV) analysis.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Nucleocapsid Protein (N protein)",
+        "organism": "Unspecified",
+        "start_of_annotation": "91",
+        "end_of_annotation": "102",
+        "binding_target": "DNA-binding",
+        "proposed_function": "Basic finger region (part of N-NTD) involved in A48 binding, showing substantial spectral changes and containing Arg residues that interact with the aptamer.",
+        "evidence": "Residues G30–S51 (N-terminal IDR) and T91–K102 (basic finger region) showed either newly observed signals or substantial chemical shift changes (chemical shift variation > 0.3 ppm).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 8138,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  }
+]

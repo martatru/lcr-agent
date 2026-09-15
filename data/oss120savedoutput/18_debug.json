@@ -1,0 +1,243 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 3,
+    "raw_annotations": [
+      {
+        "protein_name": "hnRNPA1",
+        "organism": "Unspecified",
+        "start_of_annotation": "186",
+        "end_of_annotation": "320",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates liquid-liquid phase separation (LLPS)",
+        "evidence": "We induced LLPS of either full-length hnRNPA1Dhexa or only the hnRNPA1IDR region (amino acids 186–320, Figure 1A) by dilution into lower salt (37 mM NaCl) (Lin et al., 2015) in the presence of increasing amounts of BSA.",
+        "curation_status": "Verified"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "1",
+        "end_of_annotation": "237",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates liquid-liquid phase separation (LLPS)",
+        "evidence": "LLPS of SNAP-FUSIDR (FUS amino acids 1–237), SNAP-eIF4GIIIDR (eIF4GII amino acids 13–97), or SNAP-hnRNPA1IDR (Figure 1A) were also inhibited by the presence of BSA, lysozyme, or RNase A (Figure 2A).",
+        "curation_status": "Verified"
+      },
+      {
+        "protein_name": "eIF4GII",
+        "organism": "Unspecified",
+        "start_of_annotation": "13",
+        "end_of_annotation": "97",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates liquid-liquid phase separation (LLPS)",
+        "evidence": "LLPS of SNAP-FUSIDR (FUS amino acids 1–237), SNAP-eIF4GIIIDR (eIF4GII amino acids 13–97), or SNAP-hnRNPA1IDR (Figure 1A) were also inhibited by the presence of BSA, lysozyme, or RNase A (Figure 2A).",
+        "curation_status": "Verified"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 12,
+    "raw_annotations": [
+      {
+        "protein_name": "Dhh1",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "C‑terminal IDR enhances P‑body formation when granule assembly is partially impaired by providing additional promiscuous interactions.",
+        "evidence": "The C-terminal IDR of Dhh1, while not required for P-body formation normally, can contribute additional interactions that enhance the formation of P-bodies when granule assembly is partially impaired.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Dhh1",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR alone is not sufficient to target Dhh1 to P‑bodies.",
+        "evidence": "However, the Dhh1 IDR was not sufficient for P-body localization (Figure 5B).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Lsm4",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "C‑terminal IDR is not required for P‑body assembly under normal conditions but contributes in an Edc3‑deficient strain.",
+        "evidence": "The C-terminal IDR of Lsm4 is not required for P-body assembly normally, but plays a role in a strain lacking the P-body scaffold protein Edc3.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Lsm4",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR is insufficient for recruitment of GFP to P‑bodies when expressed as a fusion.",
+        "evidence": "the IDRs of Lsm4, Pop2, and Ccr4, were insufficient for recruitment of GFP to P-bodies (Figure 5°C).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Pop2",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR contributes to localization when the protein is otherwise poorly localized.",
+        "evidence": "However, for the already poorly localized Pop2, deletion of the IDR did have a noticeable impact on localization (Figure 5°C).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Ccr4",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "IDR is insufficient for recruitment of GFP to P‑bodies when expressed as a fusion.",
+        "evidence": "the IDRs of Lsm4, Pop2, and Ccr4, were insufficient for recruitment of GFP to P-bodies (Figure 5°C).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "FUS IDR, when fused to PTB, enhances phase separation (LLPS) by increasing number and size of assemblies.",
+        "evidence": "SNAP-PTB fused to either the FUS or Pub1 IDRs (Figure 4B). SNAP-PTB fused to either IDR showed an increase in both the number and size of the assemblies visualized (Figure 4°C).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Pub1",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Pub1 IDR, when fused to PTB, enhances phase separation (LLPS) by increasing number and size of assemblies.",
+        "evidence": "SNAP-PTB fused to either the FUS or Pub1 IDRs (Figure 4B). SNAP-PTB fused to either IDR showed an increase in both the number and size of the assemblies visualized (Figure 4°C).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA1",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "hnRNPA1 IDR can replace Dhh1 IDR to rescue P‑body assembly defects.",
+        "evidence": "All three granule-component IDRs complemented the P-body assembly defect seen in the Dhh1-DIDR construct (Figure 6B).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "human Lsm4",
+        "organism": "Human",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Human Lsm4 IDR can replace Dhh1 IDR to rescue P‑body assembly defects.",
+        "evidence": "All three granule-component IDRs complemented the P-body assembly defect seen in the Dhh1-DIDR construct (Figure 6B).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "LEA-SC",
+        "organism": "Nematode (Steinernema carpocapsae)",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "LEA‑SC IDR rescues P‑body assembly defect in Dhh1‑DIDR background.",
+        "evidence": "All three granule-component IDRs complemented the P-body assembly defect seen in the Dhh1-DIDR construct (Figure 6B).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Dcp20",
+        "organism": "Yeast",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "C‑terminal IDR contains SLiMs that interact with Edc3, affecting Dcp20 localization to P‑bodies.",
+        "evidence": "deletion of or interference with specific SLiMs in Dcp20s C-terminal IDR, which interact with a surface of Edc3.",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 9976,
+    "raw_extracted_count": 7,
+    "raw_annotations": [
+      {
+        "protein_name": "Dhh1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "does not provide a specific interaction necessary for P-body assembly",
+        "evidence": "These results argue that the Dhh1 IDR does not provide a specific interaction necessary for P-body assembly, as it can be replaced with IDRs from a variety of organisms.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Dhh1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "promotes P-body assembly in yeast",
+        "evidence": "Third, the C-terminal P/Q rich IDR of Dhh1 promotes P-body assembly in yeast, and this domain can be replaced by the IDRs of human Lsm4, hnRNPA1, or FUS, or by specific LEA proteins from brine shrimp or nematodes (Figure 6).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "FUS",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "interacts nonspecifically with generic proteins that disrupt its ability to undergo LLPS",
+        "evidence": "First, examination of the FUS, hnRNPA1, and eIF4GII IDRs reveal that they all interact nonspecifically with generic proteins, and those proteins and yeast lysates disrupt their ability to undergo LLPS in isolation (Figures 1 and 2).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "hnRNPA1",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "interacts nonspecifically with generic proteins that disrupt its ability to undergo LLPS",
+        "evidence": "First, examination of the FUS, hnRNPA1, and eIF4GII IDRs reveal that they all interact nonspecifically with generic proteins, and those proteins and yeast lysates disrupt their ability to undergo LLPS in isolation (Figures 1 and 2).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "eIF4GII",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "interacts nonspecifically with generic proteins that disrupt its ability to undergo LLPS",
+        "evidence": "First, examination of the FUS, hnRNPA1, and eIF4GII IDRs reveal that they all interact nonspecifically with generic proteins, and those proteins and yeast lysates disrupt their ability to undergo LLPS in isolation (Figures 1 and 2).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Lsm4",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "enhances yeast P-body formation; can be functionally replaced by other IDRs",
+        "evidence": "the C-terminal IDR of yeast Lsm4 can enhance yeast P-body formation, but it can be functionally replaced in this role by other IDRs (Decker et al., 2007).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "MEG-3",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "RNA-binding",
+        "proposed_function": "insufficient to form RNP granules unless RNA concentration is increased",
+        "evidence": "Similarly, the IDR of MEG-3 is not sufficient to from RNP granules in C. elegans embryos, unless the concentration of RNA in embryos was increased by preventing RNA turnover (Smith et al., 2016).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  }
+]

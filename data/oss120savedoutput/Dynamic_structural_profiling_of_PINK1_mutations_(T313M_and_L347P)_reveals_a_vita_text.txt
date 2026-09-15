@@ -1,0 +1,1283 @@
+--- 3 Results and discussion ---
+3.1 Model optimization and system
+preparation for PINK1-Ubiquitin complex
+
+The modeled PINK1 structure exhibited regions with low
+pLDDT confidence scores, signifying diminished reliability in
+specific local structural features. To enhance structural fidelity
+for downstream analyses, the model underwent refinement
+via the SWISS-MODEL homology modeling pipeline, which
+improved backbone geometry and side-chain conformations,
+thereby increasing its appropriateness for docking and molecular
+dynamics simulations. Further, this refinement involved assessing
+global structural assessment through SAVES 6.0 scores and
+Ramachandran plots to confirm the dihedral angles of residues
+were within acceptable parameters. The ubiquitin structure (PDB
+ID:1UBQ), originally obtained as a multichain assembly, was
+represented as a single monomeric chain, consistent with the
+functional role of ubiquitin in PINK1-mediated phosphorylation.
+To represent the biologically relevant phosphorylated state, the
+Ser65 residue of ubiquitin was computationally modeled as
+phosphoserine (SEP). In addition, phosphorylation at Ser228
+of PINK1 was computationally modeled to reflect its activated
+state. These residue-level changes enabled the construction of
+a physiologically relevant PINK1–Ub (Ser65-p-Ub) complex,
+ensuring that subsequent docking and simulation analyses
+accurately
+capture
+phosphorylation-dependent
+interaction
+dynamics. Likewise, the refined PINK1 model exhibited satisfactory
+stereochemical quality and overall structural stability upon
+validation. Analysis of the Ramachandran plot indicated that
+86.4% of residues reside in the most favored regions, with
+12.1% in allowed regions, reflecting superior overall backbone
+stereochemistry. Merely 0.8% of residues occupied disallowed
+regions, such that over 98% are positioned in favored or allowed
+areas: A profile indicative of a robust structural model with
+negligible steric strain. Side-chain evaluation revealed five
+residues with atypical χ1–χ2 rotamer conformations; sidechain parameters placed four in favorable regions and one in
+a less favorable region, suggesting only localized deviations.
+Backbone geometry was largely consistent (maximum residue
+deviation of 19.7; bond length/angle deviation of 4.5), with no bad
+contacts or steric clashes. However, one cis peptide bond and five
+D-amino acids are unusual and warrant verification to exclude
+modeling artifacts or context-specific features. The Z-score analysis
+showed moderate deviations in Ramachandran plot appearance
+
+alongside a suboptimal backbone conformation score, suggesting
+possible localized strain amid generally acceptable stereochemical
+parameters (Supplementary Figure 1). Subsequently, RMS Z-scores
+for bond lengths, bond angles, and side-chain planarity remained
+within acceptable limits. Additionally, the overall G-factor of
+0.36 indicated good stereochemistry, while the ERRAT quality
+factor of 94.309 confirmed reliable non-bonded interactions and
+a robust global structure. Residue-wise validation revealed most
+residues within acceptable error thresholds, exhibiting only minor
+sequence-wide fluctuations. Overall, these metrics affirm good
+model quality and stereochemical reliability, although refinement
+of localized backbone deviations could be beneficial.
+
+3.2 Ortholog-guided conservation and
+structural characterization of the PINK1
+catalytic pocket
+
+
+Comparative
+sequence
+analysis
+of
+
+
+PINK1
+orthologs
+from human (PINK1_HUMAN), mouse (PINK1_MOUSE),
+and Tribolium castaneum (PINK1_TRICA) revealed strong
+evolutionary
+conservation
+within
+the
+kinase
+domain
+(Figures 1B, 2), particularly across key catalytic motifs. The
+HRDLKPEN catalytic loop and DFG motif were strictly conserved,
+with residues Asp366 and Asp384 invariant across all species,
+consistent with their established roles in catalysis and Mg2+
+
+coordination. Integration of sequence conservation with structural
+modeling indicates that ATP is accommodated within a canonical
+kinase binding pocket, where its phosphate groups are positioned
+in proximity to Lys364 and Asp366, supporting stabilization
+within the catalytic environment. The hinge-region residue
+Val241 contributes to adenine binding, while Gly386 provides
+local conformational flexibility that may facilitate phosphate
+accommodation (Gan et al., 2022; Kumar et al., 2017). Although
+Lys219 was observed to interact with ATP, its lower conservation
+across orthologs and peripheral positioning suggest that it is
+unlikely to serve as a primary anchoring residue. The Mg2+ ion
+is positioned within the catalytic pocket in a geometry consistent
+with active kinase conformations, with primary coordination
+mediated by Asp384 of the DFG motif at a distance of ∼2.0–2.3
+Å. Asp366 further contributes to the catalytic environment,
+supporting proper orientation of ATP phosphates, while residues
+such as Asn320 and Ser167 may provide indirect stabilization,
+including water-mediated interactions, although their precise
+roles cannot be conclusively determined from the present model.
+Overall, mapping sequence conservation onto the structural model
+highlights a clear distinction between conserved catalytic residues
+and less conserved peripheral residues; the former localizes to the
+ATP-binding and Mg2+ coordination sites and underpin catalytic
+function, whereas the latter may contribute to local structural or
+electrostatic stabilization without direct involvement in catalysis.
+Collectively, the concordance between conserved sequence
+features and the modeled structural arrangement supports the
+structural plausibility of the ATP–Mg2+ binding configuration in
+human PINK1. These findings have been pictorially elaborated in
+Figures 1B, 2, respectively. However, our results provide a strong
+foundation for future experimental validation of PINK1-mediated
+ubiquitin recognition and advance an overall understanding of
+the molecular basis of early-onset autosomal recessive Parkinson’s
+
+coordination and phosphorylated residues, including ubiquitin Ser65 (Ser_p65) and the autophosphorylation site Ser228 (Ser_p228) in human PINK1,
+emphasizing their roles in catalytic activity and substrate recognition.
+
+disease and will facilitate the development of mechanism-based
+therapeutic strategies targeting PINK1-mediated mitophagy.
+
+3.3 Multi-tool pathogenicity and stability
+assessment of PINK1 mutations
+
+A total of 825 missense mutations in Human PINK1 (PTENinduced kinase 1; UniProt: Q9BXM7). A total of 825 missense
+variants were collected and subjected to functional annotation
+using the Ensembl Variant Effect Predictor (VEP). Variant
+
+identifiers (rsIDs) were submitted in batch mode to the Ensembl
+VEP database, which was used to retrieve variant consequences,
+affected genes, transcript annotations, amino acid substitutions,
+and in silico pathogenicity predictions. The returned annotations
+were parsed and processed using a custom Python script. For
+variants associated with multiple transcript-specific predictions,
+a conservative prioritization strategy was adopted. PolyPhen-2
+scores were aggregated by selecting the maximum score reported
+across all transcripts for each variant, thereby retaining the
+most damaging predicted effect. The corresponding PolyPhen-2
+qualitative prediction (benign, possibly damaging, or probably
+
+damaging) associated with the maximum score was also retained.
+Similarly, SIFT scores were aggregated by selecting the minimum
+score reported across all transcripts for each variant, as lower SIFT
+scores indicate a higher probability of deleterious functional effects.
+The corresponding SIFT prediction was retained for downstream
+analyses. Variants were subsequently filtered to retain those
+predicted as deleterious by SIFT (score ≤ 0.05) and exhibiting high
+PolyPhen-2 scores ( ≥ 0.90), indicative of potentially damaging
+amino acid substitutions. This filtering step reduced the initial
+set of 825 missense variants to 276 high-confidence deleterious
+variants. To assess clinical relevance, the filtered variants were
+annotated using the ClinVar database. Clinical significance
+classifications were then examined, and variants annotated as
+Pathogenic, Likely Pathogenic, or Pathogenic/Likely Pathogenic
+were retained. Among these, 203 variants had corresponding
+ClinVar records, of which 20 were classified as pathogenic, likely
+pathogenic, or pathogenic/likely pathogenic. Finally, variants were
+further prioritized based on ClinVar review status, retaining only
+those supported by review categories indicating “criteria provided”
+(single submitter or multiple submitters with no conflicts)
+(Table 1). This systematic filtering strategy resulted in five highconfidence clinically relevant variants: A168P (rs768091663),
+T313M (rs74315359), L347P (rs28940285), F385L (rs763416852),
+and C388R (rs1553146806), which were selected for subsequent
+structural and molecular dynamics analyses. These 5 variants
+were therefore filtered as the final high-confidence candidates and
+subjected to detailed multi-tool pathogenicity characterization
+encompassing evolutionary (EVE), disease-association (SNP&GO),
+structural
+(Missense3D),
+and
+thermodynamic
+(CUPSAT)
+prediction approaches. Thermodynamic stability analysis further
+revealed that most variants destabilized the protein structure, with
+L347P exhibiting the strongest destabilizing effect (��G = −7.23
+kcal/mol), while T313M displayed moderate yet second strongest
+destabilizing mutation (��G = −2.79 kcal/mol). Importantly,
+both T313M and L347P showed consistent deleterious predictions
+across functional, evolutionary, structural, and thermodynamic
+analyses. Based on the collective evidence obtained through SIFT,
+PolyPhen-2, EVE, structural assessment, and thermodynamic
+stability evaluation, T313M (rs74315359) and L347P (rs28940285)
+were prioritized for subsequent structural and interaction analyses.
+These variants were further examined to determine their potential
+overlap with PTM sites and kinase domain region, owing to
+their predicted impact on structural stability and functional
+regulation within the PINK1 kinase domain in Figure 1A. The
+stepwise filtering process of the variants have been represented in
+Supplementary Figure 1 and Supplementary Table 1. While, the
+total collection of 825 missense variants have been reported in
+Supplementary Table 2, respectively.
+
+3.4 Structural and regulatory landscape
+of PINK1 coupling intrinsically disorder
+regions and post-translational
+modification organization
+
+We analyzed the conformational flexibility and binding-prone
+regions within PINK1 and identified two major intrinsically
+disordered regions along with a functionally important
+linker/transition region in the PINK1 protein sequence, as
+
+presented in Supplementary Tables 1, 3. The IDR-1, which spans
+from 1 to 136, includes the N-terminal mitochondrial targeting
+sequence. The amino acids present in the IDR-1 region have
+IUPred scores higher than the threshold of 0.5, with representative
+scores of R42 (0.5419), G43 (0.5419), P52 (0.5665), and K135
+(0.5176). These scores confirm the presence of intrinsic disorder.
+The ANCHOR scores of the IDR-1 region were below 0.5,
+indicating the presence of disordered regions but the absence of
+binding-prone character. The boundary regions of IDR-1, S136
+(IUPred: 0.6375, ANCHOR: 0.52) and K137 (IUPred: 0.6227,
+ANCHOR: 0.54), transitioned from disordered region additionally
+exhibited a transition towards a binding-prone state, initiating
+the linker or transition region from 136 to 146. The disordered
+character of the IDR-1 regions shifts into the linker or transition
+region, where the ANCHOR scores of the regions show increasing
+character, peaking at R146 (ANCHOR: 0.68). These regions
+have the ability to undergo disorder-to-order transitions when
+they interact with binding partners, thus acting as molecular
+recognition features.
+
+The most functionally significant disordered region was found
+to be IDR-2, which corresponds to residues 175–211, as this
+region was found to possess the highest levels of disorder and
+binding propensity in the entire PINK1 sequence. IUPred scores
+for IDR-2 were found to rise dramatically from residue L182
+(0.5211) to peak at residue G202 (0.9381), where it recorded
+the highest score for disorder in the entire sequence. Similarly,
+ANCHOR scores for IDR-2 rose in parallel from residue L182
+(0.60) to peak at residue G202 (0.95), where it recorded the highest
+score for disorder and MoRF propensity in the entire sequence.
+This consistently elevated scores across the entire IDR-2 region,
+with 28 out of 30 residues exhibiting scores above 0.70, indicate
+strong binding propensity and a high likelihood of undergoing
+disorder-to-order transitions during protein–protein interactions.
+We further characterized the structural and functional organization
+of human PINK1, Pfam domain mapping was integrated with
+IUPred-based intrinsic disorder predictions. The domain analysis
+delineated thirteen distinct functional regions spanning the fulllength protein (Supplementary Table 2). The N-terminal region
+(residues R10–G24) encodes a mitochondrial targeting sequence
+with an amphipathic helix responsible for mitochondrial import
+and membrane targeting, followed by a transmembrane-proximal
+hydrophobic segment (L45–L56) mediating membrane association.
+A pre-kinase regulatory linker (R90–F98) provides structural
+stabilization preceding the kinase domain. The central protein
+kinase domain encompassed several functionally critical motifs:
+the glycine-rich ATP-binding loop (GxGxxG; G309–K316), which
+coordinates ATP phosphate binding and harbors the pathogenic
+T313 residue; the VAIK catalytic motif (V327–K330) for ATP
+positioning; and the hinge region (V340–P349), which stabilizes the
+catalytic pocket and contains the pathogenic L347 residue (La Sala
+et al., 2016; Strong et al., 2011). The catalytic loop HRDLKPEN
+motif (H357–N363) governs phospho-transfer, while the DFG
+motif (D384–G386) coordinates Mg2+ for kinase activation.
+A substrate-positioning activation segment (T386–D397) and a
+ubiquitin recognition surface (E417–K423) underscore the direct
+structural basis for Phospho-Ubiquitin binding.
+
+Complementing these domain annotations, disorder analysis
+revealed that the N-terminal targeting sequence, the pre-kinase
+regulatory linker, and the post-kinase C-terminal regulatory
+
+values to enable standardized comparison (HumVar: 0 = benign, 1 = possibly damaging, 2 = probably damaging; EVE: 0 = benign, 1 = uncertain, 2 = pathogenic; residue type: 0 = exposed, 1 = buried). SIFT and SNP&GO scores are presented alongside their respective
+
+Functional effects of amino acid substitutions were evaluated using SIFT, PolyPhen-2 (HumVar), EVE, SNP&GO, Missense3D, and CUPSAT. Qualitative predictions from PolyPhen-2 (HumVar), EVE, and Missense3D residue exposure were converted into numerical
+
+rs74315359
+
+
+T313M
+
+
+
+Affect
+0.00
+2.00
+1.00
+2.00
+0.78
+
+
+Neutral
+0
+
+
+Buried
+
+
+
+Damaging
+−2.79
+
+
+Destabilizing
+rs28940285
+
+
+L347P
+
+
+
+Affect
+0.00
+2.00
+1.00
+2.00
+0.77
+
+
+Disease
+3
+
+
+Buried
+
+
+
+Damaging
+−7.23
+
+
+Destabilizing
+rs763416852
+
+
+F385L
+
+
+
+Affect
+0.00
+2.00
+1.00
+2.00
+0.72
+
+
+Disease
+2
+
+
+Buried
+
+
+
+Benign
+−0.65
+
+
+Destabilizing
+kcal/mol
+
+
+Stability
+rs768091663
+
+
+A168P
+
+
+
+Affect
+0.00
+2.00
+1.00
+2.00
+0.68
+
+
+Disease
+4
+
+
+Buried
+
+
+
+Damaging
+2.39
+
+
+Stabilizing
+rs1553146806
+
+
+C388R
+
+
+
+Affect
+0.00
+2.00
+1.00
+2.00
+0.74
+
+
+Disease
+3
+
+
+Buried
+
+
+
+Damaging
+2.19
+
+
+Stabilizing
+substitution
+
+
+SIFT
+Polyphen v-2
+
+
+EVE
+
+
+
+SNP & GO
+Missense 3D
+
+
+CUPSAT
+type
+��G
+
+(��G, prediction values. Structural effects were further assessed using Missense3D and stability changes kcal/mol) predicted by CUPSAT, where positive values indicate stabilizing and negative values indicate destabilizing mutations.
+
+values
+
+
+Score
+
+
+
+Effect
+RI
+
+
+Prediction
+
+
+
+Residue
+prediction
+
+
+Score
+
+
+
+Prediction in
+values
+
+
+Score
+
+
+
+HumVar
+
+
+
+Prediction in
+rs ID
+
+
+A.A
+region (D525–W529) exhibit elevated disorder scores, consistent
+with their roles as flexible regulatory and interaction-permissive
+segments. The extreme C-terminal tail (R560–S571) similarly
+showed partial disorder, implicating it in protein stability
+regulation. Notably, the core kinase domain residues, including
+those surrounding the pathogenic T313M and L347P mutation
+sites, retained low disorder scores, confirming their structural
+rigidity within the folded kinase domain. Collectively, the
+integration of Pfam domain mapping and IUPred disorder
+prediction highlights that PINK1 employs a modular architecture
+wherein a structured catalytic core is flanked by intrinsically
+disordered regulatory regions, and that the T313M and L347P
+mutations reside within highly conserved, ordered kinase
+motifs critical for ATP binding and catalytic pocket integrity
+(Supplementary Table 3).
+
+MetaPredict evaluation revealed that IDR-2 residues were
+consistently predicted as disordered and binding prone. Beyond
+residue 211, the PINK1 sequence enters an ordered region (212–
+581) that includes the kinase domain, although only a few
+residues, S261 (IUPred: 0.5055), K262 (0.5419), R263 (0.5382),
+G264 (0.5419), and P416 (0.5254), have slightly higher disorder
+propensity and are classified as local or isolated disorder within
+the ordered kinase domain. Most importantly, the prioritized
+mutations T313M and L347P are located in the ordered kinase
+domain region (212–581) outside the IDR boundaries. However,
+their proximity to the IDR-2 region (175–211) is significant, as this
+latter region is characterized by peak binding prone propensity at
+G202 (ANCHOR: 0.95). Because T313M and L347P are located
+within the ordered kinase domain and outside the identified IDRs,
+any functional communication between these mutations and IDR-
+2 remains speculative. Further structural and biochemical studies
+are required to determine whether these mutations influence
+the dynamics or interaction propensity of IDR-2. Moreover, the
+isolated disorder of S261–G264 within the ordered kinase domain
+upstream of T313 implies the existence of locally flexible regions
+that may vary in their sensitivity to the T313M mutation.
+
+We identified a total of 16 post-translational modification
+(PTM)
+sites
+within
+the
+
+
+PINK1
+sequence,
+including
+phosphorylation, ubiquitination, and acetylation sites, as presented
+in Supplementary Table 5.
+
+The most prominent PTM type was phosphorylation, with
+ten serine and threonine residues reported as phosphorylation
+sites. Of these, S495 had the highest NetPhos score of 0.989,
+followed by S230 (0.971), S402 (0.941), and T257 (0.916). These
+serine and threonine residues are high-confidence phosphorylation
+sites, which are most likely involved in the regulation of the
+kinase activity of PINK1. S284 had a moderate phosphorylation
+score of 0.531, S261 had a score of 0.598, and S228 had
+a score of 0.522. T313, T313 exhibited a NetPhos score of
+0.553 and has been reported as a phosphorylation-associated
+residue in PhosphoSitePlus. However, the present study does
+not experimentally evaluate the phosphorylation status of T313
+or the effect of the T313M substitution on this modification.
+Ubiquitination sites were present at K135, K137, K164, K186,
+K319, and K433, whereas acetylation at K262 has already been
+reported. The presence of ubiquitination at K135 and K137,
+both of which are located within the IDR-1 boundary and the
+linker/transition zone, respectively, points towards the presence
+
+of a direct link between the disordered N-terminal region of
+
+
+PINK1.
+Within this functional architecture, T313M is located near
+the ATP-binding region of the kinase domain and affects a
+residue reported to be associated with phosphorylation. Therefore,
+the mutation may influence local regulatory mechanisms or
+kinase function, although this possibility requires experimental
+validation. Similarly, L347P occurs within a structurally conserved
+region adjacent to catalytic motifs of the kinase domain.
+Given the known structural effects of proline substitutions, this
+mutation may perturb local secondary structure and catalyticsite organization; however, these effects remain computational
+predictions that require biochemical and structural confirmation.
+Taken together, the IDR and PTM analyses offer additional
+insight into the potential structural and functional relevance of
+the prioritized T313M and L347P variants identified through the
+SNP filtering pipeline. The findings suggest that T313M may
+affect a phosphorylation-associated residue located near the ATPbinding region, while L347P may influence the structural integrity
+of a conserved catalytic segment. Although these observations
+provide plausible mechanistic explanations for the potential impact
+of these variants, the proposed effects remain computational
+predictions and require validation through phosphoproteomic
+studies, kinase activity assays, structural investigations, and
+cellular functional analyses. Collectively, the results of the
+IDR and PTM analysis could provide a robust rationale
+for the pathogenicity of the T313M and L347P mutations
+(Figures 3, 4).
+
+3.5 Characterization of evolutionary
+conservation and active site architecture
+
+The conserved region analysis of PINK1 using PRALINE
+multiple sequence alignment from five divergent mammalian
+species, namely Homo sapiens, Talpa occidentalis, Elephas maximus,
+Nycticebus coucang and Jaculus jaculus, showed the evolutionary
+conservation of the kinase domain (Figure 4). The regions 310–
+330 and 341–352 showed nearly complete conservation indicated
+by an asterisk score in the consistency row of the output. In the
+310–330 region, the invariant amino acids are T313, A321, A324,
+and A327. In the 341–352 region, the invariant amino acids are
+L343, L347, T348, and A352. In the 341–352 region, the invariant
+amino acids are also present. In the 310–330 region of the kinase
+domain of PINK1, the invariant amino acids are T313, A321, A324,
+and A327. In the 341–352 region specific to the kinase domain
+of PINK1, the invariant amino acids are L343, L347, T348, and
+
+
+A352
+We employed Structure-based active site prediction to assess
+top-ranked binding pocket (Rank 1, score: 9.28, probability: 0.542,
+average conservation score: 1.249) that included 25 residues from
+three functionally unique sub-regions of the PINK1 kinase domain:
+the ATP-binding P-loop region (residues 162–170 and 219),
+substrate recognition region (residues 275, 318, 319, 321, 324, 327),
+and the catalytic HRD motif cluster region (residues 362, 364, 366,
+367, 369, 383, 384, 386, 387, 409) with a high average conservation
+score of 1.249 for all residues within the identified active site.
+The prioritization of active residues in PINK1 for protein–protein
+docking was achieved through the integrated analysis of binding
+
+pocket prediction, evolutionary conservation, domain and motif
+annotation, PTM profiling, and SNP mutational data. The residues
+A321, A324, and A327 were directly chosen from the PrankWeb
+top-ranked pocket, where they are part of the substrate recognition
+sub-region, fully conserved in all five species according to the
+PRALINE alignment, and lie within the Ser/Thr kinase domain
+(316–501) in spatial proximity to the ubiquitination site K319.
+
+The multiple sequence alignment further revealed that
+the prioritized missense mutations, T313M and L347P are
+evolutionarily well-conserved in all five closely related mammalian
+species. More specifically, T313 lies in the asterisked region of
+evolutionary conservation between positions 310–330, whereas
+L347 lies in the equally evolutionarily well-conserved region
+between positions 341–352. This further confirmed that both
+positions are evolutionarily well-conserved and functionally
+indispensable in the kinase domain of the PINK1 protein. The
+evolutionary conservation of these positions in combination with
+their spatial proximity to or overlap with the top-ranked active
+site pocket (score: 9.28, probability: 0.542) served to further inform
+the selection of the final set of PINK1 active residues to be used
+in the protein-protein docking. More specifically, T313, A321,
+A324, A327, L343, L347, T348, and A352 were prioritized as the
+PINK1 active residues in combination with I44, L10, K49, R72,
+S65, K68, and R74 as the ubiquitin active residues in accordance
+with their well-characterized roles as the canonical hydrophobic
+recognition surface, direct phosphorylation target Ser65, and
+flanking electrostatic interface residues that define the biologically
+relevant PINK1-Ubiquitin interaction surface.
+
+3.6 Binding energetics of PINK1-ubiquitin
+complexes
+
+The Parkinson’s disease-associated variants T313M and L347P
+were subsequently introduced into the modeled PINK1 wildtype structure using the Rotamers tool in UCSF Chimera.
+Side-chain conformations were selected based on favorable
+rotamer probabilities and minimal steric clashes. Standard
+protonation states corresponding to physiological pH (∼7.0) were
+assigned, with Asp/Glu deprotonated and Lys/Arg protonated. The
+resulting wild-type and mutant models were subjected to energy
+minimization and subsequent molecular dynamics simulations.
+Guided flexible protein–protein docking of wild-type PINK1 and
+the T313M and L347P mutant complexes with native ubiquitin was
+performed using the residues identified from active-site analysis
+to investigate the impact of the missense mutations on PINK1–
+Ubiquitin interactions. A total of eight active residues were defined
+for PINK1 (T313, A321, A324, A327, L343, L347, T348, and
+A352) and seven active residues for ubiquitin (I44, L8, K49,
+S65, K68, R72, and R74), which were used as Active Interaction
+Regions (AIRs) during HADDOCK docking. The docked structures
+were then analyzed by two-dimensional interaction analysis using
+LigPlot+ (refer Figure 5) to understand the hydrogen bonding and
+hydrophobic contacts in the interface of the docked complexes. The
+interaction profiles of the three complexes showed different and
+altered contact patterns at the interface due to the introduction of
+the prioritized mutations, thus providing a direct structure-based
+rationale for the effects of T313M and L347P on the PINK1­
+Ubiquitin interface. In addition, a comparative docking study
+
+demonstrated a hierarchy of binding affinity and complex stability
+for the post-phosphorylation state complexes. The wildtype PINK1
+was identified to have the most favorable complex with Ser65­
+phosphorylated ubiquitin (pSer65-Ub), while the L347P mutant
+
+was next in order of preference, and finally, the T313M mutant.
+This order of scores for wildtype and mutants indicates a
+destabilization of the complex due to mutations. This is also evident
+from a decrease in the electrostatic interaction energy and BSA for
+
+both mutants. Among these two mutants, T313M was found to
+have the largest destabilization of the complex.
+
+From a mechanistic point of view, the observed decrease in
+the binding affinity can be attributed mainly to a considerable
+loss in the electrostatic component, which is a key factor for the
+recognition of the phosphorylated form of the ubiquitin protein,
+given the negatively charged phosphate moiety at position 65
+of the ubiquitin protein sequence. Although the van der Waals
+component is found to be mostly unchanged for all the systems
+under consideration, the loss in the electrostatic component and
+the interface for the mutant complexes point to a loss in the
+specific recognition of the phosphorylated form. Besides the smaller
+size of the complexes and the altered convergence for the mutant
+complexes indicate a loss in the stability and reliability of the
+complexes. Although a slight deviation is observed for the Z-scores
+for the complexes under consideration. The docking interactions
+and binding affinity scores have been depicted in Figure 5.
+
+The wild-type WT_PINK1_Ub complex exhibited the best
+docking characteristics, with a score of −88.4 ± 8.2, signifying
+it as the strongest interaction among all complexes. The L347P
+mutant was also studied, and it was observed to have a reduced
+score of −81.9 ± 3.4. The worst interaction was observed
+for the T313M mutant, having a score of −77.4 ± 4.9. This
+indicates that both mutants are causing destabilization of the
+interaction with phosphorylated ubiquitin, but T313M is more
+destabilizing. Significantly, cluster analysis indicated that the wildtype complex possessed the highest level of convergence, with
+123 structures falling within 10 clusters, which was the largest
+and most populated clustering profile, implying a stable and welldefined binding mode for the wild-type complex. In contrast,
+
+the pathogenic variants displayed a lower level of convergence,
+with 99 structures falling within 14 clusters for L347P, and 98
+structures falling within 12 clusters for T313M, implying a higher
+conformational heterogeneity for these two variants, suggesting
+that the L347P and T313M substitutions may destabilize the
+native binding conformation relative to the wild-type. which may
+indicate a lack of conformational convergence and stability for
+the mutant complexes. The electrostatic interactions were the
+main drivers for all the complexes, which is a reflection of the
+presence of a negatively charged phosphate group on the ubiquitin
+protein at position Ser65. The electrostatic contribution was highly
+favorable for the WT complex, where the electrostatic energy was
+estimated to be −357.6 kcal/mol ± 36.3. However, this contribution
+was greatly reduced for L347P, where the electrostatic energy
+was estimated to be −260.6 kcal/mol ± 34.7. This contribution
+was even lower for T313M, where the electrostatic energy was
+estimated to be −235.5 kcal/mol ± 62.1. This Substantial decline
+of electrostatic stabilization in both mutants suggests a disrupted
+intermolecular interaction in the recognition of phosphorylated
+ubiquitin. Considering the pivotal importance of phospho-specific
+interactions in PINK1-mediated signaling, this suggests that both
+mutants could impair the molecular recognition necessary for the
+initiation of mitophagy.
+
+Van der Waals interactions were relatively comparable for all
+systems, with values of −40.0 ± 7.1 kcal/mol (WT), −43.2 ± 7.6
+kcal/mol (L347P), and −43.5 ± 6.0 kcal/mol (T313M). This
+indicates that hydrophobic packing and short-range interactions
+are conserved between the systems. However, a difference was
+observed in the desolvation energy. The WT complex has a higher
+positive desolvation energy, compared to the lower values for
+
+the mutants, L347P and T313M, which is a possible indicator of
+reduced solvent accessibility and non-optimal interface formation.
+The values for the mutants were 2.9 ± 2.3 kcal/mol and 3.0 ± 3.7
+kcal/mol, respectively, compared to the WT value of 14.2 ± 2.5
+kcal/mol. The buried surface area, which is a significant measure
+of interface strength, was also highest for the WT complex, at
+1741.6 ± 158.8 Å2 , followed by L347P at 1624.1 ± 234.4 Å2 ,
+and then T313M at 1547.4 ± 60.8 Å2 . This reduction in buried
+surface area for all mutants indicates a loss of contact, which is
+consistent with weaker interfaces. The RMSD from the lowestenergy structure showed that, for the WT complex, there was
+greater conformational variation within the cluster, at 7.3 ± 0.1
+Å, whereas for both mutants, their RMSD was ∼3.8 Å. Although
+this could imply structural similarity within the cluster, it does not
+necessarily imply better binding but may imply that both mutants
+are adopting a less optimal but more constrained mode of binding.
+Restraints violation energy was also higher in the L347P mutant
+(105.7 ± 20.2 kcal/mol) and T313M mutant (101.3 ± 38.6 kcal/mol)
+compared to WT (89.1 ± 34.4 kcal/mol), suggesting that the mutant
+systems deviated more from ideal docking restraints. The Z-scores
+for the top clusters were −1.6 for WT, −1.8 for L347P, and −1.4
+for T313M. Though the Z-score for the top cluster in the L347P
+mutant was slightly lower than that for WT, it should be noted
+that the Z-score is a measure that depends on the distribution of
+the clusters for a particular docking simulation. Therefore, it is not
+possible to compare the Z-scores for the different systems. Instead,
+it suggests that the top cluster for each system is one of the most
+reliable among all the clusters for a particular docking simulation.
+
+Altogether, the docking outcomes suggest that the wild-type
+PINK1 forms the most stable and favorable complex with the
+phosphorylated form of ubiquitin. Moreover, the L347P and
+T313M mutations both weaken the interaction between PINK1
+and the phosphorylated form of ubiquitin; however, the T313M
+mutation appears to weaken the interaction more significantly
+than the L347P mutation. This suggests a more significant impact
+on the recognition of the phosphorylated form of ubiquitin. This
+interaction profile is a supportive computational finding that these
+mutations in the PINK1 can influence the interaction between
+PINK1 and the phosphorylated form of ubiquitin. The interaction
+scores and energies have been depicted in Table 2.
+
+3.7 Mutation-induced structural
+reorganization through flexibility,
+compactness and solvent exposure
+
+To improve the statistical robustness of the molecular dynamics
+(MD) analyses, three independent 200-ns simulations were
+performed for the WT PINK1–ubiquitin complex and the T313M
+and L347P mutant systems. Average values and standard deviations
+were calculated for RMSD, RMSF, radius of gyration (Rg), solventaccessible surface area (SASA), and intermolecular hydrogen-bond
+interactions. The replicate plots have been presented in Figures 6–8,
+respectively.
+
+Analysis of structural deviations revealed that the WT complex
+maintained a relatively stable conformational profile throughout
+the simulations, whereas both mutant systems exhibited increased
+structural fluctuations. The T313M variant displayed the
+highest average RMSD (1.0700 ± 0.2185 nm), followed by
+
+Docking was performed using HADDOCK, and the resulting complexes were evaluated based on HADDOCK score, cluster size, RMSD, van der Waals and electrostatic energies, desolvation energy, buried surface area, and Z-score. Comparative analysis highlights the
+
+(Å2 area )
+
+
+Z-score
+WT_PINK1_Ub
+−88.4 ± 8.2
+34
+± 7.3 0.1
+−40 ± 7.1
+−357.6 ± 36.3
+± 14.2 1.25
+± 1741.6 158.8
+−1.6
+
+L347P_PINK1_Ub
+−81.9 ± 3.4
+16
+± 3.8 0.2
+−43.2 ± 7.6
+± 260.6 34.7
+± 2.9 2.3
+± 1624.1 234.4
+−1.8
+
+T313M _PINK1_Ub
+−77.4 ± 4.9
+15
+± 3.8 0.1
+−43.5 ± 6.0
+−235.5 ± 62.1
+± 3.0 1.37
+± 1547.4 60.8
+−1.4
+
+(kcal/mol)
+Buried surface
+
+(kcal/mol)
+Desolvation energy
+
+energy (kcal/mol)
+Electrostatic energy
+
+score
+Cluster size
+RMSD (Å)
+Van der waals
+
+impact of T313M and L347P mutations on the binding a ffinity and structural stability of the PINK1–ubiquitin interaction.
+
+
+Complexes
+
+
+
+HADDOCK
+L347P (1.0177 ± 0.0140 nm) and WT (0.9785 ± 0.1050 nm),
+indicating greater deviation from the initial structure and
+suggesting mutation-induced destabilization of the complex.
+Consistent with this observation, residue-level flexibility analysis
+demonstrated markedly elevated RMSF values for T313M
+(1.0189 ± 0.4278 nm) and L347P (0.8416 ± 0.0593 nm)
+relative to WT (0.4521 ± 0.2223 nm), indicating increased
+local mobility in the mutant systems. Residue-wise RMSF
+mapping provided further mechanistic insight into mutationinduced conformational changes. The WT complex exhibited
+relatively uniform fluctuations across the protein sequence, with
+only minor flexible segments. In contrast, the T313M mutant
+displayed multiple highly dynamic regions spanning residues
+39–62, 142–157, 174–213, 250–263, 420–428, and 464–480. The
+
+most pronounced fluctuations were observed around residues
+201–209, where RMSF values exceeded 2.4 nm. The L347P mutant
+also exhibited enhanced flexibility but predominantly within a
+more localized region encompassing residues 193–207, with peak
+RMSF values approaching 1.9 nm. These findings indicate that
+T313M induces widespread conformational perturbations, whereas
+L347P primarily causes localized structural rearrangements. The
+radius of gyration analysis further supported these observations.
+T313M exhibited the highest Rg value (3.1760 ± 0.0733 nm),
+indicating reduced structural compactness compared with WT
+(3.0923 ± 0.0843 nm). In contrast, L347P displayed an Rg value
+(3.0199 ± 0.0528 nm) comparable to WT, suggesting that its
+destabilizing effects are less pronounced at the level of global
+protein compactness. Together, the RMSD, RMSF, and Rg
+
+analyses consistently identify T313M as the variant associated
+with the greatest dynamic instability. SASA analysis demonstrated
+increased solvent exposure in both mutant complexes relative
+to WT. Interestingly, L347P exhibited the highest average
+SASA value (360.2930 ± 3.7158 nm2), followed by T313M
+(356.9244 ± 1.6072 nm2) and WT (355.3442 ± 4.5139 nm2).
+This observation suggests that although T313M displays the
+strongest dynamic destabilization, L347P promotes greater
+solvent accessibility of the protein surface. Therefore, the two
+mutations may affect the PINK1–ubiquitin complex through
+distinct structural mechanisms. Intermolecular hydrogen-bond
+analysis revealed differences in interface dynamics among the
+systems. T313M maintained a slightly higher average number of
+hydrogen bonds (3.7720 ± 1.4532) than WT (3.4606 ± 0.7426),
+whereas L347P exhibited fewer hydrogen bonds (3.1206 ± 0.8755).
+However, the larger fluctuations observed in the mutant systems
+indicate increased dynamic rearrangement of interfacial contacts.
+Thus, hydrogen-bond counts alone do not fully capture interface
+stability and should be interpreted together with RMSD, RMSF,
+and conformational analyses. The clustered docking solutions
+for all three PINK1–ubiquitin complexes using Ambiguous
+Interaction Restraints (AIRs) defined for the predicted PINK1
+interface residues 313, 321, 324, 327, 340, 347, 348, and 352.
+For the wild-type PINK1–ubiquitin complex, 109 water-refined
+models (54% of the generated models) were grouped into 15
+clusters, with Cluster 12 identified as the top-ranked cluster. The
+T313M mutant yielded 101 clustered models (50%) distributed
+across 13 clusters, with Cluster 8 selected as the highest-ranked
+solution. The L347P mutant produced 91 clustered models
+(45%) organized into 11 clusters, with Cluster 2 representing the
+top-ranked cluster. For all systems, the highest-ranked cluster
+was selected based on the most favorable HADDOCK score and
+Z-score for subsequent interface characterization and molecular
+dynamics simulations. Trajectory inspection demonstrated
+stabilization of all systems following the initial equilibration
+phase, supporting convergence of the simulations. Nevertheless,
+both mutant systems sampled broader conformational spaces
+than WT, consistent with their elevated RMSD and RMSF
+
+values. Collectively, the replicate-supported analyses indicate
+that the WT PINK1–ubiquitin complex maintains the most
+stable interaction interface, whereas T313M induces the greatest
+conformational perturbation and dynamic instability. L347P
+exhibits a milder destabilizing effect but is associated with
+increased solvent exposure, suggesting a distinct mechanism of
+structural alteration.
+
+Although replicate simulations substantially improved the
+robustness of the molecular dynamics analyses, several limitations
+should be acknowledged. The simulations remain constrained
+by the accessible timescale and the assumptions inherent to
+the employed force field and solvent model. While convergence
+was observed for the analyzed trajectories, longer simulations
+could reveal additional conformational states not sampled
+within the current simulation window. Furthermore, different
+structural descriptors highlighted distinct aspects of mutationinduced perturbation. Specifically, T313M consistently exhibited
+the greatest dynamic instability based on RMSD, RMSF, and Rg
+analyses, whereas L347P displayed the highest solvent-accessible
+surface area. Therefore, the mutations likely alter PINK1–ubiquitin
+interactions through different structural mechanisms rather than
+a single uniform destabilization pathway warranting experimental
+validation and extended simulations would be valuable for further
+confirming these observations. The average of the replicates have
+been depicted in Supplementary Table 6 and the intermolecular
+interactions have been plotted in Supplementary Figure 5.
+
+3.7.1 MM/PBSA binding free energy
+decomposition and energetic interpretation
+
+MM/PBSA calculations were performed to estimate the
+binding energetics of the WT_PINK1–Ub, T313M_PINK1–
+Ub, and L347P_PINK1–Ub complexes. The calculated mean
+binding free energies were −1551.84 ± 559.87 kcal/mol for WT,
+−1547.44 ± 556.01 kcal/mol for T313M, and −1546.54 ± 558.16
+kcal/mol for L347P. All systems exhibited negative binding free
+energy values, indicating thermodynamically favorable complex
+formation. Although minor differences in mean binding free
+
+energy were observed among the systems, these differences were
+small relative to the associated standard deviations. Consequently,
+the MM/PBSA results do not provide sufficient evidence to
+support substantial mutation-induced changes in binding affinity
+or direct impairment of PINK1–ubiquitin recognition. Instead,
+the comparable binding free energies suggest that the overall
+thermodynamic favourability of complex formation is largely
+preserved in both mutant systems. Therefore, the functional
+consequences of T313M and L347P are more likely to arise
+from mutation-associated alterations in structural stability,
+conformational flexibility, and dynamic behavior observed during
+molecular dynamics simulations rather than from major changes
+in binding energetics. The MM/PBSA results should thus be
+interpreted as supporting broadly similar binding affinities across
+the three systems while highlighting the importance of dynamic
+and structural perturbations in understanding the potential effects
+of these variants. The MM/PBSA plots for replicates have been
+depicted in Figures 6–8. The mean and standard deviation values
+have been represented in Supplementary Table 6, respectively.
+
+3.8 Conformational landscape analysis:
+PCA- derived free energy landscape
+analysis and dynamic cross-correlation
+
+To further investigate the impact of the T313M and L347P
+mutations on the dynamic behavior of the PINK1–ubiquitin
+
+complex, principal component analysis (PCA) and dynamic
+cross-correlation matrix (DCCM) analyses were performed. PCA
+revealed that the WT complex occupied a relatively compact
+conformational space characterized by a dominant low-energy
+basin, indicating stable structural dynamics throughout the
+simulation. In contrast, both mutant systems explored broader
+conformational landscapes, reflecting increased flexibility and
+conformational heterogeneity. Among the variants, T313M
+exhibited the widest distribution across the principal components
+and sampled multiple metastable states, suggesting substantial
+disruption of the native conformational equilibrium. The L347P
+mutant also displayed an expanded conformational space
+compared with WT but remained less dispersed than T313M.
+
+
+Consistent
+with
+the
+
+
+PCA
+findings,
+
+
+DCCM
+analysis
+demonstrated that the WT complex maintained a balanced
+network of correlated and anti-correlated residue motions. The
+DCCM correlation coefficient ranges from −1 to +1, where +1
+represents fully correlated motions, −1 represents fully anticorrelated motions, and 0 indicates uncorrelated movements
+between residue pairs. The WT system displayed well-defined
+positive and negative correlation regions, indicative of coordinated
+intramolecular communication and stable ubiquitin-associated
+dynamics. In contrast, both mutations altered these dynamic
+communication networks. The T313M variant showed the most
+pronounced redistribution of correlated motions, accompanied
+by disruption of long-range residue coupling patterns observed
+in the WT system. Similarly, L347P modified residue-residue
+
+communication networks, although the extent of perturbation was
+comparatively moderate. The altered correlation patterns suggest
+that the mutations impair the coordinated motions required for
+maintaining native structural and functional interactions within
+the PINK1–ubiquitin complex. The PCA contours and the DCCM
+plots have been presented in Figure 9 and the other two replicates
+have been depicted in Supplementary Figures 3, 4. While the mean
+of MM/PBSA replicates are reported in Supplementary Table 7,
+respectively.
+
+Taken together, the PCA and DCCM analyses demonstrate
+that the pathogenic mutations induce both conformational and
+communication-level perturbations. The broader conformational
+sampling observed in PCA corresponds with the disruption
+of residue correlation networks detected by DCCM, indicating
+that mutation-induced structural flexibility is accompanied by
+altered dynamic coupling between distant protein regions. Among
+the studied variants, T313M consistently exhibited the greatest
+deviation from WT behavior, suggesting a stronger destabilizing
+effect on the dynamic architecture of the PINK1–ubiquitin
+complex. These findings are in agreement with RMSD, RMSF, and
+radius of gyration analyses, collectively supporting the conclusion
+that T313M causes the most substantial dynamic perturbation,
+whereas L347P produces a moderate but measurable disruption of
+protein stability and communication. Dynamic cross-correlation
+matrix (DCCM) plots showing correlated and anti-correlated
+residue motions in WT, T313M, and L347P PINK1–ubiquitin
+complexes. Correlation coefficients range from −1 (strong anticorrelated motion; blue) to +1 (strong correlated motion; red), with
+values near 0 indicating weak or absent correlation.
+
+--- 4 Conclusion ---
+In this study, we employed an integrative computational
+framework to assess the potential structural and functional
+ramifications of human PINK1 mutations in the ubiquitin binding
+interface. Structural assessment confirmed the modeled PINK1’s
+acceptable stereochemical characteristics, laying a groundwork
+for ensuing further computational analyses. Consistent with this,
+the conserved catalytic architecture and structurally coherent
+ATP–Mg2+ binding environment offer a structurally informed
+context for examining the potential effects of missense mutations
+within the PINK1 kinase domain and ubiquitin-binding interface.
+An extensive multi-step SNP ranking protocol invariably identified
+T313M and L347P as the most damaging variants, followed
+by sequence conservation, structural interment, and predicted
+thermodynamic instability. Scrutiny of intrinsically disordered
+regions and prospective post-translational modifications revealed
+that, notwithstanding their placement within the structured kinase
+domain, the mutations’ adjacency to dynamic regulatory domains
+could undermine conformational pliability, phosphorylation
+likelihood, and interaction kinetics, thus extending their
+disruptive effects beyond localized structural perturbations.
+Phylogenetic conservation profiling and active-site prediction
+established that residues T313 and L347 occupy evolutionarily
+preserved functional territories and lie in spatial proximity to
+the ubiquitin-binding interface. Subsequently, these mutations
+exemplify discrete mechanistic archetypes: L347P occupies a
+
+profoundly conserved kinase domain expanse that intersects the
+inferred active site, portending overt compromise of structural
+coherence and catalytic residue alignment; Comparatively, T313M
+corresponds to a forecasted phosphorylation locus proximate to
+regulatory elements, intimating that its principal repercussions
+derive from attenuated post-translational modification. Previous
+studies have suggested that pathogenic mutations occurring
+at phosphorylation sites can disrupt PTM-dependent protein–
+protein interactions, particularly within intrinsically disordered
+regions, thereby altering signaling mechanisms (Rrustemi et al.,
+2024).
+This mechanistic dichotomy between L347P and T313M is
+further substantiated by the overarching structural architecture.
+
+
+Although
+both
+mutations
+reside
+within
+the
+structured
+kinase domain, their juxtaposition to intrinsically disordered
+regions particularly the highly binding-prone IDR-2 implies
+interconnections between localized disruptions and distal
+conformational dynamics. Accordingly, L347P is positioned within
+the kinase domain and is predicted to influence the ubiquitinbinding interface due to its proximity to conserved structural
+elements, whereas T313M may exert more indirect effects by
+perturbing regulatory features, including phosphorylationassociated interactions and allosteric communication with
+adjacent flexible regions. Notably, both variants have been
+reported in association with Parkinson’s disease. The T313M
+mutation, located within the PINK1 kinase domain, segregates
+with early-onset Parkinson’s disease in a recessive manner,
+indicating a loss-of-function effect. Given the central role
+of the kinase domain in ubiquitin phosphorylation, this
+mutation is likely to impair PINK1-mediated activation of the
+ubiquitin–Parkin pathway (Chishti et al., 2006; Doostzadeh
+et al., 2007; Luo et al., 2014; Moriwaki et al., 2008) and
+disruption of PINK1 function has been shown to impair
+mitophagy
+and
+mitochondrial
+homeostasis,
+highlighting
+the importance of PINK1 integrity in maintaining cellular
+quality control mechanisms (Beilina et al., 2005; Hu et al.,
+2025).
+Molecular docking simulations corroborate this paradigm,
+disclosing attenuated interaction stability across both mutants
+most acutely in T313M and vitiated electrostatic contributions
+vital for phosphorylated ubiquitin discernment. Protein–protein
+docking specifically demonstrated that the wild-type complex
+manifests optimal binding to phosphorylated ubiquitin, while
+the mutants, especially T313M, evince diminished affinity,
+enfeebled electrostatic engagements, and contracted buried
+surface areas. As electrostatic forces are indispensable for
+apprehending the anionic phosphate moiety at Ser65, their
+abatement furnishes a mechanistic underpinning for deficient
+phospho-specific recognition. Molecular dynamics simulations
+reinforce these structural inferences, unmasking compromised
+stability and aberrant dynamic profiles in mutant complexes
+vis-à-vis the wild-type. Across an array of trajectory-derived
+metrics encompassing RMSD, RMSF, radius of gyration, and
+SASA. The mutants displayed amplified structural deviations,
+eroded compactness, and modified solvent exposure. These
+perturbations may conjointly attest that T313M and L347P
+destabilize the key- intrinsic rigidity of the PINK1–Ub complex.
+Hydrogen bonding scrutiny and contact durability assessments
+further indicate that mutants may not perpetuate enduring
+
+intermolecular liaisons across the simulation duration. Whereas
+the wild-type sustains coherent interaction matrices, the mutants
+proffer episodic and tenuous associations, consonant with
+eroded interfacial robustness. Principal Component Analysis
+unveils divergences in the conformational terrains traversed
+by wild-type and mutant ensembles. The wild-type complex
+populates
+a
+circumscribed,
+thermodynamically
+privileged
+basin, signifying a stable, converged structural ensemble. By
+contrast, T313M and L347P mutants span broader, more diffuse
+realms in principal component coordinates, indicating increased
+conformational heterogeneity.
+
+The corresponding free energy landscapes further demonstrate
+that mutant systems populate multiple shallow minima rather
+than a single dominant basin which is consistent with reduced
+interface stability, increased conformational heterogeneity, and
+altered dynamic behavior rather than a substantial reduction
+in binding affinity. Notably, T313M exhibits a greater degree
+of dispersion compared to L347P, aligning with its more
+pronounced destabilizing effect observed in docking and
+energetic analyses. Binding free energy calculations using the
+MM/PBSA approach indicate broadly comparable binding
+free energies across the wild-type and mutant complexes.
+Although minor differences in the energetic components
+were observed, these were small relative to the associated
+variability and do not support substantial mutation-induced
+changes in overall binding affinity. Instead, the molecular
+dynamics analyses suggest that the functional consequences of
+the mutations arise primarily from altered interface stability,
+conformational flexibility, and dynamic behavior. Given that
+ATP–Mg2+-dependent kinase activity is expected to rely on
+precise electrostatic environments, the observed electrostatic
+differences may contribute to altered functional interactions;
+however, these observations are computational predictions that
+require experimental validation.
+
+
+Dynamic
+cross-correlation
+matrix
+(DCCM)
+analysis
+provides additional insight into how these mutations influence
+intramolecular communication networks. The wild-type complex
+exhibits coordinated correlated motions between the kinase
+domain and the ubiquitin-binding interface, reflecting an
+efficient transmission of dynamic signals necessary for substrate
+recognition and catalysis. In contrast, both mutants show a
+reduction in these correlated motions, accompanied by an increase
+in anti-correlated regions. This disruption of coordinated dynamics
+suggests that the mutations impair long-range communication
+pathways within the protein. For T313M, this effect may be
+linked to its proximity to flexible and regulatory regions,
+including IDR-2, supporting a potential allosteric mechanism.
+For L347P, the disruption appears more structurally localized
+but still propagates to affect global dynamic behavior. Within
+the context of ATP–Mg2+-dependent kinase stabilization, these
+perturbations may compromise the precise structural and
+electrostatic environment required for efficient catalysis and
+substrate recognition.
+
+Collectively, these findings converge to indicate that mutations
+such as T313M (Al-Mubarak et al., 2015) and L347P induce subtle
+yet functionally significant perturbations in structural stability, The
+PTM analysis suggests that Thr313 may represent a functionally
+important phosphorylation-associated residue in PINK1. Previous
+experimental studies have shown that phosphorylation at Thr313
+
+contributes to PINK1 kinase activity, and that the T313M
+substitution can impair phosphorylation-dependent regulation.
+Similarly, L347P is predicted to perturb the structural integrity of
+the kinase domain (Guo et al., 2017; Luo et al., 2014). Furthermore,
+although the identified IDRs are spatially distinct from the
+kinase-domain variants, they may participate in PTM-mediated
+regulatory mechanisms; however, their functional relationship with
+T313M and L347P remains to be established, further offering
+hypothesis-generating insights to a deeper understanding of the
+molecular determinants underlying mitochondrial dysfunction in
+early-onset Parkinson’s disease (Iakoucheva et al., 2004; Valente
+et al., 2004). Clinical diagnosis of PD remains primarily grounded
+in a detailed medical history and neurological examination,
+with emphasis on hallmark motor features such as bradykinesia,
+resting tremor, rigidity, and postural instability. While this
+clinical framework is essential, it often reflects a stage at
+which substantial neuronal loss has already occurred, thereby
+limiting insight into the early molecular events driving disease
+onset. In this regard, there is a compelling need to incorporate
+early genetic screening for ARPD associated genes, particularly
+PINK1, whose functional role in mitophagy is central to
+mitochondrial quality control. Mutations in PINK1 can impair
+the initiation and regulation of mitophagic pathways well before
+overt clinical manifestations emerge. Consequently, identifying
+such variants at or near disease onset rather than after
+symptom progression offers a more meaningful opportunity
+to delineate how mitophagy dysfunction contributes to PD
+pathogenesis. Prioritizing early-stage genetic screening, especially
+in individuals with early-onset presentations in their bloodline,
+may therefore enhance mechanistic stratification of the disease
+by linking clinical phenotypes with underlying mitochondrial and
+mitophagic defects. Our study’s approach does not imply reversal
+of established neurodegeneration, but rather underscores the
+importance of capturing the disease at a stage where its molecular
+determinants, including mitophagy impairment, can be more
+accurately understood and contextualized. The present study is
+based entirely on computational analyses, including pathogenicity
+prediction, structural modeling, molecular docking, molecular
+dynamics simulations, and binding free-energy calculations.
+Consequently, no experimental validation, such as biochemical,
+cellular, or animal-based functional assays, was performed to
+confirm the predicted effects of the investigated variants. In
+addition, no clinical or patient-derived datasets were used to
+validate the proposed associations between the identified mutations
+and disease phenotypes. Therefore, the structural and functional
+consequences of T313M and L347P described herein should
+be regarded as computationally derived hypotheses that require
+further experimental and clinical investigation.
+
+Data availability statement
+
+The original contributions presented in the study are included
+in the article/Supplementary material, further inquiries can be
+directed to the corresponding author.

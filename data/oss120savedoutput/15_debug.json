@@ -1,0 +1,125 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_length": 12000,
+    "raw_extracted_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "Puf3",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "recruits the Ccr4-Not complex via interaction of its low‑complexity N‑terminal region with non‑enzymatic subunits of Ccr4-Not",
+        "evidence": "Thus, our data are consistent with Puf3 and Zfs1 recruiting the Ccr4-Not complex primarily through an interaction between their low-complexity regions and the non-enzymatic subunits of Ccr4-Not.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Zfs1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "recruits the Ccr4-Not complex via interaction of its low‑complexity N‑terminal region with non‑enzymatic subunits of Ccr4-Not",
+        "evidence": "Thus, our data are consistent with Puf3 and Zfs1 recruiting the Ccr4-Not complex primarily through an interaction between their low-complexity regions and the non-enzymatic subunits of Ccr4-Not.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Puf3",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "contains an extended N‑terminal region of low amino‑acid sequence complexity predicted to be predominantly disordered",
+        "evidence": "In addition to a C-terminal RNA-binding domain, both Puf3 and Zfs1 contain an extended N-terminal region of low amino acid sequence complexity that is predicted to be predominantly disordered (Figure 2B).",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Zfs1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "contains an extended N‑terminal region of low amino‑acid sequence complexity predicted to be predominantly disordered",
+        "evidence": "In addition to a C-terminal RNA-binding domain, both Puf3 and Zfs1 contain an extended N-terminal region of low amino acid sequence complexity that is predicted to be predominantly disordered (Figure 2B).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 1,
+    "chunk_length": 12000,
+    "raw_extracted_count": 1,
+    "raw_annotations": [
+      {
+        "protein_name": "Puf3",
+        "organism": "Unspecified",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "Allosteric activation of the Ccr4-Not complex leading to accelerated deadenylation of off‑target RNAs",
+        "evidence": "Since Puf3 with a mutated RNA-binding domain still stimulates deadenylation, allosteric activation of Ccr4-Not by the Puf3 low complexity region may contribute to this accelerated deadenylation of off-target RNAs (Figure 2—figure supplement 1D).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 2,
+    "chunk_length": 12000,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  },
+  {
+    "chunk_index": 3,
+    "chunk_length": 12000,
+    "raw_extracted_count": 4,
+    "raw_annotations": [
+      {
+        "protein_name": "Puf3",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates recruitment of non-enzymatic Ccr4-Not subunits during deadenylation",
+        "evidence": "Interactions between the low-complexity regions of Puf3/Zfs1 and non-enzymatic subunits of Ccr4-Not are critical to this process.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Zfs1",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "mediates recruitment of non-enzymatic Ccr4-Not subunits during deadenylation",
+        "evidence": "Interactions between the low-complexity regions of Puf3/Zfs1 and non-enzymatic subunits of Ccr4-Not are critical to this process.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Puf3",
+        "organism": "Schizosaccharomyces pombe",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "protein-binding",
+        "proposed_function": "low-complexity region contributes to interaction with Ccr4-Not complex",
+        "evidence": "Thus, the low-complexity region of S. pombe Puf3 and the non-enzymatic subunits of Ccr4-Not play important roles in the interaction.",
+        "curation_status": "Requires Manual Check"
+      },
+      {
+        "protein_name": "Puf3",
+        "organism": "Saccharomyces cerevisiae",
+        "start_of_annotation": "Unspecified",
+        "end_of_annotation": "Unspecified",
+        "binding_target": "Unspecified",
+        "proposed_function": "phosphorylation of low-complexity region regulates rapid mRNA decay",
+        "evidence": "Similarly, phosphorylation occurs throughout the lowcomplexity region of S. cerevisiae Puf3, and this stops the rapid decay of transcripts to which it is bound (Lee and Tu, 2015).",
+        "curation_status": "Requires Manual Check"
+      }
+    ]
+  },
+  {
+    "chunk_index": 4,
+    "chunk_length": 3676,
+    "raw_extracted_count": 0,
+    "raw_annotations": []
+  }
+]

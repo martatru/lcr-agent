@@ -1,17 +1,24 @@
 """
-Core pipeline orchestration module for PDF text extraction and LLM biocuration.
+Core pipeline orchestration module for PDF text extraction, DOI identification, and LLM biocuration.
 """
 
 import asyncio
 import json
 import logging
+import hashlib
 from pathlib import Path
 
 from dotenv import load_dotenv
 
 from generate_report import generate_html_report
 from llm_client import LightLLMClient
-from text_extractor import parse_pdf, extract_core_results_only, chunk_text
+from text_extractor import (
+    extract_tagged_sections,
+    chunk_sections_by_paragraphs,
+    deduplicate_annotations,
+    extract_doi_from_text,
+)
+from database import init_db, save_paper_results, is_paper_processed
 
 load_dotenv()
 
@@ -20,6 +27,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+PROMPT_VERSION = "v1.0"
 PROMPT_LCR = """Your task is to go through the text provided, read it thoroughly, and identify the exact presence or close-remote relationship of the following keywords: low-complexity, low-complexity region(s), 
 LCR, repeat(s), tandem repeat(s), repetitive, instrinsically disordered region(s), IDP, IDR, and any other related terms that indicate the presence of a low-complexity region (LCR) or low-complexity domain (LCD) 
 in a protein. 
@@ -37,120 +45,75 @@ the relationship EXISTS.
 """
 
 
-# =============================================================================
-# OLD TEXT FILE PROCESSING FUNCTION (PRESERVED & COMMENTED OUT)
-# =============================================================================
-# async def process_text_file(
-#     text_path: Path, client: LightLLMClient
-# ) -> list[dict]:
-#     """Process a pre-extracted text file, chunk text, and query LLM API."""
-#     logger.info("Processing file: %s", text_path)
-#
-#     try:
-#         clean_text = text_path.read_text(encoding="utf-8")
-#     except Exception as err:
-#         logger.error("Error reading text file %s: %s", text_path, err)
-#         return []
-#
-#     if not clean_text.strip():
-#         logger.warning("File is empty: %s", text_path)
-#         return []
-#
-#     chunks = chunk_text(clean_text, chunk_size=12000, overlap=2000)
-#     all_annotations = []
-#     debug_logs = []
-#
-#     for idx, chunk in enumerate(chunks):
-#         logger.info(
-#             "Processing chunk %d/%d for %s...",
-#             idx + 1,
-#             len(chunks),
-#             text_path.name,
-#         )
-#         annotations = await client.generate_lcr_annotations(PROMPT_LCR, chunk)
-#
-#         all_annotations.extend(annotations)
-#
-#         debug_logs.append(
-#             {
-#                 "chunk_index": idx,
-#                 "chunk_length": len(chunk),
-#                 "raw_extracted_count": len(annotations),
-#                 "raw_annotations": annotations,
-#             }
-#         )
-#
-#         if idx < len(chunks) - 1:
-#             await asyncio.sleep(20)
-#
-#     debug_dir = Path("data/debug")
-#     debug_dir.mkdir(parents=True, exist_ok=True)
-#     file_stem = text_path.stem
-#
-#     json_debug_file = debug_dir / f"{file_stem}_debug.json"
-#     with open(json_debug_file, "w", encoding="utf-8") as f:
-#         json.dump(debug_logs, f, indent=2, ensure_ascii=False)
-#
-#     return all_annotations
-# =============================================================================
+def compute_file_hash(file_path: Path) -> str:
+    """Compute SHA256 hash of a file for resume and provenance tracking."""
+    hasher = hashlib.sha256()
+    with open(file_path, "rb") as f:
+        while chunk := f.read(8192):
+            hasher.update(chunk)
+    return hasher.hexdigest()
 
 
 async def process_pdf_file(
     pdf_path: Path, client: LightLLMClient
-) -> list[dict]:
-    """Extract text directly from PDF, clean core sections, chunk, and query LLM API."""
-    logger.info("Processing file: %s", pdf_path)
+) -> tuple[str, list[dict]]:
+    """Extract text by tagged sections, identify DOI, chunk, and query LLM API."""
+    logger.info("Processing file: %s", pdf_path.name)
 
-    raw_text = parse_pdf(str(pdf_path))
-    if not raw_text.strip():
-        logger.error("Failed to extract text from PDF: %s", pdf_path)
-        return []
+    sections = extract_tagged_sections(str(pdf_path))
+    if not sections:
+        logger.error("Failed to extract text from PDF: %s", pdf_path.name)
+        return "", []
 
-    clean_text = extract_core_results_only(raw_text)
-    if not clean_text.strip():
-        logger.warning("Extracted core text is empty for file: %s", pdf_path)
-        return []
+    # Extract DOI from the full extracted text
+    full_text = "\n".join([s["text"] for s in sections])
+    extracted_doi = extract_doi_from_text(full_text) or ""
+    if extracted_doi:
+        logger.info("Identified DOI for %s: %s", pdf_path.name, extracted_doi)
+    else:
+        logger.warning("No DOI found in text for %s. Falling back to filename.", pdf_path.name)
 
-    chunks = chunk_text(clean_text, chunk_size=12000, overlap=2000)
-    all_annotations = []
+    chunks = chunk_sections_by_paragraphs(sections, max_chunk_size=8000)
+    raw_annotations = []
     debug_logs = []
 
-    for idx, chunk in enumerate(chunks):
-        logger.info(
-            "Processing chunk %d/%d for %s...",
-            idx + 1,
-            len(chunks),
-            pdf_path.name,
-        )
-        annotations = await client.generate_lcr_annotations(PROMPT_LCR, chunk)
+    for idx, chunk in enumerate(chunks, start=1):
+        logger.info("Processing chunk %d/%d for %s...", idx, len(chunks), pdf_path.name)
+        result = await client.generate_lcr_annotations(PROMPT_LCR, chunk)
 
-        all_annotations.extend(annotations)
+        status = result.get("status")
+        annotations = result.get("annotations", [])
 
-        debug_logs.append(
-            {
-                "chunk_index": idx,
-                "chunk_length": len(chunk),
-                "raw_extracted_count": len(annotations),
-                "raw_annotations": annotations,
-            }
-        )
+        if status in ("ok", "empty"):
+            raw_annotations.extend(annotations)
+        elif status == "failed":
+            logger.error(
+                "Chunk %d failed on %s: %s", idx, pdf_path.name, result.get("error")
+            )
 
-        if idx < len(chunks) - 1:
-            await asyncio.sleep(20)
+        debug_logs.append({
+            "chunk_index": idx,
+            "chunk_length": len(chunk),
+            "status": status,
+            "raw_extracted_count": len(annotations),
+            "raw_annotations": annotations
+        })
 
+    # Save debug logs
     debug_dir = Path("data/debug")
     debug_dir.mkdir(parents=True, exist_ok=True)
-    file_stem = pdf_path.stem
-
-    json_debug_file = debug_dir / f"{file_stem}_debug.json"
+    json_debug_file = debug_dir / f"{pdf_path.stem}_debug.json"
     with open(json_debug_file, "w", encoding="utf-8") as f:
         json.dump(debug_logs, f, indent=2, ensure_ascii=False)
 
-    return all_annotations
+    clean_annotations = deduplicate_annotations(raw_annotations)
+    return extracted_doi, clean_annotations
 
 
 async def main():
     """Main execution workflow for processing PDF files directly."""
+    init_db()
+
     input_dir = Path("/home/marta/Pulpit/lcr-agent/data/paper_pdf")
     output_dir = Path("/home/marta/Pulpit/lcr-agent/data/processed")
     reports_dir = Path("/home/marta/Pulpit/lcr-agent/data/reports")
@@ -194,25 +157,57 @@ async def main():
     logger.info("Found %d PDF files in %s", len(pdf_files), input_dir)
 
     client = LightLLMClient(max_concurrent=1)
+    await client.validate_models()
+
     results = []
 
     for pdf_file in pdf_files:
-        annotations = await process_pdf_file(pdf_file, client)
-        if annotations:
-            results.append({"file": pdf_file.name, "annotations": annotations})
+        file_hash = compute_file_hash(pdf_file)
 
-    with open(jsonl_output_file, "w", encoding="utf-8") as f:
-        for entry in results:
-            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+        # Extract DOI and annotations
+        extracted_doi, annotations = await process_pdf_file(pdf_file, client)
+
+        # Determine unique paper identifier (DOI preferred over filename)
+        paper_id = extracted_doi if extracted_doi else pdf_file.stem
+
+        if is_paper_processed(paper_id):
+            logger.info("Skipping already processed paper: %s", paper_id)
+            continue
+
+        # Save results incrementally into SQLite database
+        save_paper_results(
+            paper_id=paper_id,
+            doi=extracted_doi,
+            pmid="",
+            file_name=pdf_file.name,
+            file_hash=file_hash,
+            annotations=annotations,
+            model_name="Groq-Cascade",
+            prompt_version=PROMPT_VERSION,
+        )
+
+        if annotations:
+            entry = {
+                "file": pdf_file.name,
+                "doi": extracted_doi,
+                "source_id": paper_id,
+                "annotations": annotations
+            }
+            results.append(entry)
+
+            with open(jsonl_output_file, "a", encoding="utf-8") as f:
+                f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     logger.info("Saved raw results to: %s", jsonl_output_file)
 
     logger.info("Generating HTML biocuration report...")
-    generate_html_report(
-        input_file=str(jsonl_output_file), output_html=str(html_report_file)
-    )
-
-    logger.info("Pipeline finished! Report saved at: %s", html_report_file)
+    if jsonl_output_file.exists():
+        generate_html_report(
+            input_file=str(jsonl_output_file), output_html=str(html_report_file)
+        )
+        logger.info("Pipeline finished! Report saved at: %s", html_report_file)
+    else:
+        logger.warning("No new annotations extracted. HTML report omitted.")
 
 
 if __name__ == "__main__":

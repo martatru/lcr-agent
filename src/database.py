@@ -1,32 +1,38 @@
 """
-SQLite database management module for storing LCR annotations, processed papers,
-and persistent caches for UniProt and PlaToLoCo API responses.
+SQLite database management module for LCR Biocuration Agent.
+
+Handles database initialization, connection pooling, and CRUD operations
+for processed papers and LCR annotations.
 """
 
-import json
 import sqlite3
+from contextlib import contextmanager
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Generator, List
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = PROJECT_ROOT / "data" / "lcr_annotations.db"
+DB_DIR = PROJECT_ROOT / "data"
+DB_PATH = DB_DIR / "lcr_annotations.db"
 
 
-def get_db_connection() -> sqlite3.Connection:
-    """Establish and return a connection to the SQLite database."""
-    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+@contextmanager
+def get_db_connection() -> Generator[sqlite3.Connection, None, None]:
+    """Provide a transactional scope around a database connection."""
+    DB_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
-    return conn
+    try:
+        yield conn
+    finally:
+        conn.close()
 
 
 def init_db() -> None:
-    """Initialize database tables including papers, annotations, and caches."""
+    """Initialize database tables for processed papers and LCR annotations if they do not exist."""
     with get_db_connection() as conn:
         cursor = conn.cursor()
-
-        # Processed papers table
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS processed_papers (
                 paper_id TEXT PRIMARY KEY,
                 doi TEXT,
@@ -37,10 +43,10 @@ def init_db() -> None:
                 prompt_version TEXT,
                 processed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
-        """)
-
-        # LCR annotations table
-        cursor.execute("""
+            """
+        )
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS lcr_annotations (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 paper_id TEXT,
@@ -52,115 +58,22 @@ def init_db() -> None:
                 binding_target TEXT,
                 proposed_function TEXT,
                 evidence TEXT,
-                evidence_verified INTEGER DEFAULT 0,
-                curation_status TEXT DEFAULT 'manual_check',
-                FOREIGN KEY (paper_id) REFERENCES processed_papers(paper_id)
+                evidence_verified INTEGER,
+                curation_status TEXT,
+                FOREIGN KEY (paper_id) REFERENCES processed_papers (paper_id)
             )
-        """)
-
-        # Persistent cache for UniProt metadata
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS uniprot_cache (
-                cache_key TEXT PRIMARY KEY,
-                uniprot_id TEXT,
-                gene_name TEXT,
-                full_name TEXT,
-                length INTEGER,
-                sequence TEXT,
-                go_terms_json TEXT,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        """)
-
-        # Persistent cache for PlaToLoCo prediction results
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS platoloco_cache (
-                sequence_hash TEXT PRIMARY KEY,
-                results_json TEXT,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        """)
-
-        conn.commit()
-
-
-def get_cached_uniprot(cache_key: str) -> Optional[Dict[str, Any]]:
-    """Retrieve UniProt metadata from persistent SQLite cache."""
-    with get_db_connection() as conn:
-        cursor = conn.cursor()
-        cursor.execute(
-            "SELECT uniprot_id, gene_name, full_name, length, sequence, go_terms_json FROM uniprot_cache WHERE cache_key = ?",
-            (cache_key,),
-        )
-        row = cursor.fetchone()
-        if row:
-            return {
-                "uniprot_id": row["uniprot_id"],
-                "gene_name": row["gene_name"],
-                "full_name": row["full_name"],
-                "length": row["length"],
-                "sequence": row["sequence"],
-                "go_terms": json.loads(row["go_terms_json"]) if row["go_terms_json"] else [],
-            }
-    return None
-
-
-def save_cached_uniprot(cache_key: str, data: Dict[str, Any]) -> None:
-    """Save UniProt metadata to persistent SQLite cache."""
-    with get_db_connection() as conn:
-        cursor = conn.cursor()
-        cursor.execute(
             """
-            INSERT OR REPLACE INTO uniprot_cache 
-            (cache_key, uniprot_id, gene_name, full_name, length, sequence, go_terms_json)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-            """,
-            (
-                cache_key,
-                data.get("uniprot_id", "N/A"),
-                data.get("gene_name", ""),
-                data.get("full_name", ""),
-                data.get("length", 0),
-                data.get("sequence", ""),
-                json.dumps(data.get("go_terms", []), ensure_ascii=False),
-            ),
-        )
-        conn.commit()
-
-
-def get_cached_platoloco(sequence_hash: str) -> Optional[Dict[str, List[Dict[str, int]]]]:
-    """Retrieve PlaToLoCo predictions from persistent SQLite cache."""
-    with get_db_connection() as conn:
-        cursor = conn.cursor()
-        cursor.execute(
-            "SELECT results_json FROM platoloco_cache WHERE sequence_hash = ?",
-            (sequence_hash,),
-        )
-        row = cursor.fetchone()
-        if row and row["results_json"]:
-            return json.loads(row["results_json"])
-    return None
-
-
-def save_cached_platoloco(sequence_hash: str, results: Dict[str, List[Dict[str, int]]]) -> None:
-    """Save PlaToLoCo predictions to persistent SQLite cache."""
-    with get_db_connection() as conn:
-        cursor = conn.cursor()
-        cursor.execute(
-            """
-            INSERT OR REPLACE INTO platoloco_cache (sequence_hash, results_json)
-            VALUES (?, ?)
-            """,
-            (sequence_hash, json.dumps(results, ensure_ascii=False)),
         )
         conn.commit()
 
 
 def is_paper_processed(paper_id: str) -> bool:
-    """Check whether a paper has already been processed in the database."""
+    """Check if a paper has already been processed and stored in the database."""
     with get_db_connection() as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT 1 FROM processed_papers WHERE paper_id = ?", (paper_id,))
+        cursor.execute(
+            "SELECT 1 FROM processed_papers WHERE paper_id = ?", (paper_id,)
+        )
         return cursor.fetchone() is not None
 
 
@@ -170,14 +83,13 @@ def save_paper_results(
     pmid: str,
     file_name: str,
     file_hash: str,
-    annotations: List[Dict[str, Any]],
-    model_name: str = "Groq-Cascade",
-    prompt_version: str = "v1.0",
+    annotations: List[Any],
+    model_name: str,
+    prompt_version: str,
 ) -> None:
-    """Save paper processing metadata and extracted LCR annotations to database."""
+    """Save processed paper metadata and its extracted LCR annotations into SQLite."""
     with get_db_connection() as conn:
         cursor = conn.cursor()
-
         cursor.execute(
             """
             INSERT OR REPLACE INTO processed_papers 
@@ -187,7 +99,17 @@ def save_paper_results(
             (paper_id, doi, pmid, file_name, file_hash, model_name, prompt_version),
         )
 
+        # Clear existing annotations for this paper before re-inserting
+        cursor.execute("DELETE FROM lcr_annotations WHERE paper_id = ?", (paper_id,))
+
         for ann in annotations:
+            if hasattr(ann, "dict"):
+                ann_dict = ann.dict()
+            elif isinstance(ann, dict):
+                ann_dict = ann
+            else:
+                ann_dict = vars(ann)
+
             cursor.execute(
                 """
                 INSERT INTO lcr_annotations 
@@ -197,16 +119,26 @@ def save_paper_results(
                 (
                     paper_id,
                     doi,
-                    ann.get("protein_name", ""),
-                    ann.get("organism", ""),
-                    str(ann.get("start_pos", "")) if ann.get("start_pos") is not None else None,
-                    str(ann.get("end_pos", "")) if ann.get("end_pos") is not None else None,
-                    ann.get("binding_target", ""),
-                    ann.get("proposed_function", ""),
-                    ann.get("evidence", ""),
-                    1 if ann.get("evidence_verified") else 0,
-                    ann.get("curation_status", "manual_check"),
+                    ann_dict.get("protein_name", "Unknown"),
+                    ann_dict.get("organism", "Unspecified"),
+                    str(ann_dict.get("start_pos", "Unspecified")),
+                    str(ann_dict.get("end_pos", "Unspecified")),
+                    ann_dict.get("binding_target", "Unspecified"),
+                    ann_dict.get("proposed_function", "Unspecified"),
+                    ann_dict.get("evidence", "No evidence statement provided."),
+                    1 if ann_dict.get("evidence_verified") else 0,
+                    ann_dict.get("curation_status", "verified"),
                 ),
             )
-
         conn.commit()
+
+
+def get_paper_annotations(paper_id: str) -> List[Dict[str, Any]]:
+    """Retrieve all LCR annotations associated with a specific paper ID."""
+    with get_db_connection() as conn:
+        cursor = conn.cursor()
+        cursor.execute(
+            "SELECT * FROM lcr_annotations WHERE paper_id = ?", (paper_id,)
+        )
+        rows = cursor.fetchall()
+        return [dict(row) for row in rows]

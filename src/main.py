@@ -59,8 +59,10 @@ def compute_file_hash(file_path: Path) -> str:
     return hasher.hexdigest()
 
 
-async def process_pdf_file(pdf_path: Path, client: LightLLMClient) -> tuple[str, list[dict]]:
-    """Extract text by tagged sections, identify DOI, chunk, and query LLM API."""
+async def process_pdf_file(
+    pdf_path: Path, client: LightLLMClient, progress_callback=None
+) -> tuple[str, list[dict]]:
+    """Extract text by tagged sections, identify DOI, chunk, and query LLM API with progress reporting."""
     logger.info("Processing file: %s", pdf_path.name)
 
     sections = extract_tagged_sections(str(pdf_path))
@@ -76,11 +78,17 @@ async def process_pdf_file(pdf_path: Path, client: LightLLMClient) -> tuple[str,
         logger.warning("No DOI found in text for %s. Falling back to filename.", pdf_path.name)
 
     chunks = chunk_sections_by_paragraphs(sections, max_chunk_size=8000)
+    total_chunks = len(chunks)
     raw_annotations = []
     debug_logs = []
 
     for idx, chunk in enumerate(chunks, start=1):
-        logger.info("Processing chunk %d/%d for %s...", idx, len(chunks), pdf_path.name)
+        if progress_callback:
+            if asyncio.iscoroutinefunction(progress_callback):
+                await progress_callback(idx, total_chunks, f"Processing chunk {idx}/{total_chunks}")
+            else:
+                progress_callback(idx, total_chunks, f"Processing chunk {idx}/{total_chunks}")
+
         result = await client.generate_lcr_annotations(PROMPT_LCR, chunk)
 
         status = result.get("status")
@@ -107,79 +115,3 @@ async def process_pdf_file(pdf_path: Path, client: LightLLMClient) -> tuple[str,
 
     clean_annotations = deduplicate_annotations(raw_annotations)
     return extracted_doi, clean_annotations
-
-
-async def main():
-    """Main execution workflow for processing PDF files directly."""
-    init_db()
-
-    input_dir = PROJECT_ROOT / "data" / "paper_pdf"
-    reports_dir = PROJECT_ROOT / "data" / "reports"
-    reports_dir.mkdir(parents=True, exist_ok=True)
-
-    report_title_input = input("Enter report title/filename (e.g., benchmark_lcr_report): ").strip()
-    if not report_title_input:
-        report_title_input = "lcr_biocuration_report"
-
-    if not report_title_input.lower().endswith(".html"):
-        report_filename = f"{report_title_input}.html"
-    else:
-        report_filename = report_title_input
-
-    html_report_file = reports_dir / report_filename
-
-    if not input_dir.exists():
-        logger.error("PDF directory does not exist: %s", input_dir)
-        return
-
-    pdf_files = sorted(
-        [
-            p for p in input_dir.iterdir()
-            if p.is_file() and p.suffix.lower() == ".pdf" and not p.name.startswith(".")
-        ]
-    )
-
-    if not pdf_files:
-        logger.warning("No valid PDF files found in directory: %s", input_dir)
-        return
-
-    logger.info("Found %d PDF files in %s", len(pdf_files), input_dir)
-
-    client = LightLLMClient(max_concurrent=1)
-    await client.validate_models()
-
-    for pdf_file in pdf_files:
-        file_hash = compute_file_hash(pdf_file)
-
-        sections = extract_tagged_sections(str(pdf_file))
-        if not sections:
-            continue
-
-        full_text = "\n".join([s["text"] for s in sections])
-        extracted_doi = extract_doi_from_text(full_text) or ""
-        paper_id = extracted_doi if extracted_doi else pdf_file.stem
-
-        if is_paper_processed(paper_id):
-            logger.info("Paper %s already in database. Skipping extraction.", paper_id)
-        else:
-            extracted_doi, annotations = await process_pdf_file(pdf_file, client)
-
-            save_paper_results(
-                paper_id=paper_id,
-                doi=extracted_doi,
-                pmid="",
-                file_name=pdf_file.name,
-                file_hash=file_hash,
-                annotations=annotations,
-                model_name="Groq-Cascade",
-                prompt_version=PROMPT_VERSION,
-            )
-
-    logger.info("Generating HTML biocuration report directly from SQLite database...")
-    report_path = generate_html_report(output_html=str(html_report_file))
-    if report_path:
-        logger.info("Pipeline finished! Report saved at: %s", report_path)
-
-
-if __name__ == "__main__":
-    asyncio.run(main())

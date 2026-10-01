@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCR Agent Biocuration Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+    <div class="max-w-7xl mx-auto px-4 py-8 w-full">
+        <!-- Header -->
+        <header class="mb-8 flex justify-between items-center border-b border-slate-200 pb-4">
+            <div>
+                <h1 class="text-2xl font-bold text-slate-900">LCR Biocuration Dashboard</h1>
+                <p class="text-sm text-slate-500">Automated LCR extraction, SQLite caching, and PlaToLoCo visualizer integration</p>
+            </div>
+            <div class="flex items-center space-x-2">
+                <span class="inline-block w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></span>
+                <span class="text-xs font-semibold text-slate-600">System Ready</span>
+            </div>
+        </header>
+
+        <!-- Main Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Upload Card -->
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
+                <h2 class="text-lg font-semibold text-slate-900 mb-4">1. Upload Paper PDF</h2>
+                <div class="mb-4">
+                    <label for="model-select" class="block text-xs font-semibold text-slate-600 mb-1">Select LLM Model:</label>
+                    <select id="model-select" class="w-full text-xs p-2 border border-slate-300 rounded-md bg-white text-slate-800 font-mono">
+                        <option value="">Loading models...</option>
+                    </select>
+                </div>
+                <div id="drop-zone" class="border-2 border-dashed border-slate-300 rounded-lg p-6 text-center hover:border-indigo-500 transition-colors cursor-pointer">
+                    <svg class="mx-auto h-10 w-10 text-slate-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 0115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                    </svg>
+                    <p class="text-sm text-slate-600 font-medium">Click to select or drag PDF file here</p>
+                    <input type="file" id="file-input" accept=".pdf" class="hidden">
+                </div>
+                <div id="upload-status" class="mt-4 text-xs font-medium text-slate-500"></div>
+            </div>
+
+            <!-- Actions Card -->
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200 md:col-span-2">
+                <h2 class="text-lg font-semibold text-slate-900 mb-4">2. Report Actions</h2>
+                <p class="text-sm text-slate-600 mb-4">
+                    Generate structured HTML reports directly from the SQLite database with high-speed persistent caching.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <button onclick="generateReport()" class="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold px-4 py-2 rounded-md shadow-sm transition-colors">
+                        Generate Full HTML Report
+                    </button>
+                    <button onclick="loadPapers()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold px-4 py-2 rounded-md transition-colors">
+                        Refresh Database Table
+                    </button>
+                    <button onclick="clearDatabase()" class="bg-rose-50 hover:bg-rose-100 text-rose-700 text-sm font-semibold px-4 py-2 rounded-md transition-colors">
+                        Clear Database
+                    </button>
+                </div>
+                <div id="report-status" class="mt-4 text-xs font-medium text-slate-600"></div>
+            </div>
+        </div>
+
+        <!-- Papers Table Section -->
+        <div class="mt-8 bg-white p-6 rounded-lg shadow-sm border border-slate-200">
+            <h2 class="text-lg font-semibold text-slate-900 mb-4">Processed Papers in Database</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse text-sm">
+                    <thead>
+                        <tr class="border-b border-slate-200 bg-slate-50 text-slate-600 uppercase text-xs">
+                            <th class="p-3">DOI</th>
+                            <th class="p-3">File Name</th>
+                            <th class="p-3">Model</th>
+                            <th class="p-3">Processed At</th>
+                            <th class="p-3">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="papers-table-body">
+                        <tr>
+                            <td colspan="5" class="p-4 text-center text-slate-400">Loading records...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fullscreen Report Preview Section -->
+    <div id="report-container" class="mt-12 bg-white border-t border-slate-200 shadow-lg hidden w-full h-screen flex flex-col">
+        <div class="max-w-7xl mx-auto w-full px-4 py-4 flex flex-col sm:flex-row justify-between items-center border-b border-slate-100 gap-4 flex-shrink-0">
+            <h2 class="text-xl font-bold text-slate-900">Generated Report Fullscreen View</h2>
+            <div class="flex space-x-3">
+                <button onclick="downloadCSV()" class="text-xs bg-emerald-50 hover:bg-emerald-100 text-emerald-700 font-semibold px-4 py-2 rounded transition-colors">
+                    Download CSV
+                </button>
+                <button onclick="downloadPDF()" class="text-xs bg-rose-50 hover:bg-rose-100 text-rose-700 font-semibold px-4 py-2 rounded transition-colors">
+                    Download / Print PDF
+                </button>
+            </div>
+        </div>
+        <div class="w-full flex-grow p-4 bg-slate-100 flex flex-col">
+            <iframe id="report-frame" class="w-full flex-grow border border-slate-200 rounded-lg shadow-sm bg-white"></iframe>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+
+        const dropZone = document.getElementById('drop-zone');
+        const fileInput = document.getElementById('file-input');
+        const uploadStatus = document.getElementById('upload-status');
+        const reportStatus = document.getElementById('report-status');
+
+        async function loadModels() {
+            try {
+                const response = await fetch(`${API_BASE}/models`);
+                const models = await response.json();
+                const select = document.getElementById('model-select');
+                if (models && models.length > 0) {
+                    select.innerHTML = models.map(m => `<option value="${m}">${m}</option>`).join('');
+                } else {
+                    select.innerHTML = '<option value="">No models available</option>';
+                }
+            } catch (err) {
+                console.error("Failed to load models:", err);
+                document.getElementById('model-select').innerHTML = '<option value="">Failed to load models</option>';
+            }
+        }
+
+        dropZone.addEventListener('click', () => fileInput.click());
+        fileInput.addEventListener('change', (e) => handleFileUpload(e.target.files[0]));
+
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('border-indigo-500');
+        });
+        dropZone.addEventListener('dragleave', () => dropZone.classList.remove('border-indigo-500'));
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('border-indigo-500');
+            if (e.dataTransfer.files.length > 0) {
+                handleFileUpload(e.dataTransfer.files[0]);
+            }
+        });
+
+        async function handleFileUpload(file) {
+            if (!file || !file.name.endsWith('.pdf')) {
+                uploadStatus.innerHTML = '<span class="text-rose-600">Please select a valid PDF file.</span>';
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+            uploadStatus.innerHTML = '<span class="text-indigo-600">Uploading PDF file...</span>';
+
+            try {
+                const response = await fetch(`${API_BASE}/upload`, {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+                if (response.ok) {
+                    uploadStatus.innerHTML = `<span class="text-emerald-600">Uploaded: ${result.file_name}. Click Run AI Pipeline below.</span>`;
+                    await loadPapers();
+                } else {
+                    uploadStatus.innerHTML = `<span class="text-rose-600">Error: ${result.detail || 'Upload failed'}</span>`;
+                }
+            } catch (err) {
+                console.error("Upload error:", err);
+                uploadStatus.innerHTML = `<span class="text-rose-600">Upload failed. Check server connection.</span>`;
+            }
+        }
+
+        async function runPipeline(paperId) {
+            const encodedId = encodeURIComponent(paperId);
+            const selectedModel = document.getElementById('model-select').value;
+            reportStatus.innerHTML = `<span class="text-indigo-600">Running AI pipeline for ${paperId} (check terminal for tqdm progress)...</span>`;
+            
+            try {
+                const response = await fetch(`${API_BASE}/papers/${encodedId}/run-pipeline`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ model_name: selectedModel })
+                });
+                const result = await response.json();
+                if (response.ok) {
+                    reportStatus.innerHTML = `<span class="text-emerald-600">AI pipeline completed successfully for ${paperId}.</span>`;
+                    await loadPapers();
+                } else {
+                    reportStatus.innerHTML = `<span class="text-rose-600">Pipeline error: ${result.detail || 'Execution failed'}</span>`;
+                }
+            } catch (err) {
+                console.error("Pipeline error:", err);
+                reportStatus.innerHTML = `<span class="text-rose-600">Pipeline execution failed. Check server connection.</span>`;
+            }
+        }
+
+        async function loadPapers() {
+            const tableBody = document.getElementById('papers-table-body');
+            reportStatus.innerHTML = '<span class="text-indigo-600">Refreshing database table...</span>';
+            try {
+                const response = await fetch(`${API_BASE}/papers`);
+                if (!response.ok) {
+                    throw new Error(`Server returned status ${response.status}`);
+                }
+                const papers = await response.json();
+
+                if (!papers || papers.length === 0) {
+                    tableBody.innerHTML = '<tr><td colspan="5" class="p-4 text-center text-slate-400">No papers registered in database yet.</td></tr>';
+                    reportStatus.innerHTML = '<span class="text-slate-600">Database refreshed. No papers found.</span>';
+                    return;
+                }
+
+                tableBody.innerHTML = papers.map(p => {
+                    const doiDisplay = p.doi && p.doi !== 'N/A' 
+                        ? `<a href="https://doi.org/${p.doi}" target="_blank" class="text-indigo-600 hover:underline font-mono">${p.doi}</a>` 
+                        : 'N/A';
+                    return `
+                        <tr class="border-b border-slate-100 hover:bg-slate-50">
+                            <td class="p-3">${doiDisplay}</td>
+                            <td class="p-3 font-mono text-xs">${p.file_name || 'N/A'}</td>
+                            <td class="p-3 font-mono text-xs text-slate-500">${p.model_name || 'N/A'}</td>
+                            <td class="p-3 text-xs text-slate-500">${p.processed_at || 'N/A'}</td>
+                            <td class="p-3 flex gap-2">
+                                <button onclick="runPipeline('${p.paper_id}')" class="text-xs bg-indigo-50 hover:bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded font-semibold">
+                                    Run AI Pipeline
+                                </button>
+                                <button onclick="generateReport('${p.paper_id}')" class="text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 px-2.5 py-1 rounded font-medium">
+                                    Filter Report
+                                </button>
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+                reportStatus.innerHTML = '<span class="text-emerald-600">Database table refreshed successfully.</span>';
+            } catch (err) {
+                console.error("Error loading papers:", err);
+                tableBody.innerHTML = '<tr><td colspan="5" class="p-4 text-center text-rose-500">Failed to load papers from database.</td></tr>';
+                reportStatus.innerHTML = '<span class="text-rose-600">Failed to refresh database table.</span>';
+            }
+        }
+
+        async function clearDatabase() {
+            if (!confirm("Are you sure you want to clear all papers and annotations from the database?")) {
+                return;
+            }
+            reportStatus.innerHTML = '<span class="text-rose-600">Clearing database...</span>';
+            try {
+                const response = await fetch(`${API_BASE}/papers/clear`, {
+                    method: 'DELETE'
+                });
+                if (!response.ok) {
+                    throw new Error("Failed to clear database");
+                }
+                reportStatus.innerHTML = '<span class="text-emerald-600">Database cleared successfully.</span>';
+                await loadPapers();
+                document.getElementById('report-container').classList.add('hidden');
+            } catch (err) {
+                console.error("Error clearing database:", err);
+                reportStatus.innerHTML = '<span class="text-rose-600">Failed to clear database.</span>';
+            }
+        }
+
+        async function generateReport(paperId = null) {
+            reportStatus.innerHTML = '<span class="text-indigo-600">Generating report from SQLite database...</span>';
+            try {
+                const response = await fetch(`${API_BASE}/reports/generate`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ paper_id: paperId })
+                });
+                
+                if (!response.ok) {
+                    const errJson = await response.json();
+                    throw new Error(errJson.detail || "Database query failed");
+                }
+
+                const result = await response.json();
+                const downloadUrl = `${API_BASE}${result.download_url}`;
+
+                const reportResponse = await fetch(downloadUrl);
+                const reportHtmlText = await reportResponse.text();
+
+                reportStatus.innerHTML = `<span class="text-emerald-600 font-semibold">Report Generated Successfully!</span>`;
+
+                const reportContainer = document.getElementById('report-container');
+                const reportFrame = document.getElementById('report-frame');
+
+                reportFrame.srcdoc = reportHtmlText;
+                reportContainer.classList.remove('hidden');
+
+                reportFrame.onload = function() {
+                    try {
+                        const iframeDoc = reportFrame.contentDocument || reportFrame.contentWindow.document;
+                        const customStyle = iframeDoc.createElement('style');
+                        customStyle.innerHTML = `
+                            @media print {
+                                @page { size: A4 landscape; }
+                                body { background-color: #ffffff !important; padding: 0 !important; width: 100% !important; }
+                                .table-wrapper { overflow: visible !important; border: none !important; box-shadow: none !important; }
+                                table { width: 100% !important; min-width: auto !important; font-size: 9px !important; }
+                                th, td { padding: 4px 6px !important; }
+                                svg { width: 100% !important; height: auto !important; max-width: 100% !important; page-break-inside: avoid; }
+                                tr.subrow { page-break-inside: avoid; }
+                            }
+                            svg { max-width: 100% !important; height: auto !important; }
+                        `;
+                        iframeDoc.head.appendChild(customStyle);
+                    } catch (err) {
+                        console.error("Could not inject print styles into iframe:", err);
+                    }
+                };
+
+                reportContainer.scrollIntoView({ behavior: 'smooth' });
+            } catch (err) {
+                console.error("Error generating report:", err);
+                reportStatus.innerHTML = `<span class="text-rose-600">No annotations available in database for this paper yet.</span>`;
+            }
+        }
+
+        function downloadCSV() {
+            const iframe = document.getElementById('report-frame');
+            if (!iframe || !iframe.contentDocument) return;
+            const doc = iframe.contentDocument;
+            const rows = doc.querySelectorAll('tr');
+            let csv = [];
+
+            csv.push('"UniprotID","Gene name","Name","Protein length","LCR type","Organism","Source","Source ID","Start of annotation","End of annotation","Annotation Category","Gene Ontology of category"');
+
+            rows.forEach((row) => {
+                if (row.classList.contains('subrow') || row.classList.contains('section-banner')) return;
+                const cols = row.querySelectorAll('th, td');
+                if (cols.length === 12) {
+                    let rowData = [];
+                    cols.forEach(col => {
+                        let cellText = col.innerText.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+                        cellText = cellText.replace(/"/g, '""');
+                        rowData.push('"' + cellText + '"');
+                    });
+                    csv.push(rowData.join(','));
+                }
+            });
+
+            const now = new Date();
+            const timestamp = now.toISOString().replace(/[:.]/g, '_').slice(0, 19).toLowerCase();
+            const blob = new Blob([csv.join('\n')], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `lcr_report_${timestamp}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        function downloadPDF() {
+            const iframe = document.getElementById('report-frame');
+            if (!iframe || !iframe.contentWindow) return;
+            iframe.contentWindow.focus();
+            iframe.contentWindow.print();
+        }
+
+        loadModels();
+        loadPapers();
+    </script>
+</body>
+</html>

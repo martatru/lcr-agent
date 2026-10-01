@@ -2,12 +2,10 @@
 LCR Biocuration HTML Report Generator.
 
 Fetches curated Low-Complexity Region (LCR) records directly from the SQLite database
-and integrates them with UniProt metadata and PlaToLoCo sequence visualizers, utilizing
-persistent SQLite caching to optimize API response times.
+and integrates them with UniProt metadata and PlaToLoCo sequence visualizers.
 """
 
 import argparse
-import hashlib
 import json
 import re
 import sqlite3
@@ -26,21 +24,14 @@ PROJECT_ROOT = SRC_DIR.parent
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from database import (
-    get_cached_platoloco,
-    get_cached_uniprot,
-    init_db,
-    save_cached_platoloco,
-    save_cached_uniprot,
-)
-
 PLATOLOCO_API_URL = "http://127.0.0.1:5002/restapi"
 DB_PATH = PROJECT_ROOT / "data" / "lcr_annotations.db"
 
-# In-memory session caches
+# Global caches to avoid repeating identical API calls
 UNIPROT_CACHE: Dict[str, Dict[str, Any]] = {}
 PLATOLOCO_CACHE: Dict[str, Dict[str, List[Dict[str, int]]]] = {}
 
+# Single shared session reuses TCP connections across requests
 HTTP_SESSION = requests.Session()
 
 
@@ -103,18 +94,13 @@ def parse_coord(value: Any) -> Optional[int]:
 
 
 def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
-    """Fetch protein metadata from SQLite persistent cache or UniProt API."""
+    """Fetch protein metadata, length, sequence, and GO terms from UniProt API with caching."""
     clean_protein = re.sub(r"[^\w\s-]", "", protein_name).strip()
     clean_organism = re.sub(r"[^\w\s-]", "", organism).strip()
-    cache_key = f"{clean_protein}_{clean_organism}"
 
+    cache_key = f"{clean_protein}_{clean_organism}"
     if cache_key in UNIPROT_CACHE:
         return UNIPROT_CACHE[cache_key]
-
-    cached_data = get_cached_uniprot(cache_key)
-    if cached_data:
-        UNIPROT_CACHE[cache_key] = cached_data
-        return cached_data
 
     search_queries = [
         f'(gene:{clean_protein} OR gene_exact:{clean_protein} OR protein_name:{clean_protein}) AND (organism_name:"{clean_organism}")',
@@ -164,7 +150,6 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
                     "go_terms": go_terms[:3],
                 }
                 UNIPROT_CACHE[cache_key] = result
-                save_cached_uniprot(cache_key, result)
                 return result
         except Exception as error:
             print(f"UniProt query error for '{protein_name}': {error}")
@@ -179,14 +164,13 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
         "go_terms": [],
     }
     UNIPROT_CACHE[cache_key] = fallback_result
-    save_cached_uniprot(cache_key, fallback_result)
     return fallback_result
 
 
 def query_single_platoloco_method(
     sequence: str, method_name: str, header: str = "seq"
 ) -> List[Dict[str, int]]:
-    """Query a single PlaToLoCo method independently."""
+    """Query a single PlaToLoCo method independently to isolate execution errors."""
     seg_default_params = {
         "window": 12,
         "locut": 2.2,
@@ -311,18 +295,12 @@ def query_single_platoloco_method(
 def query_platoloco(
     sequence: str, header: str = "seq"
 ) -> Dict[str, List[Dict[str, int]]]:
-    """Query all 8 PlaToLoCo predictors with SQLite persistent caching."""
+    """Query all 8 PlaToLoCo predictors using isolated requests and caching."""
     if not sequence:
         return {}
 
     if sequence in PLATOLOCO_CACHE:
         return PLATOLOCO_CACHE[sequence]
-
-    seq_hash = hashlib.sha256(sequence.encode("utf-8")).hexdigest()
-    cached_results = get_cached_platoloco(seq_hash)
-    if cached_results:
-        PLATOLOCO_CACHE[sequence] = cached_results
-        return cached_results
 
     method_results: Dict[str, List[Dict[str, int]]] = {
         "SEG": [],
@@ -351,7 +329,6 @@ def query_platoloco(
         method_results[canonical_key] = regs
 
     PLATOLOCO_CACHE[sequence] = method_results
-    save_cached_platoloco(seq_hash, method_results)
     return method_results
 
 
@@ -545,16 +522,16 @@ def render_record_rows(item: Dict[str, Any]) -> str:
             <tr>
                 <td><a href="{uniprot_link}" target="_blank" class="protein-id">{uniprot_id}</a></td>
                 <td><strong>{gene_name}</strong></td>
-                <td style="max-width: 180px;">{full_name}</td>
+                <td>{full_name}</td>
                 <td>{length if length > 0 else 'N/A'}</td>
                 <td><span class="badge-type">{lcr_type_val}</span></td>
                 <td><i>{organism}</i></td>
-                <td class="col-source"><blockquote class="evidence-quote">"{evidence_text}"</blockquote></td>
+                <td><blockquote class="evidence-quote">"{evidence_text}"</blockquote></td>
                 <td><code>{source_id}</code></td>
                 <td><span class="badge-annot">{start_annot_str}</span></td>
                 <td><span class="badge-annot">{end_annot_str}</span></td>
-                <td style="max-width: 180px;"><strong>{category}</strong></td>
-                <td style="max-width: 200px;">{go_ontology_str}</td>
+                <td><strong>{category}</strong></td>
+                <td>{go_ontology_str}</td>
             </tr>
             <tr class="subrow">
                 <td colspan="12" class="viz-container">
@@ -575,10 +552,7 @@ def render_report_section(
         return ""
 
     banner_class = "section-banner warning" if warning else "section-banner"
-    header_cells = "".join(
-        f'<th class="col-source">{label}</th>' if label == "Source" else f"<th>{label}</th>"
-        for label in headers
-    )
+    header_cells = "".join(f"<th>{label}</th>" for label in headers)
     body_rows = "".join(render_record_rows(item) for item in records)
 
     return f"""
@@ -604,7 +578,6 @@ def generate_html_report(
     output_html: Optional[str] = None,
 ) -> Optional[str]:
     """Generate structured HTML report dividing SQLite records into Verified and Manual Check sections."""
-    init_db()
     records = fetch_records_from_db(paper_id=paper_id)
     if not records:
         print("Warning: No records found in SQLite database.")
@@ -650,8 +623,6 @@ def generate_html_report(
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functional LCR Annotation Report</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <style>
         * { box-sizing: border-box; }
         html, body { 
@@ -661,12 +632,11 @@ def generate_html_report(
             margin: 0; 
             padding: 24px; 
             font-size: 13px; 
-            overflow-x: hidden; 
-            max-width: 100vw;
+            width: 100%;
         }
         .container { 
-            width: 98%; 
-            max-width: 1920px; 
+            width: 100%; 
+            max-width: 100%; 
             margin: 0 auto; 
         }
         header { margin-bottom: 24px; }
@@ -684,7 +654,6 @@ def generate_html_report(
             display: flex; 
             align-items: center; 
             justify-content: space-between; 
-            letter-spacing: 0.3px;
         }
         .section-banner.warning { background: #d97706; }
         
@@ -695,31 +664,68 @@ def generate_html_report(
             border-radius: 0 0 8px 8px;
             border: 1px solid #e2e8f0;
             border-top: none;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
             margin-bottom: 24px;
         }
 
-        table { width: 100%; border-collapse: collapse; min-width: 1100px; }
-        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #f1f5f9; vertical-align: top; word-break: break-word; }
-        th { background-color: #f8fafc; color: #475569; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #e2e8f0; white-space: nowrap; }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            table-layout: fixed; 
+        }
+        th, td { 
+            padding: 12px 10px; 
+            text-align: left; 
+            border-bottom: 1px solid #f1f5f9; 
+            vertical-align: top; 
+            word-wrap: break-word; 
+            overflow-wrap: break-word; 
+        }
+        th { 
+            background-color: #f8fafc; 
+            color: #475569; 
+            font-weight: 600; 
+            font-size: 11px; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px; 
+            border-bottom: 2px solid #e2e8f0; 
+        }
         tr:hover td { background-color: #f8fafc; }
         
+        /* Fixed column width distribution to prevent awkward wrapping */
+        th:nth-child(1), td:nth-child(1) { width: 7%; }
+        th:nth-child(2), td:nth-child(2) { width: 7%; }
+        th:nth-child(3), td:nth-child(3) { width: 10%; }
+        th:nth-child(4), td:nth-child(4) { width: 5%; }
+        th:nth-child(5), td:nth-child(5) { width: 8%; }
+        th:nth-child(6), td:nth-child(6) { width: 8%; }
+        th:nth-child(7), td:nth-child(7) { width: 18%; }
+        th:nth-child(8), td:nth-child(8) { width: 10%; }
+        th:nth-child(9), td:nth-child(9) { width: 6%; }
+        th:nth-child(10), td:nth-child(10) { width: 6%; }
+        th:nth-child(11), td:nth-child(11) { width: 8%; }
+        th:nth-child(12), td:nth-child(12) { width: 7%; }
+
         .protein-id { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 600; color: #2563eb; text-decoration: none; }
         .protein-id:hover { text-decoration: underline; }
-        .col-source { min-width: 350px; max-width: 500px; }
-        .evidence-quote { font-style: italic; color: #475569; margin: 0; border-left: 3px solid #cbd5e1; padding-left: 10px; line-height: 1.5; }
-        .badge-annot { background: #ffedd5; color: #c2410c; padding: 3px 6px; border-radius: 4px; font-weight: 600; font-family: monospace; font-size: 11px; }
-        .badge-type { background: #e0f2fe; color: #0369a1; padding: 4px 8px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
+        .evidence-quote { font-style: italic; color: #475569; margin: 0; border-left: 3px solid #cbd5e1; padding-left: 8px; line-height: 1.4; font-size: 12px; }
+        .badge-annot { background: #ffedd5; color: #c2410c; padding: 2px 4px; border-radius: 4px; font-weight: 600; font-family: monospace; font-size: 11px; display: inline-block; }
+        .badge-type { background: #e0f2fe; color: #0369a1; padding: 3px 6px; border-radius: 4px; font-weight: 600; font-size: 11px; display: inline-block; }
         .subrow { background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; }
         .viz-container { padding: 16px; text-align: left; }
         
         .lcr-region-rect { cursor: pointer; transition: opacity 0.15s ease-in-out; }
         .lcr-region-rect:hover { opacity: 0.75; stroke: #0f172a; stroke-width: 1px; }
-        
-        .export-container { margin-top: 24px; text-align: left; padding-bottom: 40px; }
-        .btn-export { background-color: #7c3aed; color: #ffffff; border: none; padding: 10px 20px; font-size: 13px; font-weight: 600; border-radius: 6px; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: background 0.2s, transform 0.1s; }
-        .btn-export:hover { background-color: #6d28d9; }
-        .btn-export:active { transform: translateY(1px); }
+
+        @media print {
+            @page { size: A4 landscape; margin: 10mm; }
+            body { background-color: #ffffff !important; padding: 0 !important; width: 100% !important; font-size: 10px !important; }
+            .table-wrapper { overflow: visible !important; border: none !important; box-shadow: none !important; }
+            table { width: 100% !important; table-layout: fixed !important; }
+            th, td { padding: 6px 4px !important; font-size: 9px !important; }
+            svg { width: 100% !important; height: auto !important; max-width: 100% !important; page-break-inside: avoid; }
+            tr.subrow { page-break-inside: avoid; }
+        }
     </style>
 </head>
 <body>
@@ -743,46 +749,7 @@ def generate_html_report(
     )
 
     html_content += """
-        <div class="export-container">
-            <button class="btn-export" onclick="exportReportToZIP()">Export Report (ZIP)</button>
-        </div>
     </div>
-
-    <script>
-        async function exportReportToZIP() {
-            const zip = new JSZip();
-            const rows = document.querySelectorAll('tr');
-            let csv = [];
-
-            csv.push('"UniprotID","Gene name","Name","Protein length","LCR type","Organism","Source","Source ID","Start of annotation","End of annotation","Annotation Category","Gene Ontology of category"');
-
-            rows.forEach((row) => {
-                if (row.classList.contains('subrow') || row.classList.contains('section-banner')) return;
-                const cols = row.querySelectorAll('th, td');
-                if (cols.length === 12) {
-                    let rowData = [];
-                    cols.forEach(col => {
-                        let cellText = col.innerText.replace(/\\n/g, ' ').replace(/\\s+/g, ' ').trim();
-                        cellText = cellText.replace(/"/g, '""');
-                        rowData.push('"' + cellText + '"');
-                    });
-                    csv.push(rowData.join(','));
-                }
-            });
-
-            zip.file("report.csv", csv.join('\\n'));
-
-            const svgs = document.querySelectorAll('svg[id^="svg-"]');
-            svgs.forEach((svg) => {
-                const protId = svg.id.replace('svg-', '');
-                const svgData = new XMLSerializer().serializeToString(svg);
-                zip.file(`${protId}_platoloco.svg`, svgData);
-            });
-
-            const content = await zip.generateAsync({ type: "blob" });
-            saveAs(content, "Report.zip");
-        }
-    </script>
 </body>
 </html>
 """
@@ -797,7 +764,10 @@ def generate_html_report(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate the LCR biocuration HTML report.")
     parser.add_argument("--paper-id", help="Filter report by specific paper ID or DOI.")
-    parser.add_argument("--output", help="Path where the HTML report will be written.")
+    parser.add_argument(
+        "--output",
+        help="Path where the HTML report will be written.",
+    )
     args = parser.parse_args()
 
     generate_html_report(paper_id=args.paper_id, output_html=args.output)

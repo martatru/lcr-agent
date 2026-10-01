@@ -3,33 +3,38 @@ Core pipeline orchestration module for PDF text extraction, DOI identification, 
 """
 
 import asyncio
+import hashlib
 import json
 import logging
-import hashlib
+import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
 
+# Ensure 'src' directory is in Python path for smooth execution from any directory
+SRC_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SRC_DIR.parent
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
+
+from database import get_paper_annotations, init_db, is_paper_processed, save_paper_results
 from generate_report import generate_html_report
 from llm_client import LightLLMClient
 from text_extractor import (
-    extract_tagged_sections,
     chunk_sections_by_paragraphs,
     deduplicate_annotations,
     extract_doi_from_text,
+    extract_tagged_sections,
 )
-from database import init_db, save_paper_results, is_paper_processed
 
 load_dotenv()
 
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 PROMPT_VERSION = "v1.0"
 PROMPT_LCR = """Your task is to go through the text provided, read it thoroughly, and identify the exact presence or close-remote relationship of the following keywords: low-complexity, low-complexity region(s), 
-LCR, repeat(s), tandem repeat(s), repetitive, instrinsically disordered region(s), IDP, IDR, and any other related terms that indicate the presence of a low-complexity region (LCR) or low-complexity domain (LCD) 
+LCR, repeat(s), tandem repeat(s), repetitive, intrinsically disordered region(s), IDP, IDR, and any other related terms that indicate the presence of a low-complexity region (LCR) or low-complexity domain (LCD) 
 in a protein. 
 
 Guidelines:
@@ -54,9 +59,7 @@ def compute_file_hash(file_path: Path) -> str:
     return hasher.hexdigest()
 
 
-async def process_pdf_file(
-    pdf_path: Path, client: LightLLMClient
-) -> tuple[str, list[dict]]:
+async def process_pdf_file(pdf_path: Path, client: LightLLMClient) -> tuple[str, list[dict]]:
     """Extract text by tagged sections, identify DOI, chunk, and query LLM API."""
     logger.info("Processing file: %s", pdf_path.name)
 
@@ -65,7 +68,6 @@ async def process_pdf_file(
         logger.error("Failed to extract text from PDF: %s", pdf_path.name)
         return "", []
 
-    # Extract DOI from the full extracted text
     full_text = "\n".join([s["text"] for s in sections])
     extracted_doi = extract_doi_from_text(full_text) or ""
     if extracted_doi:
@@ -87,20 +89,17 @@ async def process_pdf_file(
         if status in ("ok", "empty"):
             raw_annotations.extend(annotations)
         elif status == "failed":
-            logger.error(
-                "Chunk %d failed on %s: %s", idx, pdf_path.name, result.get("error")
-            )
+            logger.error("Chunk %d failed on %s: %s", idx, pdf_path.name, result.get("error"))
 
         debug_logs.append({
             "chunk_index": idx,
             "chunk_length": len(chunk),
             "status": status,
             "raw_extracted_count": len(annotations),
-            "raw_annotations": annotations
+            "raw_annotations": annotations,
         })
 
-    # Save debug logs
-    debug_dir = Path("data/debug")
+    debug_dir = PROJECT_ROOT / "data" / "debug"
     debug_dir.mkdir(parents=True, exist_ok=True)
     json_debug_file = debug_dir / f"{pdf_path.stem}_debug.json"
     with open(json_debug_file, "w", encoding="utf-8") as f:
@@ -114,17 +113,11 @@ async def main():
     """Main execution workflow for processing PDF files directly."""
     init_db()
 
-    input_dir = Path("/home/marta/Pulpit/lcr-agent/data/paper_pdf")
-    output_dir = Path("/home/marta/Pulpit/lcr-agent/data/processed")
-    reports_dir = Path("/home/marta/Pulpit/lcr-agent/data/reports")
-
-    output_dir.mkdir(parents=True, exist_ok=True)
+    input_dir = PROJECT_ROOT / "data" / "paper_pdf"
+    reports_dir = PROJECT_ROOT / "data" / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
 
-    report_title_input = input(
-        "Enter report title/filename (e.g., benchmark_lcr_report): "
-    ).strip()
-
+    report_title_input = input("Enter report title/filename (e.g., benchmark_lcr_report): ").strip()
     if not report_title_input:
         report_title_input = "lcr_biocuration_report"
 
@@ -134,9 +127,6 @@ async def main():
         report_filename = report_title_input
 
     html_report_file = reports_dir / report_filename
-    jsonl_output_file = (
-        output_dir / f"{Path(report_filename).stem}_results.jsonl"
-    )
 
     if not input_dir.exists():
         logger.error("PDF directory does not exist: %s", input_dir)
@@ -144,8 +134,7 @@ async def main():
 
     pdf_files = sorted(
         [
-            p
-            for p in input_dir.iterdir()
+            p for p in input_dir.iterdir()
             if p.is_file() and p.suffix.lower() == ".pdf" and not p.name.startswith(".")
         ]
     )
@@ -159,55 +148,37 @@ async def main():
     client = LightLLMClient(max_concurrent=1)
     await client.validate_models()
 
-    results = []
-
     for pdf_file in pdf_files:
         file_hash = compute_file_hash(pdf_file)
 
-        # Extract DOI and annotations
-        extracted_doi, annotations = await process_pdf_file(pdf_file, client)
+        sections = extract_tagged_sections(str(pdf_file))
+        if not sections:
+            continue
 
-        # Determine unique paper identifier (DOI preferred over filename)
+        full_text = "\n".join([s["text"] for s in sections])
+        extracted_doi = extract_doi_from_text(full_text) or ""
         paper_id = extracted_doi if extracted_doi else pdf_file.stem
 
         if is_paper_processed(paper_id):
-            logger.info("Skipping already processed paper: %s", paper_id)
-            continue
+            logger.info("Paper %s already in database. Skipping extraction.", paper_id)
+        else:
+            extracted_doi, annotations = await process_pdf_file(pdf_file, client)
 
-        # Save results incrementally into SQLite database
-        save_paper_results(
-            paper_id=paper_id,
-            doi=extracted_doi,
-            pmid="",
-            file_name=pdf_file.name,
-            file_hash=file_hash,
-            annotations=annotations,
-            model_name="Groq-Cascade",
-            prompt_version=PROMPT_VERSION,
-        )
+            save_paper_results(
+                paper_id=paper_id,
+                doi=extracted_doi,
+                pmid="",
+                file_name=pdf_file.name,
+                file_hash=file_hash,
+                annotations=annotations,
+                model_name="Groq-Cascade",
+                prompt_version=PROMPT_VERSION,
+            )
 
-        if annotations:
-            entry = {
-                "file": pdf_file.name,
-                "doi": extracted_doi,
-                "source_id": paper_id,
-                "annotations": annotations
-            }
-            results.append(entry)
-
-            with open(jsonl_output_file, "a", encoding="utf-8") as f:
-                f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-
-    logger.info("Saved raw results to: %s", jsonl_output_file)
-
-    logger.info("Generating HTML biocuration report...")
-    if jsonl_output_file.exists():
-        generate_html_report(
-            input_file=str(jsonl_output_file), output_html=str(html_report_file)
-        )
-        logger.info("Pipeline finished! Report saved at: %s", html_report_file)
-    else:
-        logger.warning("No new annotations extracted. HTML report omitted.")
+    logger.info("Generating HTML biocuration report directly from SQLite database...")
+    report_path = generate_html_report(output_html=str(html_report_file))
+    if report_path:
+        logger.info("Pipeline finished! Report saved at: %s", report_path)
 
 
 if __name__ == "__main__":

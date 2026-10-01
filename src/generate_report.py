@@ -1,79 +1,92 @@
 """
 LCR Biocuration HTML Report Generator.
 
-Integrates curated Low-Complexity Region (LCR) records with UniProt metadata
-and PlaToLoCo sequence visualizers. Features an expanded fluid dashboard layout,
-responsive table wrappers, hover-only coordinate tooltips, and optimized API caching.
+Fetches curated Low-Complexity Region (LCR) records directly from the SQLite database
+and integrates them with UniProt metadata and PlaToLoCo sequence visualizers, utilizing
+persistent SQLite caching to optimize API response times.
 """
 
+import argparse
+import hashlib
 import json
-from pathlib import Path
+import re
+import sqlite3
+import sys
 import time
 import urllib.parse
 import uuid
+from pathlib import Path
 from typing import Any, Dict, List, Optional
-import re
+
 import requests
 
-PLATOLOCO_API_URL = "http://127.0.0.1:5002/restapi"
+# Adjust Python search path to resolve relative module imports
+SRC_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SRC_DIR.parent
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
-# Global caches to avoid repeating identical API calls
+from database import (
+    get_cached_platoloco,
+    get_cached_uniprot,
+    init_db,
+    save_cached_platoloco,
+    save_cached_uniprot,
+)
+
+PLATOLOCO_API_URL = "http://127.0.0.1:5002/restapi"
+DB_PATH = PROJECT_ROOT / "data" / "lcr_annotations.db"
+
+# In-memory session caches
 UNIPROT_CACHE: Dict[str, Dict[str, Any]] = {}
 PLATOLOCO_CACHE: Dict[str, Dict[str, List[Dict[str, int]]]] = {}
 
-# Single shared session reuses the underlying TCP/TLS connection across
-# requests to the same host, which noticeably speeds up the many
-# sequential calls to UniProt and PlaToLoCo made while building a report.
 HTTP_SESSION = requests.Session()
 
 
-def load_input_data(input_path: Path) -> List[Dict[str, Any]]:
-    """Load JSON or JSONL data and flatten annotation lists if present."""
-    if not input_path.exists():
+def fetch_records_from_db(paper_id: Optional[str] = None) -> List[Dict[str, Any]]:
+    """Fetch LCR annotation records directly from SQLite database."""
+    if not DB_PATH.exists():
+        print(f"Error: Database file not found at {DB_PATH}")
         return []
 
-    raw_content = input_path.read_text(encoding="utf-8").strip()
-    if not raw_content:
-        return []
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
 
-    records: List[Dict[str, Any]] = []
+        query = """
+            SELECT 
+                a.paper_id,
+                a.doi,
+                COALESCE(p.file_name, 'N/A') AS file,
+                a.protein_name,
+                a.organism,
+                a.start_pos AS start_of_annotation,
+                a.end_pos AS end_of_annotation,
+                a.binding_target,
+                a.proposed_function,
+                a.evidence,
+                a.evidence_verified,
+                a.curation_status
+            FROM lcr_annotations a
+            LEFT JOIN processed_papers p ON a.paper_id = p.paper_id
+        """
+        params: List[Any] = []
+        if paper_id:
+            query += " WHERE a.paper_id = ?"
+            params.append(paper_id)
 
-    def _process_item(item: Dict[str, Any]) -> None:
-        file_name = item.get("file", "N/A")
-        if "annotations" in item and isinstance(item["annotations"], list):
-            for annot in item["annotations"]:
-                if isinstance(annot, dict):
-                    annot_copy = dict(annot)
-                    annot_copy.setdefault("file", file_name)
-                    records.append(annot_copy)
-        else:
-            records.append(item)
+        query += " ORDER BY a.id ASC"
 
-    if input_path.suffix.lower() == ".jsonl" or (
-        "\n" in raw_content and not raw_content.startswith("[")
-    ):
-        for line in raw_content.splitlines():
-            line = line.strip()
-            if not line:
-                continue
-            try:
-                parsed = json.loads(line)
-                if isinstance(parsed, dict):
-                    _process_item(parsed)
-            except json.JSONDecodeError:
-                continue
-    else:
-        try:
-            parsed_data = json.loads(raw_content)
-            if isinstance(parsed_data, list):
-                for item in parsed_data:
-                    if isinstance(item, dict):
-                        _process_item(item)
-            elif isinstance(parsed_data, dict):
-                _process_item(parsed_data)
-        except json.JSONDecodeError:
-            pass
-    return records
+        cursor.execute(query, params)
+        rows = cursor.fetchall()
+
+        records = []
+        for row in rows:
+            record = dict(row)
+            record["evidence_verified"] = bool(record.get("evidence_verified"))
+            records.append(record)
+        return records
 
 
 def parse_coord(value: Any) -> Optional[int]:
@@ -90,19 +103,24 @@ def parse_coord(value: Any) -> Optional[int]:
 
 
 def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
-    """Fetch protein metadata, length, sequence, and GO terms from UniProt API with regex cleaning and caching."""
-    clean_protein = re.sub(r'[^\w\s-]', '', protein_name).strip()
-    clean_organism = re.sub(r'[^\w\s-]', '', organism).strip()
-    
+    """Fetch protein metadata from SQLite persistent cache or UniProt API."""
+    clean_protein = re.sub(r"[^\w\s-]", "", protein_name).strip()
+    clean_organism = re.sub(r"[^\w\s-]", "", organism).strip()
     cache_key = f"{clean_protein}_{clean_organism}"
+
     if cache_key in UNIPROT_CACHE:
         return UNIPROT_CACHE[cache_key]
+
+    cached_data = get_cached_uniprot(cache_key)
+    if cached_data:
+        UNIPROT_CACHE[cache_key] = cached_data
+        return cached_data
 
     search_queries = [
         f'(gene:{clean_protein} OR gene_exact:{clean_protein} OR protein_name:{clean_protein}) AND (organism_name:"{clean_organism}")',
         f'("{clean_protein}") AND (organism_name:"{clean_organism}")',
         f'{clean_protein} AND (organism_name:"{clean_organism}")',
-        f'(gene:{clean_protein} OR protein_name:{clean_protein})'
+        f"(gene:{clean_protein} OR protein_name:{clean_protein})",
     ]
 
     for query in search_queries:
@@ -146,11 +164,12 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
                     "go_terms": go_terms[:3],
                 }
                 UNIPROT_CACHE[cache_key] = result
+                save_cached_uniprot(cache_key, result)
                 return result
         except Exception as error:
-            print(f"UniProt query error for '{protein_name}' with query '{query}': {error}")
+            print(f"UniProt query error for '{protein_name}': {error}")
             continue
-        
+
     fallback_result = {
         "uniprot_id": "N/A",
         "gene_name": protein_name,
@@ -160,13 +179,14 @@ def fetch_uniprot_metadata(protein_name: str, organism: str) -> Dict[str, Any]:
         "go_terms": [],
     }
     UNIPROT_CACHE[cache_key] = fallback_result
+    save_cached_uniprot(cache_key, fallback_result)
     return fallback_result
 
 
 def query_single_platoloco_method(
     sequence: str, method_name: str, header: str = "seq"
 ) -> List[Dict[str, int]]:
-    """Query a single PlaToLoCo method independently to isolate execution errors."""
+    """Query a single PlaToLoCo method independently."""
     seg_default_params = {
         "window": 12,
         "locut": 2.2,
@@ -234,7 +254,7 @@ def query_single_platoloco_method(
     regions_list: List[Dict[str, int]] = []
 
     try:
-        res = HTTP_SESSION.put(f"{PLATOLOCO_API_URL}/query", json=payload, timeout=8)
+        res = HTTP_SESSION.put(f"{PLATOLOCO_API_URL}/query", json=payload, timeout=12)
         if res.status_code != 200:
             return regions_list
 
@@ -242,7 +262,7 @@ def query_single_platoloco_method(
         if not token:
             return regions_list
 
-        for _ in range(15):
+        for _ in range(25):
             status_res = HTTP_SESSION.get(f"{PLATOLOCO_API_URL}/job/{token}", timeout=5)
             if status_res.status_code == 200:
                 st = status_res.json().get("status")
@@ -252,7 +272,7 @@ def query_single_platoloco_method(
                     return regions_list
             time.sleep(0.5)
 
-        list_res = HTTP_SESSION.get(f"{PLATOLOCO_API_URL}/proteins/{token}", timeout=8)
+        list_res = HTTP_SESSION.get(f"{PLATOLOCO_API_URL}/proteins/{token}", timeout=10)
         if list_res.status_code != 200:
             return regions_list
 
@@ -266,7 +286,7 @@ def query_single_platoloco_method(
         if p_internal_id is not None:
             details_res = HTTP_SESSION.get(
                 f"{PLATOLOCO_API_URL}/proteins/{token}/{p_internal_id}",
-                timeout=8,
+                timeout=10,
             )
             if details_res.status_code == 200:
                 wrapper_items = (
@@ -291,12 +311,18 @@ def query_single_platoloco_method(
 def query_platoloco(
     sequence: str, header: str = "seq"
 ) -> Dict[str, List[Dict[str, int]]]:
-    """Query all 8 PlaToLoCo predictors using isolated requests and caching."""
+    """Query all 8 PlaToLoCo predictors with SQLite persistent caching."""
     if not sequence:
         return {}
 
     if sequence in PLATOLOCO_CACHE:
         return PLATOLOCO_CACHE[sequence]
+
+    seq_hash = hashlib.sha256(sequence.encode("utf-8")).hexdigest()
+    cached_results = get_cached_platoloco(seq_hash)
+    if cached_results:
+        PLATOLOCO_CACHE[sequence] = cached_results
+        return cached_results
 
     method_results: Dict[str, List[Dict[str, int]]] = {
         "SEG": [],
@@ -325,11 +351,12 @@ def query_platoloco(
         method_results[canonical_key] = regs
 
     PLATOLOCO_CACHE[sequence] = method_results
+    save_cached_platoloco(seq_hash, method_results)
     return method_results
 
 
 def merge_regions(regions: List[Dict[str, int]], max_gap: int = 4) -> List[Dict[str, int]]:
-    """Merge overlapping or closely neighboring coordinate regions to keep visual tracks clean."""
+    """Merge overlapping or closely neighboring coordinate regions."""
     if not regions:
         return []
     sorted_regs = sorted(regions, key=lambda x: x.get("start", 0))
@@ -350,7 +377,7 @@ def generate_platoloco_style_svg(
     platoloco_methods: Dict[str, List[Dict[str, int]]],
     uniprot_id: str = "protein",
 ) -> str:
-    """Generate multi-track SVG visualizer with merged regions and hover-only tooltips."""
+    """Generate multi-track SVG visualizer with merged regions and hover tooltips."""
     if not isinstance(seq_length, int) or seq_length <= 0:
         return '<span style="color: #64748b; font-size: 11px;">Sequence length unavailable</span>'
 
@@ -390,26 +417,15 @@ def generate_platoloco_style_svg(
     ruler_height = 30
     total_height = top_offset + (len(tracks) * row_height) + ruler_height + 12
 
-    svg_elements = []
-
-    svg_elements.append(
-        f'<rect x="0" y="0" width="{total_width}" height="{total_height}" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>'
-    )
-
-    svg_elements.append(
-        f'<text x="16" y="24" fill="#0f172a" font-size="12" font-weight="700" font-family="sans-serif">'
-        f'Sequence details ({seq_length} aa)</text>'
-    )
+    svg_elements = [
+        f'<rect x="0" y="0" width="{total_width}" height="{total_height}" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>',
+        f'<text x="16" y="24" fill="#0f172a" font-size="12" font-weight="700" font-family="sans-serif">Sequence details ({seq_length} aa)</text>',
+    ]
 
     for idx, track in enumerate(tracks):
         y_base = top_offset + (idx * row_height) + 14
 
-        tag_x = 16
-        tag_w = label_width - 25
-        tag_h = 16
-        tag_y = y_base - 8
-        chevron_w = 6
-
+        tag_x, tag_w, tag_h, tag_y, chevron_w = 16, label_width - 25, 16, y_base - 8, 6
         tag_path = (
             f"M {tag_x} {tag_y} "
             f"L {tag_x + tag_w - chevron_w} {tag_y} "
@@ -420,15 +436,12 @@ def generate_platoloco_style_svg(
 
         svg_elements.append(f'<path d="{tag_path}" fill="#f1f5f9"/>')
         svg_elements.append(
-            f'<text x="{tag_x + 8}" y="{y_base + 3}" fill="#475569" '
-            f'font-size="10" font-weight="600" font-family="sans-serif">'
-            f'{track["label"]}</text>'
+            f'<text x="{tag_x + 8}" y="{y_base + 3}" fill="#475569" font-size="10" font-weight="600" font-family="sans-serif">{track["label"]}</text>'
         )
 
         start_x_line = label_width + 10
         svg_elements.append(
-            f'<line x1="{start_x_line}" y1="{y_base}" x2="{start_x_line + track_area_width}" '
-            f'y2="{y_base}" stroke="#e2e8f0" stroke-width="1.5"/>'
+            f'<line x1="{start_x_line}" y1="{y_base}" x2="{start_x_line + track_area_width}" y2="{y_base}" stroke="#e2e8f0" stroke-width="1.5"/>'
         )
 
         merged_regions = merge_regions(track["regions"], max_gap=4)
@@ -453,8 +466,7 @@ def generate_platoloco_style_svg(
     ruler_y = top_offset + (len(tracks) * row_height) + 6
     start_x_line = label_width + 10
     svg_elements.append(
-        f'<line x1="{start_x_line}" y1="{ruler_y}" x2="{start_x_line + track_area_width}" '
-        f'y2="{ruler_y}" stroke="#334155" stroke-width="1.5"/>'
+        f'<line x1="{start_x_line}" y1="{ruler_y}" x2="{start_x_line + track_area_width}" y2="{ruler_y}" stroke="#334155" stroke-width="1.5"/>'
     )
 
     tick_step = 50 if seq_length <= 350 else (100 if seq_length <= 1000 else 200)
@@ -462,12 +474,10 @@ def generate_platoloco_style_svg(
     while curr_tick <= seq_length:
         x_tick = start_x_line + (curr_tick / seq_length) * track_area_width
         svg_elements.append(
-            f'<line x1="{x_tick:.1f}" y1="{ruler_y}" x2="{x_tick:.1f}" y2="{ruler_y + 5}" '
-            f'stroke="#334155" stroke-width="1.5"/>'
+            f'<line x1="{x_tick:.1f}" y1="{ruler_y}" x2="{x_tick:.1f}" y2="{ruler_y + 5}" stroke="#334155" stroke-width="1.5"/>'
         )
         svg_elements.append(
-            f'<text x="{x_tick:.1f}" y="{ruler_y + 18}" fill="#64748b" font-size="10" '
-            f'text-anchor="middle" font-family="sans-serif">{curr_tick}</text>'
+            f'<text x="{x_tick:.1f}" y="{ruler_y + 18}" fill="#64748b" font-size="10" text-anchor="middle" font-family="sans-serif">{curr_tick}</text>'
         )
         curr_tick += tick_step
 
@@ -496,10 +506,8 @@ def render_record_rows(item: Dict[str, Any]) -> str:
         platoloco_methods = query_platoloco(sequence, header=uniprot_id)
 
     lcr_type_val = (
-        item.get("lcr_type")
-        or item.get("binding_target")
+        item.get("binding_target")
         or item.get("proposed_function")
-        or item.get("annotation_category")
         or "Unspecified"
     )
 
@@ -524,11 +532,10 @@ def render_record_rows(item: Dict[str, Any]) -> str:
     )
 
     evidence_text = item.get("evidence") or "No evidence statement provided."
-    source_id = item.get("source_id") or item.get("doi") or item.get("file") or "N/A"
+    source_id = item.get("doi") or item.get("file") or item.get("paper_id") or "N/A"
 
     category = (
-        item.get("annotation_category")
-        or item.get("proposed_function")
+        item.get("proposed_function")
         or item.get("binding_target")
         or "Unspecified"
     )
@@ -557,29 +564,19 @@ def render_record_rows(item: Dict[str, Any]) -> str:
 """
 
 
-def sort_records_by_file(records: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Sort records by their source PDF filename (case-insensitive, stable)."""
-    return sorted(records, key=lambda item: (item.get("file") or "").lower())
-
-
 def render_report_section(
     banner_text: str,
     records: List[Dict[str, Any]],
     headers: List[str],
     warning: bool = False,
 ) -> str:
-    """Render one report section (banner + table) for a list of records.
-
-    Shared by both the "Verified" and "Manual check" sections so the
-    table markup only has to be maintained in a single place.
-    """
+    """Render one report section (banner + table) for a list of records."""
     if not records:
         return ""
 
     banner_class = "section-banner warning" if warning else "section-banner"
     header_cells = "".join(
-        f'<th class="col-source">{label}</th>' if label == "Source"
-        else f"<th>{label}</th>"
+        f'<th class="col-source">{label}</th>' if label == "Source" else f"<th>{label}</th>"
         for label in headers
     )
     body_rows = "".join(render_record_rows(item) for item in records)
@@ -603,29 +600,26 @@ def render_report_section(
 
 
 def generate_html_report(
-    input_file: str = "data/processed/final_results.jsonl",
-    output_html: str = "/home/marta/Pulpit/lcr-agent/data/reports/lcr_biocuration_report.html",
-    sort_by_file: bool = False,
-) -> None:
-    """Generate structured HTML report dividing records into Verified and Manual Check sections."""
-    input_path = Path(input_file)
-    if not input_path.exists():
-        alt_path = Path("data/processed/verified_lcrs.json")
-        if alt_path.exists():
-            input_path = alt_path
-        else:
-            print(f"Error: Input file {input_file} does not exist.")
-            return
+    paper_id: Optional[str] = None,
+    output_html: Optional[str] = None,
+) -> Optional[str]:
+    """Generate structured HTML report dividing SQLite records into Verified and Manual Check sections."""
+    init_db()
+    records = fetch_records_from_db(paper_id=paper_id)
+    if not records:
+        print("Warning: No records found in SQLite database.")
+        return None
 
-    data = load_input_data(input_path)
-    if not data:
-        print(f"Warning: No valid records found in {input_path}.")
-        return
+    if not output_html:
+        reports_dir = PROJECT_ROOT / "data" / "reports"
+        reports_dir.mkdir(parents=True, exist_ok=True)
+        filename = f"{paper_id}_report.html" if paper_id else "lcr_biocuration_report.html"
+        output_html = str(reports_dir / filename)
 
     verified_records = []
     manual_check_records = []
 
-    for item in data:
+    for item in records:
         status = str(item.get("curation_status", "")).lower()
         st_val = parse_coord(item.get("start_of_annotation"))
         end_val = parse_coord(item.get("end_of_annotation"))
@@ -635,9 +629,20 @@ def generate_html_report(
         else:
             manual_check_records.append(item)
 
-    if sort_by_file:
-        verified_records = sort_records_by_file(verified_records)
-        manual_check_records = sort_records_by_file(manual_check_records)
+    headers = [
+        "UniprotID",
+        "Gene name",
+        "Name",
+        "Protein length",
+        "LCR type",
+        "Organism",
+        "Source",
+        "Source ID",
+        "Start of annotation",
+        "End of annotation",
+        "Annotation Category",
+        "Gene Ontology of category",
+    ]
 
     html_content = """<!DOCTYPE html>
 <html lang="en">
@@ -664,9 +669,7 @@ def generate_html_report(
             max-width: 1920px; 
             margin: 0 auto; 
         }
-        header {
-            margin-bottom: 24px;
-        }
+        header { margin-bottom: 24px; }
         h1 { font-size: 24px; color: #0f172a; margin: 0 0 4px 0; font-weight: 700; }
         .subtitle { color: #64748b; margin: 0; font-size: 13px; }
         
@@ -727,27 +730,15 @@ def generate_html_report(
         </header>
 """
 
-    # Both sections share the same table layout, so a single helper
-    # builds each one instead of duplicating the markup and the loop.
     html_content += render_report_section(
         "1. Verified LCRs (Experimental Binding & Coordinates)",
         verified_records,
-        headers=[
-            "UniprotID", "Gene name", "Name", "Protein length",
-            "LCR-keyword Presence", "Organism", "Source", "Source ID",
-            "Start of annotation", "End of annotation", "Function",
-            "Gene Ontology of category",
-        ],
+        headers=headers,
     )
     html_content += render_report_section(
         "2. Requires Manual Check (Qualitative Mentions or Missing Coordinates)",
         manual_check_records,
-        headers=[
-            "UniprotID", "Gene name", "Name", "Protein length",
-            "LCR type", "Organism", "Source", "Source ID",
-            "Start of annotation", "End of annotation",
-            "Annotation Category", "Gene Ontology of category",
-        ],
+        headers=headers,
         warning=True,
     )
 
@@ -800,29 +791,13 @@ def generate_html_report(
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(html_content, encoding="utf-8")
     print(f"Success! Report saved to: {output_html}")
+    return output_html
 
 
 if __name__ == "__main__":
-    import argparse
-
     parser = argparse.ArgumentParser(description="Generate the LCR biocuration HTML report.")
-    parser.add_argument(
-        "--input", default="data/processed/final_results.jsonl",
-        help="Path to the input JSON/JSONL results file.",
-    )
-    parser.add_argument(
-        "--output", 
-        default="/home/marta/Pulpit/lcr-agent/data/reports/lcr_biocuration_report.html",
-        help="Path where the HTML report will be written.",
-    )
-    parser.add_argument(
-        "--sort-by-file", action="store_true",
-        help="Sort records within each section by source PDF filename.",
-    )
+    parser.add_argument("--paper-id", help="Filter report by specific paper ID or DOI.")
+    parser.add_argument("--output", help="Path where the HTML report will be written.")
     args = parser.parse_args()
 
-    generate_html_report(
-        input_file=args.input,
-        output_html=args.output,
-        sort_by_file=args.sort_by_file,
-    )
+    generate_html_report(paper_id=args.paper_id, output_html=args.output)
